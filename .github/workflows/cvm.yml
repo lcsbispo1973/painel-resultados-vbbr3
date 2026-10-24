@@ -82,6 +82,10 @@ jobs:
           python pipeline/releases_ler.py
           python -I tests/test_releases.py
           python pipeline/documentos.py
+          python pipeline/ebitda_df.py
+          python pipeline/ipiranga.py
+          python pipeline/divida.py
+          python -I tests/test_documentos.py
 
       - name: Salvar resultados no repositório
         if: always()
