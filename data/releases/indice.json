@@ -1,0 +1,393 @@
+{
+ "fonte": "CVM — IPE, Press-release (releases de resultados)",
+ "atualizado_em": "2026-10-24T16:49:10Z",
+ "releases": [
+  {
+   "protocolo": "024295IPE300620260142328555-32",
+   "data_entrega": "2026-08-14",
+   "data_referencia": "2026-06-30",
+   "assunto": "Release 2T26",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1558260&numSequencia=1082966&numVersao=1",
+   "arquivo": "2026-08-14_024295IPE300620260142328555-32.txt",
+   "paginas_bytes": 1706941
+  },
+  {
+   "protocolo": "024295IPE310320260195038868-04",
+   "data_entrega": "2026-05-06",
+   "data_referencia": "2026-03-31",
+   "assunto": "Release de Resultados 1T26",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1517228&numSequencia=1041934&numVersao=1",
+   "arquivo": "2026-05-06_024295IPE310320260195038868-04.txt",
+   "paginas_bytes": 1665861
+  },
+  {
+   "protocolo": "024295IPE311220250181273898-52",
+   "data_entrega": "2026-03-11",
+   "data_referencia": "2025-12-31",
+   "assunto": "Release de Resultados 4T25",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1489227&numSequencia=1013933&numVersao=1",
+   "arquivo": "2026-03-11_024295IPE311220250181273898-52.txt",
+   "paginas_bytes": 3976628
+  },
+  {
+   "protocolo": "024295IPE051120250102438478-96",
+   "data_entrega": "2025-11-05",
+   "data_referencia": "2025-11-05",
+   "assunto": "Release de Resultado",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1440446&numSequencia=965158&numVersao=1",
+   "arquivo": "2025-11-05_024295IPE051120250102438478-96.txt",
+   "paginas_bytes": 3983346
+  },
+  {
+   "protocolo": "024295IPE110820250140040855-41",
+   "data_entrega": "2025-08-11",
+   "data_referencia": "2025-08-11",
+   "assunto": "Release Resultados 2T25",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1411618&numSequencia=936330&numVersao=1",
+   "arquivo": "2025-08-11_024295IPE110820250140040855-41.txt",
+   "paginas_bytes": 4308579
+  },
+  {
+   "protocolo": "024295IPE310320250275166699-42",
+   "data_entrega": "2025-05-07",
+   "data_referencia": "2025-03-31",
+   "assunto": "Release 1T25",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1373186&numSequencia=897898&numVersao=2",
+   "arquivo": "2025-05-07_024295IPE310320250275166699-42.txt",
+   "paginas_bytes": 4720680
+  },
+  {
+   "protocolo": "024295IPE310320250194562310-50",
+   "data_entrega": "2025-05-06",
+   "data_referencia": "2025-03-31",
+   "assunto": "Release 1T25",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1372918&numSequencia=897630&numVersao=1",
+   "arquivo": "2025-05-06_024295IPE310320250194562310-50.txt",
+   "paginas_bytes": 4711324
+  },
+  {
+   "protocolo": "024295IPE311220240104571212-13",
+   "data_entrega": "2025-02-24",
+   "data_referencia": "2024-12-31",
+   "assunto": "Release de Resultados 4T24",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1338775&numSequencia=863501&numVersao=1",
+   "arquivo": "2025-02-24_024295IPE311220240104571212-13.txt",
+   "paginas_bytes": 2092822
+  },
+  {
+   "protocolo": "024295IPE300920240104560111-60",
+   "data_entrega": "2024-11-05",
+   "data_referencia": "2024-09-30",
+   "assunto": "Release Resultados 3T24",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1298602&numSequencia=823328&numVersao=1",
+   "arquivo": "2024-11-05_024295IPE300920240104560111-60.txt",
+   "paginas_bytes": 2645960
+  },
+  {
+   "protocolo": "024295IPE300620240204545111-25",
+   "data_entrega": "2024-08-06",
+   "data_referencia": "2024-06-30",
+   "assunto": "Release 2T24",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1267638&numSequencia=792364&numVersao=2",
+   "arquivo": "2024-08-06_024295IPE300620240204545111-25.txt",
+   "paginas_bytes": 2468267
+  },
+  {
+   "protocolo": "024295IPE310320240204550911-27",
+   "data_entrega": "2024-05-08",
+   "data_referencia": "2024-03-31",
+   "assunto": "Release de Resultados 1T24",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1234947&numSequencia=759673&numVersao=2",
+   "arquivo": "2024-05-08_024295IPE310320240204550911-27.txt",
+   "paginas_bytes": 2293571
+  },
+  {
+   "protocolo": "024295IPE311220230204538511-53",
+   "data_entrega": "2024-03-05",
+   "data_referencia": "2023-12-31",
+   "assunto": "Release de Resultados 4T23",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1203060&numSequencia=727786&numVersao=2",
+   "arquivo": "2024-03-05_024295IPE311220230204538511-53.txt",
+   "paginas_bytes": 2349235
+  },
+  {
+   "protocolo": "024295IPE311220230104535511-53",
+   "data_entrega": "2024-03-04",
+   "data_referencia": "2023-12-31",
+   "assunto": "Release de Resultados 4T23",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1202568&numSequencia=727294&numVersao=1",
+   "arquivo": "2024-03-04_024295IPE311220230104535511-53.txt",
+   "paginas_bytes": 2427421
+  },
+  {
+   "protocolo": "024295IPE300920230304523612-02",
+   "data_entrega": "2023-11-06",
+   "data_referencia": "2023-09-30",
+   "assunto": "Release de Resultado 3T23",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1158455&numSequencia=683181&numVersao=3",
+   "arquivo": "2023-11-06_024295IPE300920230304523612-02.txt",
+   "paginas_bytes": 2697785
+  },
+  {
+   "protocolo": "024295IPE300920230204508812-02",
+   "data_entrega": "2023-11-06",
+   "data_referencia": "2023-09-30",
+   "assunto": "Release de Resultado 3T23",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1158403&numSequencia=683129&numVersao=2",
+   "arquivo": "2023-11-06_024295IPE300920230204508812-02.txt",
+   "paginas_bytes": 2120580
+  },
+  {
+   "protocolo": "024295IPE300620230104515211-45",
+   "data_entrega": "2023-08-14",
+   "data_referencia": "2023-06-30",
+   "assunto": "Release 2T23",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1133801&numSequencia=658530&numVersao=1",
+   "arquivo": "2023-08-14_024295IPE300620230104515211-45.txt",
+   "paginas_bytes": 2799525
+  },
+  {
+   "protocolo": "024295IPE310320230104505811-31",
+   "data_entrega": "2023-05-12",
+   "data_referencia": "2023-03-31",
+   "assunto": "Release 1T23",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1101673&numSequencia=626402&numVersao=1",
+   "arquivo": "2023-05-12_024295IPE310320230104505811-31.txt",
+   "paginas_bytes": 3563539
+  },
+  {
+   "protocolo": "024295IPE311220220104500611-61",
+   "data_entrega": "2023-03-21",
+   "data_referencia": "2022-12-31",
+   "assunto": "Release de Resultados 4T22",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1075467&numSequencia=600197&numVersao=1",
+   "arquivo": "2023-03-21_024295IPE311220220104500611-61.txt",
+   "paginas_bytes": 1667270
+  },
+  {
+   "protocolo": "024295IPE300920220104487513-76",
+   "data_entrega": "2022-11-10",
+   "data_referencia": "2022-09-30",
+   "assunto": "Release de Resultados 3T22",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1031679&numSequencia=556409&numVersao=1",
+   "arquivo": "2022-11-10_024295IPE300920220104487513-76.txt",
+   "paginas_bytes": 2498159
+  },
+  {
+   "protocolo": "024295IPE300620220304478811-28",
+   "data_entrega": "2022-08-16",
+   "data_referencia": "2022-06-30",
+   "assunto": "Release 2T22",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1008626&numSequencia=533360&numVersao=3",
+   "arquivo": "2022-08-16_024295IPE300620220304478811-28.txt",
+   "paginas_bytes": 2745160
+  },
+  {
+   "protocolo": "024295IPE300620220204478811-28",
+   "data_entrega": "2022-08-15",
+   "data_referencia": "2022-06-30",
+   "assunto": "Release 2T22",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1008312&numSequencia=533046&numVersao=2",
+   "arquivo": "2022-08-15_024295IPE300620220204478811-28.txt",
+   "paginas_bytes": 2739035
+  },
+  {
+   "protocolo": "024295IPE310320220104469711-62",
+   "data_entrega": "2022-05-16",
+   "data_referencia": "2022-03-31",
+   "assunto": "Release de resultados 1T22",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=982147&numSequencia=506881&numVersao=1",
+   "arquivo": "2022-05-16_024295IPE310320220104469711-62.txt",
+   "paginas_bytes": 3474267
+  },
+  {
+   "protocolo": "024295IPE311220210204464211-53",
+   "data_entrega": "2022-03-28",
+   "data_referencia": "2021-12-31",
+   "assunto": "Release de Resultados 4T21",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=959490&numSequencia=484224&numVersao=2",
+   "arquivo": "2022-03-28_024295IPE311220210204464211-53.txt",
+   "paginas_bytes": 3169095
+  },
+  {
+   "protocolo": "024295IPE311220210104464211-53",
+   "data_entrega": "2022-03-22",
+   "data_referencia": "2021-12-31",
+   "assunto": "Release de Resultados 4T21",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=956920&numSequencia=481654&numVersao=1",
+   "arquivo": "2022-03-22_024295IPE311220210104464211-53.txt",
+   "paginas_bytes": 3169805
+  },
+  {
+   "protocolo": "024295IPE300920210204451509-89",
+   "data_entrega": "2021-11-15",
+   "data_referencia": "2021-09-30",
+   "assunto": "Release de Resultados 3T21",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=917271&numSequencia=442005&numVersao=2",
+   "arquivo": "2021-11-15_024295IPE300920210204451509-89.txt",
+   "paginas_bytes": 2712919
+  },
+  {
+   "protocolo": "024295IPE300920210104451509-89",
+   "data_entrega": "2021-11-15",
+   "data_referencia": "2021-09-30",
+   "assunto": "Release de Resultados 3T21",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=917256&numSequencia=441990&numVersao=1",
+   "arquivo": "2021-11-15_024295IPE300920210104451509-89.txt",
+   "paginas_bytes": 2712744
+  },
+  {
+   "protocolo": "024295IPE300620210104441811-83",
+   "data_entrega": "2021-08-10",
+   "data_referencia": "2021-06-30",
+   "assunto": "Release de Resultados 2T21",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=891644&numSequencia=416380&numVersao=1",
+   "arquivo": "2021-08-10_024295IPE300620210104441811-83.txt",
+   "paginas_bytes": 2570793
+  },
+  {
+   "protocolo": "024295IPE310320210204450512-17",
+   "data_entrega": "2021-05-12",
+   "data_referencia": "2021-03-31",
+   "assunto": "Release de Resultados do 1T21",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=866381&numSequencia=391118&numVersao=2",
+   "arquivo": "2021-05-12_024295IPE310320210204450512-17.txt",
+   "paginas_bytes": 4838869
+  },
+  {
+   "protocolo": "024295IPE311220200104426611-89",
+   "data_entrega": "2021-03-11",
+   "data_referencia": "2020-12-31",
+   "assunto": "Release de Resultados 4T20",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=841450&numSequencia=366188&numVersao=1",
+   "arquivo": "2021-03-11_024295IPE311220200104426611-89.txt",
+   "paginas_bytes": 4299843
+  },
+  {
+   "protocolo": "024295IPE300920200104414511-56",
+   "data_entrega": "2020-11-10",
+   "data_referencia": "2020-09-30",
+   "assunto": "Release de Resultados 3T20",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=807295&numSequencia=332033&numVersao=1",
+   "arquivo": "2020-11-10_024295IPE300920200104414511-56.txt",
+   "paginas_bytes": 2534381
+  },
+  {
+   "protocolo": "024295IPE300620200104405411-30",
+   "data_entrega": "2020-08-11",
+   "data_referencia": "2020-06-30",
+   "assunto": "Release de Resultados 2T20",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=783724&numSequencia=308465&numVersao=1",
+   "arquivo": "2020-08-11_024295IPE300620200104405411-30.txt",
+   "paginas_bytes": 2064648
+  },
+  {
+   "protocolo": "024295IPE310320200104399212-53",
+   "data_entrega": "2020-06-10",
+   "data_referencia": "2020-03-31",
+   "assunto": "Release de Resultados 1T20",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=768236&numSequencia=292986&numVersao=1",
+   "arquivo": "2020-06-10_024295IPE310320200104399212-53.txt",
+   "paginas_bytes": 2466401
+  },
+  {
+   "protocolo": "024295IPE311220190104390112-85",
+   "data_entrega": "2020-03-11",
+   "data_referencia": "2019-12-31",
+   "assunto": "Release de Resultados 4T19",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=745123&numSequencia=269894&numVersao=1",
+   "arquivo": "2020-03-11_024295IPE311220190104390112-85.txt",
+   "paginas_bytes": 2655698
+  },
+  {
+   "protocolo": "024295IPE300920190204378012-61",
+   "data_entrega": "2019-11-12",
+   "data_referencia": "2019-09-30",
+   "assunto": "Release de Resultados 3T19",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=720845&numSequencia=245667&numVersao=2",
+   "arquivo": "2019-11-12_024295IPE300920190204378012-61.txt",
+   "paginas_bytes": 2539928
+  },
+  {
+   "protocolo": "024295IPE300620190104367712-18",
+   "data_entrega": "2019-07-31",
+   "data_referencia": "2019-06-30",
+   "assunto": "Release de Resultados 2T19",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=703001&numSequencia=228894&numVersao=1",
+   "arquivo": "2019-07-31_024295IPE300620190104367712-18.txt",
+   "paginas_bytes": 2616141
+  },
+  {
+   "protocolo": "024295IPE310320190204359205-63",
+   "data_entrega": "2019-05-07",
+   "data_referencia": "2019-03-31",
+   "assunto": "Release de resultados 1T2019",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=687927&numSequencia=214887&numVersao=2",
+   "arquivo": "2019-05-07_024295IPE310320190204359205-63.txt",
+   "paginas_bytes": 2320573
+  },
+  {
+   "protocolo": "024295IPE310320190104359113-20",
+   "data_entrega": "2019-05-06",
+   "data_referencia": "2019-03-31",
+   "assunto": "Release de resultados 1T2019",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=687894&numSequencia=214856&numVersao=1",
+   "arquivo": "2019-05-06_024295IPE310320190104359113-20.txt",
+   "paginas_bytes": 2319658
+  },
+  {
+   "protocolo": "024295IPE311220180104352206-84",
+   "data_entrega": "2019-02-26",
+   "data_referencia": "2018-12-31",
+   "assunto": "Release de resultados 4T2018",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=667487&numSequencia=197124&numVersao=1",
+   "arquivo": "2019-02-26_024295IPE311220180104352206-84.txt",
+   "paginas_bytes": 1198155
+  },
+  {
+   "protocolo": "024295IPE300920180104340914-30",
+   "data_entrega": "2018-11-05",
+   "data_referencia": "2018-09-30",
+   "assunto": "Resultados Financeiros 3T18",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=648992&numSequencia=180971&numVersao=1",
+   "arquivo": "2018-11-05_024295IPE300920180104340914-30.txt",
+   "paginas_bytes": 1211839
+  },
+  {
+   "protocolo": "024295IPE300620180104331312-97",
+   "data_entrega": "2018-08-01",
+   "data_referencia": "2018-06-30",
+   "assunto": "Release de Resultados 2T2018",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=634929&numSequencia=168666&numVersao=1",
+   "arquivo": "2018-08-01_024295IPE300620180104331312-97.txt",
+   "paginas_bytes": 652656
+  },
+  {
+   "protocolo": "024295IPE310320180104322411-61",
+   "data_entrega": "2018-05-04",
+   "data_referencia": "2018-03-31",
+   "assunto": "Earning Release - English||Earning Release - Português",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=619966&numSequencia=156697&numVersao=1",
+   "arquivo": "2018-05-04_024295IPE310320180104322411-61.txt",
+   "paginas_bytes": 921726
+  },
+  {
+   "protocolo": "024295IPE311220170204317212-02",
+   "data_entrega": "2018-03-13",
+   "data_referencia": "2017-12-31",
+   "assunto": "Earnings Release 4Q17 and FY2017",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=600990&numSequencia=143786&numVersao=2",
+   "arquivo": "2018-03-13_024295IPE311220170204317212-02.txt",
+   "paginas_bytes": 770069
+  },
+  {
+   "protocolo": "024295IPE311220170204317211-46",
+   "data_entrega": "2018-03-13",
+   "data_referencia": "2017-12-31",
+   "assunto": "Divulgação de Resultados do 4T 2017 e 2017.",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=600989&numSequencia=143785&numVersao=2",
+   "arquivo": "2018-03-13_024295IPE311220170204317211-46.txt",
+   "paginas_bytes": 250896
+  }
+ ]
+}

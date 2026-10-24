@@ -1,0 +1,1027 @@
+                                                                                                        Petrobras Distribuidora S.A.
+                                                                                                               4º Trimestre de 2017
+
+
+
+
+                                                  Petrobras Distribuidora S.A.
+                       DIVULGAÇÃO DOS RESULTADOS DO 4º TRIMESTRE DE 2017
+Rio de Janeiro, 13 de março de 2018 – A Petrobras Distribuidora S.A. (B3: BRDT3), líder do mercado de distribuição de combustíveis
+no Brasil, anuncia hoje seus resultados do 4º trimestre de 2017 e do exercício social de 2017. Os resultados são apresentados de forma
+consolidada, de acordo com as práticas contábeis adotadas no Brasil e as Normas Internacionais de Contabilidade (IFRS). As
+comparações apresentadas nesta divulgação consideram o 4T17 x 4T16 e 2017 x 2016.
+
+                                                     Destaques do Resultado
+    •    Aumento do lucro líquido: R$531 milhões no 4T17 (R$52 milhões no 4T16) e R$1.151 milhões em 2017
+         (recuperando o prejuízo líquido de R$315 milhões em 2016).
+
+    •    Aumento do EBITDA Ajustado: R$883 milhões no 4T17 (R$820 milhões no 4T16) e R$3.067 milhões em 2017
+         (R$2.995 milhões em 2016).
+
+    •    Expansão da Margem EBITDA Ajustada: R$80/m3 no 4T17 (R$74/m3 no 4T16) e R$71/m3 em 2017 (R$65/m3
+         em 2016).
+
+    •    Redução da alavancagem (Dívida líquida / EBITDA Ajustado): 1,3x em 2017 (3,2x em 2016).
+
+
+     Em milhões de reais (exceto onde indicado)      4T17      4T16        4T17 x 4T16     3T17      4T17 x 3T17     2017         2016      2017 x 2016
+
+     Volume de vendas (mil m3)                       11,028    11,082            -0,5%     11,312          -2,5%     43,175       45,794         -5,7%
+
+     Receita líquida                                 23.204    21.179             9,6%     21.839           6,3%     84.567        86.637        -2,4%
+
+     Lucro bruto                                      1.806     1.808            -0,1%      1.804           0,1%      6.367         6.465        -1,5%
+
+     Margem bruta (% da Receita líquida)                7,8%      8,5%         - 0,7 p.p      8,3%       - 0,5 p.p      7,5%         7,5%        0,0 p.p
+
+     Margem bruta (R$/m3)                              164       163              0,6%       159            3,1%       147           141           4,3%
+
+     Despesas operacionais                              826     1.726           -52,1%      1.090         -24,2%      3.793         6.026       -37,1%
+
+     EBITDA                                            744        82           807,3%        950          -21,7%      2.574          439        486,3%
+
+     EBITDA ajustado                                    883       820             7,7%      1.056         -16,4%      3.067         2.995          2,4%
+
+     Margem EBITDA ajustada (% da Receita líquida)      3,8%      3,9%         - 0,1 p.p      4,8%       - 1,0 p.p      3,6%         3,5%       +0,1 p.p
+
+     Margem EBITDA ajustada (R$/m3)                     80        74              8,1%        93          -14,0%        71            65           9,2%
+
+     Lucro (prejuízo) líquido                           531           52       921,2%         394          34,8%      1.151         (315)          N/A
+
+     Dívida líquida                                   3.885     9.509           -59,1%      3.865           0,5%      3.885         9.509       -59,1%
+
+     EBITDA Ajustado                                  3.067     2.995             2,4%      3.004           2,1%      3.067         2.995          2,4%
+
+     Dívida líquida/EBITDA Ajustado (x)                 1,3       3,2             -1,9x       1,3              0x       1,3           3,2         -1,9x
+
+                                                                                                                            www.br.com.br/ri
+                                                                       Página 1 de 19                                          ri@br.com.br
+                                                                                                                             Petrobras Distribuidora S.A.
+                                                                                                                                    4º Trimestre de 2017
+
+
+
+
+Teleconferência 4T17
+A Petrobras Distribuidora realizará teleconferência no dia 14 de março de 2018 para comentários sobre o resultado da Companhia no quarto trimestre de 2017 e no
+exercício de 2017. A apresentação estará disponível para download no website da Companhia uma hora antes do início das teleconferências.
+
+Nacional: 10 horas (hora de Brasília)
+
+Telefones para conexão: (11) 3127-4971 ou (11) 3728-5971
+
+Link para acesso: http://extranet.voitel.com.br/audiocasting/Audiocasting_Entrada.aspx?NameRoom=N24042094
+
+Código: Petrobras Distribuidora
+
+Internacional: 11h30 (hora de Brasília)
+
+Telefones para conexão: Brasil: +55 11-3127-4971 / +55 11-3728-5971; Nova York: 1-516-3001066; Londres: 44-20-34785282
+
+Link para acesso: http://extranet.voitel.com.br/audiocasting/Audiocasting_Entrada.aspx?NameRoom=N24042096
+
+Código: Petrobras Distribuidora
+
+Em caso de dúvida ou problema de acesso, faça contato via e-mail sac@voitel.com.br ou pelo telefone +55 11 4003 1858.
+
+A transcrição, apresentação e áudio serão disponibilizados após a teleconferência/webcast no site da Companhia: www.br.com.br/ri.
+
+Considerações sobre as informações financeiras e operacionais
+As informações financeiras consolidadas que são apresentadas nesta divulgação de resultados foram preparadas conforme as normas
+internacionais de relatório financeiro (International Financial Reporting Standards (IFRS), emitidas pelo International Accounting Standards Board
+(IASB). Esta divulgação de resultados deve ser analisada em conjunto às Demonstrações Contábeis. Adicionalmente, as informações financeiras e
+operacionais incluídas nesta divulgação de resultados são sujeitas a arredondamentos e, como consequência, os valores totais apresentados nas
+tabelas e gráficos podem diferir da agregação numérica direta dos valores que os precedem.
+
+O EBITDA ajustado da Companhia é uma medição adotada pela Administração e consiste no lucro líquido da Companhia, acrescido do resultado
+financeiro líquido, do imposto de renda e da contribuição social, das despesas com depreciação e amortização, da amortização das bonificações
+antecipadas a clientes (as bonificações antecipadas a clientes são apresentadas no ativo circulante e não circulante), perdas estimadas em
+crédito de liquidação duvidosa do sistema isolado e interligado de energia, perdas e provisões com processos judiciais, plano de incentivo do
+desligamento voluntário (PIDV), gastos com anistias fiscais e encargos tributários sobre receitas financeiras.
+
+A Margem EBITDA Ajustada é um índice calculado por meio da divisão do EBITDA Ajustado pelo volume de produtos vendidos. A Companhia utiliza
+a Margem EBITDA ajustado por entender ser um bom indicador da rentabilidade de seus segmentos de negócios.
+
+                Reconciliação do EBITDA (Em milhões de Reais)                             4T2017             4T2016          3T2017          2017           2016
+                Lucro (Prejuízo) Líquido                                                       531                    52          394           1.151              (315)
+                Resultado financeiro líquido                                                           89             81          232               557            622
+                Imposto de renda e contribuição social                                                 15         (172)           208               414            (322)
+                Depreciação e amortização                                                      109                121             116               452            454
+                EBITDA                                                                         744                    82          950           2.574              439
+                Perdas estimadas em créditos de liquidação duvidosa - Setor Elétrico
+                (Sistema Isolado e Interligado)                                                    (10)               (32)            (29)          (155)          411
+                Perdas e provisões com processos judiciais e administrativos                           15         152                 (77)          119        1.079
+                Amortização de bonificações antecipadas concedidas a clientes                  127                151             153               545            542
+                Plano de Incentivo ao Desligamento Voluntário - PIDV                                   (1)        443                 (29)          (144)          434
+                Programa de Anistias Fiscais                                                       -                   3              77             80               6
+                Despesas tributárias sobre resultado financeiro                                         8             21              11             48             84
+                EBITDA AJUSTADO                                                                883                820            1.056          3.067          2.995
+                Volumes de vendas (milhões de m3)                                              11,0               11,1            11,3              43,2           45,8
+                MARGEM EBITDA AJUSTADA (R$/m3)                                                     80                 74              93             71             65
+
+
+                                                                                                                                                    www.br.com.br/ri
+                                                                                       Página 2 de 19                                                  ri@br.com.br
+                                                                                Petrobras Distribuidora S.A.
+                                                                                       4º Trimestre de 2017
+
+
+
+
+Sumário Executivo
+
+A Petrobras Distribuidora apresentou EBITDA ajustado consolidado de R$883 milhões no 4T2017 (+7,7%) e de R$3.067
+milhões em 2017 (+2,4%), em linha com o direcionamento estratégico apresentado na nossa abertura de capital com foco
+na melhora de rentabilidade da Companhia.
+
+O mercado nacional de distribuição de combustíveis e lubrificantes em 2017 teve alta de 0,5% em relação ao mesmo
+período do ano anterior, interrompendo assim dois anos consecutivos de queda, refletindo a recuperação da atividade
+econômica do Brasil, após dois anos consecutivos de retração do Produto Interno Bruto (PIB).
+
+A Companhia é líder no mercado de distribuição de combustíveis e lubrificantes no país em volume de vendas, e acredita
+que se destaca pela excelência e qualidade dos produtos e serviços que oferece em todos os seus segmentos
+operacionais, quais sejam:
+
+
+
+Rede de Postos
+
+A Rede de Postos apresentou no 4T17 volume de vendas 0,9% inferior ao 4T16. Na comparação anual, o volume de vendas
+em 2017 foi 4,4% inferior a 2016. A redução do volume vendido é atribuível à manutenção da política de preservação das
+margens de comercialização, priorizando a rentabilidade da companhia através de uma maior seletividade das vendas.
+Adicionalmente, foi observado ainda um avanço dos players regionais, na comparação anual (2017 vs 2016). Por outro
+lado, crescemos nossa rede em 269 postos (líquidos), com maior concentração nos últimos meses de 2017 e, portanto
+ainda em processo de maturação nos números de volumes de vendas. O EBITDA ajustado no 4T17 totalizou R$697
+milhões (-8,0%). Na comparação anual, o EBITDA ajustado de 2017 atingiu R$2.329 milhões (-8,2%).
+
+Dentro do segmento de Rede de Postos, podemos também destacar:
+
+Lojas de Conveniência BR Mania
+
+
+Em 2017, a BR Mania atingiu a marca de 1.348 unidades, sendo 485 com BR Mania Café, 231 com BR Mania Padaria e 124
+com o serviço Sanduíches e Saladas.
+
+Foram lançados 17 produtos na linha de food service de marca própria, que conta com 170 itens. No período, houve
+também o lançamento, na Expopostos em SP, de 2 serviços: Burgueria e Pizzaria BR Mania.
+
+Com a expansão dos acordos comerciais com a indústria, que trouxeram investimento de parceiros na BR Mania,
+propiciamos ações promocionais à rede de franqueados em todos os meses do ano, além do aumento de lucratividade.
+
+Um dos marcos de 2017 foi a obtenção, pela 4ª vez consecutiva, do Selo de Excelência em Franchising, concedido pela
+ABF (Associação Brasileira de Franchising). A BR Mania é a única loja de conveniência do segmento de distribuição de
+combustíveis que possui o selo de excelência.
+
+
+
+                                                                                             www.br.com.br/ri
+                                                        Página 3 de 19                          ri@br.com.br
+                                                                                Petrobras Distribuidora S.A.
+                                                                                       4º Trimestre de 2017
+
+
+
+
+Centros de lubrificação Lubrax+
+
+
+A rede Lubrax+ registrou mais um período de expansão em 2017, totalizando 1.648 unidades. Mais de 2.500 lubrificadores
+foram treinados em toda a rede desde o início da franquia, em 2011.
+
+Em 2017 ampliamos nossas parcerias com a indústria e realizamos um calendário promocional diversificado, atraindo
+novos consumidores para a rede.
+
+
+Grandes Consumidores
+
+O segmento de Grandes Consumidores apresentou crescimento de 0,4% no volume de vendas no 4T17, quando
+comparado ao 4T16. Na comparação anual, o volume de vendas em 2017 apresentou redução de 5,1% em relação a 2016.
+A redução do volume vendido é explicada pela retração das vendas de óleo diesel (-7,7%), principalmente para as
+térmicas. O EBITDA ajustado no 4T17 totalizou R$176 milhões (-5,4%). Na comparação anual, o EBITDA ajustado de 2017
+atingiu R$771 milhões (+16,3%) em função de ganhos de margem e redução de despesas operacionais.
+
+Aviação
+
+O segmento de Aviação apresentou no 4T17 volume de vendas 5,8% superior ao 4T16. Na comparação anual, o volume
+de vendas em 2017 foi 1,2% superior a 2016. O aumento do volume vendido reflete os sinais de retomada gradual da
+atividade econômica verificados nos últimos meses de 2017. O EBITDA ajustado no 4T17 totalizou R$110 milhões. Na
+comparação anual, o EBITDA ajustado de 2017 atingiu R$272 milhões (+331,7%).
+
+Outros Negócios (Produtos Químicos, Energia e Asfaltos)
+
+No negócio de Produtos Químicos a Companhia atua no beneficiamento e na distribuição de produtos como enxofre,
+solventes hidrocarbônicos e especialidades químicas. Entre os setores da economia atendidos estão os de óleo e gás,
+química fina, agronegócio, tintas, adesivos, domissanitários e borrachas. Na comercialização de Energia a Companhia é o
+maior distribuidor de coque verde de petróleo (CVP) no mercado nacional. Adicionalmente, a Companhia é responsável
+pela operação da concessão de gás natural no estado do Espírito Santo, atendendo cerca de 47 mil residências. No
+negócio de Asfaltos a Companhia produz e comercializa produtos asfálticos por meio de sua subsidiária integral Stratura
+Asfaltos S.A., tais como cimentos e emulsões asfálticas, asfalto borracha e asfalto diluído de petróleo (ADP). A
+Companhia é maior distribuidora de asfaltos do País, conforme dados divulgados pela Associação Brasileira das
+Empresas Distribuidoras de Asfaltos – ABEDA.
+
+O segmento de Outros Negócios apresentou no 4T17 volume de vendas 4,8% inferior ao 4T16. Na comparação anual, o
+volume de vendas em 2017 foi 15,8% inferior a 2016, em função das menores vendas de produtos químicos e de coque
+verde de petróleo, parcialmente compensadas pelas maiores vendas de gás natural canalizado. O EBITDA ajustado no
+4T17 totalizou R$119 milhões (+9,2%). Na comparação anual, o EBITDA ajustado de 2017 atingiu R$412 milhões (+2,7%),
+refletindo as melhores margens médias de comercialização.
+
+
+
+                                                                                              www.br.com.br/ri
+                                                         Página 4 de 19                          ri@br.com.br
+                                                                                                           Petrobras Distribuidora S.A.
+                                                                                                                  4º Trimestre de 2017
+
+
+
+
+Desempenho dos Segmentos de Negócios
+
+Consolidado1
+
+Em milhões de reais (exceto onde indicado)          4T17         4T16        4T17 x 4T16     3T17       4T17 x 3T17     2017         2016       2017 x 2016
+
+Volume de vendas (mil m3)                            11,028       11,082           -0,5%      11,312          -2,5%     43,175       45,794          -5,7%
+
+Receita líquida                                      23.204       21.179            9,6%      21.839           6,3%     84.567        86.637         -2,4%
+
+Lucro bruto                                            1.806       1.808           -0,1%       1.804           0,1%      6.367         6.465         -1,5%
+
+Margem bruta (% da Receita líquida)                     7,8%         8,5%        - 0,7 p.p      8,3%        - 0,5 p.p      7,5%         7,5%         0,0 p.p
+
+Margem bruta (R$/m3)                                    164          163            0,6%        159            3,1%       147           141            4,3%
+
+Despesas operacionais                                  1.170       1.847          -36,7%        971           20,5%      4.243         6.479        -34,5%
+
+Resultado financeiro                                     (89)        (81)           9,9%        (232)        -61,6%       (557)         (622)       -10,5%
+
+Lucro (prejuízo) líquido                                531             52       921,2%         394           34,8%      1.151          (315)          N/A
+
+EBITDA ajustado                                         883          820            7,7%       1.056         -16,4%      3.067         2.995           2,4%
+
+Margem EBITDA ajustada (% da Receita líquida)           3,8%         3,9%        - 0,1 p.p      4,8%        - 1,0 p.p      3,6%         3,5%        +0,1 p.p
+
+Margem EBITDA ajustada (R$/m3)                           80           74            8,1%         93          -14,0%        71            65            9,2%
+
+
+
+
+Receita líquida - Alcançou R$23.204 milhões no 4T17 (+9,6%) em função principalmente dos maiores preços médios de
+realização de produtos. Em relação ao 3T17 a receita líquida apresentou aumento de 6,3%, também em função dos
+maiores preços médios de realização. Em 2017, a receita líquida foi de R$84.567 milhões (-2,4%). Esta redução decorre
+dos menores volumes vendidos em relação a 2016, parcialmente compensados pelo aumento dos preços médios de
+venda de produtos.
+
+Lucro bruto - Atingiu R$1.806 milhões no 4T17 (-0,1%) em função da redução dos volumes vendidos, parcialmente
+compensada pelo aumento das margens médias de comercialização. Em relação ao 3T17 o lucro bruto apresentou
+aumento de 0,1% refletindo as maiores margens de comercialização. Em 2017, o lucro bruto foi de R$6.367 milhões
+(-1,5%). O decréscimo no lucro bruto em 2017 refletiu a queda no volume de vendas na rede de postos associado ainda
+ao avanço dos players regionais e o menor volume vendido às térmicas, compensados parcialmente pelo aumento nas
+margens de comercialização.
+
+
+
+
+1
+ O Consolidado representa a soma dos segmentos “Rede de Postos”, “Grandes Consumidores”, “Aviação” e “Outros”, além do overhead da Companhia não
+alocado aos demais segmentos, que é agrupado no “Corporativo”.
+                                                                                                                               www.br.com.br/ri
+                                                                             Página 5 de 19                                       ri@br.com.br
+                                                                                 Petrobras Distribuidora S.A.
+                                                                                        4º Trimestre de 2017
+
+
+
+
+Despesas operacionais – Atingiram R$1.170 milhões no 4T17 (-36,7%) e R$4.243 milhões em 2017 (-34,5%) em função
+da provisão para indenizações para o PIDV registrada no 4T16, associada a menores perdas e provisões para processos
+judiciais e administrativos e em créditos a clientes.
+
+Resultado financeiro – O endividamento líquido em 31 de dezembro de 2017 foi de R$ 3.885 milhões (1,3x EBITDA
+ajustado), em comparação a R$9.509 milhões em 31 de dezembro de 2016 (3,2x EBITDA ajustado) em função do aporte
+de capital realizado pela Petrobras no valor de R$ 6.313 milhões e posterior liquidação antecipada do total dos saldos
+das Notas de Crédito à Exportação (NCEs) contratadas junto ao Banco do Brasil e ao Bradesco, no montante de R$ 7.708
+milhões, operações ocorridas em agosto de 2017. A despesa financeira líquida no 4T17 totalizou R$ 89 milhões,
+crescimento de +9,9% em relação ao 4T16. Em relação ao 3T17, a despesa financeira líquida apresentou redução de
+R$ 143 milhões, devido à liquidação antecipada das NCEs, ocorrida em agosto de 2017. Em 2017, a despesa financeira
+líquida totalizou R$ 557 milhões, queda de 10,5% quando comparada a 2016, em função principalmente da redução do
+endividamento líquido, associada à redução das variações monetárias ativas decorrentes da atualização dos créditos
+com as empresas do sistema Eletrobras repactuados em 2014, transferidos à Petrobras na reestruturação de capital
+ocorrida em agosto de 2017.
+
+Lucro líquido – o lucro líquido no 4T17 atingiu R$531 milhões, de R$52 milhões no 4T16, período no qual foram
+contabilizadas a provisão para indenizações do PIDV 2016 e maiores perdas e provisões em processos judiciais e
+administrativos. Em relação ao 3T17, período no qual o lucro líquido foi de R$394 milhões, a redução das despesas
+financeiras e das despesas com tributos sobre o lucro foram determinantes para o aumento de 34,8% em relação ao
+3T17. Em 2017, o lucro líquido foi de R$1.151 milhões, revertendo prejuízo de R$315 milhões em 2016, com a melhora
+de margens em todos os segmentos e também em função das menores Perdas e Provisões para processos judiciais e
+administrativos, que apresentaram redução de R$960 milhões, das menores Perdas Estimadas em Créditos de
+Liquidação Duvidosa (PECLD) da ordem de R$716 milhões de reais e da provisão para indenizações para o PIDV 2016,
+registrada no 4T16.
+
+EBITDA ajustado – Atingiu R$883 milhões no 4T17 (+7,7%) principalmente em função da redução das despesas
+operacionais, que compensou a redução do lucro bruto no período. Em 2017, o EBITDA Ajustado alcançou R$3.067
+milhões (+2,4%), refletindo a melhora nas margens de comercialização e a redução das despesas operacionais, com
+destaque para a queda das despesas com pessoal em relação a 2016. A margem EBITDA ajustada ao final de 2017 foi
+de R$71/m3 (+9,2%).
+
+
+
+
+                                                                                              www.br.com.br/ri
+                                                         Página 6 de 19                          ri@br.com.br
+                                                                                                               Petrobras Distribuidora S.A.
+                                                                                                                      4º Trimestre de 2017
+
+
+
+
+Rede de Postos
+
+Em milhões de reais (exceto onde indicado)                    4T17       4T16     4T17 x 4T16     3T17     4T17 x 3T17        2017      2016     2017 x 2016
+
+Volume de vendas (mil m3)                                       5,846     5,898          -0,9%    5,883           -0,6%       22,894    23,959        -4,4%
+
+Receita líquida ajustada                                      14.091    13.031            8,1% 12.995              8,4%       50.999    52.634        -3,1%
+
+Lucro bruto ajustado                                            1.060     1.124          -5,7%    1.100           -3,6%        3.772     3.936        -4,2%
+
+Margem bruta ajustada (% da Receita líquida)                     7,5%      8,6%       - 1,1 p.p     8,5%       - 1,0 p.p         7,4%     7,5%      - 0,1 p.p
+
+Margem bruta ajustada (R$/m3)                                    181       191           -5,2%      187           -3,2%          165      164          0,6%
+
+Despesas operacionais ajustadas                                   363       366          -0,8%      376           -3,5%        1.443     1.398         3,2%
+
+EBITDA ajustado                                                   697       758          -8,0%      724           -3,7%        2.329     2.538        -8,2%
+
+Margem EBITDA ajustada (% da Receita líquida)                    4,9%      5,8%       - 0,9 p.p     5,6%       - 0,7 p.p         4,6%     4,8%      - 0,2 p.p
+
+Margem EBITDA ajustada (R$/m3)                                    119       129          -7,8%      123           -3,3%          102      106         -3,8%
+
+Número total de postos de serviços                              8.277     8.176           1,2%    8.212            0,8%        8.277     8.176         1,2%
+
+Número de postos ativos                                         7.617     7.348           3,7%    7.500            1,6%        7.617     7.348         3,7%
+
+
+
+
+Desempenho operacional - A Rede de Postos apresentou no 4T17 volume de vendas 0,9% inferior ao 4T16. Na
+comparação anual, o volume de vendas em 2017 foi 4,4% inferior a 2016. A redução do volume vendido é atribuível
+especialmente ao diesel, que reduziu 4,6% e do ciclo otto com redução de 1,9%. Adicionalmente, foi observado ainda
+um avanço dos players regionais. A Companhia expandiu sua rede de postos ativos em 269 unidades (líquidas),
+investindo em embandeiramentos e manutenção da rede R$905 milhões (2016: R$829 milhões), sendo R$575 milhões
+em bonificações antecipadas a clientes (2016: R$501 milhões), R$248 milhões em bonificações por performance (2016:
+R$244 milhões) e R$82 milhões em financiamentos em espécie (2016: R$84 milhões).
+
+Receita líquida2 – Alcançou R$14.091 milhões no 4T17 (+8,1%) em função dos maiores preços médios de realização de
+produtos. Em relação ao 3T17 a receita líquida apresentou crescimento de 8,4%, também em função de maiores preços
+médios de realização dos produtos. Em 2017, a receita líquida foi de R$50.999 milhões (-3,1%), consequência do menor
+volume de vendas em relação a 2016, parcialmente compensado pelo aumento nos preços médios de realização.
+
+Lucro bruto3 – Atingiu R$1.060 milhões no 4T17 (-5,7%) em função da redução de 5,2% nas margens médias de
+comercialização. Em relação ao 3T17 o lucro bruto apresentou redução de 3,6% em função da redução de 3,2% das
+margens médias de comercialização. Em 2017, o lucro bruto foi de R$3.772 milhões (-4,2%), consequência da redução
+
+
+
+
+2 É apresentada sem a dedução da amortização das bonificações antecipadas a clientes.
+3 É apresentado sem a dedução das bonificações antecipadas a clientes e depreciação dos ativos da fábrica de lubrificantes.
+                                                                                                                                 www.br.com.br/ri
+                                                                              Página 7 de 19                                        ri@br.com.br
+                                                                                                              Petrobras Distribuidora S.A.
+                                                                                                                     4º Trimestre de 2017
+
+
+
+
+de 4,4% nos volumes vendidos em relação a 2016, parcialmente compensada pelo incremento das margens médias de
+comercialização.
+
+Despesas operacionais4 – Alcançaram R$363 milhões no 4T17 (-0,8%) representando 2,6% da receita líquida no
+período (-0,2 p.p). Em relação ao 3T17 as despesas operacionais apresentaram redução de 3,5%. Em 2017, as
+despesas operacionais alcançaram R$1.443 milhões (+3,2%), principalmente em função dos maiores gastos com
+propaganda e publicidade.
+
+EBITDA ajustado – Alcançou R$697 milhões no 4T17 (-8,0%), em função principalmente da redução do lucro bruto. A
+margem EBITDA foi de R$119/m3 (-7,8%). Em relação ao 3T17, o EBITDA ajustado foi 3,7% inferior, em linha com a
+redução do lucro bruto. Em 2017 o EBITDA ajustado da Rede de Postos foi de R$2.329 milhões (-8,2%) em função da
+redução de 4,4% do lucro bruto, associada ao aumento de 3,2% nas despesas operacionais. A margem EBITDA
+ajustada foi de R$102/m3 (-3,8%).
+
+
+Grandes Consumidores
+
+Em milhões de reais (exceto onde indicado)                4T17       4T16     4T17 x 4T16       3T17        4T17 x 3T17     2017       2016      2017 x 2016
+
+Volume de vendas (mil m3)                                   2,839    2,827            0,4%        3,149            -9,8% 11,156        11,758          -5,1%
+
+Receita líquida ajustada                                    6.019    5.511            9,2%         6.176           -2,5%    22.450     23.247          -3,4%
+
+Lucro bruto ajustado                                          429      484          -11,4%           507         -15,4%      1.701      1.726          -1,4%
+
+Margem bruta ajustada (% da Receita líquida)                  7,1%     8,8%        - 1,7 p.p        8,2%        - 1,1 p.p      7,6%       7,4%       + 0,2 p.p
+
+Margem bruta ajustada (R$/m3)                                151       171          -11,7%          161            -6,2%       152        147            3,4%
+
+Despesas operacionais ajustadas                               253      298          -15,1%           216           17,1%       930      1.063         -12,5%
+
+EBITDA ajustado                                               176      186           -5,4%           291         -39,5%        771        663          16,3%
+
+Margem EBITDA ajustada (% da Receita líquida)                 2,9%     3,4%        - 0,5 p.p        4,7%        - 1,8 p.p      3,4%       2,9%       + 0,5 p.p
+
+Margem EBITDA ajustada (R$/m3)                                 62        66          -6,1%             92        -32,6%         69          56         23,2%
+
+
+
+Desempenho operacional – O segmento de Grandes Consumidores apresentou no 4T17 volume de vendas 0,4%
+superior ao 4T16, refletindo a gradual retomada da atividade econômica no Brasil. Em relação ao 3T17, as vendas
+foram 9,8% inferiores, em decorrência da queda de 11,6% de vendas de óleo diesel, em função do menor despacho de
+térmicas do Sistema Interligado no período. Na comparação anual, o volume de vendas em 2017 foi 5,1% inferior a
+
+
+
+
+4
+  São apresentadas sem a dedução das depreciações e amortizações, perdas estimadas em créditos de liquidação duvidosa do setor elétrico, anistias fiscais e
+encargos tributários sobre receitas financeiras, perdas e provisões para processos judiciais e administrativos e provisão para plano de incentivo ao desligamento
+voluntário de empregados.
+                                                                                                                                 www.br.com.br/ri
+                                                                              Página 8 de 19                                        ri@br.com.br
+                                                                                         Petrobras Distribuidora S.A.
+                                                                                                4º Trimestre de 2017
+
+
+
+
+2016. A redução do volume vendido é explicada pela retração das vendas de óleo diesel (-7,7%), principalmente para
+as térmicas.
+
+Receita líquida – Alcançou R$6.019 milhões no 4T17 (+9,2%) em função principalmente dos maiores preços médios de
+realização de produtos. Em relação ao 3T17 a receita líquida apresentou queda de 2,5%, também em função dos
+menores volumes vendidos, efeito parcialmente compensado por maiores preços médios de realização. Em 2017, a
+receita líquida foi de R$22.450 milhões (-3,4%), consequência do menor volume de vendas em relação a 2016.
+
+Lucro bruto – Atingiu R$429 milhões no 4T17 (-11,4%) em função da redução nas margens médias de comercialização.
+Em relação ao 3T17 o lucro bruto apresentou redução de 15,4% em função da redução de 11,6% do volume vendido,
+principalmente de diesel às térmicas do Sistema Interligado. Em 2017, o lucro bruto foi de R$1.701 milhões (-1,4%),
+em função da redução de 5,1% nos volumes vendidos, parcialmente compensada pelo aumento de 3,4% nas margens
+médias de comercialização em relação a 2016.
+
+Despesas operacionais – Alcançaram R$253 milhões no 4T17 (-15,1%) representando 4,2% da receita líquida no
+período (-1,2 p.p). Em 2017, as despesas operacionais alcançaram R$930 milhões (-12,5%), em função das menores
+despesas com fretes de entrega de produtos, despesas gerais e pessoal.
+
+EBITDA ajustado – Alcançou R$176 milhões no 4T17 (-5,0%), em função principalmente da redução do lucro bruto. A
+margem EBITDA foi de R$62/m3 (-6,1%), comportamento em linha com a redução do lucro bruto e das despesas
+operacionais. Em 2017 o EBITDA ajustado do segmento de Grandes Consumidores foi de R$771 milhões (+16,3%),
+refletindo a melhora das margens e também em função da redução de 12,5% das despesas operacionais. A margem
+EBITDA foi de R$69/m3 (+23,2%).
+
+
+Aviação
+
+Em milhões de reais (exceto onde indicado)      4T17     4T16     4T17 x 4T16 3T17 4T17 x 3T17          2017    2016 2017 x 2016
+
+Volume de vendas (mil m3)                        0,986   0,932          5,8% 0,973             1,3% 3,803       3,759         1,2%
+
+Receita líquida ajustada                         1.963   1.572         24,9%     1.691        16,1%     6.947   6.189        12,2%
+
+Lucro bruto ajustado                              218     151          44,4%      173         26,0%      723     562         28,6%
+
+Margem bruta ajustada (% da Receita líquida)     11,1%    9,6%       + 1,5 p.p   10,2%      + 0,9 p.p   10,4%    9,1%      + 1,3 p.p
+
+Margem bruta ajustada (R$/m3)                     221     162          36,4%      178         24,2%      190     150         26,7%
+
+Despesas operacionais ajustadas                   108     167         -35,3%      112         -3,6%      451     499         -9,6%
+
+EBITDA ajustado                                   110      (16)          N/A       61         80,3%      272      63        331,7%
+
+Margem EBITDA ajustada (% da Receita líquida)     5,6%   -1,0%       + 6,6 p.p    3,6%      + 2,0 p.p    3,9%    1,0%      + 2,9 p.p
+
+Margem EBITDA ajustada (R$/m3)                    112      (17)          N/A       63         77,8%       72      17        323,5%
+
+
+
+                                                                                                        www.br.com.br/ri
+                                                         Página 9 de 19                                    ri@br.com.br
+                                                                                         Petrobras Distribuidora S.A.
+                                                                                                4º Trimestre de 2017
+
+
+
+
+Desempenho operacional – O segmento de Aviação apresentou recuperação dos volumes de vendas em todos os
+períodos de comparação. No 4T17 volume de vendas 5,8% superior ao 4T16, refletindo maiores vendas ao subsegmento
+de aviação comercial. Em relação ao 3T17, as vendas foram 1,3% superiores. Na comparação anual, o volume de vendas
+em 2017 foi 1,2% superior a 2016, refletindo os sinais de retomada gradual da atividade econômica verificados nos
+últimos meses de 2017.
+Receita líquida – Alcançou R$1.963 milhões no 4T17 (+24,9%) em função principalmente dos maiores preços médios de
+realização de produtos, principalmente em função dos efeitos da variação de preços da commodity no custo dos
+produtos vendidos. Em relação ao 3T17 a receita líquida apresentou aumento de 16,1%, também em função dos maiores
+preços médios de realização. Em 2017, a receita líquida foi de R$6.947 milhões (+12,2%), consequência dos maiores
+preços médios de realização em relação a 2016, impactados pelo custo do produto vendido.
+Lucro bruto – Atingiu R$218 milhões no 4T17 (+44,4%) em função do aumento de 36,4% nas margens médias de
+comercialização. Em relação ao 3T17 o lucro bruto apresentou aumento de 26,0% em função do aumento de 24,2% das
+margens médias de comercialização. Em 2017, o lucro bruto foi de R$723 milhões (+28,6%), em função da recuperação
+das margens médias de comercialização em relação a 2016. A melhor gestão de riscos cambiais levou a um melhor
+desempenho do lucro bruto em 2017 em relação ao ano de 2016.
+Despesas operacionais – Alcançaram R$108 milhões no 4T17 (-35,3%) representando 5,5% da receita líquida no período
+(-5,1 p.p). Em relação ao 3T17 as despesas operacionais apresentaram redução de 3,6%. Em 2017, as despesas
+operacionais alcançaram R$451 milhões (-9,6%), em função das menores despesas com pessoal.
+EBITDA ajustado – Alcançou R$110 milhões no 4T17, em função tanto do aumento do lucro bruto quanto da redução
+das despesas operacionais. A margem EBITDA foi de R$112/m3. Em relação ao 3T17, o EBITDA ajustado foi 80,3%
+superior, em função do aumento do lucro bruto. Em 2017 o EBITDA ajustado do segmento de Aviação foi de R$272
+milhões (+331,7%) em função do aumento do lucro bruto. A margem EBITDA foi de R$72/m3 (+323,5%).
+
+Outros Negócios (Produtos Químicos, Energia e Asfaltos)
+
+Em milhões de reais (exceto onde indicado)      4T17     4T16    4T17 x 4T16    3T17        4T17 x 3T17     2017    2016    2017 x 2016
+
+Volume de vendas (mil m3)                       1,357    1,425         -4,8%     1,307             3,8% 5,322       6,318       -15,8%
+
+Receita líquida ajustada                        1.269    1.216          4,4%     1.128            12,5%     4.716   5.109        -7,7%
+
+Lucro bruto ajustado                              223     204           9,3%       185            20,5%      729     799         -8,8%
+
+Margem bruta ajustada (% da Receita líquida)     17,6%   16,8%      + 0,8 p.p     16,4%         +1,2 p.p    15,5%   15,6%      - 0,1 p.p
+
+Margem bruta ajustada (R$/m3)                     164     143         14,7%       142             15,5%      137     126           8,7%
+
+Despesas operacionais ajustadas                   104       95          9,5%           55         89,1%      317     398        -20,4%
+
+EBITDA ajustado                                   119     109           9,2%       130            -8,5%      412     401           2,7%
+
+Margem EBITDA ajustada (% da Receita líquida)     9,4%    9,0%      + 0,4 p.p     11,5%         - 2,1 p.p    8,7%    7,8%       +0,9 p.p
+
+Margem EBITDA ajustada (R$/m3)                     88       76        15,8%            99        -11,1%       77      63         22,2%
+
+                                                                                                            www.br.com.br/ri
+                                                          Página 10 de 19                                      ri@br.com.br
+                                                                                          Petrobras Distribuidora S.A.
+                                                                                                 4º Trimestre de 2017
+
+
+
+
+Desempenho operacional – O segmento de Outros Negócios apresentou no 4T17 volume de vendas 4,8% inferior ao
+4T16. Em relação ao 3T17, as vendas foram 3,8% superiores. Na comparação anual, o volume de vendas em 2017 foi
+15,8% inferior a 2016, refletindo as menores vendas de coque verde de petróleo e de produtos químicos, parcialmente
+compensadas pelas maiores vendas de gás natural canalizado.
+
+Receita líquida – Alcançou R$1.269 milhões no 4T17 (+4,4%) em função principalmente dos maiores preços médios de
+realização de produtos. Em relação ao 3T17 a receita líquida apresentou aumento de 12,5%, também em função dos
+maiores preços médios de realização (+8,4%) associados aos maiores volumes de vendas. Em 2017, a receita líquida foi
+de R$4.716 milhões (-7,7%), consequência dos menores volumes vendidos parcialmente compensados por maiores
+preços médios de realização em relação a 2016.
+
+Lucro bruto – Atingiu R$223 milhões no 4T17 (+9,3%) em função do aumento de 14,7% nas margens médias de
+comercialização. Em relação ao 3T17 o lucro bruto apresentou aumento de 20,5% em função do aumento de 15,5% das
+margens médias de comercialização. Em 2017, o lucro bruto foi de R$729 milhões (-8,8%), em função da redução de
+15,8% nos volumes vendidos, parcialmente compensada pelo aumento de 8,7% nas margens médias de comercialização
+em relação a 2016.
+
+Despesas operacionais – Alcançaram R$104 milhões no 4T17 (+9,5%) representando 8,2% da receita líquida no período
+(+0,4 p.p). Em 2017, as despesas operacionais alcançaram R$317 milhões (-20,4%).
+
+EBITDA ajustado – Alcançou R$119 milhões no 4T17 (+9,2%), em função do aumento do lucro bruto. A margem EBITDA
+foi de R$88/m3% (+15,8%). Em 2017 o EBITDA ajustado do segmento de Outros Negócios foi de R$412 milhões (+2,7%)
+em função de ganhos de margens associados à redução das despesas operacionais. A margem EBITDA foi de R$77/m3
+(+22,2%).
+
+Corporativo
+O Corporativo não representa e é composto, principalmente, pelo overhead da Companhia não alocado aos demais
+segmentos.
+
+Os valores classificados como Corporativo são apresentados como se seguem:
+
+
+
+Em milhões de reais (exceto onde indicado)   4T17      4T16        3T17    4T17 x 4T16 4T17 x 3T17   2017      2016    2017 x 2016
+Despesas operacionais ajustadas                (225)     (216)       (145)         4,2%      55,2%     (717)     (666)        7,7%
+EBITDA ajustado                                (219)     (217)       (150)         0,9%      46,0%     (717)     (670)        7,0%
+
+
+
+
+As despesas operacionais ajustadas alocadas no corporativo representam, principalmente, despesas atuariais com
+planos de pensão e de saúde a inativos (2017: R$396 milhões; 2016: R$226 milhões).
+
+As despesas com planos de pensão e de saúde de participantes ativos, de R$107 milhões em 2017 (R$156 milhões em
+2016) estão alocadas diretamente aos demais segmentos de negócios.
+
+
+
+
+                                                                                                        www.br.com.br/ri
+                                                                 Página 11 de 19                           ri@br.com.br
+                                                                                                             Petrobras Distribuidora S.A.
+                                                                                                                    4º Trimestre de 2017
+
+
+
+
+Reconciliação do Fluxo de Caixa
+As atividades operacionais, de investimentos da Companhia permitiram geração de fluxo de caixa livre o que
+possibilitou a manutenção dos níveis de remuneração aos acionistas nos períodos considerados, confirmando a boa
+geração de caixa da Companhia.
+
+Em milhões de Reais                                                                    4T2017              4T2016               2017               2016
+
+
+EBITDA                                                                                         744                  82              2.574                439
+IR/CS pagos                                                                                     (35)              (127)                (96)             (313)
+Efeitos não caixa no EBITDA                                                                    204               1.095                 853             3.377
+Capital de giro                                                                                 (65)              (390)            (2.061)              (869)
+Fluxo de Caixa das Atividades Operacionais                                                     848                 660              1.270              2.634
+
+CAPEX                                                                                           (93)              (120)              (300)              (402)
+Outros                                                                                          -                      10               14                    23
+Fluxo de Caixa das Atividades de Investimentos                                                  (93)              (110)              (286)              (379)
+FLUXO DE CAIXA LIVRE                                                                           755                 550                984              2.255
+
+Financiamentos/arrendamentos                                                                   (215)              (467)            (9.385)            (2.038)
+FIDC                                                                                           104                 595              2.599                 312
+Integralização de capital                                                                       -                  -                6.313                 -
+Fluxo de Caixa das Atividades de Financiamentos                                               (111)                128               (473)            (1.726)
+CAIXA LIVRE PARA OS ACIONISTAS                                                                 644                 678                511                 529
+
+Dividendos/Juros sobre o capital próprio pagos a acionistas                                    (683)              (684)              (683)              (684)
+Caixa líquido gerado (consumido) no período                                                     (39)                   (6)           (172)              (155)
+
+Saldo inicial                                                                                  522                 661                 655                810
+Saldo final                                                                                    483                 655                483                 655
+
+Observações:
+
+1.   Os recursos de caixa aplicados em bonificações antecipadas a clientes, de R$575 milhões em 2017 (R$501 milhões em 2016) são apresentados na variação do
+     capital de giro.
+2.   Os recursos de caixa aplicados em bonificações por performance, de R$248 milhões em 2017 (R$244 milhões em 2016) são deduzidos do EBITDA.
+3.   Aplicações de recursos em Capex representam desembolsos para formação de ativos imobilizados e intangíveis e não incluem as bonificações antecipadas a
+     clientes.
+4.   “Efeitos não caixa no EBITDA” incluem: perdas estimadas em créditos de liquidação duvidosa, perdas e provisões em processos judiciais e administrativos,
+     planos de pensão e de saúde (2017: R$503 milhões; 2016: R$382 milhões) e PIDV, resultado com alienação de ativos, resultado de participações em
+     investimentos relevantes, amortização das bonificações antecipadas a clientes, amortização de seguros, aluguéis e outros, juros e variações
+     monetárias/cambiais líquidas (estes deduzidos do resultado financeiro líquido) e outros ajustes, conforme apresentados na Demonstração dos Fluxos de Caixa,
+     parte integrante das Demonstrações Contábeis anuais.
+5.   Em 2017 a variação de capital de giro também foi afetada pela redução de prazo de pagamento de compras de alguns produtos nas refinarias, como o QAV no
+     primeiro semestre de 2017.
+6.   FIDC (Fundo de Investimentos em Direitos Creditórios): fundo exclusivo e corporativo do Sistema Petrobras. É destinado preponderantemente à aquisição de
+     direitos creditórios “performados” e/ou “não performados” de operações realizadas por empresas do Sistema Petrobras.
+                                                                                                                                www.br.com.br/ri
+                                                                            Página 12 de 19                                        ri@br.com.br
+                                                                                              Petrobras Distribuidora S.A.
+                                                                                                     4º Trimestre de 2017
+
+
+
+
+Endividamento
+
+O endividamento bruto consolidado da Companhia alcançou no período findo em 31 de dezembro de 2017 R$ 4.738
+milhões, sendo 5% deste montante de vencimento no curto prazo. Nossa dívida bruta encerrou 2017 em patamar
+inferior ao do exercício anterior, cerca de 63,4% abaixo da posição de 31 de dezembro de 2016. Além disso, encerramos
+o exercício de 2017 com uma dívida líquida de R$ 3.885 milhões, montante 59,1% abaixo da dívida líquida do exercício
+anterior. Para o cálculo da dívida líquida, foi considerado o saldo da aplicação no FIDC de R$ 370 milhões (R$ 2.776
+milhões em 31 de dezembro de 2016), que tem remuneração equivalente a 100% do CDI.
+
+Cabe mencionar que a redução do endividamento da companhia ocorreu, principalmente, em virtude do aporte de
+capital realizado pela Petrobras no valor de R$ 6,313 bilhões e posterior liquidação antecipada do total dos saldos das
+Notas de Crédito à Exportação contratadas junto ao Banco do Brasil e ao Bradesco, no montante de R$ 7.708 milhões.
+As taxas de financiamento destas dívidas eram de 114,25% e 118% do CDI, respectivamente, e, após esta operação, o
+prazo médio do endividamento da companhia passou de 2,4 anos para 2,9 anos. Com isso, a relação Dívida Líquida /
+EBITDA Ajustado encerrou 2017 em 1,3x EBITDA Ajustado (3,2x EBITDA Ajustado em 2016). O endividamento da
+Companhia é integralmente referenciado em moeda nacional (Reais).
+
+
+
+                    Em milhões de Reais (exceto onde indicado)      2017            2016             2017 x 2016
+
+                   Financiamentos                                          4.640           12.814            -63,8%
+                   Cessão de direitos creditórios                             26               31            -16,1%
+                   Arrendamentos mercantis                                    72               95            -24,2%
+
+                   Dívida Bruta                                            4.738           12.940            -63,4%
+
+                   (-) Disponibilidades                                     483               655            -26,3%
+                   (-) FIDC                                                 370             2.776            -86,7%
+
+                   Dívida Líquida                                          3.885            9.509            -59,1%
+
+                   EBITDA Ajustado                                         3.067            2.995               2,4%
+
+                   Dívida Líquida/EBITDA Ajustado (X)                        1,3              3,2            -59,4%
+
+                   Custo médio da dívida (% do CDI)                    114,53%         112,16%             +2,37 p.p.
+
+                   Prazo médio da dívida (anos)                               2,9              3,2
+
+
+
+
+                                                                                                               www.br.com.br/ri
+                                                                 Página 13 de 19                                  ri@br.com.br
+                                                                                           Petrobras Distribuidora S.A.
+                                                                                                  4º Trimestre de 2017
+
+
+
+
+Mercado de Capitais
+
+Abertura de Capital da Petrobras Distribuidora
+Em 15 de dezembro de 2017 foi iniciada a negociação de ações da Companhia no Segmento Especial da B3 – Brasil, Bolsa
+& Balcão - denominado “Novo Mercado”, que observa o mais elevado nível de governança corporativa.
+
+A oferta secundária de ações, por meio da qual foram vendidas 28,75% das ações até então detidas pela controladora
+Petróleo Brasileiro S.A. – Petrobras, resultou na captação de mais de R$5 bilhões que foram integralmente recebidos pela
+Petrobras, em uma das maiores aberturas de capital ocorridas no Brasil desde 2013.
+
+As ações, que tiveram preço inicial fixado em R$15 (quinze reais), apresentam desde o início de negociações valorização
+de aproximadamente 44% até 12 de março de 2018.
+                       Descrição                          15/12/2017 a 12/03/2018
+
+Quantidade de ações (mil)                                                    1.165
+Cotação em 12/03/2018                                                        22,20
+Valor de mercado de 100% do capital social (R$ milhões)                     25.863
+
+Volume médio/dia (ações)                                                 4.177.327
+Volume financeiro médio/dia (R$ mil)                                        76.746
+Cotação média (R$/ação)                                                      19,27
+
+
+
+
+Juros sobre o Capital Próprio e Dividendos
+O Conselho de Administração da Companhia, em reunião realizada no dia 26 de janeiro de 2018, aprovou o pagamento de
+juros sobre o capital próprio a serem imputados ao dividendo mínimo obrigatório de 2017, sem prejuízo de outras
+eventuais distribuições, no valor de R$ 659 milhões, correspondente a R$ 0,56527346761767 centavos por ação.
+
+Referido pagamento às ações negociadas na B3 S.A. – Brasil, Bolsa, Balcão, bem como às demais ações escrituradas
+perante o Banco Bradesco S. A., será efetuado até 31 de julho de 2018, com base na posição acionária de 1° de fevereiro
+de 2018 (inclusive).
+
+Os juros sobre o capital próprio serão atualizados monetariamente, a partir de 31 de dezembro de 2017 até a data da
+quitação, de acordo com a variação da taxa Selic.
+
+Adicionalmente, a Administração da Companhia encaminhará à deliberação da Assembleia Geral Ordinária que
+acontecerá em 25 de abril de 2018 proposta de pagamento de dividendos adicionais de R$433 milhões, totalizando, entre
+juros sobre capital próprio e dividendos propostos, uma remuneração total ao acionista de R$1.092 milhões
+(R$0,94/ação), equivalentes a aproximadamente 95% do lucro líquido apurado no exercício social de 2017.
+
+
+
+
+                                                                                                     www.br.com.br/ri
+                                                                         Página 14 de 19                ri@br.com.br
+                                                                    Petrobras Distribuidora S.A.
+                                                                           4º Trimestre de 2017
+
+
+
+
+Demonstrativo da Posição Financeira - Ativo – Em milhões de Reais
+
+
+
+                                                                        Consolidado
+           Ativo                                                    2017           2016
+
+           Circulante
+             Caixa e equivalentes de caixa                               483              655
+             Contas a receber, líquidas                                5.528            7.679
+             Estoques                                                  3.245            2.678
+             Adiantamentos a fornecedores                                 74               62
+             Imposto de renda e contribuição social                      151              219
+             Impostos e contribuições a recuperar                        522              372
+             Bonificações antecipadas concedidas a clientes              514              540
+             Despesas antecipadas                                         40               47
+             Outros ativos circulantes                                   146               37
+                                                                      10.703           12.289
+
+
+           Não circulante
+            Realizável a longo prazo
+             Contas a receber, líquidas                                  376            6.250
+             Depósitos judiciais                                       1.000              950
+             Impostos e contribuições a recuperar                        541              366
+             Imposto de renda e contribuição social diferidos          3.162            3.425
+             Bonificações antecipadas concedidas a clientes            1.469            1.419
+             Despesas antecipadas                                        182              183
+             Outros ativos realizáveis a longo prazo                      24               24
+                                                                       6.754           12.617
+             Investimentos                                                36               45
+             Imobilizado                                               5.816            5.986
+             Intangível                                                  453              461
+                                                                      13.059           19.109
+           Total do Ativo                                             23.762           31.398
+
+
+
+
+                                                                               www.br.com.br/ri
+                                                 Página 15 de 19                  ri@br.com.br
+                                                                      Petrobras Distribuidora S.A.
+                                                                             4º Trimestre de 2017
+
+
+
+
+Demonstrativo da Posição Financeira – Passivo e Patrimônio Líquido – Em milhões de Reais
+
+
+
+                                                                             Consolidado
+     Passivo                                                             2017            2016
+
+     Circulante
+       Fornecedores                                                           2.682                  2.650
+       Financiamentos                                                           185                    805
+       Cessão de direitos creditórios                                            26                     31
+       Arrendamentos mercantis financeiros                                       29                     28
+       Adiantamentos de clientes                                                363                    354
+       Imposto de renda e contribuição social                                     1                      1
+       Impostos e contribuições a recolher                                      277                    204
+       Juros sobre o capital próprio                                            273                    635
+       Salários, férias e encargos                                              219                    246
+       Plano de incentivo ao desligamento voluntário                              8                    445
+       Planos de pensão e saúde                                                 134                    139
+       Outras contas e despesas a pagar                                         216                     91
+                                                                              4.413                  5.629
+     Não circulante
+       Financiamentos                                                        4.455               12.009
+       Arrendamentos mercantis financeiros                                      43                   67
+       Planos de pensão e saúde                                              3.932                4.172
+       Provisão para processos judiciais e administrativos                   2.079                2.090
+       Outras contas e despesas a pagar                                         14                   21
+                                                                            10.523               18.359
+                                                                            14.936               23.988
+
+     Patrimônio líquido
+       Capital social realizado                                              6.352                6.352
+       Reservas de lucros                                                    3.897                3.045
+       Ajuste de avaliação patrimonial                                      (1.423)              (1.987)
+                                                                             8.826                7.410
+     Total do Passivo                                                       23.762               31.398
+
+
+
+                                                                                  www.br.com.br/ri
+                                                 Página 16 de 19                     ri@br.com.br
+                                                                             Petrobras Distribuidora S.A.
+                                                                                    4º Trimestre de 2017
+
+
+
+
+Demonstração de Resultados – Em milhões de Reais
+
+
+
+                                                                                    Consolidado
+                                                                               2017                 2016
+Receita de vendas de produtos e serviços prestados                                84.567                86.637
+  Custo dos produtos vendidos e serviços prestados                               (78.200)              (80.172)
+Lucro bruto                                                                        6.367                 6.465
+Despesas operacionais
+  Vendas                                                                          (2.952)                (3.845)
+  Gerais e administrativas                                                          (835)                  (828)
+  Tributárias                                                                       (172)                  (137)
+  Outras despesas, líquidas                                                         (284)                (1.669)
+                                                                                  (4.243)                (6.479)
+Lucro (prejuízo) antes do resultado financeiro, participação e impostos            2.124                       (14)
+  Financeiras
+    Despesas                                                                      (1.231)                (1.893)
+    Receitas                                                                         376                    682
+    Variações cambiais e monetárias, líquidas                                        298                    589
+                                                                                    (557)                  (622)
+Resultado de participações em investimentos                                           (2)                    (1)
+Lucro (prejuízo) antes dos impostos                                                1.565                   (637)
+ Imposto de renda e contribuição social
+  Corrente                                                                          (196)                     (307)
+  Diferido                                                                          (218)                      629
+                                                                                    (414)                      322
+Lucro líquido (prejuízo) do exercício                                              1.151                      (315)
+Lucro líquido (prejuízo), básico e diluído por ação do capital social - R$          0,99                  (0,27)
+Capital social composto de 1.165.000.000 ações ordinárias.
+
+
+
+
+                                                                                           www.br.com.br/ri
+                                                        Página 17 de 19                       ri@br.com.br
+                                                                                                                             Petrobras Distribuidora S.A.
+                                                                                                                                    4º Trimestre de 2017
+
+
+
+
+Informações por Segmentos – Em milhões de Reais
+
+
+
+
+                                                                                                                                                            Reconciliação
+                                                                                                                                          Total                com as
+                                              Rede de         Grandes                                                                      dos             Demonstrações
+                                              Postos        Consumidores            Aviação          Outros        Corporativo          segmentos            Contábeis                    Total
+Receita de Vendas                               50.999               22.450             6.947           4.716                -               85.112                    (545) (a)            84.567
+Custo dos produtos vendidos                    (47.227)              (20.749)          (6.224)         (3.987)               -              (78.187)                    (13) (b)           (78.200)
+Lucro bruto                                      3.772                 1.701             723              729                -                6.925                    (558)                 6.367
+Despesas
+ Vendas, gerais e administrativas               (1.624)                 (928)            (467)           (335)            (149)               (3.503)                  (284) (c )           (3.787)
+ Tributárias                                        (5)                      (2)           (3)            (10)             (24)                  (44)                  (128) (d)              (172)
+ Outras receitas (despesas), líquidas             186                         -           19               23             (537)                (309)                     25         (e)       (284)
+Resultado de participações em investimentos          -                        -                -               5            (7)                     (2)                       -                   (2)
+Resultado financeiro líquido                         -                        -                -               -             -                                         (557) (f)              (557)
+EBITDA Ajustado                                  2.329                  771              272              412             (717)               3.067
+Lucro (Prejuízo) antes dos impostos                                                                                                                                   (1.502)                1.565
+
+
+
+
+                                                    Demonstração Consolidada do Resultado por Área de Negócio - 2016
+
+                                                                                                                                                           Reconciliação
+                                                                                                                                                              com as
+                                                Rede de       Grandes                                                                   Total dos         Demonstrações
+                                                Postos      Consumidores           Aviação         Outros            Corporativo        segmentos           Contábeis                     Total
+Receita de Vendas                                 52.634          23.247              6.189           5.109                        -        87.179                    (542)       (a)      86.637
+Custo dos produtos vendidos                      (48.698)        (21.521)            (5.627)         (4.310)                      (4)      (80.160)                    (12)       (b)     (80.172)
+Lucro bruto                                        3.936           1.726                562             799                       (4)         7.019                   (554)                 6.465
+Despesas                                                                                                                                          -                      -
+  Vendas, gerais e administrativas                (1.617)          (1.091)             (462)           (422)                 (228)          (3.820)                   (853)       (c )     (4.673)
+  Tributárias                                         (6)               -                (2)            (12)                  (27)              (47)                   (90)       (d)        (137)
+  Outras receitas (despesas), líquidas               225               28               (35)             31                  (405)             (156)                (1.513)       (e)      (1.669)
+Resultado de participações em investimentos            -                -                 -               5                    (6)               (1)                     -                     (1)
+Resultado financeiro líquido                                                                                                                                          (622)       (f)        (622)
+EBITDA Ajustado                                    2.538             663                 63            401                   (670)            2.995
+Lucro (Prejuízo) antes dos impostos                                                                                                                                 (3.632)                  (637)
+
+
+
+
+                                                                                                                                                       www.br.com.br/ri
+                                                                                     Página 18 de 19                                                      ri@br.com.br
+                                                                                                               Petrobras Distribuidora S.A.
+                                                                                                                      4º Trimestre de 2017
+
+
+
+
+Informações por Segmentos – Reconciliação com as Demonstrações Contábeis - Em milhões de Reais
+
+
+
+
+Reconciliação das informações por segmentos com as demonstrações contábeis                                                              31/12/2017     31/12/2016
+(a) Receita de Vendas
+Apropriação das bonificações antecipadas concedidas a clientes
+As receitas de vendas são ajustadas pelas bonificações antecipadas concedidas aos revendedores dos postos de serviço para os quais
+a Companhia distribui combustíveis e lubrificantes correspondem à parcela disponibilizada, principalmente, em espécie e realizada sob
+condições pré-estabelecidas com tais partes, que uma vez cumpridas, tornam-se inexigíveis, sendo absorvidas como despesa pela
+Companhia. Trata-se de um regime de metas que, uma vez atingidas, isenta os recipientes, revendedores dos postos de serviço, da
+devolução à Companhia desses valores antecipados a título de bonificação. São reconhecidas no resultado proporcionalmente aos
+seus prazos de vigência.                                                                                                                      (545)          (542)
+
+(b) Custo dos produtos vendidos
+Depreciação e amortização                                                                                                                      (13)            (12)
+
+(c) Vendas, gerais e administrativas
+Depreciação e amortização                                                                                                                     (439)          (442)
+
+Perdas estimadas em crédito de liquidação duvidosa
+Os valores ajustados referem-se às provisões relativas aos recebíveis devidos à Companhia pelas empresas térmicas do sistema
+isolado e interligado de energia, segmento atendido substancialmente pela Companhia e que vêm ultimamente enfrentando
+dificuldades financeiras.                                                                                                                      155           (411)
+
+(d) Impostos
+Os ajustes de impostos referem-se à anistias fiscais e encargos tributários sobre receitas financeiras.
+Anistias fiscais: trata-se das provisões para pagamentos referente a adesão aos programas de anistia instituídos por Leis Estaduais e
+do Programa Especial de Regularização Tributária (PERT) da União sobre passivos tributários de ICMS e de tributos federais junto aos
+Estados e União, respectivamente. A Companhia considera o ajuste apropriado porque fornece informações adicionais aos
+investidores que não são decorrentes de nossas operações principais.                                                                           (80)             (6)
+
+Encargos tributários sobre receitas financeiras: os ajustes são referentes aos gastos com IOF, PASEP e COFINS incidentes sobre as
+receitas financeiras da Companhia e que estão classificados em despesas tributárias.                                                           (48)            (84)
+
+(e) Outras receitas (despesas), líquidas
+Perdas e provisões com processos judiciais
+Os valores ajustados se referem às perdas incorridas em processos transitados em julgado, bem como as provisões efetuadas com
+base nos pareceres obtidos junto aos advogados responsáveis pelo acompanhamento dos processos judiciais ou pela própria área
+jurídica da Companhia.                                                                                                                        (119)         (1.079)
+Plano de incentivo ao desligamento voluntário
+Os ajustes referem-se aos valores que impactaram os resultados da Companhia pela provisão dos gastos estimados com indenizações
+relativas ao plano, bem como pela reversão da provisão em função das desistências de adesão ao plano ocorridas nos respectivos
+períodos.                                                                                                                                      144           (434)
+
+(f) Resultado Financeiro, líquido                                                                                                             (557)          (622)
+
+Total                                                                                                                                        (1.502)        (3.632)
+
+
+
+
+                                                                                                                                 www.br.com.br/ri
+                                                                                Página 19 de 19                                     ri@br.com.br
+

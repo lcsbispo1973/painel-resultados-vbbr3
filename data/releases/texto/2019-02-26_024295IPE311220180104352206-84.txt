@@ -1,0 +1,1980 @@
+  PETROBRAS
+  DISTRIBUIDORA
+  Performance 4T18
+  —
+
+
+
+
+                 1
+ri.br.com.br
+ri@br.com.br
+      TELECONFERÊNCIA 4T18
+
+
+      A Petrobras Distribuidora realizará teleconferência com tradução simultânea no dia 26 de fevereiro de 2019
+      para comentários sobre o resultado da Companhia no quarto trimestre de 2018. A apresentação estará
+      disponível para download no website da Companhia uma hora antes do início das teleconferências.
+
+      Horário 11:30 (hora de Brasília) / 9:30 (Nova York)
+      Telefones para conexão:
+      Brasil:         +55 (11) 3127-4971 / +55 (11) 3728-5971
+      Nova York:      +1 (929) 378 3440
+      Londres:        +44 (20) 3972 0813
+      Link para acesso: https://webcastlite.mziq.com/cover.html?webcastId=7f96c116-4379-49c4-981c-
+      fc060e9261b1
+
+
+      Em caso de dúvida ou problema de acesso, faça contato via e-mail sac@voitel.com.br ou pelo telefone
+      +55 (11) 4003-1858.
+
+
+      A transcrição, apresentação e áudio serão disponibilizados após a teleconferência/webcast no site da
+      Companhia: ri.br.com.br
+
+
+
+
+                                                       2
+ri.br.com.br
+ri@br.com.br
+      Destaques 2018
+      —
+     R$ 3,3 bilhões                       R$ 3,2 bilhões           R$ 67/m3                  R$ 2,4 bilhões
+
+     GERAÇÃO                              LUCRO                    EBITDA                    DÍVIDA
+     DE CAIXA            162%             LÍQUIDO          176 %   NORMALIZADO               LÍQUIDA            39 %
+                                                                                                                8%
+
+
+
+      Em dezembro de 2018, a Petrobras Distribuidora completou um ano desde a realização de sua Oferta Pública
+      Inicial de Ações. Foi um ano de muitas conquistas e muitos desafios para a companhia. Mesmo em meio a
+      discussões regulatórias e um mercado retraído - com performance abaixo de 2017 agravada pela greve dos
+      caminhoneiros - a companhia atingiu bons resultados. A disciplina na gestão do capital de giro, recebíveis e
+      passivos permitiu uma geração de caixa operacional de mais de R$ 3 bilhões - reduzindo a dívida líquida da
+      companhia em 39% - e um lucro líquido recorde de R$ 3,2 bilhões ao final de 2018, impactado positivamente
+      pelo reconhecimento dos Instrumentos de Confissão de Dívida - ICDs com as distribuidoras e ex-distribuidoras
+      da Eletrobras (R$ 1,6 bilhão), bem como pelo acordo de ICMS do Mato Grosso (R$ 645 milhões).
+
+
+      A margem EBITDA normalizada atingiu R$ 67/m3, permanecendo no mesmo patamar de 2017. A valorização da
+      ação (BRDT3) da companhia na B3 - que já atingiu mais de 60% desde a abertura de capital - é mais um indicativo
+      da sua boa performance bem como do potencial de entrega de resultados, refletindo a confiança dos
+      investidores.
+
+
+      É importante destacar também que, em dezembro de 2018, a Companhia aprovou seu novo plano de negócios
+      e gestão para o período de 2019 a 2023 guiado pelos conceitos de mobilidade e conveniência. O plano tem foco
+      nos ganhos de eficiência para companhia bem como na geração de valor com a implementação de novos
+      projetos, que visam o crescimento da Companhia por meio do aumento do outlet share na rede de postos,
+      entrada de novos negócios e produtos. Algumas iniciativas em linha com este direcionamento estratégico já
+      foram realizadas em 2018 com continuidade em 2019, tais como: orçamento base zero, reorganização do quadro
+      de pessoal, redefinição de funções, renegociação dos contratos de serviços de terceiros, além da revisão de
+      processos e da implantação de BPOs1 e RPAs2.
+
+
+
+
+         1
+             Business Process Outsourcing
+         2
+             Robotic Process Administration
+
+
+
+
+                                                               3
+ri.br.com.br
+ri@br.com.br
+      DESEMPENHO DOS SEGMENTOS DE NEGÓCIOS
+
+
+      Consolidado3
+
+       Em milhões de reais                                                  4T18 x                  4T18 x                            2018 x
+                                                       4T18       3T18                   4T17                   2018       2017
+       (exceto onde indicado)                                                3T18                    4T17                              2017
+
+       Volume de vendas (mil m³)                      10.412     10.966      -5,0%       11.028      -5,6%     41.548     43.175       -3,8%
+
+       Receita líquida                                25.219     26.455      -4,7%       23.204      8,7%      97.770     84.567       15,6%
+
+       Lucro bruto                                     1.504      1.519      -1,0%       1.806      -16,7%      5.856      6.367       -8,0%
+
+       Margem bruta (% da Receita líquida)             6,0%       5,7%      0,3p.p.       7,8%      -1,8p.p.    6,0%       7,5%       -1,5p.p.
+
+       Margem bruta (R$/m³)                             144        139        4,3%        164       -11,8%       141        147        -4,4%
+
+       Despesas operacionais *                         1.170      1.224      -4,4%       1.170          -       4.596      4.243        8,3%
+
+       Resultado financeiro                            1.847       353       (n/a)        (89)       (n/a)      2.423      (557)       (n/a)
+
+       Lucro líquido                                   1.605      1.078      48,9%        531       202,3%      3.193      1.151      177,4%
+
+       EBITDA ajustado                                  646        631        2,4%        883       -26,8%      2.558      3.067      -16,6%
+
+       Margem EBITDA ajustada
+                                                       2,6%       2,4%      0,2 p.p.      3,8%      -1,2p.p.    2,6%       3,6%       -1,0p.p.
+       (% da Receita líquida)
+
+       Margem EBITDA ajustada (R$/m³)                   62         58         7,8%         80       -22,5%        62         71       -13,3%
+
+       Dívida líquida                                  2.356      3.842       -39%       3.885       -40%       2.356      3.842        -39%
+
+       LTM EBITDA ajustado                             2.558      2.795      -8,5%       3.067       -17%       2.558      3.067        -17%
+
+       Dívida líquida/EBITDA ajustado (x)               0,9        1,4        -0,5        1,3         -0,4       0,9        1,3         -0,4
+
+      * Com o objetivo de manter a comparabilidade na rubrica de “Despesas Operacionais” entre os períodos reportados, efetuamos um ajuste
+      líquido de R$ 1.127 milhões (R$ 1313 milhões - R$ 186 milhões) nos períodos 3T18 e 2018, pela reversão da provisão referente ao acordo de
+      extrajudicial firmado com o estado do Mato Grosso.
+
+      A companhia apresentou neste trimestre uma receita líquida de R$ 25.219 milhões, o que representa um
+      acréscimo de 8,7% em comparação com o 4T17 e um aumento de 15,6% na comparação anual. Essa variação é
+      explicada pelo incremento nos preços médios de venda, em linha com foco na estratégia de melhora da
+      rentabilidade.
+
+      Já em relação ao lucro bruto, observa-se um decréscimo de 1,0% em relação ao 3T18 (R$ 1.504 milhões vs R$
+      1.519 milhões), consequência da redução no volume de vendas e no valor dos combustíveis neste período,
+      afetando a margem contábil. A queda na participação da gasolina no mix de produtos em detrimento ao etanol
+      também impactou a rentabilidade.
+
+
+
+        3
+          O Consolidado representa a soma dos segmentos: Rede de Postos, Mercado Grandes Consumidores, Mercado de Aviação e Mercados
+        Especiais, além do overhead da Companhia não alocado aos demais segmentos, que é agrupado no Corporativo.
+
+
+
+
+                                                                    4
+ri.br.com.br
+ri@br.com.br
+      As despesas operacionais apresentaram uma redução de 4,4% na comparação como o 3T18 em função de menores
+      gastos com frete (relacionado ao menor volume de vendas), decréscimo no fornecimento de combustíveis para
+      térmicas e captura dos benefícios da adoção do orçamento base zero. Na comparação com o 4T17 os valores
+      permaneceram os mesmos.
+
+
+      O Resultado financeiro líquido apresentou variação positiva de R$1.494 milhões, saindo de R$ 353 milhões no
+      3T18 para R$ 1.847 milhões no 4T18, decorrente da forte gestão do capital de giro, da otimização na alocação
+      de capital e também dos recebimentos das parcelas do acordo de confissão de dívida firmado com a Eletrobras.
+
+
+      O lucro líquido registrado no 4T18 foi de R$1.605 milhões ante R$1.078 milhões no 3T18 e R$531 milhões no
+      4T17. O incremento na rubrica deve-se principalmente aos eventos ocorridos no trimestre como a remensuração
+      do valor justo dos Instrumentos de Confissão de Dívidas (ICD’s) devido às privatizações das Centrais Elétricas
+      de Rondônia, à Boa Vista Energia e à Eletroacre, distribuidoras de energia elétrica subsidiárias da Eletrobras,
+      as quais foram privatizadas e apresentaram garantias firmes para tais recebíveis.
+
+
+
+
+          EVOLUÇÃO DO EBITDA 2018 x 2017
+
+
+
+
+      1
+        Ganho de estoque de R$ 169 MM, em função do aumento da alíquota de PIS/COFINS sobre combustíveis em julho/2017;
+      2
+        Redução nas despesas com pessoal (-R$ 56 MM);
+      3
+        Provisão referente ao pagamento de prêmio por desempenho 2017 no exercício de 2018;
+      4
+        Efeito no estoque de diesel referente à perda com a greve dos caminhoneiros (R$ 0,46 / litro)
+
+
+
+      Conforme divulgado no último trimestre, as bases foram normalizadas para que seja possível analisarmos o EBITDA
+      Ajustado de forma correta, destacando-se os efeitos não recorrentes no período. O ano de 2017 foi impactado
+      pelo aumento das alíquotas do PIS e da COFINS em julho/17, gerando uma valorização dos estoques de combustíveis
+      da Companhia no montante de R$ 169 milhões (ou R$ 4/m3). Já em maio/18, ocorreu a greve dos caminhoneiros,
+      que teve como consequência a redução no preço do diesel, por meio de uma medida adotada pelo Governo Federal.
+      O valor contábil dos estoques da Companhia foi reduzido em R$ 230 milhões (ou R$ 6/m3).
+
+
+      Portanto, o EBITDA Ajustado reportado em base normalizada para o período de 2018 seria de R$ 2.795 milhões (ou
+      R$ 67/m3) em comparação com um EBITDA de R$ 2.898 milhões (ou R$67/m3) no período de 2017, se mantendo
+      estável.
+
+                                                                 5
+ri.br.com.br
+ri@br.com.br
+      REDE DE POSTOS
+
+     Em milhões de reais                                          4T18 x             4T18 x                       2018 x
+                                         4T18        3T18                   4T17                2018     2017
+     (exceto onde indicado)                                        3T18               4T17                         2017
+
+     Volume de vendas (mil m³)           5.858       5.741         2,0%     5.845     0,2%      22.534   22.894    -1,6%
+
+     Receita líquida ajustada           15.104       14.946        1,1%     14.091    7,2%      57.933   50.999    13,6%
+
+     Lucro bruto ajustado                 878         751         16,9%     1.060    -17,2%     3.226    3.772    -14,5%
+
+     Margem bruta ajustada (% da
+                                         5,8%        5,0%         0,8p.p.   7,5%     -1,7p.p.   5,6%     7,4%     -1,8p.p.
+     Receita líquida)
+
+     Margem bruta ajustada (R$/m³)        150         131         14,6%      181     -17,4%      143      165     -13,1%
+
+     Despesas operacionais ajustadas      343         448         -23,4%     363      -5,5%     1.530    1.443     6,0%
+
+     EBITDA ajustado                      535         303         76,6%      697     -23,2%     1.696    2.329    -27,2%
+
+     Margem EBITDA ajustada
+                                         3,5%        2,0%         1,5p.p.   4,9%     -1,4p.p.   2,9%     4,6%     -1,6p.p.
+     (% da Receita líquida)
+
+     Margem EBITDA ajustada (R$/m³)       91          53          73,0%      119     -23,4%      75       102     -26,0%
+
+
+
+
+      A Rede de Postos apresentou volume de vendas 2,0% superior no 4T18 quando comparado ao 3T18, e, 0,2%
+      superior em relação ao 4T17, influenciado principalmente por uma maior venda de diesel na comparação com o
+      3T18 e pela alteração no mix do ciclo otto, com maior participação do etanol na comparação com ambos os
+      trimestres (4T17 e 3T18).
+
+
+      A receita liquida no segmento foi de R$ 15.104 milhões no 4T18, um aumento de 7,2% comparado ao 4T17, em
+      função dos maiores preços médios dos produtos. Em relação ao 3T18, o incremento de 1,1% na receita líquida é
+      explicado pelo efeito conjunto dos aumentos no volume e no preço médio de venda.
+
+
+      O Lucro bruto, alcançou R$ 878 milhões no 4T18, um aumento de 16,9% em relação ao 3T18 e um decréscimo de
+      17,2% quando comparado com o montante registrado no 4T17, consequência da redução no preço dos
+      combustíveis e da alteração no mix de vendas do ciclo otto.
+
+
+      As despesas operacionais alcançaram R$ 343 milhões no 4T18, um decréscimo de 23,4% em comparação ao 3T18,
+      em função de menores provisões relacionadas a clientes e redução nos custos de frete. Em relação ao 4T17, as
+      despesas operacionais foram reduzidas em 5,5%, em função de menores gastos com fretes, despesas gerais,
+      pessoal e provisões relacionadas a clientes.
+
+
+      O EBITDA ajustado atingiu R$ 535 milhões no 4T18, um aumento de 76,6% em relação ao 3T18, resultado das
+      maiores margens de comercialização. A margem EBITDA saiu de R$ 53/m³ no 3T18, para 91/m³, uma variação
+      positiva de 73%. Com relação ao 4T17, o decréscimo foi de 23,4%, em função da redução no preço dos
+      combustíveis, pressionando os estoques do período.
+
+
+
+                                                              6
+ri.br.com.br
+ri@br.com.br
+      A Companhia expandiu sua rede de postos totais em 253 unidades na comparação com o 4T17 e 93 postos em
+      relação ao 3T18, investindo um montante total de R$ 934 milhões no embandeiramento e manutenção da rede
+      em 2018. Deste total, R$ 611 milhões foram destinados às bonificações antecipadas aos revendedores, R$ 255
+      milhões aos bônus por performance e R$ 68 milhões aos financiamentos para as revendas. Em 2017 esses valores
+      foram, respectivamente, R$ 902 milhões, R$ 575 milhões, R$ 245 milhões e R$ 82 milhões.
+
+
+
+      Vale destacar que ao longo de 2018 a companhia adotou medidas firmes no combate a utilização irregular da
+      marca Petrobras o que resultou no descredenciamento de 865 postos de serviços da nossa rede, a maior parte
+      dos quais já se encontravam inativos. Essa medida representa uma demonstração de parceria com nossa rede de
+      postos revendedores e também respeito aos nossos consumidores.
+
+
+      Com o saneamento realizado, o número total de postos da Companhia passará a 7.665, conforme demonstrado
+      na tabela abaixo:
+
+                                        Produtos                                 2018           2017         Expansão
+                    Número total de postos de serviços antes do
+                                                                                 8.530          8.277              253
+                    saneamento
+                    Saneamento da Rede BR                                      865              865 (*)
+                    Número total de postos de serviços                        7.665             7.412             253
+                    (*) Para efeitos comparativos, na tabela acima replicamos o saneamento realizado em 2018 no ano de 2017.
+
+
+
+
+      MERCADO GRANDES CONSUMIDORES
+
+       Em milhões de reais                                              4T18 x                   4T18 x                           2018 x
+                                                  4T18        3T18                       4T17               2018         2017
+       (exceto onde indicado)                                            3T18                     4T17                             2017
+
+       Volume de vendas (mil m³)                  2.396       2.958       -19%          2.838    -15,6%     10.218       11.156    -8,4%
+
+       Receita líquida ajustada                   6.157       7.478     -17,7%          6.019     2,3%      25.348       22.450    12,9%
+
+       Lucro bruto ajustado                        306         410      -25,4%           429     -28,7%     1.326        1.701    -22,0%
+
+       Margem bruta ajustada (% da Receita
+                                                   5,0%       5,5%      -0,5p.p.         7,1%    -2,1p.p.   5,2%         7,6%     -2,3p.p.
+       líquida)
+
+       Margem bruta ajustada (R$/m³)               128         139       -7,9%           151     -15,5%      130          152     -14,9%
+
+       Despesas operacionais ajustadas             178         210      -15,2%           253     -29,6%      767          930     -17,5%
+
+       EBITDA ajustado                             128         200      -36,0%           176     -27,3%      559          771     -27,5%
+
+       Margem EBITDA ajustada
+                                                   2,1%       2,7%      -0,6p.p.         2,9%    -0,8p.p.   2,2%         3,4%     -1,2 p.p.
+       (% da Receita líquida)
+
+       Margem EBITDA ajustada (R$/m³)               53         68       -21,0%            62     -13,9%      55           69      -20,8%
+
+
+
+
+      No 4T18, o segmento apresentou um volume de vendas 19% inferior ao registrado no 3T18, em função
+      principalmente das reduções nos volumes de óleos combustível e diesel para térmicas. Na comparação com o
+
+
+                                                                  7
+ri.br.com.br
+ri@br.com.br
+      4T17, o volume apresenta uma redução de 15,6% devida à lenta recuperação da atividade econômica no país e
+      consequente menor demanda das indústrias, além dos motivos já expostos na comparação com o 3T18.
+
+
+      A receita líquida no 4T18 foi de R$ 6.157 milhões, um aumento de 2,3% em comparação ao 4T17, principalmente
+      em função dos maiores preços médios de venda dos produtos. Em relação ao 3T18, a receita líquida apresentou
+      decréscimo de 17,7%, acompanhando os menores volumes e menores preços médios.
+
+
+      O lucro bruto atingiu R$ 306 milhões neste trimestre, 25,4% inferior ao patamar do 3T18, em decorrência do
+      menor volume e das sucessivas reduções de preços do combustível no trimestre, impactando diretamente os
+      estoques de produtos. As maiores margens médias de comercialização não foram suficientes para compensar as
+      reduções em volume e preço. Em relação ao 4T17, o lucro bruto apresentou um decréscimo de 28,7% também
+      em função da queda no volume vendido e menores margens médias de comercialização.
+
+
+      As despesas operacionais atingiram R$ 178 milhões no 4T18, uma redução de 15,2% na comparação com o 3T18
+      e 29,6% quando comparado com o 4T17, acompanhando a redução do volume e da receita nos períodos analisados
+      e, por consequência, o decréscimo nos gastos com frete e pessoal e também a menor demanda de combustíveis
+      para as usinas termoelétricas.
+
+
+      O EBITDA ajustado alcançou R$ 128 milhões (ou R$ 53/m3) no 4T18, 36% inferior ao 3T18, principalmente em
+      função da desvalorização dos estoques de diesel ocorrida no 4T18, ocasionada pela redução dos preços do
+      combustível ao longo do trimestre, bem como pelas menores vendas de diesel e óleo combustível para usinas
+      termoelétricas e também de óleo combustível não térmico. Em relação ao 4T17, o EBITDA ajustado apresentou
+      um decréscimo de 27,3%, decorrente das mesmas razões já apresentadas.
+
+
+
+      MERCADO DE AVIAÇÃO
+
+                 Em milhões de reais                         4T18 x             4T18 x                     2018 x
+                                             4T18    3T18               4T17               2018    2017
+               (exceto onde indicado)                         3T18               4T17                       2017
+
+      Volume de vendas (mil m³)              947     1.021    -7,2%     986      -3,9%     3.913   3.803    2,9%
+
+      Receita líquida ajustada               2.619   2.691    -2,7%     1.963    33,4%     9.586   6.947    38,0%
+
+      Lucro bruto ajustado                   209      257    -18,7%     218      -4,1%     917     723      26,8%
+
+      Margem bruta ajustada (% da Receita
+                                             8,0%    9,6%    -1,6p.p.   11,1%   -3,1p.p.   9,6%    10,4%   -0,8p.p.
+      líquida)
+
+      Margem bruta ajustada (R$/m³)          221      252    -12,4%     221      -0,2%     234     190      23,3%
+
+      Despesas operacionais ajustadas        181      115     57,4%     108      67,6%     524     451      16,2%
+
+      EBITDA ajustado                         38      142    -73,2%     110     -65,5%     393     272      44,5%
+
+      Margem EBITDA ajustada
+                                             1,5%    5,3%    -3,8p.p.   5,6%    -4,2p.p.   4,1%    3,9%    0,2p.p.
+      (% da Receita líquida)
+
+      Margem EBITDA ajustada (R$/m³)          40      139    -71,2%     112     -64,0%     100      72      40,4%
+
+
+
+
+      O segmento apresentou uma redução no volume de 7,2% na comparação 4T18 x 3T18, refletindo a eliminação
+      de operações pouco rentáveis, expressiva redução de volume de um cliente do portfólio e renegociações
+      contratuais. As margens médias de negociação nas vendas às companhias aéreas nacionais e estrangeiras
+
+                                                      8
+ri.br.com.br
+ri@br.com.br
+      foram mantidas. Na comparação com o 4T17, a redução no volume foi de 3,9%, refletindo o reposicionamento
+      da Companhia neste segmento que encerrou o ano com presença em 99 aeroportos no Brasil.
+
+
+      A receita líquida atingiu R$ 2.619 milhões no 4T18, um acréscimo de 33,4% comparado com o 4T17, em função
+      dos maiores preços médios de vendas de produtos, os quais, por sua vez, são afetados pelo aumento do preço
+      do combustível no mercado internacional. Em relação ao 3T18, a receita líquida apresentou um decréscimo de
+      2,7%, em decorrência da redução nos preços médios de venda no trimestre.
+
+
+      O lucro bruto neste trimestre foi de R$ 209 milhões, uma redução de 4,1% em relação ao 4T17 e de 18,7% em
+      comparação ao 3T18, em função de menores volumes de venda e principalmente do impacto nos estoques pela
+      redução do preço dos combustíveis.
+
+
+      As despesas operacionais atingiram R$ 181 milhões no 4T18, um aumento de 57,4% em relação ao 3T18, e um
+      incremento de 65,5% na comparação com o 4T17, principalmente devido ao maior provisionamento de clientes
+      no período, na ordem de R$ 50 milhões.
+
+
+      O EBITDA ajustado foi de R$ 393 milhões (ou R$ 100/m³) no acumulado de 2018 vs R$ 272 milhões (ou R$ 72/m³)
+      no acumulado de 2017. Esse resultado decorre do incremento no volume de vendas e maiores margens médias
+      de comercialização no comparativo YoY. No 4T18, em particular, o EBITDA apresentou um decréscimo de 71,2%
+      na comparação com o 3T18 e de 64% na comparação com o 4T17. Esse quadro é reflexo do efeito conjunto da
+      redução de preços nos estoques, dos menores volumes de venda e do incremento nas provisões de clientes.
+
+
+      MERCADOS ESPECIAIS (COQUE, PRODUTOS QUÍMICOS, ENERGIA E ASFALTOS)
+
+      Em milhões de reais                                       4T18 x            4T18 x                     2018 x
+                                               4T18    3T18               4T17               2018    2017
+      (exceto onde indicado)                                     3T18              4T17                       2017
+
+      Volume de vendas (mil m³)                1.210   1.246    -2,9%     1.358   -10,9%     4.883   5.321   -8,2%
+
+      Receita líquida ajustada                 1.473   1.471     0,1%     1.258    17,1%     5.425   4.716   15,0%
+
+      Lucro bruto ajustado                     248      235      5,5%     229      8,3%      921     729     26,3%
+
+      Margem bruta ajustada (% da Receita
+                                               16,8%   16,0%    0,9p.p.   18,2%   -1,4p.p.   17,0%   15,5%   1,5p.p.
+      líquida)
+
+      Margem bruta ajustada (R$/m³)            205      189      8,7%     169      21,5%     189     137     37,7%
+
+      Despesas operacionais ajustadas           72         62   16,1%     106     -32,1%     279     322     -13,4%
+
+      EBITDA ajustado                          176      173      1,7%     128      37,5%     642     412     55,8%
+
+      Margem EBITDA ajustada
+                                               11,9%   11,8%    0,1p.p.   10,2%   1,7p.p.    11,8%   8,7%    3,1p.p.
+      (% da Receita líquida)
+
+      Margem EBITDA ajustada (R$/m³)           145      139      4,8%      94      54,3%     131      77     69,8%
+
+
+
+      O segmento apresentou menores volumes de vendas no 4T18 (-2,9%) em comparação ao 3T18. Em relação ao
+      4T17, apresentou uma redução de 10,9% em função de uma menor disponibilidade de coque verde de petróleo
+      no mercado.
+
+
+
+
+                                                       9
+ri.br.com.br
+ri@br.com.br
+      A Receita líquida atingiu R$ 1.473 milhões no 4T18, mantendo-se estável em relação ao 3T18. Na comparação
+      com o 4T17 apresentou um aumento de 17,1%. Essa variação positiva decorre, principalmente, do aumento nos
+      preços médios de venda.
+
+
+      O Lucro bruto alcançou R$ 248 milhões no 4T18, um incremento de 8,3% em relação ao 4T17, em função do
+      aumento da margem do coque, fato ocasionado pela alta do preço do carvão no mercado internacional,
+      afetando a formação do seu preço de venda. Em comparação ao 3T18, o lucro bruto apresentou um aumento
+      de 5,5%, decorrente do incremento nos volumes vendidos de produtos químicos, com maiores margens médias
+      de comercialização.
+
+
+      As despesas operacionais atingiram R$ 72 milhões no 4T18, 32,1% inferior ao patamar do 4T17 e superior em
+      16,1% na comparação com o 3T18. A variação nas despesas é explicada pela oscilação do volume vendido e
+      pelo tipo de operação realizada considerando o mix de comercialização.
+
+
+      O EBITDA ajustado alcançou R$ 176 milhões no 4T18, um acréscimo de 37,5% em relação ao 4T17 e 1,7% em
+      relação ao 3T18. Este resultado está relacionado ao aumento no lucro bruto principalmente em função das
+      maiores margens de comercialização.
+
+
+
+
+      CORPORATIVO
+
+      O Corporativo é composto, principalmente, pelo overhead da companhia não alocado aos demais segmentos.
+      Os valores classificados como corporativos são apresentados abaixo:
+
+
+      Em milhões de reais                                4T18 x              4T18 x                     2018 x
+                                        4T18    3T18                 4T17             2018     2017
+      (exceto onde indicado)                              3T18                4T17                       2017
+      Despesas operacionais ajustadas   (232)   (186)     24,7%      (222)    4,5%    (731)    (710)     3,0%
+      EBITDA ajustado                   (231)   (187)        23,5%   (228)    1,3%    (732)    (717)     2,1%
+
+
+      As despesas operacionais ajustadas alocadas no corporativo representam, principalmente, despesas com
+      provisões atuariais com planos de pensão e de saúde a inativos (4T18: R$ 80 milhões; 4T17: R$ 99 milhões).
+      Houve também um aumento nas despesas relacionadas a campanha de propaganda e marketing no trimestre.
+
+
+
+
+                                                        10
+ri.br.com.br
+ri@br.com.br
+      ENDIVIDAMENTO
+
+       Em milhões de Reais (exceto onde indicado)             2018               2017             2018 x 2017
+
+       Financiamentos                                         5.524              4.640               19,05%
+       Cessão de direitos creditórios                          31                 26                 19,23%
+       Arrendamentos mercantis                                 48                 72                 -33,3%
+
+
+       Dívida Bruta                                           5.603              4.738               18,3%
+
+
+       (-) Disponibilidades                                   3.057               483                532,9%
+       (-) FIDC                                                190                370                -48,6%
+
+
+       Dívida Líquida                                         2.356              3.885               -39,4%
+
+
+       LTM EBITDA Ajustado                                    2.558              3.067               -16,6%
+
+       Dívida Líquida/EBITDA Ajustado (X)                     0,9x                1,3x                -0,4x
+
+       Custo médio da dívida (% do CDI)                       109%              114,5%              -5,5 p.p.
+
+       Prazo médio da dívida (anos)                            2,4                2,9
+
+
+
+
+      O endividamento bruto consolidado da Companhia alcançou em 2018 o montante de R$ 5.603 milhões. Na
+      comparação com 2017 a dívida bruta aumentou em 18,3% em razão da emissão das debêntures não conversíveis
+      em ações, vinculadas aos Certificados de Recebíveis do Agronegócio realizada em julho/18. Encerramos 2018
+      com uma dívida líquida de R$ 2.356 milhões. Na comparação com 2017, a dívida líquida foi 39,4% inferior,
+      devido principalmente a grande geração de caixa livre no ano e aos recebimentos relacionados aos instrumentos
+      de confissão de dívidas firmados com as subsidiárias da Eletrobras. Para o cálculo da dívida líquida, foi
+      considerado o saldo da aplicação no FIDC (Fundo de Investimento em Direitos Creditórios) de R$ 190 milhões.
+
+
+      O prazo médio do endividamento da companhia passou de 2,9 anos para 2,4 anos. Já a relação Dívida
+      Líquida/EBITDA Ajustado encerrou 2018 em 0,9x (vs 1,3x em 2017). Vale mencionar que o endividamento da
+      Companhia é integralmente referenciado em moeda nacional (Reais).
+
+
+
+
+                                                        11
+ri.br.com.br
+ri@br.com.br
+      MERCADO DE CAPITAIS
+
+      O volume financeiro médio da Petrobras Distribuidora negociado desde o início da negociação do ativo na B3 –
+      Brasil, Bolsa & Balcão - é de R$ 4.126 milhões/dia, confirmando a boa liquidez do papel. As ações da Companhia
+      encerraram o pregão de 25/02/2019 cotadas a R$ 24,52 na B3, apresentando uma valorização de 63,5% desde
+      a data de sua oferta pública. No mesmo período, o índice Ibovespa apresentou uma valorização de 34%.
+
+
+
+                                    ATIVO BRDT3                                           BRDT    BVSP
+
+        Quantidade de ações (mil)                        1.165.000
+        Cotação em 25/02/2019                               24,52
+        Valor de mercado em [25/02/2019] (R$ milhões)      28.566
+                       Período 15/12/2017 a 25/02/2019
+        Volume médio ações/dia                           4.126.235
+        Volume financeiro médio/dia (R$ mil)               88.731
+        Cotação média (R$/ação)                             20,97
+                                                                     15/12   23/2   4/5    13/7    21/9    30/11       8/2
+
+
+
+
+      JUROS SOBRE O CAPITAL PRÓPRIO E DIVIDENDOS
+
+      O Conselho de Administração da Companhia aprovou, em 30 de novembro de 2018, a antecipação de Juros
+      sobre Capital Próprio referente ao exercício de 2018, no montante de R$ 563.795.476,50, correspondentes a
+      R$ 0,48394461502 por ação, a deduzir o valor relativo ao Imposto de Renda Retido na Fonte (IRRF).
+
+
+      O referido pagamento, será efetuado no dia 30 de abril de 2019, com base na posição acionária de 11 de
+      dezembro 2018 (inclusive).
+
+
+      A Cia proporá, ainda, a AGO (Assembleia Geral Ordinária) de 2019 que o lucro líquido de R$3.193 milhões
+      apurado no exercício de 2018 tenha a seguinte destinação:
+      (a) seja contabilizado como Reserva Legal o valor de R$160 milhões;
+      (b) seja contabilizado como Reserva de Incentivos Fiscais o valor de R$412 mil; e
+      (c) sejam destinados como dividendos totais brutos o montante de R$3.033 milhões, a deduzir o montante de
+      R$563 milhões referentes a antecipação de JSCP.
+
+
+      Os dividendos serão atualizados monetariamente até a data do pagamento, conforme disposto no artigo 53 do
+      Estatuto Social.
+
+
+
+
+                                                           12
+ri.br.com.br
+ri@br.com.br
+      NEGOCIAÇÃO DE DÍVIDAS DO SISTEMA ELETROBRAS
+
+      Em 30 de abril de 2018, as Centrais Elétricas Brasileiras S.A. – Eletrobras e suas distribuidoras de energia
+      (Eletrobras Amazonas, Eletrobras Roraima, Eletrobras Rondônia e Eletrobras Acre) firmaram instrumentos de
+      confissão de dívida com a Petrobras Distribuidora no valor atualizado de R$ 4,6 bilhões.
+
+
+      Informamos que temos recebido regularmente as parcelas conforme o acordo firmado, o qual contempla 36
+      prestações mensais (sem carência), atualizadas por taxas de mercado. Até a presente data recebemos 9
+      parcelas, e duas antecipações referentes às distribuidoras Eletrobras Acre e Eletrobras Rondônia, agora
+      controladas pelo grupo Energisa S.A., totalizando 1.788,2 milhões de reais.
+
+
+
+
+                                                       13
+ri.br.com.br
+ri@br.com.br
+      VOLUME DE VENDAS (MIL M³)
+
+                                                            4T18 x            4T18 x                     2018 x
+                  Produtos           4T18     3T18                   4T17              2018     2017
+                                                             3T18              4T17                       2017
+
+     Diesel Não Térmicas             4.251    4.657         -8,7%    4.157     2,2%    17.124   16.731    2,3%
+
+     Diesel Térmicas                  75       68           11,0%     101     -26,0%    277      462     -40,1%
+
+     Ciclo OTTO                      3.436    3.206          7,2%    3.466    -0,9%    13.057   13.513   -3,4%
+
+     Óleo Combustível Não Térmicas    324      310           4,4%     581     -44,3%   1.310    1.917    -31,7%
+
+     Óleo Combustível Térmicas        101      384          -73,7%    308     -67,2%    703     1.121    -37,3%
+
+     Aviação e Outros                2.226    2.342         -5,0%    2.413    -7,8%    9.077    9.430    -3,7%
+
+     Total                           10.412   10.966        -5,0%    11.028   -5,6%    41.548   43.175   -3,8%
+
+
+
+
+                                                       14
+ri.br.com.br
+ri@br.com.br
+        RECONCILIAÇÃO DO FLUXO DE CAIXA
+
+        A necessidade de capital de giro foi menor neste período, resultando em uma maior geração de caixa
+        operacional livre quando comparado com 2017.
+
+
+        Em milhões de Reais                                                                        2018              2017
+        EBITDA                                                                                     2.803              2.574
+        IR/CS pagos                                                                                 (26)               (96)
+        Efeitos não caixa no EBITDA                                                                   59                892
+        Capital de giro                                                                              492            (2.100)
+        Fluxo de Caixa das Atividades Operacionais                                                 3.328             1.270
+        CAPEX                                                                                       (431)             (300)
+        Outros                                                                                          2                14
+        Fluxo de Caixa das Atividades de Investimentos                                             (429)              (286)
+        FLUXO DE CAIXA LIVRE                                                                       2.899               984
+        Financiamentos/arrendamentos                                                                 474            (9.385)
+        FIDC                                                                                         235              2.599
+        Integralização de capital                                                                      -              6.313
+        Fluxo de Caixa das Atividades de Financiamentos                                              709              (473)
+        CAIXA LIVRE PARA OS ACIONISTAS                                                             3.608               511
+        Dividendos/Juros sobre o capital próprio pagos a acionistas                               (1.034)             (683)
+        Caixa líquido gerado (consumido) no período                                                2.574              (172)
+        Saldo inicial                                                                                483                655
+        Saldo final                                                                                3.057               483
+
+
+      Observações:
+      1.Os recursos de caixa aplicados em bonificações antecipadas a clientes, de R$ 597 milhões em 2018 (R$ 569 milhões em
+      2017) são apresentados na variação do capital de giro.
+      2.Os recursos de caixa aplicados em bonificações por performance, de R$ 255 milhões em 2018 (R$ 248 milhões em 2017)
+      são deduzidos do EBITDA.
+      3.Aplicações de recursos em Capex representam desembolsos para formação de ativos imobilizados e intangíveis e não
+      incluem as bonificações antecipadas a clientes.
+      4.“Efeitos não caixa no EBITDA” incluem: perdas estimadas em créditos de liquidação duvidosa, perdas e provisões em
+      processos judiciais e administrativos, planos de pensão e de saúde (2018: R$ 438 milhões; 2017: R$ 503 milhões) e PIDV,
+      resultado com alienação de ativos, resultado de participações em investimentos relevantes, amortização das bonificações
+      antecipadas a clientes, amortização de seguros, aluguéis e outros, juros e variações monetárias/cambiais líquidas (estes
+      deduzidos do resultado financeiro líquido) e outros ajustes, conforme apresentados na Demonstração dos Fluxos de Caixa,
+      parte integrante das Demonstrações Contábeis anuais.
+      5.FIDC (Fundo de Investimentos em Direitos Creditórios): fundo exclusivo e corporativo do Sistema Petrobras. É destinado
+      preponderantemente à aquisição de direitos creditórios “performados” e/ou “não performados” de operações realizadas
+      por empresas do Sistema Petrobras.
+
+
+
+
+                                                               15
+ri.br.com.br
+ri@br.com.br
+      CONSIDERAÇÕES SOBRE AS INFORMAÇÕES FINANCEIRAS E OPERACIONAIS
+
+      O EBITDA ajustado da Companhia é uma medição adotada pela Administração e consiste no lucro
+      líquido da Companhia, acrescido do resultado financeiro líquido, do imposto de renda e da
+      contribuição social, das despesas com depreciação e amortização, da amortização das bonificações
+      antecipadas a clientes (as bonificações antecipadas a clientes são apresentadas no ativo circulante
+      e não circulante), perdas estimadas em crédito de liquidação duvidosa do sistema isolado e
+      interligado de energia, perdas e provisões com processos judiciais, plano de incentivo do
+      desligamento voluntário (PIDV), gastos com anistias fiscais e encargos tributários sobre receitas
+      financeiras.
+
+
+      A Margem EBITDA Ajustada é um índice calculado por meio da divisão do EBITDA Ajustado pelo volume
+      de produtos vendidos. A Companhia utiliza a Margem EBITDA ajustado por entender ser um bom
+      indicador da rentabilidade de seus segmentos de negócios.
+
+      Reconciliação do EBITDA                                                                  Consolidado
+      R$ milhões                                                             4T18      3T18       4T17     2018      2017
+      Composição do EBITDA
+      Lucro Líquido                                                           1.605    1.078       531      3.193    1.151
+      Resultado financeiro líquido                                           (1.847)   (353)        89     (2.423)    557
+      Imposto de renda e contribuição social                                   577      696         15      1.616     414
+      Depreciação e amortização                                                102      102        109       417      452
+      EBITDA                                                                   437     1.523       744      2.803    2.574
+      Perdas estimadas em créditos de liquidação duvidosa - Setor Elétrico
+                                                                              (96)       (5)       (10)    (120)     (155)
+      (Sistema Isolado e Interligado)
+      Perdas e provisões com processos judiciais e administrativos             52      (1.210)      15      (991)      119
+      Amortização de bonificações antecipadas concedidas a clientes           134        131       127       522       545
+      Plano de Incentivo ao Desligamento Voluntário - PIDV                     76          -        (1)      92       (144)
+      Programa de Anistias Fiscais                                              4        187         -       193        80
+      Despesas tributárias sobre resultado financeiro                          39          5         8       59         48
+      EBITDA AJUSTADO                                                         646        631       883     2.558     3.067
+      Volumes de vendas (milhões de m³)                                      10.412    10.966     11.028   41.548    43.175
+      MARGEM EBITDA AJUSTADA (R$/m³)                                           62         58        80       62        71
+
+
+
+
+                                                             16
+ri.br.com.br
+ri@br.com.br
+        DEMONSTRATIVO DA POSIÇÃO FINANCEIRA - ATIVO – EM MILHÕES DE REAIS
+
+
+
+                                                                  Consolidado          Controladora
+    Ativo                                                     2018          2017    2018          2017
+
+    Circulante
+      Caixa e equivalentes de caixa                            3.057         483     2.830         257
+      Contas a receber, líquidas                               5.327        5.528    5.413        5.574
+      Estoques                                                 2.923        3.245    2.898        3.224
+      Adiantamentos a fornecedores                               12           74       12           74
+      Imposto de renda e contribuição social                     13          151       10          150
+      Impostos e contribuições a recuperar                      722          522      655          483
+      Bonificações antecipadas concedidas a clientes            591          514      591          514
+      Despesas antecipadas                                       45           40       44           40
+      Ativos mantidos para venda                                 15            2       12            2
+      Outros ativos circulantes                                  98          144      101          142
+                                                              12.803       10.703   12.566       10.460
+
+
+
+    Não circulante
+    Realizável a longo prazo
+      Contas a receber, líquidas                              1.155          376    1.153          376
+      Depósitos judiciais                                     1.051         1.000   1.027          977
+      Impostos e contribuições a recuperar                     498           541     428           469
+      Imposto de renda e contribuição social diferidos        1.863         3.162   1.845         3.150
+      Bonificações antecipadas concedidas a clientes          1.467         1.469   1.467         1.469
+      Despesas antecipadas                                     180           182     180           182
+      Empréstimos concedidos a partes relacionadas               -             -     136             -
+      Outros ativos realizáveis a longo prazo                   22            24      16            19
+                                                              6.236         6.754   6.252         6.642
+
+      Investimentos                                              33           36      321          334
+      Imobilizado                                              5.797        5.816    5.293        5.338
+      Intangível                                                476          453      474          451
+                                                              12.542       13.059   12.340       12.765
+    Total do Ativo                                            25.345       23.762   24.906       23.225
+
+
+
+
+                                                         17
+ri.br.com.br
+ri@br.com.br
+        DEMONSTRATIVO DA POSIÇÃO FINANCEIRA – PASSIVO E PATRIMÔNIO LÍQUIDO
+        EM MILHÕES DE REAIS
+
+
+
+
+                                                                      Consolidado             Controladora
+     Passivo                                                      2018            2017     2018          2017
+
+     Circulante
+       Fornecedores                                               2.219           2.682    2.251         2.645
+       Financiamentos                                              210             185       94            78
+       Cessão de direitos creditórios                               31              26        -             -
+       Arrendamentos mercantis financeiros                          29              29      131           126
+       Adiantamentos de clientes                                   299             363      297           355
+       Imposto de renda e contribuição social                       45               1       44             -
+       Impostos e contribuições a recolher                         300             277      291           269
+       Dividendos e Juros sobre o capital próprio                  758             273      758           273
+       Salários, férias e encargos                                 223             193      221           191
+       Participações nos lucros ou resultados                       67              26       67            26
+       Plano de incentivo ao desligamento voluntário                83               8       83             8
+       Planos de pensão e saúde                                    154             134      154           134
+       Outras contas e despesas a pagar                            143             216      152           250
+                                                                  4.561           4.413    4.543         4.355
+     Não circulante
+       Financiamentos                                              5.314          4.455     4.486        3.550
+       Arrendamentos mercantis financeiros                           19            43        432          474
+       Planos de pensão e saúde                                    4.755          3.932     4.750        3.928
+       Provisão para processos judiciais e administrativos         1.001          2.079     1.001        2.078
+       Outras contas e despesas a pagar                               9            14         8           14
+                                                                  11.098         10.523    10.677       10.044
+                                                                  15.659         14.936    15.220       14.399
+
+     Patrimônio líquido
+       Capital social realizado                                    6.353          6.352     6.353        6.352
+       Reservas de lucros                                          5.259          3.897     5.259        3.897
+       Ajuste de avaliação patrimonial                            (1.926)        (1.423)   (1.926)      (1.423)
+                                                                   9.686          8.826     9.686        8.826
+     Total do Passivo                                             25.345         23.762    24.906       23.225
+
+
+
+
+                                                             18
+ri.br.com.br
+ri@br.com.br
+        DEMONSTRAÇÃO DE RESULTADOS – EM MILHÕES DE REAIS
+
+
+
+                                                                        Consolidado             Controladora
+                                                                    2018           2017      2018          2017
+
+ Receita de vendas de produtos e serviços prestados                 97.770        84.567     97.014       84.022
+   Custo dos produtos vendidos e serviços prestados                (91.914)      (78.200)   (91.234)     (77.719)
+ Lucro bruto                                                        5.856         6.367      5.780        6.303
+ Despesas operacionais
+   Vendas                                                          (2.927)       (2.952)    (2.889)      (2.911)
+   Gerais e administrativas                                         (786)         (835)      (767)        (815)
+   Tributárias                                                      (315)         (172)      (312)        (168)
+   Outras receitas (despesas), líquidas                              559          (284)       560         (284)
+                                                                   (3.469)       (4.243)    (3.408)      (4.178)
+ Lucro antes do resultado financeiro, participação e
+                                                                    2.387         2.124      2.372        2.125
+ impostos
+   Financeiras
+     Despesas                                                       (419)        (1.231)     (463)        (1.267)
+     Receitas                                                       2.959          376       2.937          344
+     Variações cambiais e monetárias, líquidas                      (117)          298        (78)          356
+                                                                    2.423         (557)      2.396         (567)
+ Resultado de participações em investimentos                         (1)           (2)         37            6
+ Lucro antes dos impostos                                           4.809         1.565      4.805         1.564
+ Imposto de renda e contribuição social
+   Corrente                                                         (126)         (196)      (124)        (194)
+   Diferido                                                        (1.490)        (218)     (1.488)       (219)
+                                                                   (1.616)        (414)     (1.612)       (413)
+ Lucro líquido do exercício                                         3.193         1.151      3.193        1.151
+ Lucro líquido, básico e diluído por ação do capital social
+                                                                    2,74          0,99       2,74          0,99
+ - R$
+ Capital social composto de 1.165.000.000 ações ordinárias.
+
+
+
+
+                                                              19
+ri.br.com.br
+ri@br.com.br
+        INFORMAÇÕES POR SEGMENTOS – EM MILHÕES DE REAIS
+
+
+
+        Demonstração Consolidada do Resultado por Área de Negócio - Dez/18
+
+
+
+
+                                                                                          Total
+                                        Rede             Mercado                           dos    Reconciliação
+                                         de    Mercado      de   Mercados                        Demonstrações
+                                       Postos Consumidor Aviação Especiais Corporativo segmentos    Contábeis     Total
+Receita de Vendas                      57.933   25.348    9.586    5.425        -        98.292       (522)      97.770
+Custo dos produtos vendidos           (54.707) (24.022)  (8.669)  (4.504)       -       (91.902)       (12)     (91.914)
+Lucro bruto                            3.226    1.326      917      921         -        6.390        (534)      5.856
+Despesas
+   Vendas, gerais e
+                                      (1.674)    (767)     (524)      (302)      (161)    (3.428)      (285)     (3.713)
+administrativas
+   Tributárias                          (4)        -        (2)        (8)       (49)      (63)        (252)      (315)
+   Outras receitas (despesas),
+                                       148         -         2         31        (521)    (340)        899         559
+líquidas
+Resultado de participações em
+                                         -         -         -          -         (1)       (1)          -         (1)
+investimentos
+Resultado financeiro líquido            -         -         -          -           -        -         2.423       2.423
+EBITDA Ajustado                       1.696      559       393        642        (732)    2.558
+Lucro (Prejuízo) antes dos
+                                                                                                      2.251       4.809
+impostos
+
+
+
+
+        Demonstração Consolidada do Resultado por Área de Negócio - Dez/17
+
+
+
+                                         Rede             Mercado                          Total   Reconciliação
+                                          de    Mercado     de    Mercados                  dos   Demonstrações
+                                        Postos Consumidor Aviação Especiais Corporativo segmentos    Contábeis     Total
+Receita de Vendas                       50.999    22.450   6.947    4.716        -        85.112       (545)      84.567
+Custo dos produtos vendidos            (47.227)  (20.749) (6.224)  (3.987)       -       (78.187)       (13)     (78.200)
+Lucro bruto                             3.772     1.701     723      729         -        6.925        (558)      6.367
+Despesas
+   Vendas, gerais e administrativas    (1.624)    (928)     (467)      (335)      (149)    (3.503)      (284)     (3.787)
+   Tributárias                           (5)       (2)       (3)        (10)       (24)      (44)       (128)      (172)
+   Outras receitas (despesas),
+                                         186           -         19         23    (537)     (309)        25        (284)
+líquidas
+Resultado de participações em
+                                             -         -         -          5      (7)       (2)             -      (2)
+investimentos
+Resultado financeiro líquido              -         -         -          -          -        -          (557)      (557)
+EBITDA Ajustado                         2.329      771       272        412       (717)    3.067
+Lucro (Prejuízo) antes dos
+                                                                                                      (1.502)      1.565
+impostos
+
+
+
+
+                                                            20
+ri.br.com.br
+ri@br.com.br
+INFORMAÇÕES POR SEGMENTOS – RECONCILIAÇÃO COM AS DEMONSTRAÇÕES CONTÁBEIS
+EM MILHÕES DE REAIS
+
+
+Reconciliação com as demonstrações contábeis                                                                        2018     2017
+
+
+(a) Receita de Vendas
+Apropriação das bonificações antecipadas concedidas a clientes
+
+As receitas de vendas são ajustadas pelas bonificações antecipadas concedidas aos revendedores dos postos de
+serviço para os quais a Companhia distribui combustíveis e lubrificantes. Correspondem à parcela disponibilizada,
+principalmente, em espécie e realizada sob condições pré-estabelecidas com tais partes, que uma vez cumpridas,
+tornam-se inexigíveis, sendo absorvidas como despesa pela Companhia. Trata-se de um regime de metas que,            (522)    (545)
+uma vez atingidas, isenta os recipientes, revendedores dos postos de serviço, da devolução à Companhia desses
+valores antecipados a título de bonificação. São reconhecidas no resultado proporcionalmente aos seus prazos de
+vigência.
+
+(b) Custo dos produtos vendidos
+Depreciação e amortização                                                                                           (12)     (13)
+
+
+(c) Vendas, gerais e administrativas
+Depreciação e amortização                                                                                           (405)    (439)
+Perdas de crédito esperadas
+Os valores ajustados referem-se às provisões relativas aos recebíveis devidos à Companhia pelas empresas
+térmicas do sistema isolado e interligado de energia, segmento atendido substancialmente pela Companhia e que        120     155
+vêm ultimamente enfrentando dificuldades financeiras.
+(d) Impostos
+
+Os ajustes de impostos referem-se à anistias fiscais e encargos tributários sobre receitas financeiras.
+
+Anistias fiscais: trata-se das provisões para pagamentos referente a adesão aos programas de anistia instituídos
+por Leis Estaduais e do Programa Especial de Regularização Tributária (PERT) da União sobre passivos tributários
+de ICMS e de tributos federais junto aos Estados e União, respectivamente. A Companhia considera o ajuste           (193)    (80)
+apropriado porque fornece informações adicionais aos investidores, visto que não são decorrentes de nossas
+operações principais.
+Encargos tributários sobre receitas financeiras: os ajustes são referentes aos gastos com IOF, PASEP e COFINS
+                                                                                                                    (59)     (48)
+incidentes sobre as receitas financeiras da Companhia e que estão classificados em despesas tributárias.
+
+(e) Outras receitas (despesas), líquidas
+Perdas e provisões com processos judiciais
+
+Os valores ajustados se referem às perdas incorridas em processos transitados em julgado, bem como as provisões
+efetuadas com base nos pareceres obtidos junto aos advogados responsáveis pelo acompanhamento dos processos          991     (119)
+judiciais ou pela própria área jurídica da Companhia.
+
+Plano de incentivo ao desligamento voluntário
+Os ajustes referem-se aos valores que impactaram os resultados da Companhia pela provisão dos gastos estimados
+com indenizações relativas ao plano, bem como pela reversão da provisão em função das desistências de adesão        (92)     144
+ao plano ocorridas nos respectivos períodos.
+
+
+(f) Resultado Financeiro, líquido                                                                                   2.423    (557)
+Total                                                                                                               2.251   (1.502)
+
+
+
+
+                                                               21
+ri.br.com.br
+ri@br.com.br
+  PETROBRAS
+  DISTRIBUIDORA
+  4Q18 Performance
+  —
+
+
+
+
+                 1
+ri.br.com.br
+ri@br.com.br
+      4Q18 CONFERENCE CALL
+
+
+      Petrobras Distribuidora is hosting a teleconference with simultaneous translation on February 26, 2019 to
+      discuss the Company’s earnings for the fourth quarter of 2018. The presentation can be downloaded from the
+      Company’s website one hour before the teleconferences commence.
+
+      Time 11:30 AM (Brasília time) / 09:30 AM (New York)
+      Telephone numbers:
+      Brazil:          +55 (11) 3127-4971 / +55 (11) 3728-5971
+      New York:        +1 (929) 378 3440
+      London:          +44 (20) 3972 0813
+      Link for access: https://webcastlite.mziq.com/cover.html?webcastId=f625962e-a532-4684-a574-
+      70dcab1bf0c3
+
+      In the event of queries or if you are unable to connect to the call, please contact us on the e-mail
+      sac@voitel.com.br or the telephone +55 (11) 4003 -1858.
+
+
+      The transcription, presentation and audio will be made available after the teleconference/webcast on the
+      Company’s site: ri.br.com.br
+
+
+
+
+                                                        2
+ri.br.com.br
+ri@br.com.br
+      2018 Highlights
+      —
+      R$ 3.3 billion                      R$ 3.2 billion           R$ 67/m3                   R$ 2.4 billion
+
+      CASH                                NET                      NORMALIZED                 NET
+      GENERATION            162 % 162INCOME
+                                      %                    176 %   EBITDA 176 %               DEBT               398%%
+                            %%
+
+
+
+      In December 2018, Petrobras Distribuidora completed one year since it made its initial public share offering. It
+      was a year replete with many achievements and challenges for the company. The company managed to achieve
+      good results despite regulatory discussions and a contracting market - with a performance lower than in 2017
+      aggravated by the truck driver strike. The disciplined management of working capital, receivables and liabilities
+      enabled us to generate additional operating cash upwards of R$ 3 billion - paying down the company’s net debt
+      by 39% - and a record net income of R$ 3.2 billion at the end of 2018, Positively impacted by recognizing the
+      Debt Acknowledgment Instruments - ICDs with the distribution companies and former distribution companies
+      of Eletrobrás (R$ 1.6 billion) and the ICMS agreement with Mato Grosso state (R$ 645 million).
+
+
+      The normalized EBITDA margin amounted to R$ 67/m 3, remaining at the same level in 2017. The valuation of
+      the company’s stock (BRDT3) on B3 - which has now risen by 60% since flotation - is another sign of its good
+      performance and potential delivery of results, reflecting investor confidence.
+
+
+      We also point out that in December 2018 the Company approved its new business and management plan for the
+      period 2019 to 2023 underpinned by mobility and convenience. The plan focuses on efficiency gains for the
+      company and creating value by implementing new ventures aimed at the Company's growth through the
+      increase of outlet share in the service station network, entry of new businesses and products. A number of
+      initiatives in line with this strategic direction were implemented in 2018 and are ongoing in 2019, such as: zero-
+      based budgeting, reorganizing staffing structures, redefining duties, renegotiating service agreements, and
+      reviewing processes and implementing BPOs1 and RPAs2.
+
+
+
+
+         1
+             Business Process Outsourcing
+         2
+             Robotic Process Administration
+
+
+
+
+                                                               3
+ri.br.com.br
+ri@br.com.br
+      PERFORMANCE BY BUSINESS
+
+
+      Consolidated3
+
+                                                                                                      4Q18
+       In millions of reais                                                 4Q18 vs.                                                   2018 vs.
+                                                       4Q18        3Q18                   4Q17         vs.        2018       2017
+       (except when specified)                                               3Q18                                                       2017
+                                                                                                      4Q17
+
+       Volume of sales (thousand m3)                   10,412     10,966      -5.0%       11,028       -5.6%     41,548     43,175       -3.8%
+
+       Net revenue                                     25,219     26,455      -4.7%       23,204       8.7%      97,770     84,567       15.6%
+
+       Gross income                                    1,504       1,519      -1.0%       1,806       -16.7%     5,856       6,367       -8.0%
+
+       Gross margin (% Net revenue)                     6.0%       5.7%      0.3p.p.       7.8%      -1.8p.p.     6.0%       7.5%       -1.5p.p.
+
+       Gross margin (R$/m3)                             144         139        4.3%         164       -11.8%       141        147        -4.4%
+
+       Operating expenses *                            1,170       1,224      -4.4%       1,170          -       4,596       4,243        8.3%
+
+       Finance income                                  1,847        353       (n/a)        (89)        (n/a)     2,423       (557)       (n/a)
+
+       Net income                                      1,605       1,078      48.9%         531       202.3%     3,193       1,151      177.4%
+
+       Adjusted EBITDA                                  646         631        2.4%         883       -26.8%     2,558       3,067      -16.6%
+
+       Adjusted EBITDA margin
+                                                        2.6%       2.4%      0.2 p.p.      3.8%      -1.2p.p.     2.6%       3.6%       -1.0p.p.
+       (% of net revenue)
+
+       Adjusted EBITDA margin (R$/m3)                    62         58         7.8%         80        -22.5%       62         71        -13.3%
+
+       Net debt                                        2,356       3,842       -39%       3,885        -40%      2,356       3,842        -39%
+
+       Adjusted EBITDA LTM                             2,558       2,795      -8.5%       3,067        -17%      2,558       3,067        -17%
+
+       Net debt/Adjusted EBITDA (x)                      0.9        1.4        -0.5         1.3        -0.4        0.9        1.3         -0.4
+
+      * In order to ensure Operating Expenses between the reported periods remain comparable, a net adjustment was made of R$ 1,127 million
+      (R$ 1313 million - R$ 186 million) in the periods 3Q18 and 2018, for the reversal of the provision for the extrajudicial settlement reached
+      with Mato Grosso state.
+
+      This quarter the company presented net revenue of R$ 25,219 million, an increase of 8.7% on 4Q17 and an
+      increase of 15.6% in the annual comparison. This growth is due to higher average sale prices, as a result of the
+      strategy to drive up profits.
+
+      As regards gross profit, we observed a decrease of 1.0% on 3Q18 (R$ 1,504 million vs. R$ 1,519 million) as a result
+      of the lower sales volume and value of fuel in this period, affecting the accounting margin. The lower
+      participation of gasoline in the product mix in detriment to alcohol also impacted profitability.
+
+
+
+
+        3
+          The Consolidated figures denote the sum of the segments: Retail, Corporate Consumer Market, Aviation Market and Special Market,
+        in addition to the Company’s overhead not allocated to segments, which is grouped under Corporate.
+
+
+
+
+                                                                     4
+ri.br.com.br
+ri@br.com.br
+      Operating expenses fell by 4.4% in comparison with 3Q18 due to lower freight expenditure (due to the lower
+      sales volume), lower supply of fuels to thermal power plants and reaping the benefits of implementing zero-
+      based budgeting. In comparison with 4Q17 the figures were the same.
+
+
+      Net financial income rose by R$ 1,494 million from R$ 353 million in 3Q18 to R$ 1,847 in 4Q18, due to the
+      strong working capital management, enhancing capital allocation and receipts of payments under the debt
+      acknowledgment agreement entered into with Eletrobras.
+
+
+      The net income recorded in 4Q18 amounted to R$ 1,605 million compared with R$ 1,078 million in 3Q18 and
+      R$ 531 million in 4Q17. The increase in this item was primarily due to the events occurring in the quarter such
+      as remeasuring the fair value of the Debt Acknowledgment Agreements -(ICDs) due to the privatizations of
+      Centrais Elétricas de Rondônia, Boa Vista Energia and Eletroacre, electricity distribution subsidiaries of
+      Eletrobras, which were privatized and submitted firm guarantees for these receivables.
+
+
+
+
+          CHANGE IN EBITDA 2018 vs. 2017
+
+
+
+
+      1
+        Inventory gain of R$ 169 MM, due to increase in the PIS/COFINS rate on fuel in July/2017;
+      2
+        Decrease in personnel expenses (-R$ 56 MM);
+      3
+        Provision for payment of 2017 performance award in FY 2018;
+      4
+        Effect on diesel inventory as a result of losses caused by the truck driver strike (R$ 0.46 / liter)
+
+
+
+      As disclosed in the last quarter, the bases were normalized so we could analyze the Adjusted EBITDA Correctly,
+      highlighting in nonrecurrent effect in the period. 2017 was impacted by the PIS and COFINS rate rise in July/17,
+      leading to the Company’s fuel inventories appreciating by R$ 169 million (or R$ 4/m3). The truck driver strike took
+      place in May/18, which resulted in lower diesel prices following a measure introduced by the Federal Government.
+      The carrying amount of the Company's inventory was reduced by R$ 230 million (or R$ 6/m3).
+
+
+      The normalized Adjusted EBITDA reported for the period 2018 is therefore R$ 2,795 million (or R$ 67/m3) compared
+      with an EBITDA of R$ 2,898 million (or R$ 67/m3) in the period 2017, remaining stable.
+
+
+
+
+                                                                         5
+ri.br.com.br
+ri@br.com.br
+      RETAIL
+
+     In millions of reais                                        4Q18 vs.            4Q18 vs.                     2018 vs.
+                                          4Q18      3Q18                    4Q17                2018     2017
+     (except when specified)                                      3Q18                4Q17                         2017
+
+     Volume of sales (thousand m3)        5,858     5,741          2.0%     5,845      0.2%     22,534   22,894    -1.6%
+
+     Adjusted net revenue                 15,104    14,946         1.1%     14,091     7.2%     57,933   50,999    13.6%
+
+     Adjusted gross income                 878       751          16.9%     1,060     -17.2%    3,226    3,772     -14.5%
+
+     Adjusted gross margin (% of Net
+                                          5.8%       5.0%        0.8p.p.    7.5%     -1.7p.p.   5.6%     7.4%     -1.8p.p.
+     revenue)
+
+     Adjusted gross margin (R$/m3)         150       131          14.6%      181      -17.4%     143      165      -13.1%
+
+     Adjusted operating expenses           343       448          -23.4%     363      -5.5%     1,530    1,443     6.0%
+
+     Adjusted EBITDA                       535       303          76.6%      697      -23.2%    1,696    2,329     -27.2%
+
+     Adjusted EBITDA margin
+                                          3.5%       2.0%        1.5p.p.    4.9%     -1.4p.p.   2.9%     4.6%     -1.6p.p.
+     (% of net revenue)
+
+     Adjusted EBITDA margin (R$/m3)        91         53          73.0%      119      -23.4%     75       102      -26.0%
+
+
+
+      Retail sales rose by 2.0% on 4Q18 compared with 3Q18, and 0.2% on 4Q17, primarily influenced by higher diesel
+      sales than in 3Q18 and the change to the Otto cycle mix with a greater participation of ethanol than in both
+      quarters (4Q18 and 3Q18).
+
+
+      The net revenue in the segment was R$ 15,104 million in 4Q18, an increase of 7.2% on 4Q17, primarily due to
+      higher average product prices. In relation to 3Q18, the increase of 1.1% in net revenue as explained by the joint
+      effect on the increases in volume and average sale price.
+
+
+      Gross income amounted to R$ 878 million in 4Q18, an increase of 16.9% in relation to 3Q18 and a decrease of
+      17.2% compared with the amount recorded in 4Q17, driven by lower fuel prices and by the change in the Otto
+      cycle sales mix.
+
+
+      Operating expenses amounted to R$ 343 million in 4Q18, a decrease of 23.4% on 3Q18, due to lower provisions
+      for accounts receivable and lower freight costs. In relation to 4Q17, operating expenses fell by 5.5%, due to
+      lower expenses on freight, general and personnel expenses and provisions for receivable.
+
+
+      The adjusted EBITDA amounted to R$ 535 million in 4Q18, an increase of 76.6% on 3Q18, due to higher sales
+      margins. The EBITDA margin rose from R$ 53/m³ in 3Q18, to 91/m³, an increase of 73%. The decrease on 4Q17
+      was 23.4% due to lower fuel prices, pressurizing inventory in the period.
+
+
+      The Company expanded its total station network by 253 units in comparison with 4Q17 and 93 stations in relation
+      to 3Q18, investing a total amount of R$ 934 million in branding and maintenance of the network in 2018. Of this
+      amount, R$ 611 million were earmarked for prepayments to resellers, R$ 255 million to performance bonuses
+      and R$ 68 million for loans to resellers. In 2017, these amounts were, respectively, R$ 902 million, R$ 575 million,
+      R$ 245 million and R$ 82 million.
+
+
+
+
+                                                             6
+ri.br.com.br
+ri@br.com.br
+      It is worth noting that, during 2018, the company adopted firm measures to combat the irregular use of Petrobras
+      brand, which resulted in the de-accreditation of 865 service stations in our network, most of which were already
+      inactive. This measure represents a demonstration of partnership with our resellers’ network and respect with
+      our consumers.
+
+
+      After the reorganization, the total number of service stations will be to 7,665, as shown in the table below:
+
+                                                                                        2018            2017           Expansão
+                  Total number of service stations before de-accreditation              8.530          8.277             253
+                  Number of de-accredited service stations                               865           865 (*)
+                  Total number of service stations                                      7.665          7.412             253
+                  (*) For comparative purposes, in the table above, we adjusted the total number of service stations in 2017
+                  Excluding, as well, de-accredited stations.
+
+
+
+
+      MAJOR CUSTOMERS
+
+                                                                           4Q18                   4Q18
+       In millions of reais                                                                                                        2018 vs.
+                                                    4Q18        3Q18        vs.       4Q17         vs.        2018        2017
+       (except when specified)                                                                                                      2017
+                                                                           3Q18                   4Q17
+
+       Volume of sales (thousand m3)                2,396       2,958      -19%       2,838       -15.6%     10,218       11,156    -8.4%
+
+       Adjusted net revenue                         6,157       7,478     -17.7%      6,019        2.3%      25,348       22,450    12.9%
+
+       Adjusted gross income                         306        410       -25.4%        429       -28.7%      1,326       1,701     -22.0%
+
+       Adjusted gross margin (% of Net
+                                                    5.0%        5.5%     -0.5p.p.      7.1%      -2.1p.p      5.2%        7.6%     -2.3p.p.
+       revenue)
+
+       Adjusted gross margin (R$/m3)                 128        139        -7.9%        151       -15.5%         130       152      -14.9%
+
+       Adjusted operating expenses                   178        210       -15.2%        253       -29.6%         767       930      -17.5%
+
+       Adjusted EBITDA                               128        200       -36.0%        176       -27.3%         559       771      -27.5%
+
+       Adjusted EBITDA margin
+                                                    2.1%        2.7%     -0.6p.p.      2.9%      -0.8p.p.     2.2%        3.4%     -1.2 p.p.
+       (% of net revenue)
+
+       Adjusted EBITDA margin (R$/m3)                 53         68       -21.0%        62        -13.9%         55        69       -20.8%
+
+
+
+
+      In 4Q18 the segment saw sales diminished by 19% on 3Q18, primarily due to lower sales of fuel oil and diesel to
+      thermal power plants. The volume compared with 4Q17 diminished by 15.6% due to the slow economic recovery
+      in Brazil and consequent lower demand from industries, in addition to the reasons already explained in the
+      comparison with 3Q18.
+
+
+      The net revenue was R$ 6,157 million in 4Q18, an increase of 2.3% on 4Q17, primarily due to higher average
+      product sale prices. Net revenue dropped by 17.7% on 3Q18, in line with lower sale volumes and lower average
+      prices.
+
+
+      Gross income amounted to R$ 306 million this quarter, 25.4% less than in 3Q18, due to the lower volume and
+      successive reductions in fuel prices in the quarter, directly impacting the product inventory. Higher sales margins
+
+
+                                                                   7
+ri.br.com.br
+ri@br.com.br
+      were not sufficient to offset the reductions in volume and price. Gross profit contracted by 28.7% on 4Q17, also
+      due to the reduction in the sale volume and lower average sales margins.
+
+
+      Operating expenses amounted to R$ 178 million in 4Q18, a decrease of 15.2% on 3Q18 and 29.6% on 4Q17,
+      accompanying the decrease in the volume and revenue in the analyzed periods and consequently the decrease
+      in freight and personnel expenses and also the lower demand for fuels for thermoelectric power plants.
+
+
+      The adjusted EBITDA amounted to R$ 128 million (or R$ 53/m3) in 4Q18, 36% less than in 3Q18, primarily due to
+      the devaluation of diesel inventories in 4Q18 caused by lower fuel prices in the quarter, lower sales of fuel oil
+      and diesel to thermal power plants and nonthermal fuel oil. The adjusted EBITDA diminished by 27.3% on 4Q17,
+      due to the aforesaid reasons.
+
+
+
+      AVIATION
+                                                                                     4Q18
+                  In millions of reais                           4Q18 vs.                                      2018 vs.
+                                                 4Q18    3Q18               4Q17      vs.      2018    2017
+               (except when specified)                            3Q18                                          2017
+                                                                                     4Q17
+
+      Volume of sales (thousand m3)              947     1,021    -7.2%     986      -3.9%     3,913   3,803    2.9%
+
+      Adjusted net revenue                       2,619   2,691    -2.7%     1,963    33.4%     9,586   6,947    38.0%
+
+      Adjusted gross income                      209     257      -18.7%    218      -4.1%     917     723      26.8%
+
+      Adjusted gross margin (% of Net revenue)   8.0%    9.6%    -1.6p.p.   11.1%   -3.1p.p    9.6%    10.4%   -0.8p.p.
+
+      Adjusted gross margin (R$/m3)              221     252      -12.4%    221      -0.2%     234     190      23.3%
+
+      Adjusted operating expenses                181     115      57.4%     108      67.6%     524     451      16.2%
+
+      Adjusted EBITDA                             38     142      -73.2%    110     -65.5%     393     272      44.5%
+
+      Adjusted EBITDA margin
+                                                 1.5%    5.3%    -3.8p.p.   5.6%    -4.2p.p.   4.1%    3.9%    0.2p.p.
+      (% of net revenue)
+
+      Adjusted EBITDA margin (R$/m3)              40     139      -71.2%    112     -64.0%     100      72      40.4%
+
+
+
+
+      The segment experienced a decrease in the volume of 7.2% in the comparison 4Q18 vs. 3Q18, reflecting the
+      elimination of relatively unprofitable operations, sharp reduction in the volume of a portfolio client and
+      contractual renegotiations. The average trading margin on sales to domestic and foreign airlines were
+      maintained. The volume dropped by 3.9% on 4Q17, reflecting the Company’s repositioning in this segment
+      which closed the year with the presence of 99 airports in Brazil.
+
+
+      Net revenue amounted to R$ 2,619 million in 4Q18, an increase of 33.4% on 4Q17, due to higher average product
+      sale prices, in turn impacted by increases in international fuel prices. Net revenue dropped by 2.7% on 3Q18,
+      also due to lower average sales prices in the quarter.
+
+
+      Gross profit in this quarter was R$ 209 million, a decrease of 4.1% on 4Q17 and 18.7% on 3Q18, due to lower
+      sales and above all the impact on inventory of lower fuel prices.
+
+
+      Operating expenses amounted to R$ 181 million in 4Q18, an increase of 57.4% on 3Q18, and an increase of
+      65.5% on 4Q17, primarily due to the greater provision for trade receivables in the period of R$ 50 million.
+                                                          8
+ri.br.com.br
+ri@br.com.br
+      The adjusted EBITDA was R$ 393 million (or R$ 100/m³) in 2018 vs R$ 272 million (or R$ 72/m³) in 2017. This
+      result was due to the higher sales volume and higher average sales margins in the YoY comparison. The EBITDA,
+      in particular, decreased from 71.2% in the comparison with 3Q18 and 64% in the comparison with 4Q17. This
+      decrease is due to the joint effect of reducing inventory prices, lower sales volumes and increase in the
+      provision for trade receivables.
+
+
+
+      SPECIAL MARKETS (COKE, CHEMICALS, ENERGY AND ASPHALT)
+
+                                                                    4Q18                                         2018
+      In millions of reais                                                            4Q18 vs.
+                                                 4Q18     3Q18       vs.      4Q17               2018    2017     vs.
+      (except when specified)                                                          4Q17
+                                                                    3Q18                                         2017
+
+      Volume of sales (thousand m3)              1,210    1,246     -2.9%     1,358    -10.9%    4,883   5,321   -8.2%
+
+      Adjusted net revenue                       1,473    1,471      0.1%     1,258    17.1%     5,425   4,716   15.0%
+
+      Adjusted gross income                      248       235       5.5%      229      8.3%     921     729     26.3%
+
+      Adjusted gross margin (% of Net revenue)   16.8%    16.0%     0.9p.p.   18.2%   -1.4p.p.   17.0%   15.5%   1.5p.p.
+
+      Adjusted gross margin (R$/m3)              205       189       8.7%      169     21.5%     189     137     37.7%
+
+      Adjusted operating expenses                 72           62   16.1%      106     -32.1%    279     322     -13.4%
+
+      Adjusted EBITDA                            176       173       1.7%      128     37.5%     642     412     55.8%
+
+      Adjusted EBITDA margin
+                                                 11.9%    11.8%     0.1p.p    10.2%    1.7p.p.   11.8%   8.7%    3.1p.p
+      (% of net revenue)
+
+      Adjusted EBITDA margin (R$/m3)             145       139       4.8%      94      54.3%     131      77     69.8%
+
+
+
+      The segment experienced lower sales in 4Q18 (-2.9%) compared with 3Q18. Sales diminished by 10.9% on 4Q17,
+      due to the lower supply of green coke in the marketplace.
+
+
+      Net revenue amounted to R$ 1,473 million in 4Q18, relatively unchanged on 3Q18. This figure rose by 17.1% on
+      4Q17. This positive variance was primarily due to higher average sales prices.
+
+
+      Gross profit amounted to R$ 248 million in 4Q18, an increase of 8.3% on 4Q17, primarily due to the increase in
+      the coke margin, driven by higher international coal prices, affecting the formation of the sale price. Gross
+      income rose by 5.5% on 3Q18, due to higher sales of chemical products, with higher average sales margins.
+
+
+      Operating expenses amounted to R$ 72 million in 4Q18, 32.1% less than in 4Q17 and 16.1% higher than in 3Q18.
+      This change in expenses is due to the oscillation in sales and the type of operation in terms of the sales mix.
+
+
+      The adjusted EBITDA amounted to R$ 176 million in 4Q18, an increase of 37.5% on 4Q17 and 1.7% on 3Q18. This
+      result is due to the increase in gross profit especially due to higher sales margins.
+
+
+
+
+                                                           9
+ri.br.com.br
+ri@br.com.br
+      CORPORATE
+
+      Corporate primarily consists of the Company’s overhead not allocated to other segments.
+      The amounts classified as corporate are presented below:
+
+
+      In millions of reais                               4Q18 vs.            4Q18 vs.                      2018 vs.
+                                       4Q18     3Q18                 4Q17                2018     2017
+      (except when specified)                             3Q18                4Q17                          2017
+      Adjusted operating expenses      (232)    (186)     24.7%      (222)     4.5%      (731)    (710)      3.0%
+      Adjusted EBITDA                  (231)    (187)        23.5%   (228)     1.3%      (732)    (717)      2.1%
+
+
+      Adjusted operating expenses allocated to corporate primarily consist of actuarial reserve expenses incurred on
+      pension plans and health care plans for inactive employees (4Q18: R$ 80 million; 4Q17: R$ 99 million). There
+      was also an increase in expenses related to the advertising and marketing campaign in the quarter.
+
+
+
+
+                                                        10
+ri.br.com.br
+ri@br.com.br
+      DEBT
+
+       In millions of Reais (except where stated)              2018               2017            2018 vs. 2017
+
+       Financing                                               5,524              4,640               19.05%
+       Assignment of credit receivables                          31                 26                19.23%
+       Leases                                                    48                 72                -33.3%
+
+       Gross Debt                                              5,603              4,738               18.3%
+
+       (-) Cash and cash equivalents                           3,057               483                532.9%
+       (-) FIDC                                                 190                370                -48.6%
+
+       Net Debt                                                2,356              3,885               -39.4%
+
+       Adjusted EBITDA LTM                                     2,558              3,067               -16.6%
+
+       Net Debt/Adjusted EBITDA (X)                            0.9x               1.3x                 -0.4x
+
+       Average cost of the debt (% of the CDI rate)            109%              114.5%              -5.5 p.p.
+
+       Average debt term (years)                                2.4                2.9
+
+
+
+
+      The Company’s consolidated gross debt stood at R$ 5,603 million in 2018. Gross debt rose by 18.3% compared
+      with 2017 due to the issuance of nonconvertible debentures underlying agribusiness receivable certificates
+      realized in July/18. Net debt closed 2018 at R$ 2,356 million. Net debt diminished by 39.4% on 2017, because
+      of the substantial generation of free cash in the year and receipts under the debt acknowledgment agreements
+      signed with the Eletrobras subsidiaries. Net debt was calculated considering the Credit Receivables Investment
+      Fund (FIDC) investment balance of R$ 190 million.
+
+
+      The company's average debt term changed from 2.9 years to 2.4 years. The Net Debt/Adjusted EBITDA ratio
+      closed 2018 at 0.9x (vs. 1.3x in 2017). Note that the Company's debt is completely indexed in local currency
+      (Reais).
+
+
+
+
+                                                          11
+ri.br.com.br
+ri@br.com.br
+      CAPITAL MARKET
+
+      The average financial volume of Petrobras Distribuidora traded since the start of trading at B3 – Brasil, Bolsa &
+      Balcão - is R$ R$ 4,126 million/day, confirming the stock’s excellent liquidity. The Company's shares closed
+      trading session on 02/25/2019 quoted at R$ 24.52 at B3, presenting an appreciation of 63.5% since the public
+      offering. The Ibovespa index gained 34% during this period.
+
+
+
+
+                                    BRDT3 Share
+        Number of shares (thousand)                       1,165,000
+        Price at 2/25/2019                                      24.52
+        Market value at [2/25/2019] (R$ million)            28,556
+                         Period 12/15/2017 to 2/25/2019
+        Average volume shares/day                         4,126,235
+        Average financial volume/day (R$ thousand)          88,731
+        Average price (R$/share)                                20.97
+
+
+
+
+      INTEREST ON EQUITY AND DIVIDENDS
+
+      On November 30, 2018 the Company's Board of Directors approved the advance payment of interest on equity
+      for FY 2018 of R$ 563,795,476.50, or R$ 0.48394461502 per share, with the Withholding income tax (IRRF) to
+      be deducted.
+
+
+      We will make this payment on April 30, 2019 based on the share position at December 11, 2018 (inclusive).
+
+
+      The company will also propose to the 2019 AGM (Annual General Meeting) that the net income of R$ 3,193
+      million determined in FY 2018 be allocated as follows:
+      (a) R$ 160 million be recorded as the Legal Reserve;
+      (b) R$ 412 thousand be recorded as the Tax Incentive Reserve; and
+      (c) total gross dividends be allocated in the amount of R$ 3,033 million, less R$ 563 million paid out as interest
+      on equity.
+
+
+      The dividends will be restated monetarily up to the payment date, pursuant to article 53 of the Bylaws.
+
+
+      NEGOTIATION OF ELETROBRAS GROUP DEBTS
+
+      On April 30, 2018, Centrais Elétricas Brasileiras S.A. – Eletrobras and its electricity distribution companies
+      (Eletrobras Amazonas, Eletrobras Roraima, Eletrobras Rondônia and Eletrobras Acre) signed debt
+      acknowledgment agreements with Petrobras Distribuidora in the restated amount of R$ 4.6 billion.
+
+
+      We announce we have duly received the payments in accordance with the agreement signed that entails 36
+      monthly installments (with no grace period), restated by market indexes. To date we have received 9 payments
+      and two prepayments for the distribution companies Eletrobras Acre and Eletrobras Rondônia, now controlled
+      by Energisa S.A. group, amounting to 1,788.2 million.
+
+
+                                                           12
+ri.br.com.br
+ri@br.com.br
+      VOLUME OF SALES (THOUSAND m3)
+
+                                                 4Q18 vs.              4Q18 vs.                     2018 vs.
+                   Products   4Q18     3Q18                   4Q17                2018     2017
+                                                  3Q18                  4Q17                         2017
+
+     Diesel non thermal       4,251    4,657         -8.7%    4,157      2.2%     17,124   16,731    2.3%
+
+     Diesel thermal            75       68           11.0%     101      -26.0%     277      462      -40.1%
+
+     OTTO cycle               3,436    3,206         7.2%     3,466     -0.9%     13,057   13,513    -3.4%
+
+     Non Thermal Fuel Oil      324      310          4.4%      581      -44.3%    1,310    1,917     -31.7%
+
+     Thermal Fuel Oil          101      384          -73.7%    308      -67.2%     703     1,121     -37.3%
+
+     Aviation and other       2,226    2,342         -5.0%    2,413     -7.8%     9,077    9,430     -3.7%
+
+     Total                    10,412   10,966        -5.0%    11,028    -5.6%     41,548   43,175    -3.8%
+
+
+
+
+                                                13
+ri.br.com.br
+ri@br.com.br
+        CASH FLOW RECONCILIATION
+
+        The working capital requirement was smaller in this period, resulting in larger operating and free cash
+        generation compared with 2017.
+
+
+        In millions of reais                                                                          2018               2017
+        EBITDA                                                                                         2,803              2,574
+        IR/CS paid                                                                                      (26)               (96)
+        Noncash effects on EBITDA                                                                         59                892
+        Working capital                                                                                  492            (2,100)
+        Cash Flows from Operating Activities                                                          3,328              1,270
+        CAPEX                                                                                          (431)              (300)
+        Other                                                                                              2                 14
+        Cash flows from investment activities                                                          (429)             (286)
+        FREE CASH FLOW                                                                                2,899                 984
+        Financing/leases                                                                                474             (9,385)
+        FIDC                                                                                            235               2,599
+        Capital subscription                                                                              -               6,313
+        Cash Flows from Financing Activities                                                            709              (473)
+        FREE CASH FOR SHAREHOLDERS                                                                    3,608                511
+        Dividends/interest on shareholders' equity paid to shareholders                              (1,034)              (683)
+        Net cash produced by (used in) the period                                                     2,574              (172)
+        Opening balance                                                                                 483                655
+        Closing balance                                                                               3,057                483
+
+
+      Notes:
+      1.Cash funds paid as bonuses advanced to clients of R$ 597 million in 2018 (R$ 569 million in 2017) are presented in working
+      capital changes.
+      2.Cash funds paid as performance bonuses of R$ 255 million in 2018 (R$ 248 million in 2017) are deducted from EBITDA.
+      3.Capex investments consist of disbursements to form property, plant and equipment and intangible assets and do not
+      include bonuses advanced to clients.
+      4.“Noncash effects on EBITDA” include: estimated allowances for doubtful accounts, loss in and provisions for judicial and
+      administrative proceedings, pension and health plans (2018: R$ 438 million; 2017: R$ 503 million) and PIDV, resulting from
+      the sale of assets, earnings on material equity interests, amortization of bonuses advanced to clients, amortization of
+      insurance, rental and other, net monetary/exchange interest and variance (deducted from net financing) and other
+      adjustments, as presented in the Statement of cash flows, an integral part of the annual financial statements..
+      5.FIDC (Credit Receivables Investment Fund): exclusive and corporate fund of Petrobras group. It is primarily allocated to
+      the acquisition of performed and/or non-performed credit receivables in operations conducted by companies comprising
+      Petrobras group.
+
+
+
+
+                                                               14
+ri.br.com.br
+ri@br.com.br
+      OUR FINANCIAL AND OPERATIONAL INFORMATION EXPLAINED
+
+      The Company's adjusted EBITDA is a measure used by Management and consists of the Company’s net
+      income plus net finance income, income and social contribution taxes, depreciation and amortization
+      expenses, the amortization of bonuses advanced to clients (bonuses advanced to clients are
+      presented in current assets and noncurrent assets), estimated losses on doubtful accounts in
+      connection with the islanded and interconnected power grids, losses and provisions in connection
+      with legal claims, impairment, voluntary redundancy incentive plan (PIDV), expenses in connection
+      with tax amnesty programs and taxes on financial income.
+
+
+      The Adjusted EBITDA margin is calculated by dividing Adjusted EBITDA by the volume of products
+      sold. The Company uses the Adjusted EBITDA margin as it believes it properly presents its business
+      earnings.
+
+      EBITDA Reconciliation                                                                      Consolidated
+      R$ million                                                                   4Q18      3Q18      4Q17     2018      2017
+      EBITDA breakdown
+      Net Income                                                                    1,605    1,078      531      3,193    1,151
+      Net finance income                                                           (1,847)   (353)       89     (2,423)    557
+      Income and social contribution taxes                                           577      696        15      1,616     414
+      Depreciation and amortization                                                  102      102       109       417      452
+      EBITDA                                                                         437     1,523      744      2,803    2,574
+      Estimated allowances for doubtful accounts - Electric Sector (islanded and
+                                                                                    (96)       (5)      (10)    (120)     (155)
+      interconnected power systems)
+      Losses and provisions in judicial and administrative proceedings               52      (1,210)     15      (991)      119
+      Amortization of early bonuses awarded to customers                            134        131      127       522       545
+      Voluntary Redundancy Incentivization Program (PIDV)                            76          -       (1)      92       (144)
+      Tax Amnesty Program                                                             4        187        -       193        80
+      Tax expenses on finance income                                                 39          5        8       59         48
+      ADJUSTED EBITDA                                                               646        631      883     2,558     3,067
+      Sales volume (millions of m³)                                                10,412    10,966    11,028   41,548    43,175
+      ADJUSTED EBITDA MARGIN (R$/m3)                                                 62         58       80       62        71
+
+
+
+
+                                                             15
+ri.br.com.br
+ri@br.com.br
+        STATEMENT OF FINANCIAL POSITION - ASSETS - IN MILLIONS OF REAIS
+
+
+
+                                                            Consolidated         Parent Company
+    Assets                                               2018          2017    2018          2017
+
+    Current
+      Cash and cash equivalents                           3,057         483     2,830         257
+      Net accounts receivable                             5,327        5,528    5,413        5,574
+      Inventories                                         2,923        3,245    2,898        3,224
+      Advances to suppliers                                 12           74       12           74
+      Income and social contribution taxes                  13          151       10          150
+      Taxes and contributions recoverable                  722          522      655          483
+      Advanced bonuses awarded to clients                  591          514      591          514
+      Prepaid expenses                                      45           40       44           40
+      Assets held for sale                                  15            2       12            2
+      Other current assets                                  98          144      101          142
+                                                         12,803       10,703   12,566       10,460
+
+
+
+    Non-current
+    Long-term
+      Net accounts receivable                            1,155          376    1,153          376
+      Judicial deposits                                  1,051         1,000   1,027          977
+      Taxes and contributions recoverable                 498           541     428           469
+      Deferred income and social contribution tax        1,863         3,162   1,845         3,150
+      Advanced bonuses awarded to clients                1,467         1,469   1,467         1,469
+      Prepaid expenses                                    180           182     180           182
+      Loans awarded to related parties                      -             -     136             -
+      Other noncurrent assets                              22            24      16            19
+                                                         6,236         6,754   6,252         6,642
+
+      Investments                                           33           36      321          334
+      Property, plant and equipment                       5,797        5,816    5,293        5,338
+      Intangible assets                                    476          453      474          451
+                                                         12,542       13,059   12,340       12,765
+    Total Assets                                         25,345       23,762   24,906       23,225
+
+
+
+
+                                                    16
+ri.br.com.br
+ri@br.com.br
+        STATEMENT OF FINANCIAL POSITION - LIABILITY AND EQUITY
+        IN MILLIONS OF REAIS
+
+
+
+
+                                                           Consolidated            Parent Company
+     Liabilities                                        2018            2017     2018         2017
+
+     Current
+       Trade accounts payable                           2,219           2,682    2,251        2,645
+       Financing                                         210             185       94           78
+       Assignment of credit receivables                   31              26        -            -
+       Financial leases                                   29              29      131          126
+       Customer advances                                 299             363      297          355
+       Income and social contribution taxes               45               1       44            -
+       Taxes and contributions payable                   300             277      291          269
+       Dividends and interest on equity capital          758             273      758          273
+       Payroll, vacations and related charges            223             193      221          191
+       Profit sharing                                     67              26       67           26
+       Voluntary redundancy incentivization plan          83               8       83            8
+       Pension and health plan                           154             134      154          134
+       Other accounts and expenses payable               143             216      152          250
+                                                        4,561           4,413    4,543        4,355
+     Non-current
+       Financing                                        5,314           4,455    4,486        3,550
+       Financial leases                                   19              43      432          474
+       Pension and health plan                          4,755           3,932    4,750        3,928
+       Provision for judicial and administrative
+                                                        1,001           2,079    1,001        2,078
+     proceedings
+       Other accounts and expenses payable                 9             14         8          14
+                                                        11,098         10,523    10,677      10,044
+                                                        15,659         14,936    15,220      14,399
+
+     Equity
+       Paid-in capital                                   6,353          6,352     6,353       6,352
+       Profit reserves                                   5,259          3,897     5,259       3,897
+       Asset and liability valuation adjustments        (1,926)        (1,423)   (1,926)     (1,423)
+                                                         9,686          8,826     9,686       8,826
+     Total Liabilities                                  25,345         23,762    24,906      23,225
+
+
+
+
+                                                   17
+ri.br.com.br
+ri@br.com.br
+        STATEMENT OF INCOME - IN MILLIONS OF REAIS
+
+
+
+                                                                   Consolidated           Parent Company
+                                                               2018           2017      2018          2017
+
+ Revenue from goods sold and services rendered                 97,770        84,567     97,014       84,022
+   Cost of goods sold and services rendered                   (91,914)      (78,200)   (91,234)     (77,719)
+ Gross income                                                  5,856         6,367      5,780        6,303
+ Operating expenses
+   Sales                                                      (2,927)       (2,952)    (2,889)      (2,911)
+   General and administrative                                  (786)         (835)      (767)        (815)
+   Tax                                                         (315)         (172)      (312)        (168)
+   Other net revenue (expenses)                                 559          (284)       560         (284)
+                                                              (3,469)       (4,243)    (3,408)      (4,178)
+ Net income before financial income/loss and taxes             2,387         2,124      2,372        2,125
+   Financial
+     Expenses                                                  (419)        (1,231)     (463)        (1,267)
+     Revenue                                                   2,959          376       2,937          344
+     Exchange and monetary variance, net                       (117)          298        (78)          356
+                                                               2,423         (557)      2,396         (567)
+ Equity earnings                                                (1)           (2)         37            6
+ Income before tax                                             4,809         1,565      4,805         1,564
+ Income and social contribution taxes
+   Current                                                     (126)         (196)      (124)        (194)
+   Deferred charges                                           (1,490)        (218)     (1,488)       (219)
+                                                              (1,616)        (414)     (1,612)       (413)
+ Net income for the year                                       3,193         1,151      3,193        1,151
+ Basic and diluted net income per common share - R$            2.74          0.99       2.74          0.99
+ Share capital consists of 1,165,000,000 common shares
+
+
+
+
+                                                         18
+ri.br.com.br
+ri@br.com.br
+        SEGMENT REPORTING - IN MILLIONS OF REAIS
+
+
+
+        Consolidated statement of Net Income by Business Sector - Dec/18
+
+
+
+
+                                                                                                             Reconciliation
+                                    Service    Consumer      Aviation     Special                  Total       financial
+                                    Stations     Market      Market       Market     Corporate   segments     statements      Total
+ Sales Revenue                       57,933      25,348        9,586       5,425         -        98,292         (522)       97,770
+ Cost of goods sold                 (54,707)    (24,022)      (8,669)     (4,504)        -       (91,902)         (12)      (91,914)
+ Gross income                        3,226       1,326          917         921          -        6,390          (534)       5,856
+ Expenses
+   General, administrative and
+                                    (1,674)       (767)       (524)        (302)       (161)     (3,428)         (285)       (3,713)
+ sales
+   Tax                                (4)          -           (2)         (8)          (49)       (63)          (252)        (315)
+   Other net revenue (expenses)       148          -            2           31         (521)      (340)           899          559
+ Equity earnings                       -           -            -            -           (1)        (1)            -           (1)
+ Net finance income                    -           -            -            -            -          -           2,423        2,423
+ Adjusted EBITDA                     1,696        559          393         642         (732)      2,558
+ Net income (loss) before tax                                                                                    2,251        4,809
+
+
+
+        Consolidated statement of Net Income by Business Sector - Dec/17
+
+
+
+                                                                                                            Reconciliation
+                                        Service Consumer Aviation           Special             Total         financial
+                                        Stations  Market  Market            Market Corporate segments        statements      Total
+   Sales Revenue                         50,999   22,450   6,947             4,716     -       85,112           (545)       84,567
+   Cost of goods sold                   (47,227) (20,749) (6,224)           (3,987)    -      (78,187)           (13)      (78,200)
+   Gross income                          3,772    1,701     723               729      -       6,925            (558)       6,367
+   Expenses
+     General, administrative and
+                                        (1,624)      (928)       (467)       (335)      (149)    (3,503)        (284)      (3,787)
+   sales
+     Tax                                  (5)         (2)           (3)       (10)       (24)     (44)          (128)       (172)
+     Other net revenue (expenses)         186          -             19        23       (537)    (309)           25         (284)
+   Equity earnings                         -           -              -         5         (7)      (2)            -          (2)
+   Net finance income                      -           -              -         -          -        -           (557)       (557)
+   Adjusted EBITDA                       2,329        771           272       412       (717)    3,067
+   Net income (loss) before tax                                                                                (1,502)      1,565
+
+
+
+
+                                                               19
+ri.br.com.br
+ri@br.com.br
+SEGMENT REPORTING - RECONCILIATION AGAINST THE FINANCIAL STATEMENTS
+IN MILLIONS OF REAIS
+
+
+Reconciliation with financial statements                                                                             2018     2017
+
+
+(a) Sales Revenue
+Appropriation of early bonuses awarded to customers
+
+Sales revenue is adjusted by the early bonuses granted to resellers of service stations to which the Company
+distributes fuels and lubricants corresponding to the portion provided mainly in kind and held under the terms
+established in advance with such parties, which once completed, become nonreturnable, being absorbed as
+                                                                                                                     (522)    (545)
+expenses by the Company. This corresponds to a target scheme which, once met, exempt the recipients – resellers
+of service stations – from returning to the Company these amounts advanced as bonuses. They are classified in
+profit or loss in proportion to their due dates.
+
+(b) Cost of goods sold
+Depreciation and amortization                                                                                        (12)     (13)
+
+
+(c) General, administrative and sales
+Depreciation and amortization                                                                                        (405)    (439)
+Expected credit losses
+The adjusted values refer to the provisions relating to receivables owed to the Company by the thermal companies
+of islanded and interconnected power systems, a segment for which the Company substantially provides service,         120     155
+and which lately has been facing financial difficulties.
+(d) Taxes
+
+Tax adjustments denote tax amnesties and tax charges on financial revenue.
+
+Tax amnesties: payment provisions for joining the amnesty programs established by State Laws and the Special
+Tax Regularization Program (PERT) from the Federal Government concerning tax liabilities related to ICMS and
+                                                                                                                     (193)    (80)
+federal taxes with the State and Federal Government, respectively The Company considers the adjustment
+adequate because it provides investors additional information not deriving from our main operations.
+
+Tax charges on revenue: the adjustments refer to expenditure on IOF PASEP and COFINS, levied on the Company’s
+                                                                                                                     (59)     (48)
+revenue and which are classified as tax expenses.
+
+(e) Other net revenue (expense)
+Judicial losses and provisions
+
+The adjusted amounts consist of losses incurred in final and unappealable lawsuits, as well as the provisions made
+on the basis of the opinions obtained from the lawyers responsible for handling the lawsuits or by the Company’s      991     (119)
+Legal Department.
+
+Voluntary redundancy incentivization plan
+The adjustment denotes amounts that affected the Company’s earnings given the provision for the estimated
+expenditure on indemnities related to the plan, as well as the reversal of the provision due to the withdrawal       (92)     144
+from the plan, which took place in the respective periods.
+
+
+(f) Net financial income                                                                                             2,423    (557)
+Total                                                                                                                2,251   (1,502)
+
+
+
+
+                                                              20
+ri.br.com.br
+ri@br.com.br
+

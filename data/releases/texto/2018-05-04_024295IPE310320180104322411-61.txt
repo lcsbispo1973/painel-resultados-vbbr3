@@ -1,0 +1,2077 @@
+                                                                                          Petrobras Distribuidora S.A.
+                                                                                                 1º Trimestre de 2018
+
+
+
+
+                               Petrobras Distribuidora S.A.
+                  DIVULGAÇÃO DOS RESULTADOS DO 1º TRIMESTRE DE 2018
+Rio de Janeiro, 04 de maio de 2018 – A Petrobras Distribuidora S.A. (B3: BRDT3), líder do mercado de
+distribuição de combustíveis no Brasil, anuncia hoje seus resultados do 1º trimestre de 2018. Os resultados são
+apresentados de forma consolidada, de acordo com as práticas contábeis adotadas no Brasil e as Normas
+Internacionais de Contabilidade (IFRS). As comparações apresentadas nesta divulgação consideram o 1T18 x
+1T17 e 1T18 x 4T17.
+                                                Destaques do Resultado
+    Aumento no lucro líquido de 58,3%, passando de R$156 milhões no 1T17 para R$247 milhões no 1T18.
+
+    Aumento do EBITDA ajustado de 19,5% na comparação com o 1T17 (R$773 milhões no 1T18 e R$647
+     milhões no 1T17).
+
+    Expansão da margem EBITDA ajustada em 20,6% (R$76/ m³ no 1T18 e R$63/ m³ no 1T17).
+
+    Aumento da margem bruta (R$/m³) em 4,9% (R$150/ m³ no 1T18 e R$143/ m³ no 1T17).
+
+Em m ilhões de reais (exceto onde indicado)             1T18            1T17     1T18 x 1T17         4T17        1T18 x 4T17
+
+Volume de vendas (mil m3)                             10,109          10,337          -2,2%        11,028                 -8,3%
+
+Receita líquida                                       22.499          20.049          12,2%        23.204                 -3,0%
+
+Lucro bruto                                            1.517           1.481           2,4%         1.806                -16,0%
+
+Margem bruta (% da Receita líquida)                     6,7%            7,4%        -0,7 p.p.        7,8%            -1,1 p.p.
+
+Margem bruta (R$/m3)                                    150             143            4,9%          164                  -8,5%
+
+Despesas operacionais                                  1.060           1.055           0,5%         1.170                 -9,4%
+
+Resultado financeiro                                     (46)           (148)        -68,9%           (89)               -48,3%
+
+Lucro líquido                                           247             156           58,3%          531                 -53,5%
+
+EBITDA ajustado                                         773             647           19,5%          883                 -12,5%
+
+Margem EBITDA ajustada (% da Receita líquida)           3,4%            3,2%        +0,2 p.p.        3,8%            -0,4 p.p.
+
+Margem EBITDA ajustada (R$/m3)                           76              63           20,6%           80                  -5,0%
+
+Dívida líquida                                         3.418           9.175         -62,7%         3.885                -12,0%
+
+LTM EBITDA ajustado                                    3.193           2.780          14,9%         3.067                 4,1%
+
+Dívida líquida/EBITDA ajustado (x)                       1,1             3,3          -2,2 X          1,3                 -0,2 X
+
+
+
+
+                                                                                                      www.br.com.br/ri
+                                                                                                        ri@br.com.br
+                                                                Página 1 de 20
+                                                                                                     Petrobras Distribuidora S.A.
+                                                                                                            1º Trimestre de 2018
+
+
+
+
+Considerações sobre as informações financeiras e operacionais
+
+As informações financeiras consolidadas que são apresentadas nesta divulgação de resultados foram preparadas conforme
+as normas internacionais de relatório financeiro (International Financial Reporting Standards (IFRS), emitidas pelo
+International Accounting Standards Board (IASB). Esta divulgação de resultados deve ser analisada em conjunto às
+Demonstrações Contábeis do 1T18 e do exercício de 2017. Adicionalmente, as informações financeiras e operacionais
+incluídas nesta divulgação de resultados são sujeitas a arredondamentos e, como consequência, os valores totais
+apresentados nas tabelas e gráficos podem diferir da agregação numérica direta dos valores que os precedem.
+
+O EBITDA ajustado da Companhia é uma medição adotada pela Administração e consiste no lucro líquido da Companhia,
+acrescido do resultado financeiro líquido, do imposto de renda e da contribuição social, das despesas com depreciação e
+amortização, da amortização das bonificações antecipadas a clientes (as bonificações antecipadas a clientes são
+apresentadas no ativo circulante e não circulante), perdas estimadas em crédito de liquidação duvidosa do sistema
+isolado e interligado de energia, perdas e provisões com processos judiciais, plano de incentivo do desligamento voluntário
+(PIDV), gastos com anistias fiscais e encargos tributários sobre receitas financeiras.
+
+A Margem EBITDA Ajustada é um índice calculado por meio da divisão do EBITDA Ajustado pelo volume de produtos
+vendidos. A Companhia utiliza a Margem EBITDA ajustado por entender ser um bom indicador da rentabilidade de seus
+segmentos de negócios.
+             Reconciliação do EBITDA                                                                        Consolidado
+
+             R$ m ilhões                                                                             1T18       1T17          4T17
+             Com posição do EBITDA
+             Lucro Líquido                                                                           247         156          531
+             Resultado financeiro líquido                                                             46         148               89
+             Imposto de renda e contribuição social                                                  163         120               15
+             Depreciação e amortização                                                               106         112          109
+             EBITDA                                                                                  562         536          744
+             Perdas estimadas em créditos de liquidação duvidosa - Setor Elétrico (Sistema Isolado
+             e Interligado)                                                                          (19)        (88)          (10)
+             Perdas e provisões com processos judiciais e administrativos                             78             80            15
+             Amortização de bonificações antecipadas concedidas a clientes                           121         125          127
+
+             Plano de Incentivo ao Desligamento Voluntário - PIDV                                     22         (21)              (1)
+             Programa de Anistias Fiscais                                                              2         -             -
+             Despesas tributárias sobre resultado financeiro                                           7             15            8
+             EBITDA AJUSTADO                                                                         773         647          883
+             Volumes de vendas (milhões de m3)                                                       10,1       10,3          11,0
+
+             MARGEM EBITDA AJUSTADA (R$/m 3)                                                          76             63            80
+
+
+Resumo das alterações decorrentes da aplicação do IFRS 9 e 15
+Neste primeiro trimestre de 2018 entraram em vigor dois novos pronunciamentos contábeis, o IFRS 9 – Financial Instruments
+e o IFRS 15 – Revenues from contracts with customers.
+
+Com relação ao IFRS 9, a Companhia e suas investidas consolidadas aplicaram a nova metodologia e identificaram ajustes
+adicionais de impairment sobre ativos financeiros em 1º de janeiro de 2018, referentes a contas a receber de contratos
+com clientes, no montante de R$268 milhões, contabilizados diretamente no patrimônio líquido, equivalendo a R$177
+milhões após a dedução dos tributos incidentes sobre o lucro.
+
+Quanto ao IFRS 15, não houve impactos nas Demonstrações Contábeis Consolidadas.
+                                                                                                                          www.br.com.br/ri
+                                                                                                                            ri@br.com.br
+                                                                       Página 2 de 20
+                                                                                  Petrobras Distribuidora S.A.
+                                                                                         1º Trimestre de 2018
+
+
+
+
+Sumário Executivo
+A Petrobras Distribuidora apresentou EBITDA ajustado consolidado de R$ 773 milhões no 1T18 representando um
+aumento de 19,5% em relação ao mesmo período de 2017. Esse resultado está alinhado com o direcionamento
+estratégico da Companhia com foco na melhora de rentabilidade.
+
+Neste primeiro trimestre de 2018, os volumes vendidos apresentaram pequena queda (-2.2%) em relação ao mesmo
+período de 2017, com os efeitos da esperada retomada da atividade econômica no Brasil ainda não se refletindo nos
+volumes de vendas de alguns dos segmentos da Companhia. No entanto, e de forma consistente à nossa estratégia de
+manutenção da rentabilidade, as margens brutas atingiram R$150/m³ (+4,9%).
+
+Concluímos a reestruturação organizacional que resultou na redução de funções gerenciais e que terá impacto positivo
+nas nossas metas de redução de despesas operacionais para 2018, além da implantação de nossas metas de orçamento
+base zero.
+
+Por fim, fizemos com sucesso, no último dia 25 de abril, nossa AGO, tendo dentre outras deliberações, a eleição do
+nosso novo conselho de administração com o perfil de independência previsto em nosso processo de abertura de
+capital.
+
+Os destaques de nossos segmentos operacionais foram:
+
+Rede de Postos
+A Rede de Postos apresentou no 1T18 volume de vendas 1,1% inferior ao 1T17. A redução do volume vendido em
+relação ao 1T17 é atribuível à manutenção da política de preservação das margens de comercialização, priorizando a
+rentabilidade da companhia através de uma maior seletividade das vendas, que se reflete no aumento de 2,0% das
+margens brutas, mesmo com maior participação de vendas de etanol no mix, produto que têm margens inferiores às
+da gasolina. Em linha ao observado no último trimestre ainda há avanço dos players regionais na competição do
+mercado. Neste contexto, a rede de postos apresentou margem bruta de R$164/m³, alta de 2% em relação ao 1T17.
+No 1T18 mantivemos a nossa rede de postos ativa na comparação com o 4T17 e em relação ao 1T17 acrescentamos
+259 postos (líquidos). O EBITDA ajustado no 1T18 totalizou R$ 539 milhões.
+
+Grandes Consumidores
+O segmento de Grandes Consumidores apresentou uma redução de 2,6% no volume de vendas no 1T18, quando
+comparado ao 1T17. A redução do volume vendido continua influenciada pela retração das vendas de óleo diesel e
+de óleo combustível, principalmente para as térmicas. O EBITDA ajustado no 1T18 totalizou R$152 milhões, um
+aumento de 7,8% comparado com 1T17.
+
+Aviação
+O segmento de Aviação apresentou no 1T18 volume de vendas 4,2% superior ao 1T17. Acreditamos que o aumento do
+volume vendido reflete sinais de retomada gradual da atividade econômica verificados desde os últimos meses de
+2017. O EBITDA ajustado no 1T18 totalizou R$ 90 milhões que, comparado com o mesmo período de 2017, representou
+um aumento de 73,1%, resultado tanto do aumento das vendas como de margens de comercialização.
+
+Outros Negócios (Produtos Químicos, Energia e Asfaltos)
+O segmento de Outros Negócios apresentou no 1T18 volume de vendas 2,0% inferior ao 1T17. Na comparação com o
+4T17, o volume de vendas foi 13,0% inferior, em função das menores vendas de produtos químicos e de coque verde
+de petróleo, parcialmente compensadas pelas maiores vendas de gás natural canalizado. O EBITDA ajustado no 1T18
+totalizou R$151 milhões (+52,5%). Na comparação com o 4T17, o EBITDA ajustado atingiu R$119 milhões (+26,9%),
+refletindo as melhores margens médias de comercialização, em especial do Coque Verde de Petróleo neste trimestre.
+                                                                                                www.br.com.br/ri
+                                                                                                  ri@br.com.br
+                                                         Página 3 de 20
+                                                                                                                           Petrobras Distribuidora S.A.
+                                                                                                                                  1º Trimestre de 2018
+
+
+
+
+Desempenho dos Segmentos de Negócios
+
+Consolidado1
+Em m ilhões de reais (exceto onde indicado)                              1T18                    1T17          1T18 x 1T17                    4T17            1T18 x 4T17
+
+Volume de vendas (mil m3)                                             10,109                   10,337                  -2,2%               11,028                       -8,3%
+
+Receita líquida                                                       22.499                  20.049                   12,2%               23.204                       -3,0%
+
+Lucro bruto                                                            1.517                   1.481                    2,4%                 1.806                     -16,0%
+
+Margem bruta (% da Receita líquida)                                      6,7%                    7,4%               -0,7 p.p.                 7,8%                    -1,1 p.p.
+
+Margem bruta (R$/m3)                                                     150                     143                    4,9%                   164                      -8,5%
+
+Despesas operacionais                                                  1.060                   1.055                    0,5%                 1.170                      -9,4%
+
+Resultado financeiro                                                      (46)                  (148)                 -68,9%                   (89)                    -48,3%
+
+Lucro líquido                                                            247                     156                   58,3%                   531                     -53,5%
+
+EBITDA ajustado                                                          773                     647                   19,5%                   883                     -12,5%
+
+Margem EBITDA ajustada (% da Receita líquida)                            3,4%                    3,2%               +0,2 p.p.                 3,8%                    -0,4 p.p.
+
+Margem EBITDA ajustada (R$/m3)                                             76                      63                  20,6%                    80                      -5,0%
+
+
+
+
+Receita líquida - Alcançou R$22.499 milhões no 1T18 (+12,2%) em função principalmente dos maiores preços
+médios de realização de produtos. Em relação ao 4T17 a receita líquida apresentou redução de 3%, fruto da
+sazonalidade do setor parcialmente compensada pelos maiores preços médios de realização.
+Lucro bruto – Atingiu R$1.517 (+2,4%) devido ao aumento de 4,9% nas margens médias de comercialização,
+parcialmente compensado pela redução de 2,2% no volume dos produtos vendidos, em que pese a menor
+participação da gasolina no mix de produtos vendidos em detrimento ao etanol, produto que têm menores
+margens.
+Despesas operacionais – Atingiram R$1.060 (+0,5%) mantendo-se praticamente estáveis entre os períodos
+considerados.
+
+Resultado financeiro – O endividamento líquido no 1T18 foi de R$ 3.418 milhões (1,1x EBITDA ajustado), em
+comparação a R$9.175 milhões no 1T17 (3,3x EBITDA ajustado) em função do aporte de capital realizado pela
+Petrobras no valor de R$ 6.313 milhões e posterior liquidação antecipada do total dos saldos das Notas de Crédito
+à Exportação (NCEs), no montante de R$ 7.708 milhões, operações ocorridas em agosto de 2017. Em
+consequência, a despesa financeira líquida apresentou redução de R$102 milhões, de R$148 milhões no 1T17
+para R$46 milhões no 1T18, devido à redução do endividamento líquido e as menores taxas de CDI no país. Na
+comparação com o 4T17, a redução é atribuível, a variação positiva do resultado de operação de Hedge.
+
+
+1
+ O Consolidado representa a soma dos segmentos “Rede de Postos”, “Grandes Consumidores”, “Aviação” e “Outros”, além do overhead da Companhia não alocado aos demais
+segmentos, que é agrupado no “Corporativo”.
+                                                                                                                                                www.br.com.br/ri
+                                                                                                                                                  ri@br.com.br
+                                                                                     Página 4 de 20
+                                                                                                                 Petrobras Distribuidora S.A.
+                                                                                                                        1º Trimestre de 2018
+
+
+
+
+Lucro líquido – A Companhia apurou lucro líquido de R$247 milhões (+58,3%), refletindo melhores margens de
+comercialização e redução das despesas financeiras líquidas.
+
+EBITDA ajustado – Atingiu R$773 milhões no 1T18 (+19,5%) em relação ao 1T17 (R$647 milhões), refletindo a
+melhora nas margens de comercialização e a redução das despesas operacionais. A margem EBITDA ajustada ao
+final do 1T18 foi de R$76/m³ (+20,6%).
+
+
+
+Rede de Postos
+ Em m ilhões de reais (exceto onde indicado)                                            1T18        1T17   1T18 x 1T17       4T17        1T18 x 4T17
+
+ Volume de vendas (mil m3)                                                          5,441          5,501         -1,1%      5,846                 -6,9%
+
+ Receita líquida ajustada                                                         13.643          12.157        12,2%      14.091                 -3,2%
+
+ Lucro bruto ajustado                                                                   892         884           0,9%      1.060                -15,8%
+
+ Margem bruta ajustada (% da Receita líquida)                                           6,5%        7,3%      -0,8 p.p.      7,5%            -1,0 p.p.
+
+ Margem bruta ajustada (R$/m3)                                                          164         161           2,0%       181                  -9,6%
+
+ Despesas operacionais ajustadas                                                        353         341           3,5%       363                  -2,8%
+
+ EBITDA ajustado                                                                        539         543          -0,7%       697                 -22,7%
+
+ Margem EBITDA ajustada (% da Receita líquida)                                          4,0%        4,5%      - 0,5 p.p.     4,9%            -0,9 p.p.
+
+ Margem EBITDA ajustada (R$/m3)                                                          99          99           0,4%       119                 -16,9%
+
+ Número total de postos de serviços                                                 8.271          8.160          111       8.277                   -6
+
+ Número de postos ativos                                                            7.602          7.343          259       7.617                  -15
+
+
+
+
+Desempenho operacional - A Rede de Postos apresentou no 1T18 volume de vendas 1,1% inferior ao 1T17 e 6,9%
+inferior ao 4T17, influenciado principalmente pela redução do ciclo otto. Adicionalmente, foi observado ainda
+um avanço dos players regionais. A Companhia expandiu sua rede de postos ativos em 259 unidades (líquidas),
+na comparação do 1T18 com o 1T17, investindo em embandeiramentos e manutenção da rede R$186 milhões
+(1T17: R$177 milhões), sendo R$113 milhões em bonificações antecipadas a clientes (1T17: R$90 milhões),
+R$59 milhões em bonificações por performance (1T17: R$69 milhões) e R$14 milhões em financiamentos em
+espécie (1T17: R$18 milhões).
+Receita líquida2 – Alcançou R$13.643 milhões no 1T18 (+12,2%) em função dos maiores preços médios de
+realização de produtos em relação ao 1T17. Em relação ao 4T17 a receita líquida apresentou uma redução de
+3,2%, em função da redução de volume de vendas, parcialmente compensada por maiores preços médios de
+realização dos produtos.
+
+
+
+2 É apresentada sem a dedução da amortização das bonificações antecipadas a clientes.
+                                                                                                                              www.br.com.br/ri
+                                                                                                                                ri@br.com.br
+                                                                                         Página 5 de 20
+                                                                                                                                  Petrobras Distribuidora S.A.
+                                                                                                                                         1º Trimestre de 2018
+
+
+
+
+Lucro bruto3 – Atingiu R$ 892 milhões no 1T18 (+0,9%) em função das maiores margens médias de
+comercialização. Em relação ao 4T17 o lucro bruto apresentou redução de 15,8% em função da redução de 6,9%
+nos volumes vendidos, fruto da sazonalidade do setor, associada à redução das margens médias de
+comercialização, muito impactado pelo maior mix de venda de etanol hidratado.
+Despesas operacionais4 – Alcançaram R$353 milhões no 1T18 (+3,5%). Em relação ao 4T17 as despesas
+operacionais apresentaram redução de 2,8%, em função das menores despesas com fretes de entrega de
+produtos, despesas gerais e pessoal.
+EBITDA ajustado – Alcançou R$539 milhões no 1T18 (-0,7%). A margem EBITDA foi de R$99/m³ (+0,4%). Em
+relação ao 4T17, o EBITDA ajustado foi 16,9% inferior, em linha com a redução do lucro bruto.
+
+
+
+Grandes Consumidores
+
+
+  Em m ilhões de reais (exceto onde indicado)                                         1T18                  1T17           1T18 x 1T17                   4T17         1T18 x 4T17
+
+  Volume de vendas (mil m3)                                                         2,498                 2,565                     -2,6%              2,839                 -12,0%
+
+  Receita líquida ajustada                                                          5.713                 5.151                    10,9%               6.019                  -5,1%
+
+  Lucro bruto ajustado                                                                 323                  383                   -15,7%                 429                 -24,7%
+
+  Margem bruta ajustada (% da Receita líquida)                                        5,7%                  7,4%                 -1,7 p.p.               7,1%              -1,4 p.p.
+
+  Margem bruta ajustada (R$/m3)                                                        129                  149                   -13,4%                 151                 -14,4%
+
+  Despesas operacionais ajustadas                                                      171                  242                   -29,3%                 253                 -32,4%
+
+  EBITDA ajustado                                                                      152                  141                      7,8%                176                 -13,6%
+
+  Margem EBITDA ajustada (% da Receita líquida)                                       2,7%                  2,7%                  0,0 p.p.               2,9%              -0,2 p.p.
+
+  Margem EBITDA ajustada (R$/m3)                                                        61                    55                   10,7%                   62                 -1,9%
+
+
+
+
+Desempenho operacional – O segmento de Grandes Consumidores apresentou no 1T18 volume de vendas 2,6%
+inferior ao 1T17, acompanhando diretamente as oscilações da atividade econômica no Brasil e pelo menor
+despacho das Usinas Termoelétricas. Em relação ao 4T17, as vendas foram 12% inferiores, em decorrência da
+queda de vendas de óleo diesel, em função do menor despacho de térmicas do Sistema Interligado no período.
+Receita líquida – Alcançou R$5.713 milhões no 1T18 (+10,9%), em função principalmente dos maiores preços
+médios de realização de produtos. Em relação ao 4T17 a receita líquida apresentou queda de 5,1%,
+principalmente em função dos menores volumes vendidos, efeito parcialmente compensado por maiores preços
+médios de realização.
+
+
+3 É apresentado sem a dedução das bonificações antecipadas a clientes e depreciação dos ativos da fábrica de lubrificantes.
+4
+  São apresentadas sem a dedução das depreciações e amortizações, perdas estimadas em créditos de liquidação duvidosa do setor elétrico, anistias fiscais e encargos tributários sobre
+receitas financeiras, perdas e provisões para processos judiciais e administrativos e provisão para plano de incentivo ao desligamento voluntário de empregados.
+                                                                                                                                                         www.br.com.br/ri
+                                                                                                                                                           ri@br.com.br
+                                                                                          Página 6 de 20
+                                                                                Petrobras Distribuidora S.A.
+                                                                                       1º Trimestre de 2018
+
+
+
+
+Lucro bruto – Atingiu R$323 milhões no 1T18 (-15,7%), em função da redução nas margens médias de
+comercialização, fruto das menores vendas de diesel e óleo combustível às térmicas. Em relação ao 4T17 o lucro
+bruto apresentou redução de 24,7% em função da redução de 12% do volume vendido e de 14,4% das margens
+médias de comercialização, principalmente de diesel às térmicas do Sistema Interligado.
+Despesas operacionais – Alcançaram R$171 milhões no 1T18 (-29,3%) em função de menores despesas com fretes
+de entrega de produtos e pessoal. Em relação ao 4T17, as despesas operacionais apresentaram redução de
+32,4%, em função das menores despesas com fretes de entrega de produtos, despesas gerais e pessoal.
+EBITDA ajustado – Alcançou R$152 milhões no 1T18 (+7,8%), em função principalmente da redução das despesas
+operacionais. A margem EBITDA foi de R$61/m³ (+10,7%), com a redução das despesas operacionais mais que
+compensando a queda do lucro bruto. A margem EBITDA se manteve estável em relação ao 4T17.
+
+
+
+Aviação
+
+
+ Em m ilhões de reais (exceto onde indicado)       1T18           1T17      1T18 x 1T17      4T17    1T18 x 4T17
+
+ Volume de vendas (mil m3)                        0,990          0,950             4,2%     0,986              0,4%
+
+ Receita líquida ajustada                         2.078          1.709           21,6%      1.963              5,9%
+
+ Lucro bruto ajustado                               206           172            19,8%       218               -5,5%
+
+ Margem bruta ajustada (% da Receita líquida)      9,9%          10,1%         -0,2 p.p.    11,1%         -1,2 p.p.
+
+ Margem bruta ajustada (R$/m3)                      208           181            14,9%       221               -5,9%
+
+ Despesas operacionais ajustadas                    116           120             -3,3%      108               7,4%
+
+ EBITDA ajustado                                     90                52        73,1%       110           -18,2%
+
+ Margem EBITDA ajustada (% da Receita líquida)     4,3%           3,0%         +1,3 p.p.     5,6%         -1,3 p.p.
+
+ Margem EBITDA ajustada (R$/m3)                      91                55        66,1%       112           -18,8%
+
+
+
+
+Desempenho operacional – O segmento de Aviação apresentou recuperação dos volumes de vendas em todos os
+períodos de comparação. No 1T18, volume de vendas foi 4,2% superior ao mesmo período do ano passado,
+refletindo maiores vendas às companhias aéreas nacionais e estrangeiras. Em relação ao 4T17, as vendas foram
+0,4% superiores, mantendo-se praticamente estáveis.
+Receita líquida – Alcançou R$2.078 milhões no 1T18, (+21,6%) em função principalmente dos maiores preços
+médios de vendas de produtos. Em relação ao 4T17, a receita líquida apresentou aumento de 5,9%, também em
+função dos maiores preços médios de vendas de produtos.
+Lucro bruto – Atingiu R$206 milhões no 1T18, (+19,8%), em função do aumento de 14,9% das margens médias de
+comercialização, fruto do reajuste de contratos e maior captura de margens devido à favorabilidade do câmbio.
+Em relação ao 4T17, o lucro bruto apresentou redução de 5,5% em função de menores margens de vendas.
+
+                                                                                            www.br.com.br/ri
+                                                                                              ri@br.com.br
+                                                      Página 7 de 20
+                                                                            Petrobras Distribuidora S.A.
+                                                                                   1º Trimestre de 2018
+
+
+
+
+Despesas operacionais – Alcançaram R$116 milhões no 1T18 (-3,3%), com as despesas operacionais por m³
+vendido apresentando queda de 7,2% em relação ao 1T17. Em relação ao 4T17, as despesas operacionais
+apresentaram aumento de 7,4%.
+EBITDA ajustado – Alcançou R$90 milhões no 1T17, em função principalmente do aumento do lucro bruto. A
+margem EBITDA foi de R$91/m³ (+66,1%). Em relação ao 4T17, o EBITDA ajustado foi 18,2% inferior, em função
+tanto da redução do lucro bruto como do aumento das despesas operacionais.
+
+
+Outros Negócios (Produtos Químicos, Energia e Asfaltos)
+
+
+ Em m ilhões de reais (exceto onde indicado)       1T18         1T17   1T18 x 1T17       4T17     1T18 x 4T17
+
+ Volume de vendas (mil m3)                        1,180        1,204         -2,0%      1,357              -13,0%
+
+ Receita líquida ajustada                         1.186        1.156          2,6%      1.269               -6,5%
+
+ Lucro bruto ajustado                              220          174          26,4%       223                -1,3%
+
+ Margem bruta ajustada (% da Receita líquida)     18,5%        15,1%      + 3,4 p.p.    17,6%         +0,9 p.p.
+
+ Margem bruta ajustada (R$/m3)                     186          145          29,0%       164               13,5%
+
+ Despesas operacionais ajustadas                    70           76          -7,9%       104               -32,7%
+
+ EBITDA ajustado                                   151           99          52,5%       119               26,9%
+
+ Margem EBITDA ajustada (% da Receita líquida)    12,7%         8,6%      + 5,6 p.p.     9,4%         +3,6 p.p.
+
+ Margem EBITDA ajustada (R$/m3)                    128           82          55,7%        88               46,0%
+
+
+
+Desempenho operacional – O segmento de Outros Negócios apresentou no 1T18 volume de vendas 2,0% inferior
+ao 1T17 e 13,0% inferior ao 4T17, principalmente em função das menores vendas de coque verde de petróleo,
+ocasionadas pela menor disponibilidade do produto.
+Receita líquida – Alcançou R$1.186 milhões no 1T18 (+2,6%) em função principalmente do aumento dos preços
+médios de realização. Em relação ao 4T17, a receita líquida apresentou queda de 6,5%, com a redução dos
+volumes vendidos - principalmente de coque verde de petróleo – tendo sido parcialmente compensada por
+maiores preços médios de realização.
+Lucro bruto – Atingiu R$220 milhões no 1T18 (+26,4%) principalmente em função do aumento da margem do
+coque verde de petróleo, ocasionado pela alta do preço do carvão no mercado internacional, afetando
+positivamente a formação do preço de venda. Em relação ao 4T17 o lucro bruto apresentou redução de 1,3%,
+com os menores volumes vendidos, principalmente de coque verde de petróleo, tendo sido compensados por
+maiores margens médias de comercialização.
+Despesas operacionais – Alcançaram R$70 milhões no 1T18 (-7,9%) com queda de 6,0% das despesas operacionais
+por m³ em relação ao 1T17 e de 22,6% em relação ao 4T17.
+
+
+                                                                                        www.br.com.br/ri
+                                                                                          ri@br.com.br
+                                                    Página 8 de 20
+                                                                               Petrobras Distribuidora S.A.
+                                                                                      1º Trimestre de 2018
+
+
+
+
+EBITDA ajustado – Alcançou R$151 milhões no 1T18 (+52,5%), em função do aumento do lucro bruto e redução
+das despesas operacionais. Em relação ao 4T17 o EBITDA ajustado apresentou alta de 26,9%, principalmente em
+função das menores despesas operacionais.
+
+
+
+Corporativo
+
+O Corporativo é composto, principalmente, pelo overhead da Companhia não alocado aos demais segmentos.
+Os valores classificados como Corporativos são apresentados como se seguem:
+
+Em milhões de reais (exc eto onde indic ado)      1T18        1T17    1T18 x 1T17        4T17       1T18 x 4T17
+Despesas operacionais ajustadas                   (157)       (182)           -14%       (225)                -30%
+EBITDA ajustado                                   (159)       (188)           -15%       (219)                -27%
+
+
+As despesas operacionais ajustadas alocadas no corporativo representam, principalmente, despesas com
+provisões atuariais com planos de pensão e de saúde a inativos (1T18: R$79 milhões; 1T17: R$99 milhões).
+As despesas com planos de pensão e de saúde de participantes ativos, de R$30 milhões no 1T18 (R$26 milhões
+no 1T17) estão alocadas diretamente aos demais segmentos de negócios e estão alocadas diretamente aos demais
+segmentos de negócios.
+
+
+
+
+                                                                                           www.br.com.br/ri
+                                                                                             ri@br.com.br
+                                                     Página 9 de 20
+                                                                                                                    Petrobras Distribuidora S.A.
+                                                                                                                           1º Trimestre de 2018
+
+
+
+
+ Reconciliação do Fluxo de Caixa
+
+ A menor geração de caixa operacional e livre entre os períodos considerados decorre de maior necessidade de
+ capital de giro em função, dentre outros, de efeito calendário.
+
+       Em milhõe s de Re a is                                                                                              1T2 0 18                 1T2 0 17
+
+
+       EBITDA                                                                                                                  562                      536
+       IR/CS pagos                                                                                                              -                         (60)
+       Efeitos não caixa no EBITDA                                                                                              278                      320
+       Capital de giro                                                                                                          (211)                     (58)
+
+       Fluxo de Ca ixa da s Ativida de s O pe ra c iona is                                                                     629                      738
+
+
+       CAPEX                                                                                                                        (71)                  (63)
+       Outros                                                                                                                   -                             12
+
+       Fluxo de Ca ixa da s Ativida de s de Inve stime ntos                                                                     (7 1)                    (5 1)
+       FLUX O DE CAIX A LIV RE                                                                                                 558                      687
+
+
+       Financiamentos/arrendamentos                                                                                             (155)                   (322)
+       FIDC                                                                                                                     219                     (424)
+
+       Fluxo de Ca ixa da s Ativida de s de Fina nc ia me ntos                                                                   64                    (7 4 6 )
+       CAIX A LIV RE P ARA O S ACIO NIS TAS                                                                                    622                      (5 9 )
+
+
+       Dividendos/Juros sobre o capital próprio pagos a acionistas                                                              -                        -
+
+       Ca ixa lí quido ge ra do (c onsumido) no pe rí odo                                                                      622                      (5 9 )
+
+
+       Saldo inicial                                                                                                            483                      655
+
+       S a ldo fina l                                                                                                        1. 10 5                    596
+
+ Observações:
+
+1.   Os recursos de caixa aplicados em bonificações antecipadas a clientes, de R$113 milhões no 1T18 (R$90 milhões em 1T17) são apresentados na variação do
+     capital de giro.
+2.   Os recursos de caixa aplicados em bonificações por performance, de R$59 milhões em 1T18 (R$ 69 milhões em 1T17) são deduzidos do EBITDA.
+3.   Aplicações de recursos em Capex representam desembolsos para formação de ativos imobilizados e intangíveis e não incluem as bonificações antecipadas a
+     clientes.
+4.   “Efeitos não caixa no EBITDA” incluem: perdas estimadas em créditos de liquidação duvidosa, perdas e provisões em processos judiciais e administrativos, planos
+     de pensão e de saúde (1T18: R$211 milhões; 1T17: R$111 milhões) e PIDV, resultado com alienação de ativos, resultado de participações em investimentos
+     relevantes, amortização das bonificações antecipadas a clientes, amortização de seguros, aluguéis e outros, juros e variações monetárias/cambiais líquidas
+     (estes deduzidos do resultado financeiro líquido) e outros ajustes, conforme apresentados na Demonstração dos Fluxos de Caixa, parte integrante das
+     Demonstrações Contábeis anuais.
+5.   No 1T18 a variação de capital de giro também foi afetada pela redução de prazo de pagamento de compras de alguns produtos nas refinarias, como o QAV no
+     primeiro semestre de 2017, além de um efeito calendário negativo de aproximadamente R$101 milhões.
+6.   FIDC (Fundo de Investimentos em Direitos Creditórios): fundo exclusivo e corporativo do Sistema Petrobras. É destinado preponderantemente à aquisição de
+     direitos creditórios “performados” e/ou “não performados” de operações realizadas por empresas do Sistema Petrobras.
+
+
+                                                                                                                                           www.br.com.br/ri
+                                                                                                                                             ri@br.com.br
+                                                                                Página 10 de 20
+                                                                                         Petrobras Distribuidora S.A.
+                                                                                                1º Trimestre de 2018
+
+
+
+
+Endividamento
+O endividamento bruto consolidado da Companhia alcançou no primeiro trimestre de 2018 R$4.671 milhões
+(-64,2%). Na comparação com o 4T17 a dívida bruta foi menor em 1,4%. Além disso, encerramos o primeiro
+trimestre com uma dívida líquida de R$ 3.418 milhões (-62,7%). Na comparação com o 4T17, a dívida líquida foi
+12,0% inferior, em função do aumento das disponibilidades, fruto principalmente da geração operacional de
+caixa no 1T18. Para o cálculo da dívida líquida, foi considerado o saldo da aplicação no FIDC de R$ 148 milhões
+(R$ 370 milhões em 31 de dezembro de 2017), que tem remuneração equivalente a 100% do CDI.
+
+Como já mencionado, a redução do endividamento da companhia ocorreu, principalmente, em virtude
+do aporte de capital realizado pela Petrobras no valor de R$ 6,313 bilhões e posterior liquidação
+antecipada do total dos saldos das Notas de Crédito à Exportação contratadas junto ao Banco do Brasil
+e ao Bradesco, no montante de R$ 7.708 milhões. As taxas de financiamento destas dívidas eram de
+114,25% e 118% do CDI, respectivamente, e, após esta operação, o prazo médio do endividamento da
+companhia passou de 2,4 anos para 2,9 anos. Com isso, a relação Dívida Líquida / EBITDA Ajustado
+encerrou no 1T18 em 1,1x EBITDA ajustado (3,3x EBITDA ajustado no 1T17), e 1,3X EBITDA ajustado do
+4T17. O endividamento da Companhia é integralmente referenciado em moeda nacional (Reais).
+
+
+
+   Em milhões de Reais (exc eto onde indic ado)     1T18           1T17       1T18 x 1T17        4T17            1T18 x 4T17
+
+
+  Financiamentos                                   4.585         12.929            -64,5%       4.640                       -1,2%
+  Cessão de direitos creditórios                      13             26            -50,0%          26                  -50,0%
+  Arrendamentos mercantis                             73             95            -23,2%          72                       1,4%
+
+
+  Dívida Bruta                                     4.671         13.050            -64,2%       4.738                       -1,4%
+
+
+  (-) Disponibilidades                             1.105            596             85,4%         483                  128,8%
+  (-) FIDC                                           148          3.279            -95,5%         370                  -60,0%
+
+
+  Dívida Líquida                                   3.418          9.175            -62,7%       3.885                  -12,0%
+
+
+  LTM EBITDA Ajustado                              3.193          2.780             14,9%       3.067                       4,1%
+
+
+  Dívida Líquida/EBITDA Ajustado (X)                 1,1            3,3             -2,2 X        1,3                   -0,2 X
+
+
+  Custo médio da dívida (% do CDI)                115,26%       112,04%         +3,22 p.p.     114,53%              +0,73 p.p.
+
+
+  Prazo médio da dívida (anos)                        2,7            2,9                           2,9
+
+
+
+
+                                                                                                         www.br.com.br/ri
+                                                                                                           ri@br.com.br
+                                                            Página 11 de 20
+                                                                                          Petrobras Distribuidora S.A.
+                                                                                                 1º Trimestre de 2018
+
+
+
+
+Mercado de Capitais
+O volume financeiro médio negociado da Petrobras Distribuidora foi de R$65,5 milhões/dia no 1T18, considerando
+as negociações ocorridas na B3 – Brasil, Bolsa & Balcão. As ações da Companhia encerraram o 1T18 cotadas a
+R$22,69 na B3, apresentando uma valorização de 17,4% no trimestre, tendo como base o fechamento de
+dezembro de 2017. No mesmo período, o índice Ibovespa apresentou uma valorização de 11,7%. A Petrobras
+Distribuidora encerrou o 1T18 com um valor de mercado de R$26,4 bilhões.
+
+
+
+                        De sc riç ã o                           1T18
+
+
+  Quantidade de ações (mil)                                     1.165
+  Cotação em 29/03/2018                                        22,69
+  Valor de mercado de 100% do capital social (R$ milhões)     26.434
+
+
+  Volume médio/dia (ações)                                  3.188.123
+  Volume financeiro médio/dia (R$ mil)                        65.533
+  Cotação média (R$/ação)                                      20,21
+
+
+
+
+Juros sobre o Capital Próprio e Dividendos
+
+
+A Administração da Companhia deliberou por meio de Assembleia Geral Ordinária, realizada no dia 25 de abril
+de 2018, o pagamento de dividendos adicionais no valor de R$433 milhões, totalizando, entre juros sobre capital
+próprio e dividendos propostos, uma remuneração total ao acionista de R$1.092 milhões (R$0,94/ação),
+equivalentes a aproximadamente 95% do lucro líquido apurado no exercício social de 2017.
+Cabe ressaltar que o pagamento de juros sobre o capital próprio foi autorizado pelo Conselho de Administração
+da Companhia, em reunião realizada no dia 26 de janeiro de 2018, no valor de R$ 659 milhões, correspondente
+a R$ 0,56527346761767 centavos por ação.
+Os referidos pagamentos às ações negociadas na B3 S.A. – Brasil, Bolsa, Balcão, bem como às demais ações
+escrituradas perante o Banco Bradesco S.A., será efetuado, para fins de Juros sobre capital próprio, até 31 de
+julho de 2018, com base na posição acionária de 1°de fevereiro de 2018 (inclusive); e, para fins de dividendos,
+em até 30 de setembro de 2018, com base na posição acionária de 25 de abril de 2018 (inclusive).
+Estas remunerações serão atualizadas monetariamente, a partir de 31 de dezembro de 2017 até a data da
+quitação, de acordo com a variação da taxa Selic.
+
+
+
+
+                                                                                                      www.br.com.br/ri
+                                                                                                        ri@br.com.br
+                                                                        Página 12 de 20
+                                                                               Petrobras Distribuidora S.A.
+                                                                                      1º Trimestre de 2018
+
+
+
+
+Negociação de Dívidas do Sistema Eletrobras
+Foram assinados em 30/04/2018, instrumentos referentes a negociações com a Centrais Elétricas Brasileiras S.A.
+– Eletrobras e distribuidoras de energia controladas pela Eletrobras (Eletrobras Amazonas, Eletrobras Roraima,
+Eletrobras Rondônia e Eletrobras Acre), visando a celebração de acordo relativo a dívidas decorrentes de
+fornecimento no passado de derivados de petróleo para a geração de energia no norte do país, no valor atualizado
+de R$4,6 bilhões (Nota Explicativa 6.2 das Demonstrações Financeiras Intermediárias de 31.03.2018 – Composição
+– Setor Elétrico – Sistema Isolado).
+Desse modo, foram celebrados Instrumentos de Confissão de Dívidas - ICDs para as dívidas hoje ajuizadas (em
+cobrança judicial), que compõem a maior parte dos valores em questão no caso da Petrobras Distribuidora S.A.
+e que contarão com garantia (fiança) prestada pela Eletrobras até que ocorra a privatização das empresas
+distribuidoras controladas e que deverão ser quitados em 36 prestações mensais (sem carência), atualizadas por
+taxas de mercado.
+Foram firmados, ainda, Instrumentos de Assunção de Dívida – IADs, condicionados a efetiva privatização das
+distribuidoras controladas, através dos quais R$1,4 bilhão será assumido diretamente pela Eletrobras por meio
+destes IADs, com previsão de garantia mais sólida, consubstanciada na cessão de créditos de contratos com
+empresas do sistema Eletrobras. A parte da dívida que não for assumida pela Eletrobras (R$3,2 bilhões) irá
+permanecer com as distribuidoras controladas através dos ICDs agora assinados, sendo que com a privatização
+deverão ser apresentadas garantias fidejussórias em substituição àquelas prestadas pela Eletrobras.
+Caso não aconteça a privatização das distribuidoras controladas da Eletrobras, os ICDs agora firmados prosseguem
+com seus efeitos e sob responsabilidades das mesmas distribuidoras controladas. Nada obstante, neste caso, a
+fiança oferecida pela Eletrobras perderá efeito e não haverá assunção de dívida pela Eletrobras.
+A companhia entende que esta negociação está em linha com nossa estratégia quanto à gestão destes valores a
+receber e não antevê neste momento impactos relevantes em seus resultados imediatos.
+
+
+
+
+                                                                                            www.br.com.br/ri
+                                                                                              ri@br.com.br
+                                                      Página 13 de 20
+                                                                            Petrobras Distribuidora S.A.
+                                                                                   1º Trimestre de 2018
+
+
+
+
+Teleconferência 1T18
+A Petrobras Distribuidora realizará teleconferência no dia 07 de maio de 2018 para comentários sobre o
+resultado da Companhia no primeiro trimestre de 2018. A apresentação estará disponível para download no
+website da Companhia uma hora antes do início das teleconferências.
+Nacional: 11 horas (hora de Brasília)
+Telefones para conexão: (11) 3127-4971 ou (11) 3728-5971
+Link para acesso:
+http://extranet.voitel.com.br/audiocasting/Audiocasting_Entrada.aspx?NameRoom=N24043726
+Código: Petrobras Distribuidora
+
+Internacional: 12h30 (hora de Brasília)
+Telefones para conexão: Brasil: +55 11-3127-4971 / +55 11-3728-5971; Nova York: 1-516-3001066; Londres: 44-
+20-34785282
+Link para acesso:
+http://extranet.voitel.com.br/audiocasting/Audiocasting_Entrada.aspx?NameRoom=N24043727
+Código: Petrobras Distribuidora
+
+Em caso de dúvida ou problema de acesso, faça contato via e-mail sac@voitel.com.br ou pelo telefone +55 11
+4003 1858.
+
+A transcrição, apresentação e áudio serão disponibilizados após a teleconferência/webcast no site da
+Companhia: www.br.com.br/ri.
+
+
+
+
+                                                                                         www.br.com.br/ri
+                                                                                           ri@br.com.br
+                                                    Página 14 de 20
+                                                                         Petrobras Distribuidora S.A.
+                                                                                1º Trimestre de 2018
+
+
+
+
+Volume de vendas (mil m³)
+
+
+
+
+        Produtos                        1T18      1T17     1T18 x 1T17    4T17     1T18 x 4T17
+        Diesel não térmicas              4.047     3.953       2,4%        4.161      -2,7%
+        Diesel térmicas                     73       125      -41,9%          98     -25,9%
+        Ciclo otto                       3.211     3.269       -1,8%       3.466      -7,4%
+        Óleo combustível não térmicas      376       432      -13,1%         454     -17,4%
+        Óleo combustível térmicas          163       210      -22,3%         435     -62,6%
+        Aviação e Outros                 2.240     2.348       -4,6%       2.413      -7,2%
+        Total                           10.109   10.337        -2,2%     11.028       -8,3%
+
+
+
+
+                                                                                     www.br.com.br/ri
+                                                                                       ri@br.com.br
+                                                 Página 15 de 20
+                                                                        Petrobras Distribuidora S.A.
+                                                                               1º Trimestre de 2018
+
+
+
+
+Demonstrativo da Posição Financeira - Ativo – Em milhões de Reais
+
+
+      Ativo                                                         31.03.2018    31.12.2017
+
+      Circulante
+        Caixa e equivalentes de caixa                                    1.105               483
+        Contas a receber, líquidas                                       4.894            5.528
+        Estoques                                                         3.076            3.245
+        Adiantamentos a fornecedores                                        34                 74
+        Imposto de renda e contribuição social                             166               151
+        Impostos e contribuições a recuperar                               438               522
+        Bonificações antecipadas concedidas a clientes                     531               514
+        Despesas antecipadas                                                61                 40
+        Outros ativos circulantes                                          113               146
+                                                                        10.418          10.703
+      Não circulante
+        Realizável a longo prazo
+        Contas a receber, líquidas                                         374               376
+        Depósitos judiciais                                              1.017            1.000
+        Impostos e contribuições a recuperar                               549               541
+        Imposto de renda e contribuição social diferidos                 3.091            3.162
+        Bonificações antecipadas concedidas a clientes                   1.444            1.469
+        Despesas antecipadas                                               190               182
+        Outros ativos realizáveis a longo prazo                             25                 24
+                                                                         6.690           6.754
+
+
+        Investimentos                                                       34                 36
+        Imobilizado                                                      5.780            5.816
+        Intangível                                                         450               453
+                                                                        12.954          13.059
+      Total do Ativo                                                    23.372          23.762
+
+
+
+
+                                                                                    www.br.com.br/ri
+                                                                                      ri@br.com.br
+                                                  Página 16 de 20
+                                                                          Petrobras Distribuidora S.A.
+                                                                                 1º Trimestre de 2018
+
+
+
+
+Demonstrativo da Posição Financeira – Passivo e Patrimônio Líquido – Em milhões de Reais
+
+                                                                            Consolidado
+      Passivo                                                         31.03.2018       31.12.2017
+
+
+      Circulante
+       Fornecedores                                                         2.318              2.682
+       Financiamentos                                                         257                185
+       Cessão de direitos creditórios                                          13                  26
+       Arrendamentos mercantis financeiros                                     29                  29
+       Adiantamentos de clientes                                              332                363
+       Imposto de renda e contribuição social                                      1                 1
+       Impostos e contribuições a recolher                                    259                277
+       Dividendos / Juros sobre o capital próprio                             574                273
+       Salários, férias e encargos                                            224                219
+       Plano de incentivo ao desligamento voluntário                           30                   8
+       Planos de pensão e saúde                                               140                134
+       Outras contas e despesas a pagar                                       153                216
+                                                                            4.330             4.413
+      Não circulante
+       Financiamentos                                                       4.328              4.455
+       Arrendamentos mercantis financeiros                                     44                  43
+       Planos de pensão e saúde                                             3.997              3.932
+       Provisão para processos judiciais e administrativos                  2.151              2.079
+       Outras contas e despesas a pagar                                        12                  14
+                                                                           10.532           10.523
+                                                                           14.862           14.936
+
+      Patrimônio líquido
+       Capital social realizado                                             6.352              6.352
+       Reservas de lucros                                                   3.581              3.897
+       Ajuste de avaliação patrimonial                                      (1.423)           (1.423)
+                                                                            8.510             8.826
+      Total do Passivo                                                     23.372           23.762
+
+
+
+                                                                                        www.br.com.br/ri
+                                                                                          ri@br.com.br
+                                                    Página 17 de 20
+                                                                           Petrobras Distribuidora S.A.
+                                                                                  1º Trimestre de 2018
+
+
+
+
+Demonstração de Resultados – Em milhões de Reais
+
+
+                                                                                  Consolidado
+                                                                          Período de três meses findos
+                                                                             2018                2017
+   Receita de vendas de produtos e serviços prestados                           22.499              20.049
+    Custo dos produtos vendidos e serviços prestados                           (20.982)            (18.568)
+   Lucro bruto                                                                   1.517               1.481
+   Despesas operacionais
+    Vendas                                                                        (708)                (703)
+    Gerais e administrativas                                                      (190)                (205)
+    Tributárias                                                                     (27)                 (37)
+    Outras despesas, líquidas                                                     (135)                (110)
+                                                                                (1.060)              (1.055)
+   Lucro antes do resultado financeiro, participação e impostos                    457                  426
+    Financeiras
+      Despesas                                                                    (94)                  (431)
+      Receitas                                                                     84                    138
+      Variações cambiais e monetárias, líquidas                                   (36)                   145
+                                                                                  (46)                  (148)
+   Resultado de participações em investimentos                                     (1)                    (2)
+   Lucro antes dos impostos                                                       410                    276
+    Imposto de renda e contribuição social
+     Corrente                                                                       (1)                  (67)
+     Diferido                                                                     (162)                  (53)
+                                                                                  (163)                 (120)
+   Lucro líquido do exercício                                                      247                   156
+   Lucro líquido, básico e diluído por ação do capital social - R$                0,21                  0,13
+   Capital social composto de 1.165.000.000 ações ordinárias.
+
+
+
+
+                                                                                           www.br.com.br/ri
+                                                                                             ri@br.com.br
+                                                        Página 18 de 20
+                                                                                                                  Petrobras Distribuidora S.A.
+                                                                                                                         1º Trimestre de 2018
+
+
+
+
+Informações por Segmentos – Em milhões de Reais
+
+
+                                              Demonstração Consolidada do Resultado por Área de Negócio - mar/18
+                                                                                                                                     Reconciliação
+                                                                                                                      Total             com as
+                                               Rede de       Grandes                                                   dos           Demonstrações
+                                               Postos      Consumidores      Aviação    Outros     Corporativo       segmentos         Contábeis               Total
+Receita de Vendas                               13.643            5.713        2.078     1.186               -          22.620                 (121) (a)       22.499
+Custo dos produtos vendidos                    (12.751)           (5.390)     (1.872)     (966)              -         (20.979)                    (3) (b)     (20.982)
+Lucro bruto                                       892               323         206        220               -          1.641                 (124)             1.517
+Despesas
+ Vendas, gerais e administrativas                 (396)            (172)        (116)      (70)            (60)           (814)                   (84) (c )       (898)
+ Tributárias                                         (4)                -         (1)       (2)            (11)              (18)                  (9) (d)         (27)
+ Outras receitas (despesas), líquidas               47                  1          1         2             (86)              (35)              (100) (e)          (135)
+Resultado de participações em investimentos           -                 -          -         1              (2)               (1)                   -               (1)
+Resultado financeiro líquido                                                                                                                      (46) (f)         (46)
+EBITDA Ajustado                                   539               152          90        151           (159)            773
+
+Lucro (Prejuízo) antes dos impostos                                                                                                           (363)               410
+
+
+
+
+                                              Demonstração Consolidada do Resultado por Área de Negócio - mar/2017
+                                                                                                                                      Reconciliação
+                                                                                                                                         com as
+                                               Rede de        Grandes                                                Total dos       Demonstrações
+                                                Postos     Consumidores      Aviação     Outros     Corporativo      segmentos         Contábeis                Total
+Receita de Vendas                               12.157             5.151       1.709      1.156              1          20.174                   (125) (a)      20.049
+Custo dos produtos vendidos                     (11.273)          (4.768)     (1.537)      (982)            (4)         (18.564)                    (4) (b)    (18.568)
+Lucro bruto                                        884              383         172        174              (3)          1.610                 (129)            1.481
+Despesas
+ Vendas, gerais e administrativas                  (396)            (246)       (122)       (83)           (41)            (888)                   (20) (c )      (908)
+ Tributárias                                         (7)                -         (1)        (3)           (11)               (22)                 (15) (d)        (37)
+ Outras receitas (despesas), líquidas               62                  4          3        10            (130)               (51)                 (59) (e)       (110)
+Resultado de participações em investimentos           -                 -          -          1             (3)                (2)                   -              (2)
+Resultado financeiro líquido                                                                                                                     (148) (f)        (148)
+EBITDA Ajustado                                    543              141          52         99            (188)              647
+
+Lucro (Prejuízo) antes dos impostos                                                                                                            (371)              276
+
+
+
+
+                                                                                                                                     www.br.com.br/ri
+                                                                                                                                       ri@br.com.br
+                                                                            Página 19 de 20
+                                                                                                            Petrobras Distribuidora S.A.
+                                                                                                                   1º Trimestre de 2018
+
+
+
+
+Informações por Segmentos – Reconciliação com as Demonstrações Contábeis - Em milhões de Reais
+
+
+  Reconciliação com as demonstrações contábeis                                                                                31.03.2018    31.03.2017
+  (a) Receita de Vendas
+  Apropriação  dasvendas
+  As receitas de    bonificações antecipadas
+                          são ajustadas       concedidas a antecipadas
+                                        pelas bonificações clientes    concedidas aos revendedores dos postos de serviço
+  para os quais a Companhia distribui combustíveis e lubrificantes correspondem à parcela disponibilizada, principalmente,
+  em espécie e realizada sob condições pré-estabelecidas com tais partes, que uma vez cumpridas, tornam-se inexigíveis,
+  sendo absorvidas como despesa pela Companhia. Trata-se de um regime de metas que, uma vez atingidas, isenta os
+  recipientes, revendedores dos postos de serviço, da devolução à Companhia desses valores antecipados a título de
+  bonificação. São reconhecidas no resultado proporcionalmente aos seus prazos de vigência.                                         (121)          (125)
+
+
+  (b) Custo dos produtos vendidos
+  Depreciação e amortização                                                                                                           (3)            (4)
+
+
+  (c) Vendas, gerais e administrativas
+  Depreciação e amortização                                                                                                         (103)          (108)
+
+
+  Perdas de crédito esperadas
+
+  Os valores ajustados referem-se às provisões relativas aos recebíveis devidos à Companhia pelas empresas térmicas do
+  sistema isolado e interligado de energia, segmento atendido substancialmente pela Companhia e que vêm ultimamente
+  enfrentando dificuldades financeiras.                                                                                              19              88
+
+
+  (d) Impostos
+
+
+
+  Os ajustes de impostos referem-se à anistias fiscais e encargos tributários sobre receitas financeiras.
+  Anistias fiscais: trata-se das provisões para pagamentos referente a adesão aos programas de anistia instituídos por Leis
+  Estaduais e do Programa Especial de Regularização Tributária (PERT) da União sobre passivos tributários de ICM S e de
+  tributos federais junto aos Estados e União, respectivamente. A Companhia considera o ajuste apropriado porque
+  fornece informações adicionais aos investidores que não são decorrentes de nossas operações principais.                             (2)             -
+
+
+  Encargos tributários sobre receitas financeiras: os ajustes são referentes aos gastos com IOF, PASEP e COFINS incidentes
+  sobre as receitas financeiras da Companhia e que estão classificados em despesas tributárias.                                       (7)           (15)
+
+
+  (e) Outras receitas (despesas), líquidas
+  Perdas e provisões com processos judiciais
+  Os valores ajustados se referem às perdas incorridas em processos transitados em julgado, bem como as provisões
+  efetuadas com base nos pareceres obtidos junto aos advogados responsáveis pelo acompanhamento dos processos
+  judiciais ou pela própria área jurídica da Companhia.                                                                              (78)           (80)
+
+
+  Plano de incentivo ao desligamento voluntário
+
+  Os ajustes referem-se aos valores que impactaram os resultados da Companhia pela provisão dos gastos estimados com
+  indenizações relativas ao plano, bem como pela reversão da provisão em função das desistências de adesão ao plano
+  ocorridas nos respectivos períodos.                                                                                                (22)            21
+
+
+  (f) Resultado Financeiro, líquido                                                                                                  (46)          (148)
+  Total                                                                                                                            (363)           (371)
+
+                                                                                                                                www.br.com.br/ri
+                                                                                                                                  ri@br.com.br
+                                                                           Página 20 de 20
+                                                                                 Petrobras Distribuidora S.A.
+                                                                                          1st Quarter of 2018
+
+
+
+
+                               Petrobras Distribuidora S.A.
+                     EARNINGS RELEASE FOR THE 1ST QUARTER OF 2018
+Rio de Janeiro, May 04, 2018 – Petrobras Distribuidora S.A. (B3: BRDT3), leader in Brazil’s fuel distribution
+sector, is today reporting its earnings for the 1st quarter of 2018. The earnings are being presented on a
+consolidated basis, in accordance with the accounting practices adopted in Brazil and International Financial
+Reporting Standards (IFRS). The comparisons in this release are made between 1Q18 vs. 1Q17 and 1Q18 vs.
+4Q17.
+                                                 Highlights
+   Increase in net income of 58.3%, from R$156 million in 1Q17 to R$247 million in 1Q18.
+
+   Increase in Adjusted EBITDA of 19.5% compared with 1Q17 (R$ 773 million in 1Q18 and R$ 647 million
+    in 1Q17).
+
+   Expansion of the Adjusted EBITDA margin by 20.6% (R$ 76/ m³ in 1Q18 and R$ 63/ m³ in 1Q17).
+
+   Increase in the Gross Margin (R$ /m³) of 4.9% (R$150/ m³ in 1Q18 and R$143/ m³ in 1Q17).
+
+In millions of reais (except where stated)      1Q18          1Q17     1Q18 vs. 1Q17        4Q17     1Q18 vs. 4Q17
+
+Sales volume (thousands of m3)                10.109         10.337            -2.2%       11.028                 -8.3%
+
+Net revenue                                   22,499        20,049            12.2%        23,204                 -3.0%
+
+Gross profit                                   1,517         1,481              2.4%        1,806                -16.0%
+
+Gross margin (% Net revenue)                    6.7%           7.4%          -0.7 p.p.       7.8%               -1.1 p.p.
+
+Gross margin (R$/m 3)                            150           143              4.9%         164                  -8.5%
+
+Operating expenses                             1,060         1,055              0.5%        1,170                 -9.4%
+
+Finance income (costs)                           (46)         (148)           -68.9%          (89)               -48.3%
+
+Net income                                       247           156            58.3%          531                 -53.5%
+
+Adjusted EBITDA                                  773           647            19.5%          883                 -12.5%
+
+Adjusted EBITDA margin (% of Net revenue)       3.4%           3.2%         +0.2 p.p.        3.8%               -0.4 p.p.
+
+Adjusted EBITDA margin (R$/m 3)                   76            63            20.6%           80                  -5.0%
+
+Net debt                                       3,418         9,175            -62.7%        3,885                -12.0%
+
+Adjusted EBITDA LTM                            3,193         2,780            14.9%         3,067                  4.1%
+
+Net debt/Adjusted EBITDA (x)                      1.1           3.3            -2.2 X         1.3                 -0.2 X
+
+
+
+
+                                                                                             www.br.com.br/ri
+                                                                                               ri@br.com.br
+                                                        Page 1 of 20
+                                                                                        Petrobras Distribuidora S.A.
+                                                                                                 1st Quarter of 2018
+
+
+
+
+Our financial and operational information explained
+
+The consolidated financial information in this earnings report has been prepared in accordance with International
+Financial Reporting Standards (IFRS), issued by the International Accounting Standards Board (IASB)). This earnings report
+should be analyzed in conjunction with the 1Q18 and 2017 Financial Statements. The financial and operational
+information set out in this earnings report is rounded off. The total amount is presented in the tables and graphs could
+therefore differ from the direct numerical aggregation of the preceding numbers.
+
+The Company's adjusted EBITDA is a measure used by Management and consists of the Company’s net income plus net
+finance income, income and social contribution taxes, depreciation and amortization expenses, the amortization of
+bonuses advanced to clients (bonuses advanced to clients are presented in current assets and noncurrent assets),
+estimated losses on doubtful accounts in connection with the islanded and interconnected power grids, losses and
+provisions in connection with legal claims, impairment, voluntary redundancy incentive plan (PIDV), expenses in
+connection with tax amnesty programs and taxes on financial income.
+
+The Adjusted EBITDA margin is calculated by dividing Adjusted EBITDA by the volume of products sold. The Company uses
+the Adjusted EBITDA margin as it believes it properly presents its business earnings.
+
+          EBITDA Reconciliation                                                             Consolidated
+
+          R$ m illion                                                                   1Q18       1Q17        4Q17
+          EBITDA breakdow n
+          Net Income                                                                     247       156          531
+          Net finance income                                                             46        148               89
+          Income and social contribution taxes                                           163       120               15
+          Depreciation and amortization                                                  106       112          109
+          EBITDA                                                                         562       536          744
+          Estimated allow ances for doubtful accounts - Electric Sector (islanded and
+          interconnected pow er systems)                                                 (19)       (88)         (10)
+          Losses and provisions in judicial and administrative proceedings               78             80           15
+          Amortization of early bonuses aw arded to customers                            121       125          127
+
+          Voluntary Layoff Program (PIDV)                                                22         (21)             (1)
+          Tax Amnesty Program                                                              2        -            -
+          Tax expenses on finance income                                                   7            15           8
+          ADJUSTED EBITDA                                                                773       647          883
+          Sales volumes (million of m3)                                                 10.1       10.3         11.0
+
+          ADJUSTED EBITDA MARGIN (R$/m 3)                                                76             63           80
+
+
+Summary of changes arising from the application of IFRS 9 and 15
+
+In the first quarter of 2018, two new accounting pronouncements came into effect, namely IFRS 9 - Financial Instruments
+and IFRS 15 - Revenues from contracts with customers.
+
+With respect to IFRS 9, the Company and its consolidated investees applied the new methodology and identified additional
+impairment adjustments on financial assets as of January 1, 2018, related to accounts receivable from customer
+contracts, in the amount of R$ 268 million, accounted for directly in shareholders' equity, equivalent to R$ 177 million
+after deduction of taxes levied on profits.
+
+Regarding IFRS 15, there were no impacts on the Consolidated Financial Statements.
+
+                                                                                                         www.br.com.br/ri
+                                                                                                           ri@br.com.br
+                                                                       Page 2 of 20
+                                                                                 Petrobras Distribuidora S.A.
+                                                                                          1st Quarter of 2018
+
+
+
+
+Executive Summary
+Petrobras Distribuidora presented a consolidated adjusted EBITDA of R$ 773 million in 1Q2018, an increase of
+19.5% over in 1Q17. This result is aligned with the Company’s strategic direction of focusing on improving
+profitability.
+
+In the first quarter of 2018, the sales volume reduced slightly (-2.2%) in relation to the same period of 2017,
+with the effects of the expected Brazil’s economic recovery not yet being reflected in the sales volumes of
+some Company's segments. However, and in line with our strategic direction presented during our IPO, gross
+margins reached R$ 150/m3 (+4.9%).
+
+We have completed the organizational restructuring that resulted in reduction of managerial positions and will
+positively impact our operating expense reduction targets for 2018, in addition to implementing our zero-based
+budgeting targets.
+
+Lastly, on April 25, we held our Annual Shareholders meeting, which among other deliberations, elected our
+new board of directors with the profile of independence foreseen in our IPO.
+
+The highlights for our operating segments were:
+
+Retail
+
+In 1Q18 the retail sales dip by 1.1% on 1Q17. This sales volume decrease on 1Q17 is due to maintaining the
+policy of preserving sales margins, prioritizing the company’s profitability through a greater selectivity of sales,
+which results in a 2.0% increase in gross margins, even with a greater share of ethanol sales in the mix, which
+has lower margins than gasoline, following the previous quarter trend, regional players are still competitive.
+In this context, the network of stations had a gross margin of R$ 164/m3, up 2% over 1Q17. In 1Q18, we kept
+our active in comparison with 4Q17 and in relation to 1Q17 we added 259 new stations (net). The adjusted
+EBITDA in 1Q18 amounted to R$ 539 million.
+
+Major Customers
+
+The volume of sales in the Major Customer segment dropped by 2.6% in 1Q18 compared with 1Q17. The lower
+sales volume is still influenced by the reduction in diesel and fuel oil sales, especially to thermal power plants.
+The adjusted EBITDA in 1Q18 amounted to R$ 152 million, an increase of 7.8% over 1Q17.
+
+Aviation
+
+In 1Q18 the Aviation segment sales rose by 4.2% over 1Q17. We believe that the increase in volume sold reflects
+signs of a gradual recovery of economic activity since the last months of 2017. The adjusted EBITDA in 1Q18
+amounted to R$ 90 million. This was an increase of 73.1% over 1Q17, as a result of increase in sales and gross
+margins.
+
+Other segments (chemicals, energy and asphalt)
+
+In 1Q18 the Other Businesses segment sales dip by 2.0% on 1Q17. The sales volume in comparison with 4Q17
+reduced by 13.0%, due to lower sales of chemical products and green pet coke, partially offset by higher piped
+natural gas sales. The adjusted EBITDA in 1Q18 amounted to R$ 151 million (+52.5%). Compared with 4Q17,
+the adjusted EBITDA was R$119 million (+26.9%) due to better average sales margins, specially of pet coke in
+this quarter.
+                                                                                                www.br.com.br/ri
+                                                                                                  ri@br.com.br
+                                                         Page 3 of 20
+                                                                                                                                      Petrobras Distribuidora S.A.
+                                                                                                                                               1st Quarter of 2018
+
+
+
+
+    Performance by Business Segment
+
+    Consolidated1
+
+    In millions of reais (except where stated)                                           1Q18               1Q17           1Q18 vs. 1Q17                 4Q17           1Q18 vs. 4Q17
+
+    Sales volume (thousands of m3)                                                    10.109              10.337                      -2.2%            11.028                         -8.3%
+
+    Net revenue                                                                       22,499             20,049                      12.2%             23,204                         -3.0%
+
+    Gross profit                                                                        1,517              1,481                       2.4%             1,806                     -16.0%
+
+    Gross margin (% Net revenue)                                                          6.7%              7.4%                   -0.7 p.p.              7.8%                   -1.1 p.p.
+
+                            3
+    Gross margin (R$/m )                                                                  150                143                       4.9%                164                        -8.5%
+
+    Operating expenses                                                                  1,060              1,055                       0.5%             1,170                         -9.4%
+
+    Finance income (costs)                                                                 (46)             (148)                    -68.9%                (89)                   -48.3%
+
+    Net income                                                                            247                156                     58.3%                 531                    -53.5%
+
+    Adjusted EBITDA                                                                       773                647                     19.5%                 883                    -12.5%
+
+    Adjusted EBITDA margin (% of Net revenue)                                             3.4%              3.2%                   +0.2 p.p.              3.8%                   -0.4 p.p.
+
+    Adjusted EBITDA margin (R$/m 3)                                                         76                 63                    20.6%                  80                        -5.0%
+
+
+
+
+    Net revenue - Amounted to R$22,499 million in 1Q18 (+12.2%), primarily due to higher average product
+    realization prices. Net revenue fell by 3% on 4Q17, due to seasonal factors in the sector partially offset by
+    higher average realization prices.
+    Gross profit - Gross profit reached R$1,517 million (+2.4%) due to the 4.9% increase in the average sale
+    margin, partially offset by the 2.2% reduction in the volume of products sold, despite the higher share of
+    ethanol in the mix of products sold as ethanol has lower margins than gasoline.
+
+    Operating expenses – Net operating expenses reached R$1,060 million (+0.5%), remaining virtually unchanged
+    between the reported periods.
+
+    Finance income – The net debt in 1Q18 was R$3,418 million (1.1x adjusted EBITDA), compared with R$9,175
+    million in 1Q17 (3.3x adjusted EBITDA) due to the capital contribution made by Petrobras in the amount of
+    R$6,313 million and subsequent early settlement of all the balances of the Export Credit Notes in the amount
+    of R$7,708 million, operations which took place in August 2017. The net financial expense consequently
+    reduced by R$ 102 million, from R$148 million in 1Q17 to R$46 million in 1Q18, by the reduction of net debt
+    and lower CDI rates in the country. In comparison to 4Q17, the reduction is due to the positive results in
+    hedge operations.
+
+
+
+1
+ The consolidated information presents the sum of the “Retail”, “Bulk Customers”, “Aviation” and “Other” segments, in addition to the Company’s overhead not allocated to the other
+segments, which is grouped in “Corporate”.
+                                                                                                                                                            www.br.com.br/ri
+                                                                                                                                                              ri@br.com.br
+                                                                                              Page 4 of 20
+                                                                                                                          Petrobras Distribuidora S.A.
+                                                                                                                                   1st Quarter of 2018
+
+
+
+
+  Net income – Amounted R$247 million (+58.3), reflecting higher gross margins and reduction of net financial
+  expenses.
+
+  Adjusted EBITDA – Amounted to R$773 million in 1Q18 (+19.5%) to 1Q17, driven by higher gross margins and
+  lower operating expenses. The adjusted EBITDA margin at the end of 1Q18 was R$ 76/m3 (+20.6%).
+
+  Retail
+
+   In millions of reais (except where stated)                                             1Q18              1Q17    1Q18 vs. 1Q17      4Q17    1Q18 vs. 4Q17
+
+   Volume of sales (thousand m3)                                                         5.441              5.501           -1.1%      5.846              -6.9%
+
+   Adjusted net revenue                                                                 13,643             12,157          12.2%      14,091              -3.2%
+
+   Adjusted gross profit                                                                    892              884             0.9%      1,060          -15.8%
+
+   Adjusted gross margin (% of Net revenue)                                                6.5%             7.3%         -0.8 p.p.     7.5%          -1.0 p.p.
+
+   Adjusted gross margin (R$/m 3)                                                           164              161             2.0%       181               -9.6%
+
+   Adjusted operating expenses                                                              353              341             3.5%       363               -2.8%
+
+   Adjusted EBITDA                                                                          539              543            -0.7%       697           -22.7%
+
+   Adjusted EBITDA margin (% of Net revenue)                                               4.0%             4.5%         - 0.5 p.p.    4.9%          -0.9 p.p.
+
+   Adjusted EBITDA margin (R$/m 3)                                                           99               99             0.4%       119           -16.9%
+
+   Total number of service stations                                                      8,271              8,160              111     8,277                 -6
+
+   Number of active stations                                                             7,602              7,343              259     7,617                -15
+
+
+
+
+  Operating performance - In 1Q18 the retail sales dip by 1.1% over 1Q17 and 6.9% over 4Q17, driven mainly
+  by lower Otto cycle. Greater growth was also made by regional players. The Company expanded its network
+  of active stations by 259 (net) in 1Q18 compared with 1Q17, investing R$186 million in branding and network
+  maintenance (1Q17: R$177 million), with R$ 113 million in bonuses advanced to clients (1Q17: R$ 90 million),
+  R$ 59 million in performance bonuses (1Q17: R$ 69 million) and R$ 14 million in cash (dealer) financing
+  (1Q17: R$ 18 million).
+  Net revenue2 – Amounted to R$13,643 million in 1Q18 (+12.2%), due to higher average product realization
+  prices than in 1Q17. Net revenue fell by 3.2% on 4Q17, due to the lower sales volume, partially offset by
+  higher average realization prices.
+  Gross profit3 - Amounted to R$ 892 million in 1Q18 (+0.9%) due to the higher average gross margins. The
+  gross profit reduced by 15.8% on 4Q17, due to the 6.9% decrease in sales volumes, along with the decrease
+  in average gross margins, heavily affected by the greater mix of hydrated ethanol sales.
+
+
+
+2 The amortization of bonuses advanced to clients have not been deducted.
+3 Bonuses advanced to customers and depreciation of the lubricant plant’s assets have not been deducted.
+                                                                                                                                       www.br.com.br/ri
+                                                                                                                                         ri@br.com.br
+                                                                                            Page 5 of 20
+                                                                                                                                       Petrobras Distribuidora S.A.
+                                                                                                                                                1st Quarter of 2018
+
+
+
+
+    Operating expenses4 – Amounted to R$ 353 million in 1Q18, an increase of 3.5% compared with 1Q17. In
+    relation to 4Q17, operating expenses fell by 2.8%, due to lower freight general and personnel expenses.
+    Adjusted EBITDA – Amounted to R$ 539 million in 1Q18 (-0.7%). The EBITDA margin was R$ 99/m3 (+0.4%).
+    The Adjusted EBITDA for 4Q17 reduced by 16.9%, in line with the contraction in gross profit.
+
+    Major Customers
+
+    In m illions of reais (except w here stated)                                            1Q18                  1Q17        1Q18 vs. 1Q17                  4Q17       1Q18 vs. 4Q17
+
+    Volume of sales (thousand m3)                                                          2.498                 2.565                   -2.6%              2.839                 -12.0%
+
+    Adjusted net revenue                                                                   5,713                 5,151                  10.9%               6,019                  -5.1%
+
+    Adjusted gross profit                                                                    323                   383                  -15.7%                429                 -24.7%
+
+    Adjusted gross margin (% of Net revenue)                                                 5.7%                  7.4%               -1.7 p.p.              7.1%               -1.4 p.p.
+
+    Adjusted gross margin (R$/m3)                                                            129                   149                  -13.4%                151                 -14.4%
+
+    Adjusted operating expenses                                                              171                   242                  -29.3%                253                 -32.4%
+
+    Adjusted EBITDA                                                                          152                   141                    7.8%                176                 -13.6%
+
+    Adjusted EBITDA margin (% of Net revenue)                                                2.7%                  2.7%                0.0 p.p.              2.9%               -0.2 p.p.
+
+    Adjusted EBITDA margin (R$/m3)                                                             61                    55                 10.7%                   62                 -1.9%
+
+
+
+
+    Operating performance – The Major Customers sales volume reduced by 2.6% in 1Q18 compared with 1Q17,
+    in direct line with lower sales to thermal power plants. Sales reduced by 12% on 4Q17, due to the decrease
+    in diesel oil sales caused by lower thermal power plant sales in the Interconnected System in the period.
+    Net revenue - Amounted to R$ 5,713 million in 1Q18 (+10.9%), primarily due to higher average product
+    realization prices. Net revenue reduced by 5.1% over 4Q17, also due to lower sales volumes, partially offset
+    by higher average realization prices.
+    Gross profit – Amounted to R$323 million in 1Q18 (-15.7%), due to the decrease in average gross margins,
+    due to lower diesel and oil fuel sales to thermal power plants. Gross profit reduced 24.7% over 4Q17, due
+    to the 12% reduction in the sales volume and 14,4% of the average gross margins, especially diesel to thermal
+    power plants in the Interconnected System.
+    Operating expenses – Amounted to R$171 million in 1Q18 (-29.3%) due to lower expenses incurred on product
+    delivery freight and personnel. In 4Q17, operating expenses had a reduction of 32.4%, due to lower expenses
+    on product delivery freight, and general and personnel expenses.
+    Adjusted EBITDA – Amounted to R$152 million in 1Q18 (+7.8%), primarily due to the decrease in operating
+    expenses. The EBITDA margin was R$61/m3 (+10.7%), with lower operating expenses more than offsetting
+    the decrease in gross profit. The EBITDA margin remained stable in relation to 4Q17.
+
+
+
+4
+  Depreciation amortization, estimated allowances for doubtful accounts in the electric sector, tax amnesties and tax charges on financial revenue, losses and provisions in connection with
+judicial and administrative proceedings and provision for the voluntary redundancy incentivization program have not been deducted.
+                                                                                                                                                              www.br.com.br/ri
+                                                                                                                                                                ri@br.com.br
+                                                                                               Page 6 of 20
+                                                                                 Petrobras Distribuidora S.A.
+                                                                                          1st Quarter of 2018
+
+
+
+
+Aviation
+
+ In m illions of reais (except w here stated)    1Q18          1Q17    1Q18 vs. 1Q17       4Q17        1Q18 vs. 4Q17
+
+ Volume of sales (thousand m3)                     1             1              4.2%         1                    0.4%
+
+ Adjusted net revenue                           2,078         1,709           21.6%       1,963                   5.9%
+
+ Adjusted gross profit                            206           172           19.8%        218                    -5.5%
+
+ Adjusted gross margin (% of Net revenue)          0             0          -0.2 p.p.        0               -1.2 p.p.
+
+ Adjusted gross margin (R$/m3)                    208           181           14.9%        221                    -5.9%
+
+ Adjusted operating expenses                      116           120            -3.3%       108                    7.4%
+
+ Adjusted EBITDA                                  90             52           73.1%        110                   -18.2%
+
+ Adjusted EBITDA margin (% of Net revenue)         0             0          +1.3 p.p.        0               -1.3 p.p.
+
+ Adjusted EBITDA margin (R$/m3)                   91             55           66.1%        112                   -18.8%
+
+
+
+
+Operating performance - The Aviation segment recovered sales volumes in all comparison periods. In 1Q18
+the sales volume is 4.2% greater than 1Q17, reflecting greater sales to Brazilian and foreign airlines. Sales
+were 0.4% higher than in 4Q17, remaining virtually unchanged.
+Net revenue - Amounted to R$2,078 million in 1Q18 (+21.6%), primarily due to higher average product sales
+prices. Net revenue rose by 5.9% over 4Q17, also due to higher average product sale prices.
+Gross profit - Amounted to R$ 206 million in 1Q18, 19.8% higher than 1Q17, due to the 14.9% increase in
+average gross margins, as a result of the readjustment of contracts and higher margin capture due to the
+favorable exchange rate. Gross profit reduced by 5.5% on 4Q17, due to lower sales margins.
+Operating expenses – Amounted to R$ 116 million in 1Q18 (-3.3%), with operating expenses per m³ sold
+declining by 7.2% in relation to 1Q17. Operating expenses increased by 7.4% on 4Q17.
+Adjusted EBITDA – Amounted to R$ 90 million in 1Q17, primarily due to the higher gross profit. The EBITDA
+margin was R$ 91/m3 (+66.1). The Adjusted EBITDA diminished by 18.2% in relation to 4Q17, due to the
+contraction in gross profit and higher operating expenses.
+
+
+
+
+                                                                                              www.br.com.br/ri
+                                                                                                ri@br.com.br
+                                                        Page 7 of 20
+                                                                                   Petrobras Distribuidora S.A.
+                                                                                            1st Quarter of 2018
+
+
+
+
+Other Businesses (chemicals, energy and asphalt)
+ In m illions of reais (except w here stated)         1Q18              1Q17   1Q18 vs. 1Q17         4Q17     1Q18 vs. 4Q17
+
+ Volume of sales (thousand m3)                       1.180          1.204              -2.0%        1.357              -13.0%
+
+ Adjusted net revenue                             1,186.000      1,156.000              2.6%     1,269.000              -6.5%
+
+ Adjusted gross profit                             220.000        174.000              26.4%      223.000               -1.3%
+
+ Adjusted gross margin (% of Net revenue)            0.185          0.151           + 3.4 p.p.      0.176             +0.9 p.p.
+
+ Adjusted gross margin (R$/m3)                     186.400        144.500              29.0%      164.300               13.5%
+
+ Adjusted operating expenses                        70.000         76.000              -7.9%      104.000              -32.7%
+
+ Adjusted EBITDA                                   151.000         99.000              52.5%      119.000               26.9%
+
+ Adjusted EBITDA margin (% of Net revenue)           0.127          0.086           + 5.6 p.p.      0.094             +3.6 p.p.
+
+ Adjusted EBITDA margin (R$/m3)                    128.000         82.200              55.7%       87.700               46.0%
+
+
+
+Operating performance – In 1Q18 the Other Businesses segment sales dip by 2.0% over 1Q17 and 13.0% over
+4Q17, primarily due to lower sales of pet coke, due to a lower availability of the product.
+Net revenue – Amounted to R$ 1,186 million in 1Q18 (+2.6%) primarily due to the higher average realization
+price. Net revenue reduced by 6.5% in comparison to 4Q17, due to lower sales volumes, especially of pet
+coke, and was partially offset by higher average realization prices.
+Gross profit – Amounted to R$ 220 million in 1Q18 (+26.4%), primarily due to the increase in the pet coke
+margin, driven by higher international coal prices, positively affecting the formation of the sale price. Gross
+profit reduced by 1.3% over 4Q17, due to lower sales volumes, especially of pet coke, and was offset by higher
+average gross margins.
+Operating expenses – Amounted to R$ 70 million in 1Q18 (-7.9% on 1Q17), with a 6.0% decrease in operating
+expenses per m³ in relation to 1Q17 and 22.6% in comparison to 4Q17.
+Adjusted EBITDA – Amounted to R$ 151 million in 1Q18 (+52.5%), due both to higher gross profit, and lower
+operating expenses. In related to 4Q17 the adjusted EBITDA, increased by 26.9%, mainly due to lower
+operating expenses.
+
+
+
+
+                                                                                                   www.br.com.br/ri
+                                                                                                     ri@br.com.br
+                                                         Page 8 of 20
+                                                                                Petrobras Distribuidora S.A.
+                                                                                         1st Quarter of 2018
+
+
+
+
+Corporate
+
+
+Corporate does not represent an operation segment and is primarily composed by company’s overhead not
+allocated to the Other Segments.
+The amounts classified as Corporate are presented as follows:
+
+ In millions of reais (except w here stated)   1Q18           1Q17    1Q18 vs. 1Q17      4Q17        1Q18 vs. 4Q17
+ Adjusted operating expenses                   (157)          (182)           -14%       (225)                  -30%
+
+ Adjusted EBITDA                               (159)          (188)           -15%       (219)                  -27%
+
+Adjusted operating expenses allocated to corporate primarily consist of actuarial expenses incurred on pension
+plans and health care plans for inactive employees (1Q18: R$ 79 million; 1Q17: R$ 99 million).
+Expenses incurred on pension and health care plans for active participants of R$ 30 million in 1Q18 (R$ 26
+million in 1Q17) are directly allocated to the business segments.
+
+
+
+
+                                                                                             www.br.com.br/ri
+                                                                                               ri@br.com.br
+                                                       Page 9 of 20
+                                                                                                                  Petrobras Distribuidora S.A.
+                                                                                                                           1st Quarter of 2018
+
+
+
+
+     Cash Flow Reconciliation
+     The lower operational and free cash generation between the reported periods is due to the increase in
+     accounts receivable resulting from the calendar effect, among others.
+
+
+
+                    In millions of reais                                                                             1Q18              1Q17
+
+
+                    EBITDA                                                                                            562               536
+                    IR/CS paid                                                                                         -                 (60)
+                    Noncash effects on EBITDA                                                                         278               320
+                    Working capital                                                                                   (211)              (58)
+                    Cash Flows from Operating Activities                                                              629               738
+
+
+                    CAPEX                                                                                              (71)              (63)
+                    Other                                                                                              -                  12
+                    Cash flows from investment activities                                                              (71)              (51)
+                    FREE CASH FLOW                                                                                    558               687
+
+
+                    Financing/leases                                                                                  (155)             (322)
+                    FIDC                                                                                              219               (424)
+                    Cash Flows from Financing Activities                                                                64              (746)
+                    FREE CASH FOR SHAREHOLDERS                                                                        622                (59)
+
+
+                    Dividends/interest on shareholders' equity paid to shareholders                                    -                 -
+                    Net cash produced by (used in) the period                                                         622                (59)
+
+
+                    Opening balance                                                                                   483               655
+                    Closing balance                                                                                 1,105               596
+
+     Notes:
+
+1.   Cash funds paid as bonuses advanced to clients of R$ 113 million in 1Q18 (R$ 90 million in 1Q17) are presented in working capital changes.
+2.   Cash funds paid as performance bonuses of R$ 59 million in 1Q18 (R$ 69 million in 1Q17) are deducted from EBITDA.
+3.   Capex investments consist of disbursements to form property, plant and equipment and intangible assets and do not include bonuses advanced to
+     clients.
+4.   “Noncash effects on EBITDA” include: estimated allowances for doubtful accounts, loss in and provisions for judicial and administrative proceedings,
+     pension and health plans (1Q18: R$ 211 million; 1Q17: R$ 111 million) and PIDV, resulting from the sale of assets, earnings on material equity interests,
+     amortization of bonuses advanced to clients, amortization of insurance, rental and other, net monetary/exchange interest and variance (deducted
+     from net financing) and other adjustments, as presented in the Statement of cash flows, an integral part of the annual financial statements..
+5.   In 1Q18 the working capital variance was also affected by the decrease in the DPO of certain products at refineries, such as QAV in the first semester
+     of 2017, in addition to a negative calendar effect of approximately R $ 101 million.
+6.   FIDC (Credit Receivables Investment Fund): exclusive and corporate fund of Petrobras group. It is primarily allocated to the acquisition of performed
+     and/or non-performed credit receivables in operations conducted by companies comprising Petrobras group.
+
+
+
+
+                                                                                                                                     www.br.com.br/ri
+                                                                                                                                       ri@br.com.br
+                                                                                Page 10 of 20
+                                                                                   Petrobras Distribuidora S.A.
+                                                                                            1st Quarter of 2018
+
+
+
+
+Indebtedbess & leverage
+The Company’s consolidated gross debt stood at R$ 4,671 million in the first quarter of 2018 (-64.2%). Gross
+debt diminished by 1.4% in relation to 4Q17. Net debt at the end of the first quarter was R$ 3,418 million,
+(-62.7%). In comparison with 4Q17, net debt was 12.0% lower, due to the increase in cash and cash equivalents,
+mainly as a result of operating cash generation in 1Q18. Net debt was calculated considering the FIDC
+investment balance of R$ 148 million (R$ 370 million as of December 31, 2017), which yields the equivalent
+of 100% of the CDI rate.
+
+As mentioned, the decrease in debt was primarily due to the capital contribution of R$ 6.313 billion from
+Petrobras and the subsequent early settlement of the total balance of R$ 7,708 million in Export Credit Notes
+with Banco do Brasil and Bradesco. Interest paid on the above debt balances was equivalent to 114.25% and
+118%, respectively, of the CDI rate, and following settlement average debt maturity increased from 2.4 years
+to 2.9 years. The Net Debt / Adjusted EBITDA ratio closed 1Q18 at 1.1x Adjusted EBITDA (3.3x Adjusted EBITDA
+in 1Q17) and 1.3X Adjusted EBITDA in 4Q17. The Company's debt is completely indexed in local currency
+(Reais).
+
+
+
+ In m illions of Reais (except w here stated)        1Q18          1Q17      1Q18 vs. 1Q17      4Q17       1Q18 vs. 4Q17
+
+
+ Financing                                          4,585        12,929            -64.5%      4,640                  -1.2%
+ Assignment of credit receivables                      13              26          -50.0%         26                 -50.0%
+ Leases                                                73              95          -23.2%         72                  1.4%
+
+
+ Gross Debt                                         4,671        13,050            -64.2%      4,738                  -1.4%
+
+
+ (-) Cash and cash equivalents                      1,105          596              85.4%        483              128.8%
+ (-) FIDC                                             148         3,279            -95.5%        370                 -60.0%
+
+
+ Net Debt                                           3,418         9,175            -62.7%      3,885                 -12.0%
+
+
+ Adjusted EBITDA LTM                                3,193         2,780             14.9%      3,067                  4.1%
+
+
+ Net Debt/Adjusted EBITDA (X)                         1.1              3.3          -2.2 X       1.3                  -0.2 X
+
+
+ Average cost of the debt (% of the CDI rate)      115.26%      112.04%          +3.22 p.p.   114.53%           +0.73 p.p.
+
+
+ Average debt term (years)                             2.7             2.9                        2.9
+
+
+
+
+                                                                                                  www.br.com.br/ri
+                                                                                                    ri@br.com.br
+                                                       Page 11 of 20
+                                                                             Petrobras Distribuidora S.A.
+                                                                                      1st Quarter of 2018
+
+
+
+
+Capital Market
+Petrobras Distribuidora's average financial volume traded was R$ 65.5 million/day in 1Q18, including
+trading at B3. The Company's shares closed 1Q18 at R$ 22.69 at B3, gaining 17.4% in the quarter, based
+on the closing price for December 2017. The IBOVESPA index gained 11.7% during this period. Petrobras
+Distribuidora closed 1Q18 with a market value of R$ 26.4 billion.
+
+
+
+
+                    Description                          1Q18
+
+   Number of shares (thousand)                          1,165
+   Price at 3/29/2018                                   22.69
+   Market value 100% of share capital (R$ million)     26,434
+
+   Average volume/day (shares)                       3,188,123
+   Average financial volume/day (R$ thousand)           65,533
+   Average price (R$/share)                              20.21
+
+
+
+
+Interest on shareholders’ equity and dividends
+
+
+At the Annual General Meeting held April 25, 2018 Company Management resolved to pay out additional
+dividends of R$ 433 million. With the combined interest on shareholders' equity and dividends proposed, this
+will amount to total compensation for shareholders of R$ 1,092 million (R$ 0.94/share), equal to
+approximately 95% on the net income determined in FY 2017.
+We emphasize that the payment of interest on shareholders’ equity was authorized by the Company’s Board
+of Directors at a meeting held January 26, 2018 in the amount of R$ 659 million, or R$ 0.56527346761767
+cents per share.
+Said payments for shares traded on B3 S.A. – Brasil, Bolsa, Balcão and other shares registered at Banco
+Bradesco S. A. will be made no later than July 31, 2018, for the interest on shareholders' equity, based on
+shareholdings as of February 1, 2018 (inclusive); and no later than September 30, 2018, for dividends, based
+on shareholdings as of April 25, 2018 (inclusive).
+This compensation will be restated monetarily from December 31, 2017 to the date on which payment is made
+by the Selic base interest rate.
+
+
+
+
+                                                                                          www.br.com.br/ri
+                                                                                            ri@br.com.br
+                                                            Page 12 of 20
+                                                                                Petrobras Distribuidora S.A.
+                                                                                         1st Quarter of 2018
+
+
+
+
+Negotiations of debts from Eletrobras System
+Were signed on 04/30/2018 instruments regarding negotiations with Centrais Elétricas Brasileiras S.A. -
+Eletrobras and distributors of energy controlled by Eletrobras (Eletrobras Amazonas, Eletrobras Roraima,
+Eletrobras Rondônia and Eletrobras Acre), aiming to conclude an agreement related to debts arising from the
+past supply of oil products for the generation of energy in the north of the country, in the updated amount
+of R$4.6 billion (Note 6.2 of 1Q18 Financial Statements).
+
+Accordingly, Debt Confidence Instruments (ICDs, in portuguese) were entered into for debts filed today (in
+judicial collection), which comprise the majority of the amounts in question in the case of Petrobras
+Distribuidora S.A. and which will be guaranteed by Eletrobras until privatization of the controlled distributors
+companies and which should be paid in 36 monthly installments (without a grace period), updated by market
+rates.
+
+Debt Assumption Instruments (IADs, in portuguese) were also signed, conditioned upon the effective
+privatization of the controlled distributors companies, through which R$1.4 billion will be directly taken over
+by Eletrobras through these IADs, with a more solid guarantee, based on the cession of credits of contracts
+with companies of the Eletrobras system. The part of the debt that is not assumed by Eletrobras (R$3.2 billion)
+will remain with the current controlled distributors companies through the current ICDs, and with the
+privatization, guarantees should be presented instead of those provided by Eletrobras.
+
+In the event that the privatization of the controlled distributors of Eletrobras does not take place, the ICDs
+now signed continue with their effects and under the responsibility of the same controlled distributors
+companies. However, in this case, the guarantee offered by Eletrobras will lose its effect and there will be
+no assumption of debt by Eletrobras.
+
+The company understands that this negotiation is in line with our strategy regarding the management of these
+amounts receivable and does not foresee relevant impacts on its immediate results.
+
+
+
+
+                                                                                             www.br.com.br/ri
+                                                                                               ri@br.com.br
+                                                       Page 13 of 20
+                                                                                                        Petrobras Distribuidora S.A.
+                                                                                                                 1st Quarter of 2018
+
+
+
+
+1Q18 conference call
+Petrobras Distribuidora is hosting a teleconference on May 7, 2018 to discuss the Company’s earnings for the first quarter of 2018. The presentation
+can be downloaded from the Company’s website one hour before the teleconferences commence.
+
+Local: 11 AM (Brasília time)
+Telephone number: (11) 3127-4971 or (11) 3728-5971
+Link: http://extranet.voitel.com.br/audiocasting/Audiocasting_Entrada.aspx?NameRoom=N24043726
+Code: Petrobras Distribuidora
+
+International: 12:30 (Brasília time)
+Telephone number: Brazil: +55 11-3127-4971 / +55 11-3728-5971; New York: 1-516-3001066; London: 44-20-34785282
+Link: http://extranet.voitel.com.br/audiocasting/Audiocasting_Entrada.aspx?NameRoom=N24043727
+Code: Petrobras Distribuidora
+
+In the event of queries or if you are unable to connect to the call, please contact us on the e-mail sac@voitel.com.br or the telephone +55 11 4003
+1858.
+
+The transcription, presentation and audio will be made available after the teleconference/webcast on the Company’s site: www.br.com.br/ri.
+
+
+
+
+                                                                                                                          www.br.com.br/ri
+                                                                                                                            ri@br.com.br
+                                                                        Page 14 of 20
+                                                                 Petrobras Distribuidora S.A.
+                                                                          1st Quarter of 2018
+
+
+
+
+Volume of sales (thousand m3)
+
+
+   Products                  1Q18      1Q17     1Q18 vs.1Q17          4Q17    1Q18 vs.4Q17
+   Diesel non thermal       4,047     3,953               2.4%       4,161             -2.7%
+   Diesel thermal              73       125            -41.9%           98           -25.9%
+   Otto cycle               3,211     3,269              -1.8%       3,466             -7.4%
+   Non thermal fuel oil       376       432            -13.1%          454           -17.4%
+   Thermal fuel oil           163       210            -22.3%          435           -62.6%
+   Aviation and Others      2,240     2,348              -4.6%       2,413             -7.2%
+   Total                  10,109    10,337              -2.2%      11,028             -8.3%
+
+
+
+
+                                                                             www.br.com.br/ri
+                                                                               ri@br.com.br
+                                              Page 15 of 20
+                                                                   Petrobras Distribuidora S.A.
+                                                                            1st Quarter of 2018
+
+
+
+
+Statement of financial position - Assets - In millions of reais
+
+                                                                       Consolidated
+       Asset                                                      3/31/2018    12/31/2017
+
+       Current
+         Cash and cash equivalents                                     1,105                483
+         Net accounts receivable                                       4,894              5,528
+         Inventories                                                   3,076              3,245
+         Advances to suppliers                                           34                   74
+         Income and social contribution taxes                           166                 151
+         Taxes and contributions recoverable                            438                 522
+         Advanced bonuses awarded to clients                            531                 514
+         Prepaid expenses                                                61                   40
+         Other current assets                                           113                 146
+                                                                     10,418            10,703
+       Non-current assets
+         Long-term
+         Net accounts receivable                                        374                 376
+         Judicial deposits                                             1,017              1,000
+         Taxes and contributions recoverable                            549                 541
+         Deferred income and social contribution taxes                 3,091              3,162
+         Advanced bonuses awarded to clients                           1,444              1,469
+         Prepaid expenses                                               190                 182
+         Other noncurrent assets                                         25                   24
+                                                                      6,690              6,754
+
+
+         Capital expenditure                                             34                   36
+         Property, plant and equipment                                 5,780              5,816
+         Intangible assets                                              450                 453
+                                                                     12,954            13,059
+       Total Assets                                                  23,372            23,762
+
+
+                                                                               www.br.com.br/ri
+                                                                                 ri@br.com.br
+                                                  Page 16 of 20
+                                                                       Petrobras Distribuidora S.A.
+                                                                                1st Quarter of 2018
+
+
+
+
+Statement of financial position - Liability and Shareholders' equity - In millions of reais
+
+                                                                           Consolidated
+         Liabilities                                                  3/31/2018       12/31/2017
+
+
+         Current
+          Trade payables                                                    2,318              2,682
+          Financing                                                           257                 185
+          Assignment of credit receivables                                     13                  26
+          Financial leases                                                     29                  29
+          Advances from customers                                             332                 363
+          Income and social contribution taxes                                    1                  1
+          Taxes and contributions payable                                     259                 277
+          Dividends / Interest on shareholders' equity                        574                 273
+          Payroll, vacations and related charges                              224                 219
+          Voluntary redundancy incentivization plan                            30                   8
+          Pension and health plan                                             140                 134
+          Other accounts and expenses payable                                 153                 216
+                                                                           4,330              4,413
+         Non-current
+          Financing                                                         4,328              4,455
+          Financial leases                                                     44                  43
+          Pension and health plan                                           3,997              3,932
+          Provision for judicial and administrative
+          proceedings                                                       2,151              2,079
+          Other accounts and expenses payable                                  12                  14
+                                                                          10,532             10,523
+                                                                          14,862             14,936
+
+         Equity
+          Paid-in capital                                                   6,352              6,352
+          Profit reserves                                                   3,581              3,897
+          Equity appraisal adjustment                                      (1,423)            (1,423)
+                                                                           8,510              8,826
+         Total Liabilities                                                23,372             23,762
+
+
+
+
+                                                                                      www.br.com.br/ri
+                                                                                        ri@br.com.br
+                                                      Page 17 of 20
+                                                                   Petrobras Distribuidora S.A.
+                                                                            1st Quarter of 2018
+
+
+
+
+Statement of Income - In millions of reais
+
+
+                                                                           Consolidated
+                                                                     Three-month period ended
+                                                                       2018             2017
+     Revenue from goods sold and services rendered                     22,499              20,049
+      Cost of goods sold and services rendered                        (20,982)            (18,568)
+     Gross profit                                                       1,517               1,481
+     Operating expenses
+      Sales                                                              (708)                 (703)
+      General and administrative                                         (189)                 (205)
+      Tax                                                                 (28)                   (37)
+      Other net expenses                                                 (135)                 (110)
+                                                                       (1,060)               (1,055)
+     Net income before financial income/loss and taxes                    457                   426
+      Financial
+        Expenses                                                         (94)                  (431)
+        Revenue                                                           84                    138
+        Exchange and monetary variance, net                              (36)                   145
+                                                                         (46)                  (148)
+     Equity earnings                                                      (1)                    (2)
+     Income before tax                                                   410                    276
+      Income and social contribution taxes
+       Current                                                             (1)                  (67)
+       Deferred charges                                                  (162)                  (53)
+                                                                         (163)                 (120)
+     Net income for the year                                              247                   156
+     Basic and diluted net income per common share - R$                  0.21                  0.13
+     Share capital consists of 1,165,000,000 common shares
+
+
+
+
+                                                                                 www.br.com.br/ri
+                                                                                   ri@br.com.br
+                                                   Page 18 of 20
+                                                                                                                Petrobras Distribuidora S.A.
+                                                                                                                         1st Quarter of 2018
+
+
+
+
+Segment Reporting - In millions of reais
+
+
+
+
+                                      Consolidated statement of Net Income by Business Sector - Mar/18
+                                                                                                                                  Reconciliation
+                                                                                                                                      with
+                                                      Corporate                                                     Total           financial
+                                        Retail        Consumers       Aviation     Other       Corporate           segments        statements          Total
+Sales Revenue                            13,643            5,713         2,078      1,186                             22,620                 (121)     22,499
+Cost of goods sold                      (12,751)           (5,390)      (1,872)      (966)                           (20,979)                    (3) (20,982)
+Gross profit                               892               323          206        220                   -          1,641                  (124)     1,517
+Expenses                                                                                                                                                       -
+ General, administrative and sales         (396)            (172)         (116)       (70)            (60)              (814)                   (84)     (898)
+ Tax                                         (4)                  -         (1)        (2)            (11)               (18)                    (9)      (27)
+ Other net revenue (expenses)                47                   1          1          2             (86)               (35)                (100)       (135)
+Equity earnings                                  -                -          -          1                (2)                (1)                   -        (1)
+Net finance income                                                                                                                              (46)      (46)
+Adjusted EBITDA                            539               152           90        151            (159)               773
+
+Net income (loss) before tax                                                                                                                 (363)       410
+
+
+
+
+                                      Consolidated statement of Net Income by Business Sector - Mar/2017
+                                                                                                                                  Reconciliation
+                                                                                                                                      with
+                                                      Corporate                                                     Total           financial
+                                         Retail       Consumers       Aviation     Other       Corporate           segments        statements          Total
+ Sales Revenue                           12,157             5,151        1,709      1,156                  1          20,174                 (125)     20,049
+ Cost of goods sold                      (11,273)          (4,768)      (1,537)      (982)                (4)        (18,564)                    (4) (18,568)
+ Gross profit                               884              383          172        174                 (3)          1,610                  (129)     1,481
+ Expenses                                                                                                                                         -
+  General, administrative and sales         (396)            (246)        (122)       (83)               (41)           (888)                   (20)     (908)
+  Tax                                         (7)                 -         (1)        (3)               (11)            (22)                   (15)      (37)
+  Other net revenue (expenses)               62                   4          3         10            (130)               (51)                   (59)     (110)
+ Equity earnings                                  -               -          -          1                 (3)               (2)                   -        (2)
+ Net finance income                                                                                                                          (148)       (148)
+ Adjusted EBITDA                            543              141            52        99             (188)              647
+
+ Net income (loss) before tax                                                                                                                (371)       276
+
+
+
+
+                                                                                                                                  www.br.com.br/ri
+                                                                                                                                    ri@br.com.br
+                                                                      Page 19 of 20
+                                                                                                          Petrobras Distribuidora S.A.
+                                                                                                                   1st Quarter of 2018
+
+
+
+
+Segment Reporting - Reconciliation against the Financial Statements - In millions of reais
+
+
+
+Reconciliation with financial statements                                                                                    3/31/2018    3/31/2017
+(a) Sales Revenue
+Appropriation
+Sales revenue of early bonuses
+              is adjusted by theawarded to customers
+                                 early bonuses granted to resellers of service stations to which the Company distributes
+fuels and lubricants corresponding to the portion provided mainly in kind and held under the terms established in
+advance with such parties, which once completed, become nonreturnable, being absorbed as expenses by the
+Company. This corresponds to a target scheme which, once met, exempt the recipients – resellers of service stations –
+from returning to the Company these amounts advanced as bonuses. They are classified in profit or loss in proportion to
+their due dates.                                                                                                                 (121)          (125)
+
+
+(b) Cost of goods sold
+Depreciation and amortization                                                                                                      (3)            (4)
+
+
+(c) General, administrative and sales
+Depreciation and amortization                                                                                                    (103)          (108)
+
+
+Expected credit losses
+
+The adjusted values refer to the provisions relating to receivables owed to the Company by the thermal companies of
+islanded and interconnected power systems, a segment for which the Company substantially provides service, and which
+lately has been facing financial difficulties.                                                                                     19             88
+
+
+(d) Taxes
+
+
+
+Tax adjustments denote tax amnesties and tax charges on financial revenue.
+Tax amnesties: payment provisions for joining the amnesty programs established by State Laws and the Special Tax
+Regularization Program (PERT) from the Federal Government concerning tax liabilities related to ICM S and federal taxes
+with the State and Federal Government, respectively The Company considers the adjustment adequate because it
+provides investors additional information not deriving from our main operations.                                                   (2)             -
+
+
+Tax charges on revenue: the adjustments refer to expenditure on IOF PASEP and COFINS, levied on the Company’s
+revenue and which are classified as tax expenses.                                                                                  (7)           (15)
+
+
+(e) Other net revenue (expense)
+Judicial losses and provisions
+The adjusted amounts consist of losses incurred in final and unappealable lawsuits, as well as the provisions made on the
+basis of the opinions obtained from the lawyers responsible for handling the lawsuits or by the Company’s Legal
+Department.                                                                                                                       (78)           (80)
+
+
+Voluntary redundancy incentivization plan
+
+The adjustment denotes amounts that affected the Company’s earnings given the provision for the estimated
+expenditure on indemnities related to the plan, as well as the reversal of the provision due to the withdrawal from the
+plan, which took place in the respective periods.                                                                                 (22)            21
+
+
+(f) Net financial income                                                                                                          (46)          (148)
+Total                                                                                                                            (363)          (371)
+
+                                                                                                                             www.br.com.br/ri
+                                                                                                                               ri@br.com.br
+                                                                          Page 20 of 20
+

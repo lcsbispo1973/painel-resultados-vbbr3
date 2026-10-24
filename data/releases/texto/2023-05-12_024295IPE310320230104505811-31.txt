@@ -1,0 +1,2663 @@
+          PERFORMANCE
+              1T23
+ 0
+
+
+Pública
+Pública
+WEBCAST 1T23
+A Vibra Energia realizará Webcast com tradução simultânea no dia
+15 de maio de 2023 para comentários sobre o resultado da
+Companhia no primeiro trimestre de 2023. A apresentação estará
+disponível para download no website da Companhia uma hora
+antes do início das teleconferências.
+
+
+                                              Horário
+
+
+                           10:00 (hora de Brasília) / 09:00 (Nova York)
+
+
+                               Link para acesso Webcast: Clique aqui
+
+
+
+        Em caso de dúvida ou problema de acesso, faça contato via e-mail ri@vibraenergia.com.br
+
+
+
+       A transcrição, apresentação e áudio serão disponibilizados após a teleconferência/webcast no
+       site da Companhia: ri.vibraenergia.com.br
+
+
+
+
+                                                   1
+
+
+                                                Pública
+Mensagem da Administração
+Os resultados da Vibra, neste primeiro trimestre de 2023, tiveram forte influência da redução de preços de
+derivados de petróleo ocorridas no final de 2022 e ao longo do 1T23, trazendo impacto contábil relevante nos
+inventários de produtos, especialmente em diesel, óleo combustível e combustível para aviação. Por outro lado,
+essas mesmas reduções de preços, combinadas com as reduções de níveis de estoques que efetivamos neste
+trimestre, nos possibilitaram relevante liberação de capital de giro, de cerca de R$ 1,1 bilhão, contribuindo
+para a geração de caixa operacional de aproximadamente R$ 2,1 bilhões (excluído o efeito de R$ 588
+milhões de operação de risco sacado realizada no período).
+Já o Ebitda ajustado alcançou R$ 688 milhões (-37% YoY e -54% QoQ), com um volume de vendas de 9.323
+mil m³, correspondendo a uma margem Ebitda ajustada de R$ 74/m³. mantendo a consistência de
+posicionamento no mercado, com Market-Share médio de 25,2 % nos ciclos otto e diesel (+0,2 p.p.YoY e -0,3
+p.p. QoQ), com destaque para a participação de 32,8% no segmento de postos embandeirados (+1,0 p.p. YoY
+e + 0,2 p.p. QoQ) e 30,2% em diesel B2B ex-TRR (+2,1 p.p. YoY e + 2,5 p.p. QoQ), corroborando nossa atuação
+com maior foco em clientes embandeirados e contratados.
+Ainda sobre o Ebitda, é importante destacarmos fatores que tiveram influência positiva no resultado e que
+compensaram, parcialmente, as perdas de estoque que experimentamos no 1T23, como ganhos nos inventários
+de gasolina (em fevereiro, pelo retorno parcial da cobrança de Pis/Cofins) e resultados de hedge dos produtos
+importados. Também observamos volumes e margens comerciais acima das expectativas e as despesas da Cia.
+dentro do esperado.
+Além disso, vale mencionarmos que o resultado deste trimestre também foi impactado por ineficiências nos
+processos de importação de diesel que experimentamos ao final de 2022, mas que acabaram por ter efeitos
+estendidos para janeiro/23. Visando evitar a repetição da ocorrência dessas ineficiências à frente, fizemos ajustes
+em nossa estratégia de sourcing e em nossa atuação comercial. Tais mudanças em nossos processos, que
+passaram a ter efeitos a partir de fevereiro/23, também devem proporcionar uma redução da volatilidade em
+nossos resultados nos períodos futuros.
+Outro destaque importante foi a redução de nossa dívida líquida em cerca R$ 1,2 bilhão. Com isso, nossa
+alavancagem se manteve em cerca de 2,7x (Dívida Líquida/ EBITDA Ajustado LTM), mesmo considerando o
+menor Ebitda ajustado do período.
+Também devemos salientar o avanço no processo de desinvestimento na ES Gás, cuja liquidação está prevista
+para agosto/23 e deverá nos proporcionar mais de R$ 850 milhões em caixa, considerando o valor ofertado no
+leilão, o caixa existente na própria ES Gás e seu resultado a ser gerado até o pagamento efetivo.
+Ainda, vale lembrarmos que teremos, ao longo de 2023, adições de caixa como resultado dos desinvestimentos
+em imóveis e bases feitos ao final de 2022, cujos pagamentos terão efeitos este ano, além do aproveitamento
+da maior parte dos créditos tributários extemporâneos de Pis/Cofins, reconhecidos em nossos resultados no
+4T22.
+Sobre a dinâmica de volumes que observamos neste trimestre, vimos o mercado ainda operando com excesso
+de estoques no início de janeiro. Basicamente isso ocorreu como efeito secundário da expectativa que havia
+sobre o possível retorno integral da cobrança de Pis/Cofins sobre combustíveis em 01/01/2023, com o mercado
+de distribuição mantendo seus estoques em níveis elevados, possivelmente vislumbrando ganhos de inventários
+com a elevação de tributos esperada naquele momento. Além disso, também vimos clientes buscando acelerar
+suas compras no final de 2022, antes da esperada volta dos tributos, o que ocasionou uma demanda
+relativamente menor nas primeiras semanas de janeiro. Desta forma, observamos nossos volumes de vendas
+abaixo de nossas expectativas naquele mês, como efeito conjugado da demanda reduzida e da dificuldade de
+efetuarmos vendas adicionais em um mercado com excesso de estoques. No entanto, em fevereiro e março,
+vimos os volumes retornando a níveis melhores do que as nossas expectativas e, assim, encerramos o trimestre
+com vendas 3,7% maiores, na comparação com o mesmo período do ano anterior.
+
+
+
+
+                                                        2
+
+
+                                                       Pública
+ESG
+Agenda ESG
+ESG está no centro das prioridades da empresa e estruturamos nossa Agenda ESG com planos de ação
+específicos e metas que são, inclusive, metas-gatilho de remuneração variável dos executivos e colaboradores
+da Companhia.
+
+Mudança do Clima
+O tema Mudança do Clima é prioritário em nossa Agenda ESG. Nosso plano de redução de emissões é
+construído com metas e ações coordenadas pela área de ESG. A iniciativa envolve diversas áreas operacionais
+da Vibra e, já em seu primeiro ano de implementação, superou a meta prevista em 8 pontos percentuais. Em
+2022, reduzimos em 12% nossas emissões de escopo 1 e 2 (em relação ao ano base de 2019), superando a
+meta de 4% estabelecida inicialmente. Teve peso significativo para a superação da meta a antecipação da
+iniciativa de redução do consumo de vapor, prevista inicialmente para iniciar em 2023.
+No primeiro trimestre de 2023 a emissão dos escopos 1 e 2 totalizaram 12.850 tCO2e, resultado que supera o
+planejado para o período em 2.400 tCO2e. O principal motivador para essa redução foi a menor demanda de
+energia em nossa térmica e menor consumo de vapor na base de Betim devido às condições operacionais.
+Além disso, seguimos com as iniciativas de uso de etanol na frota de veículos leves (31% da frota), aumentamos
+o consumo de energia renovável com a migração de mais 3 unidades para o mercado livre de energia, totalizando
+agora 12 unidades.
+Evoluímos também na iniciativa de uso de diesel verde na frota do Galeão. Hoje, metade da frota de caminhões
+da BR Aviation, que atuam no Aeroporto Internacional Galeão/Tom Jobim, no Rio de Janeiro, já são abastecidos
+com 10% de diesel verde (HVO) em sua composição, em adição ao percentual de biodiesel definido pela
+regulação nacional, ou seja, consomem um diesel com 10% de energia renovável a mais que o diesel comercial.
+Já o Aeroporto Internacional Eduardo Gomes, de Manaus (AM), conta agora com um caminhão de abastecimento
+de aeronaves 100% elétrico, com zero emissão.
+Seguindo essa premissa e em busca de soluções que não somente ajudem no caminho da descarbonização de
+suas atividades, mas também de clientes, fornecedores e parceiros, a Vibra se uniu ao músico Carlinhos Brown
+e levou às ruas de Salvador geradores do trio elétrico do cantor movidos a HVO. Ao longo do carnaval, os
+geradores funcionaram com o combustível alternativo e renovável, produzido a partir de matérias-primas
+residuais ou óleos vegetais.
+Acreditamos que o futuro da empresa depende da gestão sustentável do negócio e passa pelo protagonismo de
+cada colaborador. Por isso, seguimos realizando ciclos de capacitação, envolvendo desde a liderança aos
+técnicos, abrindo espaço para a coleta de contribuições para o aprimoramento da gestão do tema. A capacitação
+já envolveu mais de 100 pessoas das áreas de operações, aviação, marketing, relacionamento com investidores,
+gestão, logística, energia, risco e inovação.
+
+Gestão Ambiental
+Ao longo do primeiro trimestre trabalhamos para a redução do uso de recursos naturais, rumo a atingir os
+compromissos assumidos em 2022. Em relação à eficiência energética, destacamos a conclusão do diagnóstico
+de consumo de energia em 8 instalações operacionais contemplando iluminação, refrigeração e motores
+elétricos. A implantação das adequações propostas já foi iniciada na Base de São Paulo, onde maior parte da
+iluminação externa já foi substituída, ação que além de promover uma redução do consumo de energia irá
+otimizar as vias e passeio da unidade.
+Na gestão de resíduos sólidos, registramos até o momento que 94% dos nossos resíduos perigosos em 2023
+foram enviados para alguma operação de reaproveitamento, acima do nosso compromisso de 85%, reforçando
+nossa política de gestão de maximizar o reuso de recursos.
+Encerramos trimestre sem vazamento com impacto ambiental apropriado em nosso indicador, cujo limite de
+alerta em 2023 foi reduzido de 13,6 m³ para 13,2 m³. Esse resultado é fruto da nossa atuação diligente na
+segurança de nossas atividades e prontidão para resposta a incidentes.
+
+
+
+                                                      3
+
+
+                                                     Pública
+Direitos Humanos, Investimento Social
+Renovamos nossa parceria com o Circo Crescer e Viver e com o Instituto Meta Educação, ambos
+desenvolvidos para atender mais de 320 crianças e jovens das comunidades vizinhas à nossa sede, na Cidade
+Nova, Rio de Janeiro. O projeto Circo Social, do Circo Crescer & Viver, é apoiado através do ISS/RJ; e os projetos
+"Papo Reto Teatro" e "Reforço do Futuro", do Instituto Meta Educação, são apoiados através da Lei Rouanet.
+Também através da Lei Rouanet, começamos em 2023 a apoiar o Projeto Douradinho, de incentivo à leitura
+para crianças de escolas públicas de Marabá (PA). A partir do livro "Amigo Rio, Amiga Lata", o projeto prevê
+capacitação para educadores, atividades de apoio para os estudantes e um encontro presencial com o autor do
+livro.
+Em parceria com o Projeto Amigo de Valor, destinamos recursos do Fundo da Criança e Adolescência (FIA)
+para 4 projetos: “Qualificar para Transformar”, em Barcarena (PA), “Formação de Adolescentes Empresários
+Rurais da Agricultura Familiar”, em Tancredo Neves (BA), “Singular nas Comunidades Rurais”, em Gravatá
+(PE), “Educação Integral de Crianças e Adolescentes”, em Gloria do Goitá (PE), atendendo mais de 400
+crianças e adolescentes.
+Em março, reforçando nosso compromisso com os Direitos Humanos em nossa cadeia de valor, aderimos ao
+Grupo de Trabalho em Direitos Humanos no Setor Elétrico-Energético, do Pacto Global. Participamos das três
+primeiras reuniões do grupo, que reúne as principais empresas do setor, para discutir as oportunidades e
+desafios da agenda de Direitos Humanos a partir do contexto setorial e das legislações vigentes aplicáveis.
+
+
+Diversidade
+Conseguimos superar nossa meta de admissão de mulheres, que foi definida em 30% em 2022 e alcançou 38,4%
+no final do ano. Temos buscado nos alinhar às melhores práticas para alcançar equidade de gênero e racial,
+inclusão da pessoa com deficiência e da promoção dos direitos LGBTQIAP+.
+Consolidamos nossos grupos de afinidade: Vibra por Elas (gênero), Entre Raízes (raça), Orgulho+ (LGBTQIAP+).
+Os grupos se reúnem periodicamente para discutir os desafios da construção de uma cultura mais inclusiva na
+Vibra e realizam encontros com a alta liderança.
+Em março, o time de revendedoras de todo o Brasil participou do evento “Somos todas Lubrax”. Elas estiveram
+em nossa sede, no centro do Rio de Janeiro, onde conheceram os Grupos de Afinidade Vibra e visitaram Fábrica
+de Lubrificantes em Duque de Caxias para conhecer de perto o processo produtivo e os detalhes de cada etapa
+da produção.
+
+Governança
+Em 21 de março de 2023 se encerrou o prazo para que as empresas com Comissão Interna de Prevenção de
+Acidentes e de Assédio (Cipa) implementassem as medidas de prevenção e combate ao assédio sexual e a
+outras formas de violência no âmbito do trabalho estabelecidas pela Lei 14.457/2022, que institui o Programa
+“Emprega + Mulheres”.
+A Vibra Energia está em full compliance com a lei, pois, implementou todas as medidas requeridas, com destaque
+para a ampla divulgação (desde outubro do ano passado) da Cartilha de combate à violência no trabalho,
+dedicada especialmente a proteger mulheres de situações de assédio sexual (crime) e moral.
+
+Reconhecimentos ESG
+O Sustainalytics, uma das maiores agências globais de rating independente de ESG, publicou sua lista de
+empresas com o mais alto desempenho ESG e as premiou com o selo de melhor classificação. A Vibra recebeu
+o selo Industry Top Rated – no segmento de Refiners and Pipelines. Esse selo engloba as empresas que
+superam o desempenho ESG em seus respectivos setores existentes no Sustainalytics.
+Além do selo, a Vibra também melhorou seu desempenho no rating ESG da Sustainalytics em 2023. A companhia
+diminuiu o grau de risco no ESG Risk Rating e aumentou a performance em gestão de risco no ESG Risk
+Management.
+Pelo quarto ano consecutivo, a Vibra integrou a carteira do Índice de Sustentabilidade Empresarial da B3 (ISE
+B3) que terá vigência até dezembro de 2023. Em relação ao nosso desempenho, destacamos o aumento no
+
+                                                        4
+
+
+                                                       Pública
+score da Dimensão Governança Corporativa e Alta Gestão e nos scores dos seguintes temas: Engajamento,
+Diversidade e Inclusão dos Funcionários; Práticas de Governança Corporativa; Ética nos Negócios; Gestão dos
+Ambientes Legal e Regulatório; Sustentabilidade do Modelo de Negócio; Práticas de Venda e Rotulagem de
+Produtos; Segurança de Dados; Impactos Ecológicos; e Qualidade do Ar.
+Obtivemos ainda a medalha de prata no Ecovadis, plataforma de avaliação ESG de fornecedores mais utilizada
+por nossos clientes B2B, com a avaliação de destaque no nosso setor. Os resultados demonstram o
+compromisso da empresa com a busca contínua pelo aprimoramento de sua gestão ESG.
+
+
+
+Nova Segmentação
+De forma a nos adequarmos à nova forma de gestão e relato interno de resultados da Companhia, passaremos
+a reportar apenas dois segmentos de negócios da Vibra a partir deste trimestre: B2B e Retail, com B2B passando
+a englobar os atuais segmentos de Lubrificantes e Aviação; e Retail englobando o negócio de postos da
+Companhia. Já os resultados de JV’s e demais participações em empresas serão reportados apenas sob o
+conceito de equivalência patrimonial, com seus resultados equivalente de Ebitda fazendo parte dos ajustes
+realizados para o cálculo do Ebitda ajustado da Vibra, que desta forma passará a refletir apenas o resultado das
+atividades de distribuição de combustíveis, lubrificantes e correlatos, nos segmentos de Rede de Postos e B2B,
+como apresentamos a seguir.
+
+
+
+
+                                                       5
+
+
+                                                      Pública
+Desempenho dos Segmentos de Negócios
+  Geração de Caixa                   Volume de Vendas                                                    Margem EBITDA
+                                                                          EBITDA Ajust.
+    Operacional                            9.323 MM/m³                                                       Ajust.
+                                         (+ 3,7% vs. 1T22)                       688 MM                       74/m³
+            R$ 2,1 bi
+
+
+Vibra Consolidado
+Em milhões de reais
+                                                      1T23            1T22           1T23 X 1T22          4T22        1T23 X 4T22
+(exceto onde indicado)
+Volume de vendas (mil m³)                             9.323           8.988             3,7%             10.050          -7,2%
+
+Receita líquida ajustada                             39.212           38.503            1,8%             45.243          -13,3%
+
+Lucro bruto ajustado                                  1.536           2.338            -34,3%             1.734          -11,4%
+
+Despesas Oper. Ajustada *                             (618)           (547)             13,0%             (548)          12,8%
+
+Despesas Oper. Ajustada * (R$/m³)                      (66)            (61)             8,9%              (55)           21,6%
+
+Resultado financeiro                                  (280)           (449)            -37,6%             (404)          -30,7%
+
+Lucro líquido                                          81              325             -75,1%              566           -85,7%
+
+EBITDA ajustado                                        688            1.090            -36,9%             1.507          -54,3%
+
+Margem EBITDA ajust. (R$/m³)                           74              121             -39,1%              150           -50,8%
+
+Número total de postos de serviços                    8.381           8.214              167              8.383            (2)
+*Para efeito de comparabilidade foram excluídos das despesas operacionais os valores de: 1T23: Hedge no valor de R$ 39 milhões, CBIOs
+R$ -269 milhões; 4T22: Hedge R$ -482 milhões, CBIOs R$ -206 milhões, Recuperações Tributárias R$ 684 milhões e Venda de Imóveis e
+Bases de R$ 325 milhões; e 1T22: Hedge R$ -489 milhões, CBIOs R$ -212 milhões. Nota completa na sessão despesas operacionais, no
+release.
+
+
+O volume de vendas apresentou um aumento de 3,7% na comparação YoY, principalmente pelas maiores vendas
+do ciclo otto (+12%) e óleo combustível (+4,5%) compensado parcialmente pelas menores vendas de coque (-
+41%) e combustível de aviação (-1,9%). Já na comparação QoQ, houve uma redução de -7,2% nos volumes
+vendidos principalmente pelas menores vendas de coque (-27,3%), etanol (-14,3%), gasolina (-8,2%) e diesel (-
+4,1%) compensado parcialmente pelas maiores vendas de lubrificantes e dos demais produtos.
+Em relação ao lucro bruto, tivemos uma redução de -34,3% na comparação com o 1T22 ou R$ 802 milhões, esse
+resultado se deve, principalmente, pelas perdas com inventário de produtos no 1T23 e ineficiências no processo
+de importação, ainda relacionadas ao 4T22, de cerca de R$ 665 milhões no total. Ressalta-se ainda que no 1T22
+houve um ganho com estoques de produtos de cerca R$ 460 milhões. Na comparação com o 4T22, as menores
+vendas, principalmente pelo efeito da soazonalidade, e as maiores perdas de estoques no 1T23 justificam a
+redução de -11,4% ou R$ -198 milhões. A despeito dos fortes movimentos de perdas de estoques no período
+ressalta-se um incremento em nossas margens comerciais na comparação com ambos os períodos.
+As despesas operacionais ajustadas foram de R$ 848 milhões (R$ 91/m³) no 1T23, que sem o efeito do resultado
+com o Hedge de commodities (R$ 39 milhões) e CBIOs (-R$ 269 milhões) totalizaram R$ 618 milhões (R$ 66/m³),
+representando um aumento de R$ 71 milhões (13%) na comparação com o 1T22, principalmente em função de
+maiores gastos com fretes (R$ 29 milhões), serviços, operações aeroportuárias e gastos de engenharia (R$ 40
+milhões). Já na comparação com o 4T22 os maiores gastos se devem principalmente, por maiores provisões com
+perdas de crédtos esperadas (PCE) (R$ 22 milhões), maiores reversões no 4T22 sem a mesma correspondência
+no 1T23 (R$ 21 milhões), além de maiores provisões com despesas de pessoal (R$ 14 milhões).
+O Ebitda ajustado do 1T23 foi de R$ 688 milhões (R$ 74/m³), representando um aumento de R$ 190 milhões,
+QoQ, ao desconsiderarmos os efeitos de vendas de imóveis e base e os ganhos com recuperações tributárias
+extemporâneas ocorridos no 4T22. Cabe destacar, ainda, que a perda com inventários de produtos ocorrida no
+1T23 foi maior em R$ 391 milhões, na comparação com o 4T22, e foi compensada pela variação positiva do
+resultado do hedge de commodities de R$ 521 milhões no mesmo período de comparação. Considerando a
+
+
+                                                                 6
+
+
+                                                                Pública
+excepcionalidade e magnitude de tais eventos, entendemos ter feito importantes avanços, sob o prisma
+exclusivamente de nossas margens de comercialização.
+O lucro líquido da Companhia no 1T23 (R$ 81 milhões) foi menor em R$ 244 milhões comparado com o 1T22 (R$
+325 milhões), essa redução se deu, principalmente, pelo reconhecimento da VEM no resultado do ano passado
+de R$ 437 milhões sem correspondência no trimestre atual.
+Tivemos uma redução de cerca de R$ 1,2 bilhão em nossa dívida líquida na comparação com o trimestre anterior,
+oriundo principalmente, da nossa forte geração de caixa operacional no período (+R$ 2,1 bilhão). Para tanto,
+destacamos a redução de R$ 1,2 bilhão em nosso estoque de produtos, devido à redução do preço médio das
+moléculas e, principalmente, pela redução de nossos volumes de produtos estocados. Nossa alavancagem
+permaneceu em linha com o trimestre anterior, 2,7x EBITDA Ajustado LTM. Como deixamos de reconhecer a
+equivalência patrimonial do resultado de nossas investidas em nosso Ebitda ajustado, houve uma leve alteração
+em nosso indicador de alavancagem, buscando trazer mais proximidade da geração de caixa real com a
+alavancagem da Cia.
+
+
+
+Rede de Postos
+ Em milhões de reais
+                                                         1T23              1T22        1T23 X 1T22          4T22         1T23 X 4T22
+ (exceto onde indicado)
+ Volume de vendas (mil m³)                               5.831             5.446           7,1%             6.329            -7,9%
+ Receita líquida ajustada                               22.809             23.305         -2,1%             25.799          -11,6%
+ Lucro bruto ajustado                                     879              1.229          -28,5%             933             -5,8%
+ Margem bruta ajustada (R$/m³)                            151               226           -33,2%             147             2,3%
+ Despesas Oper. Aj.                                      (231)             (216)           6,9%             (275)           -16,0%
+ Despesas Oper. Ajust (R$/m³) *                           (40)              (40)          -0,1%              (43)            -8,8%
+ EBITDA ajustado                                          455               609           -25,3%             520            -12,5%
+ Margem EBITDA ajustada (R$/m³)                            78               112           -30,2%              82             -5,0%
+ Número total de postos de serviços                      8.381             8.214           167              8.383             (2)
+* Foram excluídos das despesas operacionais ajustadas os efeitos do: 1T23 os efeitos do Hedge R$ 7 milhões e CBIOs R$ -200 milhões; 4T22
+os efeitos do Hedge R$ -239 milhões, CBIOs R$ -152 milhões e Venda de Imóveis R$ 253 milhões; e 1T22 os efeitos do Hedge R$ -255
+milhões e CBIOs R$ -149 milhões. Nota completa na sessão despesas operacionais, no release.
+
+
+A Rede de Postos apresentou crescimento em seu volume de vendas +7,1% na comparação YoY, com destaque
+para a crescimento de +12% no ciclo otto ou 6,9% das vendas totais e de +1% em relação ao diesel. Cabe destacar
+o importante avanço no market-share entre os embanderados +1 p.p. em relação ao mesmo período do ano anterior.
+Na comparação com o 4T22 houve diminuição em nossos volumes vendidos, principalmente pelo efeito da
+sazonalidade, que é recorrentemente mais forte nos meses de outubro a dezembro, houve redução de 9,3% no ciclo
+otto e de 5,6% no diesel, no entanto, o nosso market-share no mercado contratado cresceu 0,2 p.p. no mesmo
+período comparado.
+O lucro bruto ajustado do 1T23 foi de R$ 879 milhões, uma redução de 5,8% em relação ao 4T22, principalmente
+perdas oriundas das reduções de preços do diesel e consequentemente em perdas com inventários do produto
+ainda mais acentuadas das encontradas no 4T22. A volta de parte dos tributos incidentes sobre preço da gasolina
+teve efeito positivo no lucro bruto atenuando a magnitude das perdas apuradas referentes ao preço do diesel e,
+também, das ineficiências no processo de importação, ainda refletidas em janeiro de 2023. Cabe ainda destacar o
+aumento das margens médias de comercialização no 1T23 dando um foco maior em nossa rede embaideirada além
+de incremento nas vendas de produtos premium. Na comparação com o ano anterior, a grande variação dos efeitos
+de estoques no períodos comparados justificam a redução de 28,5% no lucro bruto.
+
+As despesas operacionais ajustadas sem efeitos de: Hedge (R$ 7 milhões); e CBIOs (-R$ 200 milhões), alcançaram
+-R$ 231 milhões no 1T23, uma redução de 16,0% em relação ao 4T22, principalmente pelos menores gastos com
+fretes de produtos no período considerando a redução nos volumes vendidos. Já na comparação com o 1T22 houve
+um aumento de 6,9%. Quando olhamos a despesa operacional em R$/m³ ela se mantém praticamente constante.
+
+                                                                  7
+
+
+                                                                 Pública
+O Ebitda Ajustado foi de R$ 455 milhões (R$ 78/m³), com variação de -12,5% (QoQ), e -25,3% (YoY). As perdas no
+lucro bruto evidenciadas pelas grandes variações dos efeitos de estoque e hedge nos períodos comparados, já
+explicitados acima denotam a variação no Ebitda.
+Encerramos o 1º trimestre de 2023 com 8.381 postos em nossa rede, focamos nas renovações contratuais e na
+atratividade da nossa bandeira, aperfeiçoando nossa proposta de valor com a convicção no resultado de mais postos
+no decorrer dos anos. Após um grande fluxo de negócios, entre renovações e novos embandeiramentos, no 4T22,
+focamos em ações para construir um novo portifólio de embandeiramentos que atendam os objetivos estratégicos
+da companhia, com uma rede de postos de serviços saudáveis e bem posicionada. Ao longo do 1T23 focarmos nas
+renovações contratuais e no detalhamento dos planos de ação para os novos embandeiramentos de 2023.
+
+
+
+B2B
+Em milhões de reais
+                                                    1T23               1T22          1T23 X 1T22   4T22            1T23 X 4T22
+(exceto onde indicado)
+
+Volume de vendas (mil m³)                               3.492               3.543       -1,4%           3.721            -6,2%
+
+Receita líquida ajustada                                16.403              15.198      7,9%           19.444           -15,6%
+
+Lucro bruto ajustado                                       657              1.109       -40,8%            801           -18,0%
+
+Margem bruta ajustada (R$/m³)                              188                313       -39,9%            215           -12,6%
+
+Despesas Oper. Ajust*                                    (302)              (270)       11,9%           (346)           -12,1%
+
+Despesas Oper. Ajust (R$/m³) *                             (86)               (76)      13,5%             (93)           -7,0%
+
+EBITDA ajustado                                            318                548       -42,0%            152           109,2%
+
+Margem EBITDA ajustada (R$/m³)                             91                 155       -41,1%            41            122,9%
+
+* Foram excluídos das despesas operacionais ajustadas os efeitos de: 1T23: Hedge R$ 32 milhões e CBIOs R$ -69 milhões; 4T22: Hedge R$
+-243 milhões e CBIOs R$ -60 milhões; e 1T22: Hedge R$ -234 milhões e CBIOs R$ -57 milhões. Nota completa na sessão despesas
+operacionais no release.
+
+
+O segmento B2B apresentou uma redução no volume de vendas (-1,4%) quando comparado ao 1T22, em função
+principalmente das menores vendas de Coque (-41%), QAV/GAV (-2%), compensado parcialmente pelos maiores
+volumes de diesel (+0,4%) e óleo combustível (+4,5%). Cabe ressaltar que no 1T22 havia maior disponibilidade de
+coque, pois ainda havia contrato de exclusividade junto à Petrobras na comercialização do produto. Já na
+comparação com o 4T22, a redução foi de -6,2% em função, principalmente, dos menores volumes vendidos de
+combustíveis de aviação (-14%), diesel (-2%) e coque (-27%). O fim do contrato com uma das três maiores
+companhias aéras nacionais justifica a redução no volume de vendas de combustível de aviação no período.
+Cabe ainda destacar que, em que pese tenha havido redução de market-share no mercado de aviação, pelo término
+do contrato já explicitado, nossos volumes de vendas foram ao mesmo tempo ajudados pela recuperação do
+mercado e pela conquista de novos clientes estrangeiros, com avanços na Aviação Geral e Executiva, nos levando
+a manter um market-share superior ao que tínhamos no período pré-pandemia.
+O lucro bruto ajustado foi de R$ 657 milhões neste trimestre, 18,0% inferior alcançado no 4T22 que foi de R$ 801
+milhões. Tal redução é explicada pelas maiores perdas de estoque (diesel, QAV e óleo combustível) e ineficiências
+apuradas no processo de importação ocorridas no 4T22. As maiores margens médias de comercialização
+compensaram parcialmente os fortes resultados negativos com inventários e ineficiências.
+As despesas operacionais ajustadas foram de R$ 304 milhões no 1T23, representando uma redução de -12,1%
+QoQ. Já na comparação com o 1T22 houve um aumento de 12,6%, em ambos os períodos o custo do frete é o
+principal causador, pois em relação ao 1T22 houve redução de volumes vendidos, no entanto o custo unitário era
+menor.
+O Ebitda Ajustado desse segmento foi de R$ 318 milhões no 1T23, impactado principalmente pelas perdas de
+estoques provenientes das reduções de preços do diesel e de QAV no período.
+
+                                                                   8
+
+
+                                                                  Pública
+Corporativo
+O corporativo é composto, principalmente, pelo overhead da Companhia não alocado aos demais segmentos. Os
+valores classificados como corporativos são apresentados abaixo:
+
+
+                 Em milhões de reais
+                                                            1T23          1T22   1T23 X 1T22     4T22   1T23 X 4T22
+                 (exceto onde indicado)
+
+                 Despesas operacionais ajustadas            (85)          (67)     26,9%         835      -110,2%
+
+
+
+A variação das despesas operacionais YoY foi de -R$ 18 milhões e QoQ -R$ 920 milhões, sendo esta em razão de
+menores recuperações tributárias (R$ 684 milhões) e do resultado positivo na venda de bases de distribuição (R$
+72 milhões) ocorridas no 4T22. Os demais gastos apresentados no Corporativo estão relacionados com o overhead
+da companhia e encontram-se estáveis entre os períodos analisados.
+
+
+Endividamento
+O perfil de endividamento da companhia segue uma estratégia de liability management priorizando diversificação
+de fontes, desconcentração de vencimentos e instrumentos, explorando sempre oportunidades de redução de custo
+e alongamento de prazo das operações da carteira:
+
+
+Em milhões de reais
+                                                   1T23                 1T22       1T23 X 1T22          4T22          1T23 X 4T22
+(exceto onde indicado)
+    Financiamentos                                 17.039               13.082       30,2%              16.557            2,9%
+    Arrendamentos mercantis                         817                  818          -0,1%              834             -2,0%
+
+Dívida Bruta                                       17.856               13.900       28,5%              17.391            2,7%
+    Swap                                            527                  624         -15,5%              483              9,1%
+    Dívida Bruta Ajustada                          18.383               14.524       26,6%              17.874            2,8%
+    (-) Disponibilidades                           5.816                4.309        35,0%              4.145            40,3%
+
+
+Dívida Líquida                                     12.567               10.215       23,0%              13.729           -8,5%
+
+
+LTM EBITDA Ajustado                                4.709                4.786         -1,6%             5.111            -7,9%
+
+
+Dívida Líquida/EBITDA Ajustado (x)                 2,7 x                2,1 x        25,0%              2,7 x            -0,6%
+Custo médio da dívida (% a.a)                      15,2%                12,0%        3,2 p.p.           14,1%            1,1 p.p.
+média ponderada acumulado do ano
+Prazo médio da dívida (anos)                        4,1                  4,5           -0,4              4,2              -0,2
+
+
+No 1T23, o endividamento bruto da Companhia apresentou o montante de R$ 18,4 bilhões, cerca de 26,6% superior
+ao 1T22 e +2,7% na comparação com o 4T22. Reduzimos a dívida líquida em cerca de 8,5% em relação ao trimestre
+anterior, principalmente, pelo importante aumento de nossas disponibilidades, dada forte liberação de capital de
+giro, provocada pela redução do preço dos derivados de petróleo.
+O custo médio da dívida foi de 15,2%, um aumento de 1,1 p.p. na comparação com o 4T22, com prazo médio de
+4,1 anos, e uma alavancagem de 2,7x (Dívida Líquida/Ebitda Ajustado), ante 2,1x em 1T22 e 2,7x no 4T22.
+
+
+
+
+                                                                    9
+
+
+                                                                   Pública
+                                                  Perfil de Amortização das Dívidas
+   4.500                                                                       4.152
+   4.000
+   3.500
+                                                                    2.861
+   3.000                                               2.475                                          2.561
+                                                                                        2.376
+   2.500
+   2.000        1.785 ¹
+   1.500
+                                           829
+   1.000
+     500                                          -
+       -
+                 2023                      2024        2025           2026     2027     2028         2029 em
+                                                                                                      diante
+1.Inclui risco sacado de R$ 588 milhões.
+
+
+
+
+Joint-Ventures
+Estamos avançando rapidamente em nossa agenda de transformar a Vibra em uma plataforma multienergia,
+pronta para atender às demandas de nossos clientes em sua própria trajetória de transição energética.
+Avançamos somando forças com outras empresas líderes em suas áreas de atuação: eletricidade,
+biocombustíveis, biogás etc. E colocando em prática nossa capacidade de impulsionar essas novas parcerias
+através de nosso acesso diferenciado a mais de 18 mil clientes corporativos e a nossa rede de mais de 8 mil
+postos de serviços, junto com nossas marcas, nossa reputação e nossa solidez financeira para apoiar esse
+crescimento.
+A seguir passamos a destacar o resultado de nossas principais Joint-Ventures: Vem, Comerc, Evolua e Zeg
+biogás. Como ainda não possuímos o controle de nenhuma dessas empresas, seus resultados são expressados
+pelo método de equivalência patrimonial. De modo a possibilitar o correto acompanhamento do nosso negócio
+de distribuições de combustíveis, ajustamos todos os resultados de equivalência patrimonial em nosso Ebtida,
+retirando seus efeitos.
+
+
+VEM - Lojas de Conveniências
+
+No primeiro trimestre de 2023 a VEM, seguiu o processo de expansão da rede que se iniciou em 2022 com a
+diversificação de formatos e modelos de operação de lojas, totalizando em março 1.239 lojas BR Mania,
+representando cerca de 15% de participação na rede de postos Petrobras.
+
+Também continuamos um intenso trabalho de modernização e migração para a nova imagem das lojas BR
+Mania, com a implementação de nova imagem em 24 lojas no 1º Tri, com as lojas já modernizadas
+experimentando um crescimento de 21% em seu faturamento em relação ao período pré-reforma. Assim, o
+trimestre fecha com avanços em resultados:
+
+      •      No 1o tri de 2023 superamos o faturamento do 1o tri de 2022 em +21%, faturamos R$ 399 milhões;
+      •      Número de transações (média/lojas): 5.641/mês (-7% vs a.a.);
+      •      Ticket médio: R$19,91 (+8% vs a.a.);
+
+Conforme comunicamos ao mercado, encerramos nossa parceria com a nossa parceira original na JV, nos
+termos do contrato existente. Neste momento, estamos concentrados em sedimentar as operações da VEM, com
+gestão focada e especializada no segmento, para trazer conveniência e facilidade para os franqueados.
+
+
+
+                                                                 10
+
+
+                                                                 Pública
+COMERC
+             Em milhões de reais @stake (48,7%)          1T23        4T22            3T22     2T22
+
+             Receita Líquida                             492         514             592       475
+             Lucro Bruto corrente                         56         65               55        48
+             EBITDA proforma @stake                       48         64               41        36
+
+
+                                                  Em implementação               Em
+                         Em operação (maio/23)                                                 Total
+                                                      até 2024             desenvolvimento
+
+             GC Solar           518 MWp              1.047 MWp               1.659 MWp       3.224 MWp
+             GC Eólica          226 MW                54 MW                      -            280 MW
+             GD Solar           170 MWp              150 MWp                  130 MWp        450 MWp
+             Total              914 MW               1.251 GW                1.789 GWp       3.954 GW
+
+
+
+A Comerc continua avançando de forma consistente em seu extenso portfólio de projetos de geração a partir de
+fontes renováveis, que deverão culminar na implantação de capacidade de pelo menos 1.885 MWp em energia
+solar (Distribuída e Centralizada) e 280 MW @stake em eólica, até 2024.
+Nos projetos Geração Centralizada Eólica, a Comerc alcançou 191MW @stake em março de 2023, com entrada
+em operação parcial dos projetos Babilônia e Rio dos Ventos Expansão (RDVF2) gerando um incremento de 64
+MW @stake ao portfólio da Companhia comparado ao 4T22.
+Com entrada em operação das usinas de Castilho (270MWp @stake) e Coromandel (23MWp @stake), já atinge,
+em março 2023, 518 MWp de capacidade instalada @stake. Destaca-se que, com a usina de Helio Valgas, maior
+projeto do portfólio, serão mais 662 MWp @stake, com obras avançando e início de operação prevista para 3T23.
+Adicionalmente, as usinas de Paracatu (267 MWp @stake) e Várzea (118 MWp @stake) têm previsão para
+entrada em operação no 1T24.
+Também houve avanços na frente de Geração Distribuída, que já possui 167 MWp de capacidade instalada @
+stake em março de 2023. Além da implantação e operação das usinas, essa vertical também é responsável pela
+gestão do portal Sou Vagalume, plataforma digital de colocação de energia solar distribuída a pequenos e médios
+consumidores e que atualmente conta com mais de 22 mil clientes. Em janeiro de 2023, a Companhia realizou
+investimento na iGreen, empresa focada em captação de clientes para consórcios de GD, instalação de placas
+solares e migração ao mercado livre. Esta parceria apresenta resultados nos primeiros meses do ano, gerando
+crescimento de aproximadamente 16 mil clientes, atingindo atualmente 50 mil clientes atendidos em GD.
+A Trading teve um volume negociado de 2,9 GWm e R$ 919,1 milhões de MtM de contratos futuros de energia
+a valor presente no 1T23.
+Em soluções em energia foram investidos R$ 35,8 MM em 3 projetos de eficiência no trimestre, nos segmentos
+refrigeração, substação entre outros. A Comerc é líder de mercado em gestão de energia para consumidores
+livres com 4,4 mil unidades de consumo sob gestão no 1T23, crescimento de 17% vs 1T22.
+A Comerc atingiu 914 MW de capacidade instalada @stake (mai/23) sendo : 518 MWp para geração centralizada
+solar, 226 MW para geração centralizada eólica e 170 MW para geração distribuída solar.
+A Comerc possui posicionamento único, combinando negócios em geração, comercialização, tecnologia e
+serviços representados, basicamente, em 4 verticais de negócios: Geração Centralizada, Geração Distribuída,
+Trading e Soluções em Energia.
+
+
+Geração Centralizada
+A Vertical de Geração Centralizada é composta de usinas solares e eólicas, totalizando atualmente 744 MW de
+capacidade instalada (@stake). Além disso, a empresa possui projetos em implantação que levarão a capacidade
+instalada total para 1,8 GW em 2024.
+
+
+                                                         11
+
+
+                                                         Pública
+A usina de Hélio Valgas, maior em implantação da Companhia (662 MWp @stake), avança com as obras
+conforme o planejado, a qual encontra-se com a subestação e a linha de transmissão 100% concluídas. Com
+isso, o início de operação fica previsto para 3T23. Iníciou ainda as obras das usinas de Paracatu (267 MWp
+@stake) e Várzea (118 MWp @stake), como esperado.
+Com relação aos parques eólicos, a Companhia possui parceria com a Casa dos Ventos, e conta atualmente
+com capacidade instalada (@stake) de 226 MW, sendo de 101 MW no projeto Rio dos Ventos Fase 1 (RDVF1),
+72 MW no projeto Babilônia (100% do projeto em operação) e 53 MW no parque Rio dos Ventos Fase 2 (RDVF2).
+
+Geração Distribuida
+A vertical de Geração Distribuída ao final do 1T23 era composta por 42 usinas solares em operação, das quais
+41 estão localizadas em Minas Gerais e 1 em Pernambuco, totalizando 167 MWp @stake de capacidade
+instalada. Tais usinas geram energia para atender a demanda de cerca de 50 mil consumidores em consórcios
+ou cooperativas.
+A Companhia tem concluído nos últimos meses as obras de novas usinas em GD contando com 43 usinas
+operacionais em 5 de maio de 2023 (170 MWp @stake), além de outras 60 novas usinas em construção no
+momento. As usinas que estão em implantação trarão incremento de 150 MWp @stake de capacidade instalada,
+com previsão de início ao longo de 2023. Salientamos que o retorno do ICMS sobre a TUSD desde 10/fev/23
+eleva a tarifa média compensável da GD.
+
+Trading
+A Comerc foi uma das precursoras do Mercado Livre de energia e atualmente é uma das maiores
+Comercializadoras do país com 2,9 GWm no 1T23. Com relação aos volumes transacionados, a vertical
+apresentou crescimento de 49,6% no trimestre em relação ao mesmo período do ano anterior. A Vertical de
+trading vem apresentando recuperação consistentes de margens e, no 1T23, registrou R$7,2/MWh.
+
+Soluções em Energia
+Nesta vertical de negócios, o maior destaque é a gestão de energia para consumidores do Mercado Livre, por
+meio da qual somos precursores e líderes deste mercado com 4,4 mil unidades de consumo sob gestão no 1T23,
+crescimento de 17% com relação ao 1T22. A somatória da carga da nossa base de clientes representa cerca de
+6% da carga total de energia do país. A Comerc assessora seus clientes no desenho da estratégia de compra
+de energia em função de suas necessidades, além de fazer a representação dos clientes e cumprir as obrigações
+necessárias com a Câmara de Comercialização de Energia Elétrica (“CCEE”).
+Além disso, a vertical de Soluções engloba soluções de eficiência energética e baterias as a service. Como
+principais destaques do 1T23 em eficiência energética, atingimos 57 projetos ativos, dos quais 15 se encontram
+em fase de implantação, sendo 13 de eficiência e 2 PPPs.
+
+
+EVOLUA
+                         Em milhões de reais
+                                                      1T23        4T22        3T22
+                         (@stake)*
+
+                         Receita Líquida              1.052       1.046       459
+                         Lucro Bruto ajustado          37          12          (3)
+                         EBITDA ajustado @stake        16          4           (5)
+
+
+
+A Evolua, Joint Venture com a Copersucar, iniciou suas atividades no segundo semestre de 2022. Nesse período,
+as empresas sócias ainda assumem papel importante nas estratégias de carrego de produtos. Além disso,
+grande parte do volume ainda está sendo adquirido pelas sócias (Vibra e Copersucar), estando as certidões e
+autorizações de funcionamento sendo obtidas pela Evolua junto a cada estado.
+
+
+
+
+                                                     12
+
+
+                                                     Pública
+Havia a expectativa de aquisição de produtos para carrego na ordem de 200 mil m³, porém, devido às incertezas
+do mercado e ao carrego realizado nas investidoras, só foi possível que a Evolua, até dez/22, formasse algo em
+torno de 30 mil m³ de carrego e esperava-se um maior volume de exportações já em 2022.
+A Governança da Companhia já foi estruturada com as definições de Management, Conselhos e Comitês e a JV
+tem previsão de entrada em operação plena na próxima safra (abril/23 a março/24), a partir da qual passará a
+adquirir todo o volume demandado pela Vibra, escoando a produção das usinas da Cooperativa e demais usinas
+onde encontrar oportunidades de arbitragens. Com isto, entendemos que os volumes totais de comercialização
+esperados para a JV a tornarão a maior comercializadora de etanol do Brasil e uma das maiores do mundo,
+comercializando cerca de 9 milhões de m³ de etanol por ano.
+
+
+
+ZEG BIOGÁS
+A Zeg Biogás, JV que detém tecnologia para implantação de projetos de produção de biometano a partir da
+vinhaça, subproduto da produção de etanol em usinas de cana de açúcar, já avançou em sua estrutura
+administrativa. O organograma da empresa já foi aprovado com a contratação de CEO e CFO oriundos do
+mercado, e ao longo de 2023 a estruturação de seu quadro será concluída.
+Os projetos vinculantes são Aterro Jambeiro, com capacidade de 30 mil m3/dia e previsão de entrada em
+operação para junho/23, e Usina Aroeira, com capacidade de 15 mil m 3/dia e potencial de dobrar, já tendo havido,
+para Aroeira, chamada de capital no valor de R$ 28,7 milhões, com 70% desse montante já integralizado.
+A Zeg tem potencial de atingir produção de mais de 2 milhões de m³/dia em até 5 anos. Através de tecnologia
+de alta eficiência, poderemos oferecer aos nossos clientes mais uma alternativa para avançarem no caminho da
+descarbonização de suas atividades produtivas e se alinharem às práticas ESG.
+
+
+
+EZVOLT
+A EZvolt é uma startup do ecossistema de recarga de EVs, líder no mercado de operadoras com soluções de
+recarga para frotas corporativas. A empresa segue seu plano de expansão, já tendo alcançado mais de 630
+estações de recarga contratadas, em 13 estados brasileiros, e mais de 16.000 recargas mensais.
+A Comapnhia atua na prestação do serviço de recarga através de rede própria de eletropostos, no modelo de
+cobrança por recarga do cliente final, sem custo de implantação. Além disso, presta serviço de locação de
+hardware contemplando os serviços de instalação, operação, gestão e manutenção da rede, destinado a frotas
+corporativas.
+
+
+
+
+                                                       13
+
+
+                                                      Pública
+Mercado de Capitais
+O volume financeiro médio da Vibra negociado na B3 – Brasil, Bolsa & Balcão no período de 02/jan/23 a
+11/mai/23 foi de R$ 159,2 milhões/dia. As ações da Companhia encerraram o pregão de 11-mai-23 cotadas a
+R$ 14,51 apresentando uma desvalorização de -1,29% ao longo desse período. No mesmo período, o índice
+Ibovespa apresentou uma valorização de 1,77%.
+
+                     ATIVO VBBR3
+                                                                                         Desempenho da ação
+ Quantidade de ações (mil)                            1.165
+ Quantidade de ações free-float (mil)                 1.115
+ Cotação em 11-mai-23                                 14,51                                                                102
+                                                                       100
+ Valor de mercado em 11/05/23 (R$ milhões)        16.904                                                                    99
+            Período 02/jan/23 a 11/mai/23
+ Volume médio ações/dia (mil)                     11.034
+ Volume financeiro médio/dia (R$ milhões)             159,2             02-jan      27-jan     21-fev 18-mar 12-abr      07-mai
+ Cotação média (R$/ação)                              14,61                                     VBBR3     IBOV
+
+
+
+
+Juros Sobre Capital Próprio e Dividendos
+No 1T23, realizamos o pagamento da segunda parcela do Juros sobre o Capital Próprio (JCP), referente ao
+exercício social de 2022, no valor de aproximadamente R$ 408 milhões (R$ 0,39 por ação), completando assim,
+o pagamento total de R$ 823 milhões, 53,5% do lucro líquido ajustado, superando o nosso compromisso mínimo
+de 40% definido em nossa política de distribuição.
+
+
+
+
+                                                                         3.905
+
+                             3.193 3.145
+
+                                                                                             2.497
+                                                2.211                            2.327
+
+                                                                                                           1.537
+           1.151 1.092                                   1.149
+                                                                                                                   823
+                                                                                                     663
+
+
+
+              2017              2018                  2019                   2020              2021          2022
+
+                              Lucro Liquído (R$ bi)           Dividendo e JCP (R$ mm)
+
+
+
+
+                                                                  14
+
+
+                                                                 Pública
+Despesas Operacionais
+Em consonância com os objetivos definidos em nossa iniciativa de sourcing, temos buscado consistentemente
+aumentar a competitividade de nossa aquisição de produtos através de novas estratégias de trading, captura de
+oportunidades de arbitragens e busca das melhores fontes supridoras nos diversos produtos que comercializamos.
+Esta busca tem levado as importações de combustíveis a se tornarem parte estrutural e relevante de nossas estratégias
+de suprimento.
+Como parte dessa estratégia, junto com a intensificação das operações de importação de produtos, ganharam
+relevância também as operações de hedge para as cargas compradas no mercado internacional, de modo a se
+mitigarem riscos referentes às flutuações de preços, viabilizando-se as efetivas capturas de certas oportunidades de
+arbitragens. De acordo com a política de gestão de risco da Companhia, as operações com derivativos de commodities
+possuem lastro em atividades comerciais e de suprimento.
+Entretanto, devido à alta volatilidade nos preços observados nesse período, se combinaram a grande relevância das
+importações nas operações da Companhia com as fortes altas observadas nos preços das commodities no mercado
+externo, provocadas pelo desbalanço entre oferta e demanda gerado. Diante dessa combinação, passaram a adquirir
+maior relevância as operações de hedge no resultado da Companhia.
+As normas contábeis definem que um instrumento financeiro derivativo deve ser mensurado ao seu valor justo com
+variações reconhecidas no resultado. Tais operações em essência observam um modelo de negócios voltado à
+proteção das margens operacionais, sem qualquer caráter especulativo, caracterizando assim um hedge econômico
+que visa reduzir os riscos atribuídos a volatilidade nos preços das commodities (proteção econômica da exposição),
+sem considerar eventual impacto de descasamento contábil nas demonstrações financeiras.
+A contabilização do valor justo dos instrumentos financeiros derivativos ao final de cada período contábil não diferencia
+as operações liquidadas daquelas em aberto. Dessa forma, entendemos pertinente efetuarmos o ajuste no Ebitda,
+eliminando os efeitos das operações de hedge de commodities ainda em andamento, conforme evidenciado na nota
+de Considerações sobre as informações financeiras e operacionais, neste documento, onde demonstramos a
+reconciliação do Ebitda. Desta forma, entendemos que há melhor compatibilização dos resultados de hedge com os
+resultados das operações do mercado físico correspondentes.
+No quadro que se segue apresentamos a reconciliação dos impactos nas despesas operacionais ajustas tanto no
+consolidado quanto nos segmentos operacionais:
+
+        Vibra Consolidado (Em milhões de reais)                            1T23          1T22          4T22
+        Despesas Operacionais ajustadas                                       (848)        (1.248)        (227)
+        Hedge comodities liquidado                                             (39)          489           482
+        CBIOs                                                                  269           212           206
+        Recuperações tributárias                                                   -             -        (684)
+        Venda de imóveis                                                           -             -        (325)
+        Despesas Operacionais sem Hedge, CBIOs e outros                       (618)         (547)         (548)
+
+
+
+       Rede de Postos (Em milhões de reais)                                1T23          1T22          4T22
+       Despesas Operacionais ajustadas                                     (424)         (620)          (413)
+       Hedge comodities liquidado                                           (7)           255            239
+       CBIOs                                                                200           149            152
+       Venda de imóveis                                                      -             -            (253)
+
+       Despesas Operacionais sem Hedge, CBIOs e outros                     (231)         (216)          (275)
+
+
+       B2B (Em milhões de reais)                                           1T23          1T22          4T22
+       Despesas Operacionais ajustadas                                     (339)         (561)          (649)
+       Hedge comodities liquidado                                           (32)          234            243
+       CBIOs                                                                 69            57             60
+       Despesas Operacionais sem Hedge, CBIOs e outros                     (302)         (270)          (346)
+
+
+
+
+                                                           15
+
+
+                                                          Pública
+Volume de Vendas (mil m³)
+Vibra Consolidado
+ Produtos           1T23    1T22      1T23 x 1T22   4T22     1T23 X 4T22
+                    4.186   4.158        0,7%       4.367       -4,1%
+ Diesel
+                    2.842   2.453       15,8%       3.095       -8,2%
+ Gasolina
+ Etanol              639    643         -0,6%        745       -14,3%
+
+ Óleo Combustível    408    390          4,5%        411        -0,8%
+
+ Coque               93     158         -41,0%       128        -27,3
+
+ Combust. Aviação    958    977         -1,9%       1.118      -14,3%
+
+ Lubrificantes       66      67         -0,9%        63         4,2%
+                     132    144         -8,1%        122        8,3%
+ Outros
+ Total              9.323   8.988        3,7%       10.050      -7,2%
+
+
+
+Rede de Postos
+ Produtos           1T23    1T22      1T23 x 1T22   4T22     1T23 X 4T22
+                    2.330   2.310        0,9%       2.469       -5,6%
+ Diesel
+                    2.820   2.433        15,9%      3.077       -8,4%
+ Gasolina
+                     634    639          -0,9%       741       -14,5%
+ Etanol
+                     48      63         -24,3%       42         13,3%
+ Outros
+                    5.831   5.446        7,1%       6.329       -7,9%
+ Total
+
+
+B2B
+ Produtos           1T23    1T22      1T23 x 1T22   4T22     1T23 X 4T22
+                    1.856   1.848        0,4%       1.898       -2,2%
+ Diesel
+                     958    977          -1,9%      1.118      -14,3%
+ QAV / GAV
+                     408    390          4,5%        411        -0,8%
+ Óleo Combustível
+                     93     158         -41,0%       128       -27,3%
+ Coque
+ Outros              177    170          4,1%        166        7,0%
+                    3.492   3.543       -1,4%       3.721       -6,2%
+ Total
+
+
+
+
+                            16
+
+
+                            Pública
+ Reconciliação do Fluxo de Caixa
+ O primeiro trimestre de 2023 apresentou uma forte geração de caixa, principalmente pela redução nos preços e
+ volume de diesel estocado no período, gerando um efeito de liberação de capital de giro de aproximadamente R$
+ 1,1 bilhão, quando excluímos a contratação de linha de risco sacado de R$ 588 milhões. A Companhia gerou mais
+ de R$ 2,1 bilhões em seu fluxo de caixa operacional apresentando um fluxo de caixa livre para os acionistas de
+ cerca de R$ 1,5 bilhão na posição de 31 de março de 2023. (Excluindo o efeito de risco sacado para ambos os
+ fluxos)
+
+
+
+  Em milhões de Reais                                                                                1T23                   1T22
+  EBITDA                                                                                              565                    1.130
+     IR/CS pagos                                                                                        -                     (26)
+     Efeitos não caixa no EBITDA                                                                      533                     702
+     Capital de giro                                                                                 1.624                  (1.592)
+  Fluxo de Caixa das Atividades Operacionais                                                         2.722                    214
+    CAPEX                                                                                             (117)                  (115)
+    Outros                                                                                            108                     (10)
+  Fluxo de Caixa das Atividades de Investimentos                                                       (9)                   (125)
+  FLUXO DE CAIXA LIVRE                                                                               2.713                    89
+    Financiamentos/arrendamentos                                                                      (571)                   629
+  Fluxo de Caixa das Atividades de Financiamentos                                                     (571)                   629
+  CAIXA LIVRE PARA OS ACIONISTAS                                                                     2.142                    718
+  Dividendos/Juros sobre o capital próprio pagos a acionistas                                         (401)                    -
+  Caixa líquido gerado (consumido) no período                                                        1.741                    718
+  Efeito de variação cambial sobre caixas e equivalentes de Caixa                                     (70)                    (34)
+  Saldo inicial                                                                                      4.145                   3.625
+  Saldo final                                                                                        5.816                   4.309
+
+
+
+Observações:
+
+ 1.Os recursos de caixa aplicados em bonificações antecipadas a clientes: -R$ 141 milhões no 1T23 (-R$ 92 milhões no 1T22) e -R$ 249
+ milhões em 4T22 são apresentados na variação do capital de giro.
+
+ 2. Os recursos de caixa aplicados em bonificações por performance: -R$ 105 milhões no 1T23 (-R$ 92 milhões no 1T22) e -R$ 160 milhões
+ em 4T22; prêmio e desconto sobre vendas -R$ 141 milhões no 1T23 (-R$ 96 milhões no 1T22) e -R$ 174 milhões em 4T22 são deduzidos
+ do Ebitda.
+
+ 3. Aplicações de recursos em Capex representam desembolsos para formação de ativos imobilizados e intangíveis e não incluem as
+ bonificações antecipadas a clientes.
+
+ 4. “Efeitos não caixa no Ebitda” incluem: perdas de crédito estimadas, perdas e provisões em processos judiciais e administrativos, planos
+ de pensão e de saúde, planos de desligamentos, resultado com alienação de ativos, amortização das bonificações antecipadas a clientes,
+ amortização de seguros, aluguéis e outros, juros e variações monetárias/cambiais líquidas (estes deduzidos do resultado financeiro líquido)
+ e outros ajustes, conforme apresentados na Demonstração dos Fluxos de Caixa, parte integrante das Demonstrações Contábeis.
+
+ 5. Capital de Giro inclui, principalmente: variação do contas a receber 1T23: +R$ 952 milhões e 1T22: -R$ 9 milhões e 4T22:- R$ 1.258
+ milhões; bonificações antecipadas a clientes (1T23: -R$ 141 milhões e 1T22: -R$ 92 milhões e 4T22: -R$ 249 milhões) , plano de saúde e
+ pensão: (1T23: -R$ 74 milhões e 1T22: -R$ 129 milhões e 4T22: -R$ 72 milhões), variação fornecedores: (1T23: -R$ 320 milhões e 1T22:
+ +R$ 290 milhões e 4T22: +R$ 165 milhões), variação impostos, taxas e contribuições: (1T23: +R$ 79 milhões e 1T22: +R$ 99 milhões e
+ 4T22: -R$ 208 milhões), variação estoques: (1T23: +R$ 1.180 milhões e 1T22: -R$ 501 milhões e 4T22: +R$ 1.036 milhões), aquisição de
+ créditos de descarbonização (CBIOS): (1T23: -R$ 258 milhões e 1T22: -R$ 154 milhões e 4T22: -R$ 85 milhões), adiantamentos a
+ fornecedores: (1T23: +R$ 96 milhões e 1T22: -R$ 242 milhões e 4T22: +R$ 128 milhões).
+
+
+
+
+                                                                     17
+
+
+                                                                    Pública
+Considerações sobre as Informações Financeiras e Operacionais
+O Ebitda ajustado da Companhia é uma medição adotada pela Administração e consiste no lucro líquido da
+Companhia, acrescido do resultado financeiro líquido, do imposto de renda e da contribuição social, das despesas
+com depreciação e amortização, da amortização das bonificações antecipadas a clientes (as bonificações
+antecipadas a clientes são apresentadas no ativo circulante e não circulante), equivalência patrimonial de resultado
+dos novos projetos, perdas e provisões com processos judiciais, planos desligamento, gastos com anistias fiscais,
+operações de hedge de commodities em andamento e encargos tributários sobre receitas financeiras.
+
+A Margem Ebitda Ajustada é um índice calculado por meio da divisão do Ebitda Ajustado pelo volume de produtos
+vendidos. A Companhia utiliza a Margem Ebitda ajustado por entender ser um bom indicador da rentabilidade de
+seus segmentos de negócios.
+
+
+   Reconciliação do EBITDA – Consolidado
+
+   R$ milhões                                                                      1T23    1T22        4T22
+   Composição do EBITDA
+
+   Lucro Líquido                                                                    81       325         566
+
+   Resultado financeiro líquido                                                     280      449         404
+
+   Imposto de renda e contribuição social                                            66      217         57
+
+   Depreciação e amortização                                                        138      139         137
+
+   EBITDA                                                                          565     1.130       1.164
+   Perdas estimadas em créditos de liquidação duvidosa - Setor Elétrico (Sistema
+                                                                                     -        -          (2)
+   Isolado e Interligado)
+   Perdas e provisões com processos judiciais e administrativos                     28       92          37
+
+   Amortização de bonificações antecipadas concedidas a clientes                    175      122         166
+
+   Constituição da Vem Conveniência - JV com a Lojas Americanas                      -      (447)         -
+
+   Aporte da Vibra Comercializadora de Energia na Comerc Participações S.A           -       (69)          -
+
+   Programa de anistias fiscais                                                      -        10          3
+
+   Operações de hedge de commodities em andamento                                   (92)     258         79
+
+   Resultado participação em investimentos                                           2       (17)        51
+
+   Despesas tributárias sobre resultado financeiro                                  10        11          9
+
+   EBITDA AJUSTADO                                                                 688     1.090       1.507
+
+   Volumes de vendas (milhões de m³)                                               9.323    8.988       10.050
+
+   MARGEM EBITDA AJUSTADA (R$/m³)                                                   74      121         150
+
+
+
+
+                                                                   18
+
+
+                                                                   Pública
+Demonstrativo da Posição Financeira
+
+ ATIVO – Em milhões de reais
+                                                                               Consolidado
+
+   Ativo                                                          31.03.2023                 31.12.2022
+
+   Circulante
+     Caixa e equivalentes de caixa                                   5.816                      4.145
+
+     Contas a receber, líquidas                                      6.142                      6.931
+
+     Estoques                                                        5.571                      6.753
+     Adiantamentos a fornecedores                                     87                         183
+
+     Imposto de renda e contribuição social                           32                         11
+
+     Impostos e contribuições a recuperar                            2.619                      2.690
+
+     Bonificações antecipadas concedidas a clientes                   568                        575
+
+     Despesas antecipadas                                             111                        98
+
+     Instrumentos financeiros derivativos                             68                         66
+
+     Ativos mantidos para venda                                       408                        408
+     Outros ativos circulantes                                        121                        384
+
+                                                                    21.543                     22.244
+
+
+
+   Não circulante
+
+   Realizável a longo prazo
+     Contas a receber, líquidas                                       488                        574
+
+     Depósitos judiciais                                             1.221                      1.196
+     Impostos e contribuições a recuperar                             552                        588
+     Imposto de renda e contribuição social diferidos                1.883                      1.920
+
+     Bonificações antecipadas concedidas a clientes                  1.487                      1.516
+
+     Despesas antecipadas                                             64                         66
+     Instrumentos financeiros derivativos                             127                        170
+
+     Outros ativos realizáveis a longo prazo                          13                         14
+
+                                                                     5.835                      6.044
+
+
+
+     Investimentos                                                   4.981                      4.984
+
+     Imobilizado                                                     6.912                      6.944
+     Intangível                                                       958                        894
+
+                                                                    18.686                     18.866
+
+   Total do Ativo                                                  40.229                     41.110
+
+
+
+
+                                                        19
+
+
+                                                        Pública
+Demonstrativo da Posição Financeira
+
+PASSIVO E PATRIMÔNIO LÍQUIDO - Em milhões de reais
+                                                                                  Consolidado
+
+    Passivo                                                           31.03.2023                31.12.2022
+
+
+
+    Circulante
+
+      Fornecedores                                                       4.196                     5.134
+
+      Financiamento de fornecimento de produtos                           588                        -
+      Empréstimos e Financiamentos                                       1.270                     1.674
+
+      Arrendamentos                                                       124                       128
+
+      Adiantamentos de clientes                                           479                       546
+
+      Imposto de renda e contribuição social                               4                        55
+
+      Impostos e contribuições a recolher                                 238                       176
+
+      Dividendos e Juros sobre o capital próprio                           -                        401
+
+      Salários, férias, encargos, prêmios e participações                 260                       220
+      Planos de pensão e saúde                                            141                       153
+
+      Instrumentos financeiros derivativos                                 70                       164
+
+      Provisão para Créditos de Descarbonização                           658                       596
+      Credores por aquisição de participações societárias                  63                       63
+
+      Outras contas e despesas a pagar                                    288                       314
+
+                                                                         8.379                     9.624
+
+
+
+    Não circulante
+     Empréstimos e financiamentos                                       15.181                    14.883
+
+      Arrendamentos                                                       693                       706
+
+      Planos de pensão e saúde                                            794                       828
+      Instrumentos financeiros derivativos                                680                       664
+
+      Provisão para processos judiciais e administrativos                 936                       919
+
+      Credores por aquisição de participações societárias                 623                       623
+
+      Outras contas e despesas a pagar                                    248                       250
+
+                                                                        19.155                    18.873
+
+                                                                        27.534                    28.497
+    Patrimônio líquido
+
+     Capital social realizado                                            7.579                     7.579
+     Ações em tesouraria                                                (1.152)                   (1.152)
+
+     Reserva de capital                                                   46                        40
+
+     Reservas de lucros                                                  7.148                     7.067
+
+     Ajuste de avaliação patrimonial                                     (926)                     (921)
+
+                                                                        12.695                    12.613
+
+    Total do Passivo                                                    40.229                    41.110
+
+
+
+
+                                                            20
+
+
+                                                            Pública
+Demonstração de Resultados - Em milhões de reais
+
+                                                                                    Consolidado
+
+                                                                       31.03.2023                 31.12.2022
+
+  Receita de vendas de produtos e serviços prestados                     39.037                     38.831
+
+    Custo dos produtos vendidos e serviços prestados                     (37.679)                   (36.168)
+
+  Lucro bruto                                                             1.358                      2.213
+
+  Despesas operacionais
+
+    Vendas                                                                (671)                      (588)
+
+    Perdas de crédito esperadas                                            (1)                         8
+
+    Gerais e administrativas                                              (205)                      (106)
+
+    Tributárias                                                            (29)                       (35)
+
+    Outras receitas (despesas), líquidas                                   (23)                      (464)
+
+                                                                          (929)                     (1.239)
+
+  Lucro antes do resultado financeiro, participação e impostos             429                        974
+
+    Financeiras
+
+      Despesas                                                            (406)                      (231)
+      Receitas                                                             234                        177
+
+      Variações cambiais e monetárias, líquidas                           (108)                      (395)
+
+                                                                          (280)                      (449)
+
+  Resultado de participações em investimentos                              (2)                        17
+
+  Lucro antes dos impostos                                                 147                        542
+
+  Imposto de renda e contribuição social
+
+    Corrente                                                               (29)                      (163)
+
+    Diferido                                                               (37)                       (54)
+
+                                                                           (66)                      (217)
+
+  Lucro líquido do período                                                 81                         325
+
+
+
+
+                                                             21
+
+
+                                                             Pública
+Informações por Segmentos - Em milhões de reais
+
+Demonstração Consolidada do Resultado por Área de Negócio – Trimestre atual (01.01.2023 a 31.03.2023)
+
+
+                                                                                                         Reconciliação com as
+                                                                Total                                      Demonstrações                Total
+                               Rede de Postos    B2B       dos Segmentos        Corporativo    Total          Contábeis
+                                                                                                                                      Consolidado
+Receita de Vendas                  22.809        16.403        39.212                -         39.212            (175)          (a)     39.037
+Custo dos produtos vendidos       (21.930)      (15.746)      (37.676)               -        (37.676)             (3)          (b)    (37.679)
+Lucro bruto                         879           657           1.536                -         1.536             (178)                   1.358
+Despesas
+Vendas, gerais e
+                                    (294)        (378)         (672)                (70)       (742)             (135)          (c)     (877)
+administrativas
+Tributárias                         (8)           (4)           (12)                (7)         (19)             (10)           (d)      (29)
+Outras receitas (despesas),
+                                   (122)          43            (79)                (8)         (87)              64            (e)     (23)
+líquidas
+Resultado de participações
+                                     -             -             -                   -           -                (2)           (f)      (2)
+em investimentos
+Resultado financeiro líquido         -             -             -                   -           -               (280)          (g)     (280)
+EBITDA Ajustado                     455           318           773                (85)         688
+Lucro (Prejuízo) antes dos
+                                                                                                                 (541)                   147
+impostos
+
+
+
+
+                                                                           22
+
+
+
+                                                                         Pública
+Informações por Segmentos - Em milhões de reais
+
+Demonstração Consolidada do Resultado por Área de Negócio – Trimestre ano anterior (01.01.2022 a 31.03.2022)
+
+
+                                                                                                         Reconciliação com as
+                                                                Total                                      Demonstrações                Total
+                               Rede de Postos    B2B       dos Segmentos        Corporativo    Total          Contábeis
+                                                                                                                                      Consolidado
+Receita de Vendas                  23.305        15.198        38.503                -         38.503            (122)          (a)     38.381
+Custo dos produtos vendidos       (22.076)      (14.089)      (36.165)               -        (36.165)             (3)          (b)    (36.168)
+Lucro bruto                        1.229          1.109         2.338                -          2.338            (125)                   2.213
+Despesas
+Vendas, gerais e
+                                    (257)        (306)         (563)                (41)       (604)             (136)          (c)     (740)
+administrativas
+Tributárias                         (7)           (4)           (11)                (3)         (14)             (21)           (d)      (35)
+Outras receitas (despesas),
+                                   (356)         (251)         (607)               (23)        (630)             166            (e)     (464)
+líquidas
+Resultado de participações
+                                     -             -             -                   -           -                17            (f)      17
+em investimentos
+Resultado financeiro líquido         -             -              -                  -            -              (449)          (g)     (449)
+EBITDA Ajustado                     609           548          1.157               (67)        1.090
+Lucro (Prejuízo) antes dos
+                                                                                                                 (548)                   542
+impostos
+
+
+
+
+                                                                           23
+
+
+
+                                                                         Pública
+Informações por Segmentos
+
+Reconciliação com as Demonstrações Contábeis - Em milhões de reais
+
+                                                                                                   1T23         1T22
+(a) Receita de Vendas
+Apropriação das bonificações antecipadas concedidas a clientes: As receitas de vendas
+são ajustadas pelas bonificações antecipadas concedidas aos revendedores dos postos de
+serviço para os quais a Companhia distribui combustíveis e lubrificantes. Correspondem à
+parcela disponibilizada, principalmente, em espécie e realizada sob condições pré-
+estabelecidas com tais partes, que uma vez cumpridas, tornam-se inexigíveis, sendo absorvidas        (175)        (122)
+como despesa pela Companhia. Trata-se de um regime de metas que, uma vez atingidas, isenta
+os clientes, revendedores dos postos de serviço, da devolução à Companhia desses valores
+antecipados a título de bonificação. São reconhecidas no resultado proporcionalmente aos seus
+prazos de vigência.
+(b) Custo dos produtos vendidos
+Depreciação e amortização                                                                                 (3)          (3)
+(c) Vendas, gerais e administrativas
+Depreciação e amortização                                                                            (135)        (136)
+(d) Tributárias
+Os ajustes de impostos referem-se às anistias fiscais e encargos tributários sobre
+receitas financeiras.
+Anistias fiscais: trata-se das provisões referente a adesão aos programas de anistia instituídos
+                                                                                                            -      (10)
+por Leis Estaduais.
+Encargos tributários sobre receitas financeiras: os ajustes são referentes aos gastos com IOF,
+PIS e COFINS incidentes sobre as receitas financeiras da Companhia e que estão                        (10)         (11)
+classificados em despesas tributárias.
+(e) Outras receitas (despesas), líquidas
+Perdas e provisões com processos judiciais: Os valores ajustados se referem às perdas
+incorridas em processos transitados em julgado, bem como as provisões efetuadas com base
+                                                                                                      (28)         (92)
+nos pareceres obtidos junto aos advogados responsáveis pelo acompanhamento dos
+processos judiciais ou pela própria área jurídica da Companhia.
+Operações de hedge de commodities em andamento                                                            92      (258)
+Resultado do processo de constituição da Vem Conveniência - JV com a Lojas Americanas                       -          447
+
+Resultado do aporte da Vibra Comercializadora de Energia na Comerc Participações S.A                        -           69
+f) Resultado de participações em investimentos                                                            (2)           17
+g) Resultado Financeiro, líquido                                                                     (280)        (449)
+Total                                                                                                (541)        (548)
+
+
+
+
+                                                                 24
+
+
+
+
+                                                               Pública
+         ri@vibraenergia.com.br
+
+
+
+
+         Rua Correia Vasques, 250
+         Cidade Nova – CEP: 20211-140
+         Rio de Janeiro/RJ – Brasil
+
+
+
+
+                                          25
+
+
+
+ri.vibraenergia.com.br
+ri@vibraenergia.com.br                  Pública
+              1Q23
+          PERFORMANCE
+ 0
+
+
+Pública
+Public
+Public
+1Q23 WEBCAST
+Vibra Energia is hosting a Webcast with simultaneous translation
+on May 15, 2023 to discuss the Company’s results for the first
+quarter of 2023. The presentation can be downloaded from the
+Company’s website one hour before the teleconferences
+commence.
+
+
+                                               Time
+
+
+                       10:00 AM (Brasília time) / 9:00 AM (New York)
+
+
+                               Link to access Webcast: Click here
+
+
+
+        For queries or if you are unable to connect to the call, please contact us on the e-mail
+        ri@vibraenergia.com.br
+
+
+
+       The transcription, presentation and audio will be made available after the teleconference/webcast
+       on the Company’s site: ri.vibraenergia.com.br
+
+
+
+
+                                                    1
+
+
+                                                   Pública
+                                                   Public
+Message From Management
+Vibra’s results in the first quarter of 2023 were strongly influenced by the falling oil product prices that occurred
+at the end of 2022 and throughout 1Q23, bringing significant accounting impacts on product inventories, especially
+diesel, fuel oil and QAV. Moreover, these same price reductions, combined with the inventory reduction levels we
+achieved this quarter, enabled us to release significant working capital of around R$1.1 billion, driving the
+generation of operational cash flow of approximately R$ 2.1 billion (excluding the effect of R$ 588 million
+from a drawee risk operation during the period).
+Adjusted EBITDA reached R$ 688 million (-37% YoY and -54% QoQ), with a sales volume of 9,323 thousand
+m³, corresponding to an adjusted EBITDA margin of R$74/m³, maintaining consistency in market positioning,
+with an average market share of 25.2% in Otto and diesel cycles (+0.2 p.p. YoY and -0.3% QoQ), including a
+32.8% share in the branded gas stations segment (+1.0 p.p. YoY and +0.2 p.p. QoQ) and 30.2% in Diesel B2B
+ex-TRR (+2.1 p.p. YoY and +2.5% p.p. QoQ), reflecting our focus on branded and contracted customers.
+It is also important to point out factors that positively influenced our results, which partially offset the inventory
+losses experienced in 1Q23, such as gains in gasoline inventories (in February, due to the partial return of
+Pis/Cofins charges) and income on imported product hedging. We also observed sales volumes and margins
+above expectations, and the Company's expenses were within expectations.
+Furthermore, the quarter's results were also impacted by inefficiencies in diesel import processes experienced at
+the end of 2022 but whose effects ran over into January/23. To avoid these inefficiencies repeating going forward,
+we made adjustments to our sourcing strategy and commercial activity. Felt from February/23, these changes to
+our processes are also expected to reduce earnings volatility in future periods.
+Another noteworthy achievement was reducing our net debt by approximately R$ 1.2 billion. With this, our
+leverage remained at around 2.7x (Net Debt/Adjusted EBITDA LTM), despite the lower adjusted Ebitda in the
+period.
+We should also mention the progress made in the ES Gas divestment process, whose settlement is scheduled
+for August/23 and should provide us with over R$850 million in cash, based on the auction bid, ES Gas’ existing
+cash and its expected earnings until effective payment.
+We should also remember that we will have cash additions throughout 2023 as a result of divestments in real
+estate and bases made at the end of 2022, whose payments will have effects this year, in addition to using most
+of the overdue Pis/Cofins tax credits recognized in our results in 4Q22.
+Regarding the sales volume dynamics we observed this quarter, the market was still operating with excess
+inventory in early January. This basically occurred as a secondary effect of the expectation regarding the possible
+full return of Pis/Cofins charges on fuels on 01/01/2023, with the distribution market maintaining its inventory at
+high levels, possibly anticipating inventory gains due to the tax increase expected at that time. We also saw
+customers looking to accelerate their purchases at the end of 2022, before the expected return of taxes, which
+resulted in a relatively lower demand in the first weeks of January We accordingly observed lower-than-expected
+sales volumes that month, as a combined effect of reduced demand and difficulty in making additional sales in a
+market with excess inventory. However, with these effects that affected January no longer existing, in February
+and March we saw volumes returning to levels exceeding our expectations, and thereby ended the quarter with
+sales 3.7% higher compared to the same period of the previous year.
+
+
+
+
+                                                          2
+
+
+                                                         Pública
+                                                         Public
+ESG
+ESG agenda
+ESG lies at the center of the company's priorities and we have structured our ESG Agenda with specific action
+plans and goals, which are also indexed to the variable compensation of company executives and employees.
+
+Climate Change
+Climate Change is a priority in our ESG Agenda. Our emissions reduction plan is built with specific goals and
+actions coordinated by the ESG department. The initiative involves several Vibra divisions and exceeded the
+target by 8 percentage points in year one. In 2022, we reduced our scope 1 and 2 emissions by 12% (compared
+to the 2019 baseline), exceeding the initial goal of 4%. The early performance of the initiative to reduce steam
+consumption, initially planned for early 2023, was a key factor in exceeding the target.
+In the first quarter of 2023, the scope 1 and 2 emissions totaled 12,850 tCO2e, a result that exceeded the amount
+planned for the period by 2,400 tCO2e. The main driver for this reduction was the lower energy demand in our
+thermal plant and lower steam consumption at the Betim base due to operational conditions.
+In addition, we continue with the initiatives of using ethanol in the light vehicle fleet (31% of the fleet), increasing
+the consumption of renewable energy by migrating 3 more units to the free energy market, now totaling 12 units.
+We also made progress in the initiative of using green diesel in the Galeão fleet. Today, half of the BR Aviation
+truck fleet that operates at the Galeão/Tom Jobim International Airport in Rio de Janeiro, is fueled by a diesel
+blend containing 10% green diesel (HVO), in addition to the biodiesel percentage defined by national regulations,
+meaning it consumes diesel with 10% more renewable energy than commercial diesel. The Eduardo Gomes
+International Airport in Manaus (AM) now has an electric aircraft refuelers with zero emissions.
+Following this premise and seeking solutions that not only contribute to the decarbonization of our activities but
+also that of customers, suppliers and partners, Vibra teamed up with musician Carlinhos Brown and took HVO-
+powered electric trios to the streets of Salvador during Carnival. Throughout carnival, the generators ran on the
+alternative and renewable fuel produced from residual raw materials or vegetable oils.
+We believe that the company's future depends on sustainable business management and each employee taking
+the initiative. We therefore continue holding training cycles, involving everyone from leadership to technicians,
+and creating space for collecting contributions to optimize management of the topic. The training has already
+involved more than 100 people from the areas of operations, aviation, marketing, investor relations, management,
+logistics, energy, risk and innovation.
+
+Environmental Management
+Throughout the first quarter we worked to reduce natural resource usage, aiming to achieve the commitments
+made in 2022. Regarding energy efficiency, we highlight the completion of the energy consumption diagnosis in
+8 operational facilities, including lighting, refrigeration and electric motors. The implementation of the proposed
+adjustments has already begun at the São Paulo Base, where most of the outside lighting has been replaced,
+which will not only drive down energy consumption but also optimize the roads and sidewalks at the unit.
+In solid waste management, 94% of our hazardous waste in 2023 has been sent for some form of reuse, above
+our commitment of 85%, reinforcing our policy of maximizing resource reuse.
+We ended the quarter without any environmentally impactful leaks in our indicator, whose alert limit was reduced
+from 13.6 m³ to 13.2 m³ in 2023. This result is the outcome of our diligent efforts in operational safety and incident
+response readiness.
+
+Human Rights and Social Investment
+We renewed our partnership with Circo Crescer e Viver and the Instituto Meta Educação, both developed to
+assist over 320 children and young people from the communities neighboring our headquarters in Cidade Nova,
+Rio de Janeiro. The Circo Social project of Circo Crescer & Viver is supported through ISS/RJ; and the projects
+"Papo Reto Teatro" and "Reforço do Futuro" of Instituto Meta Educação are supported by the Lei Rouanet law.
+
+
+
+
+                                                           3
+
+
+                                                          Pública
+                                                          Public
+Also through Lei Rouanet, we started supporting Projeto Douradinho in 2023, which nurtures reading among
+children in public schools in Marabá (PA). Based on the book "Amigo Rio, Amiga Lata", the project provides
+training for educators, support activities for students, and a face-to-face meeting with the book's author.
+In partnership with Projeto Amigo de Valor, we allocated funds from the Child and Adolescent Fund (FIA) for 4
+projects: "Qualificar para Transformar" in Barcarena (PA), "Formação de Adolescentes Empresários Rurais
+da Agricultura Familiar" in Tancredo Neves (BA), "Singular nas Comunidades Rurais" in Gravatá (PE), and
+"Educação Integral de Crianças e Adolescentes" in Gloria do Goitá (PE), serving over 400 children and
+adolescents.
+In March, reinforcing our commitment to Human Rights in our value chain, we joined the Human Rights Working
+Group in the Electric-Power Sector, of the Global Compact. We participated in the group's first three meetings,
+which brings together the main companies in the sector, to discuss the opportunities and challenges of the Human
+Rights agenda from the sectoral context and applicable legislation.
+
+Diversity
+We were able to exceed our goal of hiring women, which was set at 30% in 2022 and reached 38.4% at the end
+of the year. We have been striving to meet best practices to achieve gender and racial equity, include people with
+disabilities and promote LGBTQIAP+ rights.
+We have consolidated our affinity groups: “Vibra por Elas” (gender), “Entre Raízes (race) and Pride+
+(LGBTQIAP+). The groups periodically meet to discuss the challenges of building a more inclusive culture at Vibra
+and hold meetings with senior leadership.
+In March, the team of resellers from all over Brazil participated in the event "We are all Lubrax". They were at
+our headquarters in downtown Rio de Janeiro, where they met the Vibra Affinity Groups and visited the Lubricant
+Factory in Duque de Caxias to get a close look at the production process and details of each stage of production.
+
+Governance
+On March 21, 2023, the deadline occurred for companies with Internal Accident Prevention Committees (Cipa) to
+implement the measures for preventing and combating sexual harassment and other forms of violence in the
+workplace, as established by Law 14.457/2022, which introduced the "Employ + Women" program.
+Vibra Energia is in full compliance with the law as it has implemented all the required measures, with emphasis
+on the wide dissemination (since last October) of the Handbook for Combating Violence in the Workplace,
+dedicated specifically to protecting women from situations of sexual (crime) and moral harassment.
+
+
+ESG Recognition
+Sustainalytics, one of the largest global independent ESG rating agencies, published its list of companies with
+the highest ESG performance and awarded them the top-rated seal. Vibra received the Industry Top Rated seal
+in the Refiners and Pipelines segment. This seal includes companies that beat the ESG performance in their
+respective sectors existing in Sustainalytics.
+In addition to the seal, Vibra also improved its Sustainalytics ESG rating in 2023. The company reduced the
+degree of risk in ESG Risk Rating and improved its risk management performance in ESG Risk Management.
+For the fourth consecutive year, Vibra has been included in the B3 Corporate Sustainability Index (ISE B3)
+effective until December 2023. In respect of our performance, note our better score in Corporate Governance and
+Senior Management, and in the scores of the following topics: Engagement, Employee Diversity and Inclusion,
+Corporate Governance Practices, Business Ethics, Management of the Legal & Regulatory Environment,
+Sustainability of our Business Model, Sales & Product Labeling Practices, Data Security, Ecological Impacts and
+Air Quality.
+We also received the silver medal for in EcoVadis, the ESG supplier assessment platform most used by our B2B
+clients, obtaining an excellent assessment in our sector. The results demonstrate the company’s commitment to
+the ongoing pursuit of ESG management excellence.
+
+
+
+                                                        4
+
+
+                                                       Pública
+                                                       Public
+Segment Reporting Change
+In order to adapt to the new form of internal reporting and management of the Company’s results, we will now
+only report two Vibra divisions from this quarter: B2B and Retail, with B2B now embracing the current segments
+of Lubricants and Aviation; and Retail encompassing the Company's Gas Stations division. The results of joint
+ventures and other equity investments will only be reported under the equity accounting concept, with their
+EBITDA equivalent results being part of the adjustments made to calculate Vibra's adjusted EBITDA, which will
+therefore only reflect the results of fuel, lubricant and related distribution activities in the Retail Network and B2B
+segments, as detailed below.
+
+
+
+
+                                                          5
+
+
+                                                         Pública
+                                                         Public
+Performance by Business Segment
+
+   Operating Cash                        Sales Volume                      EBITDA Adjusted                     Adjusted EBITDA
+    Generation                               9,323 MM/m³                   EBITDA                                  Margin
+
+                                            (+ 3.7% vs. 1Q22)                        688 MM                             74/m³
+             R$ 2.1 bi
+             bn
+
+
+Vibra Consolidated
+In millions of Reais
+                                                       1Q23              1Q22          1Q23 X 1Q22           4Q22        1Q23 X 4Q22
+(except where stated)
+Volume of sales (thousand m3)                          9,323             8,988             3.7%             10,050           -7.2%
+
+Adjusted net revenue                                   39,212            38,503            1.8%             45,243          -13.3%
+
+Adjusted gross income                                  1,536             2,338            -34.3%             1,734          -11.4%
+
+Adjusted Operating Expenses *                           (618)            (547)            13.0%              (548)           12.8%
+
+Adjusted Oper. Expenses (R$/m³)*                        (66)              (61)             8.9%               (55)           21.6%
+
+Finance income (costs)                                  (280)            (449)            -37.6%             (404)          -30.7%
+
+Net income                                               81               325             -75.1%              566           -85.7%
+
+Adjusted EBITDA                                         688              1,090            -36.9%             1,507          -54.3%
+
+Adjusted EBITDA Margin (R$/m³)                           74               121             -39.1%              150           -50.8%
+
+Total number of service stations                       8,381             8,214              167              8,383            (2)
+* To facilitate a comparative analysis, the following: 1Q23: Hedging of R$ 39 million, CBIOs R$ -269 million; 4Q22: Hedging R$ -482 million,
+CBIOs R$ -206 million, Tax Recoveries R$ 684 million and Sale of Properties and Bases of R$ 325 million; and 1Q22: Hedging R$ -489
+million, CBIOs R$ -212 million were excluded from operating expenses. For the complete note see the section operating expenses in the
+release.
+
+
+The sales volume rose by 3.7% in the YoY comparison, due to higher sales of the Otto cycle (+12%) and fuel oil
+(+4.5%), partly offset by lower sales of pet-coke (-41%) and jet fuel (-1.9%). Sales volumes contracted by -7.2% in
+the QoQ comparison, mainly due to lower sales of coke (-27.3%), ethanol (-14.3%), gasoline (-8.2%) and diesel (-
+4.1%), partly offset by higher sales of lubricants and other products.
+Gross profit contracted by -34.3% compared to 1Q22, or R$ 802 million. This result is mainly due to product
+inventory losses in 1Q23 and inefficiencies in the importation process carried over from 4Q22, totaling
+approximately R$ 665 million. 1Q22 also saw a product inventory gain of around R$ 460 million. Compared to
+4Q22, the lower sales, mainly due to seasonal effects, and the higher inventory losses in 1Q23 justify the -11.4%
+reduction, or R$ -198 million. Despite the significant inventory losses in the period, note that our sales margins
+were better than in both periods.
+Adjusted operating expenses were R$ 848 million (R$ 91/m³) in 1Q23, which excluding the commodities hedging
+result (R$ 39 million) and CBIOs (-R$ 269 million) amounted to R$ 618 million (R$ 66/m³), an increase of R$ 71
+million (13%) compared with 1Q22, primarily due to better results in shipping (R$ 29 million), services, airport
+operations and engineering expenses (R$ 40 million). In comparison to 4Q22, the higher expenses are mainly due
+to higher provisions for expected credit losses (PCE) (R$ 22 million), higher reversals in 4Q22 that did not occur in
+1Q23 (R$ 21 million), and higher provisions for personnel expenses (R$ 14 million).
+The adjusted EBITDA for 1Q23 was R$ 688 million (R$ 74/m³), a QoQ increase of R$ 190 million, excluding the
+effects of property and base sales and gains from extraordinary tax recoveries in 4Q22. It is worth highlighting that
+the product inventory loss in 1Q23 was R$ 391 million higher compared to 4Q22, which was offset by a positive
+
+
+                                                                     6
+
+
+                                                                   Pública
+                                                                   Public
+variance in the commodity hedge result of R$ 521 million in the same period. Considering the exceptional and
+significant nature of these events, we believe we have made important progress solely in terms of our sales margins.
+The Company's net income in 1Q23 (R$ 81 million) was R$ 244 million lower than in 1Q22 (R$ 325 million), mainly
+due to the recognition of VEM in the previous year's profit or loss of R$ 437 million, which did not occur in the
+current quarter.
+Our net debt shrank by approximately R$ 1.2 billion compared to the previous quarter, mainly due to our strong
+operating cash generation in the period (+R$ 2.1 billion). It is worth noting the reduction of R$ 1.2 billion in our
+product inventory due to the lower average price of molecules and mainly because of the reduction in our product
+inventory volumes. Our leverage remained in line with the previous quarter at 2.7x adjusted EBITDA LTM. As we
+stopped recognizing equity accounting results in our adjusted Ebitda, there was a slight change in our leverage
+indicator, seeking to more closely align our actual cash generation with the Company's leverage.
+
+
+
+Retail
+In millions of Reais
+                                                           1Q23            1Q22          1Q23 X 1Q22            4Q22        1Q23 X 4Q22
+ (except when specified)
+Volume of sales (thousand m3)                              5,831           5,446             7.1%              6,329            -7.9%
+
+Adjusted net revenue                                      22,809           23,305            -2.1%             25,799           -11.6%
+
+Adjusted gross income                                       879            1,229            -28.5%              933             -5.8%
+
+Adjusted gross margin (R$/m3)                               151              226            -33.2%              147              2.3%
+
+Adjusted Operating Expenses                                (231)           (216)             6.9%               (275)           -16.0%
+
+Adjusted Oper. Expenses (R$/m³)*                            (40)             (40)            -0.1%              (43)            -8.8%
+
+Adjusted EBITDA                                             455              609            -25.3%              520             -12.5%
+
+Adjusted EBITDA margin (R$/m3)                              78               112            -30.2%               82             -5.0%
+
+Total number of service stations                           8,381           8,214              167              8,383              (2)
+* The effects of: 1Q23 - Hedging of R$ 7 million and CBIOs R$ -200 million; 4Q22 - Hedging of R$ -239 million, CBIOs R$ -152 million; Property
+Sales R$ 253 million and 1Q22 - Hedging R$ -255 million and CBIOs R$ -149 million were excluded from adjusted operating expenses. For the
+complete note see the section operating expenses in the release.
+
+
+The Service Station Network reported sales volume growth of +7.1% YoY, including an impressive +12% growth in
+Otto cycle or 6.9% of total sales and +1% in diesel. It is worth noting the significant market-share growth among
+branded gas stations, +1 p.p. compared to the same period of the previous year. Compared to 4Q22 our sales
+volumes decreased, mainly due to seasonal effects, which are consistently stronger in the months from October to
+December. There was a 9.3% reduction in Otto cycle and a 5.6% reduction in diesel, however, our market-share in
+the contracted market grew 0.2 p.p. in the compared period.
+Gross adjusted profit in 1Q23 was R$ 879 million, down by 5.8% on 4Q22, mainly due to losses from diesel price
+reductions and consequently even higher product inventory losses than those in 4Q22. The return of part of the
+taxes on gasoline prices had a positive effect on gross profit, attenuating the losses attributed to diesel prices and
+also to inefficiencies in the importation process, carried over to January 2023. Also note the higher average sales
+margins in 1Q23, with a greater focus on our branded network and higher premium product sales. Compared to the
+previous year, the large variance in inventory effects in the compared periods justifies the 28.5% reduction in gross
+profit.
+Adjusted operating expenses without effects of: Hedge (R$ 7 million); and CBIOs (-R$ 200 million) amounted to -R$
+231 million in 1Q23, down 16.0% on 4Q22, mainly due to lower product shipping expenses in the period, given the
+lower sales volumes. This figure rose by 6.9% on 1Q22. Operating expenses in R$ /m³ remained virtually unchanged.
+The Adjusted Ebitda was R$ 455 million (R$ 78/m³), a change of -12.5% (QoQ) and -25.3% (YoY). The gross profit
+losses evidenced by the major variations in inventory and hedging effects in the compared periods, as explained
+above, denote the Ebitda variance.
+                                                                     7
+
+
+                                                                   Pública
+                                                                   Public
+ We ended the 1st quarter of 2023 with 8,381 stations in our network, focusing on contract renewals and the
+ attractiveness of our brand, improving our value proposition with the conviction of having more stations in the coming
+ years. After a significant flow of business between renewals and new branding in 4Q22, we focused on building a
+ new branding portfolio that meets the company's strategic objectives, with a healthy and well-positioned service
+ station network. Throughout 1Q23, we focused on contract renewals and detailing action plans for new brandings in
+ 2023.
+
+
+
+B2B
+  In millions of Reais
+                                                          1Q23              1Q22      1Q23 X 1Q22         4Q22         1Q23 X 4Q22
+   (except when specified)
+
+  Volume of sales (thousand m3)                           3,492             3,543        -1.4%            3,721            -6.2%
+
+  Adjusted net revenue                                   16,403          15,198           7.9%           19,444           -15.6%
+
+  Adjusted gross income                                    657              1,109        -40.8%           801             -18.0%
+
+  Adjusted gross margin (R$/m3)                            188              313          -39.9%           215             -12.6%
+
+  Adjusted Operating Expenses*                            (302)             (270)        11.9%            (346)           -12.1%
+
+  Adjusted Oper. Expenses (R$/m³) *                        (86)             (76)         13.5%            (93)             -7.0%
+
+  Adjusted EBITDA                                          318              548          -42.0%           152             109.2%
+
+  Adjusted EBITDA margin (R$/m3)                           91               155          -41.1%            41             122.9%
+
+* The effects of: 1Q23: Hedging R$ 32 million and CBIOs R$ -69 million; 4Q22: Hedging R$ -243 million and CBIOs R$ -60 million; and 1Q22:
+Hedging R$ -234 million and CBIOs R$ -57 million. For the complete note see the section operating expenses in the release.
+
+
+The B2B segment showed a lower sales volume (-1.4%) compared to 1Q22, mainly due to lower sales of Pet Coke
+(-41%), QAV/GAV (-2%), partially offset by higher volumes of Diesel (+0.4%) and fuel oil (+4.5%). It is worth noting
+that in 1Q22 there was greater availability of coke, as there was still an exclusive contract with Petrobras for coke
+marketing. In comparison with 4Q22 there was a decrease (-6.2%) due mainly to lower sales volumes of jet fuel (-
+14%), diesel (-2%) and Pet Coke (-27%). The termination of the contract with one of the three largest national
+airlines explains the reduction in jet fuel volume in the period.
+
+It is also worth noting that despite the aviation market-share loss due to the termination of the aforesaid contract,
+our sales volumes were also boosted by the market recovery and the acquisition of new foreign customers, plus
+advancements in General and Executive Aviation, leading us to maintain a higher market-share than in the pre-
+pandemic period.
+Adjusted gross income was R$ 657 million this quarter, down by 18.0% on the R$ 801 million reported in 4Q22.
+This reduction is explained by the higher inventory losses (diesel, QAV and fuel oil) and inefficiencies in the
+importation process that occurred in 4Q22. The higher average sales margins partially offset the strong negative
+inventory results and inefficiencies.
+Adjusted operating expenses were R$ 304 million in 1Q23, a QoQ decrease of -12.1%. There was an increase of
+12.6% compared to 1Q22. In both periods, the cost of shipping is the main villain, as sales volumes shrank on
+1Q22, but the unit cost was lower.
+The adjusted EBITDA for this segment was R$ 318 million in 1Q23, mainly impacted by inventory losses resulting
+from diesel and QAV price reductions in the period.
+
+
+
+
+                                                                   8
+
+
+                                                                  Pública
+                                                                  Public
+ Corporate
+Corporate primarily consists of the Company’s overhead not allocated to other segments. The amounts classified
+as corporate are presented below:
+
+
+                  In millions of Reais
+                                                         1Q23         1Q22    1Q23 X 1Q22   4Q22    1Q23 X 4Q22
+                  (except where stated)
+
+                  Adjusted operating expenses            (85)          (67)     26.9%         835     -110.2%
+
+
+ The change in YoY operating expenses was -R$ 18 million and QoQ -R$ 920 million, owing to lower tax recoveries
+ (R$ 684 million) and the proceeds from selling distribution bases (R$ 72 million) in 4Q22. The other expenses
+ presented in Corporate are related to the company’s overhead and are stable between the analyzed periods.
+
+
+
+ Indebtedness
+
+ The Company's debt profile follows a liability management strategy, prioritizing source diversification, maturity
+ and instrument deconcentration, and always exploring opportunities to reduce costs and extend the maturity of
+ its portfolio operations:
+
+
+
+  In millions of Reais
+                                                1Q23                 1Q22       1Q23 X 1Q22         4Q22          1Q23 X 4Q22
+  (except where stated)
+      Financing                                 17,039               13,082        30.2%            16,557            2.9%
+      Leases                                     817                  818          -0.1%             834             -2.0%
+
+  Gross Debt                                    17,856               13,900        28.5%            17,391            2.7%
+      Swap                                       527                  624         -15.5%             483              9.1%
+      Adjusted Gross Debt                       18,383               14,524        26.6%            17,874            2.8%
+      (-) Cash and cash equivalents             5,816                4,309         35.0%            4,145            40.3%
+
+
+  Net Debt                                      12,567               10,215        23.0%            13,729           -8.5%
+
+
+  Adjusted EBITDA LTM                           4,709                4,786         -1.6%            5,111            -7.9%
+
+
+  Net Debt/Adjusted EBITDA (x)                  2.7 x                2.1 x         25.0%            2.7 x            -0.6%
+  Average cost of the debt (% p.a.)             15.2%                12.0%        3.2 p.p           14.1%            1.1 p.p.
+  weighted YTD average
+  Average debt term (years)                      4.1                  4.5          -0.4              4.2              -0.2
+
+
+ In 1Q23, the Company's gross debt amounted to R$ 18.4 billion, about 26.6% higher than in 1Q22 and +2.7%
+ compared to 4Q22. We reduced net debt by about 8.5% compared to the previous quarter, mainly due to the
+ significant increase in our availability, given the healthy inflow of working capital, caused by lower prices of oil
+ products.
+
+ The average debt cost was 15.2%, an increase of 1.1 p.p. compared to 4Q22, with an average maturity of 4.1
+ years and leverage of 2.7x (Net Debt/Adjusted Ebitda), compared to 2.1x in 1Q22 and 2.7x in 4Q22.
+
+
+
+
+                                                                 9
+
+
+                                                                Pública
+                                                                Public
+                                                         Debt Amortization Profile
+     4.500                                                                       4.152
+     4.000
+     3.500
+                                                                      2.861
+     3.000                                                                                             2.561
+                                                           2.475                         2.376
+     2.500
+     2.000         1.785 ¹
+     1.500
+                                              829
+     1.000
+        500                                          -
+          -
+                   2023                       2024         2025        2026      2027    2028         2029
+                                                                                                     onwards
+   1. Includes drawn risk of R$588 million.
+
+
+
+
+Joint Ventures
+We are quickly advancing in our agenda to transform Vibra into a multi-energy platform ready to meet the demands
+of our customers as they themselves embark on their energy transition journeys. In doing this, we add our efforts
+to those of other leading players in convenience, electricity, biofuels and biogas. We are setting in motion our
+ability to drive these new partnerships via our unique access to over 18,000 corporate customers and our network
+of over 8,000 service stations, along with our brands, our reputation, and our financial robustness to support this
+growth.
+We now present the results of our main Joint Ventures: Vem, Comerc, Evolua and Zeg biogás. As we still do not
+have control of any of these companies, their results are determined by the equity method. In order to enable
+proper monitoring of our fuel distribution business, we adjust all equity method results in our EBITDA, eliminating
+their effects.
+
+
+VEM - Convenience Stores
+
+During the first quarter of 2023, VEM built on its Network Expansion process that began in 2022 by diversifying
+store formats and operating models. By March, it had a total of 1,239 BR Mania stores, representing approximately
+15% of the Petrobras gas station network.
+
+We also continued an intense effort of modernization and migration to the new image of BR Mania stores, rolling
+out the new look at 24 stores in Q1, with modernized stores experiencing a 22% growth in revenue in relation to
+the pre-makeover period. The quarter accordingly closed with progress in results:
+
+    •     We exceeded total revenue of 2022 in this 1st quarter by 21%, hitting R$ 399MM.
+    •     Number of transactions (average per store): 5,641/month (-7% vs. p.a.)
+    •     Average ticket: R$ 19.91 (+8% vs. p.a.)
+
+As we announced, we terminated our partnership with our original partner in the JV in accordance with the existing
+contract. We are currently focused on cementing VEM's operations, with focused and specialized management
+in the segment, to bring convenience and ease to franchisees.
+
+
+
+
+                                                                    10
+
+
+                                                                    Pública
+                                                                    Public
+COMERC
+              In millions of Reais @stake (48.7%)      1Q23           4Q22           3Q22    2Q22
+
+              Net Revenue                               492           514            592      475
+              Current gross income                       56           65              55       48
+              EBITDA proforma @stake                     48           64              41       36
+
+
+
+                             In operation      Under implementation               In
+                                                                                              Total
+                                 (May/23)            by 2024                 development
+
+              Solar CG          518 MWp             1,047 MWp                1,659 MWp      3,224 MWp
+              Wind CG           226 MW               54 MW                       -           280 MW
+              Solar DG          170 MWp             150 MWp                   130 MWp       450 MWp
+              Total             914 MW              1.251 GW                 1.789 GWp      3.954 GW
+
+
+
+Comerc continues to consistently expand its vast portfolio of renewable generation projects, which should
+culminate in the implementation of at least 1,845 MWp in (Distributed and Centralized) solar energy, and 280 MW
+@stake in wind energy by 2024.
+In Centralized Wind Generation projects, Comerc achieved 191MW @stake in March 2023, following the partial
+start-up of the Babilônia and Rio dos Ventos Expansão (RDVF2) projects, boosting the Company's portfolio by
+64 MW @stake compared to 4Q22.
+Following the start-up of operations of the Castilho (270MWp @stake) and Coromandel (23MWp @stake) plants,
+we had 518 MWp of installed capacity @stake in March 2023. The Helio Valgas plant, the largest project in the
+portfolio, will add 662 MWp @stake, with construction progressing and full operation expected for 3Q23.
+Additionally, the Paracatu (267 MWp @stake) and Várzea (118 MWp @stake) plants are expected to start
+operating in 1Q24.
+There were also advances on the Distributed Generation front, which already has 167 MWp of installed capacity
+@stake in March 2023. In addition to implementing and operating the plants, this vertical is also tasked with
+managing its Sou Vagalume digital platform that provides distributed solar energy to small and medium-sized
+consumers and currently has more than 22,000 clients. In January 2023, the Company made an investment in
+iGreen, a company focused on attracting customers to distributed generation (DG) ventures, solar panel
+installation and migration to the free market. This partnership has yielded results in the first few months of the
+year, resulting in growth of approximately 16,000 customers, reaching a current total of DG 50,000 customers.
+The Trading company traded a volume of 2.9 GWm and R$ 919.1 million of MtM of energy futures contracts at
+present value in 1Q23.
+R$ 35,8 MM was invested in 3 energy efficiency projects in the quarter, in the segments of refrigeration,
+substation, among others. Comerc is the market leader in energy management for free consumers with 4,400
+consumption units under management in 1Q23, growth of 17% vs 1Q22.
+Comerc achieved installed capacity @stake of 914 MW (May/23) with: 518 MWp for centralized solar generation,
+226 MW for centralized wind generation and 170 MW for distributed solar generation.
+Comerc has a single position, combining operations in generation, trading, technology and services, essentially
+consisting of four business verticals: Centralized Generation, Distributed Generation, Trading and Energy
+Solutions.
+
+Centralized Generation
+The Centralized Generation Vertical is composed of solar and wind power plants, currently totaling 744 MW of
+installed capacity (@stake). Additionally, the company has projects under implementation that will increase the
+total installed capacity to 1.8 GW in 2024.
+
+                                                        11
+
+
+                                                        Pública
+                                                        Public
+Works on the Hélio Valgas power plant, the largest under implementation by the Company (662 MWp @stake),
+are progressing as planned, and the substation and transmission line are 100% completed. The start of
+operations is therefore scheduled for 3Q23. We also began building the Paracatu (267 MWp @stake) and Várzea
+(118 MWp @stake), as scheduled.
+Regarding wind farms, the Company has a partnership with Casa dos Ventos and currently has an installed
+capacity (@stake) of 226MW, with 101 MW in the Rio dos Ventos Phase 1 (RDVF1) project, 72 MW in the
+Babilônia project (100% of the project in operation) and 53 MW in the Rio dos Ventos Phase 2 (RDVF2) park.
+
+Distributed Generation
+The Distributed Generation Vertical at the end of 1Q23 was composed of 42 operational solar power plants, of
+which 41 are located in Minas Gerais and 1 in Pernambuco, totaling 167 MWp @stake of installed capacity. These
+plants generate energy to meet the demand of around 50,000 consumers in JVs or cooperatives.
+In recent months, the Company has completed the construction of new DG plants and currently has 43 operational
+plants as of May 05, 2023 (170 MWp @stake), in addition to 60 new plants under construction. The plants under
+implementation will bring an increase of 150 MWp @stake of installed capacity, with expected start-up throughout
+2023. We emphasize that the return of ICMS on TUSD since February 10 th, 2023, raises the DG average
+compensable rate.
+
+Trading
+Comerc was a pioneer in the Free Market, and is now a leading trader in the country with 2.9 GWm in 1Q23. The
+trading vertical showed 49.6% growth in traded volumes in the quarter compared to the same period last year.
+The trading Vertical has been consistently recovering its margins, registering R$ 7.2/MWh in 1Q23.
+
+Energy Solutions
+The leading light in this vertical is energy management for Free Market consumers, in which we are a pioneer and
+leader in this market with 4,400 consumer units under management in 1Q23, growth of 17% on 1Q22. The total
+load of our client base represents a capacity of roughly 6% of Brazil’s total energy load. Comerc advises its clients
+on designing the energy acquisition strategy based on its requirements, as well as representing clients and
+performing the obligations to the Electric Power Trading Chamber (“CCEE”).
+The Solutions vertical also encompasses energy efficiency and battery solutions. A meaningful achievement in
+energy efficiency in 1Q23 was our 57 active projects, 15 of which are being implemented, with 13 in efficiency
+and 2 PPPs.
+
+
+EVOLUA
+
+                          In millions of Reais (@stake)*    1Q23     4Q22        3Q22
+
+                          Net Revenue                       1,052    1,046        459
+                          Adjusted gross income              37       12           (3)
+                          Adjusted EBITDA @stake             16       4            (5)
+
+
+
+Evolua, a Joint Venture with Copersucar, started its activities in the second half of 2022. In this period the
+partnering firms also played an important role in product loading strategies. In addition, a large part of the volume
+is still being acquired by the partners (Vibra and Copersucar), with Evolua obtaining certificates and operating
+authorizations from each state.
+
+
+We were expecting to acquire products for loading of 200,000 m³, but due to market uncertainties and loading
+carried out by the investors, Evolua was only able to form around 30,000 m³ of loading until Dec/22, with an
+expected increase in export volumes already in 2022.
+
+
+                                                           12
+
+
+                                                           Pública
+                                                           Public
+The company’s governance has been structured by defining Management, Boards and Committees and the JV
+is expected to begin operating fully in the next crop season (April/23 to March/24), whereupon it will start acquiring
+the entire volume demanded by Vibra, shipping out the output of Cooperatives and other plants where it finds
+arbitrage opportunities. We accordingly understand that the total trading volumes expected for the joint venture
+will make it the largest ethanol trader in Brazil and one of the largest in the world, trading some 9 million cubic
+meters of ethanol yearly.
+
+
+ZEG BIOGÁS
+The Zeg Biogás JV owns technology to implement projects producing biomethane from vinasse, a byproduct of
+the ethanol production process at sugarcane mills and has been building its administrative structure. The
+company’s organizational structure has been approved with the appointment of the CEO and CFO and its
+ownership structuring will be completed over 2023.
+The binding projects are Aterro Jambeiro, with a capacity of 30,000 m3/day forecast to start operations in June/23,
+and Usina Aroeira, with a capacity of 15 m3/day and the potential to double it. There has already been a capital
+call of R$ 28.7 million for Aroeira, with 70% of that amount already paid-in.
+Zeg has the potential to produce over 2 million m3 of biomethane a day within 5 years. By using highly efficient
+technology, we could offer our clients an alternative to proceed with the decarbonization of their production
+operations and align around ESG practices.
+
+
+EZVOLT
+EZvolt is a startup within the EV charging ecosystem, and is a market leader in providing charging solutions for
+corporate fleets. The company is continuing with its expansion plan, and has now achieved more than 630
+contracted recharging stations in 13 Brazilian states, and more than 16,000 monthly recharges.
+EZVolt provides EV charging services through its own network of charging stations. Its business model is based
+on charging the end customer per use, without set-up fees. It also offers hardware rental services, which include
+installation, operation, management and maintenance of the network, aimed at corporate fleets.
+
+
+
+
+                                                         13
+
+
+                                                         Pública
+                                                         Public
+Capital Market
+
+Vibra’s average financial volume traded at B3 – Brasil, Bolsa & Balcão from 02/Jan/23 to 11/May/23 was R$ 159.2
+million/day. The Company's shares closed trading on 11-May-23 at R$ 14.51, falling -1.29% over this period. The
+Ibovespa index shed 1.77% during this period.
+
+                      VBBR3 Share
+ Number of shares (thousand)                  1,165
+ Number of free float shares (thousand)       1,115
+ Price at 11-May-23                           14.51
+ Market value at 05/11/2023 (R$ million)     16,904
+
+           Period 02/Jan/23 to 11/May/23
+ Average volume shares/day (thousand)        11,034
+ Average financial volume/day (R$ million)    159.2
+ Average price (R$/share)                     14.61
+
+
+
+
+Interest on Equity and Dividends
+In 1Q23, we paid the second installment of Interest on Equity (JCP) for FY 2022, in the amount of approximately
+R$ 408 million (R$ 0.39 per share), thus completing the total payment of R$ 823 million, 53.5% of adjusted net
+income, surpassing our minimum commitment of 40% defined in our distribution policy.
+
+
+
+
+                                                      14
+
+
+                                                      Pública
+                                                      Public
+Operating Expenses
+In accordance with the goals outlined in our sourcing initiative, we have constantly sought to increase the
+competitiveness of the products we acquire through new trading strategies, leveraging arbitrage opportunities and
+pursuing the best supply sources for the various products we sell. This pursuit has led to fuel imports becoming
+a structural and relevant part of our supply strategies.
+Coupled with intensifying product import operations, this strategy has heightened the importance of hedges for
+international cargo, to mitigate risks posed by future price changes, enabling us to secure certain arbitrage
+opportunities. In accordance with the Company's risk management policy, commodity derivative transactions are
+secured by commercial and supply activities.
+However, due to severe price volatility in this period, the huge importance of imports in the Company's operations
+combined with the sharp rises in international commodity prices, due to the mismatch between supply and
+demand. This combined effect meant hedge transactions acquired greater importance in the Company’s results.
+Accounting standards state that a derivative financial instrument should be measured at fair value with changes
+recognized in profit or loss. These operations essentially follow a business model aiming to protect operating
+margins with no speculative intent, thus constituting an economic hedge used to reduce risks posed by the
+volatility in commodities prices (economic protection from exposure), without taking into account any impact
+caused by the accounting mismatch in the financial statements.
+Recording the fair value of derivative financial instruments at the end of each reporting period does not
+differentiate settled operations from outstanding operations. We therefore believe it is appropriate to adjust Ebitda,
+eliminating the effects of commodities hedges still in progress, as disclosed in the note ‘Our financial and
+operational information explained’ in this release, where we demonstrate the Ebitda reconciliation. It is therefore
+our opinion that this makes our hedge results more compatible with the corresponding physical operations.
+The table below presents the reconciliation of the impacts on adjusted operating expenses for both consolidated
+and operating segments:
+             Vibra Consolidated (In millions of Reais)                1Q23         1Q22         4Q22
+             Adjusted operating expenses                                (848)       (1,248)       (227)
+             Commodity hedges settled                                    (39)         489          482
+             CBIOs                                                       269          212          206
+             Tax recoveries                                                -           -          (684)
+             Sale of properties                                            -           -          (325)
+             Operating Expenses without Hedges, CBIOs and
+                                                                        (618)        (547)        (548)
+             Other
+
+
+            Retail (In millions of Reais)                              1Q23         1Q22         4Q22
+            Adjusted operating expenses                                (424)        (620)        (413)
+            Commodity hedges settled                                    (7)          255          239
+            CBIOs                                                       200          149          152
+            Sale of properties                                           -            -          (253)
+            Operating Expenses without Hedges, CBIOs and
+                                                                       (231)        (216)        (275)
+            Other
+
+
+            B2B (In millions of Reais)                                 1Q23         1Q22         4Q22
+            Adjusted operating expenses                                (339)        (561)        (649)
+            Commodity hedges settled                                    (32)         234          243
+            CBIOs                                                        69           57           60
+            Operating Expenses without Hedges, CBIOs and
+                                                                       (302)        (270)        (346)
+            Other
+
+                                                         15
+
+
+                                                         Pública
+                                                         Public
+Volume of Sales (thousand m3)
+Vibra Consolidated
+ Products            1Q23       1Q22      1Q23 1Q22   4Q22     1Q23 X 4Q22
+                     4,186      4,158       0.7%      4,367       -4.1%
+ Diesel
+                     2,842      2,453       15.8%     3,095       -8.2%
+ Gasoline
+                     639        643         -0.6%      745       -14.3%
+ Ethanol
+ Fuel Oil            408        390         4.5%       411        -0.8%
+
+ Coke                 93        158        -41.0%      128        -27.3
+
+ Fuel Aviation       958        977         -1.9%     1,118      -14.3%
+
+ Lubricants           66         67         -0.9%      63         4.2%
+
+ Other               132        144         -8.1%      122        8.3%
+
+ Total               9,323      8,988       3.7%      10,050      -7.2%
+
+
+
+Retail
+ Products            1Q23       1Q22      1Q23 1Q22   4Q22     1Q23 X 4Q22
+                     2,330      2,310       0.9%      2,469       -5.6%
+ Diesel
+                     2,820      2,433       15.9%     3,077       -8.4%
+ Gasoline
+                     634        639         -0.9%      741       -14.5%
+ Ethanol
+                      48         63        -24.3%      42        13.3%
+ Other
+                     5,831      5,446       7.1%      6,329       -7.9%
+ Total
+
+
+B2B
+ Products            1Q23       1Q22      1Q23 1Q22   4Q22     1Q23 X 4Q22
+                     1,856      1,848       0.4%      1,898       -2.2%
+ Diesel
+                     958        977         -1.9%     1,118      -14.3%
+ QAV / GAV
+                     408        390         4.5%       411        -0.8%
+ Fuel Oil
+                      93        158        -41.0%      128       -27.3%
+ Pet Coke
+                     177        170         4.1%       166        7.0%
+ Other
+                     3,492      3,543       -1.4%     3,721       -6.2%
+ Total
+
+
+
+
+                                16
+
+
+                                Pública
+                                Public
+ Cash Flow Reconciliation
+The first quarter of 2023 showed a strong cash generation, mainly due to the reduction in diesel prices and volume
+stored in the period, generating an effect of releasing working capital of approximately R$ 1.1 billion, when we exclude
+the contracting of a drawee risk of R$ 588 million. The Company generated more than BRL 2.1 billion in its operating
+cash flow, presenting free cash flow to shareholders of approximately BRL 1.5 billion as of March 31 th, 2023.
+(Excluding the drawee risk effect for both flows).
+
+
+
+  In millions of Reais                                                                               1Q23                    1Q22
+  EBITDA                                                                                               565                    1,130
+     IR/CS paid                                                                                          -                    (26)
+     Noncash effects on EBITDA                                                                         533                     702
+     Working capital                                                                                  1,624                  (1,592)
+  Cash Flows from Operating Activities                                                                2,722                    214
+    CAPEX                                                                                             (117)                   (115)
+    Other                                                                                              108                    (10)
+  Cash Flows from Investment Activities                                                                 (9)                   (125)
+  FREE CASH FLOW                                                                                      2,713                    89
+    Financing/leases                                                                                  (571)                    629
+  Cash Flows from Financing Activities                                                                (571)                    629
+  FREE CASH FOR SHAREHOLDERS                                                                          2,142                    718
+  Dividends/interest on equity paid to shareholders                                                   (401)                     -
+  Net cash produced by (used in) the period                                                           1,741                    718
+  Exchange variance effect on Cash and cash equivalents                                                (70)                   (34)
+  Opening balance                                                                                     4,145                   3,625
+  Closing balance                                                                                     5,816                   4,309
+
+
+
+Notes:
+
+ 1. The cash funds invested in bonuses advanced to customers: -R$ 141 million in 1Q23 (-R$ 92 million in 1Q22) and -R$ 249 million in 4Q22
+ are presented in working capital variance.
+
+ 2. The cash funds invested in performance bonuses: -R$ 105 million in 1Q23 (-R$ 92 million in 1Q22) and -R$ 160 million in 4Q22; premiums
+ and discounts on sales of -R$ 141 million in 1Q23 (-R$ 96 million in 1Q22) and -R$ 174 million in 4Q22 are deducted from EBITDA.
+
+ 3. Capex investments consist of disbursements to form property, plant and equipment and intangible assets and do not include bonuses
+ advanced to clients.
+
+ 4. “Noncash effects on Ebitda” include: estimated credit losses, losses and provisions for judicial and administrative proceedings, pension
+ and health plans, redundancy plans, proceeds from the disposal of assets, amortization of insurance, rental and other, net monetary/exchange
+ interest and variance (deducted from net financing) and other adjustments, as presented in the Statement of Cash Flows, an integral part of
+ the annual Financial Statements.
+
+ 5. Working Capital mainly includes: change in 1Q23 accounts receivable: +R$ 952 million and 1Q22: -R$ 9 million and 4Q22:- R$ 1,258
+ million; bonuses advanced to clients (1Q23: -R$ 141 million and 1Q22: -R$ 92 million and 4Q22: -R$ 249 million), pension and health plans:
+ (1Q23: -R$ 74 million and 1Q22: -R$ 129 million and 4Q22: -R$ 72 million), change in payables: (1Q23: -R$ 320 million and 1Q22: +R$ 290
+ million and 4Q22: +R$ 165 million), change in taxes and contributions: (1Q23: +R$ 79 million and 1Q22: +R$ 99 million and 4Q22: +R$ 208
+ million), change in inventories: (1Q23: +R$ 1,180 million and 1Q22: -R$ 501 million and 4Q22: -R$ 1,036 million), acquisition of
+ decarbonization credits (CBIOS): (1Q23: -R$ 258 million and 1Q22: -R$ 154 million and 4Q22: -R$ 85 million), advances to suppliers: (1Q23:
+ +R$ 96 million and 1Q22: -R$ 242 million and 4Q22: +R$ 128 million).
+
+
+
+
+                                                                     17
+
+
+                                                                    Pública
+                                                                    Public
+ Considerations about the Financial and Operational information
+
+The Company's adjusted Ebitda is a measure used by Management and consists of the Company’s net income plus
+net finance income/loss, income and social contribution taxes, depreciation and amortization expenses, the
+amortization of bonuses advanced to clients (bonuses advanced to clients are presented in current assets and
+noncurrent assets), equity income in new ventures, losses and provisions in litigation, severance plans, tax amnesty
+expenses, commodities hedges in progress and taxes on financial revenue.
+The Adjusted Ebitda margin is calculated by dividing Adjusted Ebitda by the volume of products sold. The Company
+uses the adjusted Ebitda margin as it believes it properly presents its business earnings.
+
+
+       Reconciliation of EBITDA – Consolidated
+
+       R$ millions                                                                   1Q23     1Q22     4Q22
+       EBITDA breakdown
+
+       Net Income                                                                      81       325     566
+
+       Net finance income/loss                                                         280     449      404
+
+       Income tax and social contribution                                              66      217       57
+
+       Depreciation and amortization                                                  138      139      137
+
+       EBITDA                                                                        565      1,130    1,164
+       Estimated allowances for doubtful accounts - Electric Sector (islanded and
+                                                                                        -        -       (2)
+       interconnected power systems)
+       Losses and provisions in judicial and administrative proceedings                28      92        37
+
+       Amortization of early bonuses awarded to customers                             175      122      166
+
+       Incorporation of Vem Conveniência - JV with Lojas Americanas                     -      (447)      -
+       Contribution from Vibra Comercializadora de Energia to Comerc Participações
+                                                                                        -      (69)       -
+       S.A
+       Tax amnesty program                                                              -       10       3
+
+       Commodity hedges in progress                                                   (92)     258       79
+
+       Equity earnings                                                                 2       (17)      51
+
+       Tax expenses on finance income/loss                                             10       11       9
+
+       ADJUSTED EBITDA                                                               688      1,090    1,507
+
+       Sales volume (millions of m³)                                                  9,323    8,988   10,050
+                                                      3
+       ADJUSTED EBITDA MARGIN (R$/m )                                                 74      121      150
+
+
+
+
+                                                                   18
+
+
+                                                                   Pública
+                                                                   Public
+Statement of Financial Position
+
+ ASSETS – In millions of Reais
+                                                                              Consolidated
+
+         Assets                                                    03/31/2023           12/31/2022
+
+         Current
+
+           Cash and cash equivalents                                  5,816                   4,145
+           Net accounts receivable                                    6,142                   6,931
+
+           Inventories                                                5,571                   6,753
+
+           Advances to suppliers                                       87                      183
+           Income tax and social contribution                          32                      11
+
+           Taxes and contributions recoverable                        2,619                   2,690
+
+           Advanced bonuses awarded to clients                         568                     575
+
+           Prepaid expenses                                            111                     98
+
+           Derivative financial instruments                            68                      66
+
+           Assets held for sale                                        408                     408
+           Other current assets                                        121                     384
+
+                                                                     21,543                  22,244
+
+
+         Noncurrent
+
+         Long-term assets
+
+           Net accounts receivable                                     488                     574
+           Judicial deposits                                          1,221                   1,196
+
+           Taxes and contributions recoverable                         552                     588
+
+           Deferred income tax and social contribution                1,883                   1,920
+           Advanced bonuses awarded to clients                        1,487                   1,516
+
+           Prepaid expenses                                            64                      66
+           Derivative financial instruments                            127                     170
+
+           Other noncurrent assets                                     13                      14
+
+                                                                      5,835                   6,044
+
+
+
+           Investment                                                 4,981                   4,984
+           Property, plant and equipment                              6,912                   6,944
+
+           Intangible assets                                           958                     894
+
+                                                                     18,686                  18,866
+
+         Total Assets                                               40,229                   41,110
+
+
+
+
+                                                         19
+
+
+                                                         Pública
+                                                         Public
+Statement of Financial Position
+
+LIABILITY AND EQUITY - In millions of Reais
+                                                                                     Consolidated
+
+        Liabilities                                                       03/31/2023            12/31/2022
+
+
+
+        Current
+
+          Trade payables                                                     4,196                  5,134
+
+          Financing of product supply                                         588                      -
+
+          Loans and Borrowings                                               1,270                  1,674
+
+          Leases                                                              124                    128
+
+          Customer advances                                                   479                    546
+
+          Income tax and social contribution                                   4                      55
+          Taxes and contributions payable                                     238                    176
+          Dividends and interest on capital                                    -                     401
+
+          Payroll, vacations, charges, bonuses and profit sharing             260                    220
+          Pension and health plan                                             141                     153
+
+          Derivative financial instruments                                     70                     164
+          Provision for Decarbonization Credits                               658                     596
+
+          Creditors under the acquisition of equity interests                  63                     63
+
+          Other accounts and expenses payable                                 288                     314
+
+                                                                             8,379                  9,624
+
+
+
+        Noncurrent
+
+          Loans and borrowings                                              15,181                  14,883
+
+          Leases                                                              693                    706
+          Pension and health plan                                             794                    828
+
+          Derivative financial instruments                                    680                    664
+
+          Provision for judicial and administrative proceedings               936                    919
+          Creditors under the acquisition of equity interests                 623                    623
+
+          Other accounts and expenses payable                                 248                    250
+
+                                                                            19,155                  18,873
+
+                                                                            27,534                  28,497
+        Equity
+
+          Paid-in capital                                                    7,579                  7,579
+
+          Treasury shares                                                   (1,152)                 (1,152)
+          Capital reserve                                                     46                      40
+
+          Profit reserves                                                    7,148                  7,067
+
+          Asset and liability valuation adjustments                          (926)                  (921)
+
+                                                                            12,695                  12,613
+
+        Total Liabilities                                                   40,229                  41,110
+
+
+
+
+                                                                20
+
+
+                                                                Pública
+                                                                Public
+Statement of Profit or Loss - In millions of reais
+
+                                                                          Consolidated
+
+                                                               03/31/2023            12/31/2022
+
+     Revenue from goods sold and services rendered               39,037                  38,831
+
+       Cost of goods sold and services provided                  (37,679)                (36,168)
+
+     Gross profit                                                 1,358                   2,213
+
+     Operating expenses
+
+       Sales                                                      (671)                   (588)
+
+       Expected credit losses                                      (1)                      8
+
+       General and administrative                                 (205)                   (106)
+
+       Tax                                                         (29)                    (35)
+
+       Other net revenue (expenses)                                (23)                   (464)
+
+                                                                  (929)                  (1,239)
+
+     Profit before financial income/loss and taxes                 429                     974
+
+       Financial
+
+         Expenses                                                 (406)                   (231)
+         Revenue                                                   234                     177
+
+         Exchange and monetary variance, net                      (108)                   (395)
+
+                                                                  (280)                   (449)
+
+     Equity earnings                                               (2)                     17
+
+     Profit before tax                                             147                     542
+
+     Income tax and social contribution
+
+       Current                                                     (29)                   (163)
+
+       Deferred                                                    (37)                    (54)
+
+                                                                   (66)                   (217)
+
+     Net income for the period                                     81                      325
+
+
+
+
+                                                     21
+
+
+                                                     Pública
+                                                     Public
+Segment Reporting - In millions of Reais
+
+Consolidated Statement of Profit or Loss by Business Sector - Current quarter (01/01/2023 to 03/31/2023)
+
+
+                                                                                                      Reconciliation against
+                                                           Total                                          the financial                 Total
+                               Retail       B2B          Segments              Corporate    Total          statements
+                                                                                                                                     Consolidated
+ Sales Revenue                  22,809     16,403          39,212                  -        39,212            (175)            (a)      39,037
+ Cost of goods sold            (21,930)   (15,746)        (37,676)                 -       (37,676)             (3)            (b)     (37,679)
+ Gross profit                    879        657             1,536                  -        1,536             (178)                      1,358
+ Expenses
+ General, administrative and
+                                (294)       (378)          (672)                  (70)      (742)              (135)           (c)      (877)
+ sales
+ Tax                             (8)        (4)             (12)                  (7)        (19)              (10)            (d)      (29)
+ Other net revenue
+                                (122)       43              (79)                  (8)        (87)               64             (e)      (23)
+ (expenses)
+ Equity earnings                 -           -               -                     -          -                 (2)            (f)       (2)
+ Net finance income/loss         -           -               -                     -          -                (280)           (g)      (280)
+ Adjusted EBITDA                455         318             773                  (85)        688
+ Net income (loss) before
+                                                                                                               (541)                    147
+ tax
+
+
+
+
+                                                                     22
+
+
+
+                                                                     Pública
+                                                                     Public
+Segment Reporting - In millions of Reais
+
+Consolidated statement of Profit or Loss by Business Sector - Previous year's quarter (01/01/2022 to 03/31/2022)
+
+
+                                                                                                      Reconciliation against
+                                                           Total                                          the financial                 Total
+                               Retail       B2B          Segments              Corporate    Total          statements
+                                                                                                                                     Consolidated
+ Sales Revenue                  23,305     15,198          38,503                  -        38,503            (122)            (a)      38,381
+ Cost of goods sold            (22,076)   (14,089)        (36,165)                 -       (36,165)             (3)            (b)     (36,168)
+ Gross profit                   1,229       1,109           2,338                  -         2,338            (125)                      2,213
+ Expenses
+ General, administrative and
+                                (257)       (306)          (563)                  (41)      (604)              (136)           (c)      (740)
+ sales
+ Tax                             (7)         (4)            (11)                  (3)        (14)              (21)            (d)      (35)
+ Other net revenue
+                                (356)       (251)          (607)                 (23)       (630)              166             (e)      (464)
+ (expenses)
+ Equity earnings                 -           -               -                     -          -                 17             (f)       17
+ Net finance income/loss         -           -                -                    -           -               (449)           (g)      (449)
+ Adjusted EBITDA                609         548            1,157                 (67)       1,090
+ Net income (loss) before
+                                                                                                               (548)                    542
+ tax
+
+
+
+
+                                                                     23
+
+
+
+                                                                     Pública
+                                                                     Public
+Segment Reporting
+Reconciliation against the Financial Statements - In millions of Reais
+
+                                                                                              1Q23         1Q22
+(a) Sales Revenue
+Appropriation of early bonuses awarded to customers: Sales revenue is adjusted for
+advanced bonuses awarded to service station resellers to which the Company distributes fuel
+and lubricant. Corresponding to the portion provided mainly in kind and realized under the
+terms established in advance with such parties, which once completed, become
+                                                                                                (175)        (122)
+nonreturnable, being absorbed as expenses by the Company. This corresponds to a target
+scheme which, once met, exempts the customers – resellers of service stations – from
+returning to the Company these amounts advanced as bonuses. They are classified in profit
+or loss in proportion to their due dates.
+(b) Cost of goods sold
+Depreciation and amortization                                                                        (3)          (3)
+(c) General, administrative and sales
+Depreciation and amortization                                                                   (135)        (136)
+(d) Tax
+Tax adjustments denote tax amnesties and tax charges on financial revenue.
+Tax amnesties: provisions for joining the amnesty programs established by State Laws.                  -      (10)
+Tax charges on revenue: the adjustments refer to expenditure on IOF, PIS and COFINS,
+                                                                                                 (10)         (11)
+levied on the Company’s revenue and which are classified as tax expenses.
+(e) Other net revenue (expense)
+Judicial losses and provisions: The adjusted amounts consist of losses incurred in final
+and unappealable lawsuits, as well as the provisions made on the basis of the opinions
+                                                                                                 (28)         (92)
+obtained from the lawyers responsible for handling the lawsuits or by the Company’s Legal
+Department.
+Commodity hedges in progress                                                                         92      (258)
+Result of the process of incorporating Vem Conveniência - JV with Lojas Americanas                     -      447
+
+Result of Vibra Comercializadora de Energia's contribution in Comerc Participações S.A                 -          69
+f) Equity earnings                                                                                   (2)          17
+g) Net finance income                                                                           (280)        (449)
+Total                                                                                           (541)        (548)
+
+
+
+
+                                                               24
+
+
+
+
+                                                             Pública
+                                                             Public
+         ri@vibraenergia.com.br
+
+
+
+
+         Correia Vasques Street, 250
+         Cidade Nova – CEP: 20211-140
+         Rio de Janeiro/RJ – Brazil
+
+
+
+
+                                          25
+
+
+
+ri.vibraenergia.com.br
+ri@vibraenergia.com.br                  Pública
+                                        Public
+

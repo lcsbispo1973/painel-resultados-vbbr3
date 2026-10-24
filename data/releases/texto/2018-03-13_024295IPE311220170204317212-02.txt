@@ -1,0 +1,940 @@
+                                                                                                        Petrobras Distribuidora S.A.
+                                                                                                                4th Quarter of 2017
+
+
+
+
+                                                     Petrobras Distribuidora S.A.
+                               EARNINGS RELEASE FOR THE 4TH QUARTER OF 2017
+Rio de Janeiro, March 13, 2018 – Petrobras Distribuidora S.A. (B3: BRDT3), leader in Brazil’s fuel distribution sector, is today reporting
+its earnings for the 4th quarter of 2017 and FY 2017. The earnings are being presented on a consolidated basis, in accordance with the
+accounting practices adopted in Brazil and International Financial Reporting Standards (IFRS). The comparisons in this release are
+made between 4Q17 vs 4Q16 and 2017 vs 2016.
+
+                                                                  Highlights
+    •      Increase in net income: R$ 531 million in 4Q17 (R$ 52 million in 4Q16) and R$ 1,151 million in 2017 (recovering
+           the net loss of R$ 315 million in 2016).
+
+    •      Increase in Adjusted EBITDA: R$ 883 million in 4Q17 (R$ 820 million in 4Q16) and R$ 3,067 million in 2017 (R$
+           2,995 million in 2016).
+
+    •      Increase in adjusted EBITDA margin: R$ 80/m3 in 4Q17 (R$74/m3 in 4Q16) and R$ 71/m3 in 2017 (R$ 65/m3 in
+           2016).
+
+    •      Reduction in Leverage (Net debt / Adjusted EBITDA): 1.3x in 2017 (3.2x in 2016).
+
+
+        In millions of reais (except where stated)   4Q17      4Q16     4Q17 vs 4Q16     3Q17     4Q17 vs 3Q17      2017       2016      2017 x 2016
+
+        Sales volume (thousands m3)                   11,028   11,082          -0,5%     11,312           -2,5%     43,175     45,794         -5,7%
+
+        Net Revenue                                   23.204   21.179           9,6%     21.839            6,3%     84.567      86.637        -2,4%
+
+        Gross Profit                                   1.806    1.808          -0,1%      1.804            0,1%      6.367       6.465        -1,5%
+
+        Gross margin (% Net revenue)                    7,8%     8,5%       - 0.7 p.p.     8,3%        - 0.5 p.p.      7,5%       7,5%        0.0 p.p
+
+        Gross margin (R$/m3)                            164      163            0,6%       159             3,1%       147         141           4,3%
+
+        Operating expenses                              826     1.726         -52,1%      1.090         -24,2%       3.793       6.026       -37,1%
+
+        EBITDA                                          744       82          807,3%       950          -21,7%       2.574        439        486,3%
+
+        Adjusted EBITDA                                 883       820           7,7%      1.056         -16,4%       3.067       2.995          2,4%
+
+        Adjusted EBITDA margin (% Net revenue)          3,8%     3,9%       - 0.1 p.p.     4,8%        - 1.0 p.p.      3,6%       3,5%       +0.1 p.p
+
+        Adjusted EBITDA margin (R$/m3)                   80       74            8,1%        93          -14,0%         71          65           9,2%
+
+        Net income (loss)                               531        52         921,2%        394          34,8%       1.151       (315)          N/A
+
+        Net debt                                       3.885    9.509         -59,1%      3.865            0,5%      3.885       9.509       -59,1%
+
+        Adjusted EBITDA                                3.067    2.995           2,4%      3.004            2,1%      3.067       2.995          2,4%
+
+        Net debt/Adjusted EBITDA (x)                     1,3      3,2            1,9x       1,3               0x       1,3         3,2          1,9x
+
+
+
+                                                                                                                           www.br.com.br/ri
+                                                                          Page 1 of 19                                        ri@br.com.br
+                                                                                                                      Petrobras Distribuidora S.A.
+                                                                                                                              4th Quarter of 2017
+
+
+
+
+4Q17 Teleconference
+Petrobras Distribuidora is hosting a teleconference on March 14, 2018 to discuss the Company’s earnings for the fourth quarter of 2017 and FY 2017. The presentation
+can be downloaded from the Company’s website one hour before the teleconferences commence.
+
+Local: 10 AM (Brasília time)
+
+Telephone number: (11) 3127-4971 or (11) 3728-5971
+
+Link: http://extranet.voitel.com.br/audiocasting/Audiocasting_Entrada.aspx?NameRoom=N24042094
+
+Code: Petrobras Distribuidora
+
+International: 11:30 AM (Brasília time)
+
+Telephone number: Brazil: +55 11-3127-4971 / +55 11-3728-5971; New York: 1-516-3001066; London: 44-20-34785282
+
+Link: http://extranet.voitel.com.br/audiocasting/Audiocasting_Entrada.aspx?NameRoom=N24042096
+
+Code: Petrobras Distribuidora
+
+In the event of queries or if you are unable to connect to the call, please contact us on the e-mail sac@voitel.com.br or the telephone +55 11 4003 1858.
+
+The transcription, presentation and audio will be made available after the teleconference/webcast on the Company’s site: www.br.com.br/ri.
+
+Our financial and operational information explained
+The consolidated financial information in this earnings report has been prepared in accordance with International Financial Reporting Standards
+(IFRS), issued by the International Accounting Standards Board (IASB)). This earnings release should be analyzed in conjunction with the Financial
+Statements. The financial and operational information set out in this earnings release is rounded off. The total amount is presented in the tables
+and graphs could therefore differ from the direct numerical aggregation of the preceding numbers.
+
+The Company's adjusted EBITDA is a measure used by Management and consists of the Company’s net income plus net finance income, income and
+social contribution taxes and depreciation and amortization expenses, the amortization of bonuses advanced to clients (advanced bonuses
+awarded to clients are reported in current and non current assets), estimated allowances for doubtful accounts of the thermal power plants, losses
+in and provisions for legal proceedings, the voluntary layoff program (PIDV), expenses on tax amnesties and tax charges on financial revenue.
+
+The Adjusted EBITDA margin is calculated by dividing Adjusted EBITDA by the physical volume of products sold. The Company uses the Adjusted
+EBITDA margin as it believes it properly presents its business earnings.
+
+
+
+               EBITDA breakdown (In millions of reais)                               4Q2017           4Q2016          3Q2017          2017           2016
+               Net Income/Loss                                                              531                52          394           1.151              (315)
+               Net finance income                                                               89             81          232               557            622
+               Income and social contribution taxes                                             15         (172)           208               414            (322)
+               Depreciation and amortization                                                109            121             116               452            454
+               EBITDA                                                                      744                 82          950           2.574              439
+               Estimated allowances for doubtful accounts - Electric Sector                   (10)             (32)            (29)          (155)          411
+               Losses and provisions in judicial and administrative proceedings                 15         152                 (77)          119        1.079
+               Amortization of early bonuses awarded to customers                           127            151             153               545            542
+               Voluntary Layoff Program (PIDV)                                                  (1)        443                 (29)          (144)          434
+               Tax Amnesty Program                                                          -                   3              77             80               6
+               Tax expenses on finance income                                                    8             21              11             48             84
+               ADJUSTED EBITDA                                                             883             820            1.056          3.067          2.995
+               Sales volumes (million of m3)                                               11,0            11,1            11,3              43,2           45,8
+               ADJUSTED EBITDA MARGIN (R$/m3)                                                 80               74              93             71             65
+
+
+
+                                                                                                                                         www.br.com.br/ri
+                                                                                  Page 2 of 19                                              ri@br.com.br
+                                                                                   Petrobras Distribuidora S.A.
+                                                                                           4th Quarter of 2017
+
+
+
+
+Executive Summary
+
+Petrobras Distribuidora presented a consolidated adjusted EBITDA of R$ 883 million in 4Q2017 (+7.7%) and R$ 3,067
+million in 2017 (+2.4%), in line with the strategic direction presented during our IPO, focusing on improving the Company’s
+profitability.
+
+The domestic fuel and lubricant distribution sector in 2017 expanded by 0.5% over the same period the previous year,
+thereby reversing two consecutive years of reduction, driven by Brazil’s economic recovery after two years of declining
+GDP.
+
+We are Brazilian market leaders by sales volume for fuel and lubricant distribution and marketing, and believe we deliver
+superior quality and excellence in products and services in each of our businesses, including:
+
+
+
+Retail Stations
+
+In 4Q17 the retail network sales dip by 0.9% over 4Q16. In the yearly comparison, the sales volume in 2017 reduced by
+4.4% over 2016. This volume decrease is due to the policy of preserving sales margins, prioritizing the company’s earnings
+through a greater selectivity of sales. Greater growth was also made by regional players in year-over-year comparison.
+However, we grew our network in 269 stations (net), with greater concentration in the last months of 2017 and, therefore,
+still in process of maturity in the numbers of sales volumes. The adjusted EBITDA in 4Q17 amounted to R$ 697 million
+(-8.0%). In the annual comparison, the 2017 adjusted EBITDA amounted to R$ 2,329 million (-8.2%).
+
+Within the Retail Stations Network, we can also highlight:
+
+BR Mania C-Stores
+
+In 2017, BR Mania achieved the milestone of 1,348 stores, with 485 BR Mania Cafés, 231 BR Mania Bakeries and 124
+offering sandwiches and salads.
+
+17 products were launched in our own brand food service line, which has 170 items. 2 services were also launched in the
+period at Expopostos in Sao Paulo: BR Mania Hamburger Bar and Pizzeria.
+
+By expanding commercial agreements with the industry, which resulted in partners investing in BR Mania, we provided
+promotional initiatives to the network of franchisees all year round, in addition to boosting profits.
+
+One of the achievements in 2017 was securing the franchising excellency seal awarded by the ABF (Brazilian Franchising
+Association) for the 4th consecutive time. BR Mania is the only convenience store in the fuel distribution segment that
+boasts the excellence seal.
+
+
+
+
+                                                                                                 www.br.com.br/ri
+                                                             Page 3 of 19                           ri@br.com.br
+                                                                                 Petrobras Distribuidora S.A.
+                                                                                         4th Quarter of 2017
+
+
+
+
+Lubrax+ lubrication centers
+
+
+The Lubrax+ network registered further expansion in 2017, to 1,648. More than 2,500 lubricators have been trained across
+the network since the franchise commenced in 2011.
+
+In 2017 we expanded our partnerships with the industry and implemented a wide range of promotions, attracting new
+consumers to the network.
+
+
+Major Customers
+
+The volume of sales in the Major Customers segment rose by 0.4% in 4Q17 compared with 4Q16. In the yearly comparison,
+the sales volume in 2017 reduced by 5.1% on 2016. The lower sales volume was due to the reduction in diesel oil sales (-
+7.7%), especially to thermal power plants. The adjusted EBITDA in 4Q17 amounted to R$ 176 million (-5.4%). In the yearly
+comparison, the 2017 adjusted EBITDA was R$ 771 million (+16.3%) due to margin gains and lower operating expenses.
+
+Aviation
+
+In 4Q17 the Aviation segment sales rose by 5.8% over 4Q16. In the yearly comparison, the sales volume in 2017 rose by
+1.2% on 2016. The higher volume sold was due to the gradual economic recovery witnessed towards the end of 2017. The
+adjusted EBITDA in 4Q17 amounted to R$ 110 million. In the annual comparison, the 2017 adjusted EBITDA amounted
+to R$ 272 million (+331.7%).
+
+Other segments (chemicals, energy and asphalt)
+
+In the chemical product segment, we process and market chemicals such as sulfur, hydrocarbon solvents and chemical
+specialties to industries that include the oil and gas, fine chemicals, agribusiness, coatings, adhesives, home care
+products and rubber industries. In energy marketing, we are Brazil’s largest distributors of green petroleum coke (GPC).
+In addition, we operate the Espírito Santo state piped gas supply concession, supplying gas to around 47,000 homes. In
+the asphalt business, BR produces and markets asphalt products, including asphalt cement, asphalt emulsion, rubberized
+asphalt and diluted asphalt through wholly owned subsidiary Stratura Asfaltos S.A.. We are Brazil’s largest asphalt
+distributor, according to data published by the Brazilian Association of Asphalt Distributors (ABEDA).
+
+In 4Q17 the Other Business segment sales dip by 4.8% on 4Q16. In the yearly comparison, the sales volume in 2017
+reduced by 15.8% on 2016, due to lower sales of chemical products and green petroleum coke, partially offset by higher
+piped natural gas sales. The adjusted EBITDA in 4Q17 amounted to R$ 119 million (+9.2%). In the yearly comparison, the
+2017 adjusted EBITDA was R$ 412 million (+2.7%) due to better average sales margins.
+
+
+
+
+                                                                                               www.br.com.br/ri
+                                                          Page 4 of 19                            ri@br.com.br
+                                                                                                  Petrobras Distribuidora S.A.
+                                                                                                          4th Quarter of 2017
+
+
+
+
+Performance by Business
+
+Consolidated1
+
+In millions of reais (except where stated)   4Q17      4Q16      4Q17 vs 4Q16      3Q17      4Q17 vs 3Q17      2017         2016       2017 x 2016
+
+Sales volume (thousands m3)                  11,028    11,082            -0,5%     11,312            -2,5%     43,175       45,794          -5,7%
+
+Net Revenue                                  23.204    21.179             9,6%     21.839             6,3%     84.567        86.637         -2,4%
+
+Gross Profit                                  1.806     1.808            -0,1%      1.804             0,1%      6.367         6.465         -1,5%
+
+Gross margin (% Net revenue)                   7,8%       8,5%        - 0.7 p.p.     8,3%         - 0.5 p.p.      7,5%         7,5%         0.0 p.p
+
+Gross margin (R$/m3)                           164        163             0,6%       159              3,1%       147           141            4,3%
+
+Operating expenses                            1.170     1.847          -36,7%         971           20,5%       4.243         6.479        -34,5%
+
+Finance Income (loss)                           (89)      (81)            9,9%       (232)         -61,6%        (557)         (622)       -10,5%
+
+Net income (loss)                               531        52          921,2%         394           34,8%       1.151          (315)          N/A
+
+Adjusted EBITDA                                 883       820             7,7%      1.056          -16,4%       3.067         2.995           2,4%
+
+Adjusted EBITDA margin (% Net revenue)         3,8%       3,9%        - 0.1 p.p.     4,8%         - 1.0 p.p.      3,6%         3,5%        +0.1 p.p
+
+Adjusted EBITDA margin (R$/m3)                  80         74             8,1%        93           -14,0%         71            65            9,2%
+
+
+
+Net revenue - Amounted to R$ 23,204 million in 4Q17 (+9.6%), primarily due to higher average product realization
+prices. Net revenue rose by 6.3% over 3Q17, also due to higher average realization prices. Net revenue was R$ 84,567
+million in 2017 (-2.4%). This decrease was due to the lower volume sold compared with 2016, partially offset by an
+increase in average product sale prices.
+
+Gross Profit - Amounted to R$ 1,806 million in 4Q17 (-0.1%) due to the reduction in sales volumes, partially offset by
+an increase in average sales margins. Gross profit increased by 0.1% over 3Q17, due to higher sales margins, partially
+offset by lower sales volume. In 2017 the gross profit was R$ 6,367 million (-1.5%). The decrease in gross profit in 2017
+was primarily due to the lower sales volumes from retail stations network and market share gained by regional players
+combined with lower volumes sold to thermal power plants, partially offsetting the increase in sales margins.
+
+
+
+
+1
+ The consolidated information presents the sum of the “Retail Stations”, “Major Customers”, “Aviation” and “Other” segments, in
+addition to the Company’s overhead not allocated to the other segments, which is grouped in “Corporate”.
+
+                                                                                                                      www.br.com.br/ri
+                                                                    Page 5 of 19                                         ri@br.com.br
+                                                                                 Petrobras Distribuidora S.A.
+                                                                                         4th Quarter of 2017
+
+
+
+
+Operating expenses – Amounted to R$ 1,170 million in 4Q17 (-36.7%) and R$4,243 million in 2017 (-34.5%) as a result
+of the provision for indemnities for the PIDV recorded in 4Q16, associated to lower losses and provisions for judicial
+and administrative proceedings and in estimated allowances for doubtful accounts receivables.
+
+
+
+Finance income – The net debt as of December 31, 2017 was R$ 3,885 million (1.3x adjusted EBITDA), compared with R$
+9,509 million as of December 31, 2016 (3.2x adjusted EBITDA) due to the capital contribution made by Petrobras in the
+amount of R$ 6,313 million and subsequent early settlement of all the balances of the Export Credit Notes (NCEs)
+secured from Banco do Brasil and Bradesco, in the amount of R$ 7,708 million, operations which took place in August
+2017. The net finance expense in 4Q17 amounted to R$ 89 million, up by +9.9% on 4Q16. The net finance expense
+reduced by R$ 143 million on 3Q17, due to the early settlement of the NCEs in August 2017. In 2017, the net finance
+expense amounted to R$ 557 million, a drop of 10.5% on 2016, primarily due to the lower net debt associated to the
+reduction of the monetary variations resulting from the updating of credits with the Eletrobras system companies
+renegotiated in 2014 transferred to Petrobras in the capital restructuring that took place in August 2017.
+
+
+
+Net income – net income in 4Q17 amounted to R$ 531 million, from R$ 52 million in 4Q16, the period in which the
+provision for 2016 PIDV compensation was made and greater losses and provisions for judicial and administrative
+proceedings were recorded. 3Q17 presented net income of R$ 394 million. In comparison with said period, the lower
+finance expenses and income tax expenses played a major factor in the 34.8% increase over 3Q17. In 2017 the net
+income was R$ 1,151 million, turning around a loss of R$ 315 million in 2016, with the improvement of margins in all
+segments and also due to lower Losses and Provisions for judicial and administrative proceedings, which diminished by
+R$ 960 million, lower estimated losses on doubtful accounts (PECLD) of R$ 716 million reais and the provision for 2016
+PIDV compensation recorded in 4Q16.
+
+
+
+Adjusted EBITDA – Amounted to R$ 883 million in 4Q17 (+7.7%) primarily due to lower operating expenses, which offset
+the decrease in gross profit in the period. In 2017, the Adjusted EBITDA amounted to R$ 3,067 million (+2.4%), due to
+the increase in sales margins and lower operating expenses, especially the decrease in personnel expenses over 2016.
+Adjusted EBITDA margin at the end of 2017 was R$ 71 / m3 (+ 9.2%).
+
+
+
+
+                                                                                              www.br.com.br/ri
+                                                          Page 6 of 19                           ri@br.com.br
+                                                                                                     Petrobras Distribuidora S.A.
+                                                                                                             4th Quarter of 2017
+
+
+
+
+Retail Stations
+
+In millions of reais (except where stated)        4Q17      4Q16     4Q17 vs 4Q16      3Q17    4Q17 vs 3Q17      2017      2016     2017 x 2016
+
+Volume of sales (thousand m3)                      5,846     5,898           -0,9%     5,883           -0,6%     22,894    23,959         -4,4%
+
+Net Revenue                                       14.091    13.031            8,1% 12.995               8,4%     50.999    52.634         -3,1%
+
+Gross Profit                                       1.060     1.124           -5,7%     1.100           -3,6%      3.772     3.936         -4,2%
+
+Gross margin (% Net revenue)                         7,5%     8,6%        - 1.1 p.p.    8,5%        - 1.0 p.p.      7,4%     7,5%      - 0.1 p.p.
+
+Gross margin (R$/m3)                                 181      191            -5,2%      187            -3,2%       165       164           0,6%
+
+Operating expenses                                   363      366            -0,8%      376            -3,5%      1.443     1.398          3,2%
+
+Adjusted EBITDA                                      697      758            -8,0%      724            -3,7%      2.329     2.538         -8,2%
+
+Adjusted EBITDA margin (% Net revenue)               4,9%     5,8%        - 0.9 p.p.    5,6%        - 0.7 p.p.      4,6%     4,8%      - 0.2 p.p.
+
+Adjusted EBITDA margin (R$/m3)                       119      129            -7,8%      123            -3,3%        102      106          -3,8%
+
+Total number of service stations                   8.277     8.176            1,2%     8.212            0,8%      8.277     8.176          1,2%
+
+Number of active stations                          7.617     7.348            3,7%     7.500            1,6%      7.617     7.348          3,7%
+
+
+
+
+Operating performance - In 4Q17 the retail stations network sales dip by 0.9% over 4Q16. In the yearly comparison,
+the sales volume in 2017 reduced by 4.4% on 2016. This volume decrease is due to lower diesel sales, with a 4.6%
+reduction and otto cycle, with a 1.9% reduction. Greater growth was also made by regional players. The Company
+expanded its network of active stations by 269 stores (net), investing R$ 905 million in branding and network
+maintenance (2016: R$829 million), with R$ 575 million of bonuses advanced to clients (2016: R$501 million), R$ 248
+million of performance bonuses (2016: R$244 million) and R$ 82 in cash (dealer) financing (2016: R$84 million).
+
+Net revenue2 - Amounted to R$ 14,091 million in 4Q17 (+8.1%), due to higher average product realization prices. Net
+revenue rose by 8.4% over 3Q17, also due to higher average product realization prices. Our net revenue was R$ 50,999
+million in 2017 (-3.1%), due to the lower sales volume compared with 2016, partly offset by higher average realization
+prices.
+
+Gross profit3 - Amounted to R$ 1,060 million in 4Q17 (-5.7%) due to the 5.2% reduction in average sales margins.
+Gross profit reduced by 3.6% on 3Q17, due to the 3.2% reduction in average sales margins. Our gross profit was R$
+
+
+
+
+2
+    The amortization of bonuses advanced to clients have not been deducted.
+3
+    Bonuses advanced to customers and depreciation of the lubricant plant’s assets have not been deducted.
+
+
+
+                                                                                                                    www.br.com.br/ri
+                                                                        Page 7 of 19                                   ri@br.com.br
+                                                                                                   Petrobras Distribuidora S.A.
+                                                                                                           4th Quarter of 2017
+
+
+
+
+3,772 million in 2017 (-4.2%), due to the 4.4% decrease in sales volumes compared with 2016, partially offset by the
+increase in average sales margins.
+
+Operating expenses4 – Amounted to R$ 363 million in 4Q17 (-0.8%) accounting for 2.6% of net revenue in the period
+(-0.2 p.p). Operating expenses diminished by 3.5% on 3Q17. Operating expenses amounted to R$ 1,443 million in
+2017 (+3.2%), mainly due to higher advertising expenses.
+
+Adjusted EBITDA – Amounted to R$ 697 million in 4Q17 (-8.0%), primarily due to the downturn in gross profit. The
+EBITDA margin was R$ 119/m3 (-7.8%). The Adjusted EBITDA diminished by 3.7% in relation to 3Q17, in line with the
+reduction in gross profit. In 2017 the Retail Stations adjusted EBITDA was R$ 2,329 million (-8.2%) due to the 4.4%
+reduction in gross profit along, combined with the 3.2% increase in operating expenses. The EBITDA margin was R$
+102/m3 (-3.8%).
+
+
+Major Customers
+
+In millions of reais (except where stated)      4Q17     4Q16     4Q17 vs 4Q16      3Q17        4Q17 vs 3Q17      2017     2016     2017 x 2016
+
+Volume of sales (thousand m3)                   2,839    2,827             0,4%      3,149              -9,8% 11,156       11,758          -5,1%
+
+Net Revenue                                      6.019   5.511             9,2%       6.176             -2,5%     22.450   23.247          -3,4%
+
+Gross Profit                                      429      484          -11,4%         507            -15,4%       1.701    1.726          -1,4%
+
+Gross margin (% Net revenue)                      7,1%     8,8%        - 1.7 p.p.      8,2%          - 1.1 p.p.     7,6%     7,4%       + 0.2 p.p.
+
+Gross margin (R$/m3)                              151      171          -11,7%         161              -6,2%       152      147            3,4%
+
+Operating expenses                                253      298          -15,1%         216             17,1%        930     1.063        -12,5%
+
+Adjusted EBITDA                                   176      186            -5,4%        291            -39,5%        771      663           16,3%
+
+Adjusted EBITDA margin (% Net revenue)            2,9%     3,4%        - 0.5 p.p.      4,7%          - 1.8 p.p.     3,4%     2,9%       + 0.5 p.p.
+
+Adjusted EBITDA margin (R$/m3)                      62      66            -6,1%            92         -32,6%         69        56          23,2%
+
+
+
+Operating performance - In 4Q17 the Major Customers segment sales rose by 0.4% over 4Q16, driven by Brazil’s
+gradual economic recovery. Sales reduced by 9.8% on 3Q17, due to the 11.6% decrease in diesel oil sales caused by
+lower thermal power plant output in the interconnected system in the period. In the yearly comparison, the sales
+volume in 2017 reduced by 5.1% over 2016. The lower sales volume was due to the reduction in diesel oil sales
+(-7.7%), especially to thermal power plants.
+
+
+4
+ Depreciation, estimated allowances for doubtful accounts, tax amnesties and tax charges on financial revenue, losses and provisions in
+connection with judicial and administrative proceedings and provision for the voluntary layoff program have not been deducted.
+
+
+
+                                                                                                                     www.br.com.br/ri
+                                                                      Page 8 of 19                                      ri@br.com.br
+                                                                                          Petrobras Distribuidora S.A.
+                                                                                                  4th Quarter of 2017
+
+
+
+
+Net revenue - Amounted to R$ 6,019 million in 4Q17 (+9.2%), primarily due to higher average product realization
+prices. Net revenue reduced by 2.5% on 3Q17, also due to lower sales volumes, partially offset by higher average
+realization prices. Our net revenue was R$ 22,450 million in 2017 (-3.4%), due to the lower sales volume compared
+with 2016.
+
+Gross profit - Amounted to R$ 429 million in 4Q17 (-11.4%) due to the reduction in average sales margins. Gross
+profit reduced by 15.4% over 3Q17, due to the 11.6% reduction in the sales volume, especially diesel to thermal power
+plants in the interconnected system. Our gross profit was R$ 1,701 million in 2017 (-1.4%), due to the 5.1% decrease
+in sales volumes, partially offset by the 3.4% increase in average sales margins compared with 2016.
+
+Operating expenses – Amounted to R$ 253 million in 4Q17 (-15.1%) accounting for 4.2% of net revenue in the period
+(-1.2 p.p). In 2017, operating expenses amounted to R$ 930 million (-12.5%), due to lower expenses on product
+delivery freight, and general and personnel expenses.
+
+Adjusted EBITDA – Amounted to R$ 176 million in 4Q17 (-5.0%), primarily due to the downturn in gross profit. The
+EBITDA margin was R$ 62/m3 (-6.1%), in line with the decrease in gross profit and in operating expenses. In 2017 the
+adjusted EBITDA of the Major Customers segment was R$ 771 million (+16.3%) reflecting the improvement in margins
+and also due to the 12.5% reduction in operating expenses. The EBITDA margin was R$ 69/m3 (+23.2%).
+
+
+Aviation
+
+In millions of reais (except where stated)   4Q17     4Q16     4Q17 vs 4Q16 3Q17        4Q17 vs 3Q17     2017    2016 2017 x 2016
+
+Volume of sales (thousand m3)                0,986    0,932            5,8% 0,973               1,3% 3,803       3,759           1,2%
+
+Net Revenue                                   1.963   1.572           24,9%     1.691          16,1%     6.947   6.189          12,2%
+
+Gross Profit                                   218     151            44,4%      173           26,0%      723     562           28,6%
+
+Gross margin (% Net revenue)                  11,1%    9,6%        + 1.5 p.p.   10,2%       + 0.9 p.p.   10,4%    9,1%       + 1.3 p.p.
+
+Gross margin (R$/m3)                           221     162            36,4%      178           24,2%      190     150           26,7%
+
+Operating expenses                             108     167          -35,3%       112           -3,6%      451     499           -9,6%
+
+Adjusted EBITDA                                110      (16)            N/A       61           80,3%      272      63         331,7%
+
+Adjusted EBITDA margin (% Net revenue)         5,6%   -1,0%        + 6.6 p.p.    3,6%       + 2.0 p.p.    3,9%    1,0%       + 2.9 p.p.
+
+Adjusted EBITDA margin (R$/m3)                 112      (17)            N/A       63           77,8%       72      17         323,5%
+
+
+
+
+                                                                                                          www.br.com.br/ri
+                                                               Page 9 of 19                                  ri@br.com.br
+                                                                                              Petrobras Distribuidora S.A.
+                                                                                                      4th Quarter of 2017
+
+
+
+
+Operating performance - The Aviation segment recovered sales volumes in all comparison periods. The sales volume
+was 5.8% higher in 4Q17 than in 4Q16, reflecting higher sales in the commercial aviation subsegment. Sales were 1.3%
+higher than in 3Q17. In the yearly comparison, the sales volume in 2017 rose by 1.2% on 2016, reflecting the gradual
+economic recovery witnessed towards the end of 2017.
+
+Net revenue - Amounted to R$ 1,963 million in 4Q17 (+24.9%), primarily due to higher average product realization
+prices, mainly due to the effects of the variation of commodity prices on the cost of goods sold. Net revenue rose by
+16.1% over 3Q17, also due to higher average realization prices. Our net revenue was R$ 6,947 million in 2017 (+12.2%),
+due to the higher average realization prices compared with 2016, impacted by the cost of the product sold.
+
+Gross profit - Amounted to R$ 218 million in 4Q17 (+44.4%) due to the 36.4% increase in average sales margins. Gross
+profit rose by 26.0% on 3Q17, due to the 24.2% increase in average sales margins. Our gross profit was R$ 723 million
+in 2017 (+28.6%), due to the average sales margins recovery compared with 2016. Better forex risk management led to
+a better gross profit performance in 2017 compared with 2016.
+
+Operating expenses – Amounted to R$ 108 million in 4Q17 (-35.3%) accounting for 5.5% of net revenue in the period
+(-5.1 p.p). Operating expenses diminished by 3.6% on 3Q17. In 2017, operating expenses amounted to R$ 451 million
+(-9.6%), due to lower personnel expenses.
+
+Adjusted EBITDA – Amounted to R$ 110 million in 4Q17, due both to higher gross profit and lower operating expenses.
+The EBITDA margin was R$ 112/m3. The Adjusted EBITDA increased by 80.3% in relation to 3Q17, due to higher gross
+profit. In 2017 the adjusted EBITDA of the Aviation segment was R$ 272 million (+331.7%) due to increase in gross
+profit. The EBITDA margin was R$ 72/m3 (+323.5%).
+
+
+Other businesses (chemicals, energy and asphalt)
+
+In millions of reais (except where stated)   4Q17     4Q16    4Q17 vs 4Q16      3Q17        4Q17 vs 3Q17      2017    2016    2017 x 2016
+
+Volume of sales (thousand m3)                1,357    1,425          -4,8%       1,307               3,8% 5,322       6,318       -15,8%
+
+Net Revenue                                   1.269   1.216           4,4%       1.128             12,5%      4.716   5.109         -7,7%
+
+Gross Profit                                   223     204            9,3%         185             20,5%       729     799          -8,8%
+
+Gross margin (% Net revenue)                  17,6%   16,8%       + 0.8 p.p.      16,4%         + 2.1 p.p.    15,5%   15,6%      - 0.1 p.p.
+
+Gross margin (R$/m3)                           164     143           14,7%        142              15,5%       137     126           8,7%
+
+Operating expenses                             104       95           9,5%             55          89,1%       317     398        -20,4%
+
+Adjusted EBITDA                                119     109            9,2%         130              -8,5%      412     401           2,7%
+
+Adjusted EBITDA margin (% Net revenue)         9,4%    9,0%       + 0.4 p.p.      11,5%          - 1.3 p.p.    8,7%    7,8%      + 0.9 p.p.
+
+Adjusted EBITDA margin (R$/m3)                  88       76          15,8%             99         -11,1%        77      63          22,2%
+
+
+
+                                                                                                               www.br.com.br/ri
+                                                                Page 10 of 19                                     ri@br.com.br
+                                                                                           Petrobras Distribuidora S.A.
+                                                                                                   4th Quarter of 2017
+
+
+
+
+Operating performance - In 4Q17 the Other Business segment sales dip by 4.8% over 4Q16. In 4Q17, sales were 3.8%
+higher than in 3Q17. In the yearly comparison, the sales volume in 2017 reduced by 15.8% on 2016, due to lower sales
+of green petroleum coke and chemical products, partially offset by higher piped natural gas sales.
+
+Net revenue - Amounted to R$ 1,269 million in 4Q17 (+4.4%), primarily due to higher average product realization prices.
+Net revenue rose by 12.5% over 3Q17, also due to higher average realization prices (+8.4%) driven by higher sales
+volumes. Our net revenue was R$ 4,716 million in 2017 (-7.7%), due to the lower volumes sold partially offset by higher
+average realization prices compared with 2016.
+
+Gross profit - Amounted to R$ 223 million in 4Q17 (+9.3%) due to the 14.7% increase in average sales margins. Gross
+profit rose by 20.5% over 3Q17, due to the 15.5% increase in average sales margins. Our gross profit was R$ 729 million
+in 2017 (-8.8%), due to the 15.8% decrease in sales volumes, partially offset by the 8.7% increase in average sales
+margins compared with 2016.
+
+Operating expenses – Amounted to R$ 104 million in 4Q17 (+9.5%) accounting for 8.2% of net revenue in the period
+(+0.4 p.p). In 2017 operating expenses amounted to R$ 317 million (-20.4%).
+
+Adjusted EBITDA – Amounted to R$ 119 million in 4Q17 (+9.2%), primarily due to the increase in gross profit. The
+EBITDA margin was R$ 88/m3 (+15.8%). In 2017 the adjusted EBITDA of the Other Business segment was R$ 412 million
+(+2.7%) due to the margin gains associated with lower operating expenses. The EBITDA margin was R$ 77/m3 (+22.2%).
+
+
+
+Corporate
+
+Corporate does not represent an operating segment and is primarily composed by Company’s overhead not allocated to
+the other segments.
+
+The amounts classified as Corporate are presented as follows:
+
+
+
+In millions of reais (except where stated)   4Q17      4Q16      3Q17    4Q17 vs 4Q16 4Q17 vs 3Q17   2017      2016    2017 x 2016
+Operating Expenses                             (224)     (216)     (146)          3,7%       53,4%     (717)     (666)        7,7%
+Adjusted EBITDA                                (219)     (217)     (150)          0,9%       46,0%     (717)     (670)        7,0%
+
+
+
+
+Adjusted operating expenses allocated to corporate primarily consist of actuarial expenses incurred on pension plans
+and healthcare plans for inactive employees (2017: R$ 396 million; 2016: R$ 226 million).
+
+Expenses incurred on pension and healthcare plans for active participants of R$ 107 million in 2017 (R$ 156 million in
+2016) are directly allocated to other business segments.
+
+
+
+
+                                                                                                         www.br.com.br/ri
+                                                                  Page 11 of 19                             ri@br.com.br
+                                                                                                     Petrobras Distribuidora S.A.
+                                                                                                             4th Quarter of 2017
+
+
+
+
+Reconciliation of Cash Flows
+The Company's operational and investment activities allowed the generation of free cash flow, which made it possible
+to maintain the levels of remuneration to shareholders in the reporting periods, confirming the Company's healthy cash
+generation.
+
+In millions of reais                                                                 4Q2017           4Q2016              2017           2016
+
+
+EBITDA                                                                                        744             82             2.574               439
+IR/CS paid                                                                                    (35)          (127)              (96)             (313)
+Noncash effects on EBITDA                                                                     204          1.095                 853        3.377
+Working capital                                                                               (65)          (390)            (2.061)            (869)
+Cash Flows from Operating Activities                                                          848              660           1.270          2.634
+
+
+CAPEX                                                                                         (93)          (120)                (300)          (402)
+Other                                                                                         -                10                 14             23
+Cash flows from investment activities                                                         (93)          (110)                (286)          (379)
+FREE CASH FLOW                                                                              755             550                  984        2.255
+
+Financing/leases                                                                            (215)           (467)            (9.385)        (2.038)
+FIDC                                                                                          104              595           2.599              312
+Capital subscription                                                                          -                -             6.313              -
+Cash Flows from Financing Activities                                                        (111)              128               (473)      (1.726)
+FREE CASH FOR SHAREHOLDERS                                                                    644              678               511            529
+
+
+Dividends/interest on shareholders' equity paid to shareholders                             (683)           (684)                (683)          (684)
+Net cash produced by (used in) the period                                                     (39)                 (6)           (172)          (155)
+
+
+Opening balance                                                                               522              661               655            810
+Closing balance                                                                               483              655               483            655
+
+Notes:
+
+1.   Cash outflows made as bonuses advanced to clients of R$ 575 million in 2017 (R$ 501 million in 2016) are presented in working capital
+     changes.
+2.   Cash outflows made as performance bonuses of R$ 248 million in 2017 (R$ 244 million in 2016) are deducted from EBITDA.
+3.   Capex investments consist of cash outflows to form property, plant and equipment and intangible assets and does not include bonuses
+     advanced to clients.
+4.   “Noncash effects on EBITDA” include: estimated allowances for doubtful accounts, loss in and provisions for judicial and administrative
+     proceedings, pension and health plans (2017: R$ 503 million; 2016: R$ 382 million) and PIDV, results from the sale of assets, earnings on
+     material equity interests, amortization of bonuses advanced to clients, amortization of insurance, rental and other, net monetary/exchange
+     interest and variance (deducted from net financing income/expense) and other adjustments, as presented in the Statement of cash flows,
+     an integral part of the annual financial statements.
+5.   In 2017 the working capital variance was also affected by the decrease in the DPO of certain products at refineries, such as QAV, in the first
+     half of 2017.
+6.   FIDC (Credit Receivables Investment Fund): exclusive and corporate fund of Petrobras group. It is primarily allocated to the acquisition of
+     performed and/or non-performed credit receivables in operations conducted by companies comprising Petrobras group.
+
+                                                                                                                         www.br.com.br/ri
+                                                                        Page 12 of 19                                       ri@br.com.br
+                                                                                  Petrobras Distribuidora S.A.
+                                                                                          4th Quarter of 2017
+
+
+
+
+Indebtedness & leverage
+
+Consolidated gross debt was R$ 4,738 million in the period ended December 31, 2017, of which 5% was short-term debt.
+Gross debt at year-end 2017 was approximately 63.8% less than at December 31, 2016. Net debt at year-end 2017 was
+R$ 3,885 million, 59.1% less than in the previous year. Net debt was calculated considering the FIDC investment balance
+of R$ 370 million (R$ 2,776 million as of December 31, 2016), which yields the equivalent of 100% of the CDI rate.
+
+It is important to note that the decrease in debt was primarily due to the capital contribution of R$ 6.313 billion from
+Petrobras and the subsequent early settlement of the total balance of R$ 7,708 million in Export Credit Notes with
+Banco do Brasil and Bradesco. Interest paid on the above debt balances was equivalent to 114.25% and 118%,
+respectively, of the CDI rate, and following settlement average debt maturity increased from 2.4 years to 2.9 years. As
+a result, the ratio Net Debt/Adjusted EBITDA closed 2017 at 1.3x Adjusted EBITDA (3.2x Adjusted EBITDA in 2016). The
+Company's debt is completely indexed in local currency (Reais).
+
+
+
+               In millions of reais (except where stated)        2017           2016          2017 x 2016
+
+               Financing                                            4.640        12.814            -63,8%
+               Assignment of credit receivables                        26            31            -16,1%
+               Leases                                                  72            95            -24,2%
+
+               Gross Debt                                           4.738        12.940            -63,4%
+
+               (-) Cash and cash equivalents                          483            655           -26,3%
+               (-) FIDC                                               370          2.776           -86,7%
+
+               Net Debt                                             3.885          9.509           -59,1%
+
+               Adjusted EBITDA                                      3.067          2.995             2,4%
+
+               Net debt/Adjusted EBITDA (x)                             1,3            3,2          -1,9x
+
+               Average cost of the debt (% of CDI)                114,53%        112,16%        +2.37 p.p.
+
+               Average term of the debt (Years)                           2,9           3,2
+
+
+
+
+                                                                                                  www.br.com.br/ri
+                                                          Page 13 of 19                              ri@br.com.br
+                                                                                    Petrobras Distribuidora S.A.
+                                                                                            4th Quarter of 2017
+
+
+
+
+Capital Market
+
+IPO
+On December 15, 2017 BR shares were listed on the “Novo Mercado” of B3 – Brasil, Bolsa & Balcão, a special listing
+segment subject to stricter corporate governance requirements.
+
+In a secondary public offering, our parent company, Petróleo Brasileiro S.A. (Petrobras), sold 28.75% of its holdings in the
+Company, raising more than R$ 5 billion in one of the largest public offerings since 2013.
+
+The shares, initially priced at R$ 15 (fifteen Reais), have since appreciated by more than 44% to March 12, 2018.
+
+                      Description                 12/15/2017 to 3/12/2018
+
+Number of shares (thousand)                                         1.165
+Price at 3/8/2018                                                   22,20
+Market value 100% of share capital (R$ million)                    25.863
+
+Average volume/day (shares)                                      4.177.327
+Average financial volume/day (R$ thousand)                          76.746
+Average price (R$/share)                                             19,27
+
+
+
+
+Interest on shareholders’ equity and dividends
+
+At a meeting held on January 26, 2018, the Company's Board of Directors approved interest on equity of R$ 659 million
+or R$ 0,56527346761767 cents per share, to be computed towards the minimum mandatory dividend, but without
+limiting any further payment of dividends, for 2017.
+
+Payment of the above interest on equity for shares traded on B3 S.A. – Brasil, Bolsa, Balcão and other shares registered
+with Banco Bradesco S. A. will be made no later than July 31, 2018 based on shareholdings as of February 1, 2018
+(inclusive).
+
+Payments will be adjusted for inflation at the SELIC interest rate from December 31, 2017 to the date on which payment
+is made.
+
+Company Management will also forward to the resolution of the Annual General Meeting on April 25, 2018 the proposal
+to pay out additional dividends of R$ 433 million. With the combined interest on shareholders' equity and dividends
+proposed, this will amount to total compensation for shareholders of R$ 1,092 million (R$ 0.9/share), equal to
+approximately 95% on the net income determined in FY 2017.
+
+
+
+
+                                                                                                  www.br.com.br/ri
+                                                                 Page 14 of 19                       ri@br.com.br
+                                                                      Petrobras Distribuidora S.A.
+                                                                              4th Quarter of 2017
+
+
+
+
+Statement of financial position - Asset - In millions of Reais
+
+
+
+
+                                                                        Consolidated
+              Asset                                                  2017          2016
+
+              Current
+                Cash and cash equivalents                                483            655
+                Net accounts receivable                                5.528          7.679
+                Inventories                                            3.245          2.678
+                Advances to suppliers                                     74             62
+                Income and social contribution taxes                     151            219
+                Taxes and contributions recoverable                      522            372
+                Advanced bonuses awarded to clients                      514            540
+                Prepaid expenses                                          40             47
+                Other current assets                                     146             37
+                                                                      10.703         12.289
+
+
+              Non-current assets
+               Long-term
+                Net accounts receivable                                  376          6.250
+                Judicial deposits                                      1.000            950
+                Taxes and contributions recoverable                      541            366
+                Deferred income and social contribution taxes          3.162          3.425
+                Advanced bonuses awarded to clients                    1.469          1.419
+                Prepaid expenses                                         182            183
+                Other noncurrent assets                                   24             24
+                                                                       6.754         12.617
+                 Investments                                              36             45
+                 Property, plant and equipment                         5.816          5.986
+                 Intangible assets                                       453            461
+                                                                      13.059         19.109
+              Total Assets                                            23.762         31.398
+
+
+
+
+                                                                                www.br.com.br/ri
+                                                     Page 15 of 19                 ri@br.com.br
+                                                                           Petrobras Distribuidora S.A.
+                                                                                   4th Quarter of 2017
+
+
+
+
+Statement of financial position - Liability and Shareholders' equity - In millions of Reais
+
+
+
+                                                                              Consolidated
+           Liabilities                                                     2017            2016
+           Current
+             Trade payables                                                     2.682               2.650
+             Financing                                                            185                 805
+             Assignment of credit receivables                                      26                  31
+             Financial leases                                                      29                  28
+             Customer advances                                                    363                 354
+             Income and social contribution taxes                                   1                   1
+             Taxes and contributions payable                                      277                 204
+             Interest on shareholders' equity                                     273                 635
+             Payroll, vacations and related charges                               219                 246
+             Voluntary redundancy incentivization plan                              8                 445
+             Pension and health plan                                              134                 139
+             Other accounts and expenses payable                                  216                  91
+                                                                                4.413               5.629
+           Non-current
+             Financing                                                          4.455              12.009
+             Financial leases                                                      43                  67
+             Pension and health plan                                            3.932               4.172
+             Provision for judicial and administrative proceedings              2.079               2.090
+             Other accounts and expenses payable                                   14                  21
+                                                                               10.523              18.359
+                                                                               14.936              23.988
+
+           Equity
+             Paid-in capital                                                    6.352               6.352
+             Profit reserves                                                    3.897               3.045
+             Equity appraisal adjustment                                       (1.423)             (1.987)
+                                                                                8.826               7.410
+           Total Liabilities                                                   23.762              31.398
+
+
+
+
+                                                                                         www.br.com.br/ri
+                                                     Page 16 of 19                          ri@br.com.br
+                                                                     Petrobras Distribuidora S.A.
+                                                                             4th Quarter of 2017
+
+
+
+
+Statement of Income - In millions of Reais
+
+
+
+                                                                           Consolidated
+                                                                       2017                 2016
+Revenue from goods sold and services rendered                             84.567                86.637
+  Cost of goods sold and services rendered                               (78.200)              (80.172)
+Gross income                                                               6.367                 6.465
+Operating expenses
+  Sales                                                                   (2.952)                (3.845)
+  General and administrative                                                (835)                  (828)
+  Tax                                                                       (172)                  (137)
+  Other net expenses                                                        (284)                (1.669)
+                                                                          (4.243)                (6.479)
+Net income (loss) before financial income/loss and taxes                   2.124                      (14)
+  Financial
+     Expenses                                                             (1.231)                (1.893)
+     Revenue                                                                 376                    682
+     Exchange and monetary variance, net                                     298                    589
+                                                                            (557)                  (622)
+Equity earnings                                                               (2)                    (1)
+Net income (loss) before tax                                               1.565                   (637)
+ Income and social contribution taxes
+  Current                                                                   (196)                 (307)
+  Deferred charges                                                          (218)                  629
+                                                                            (414)                  322
+Net income (loss) for the year                                             1.151                  (315)
+Basic and diluted net income (loss) per common share - R$                   0,99                  (0,27)
+Share capital consists of 1,165,000,000 common shares
+
+
+
+
+                                                                                   www.br.com.br/ri
+                                                     Page 17 of 19                    ri@br.com.br
+                                                           Petrobras Distribuidora S.A.
+                                                                   4th Quarter of 2017
+
+
+
+
+Segment Reporting - In millions of Reais
+
+
+
+
+                                                                     www.br.com.br/ri
+                                           Page 18 of 19                ri@br.com.br
+                                                                        Petrobras Distribuidora S.A.
+                                                                                4th Quarter of 2017
+
+
+
+
+Segment Reporting – Reconciliation against the financial statements - In millions of Reais
+
+
+
+
+                                                                                    www.br.com.br/ri
+                                                   Page 19 of 19                       ri@br.com.br
+
