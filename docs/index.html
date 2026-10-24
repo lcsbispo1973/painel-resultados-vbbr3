@@ -94,6 +94,12 @@
   a { color: var(--c1); }
   [hidden] { display: none !important; }
   @media (max-width: 600px) { th:first-child, td:first-child { min-width: 150px; max-width: 190px; } .controls label { flex-wrap: wrap; } .controls label select { width: 100%; } h1 { font-size: 24px; } }
+  @media print {
+    nav.tabs, #ctl-tempo, .controls, .btn, .foot a { display: none !important; }
+    header.top { background: #fff !important; color: #000; border-bottom: 3px solid var(--verde); } header.top .sub, header.top .take { color: #000; } header.top .logo { display: none; }
+    .card, tr { break-inside: avoid; } .twrap { max-height: none; overflow: visible; border: 0; } body { font-size: 12px; }
+    th:first-child, td:first-child { position: static; }
+  }
   @media (prefers-reduced-motion: no-preference) { .page:not([hidden]) { animation: in .2s ease-out; } @keyframes in { from { opacity: 0 } to { opacity: 1 } } }
 </style>
 </head>

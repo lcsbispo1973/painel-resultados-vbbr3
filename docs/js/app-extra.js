@@ -12,7 +12,7 @@
         el.append(
           h('div', { class: 'card wide', style: 'margin-bottom:14px' }, h('h2', null, 'EBITDA Ajustado por segmento'),
             h('p', { class: 'note' }, 'R$ milhões. Barras: Retail, B2B e Renováveis (Comerc, a partir de 2025). Marcador: consolidado, que inclui o Corporativo. Fonte: releases de resultados; carga manual até a leitura automática ficar pronta. Medida não contábil, na definição da Companhia.'), ref.chart),
-          h('div', { class: 'sec' }, h('h2', null, 'EBITDA Ajustado por segmento, R$ milhões'), h('button', { class: 'btn', type: 'button', onclick: exporta }, 'Baixar CSV')),
+          h('div', { class: 'sec' }, h('h2', null, 'EBITDA Ajustado por segmento, R$ milhões'), h('button', { class: 'btn', type: 'button', onclick: exporta }, 'Baixar para Excel')),
           h('div', { class: 'twrap' }, ref.tb),
           h('p', { class: 'note', style: 'margin-top:10px' }, 'Renováveis não é apresentado separadamente antes de 2025. O Corporativo do 3T24 contém efeito extraordinário (recuperações tributárias), conforme o release do 4T25.'));
       },
@@ -35,7 +35,7 @@
         el.append(
           h('div', { class: 'card wide', style: 'margin-bottom:14px' }, h('h2', null, 'Proventos por exercício de referência'),
             h('p', { class: 'note' }, 'JCP e dividendos declarados, R$ milhões, por exercício a que se referem. O exercício mais recente está em andamento. Fonte: página Dividendos e JCP do site de RI; carga manual até a leitura automática ficar pronta.'), ref.chart),
-          h('div', { class: 'sec' }, h('h2', null, 'Histórico de proventos'), h('div', { class: 'controls' }, ref.q, h('button', { class: 'btn', type: 'button', onclick: function () { P.csv('vibra_proventos.csv', ['provento', 'exercicio', 'data_ex', 'valor_total_reais', 'valor_por_acao', 'data_pagamento'], P.D.div.linhas.map(function (d) { return [d.provento, d.referencia, d.data_ex, P.numCsv(d.valor_total), P.numCsv(d.valor_acao), d.data_pagamento]; })); } }, 'Baixar CSV'))),
+          h('div', { class: 'sec' }, h('h2', null, 'Histórico de proventos'), h('div', { class: 'controls' }, ref.q, h('button', { class: 'btn', type: 'button', onclick: function () { P.csv('vibra_proventos.csv', ['provento', 'exercicio', 'data_ex', 'valor_total_reais', 'valor_por_acao', 'data_pagamento'], P.D.div.linhas.map(function (d) { return [d.provento, d.referencia, d.data_ex, P.numCsv(d.valor_total), P.numCsv(d.valor_acao), d.data_pagamento]; })); } }, 'Baixar para Excel'))),
           h('div', { class: 'twrap' }, ref.tb),
           h('p', { class: 'note', style: 'margin-top:10px' }, 'Datas e valores como publicados no site de RI. Valores totais em R$ milhões; valor por ação em R$. Para o payout calculado sobre o lucro ajustado, veja a aba Formulário de Referência.'));
         ref.self = this;
@@ -97,7 +97,7 @@
         el.append(
           h('div', { class: 'controls' }, ref.chips),
           h('div', { class: 'controls' }, ref.busca, P.label('Ano', ref.ano),
-            h('button', { class: 'btn', type: 'button', onclick: function () { var l = filtrados(); P.csv('vibra_comunicados.csv', ['data_entrega', 'categoria', 'tipo', 'especie', 'assunto', 'link'], l.map(function (d) { return [d.data_entrega, d.categoria, d.tipo, d.especie, d.assunto, d.link]; })); } }, 'Baixar CSV')),
+            h('button', { class: 'btn', type: 'button', onclick: function () { var l = filtrados(); P.csv('vibra_comunicados.csv', ['data_entrega', 'categoria', 'tipo', 'especie', 'assunto', 'link'], l.map(function (d) { return [d.data_entrega, d.categoria, d.tipo, d.especie, d.assunto, d.link]; })); } }, 'Baixar para Excel')),
           ref.info, h('div', { class: 'twrap' }, ref.tb), h('div', { class: 'controls', style: 'margin-top:10px' }, ref.mais),
           h('p', { class: 'note' }, 'Fonte: Dados Abertos da CVM (documentos periódicos e eventuais — IPE), última versão de cada documento. O link abre o documento original no sistema da CVM. Atualizado diariamente.'));
       },
@@ -144,7 +144,7 @@
           h('div', { class: 'twrap', style: 'max-height:20rem' }, ref.tbCap),
           h('div', { class: 'sec' }, h('h2', null, 'Explorador de tabelas')),
           h('div', { class: 'controls' }, P.label('Formulário', ref.selAno), P.label('Tabela', ref.selTab), ref.q,
-            h('button', { class: 'btn', type: 'button', onclick: function () { exportaTab(); } }, 'Baixar CSV')),
+            h('button', { class: 'btn', type: 'button', onclick: function () { exportaTab(); } }, 'Baixar para Excel')),
           ref.msg, h('div', { class: 'twrap' }, ref.tb));
         this.docs(); this.series();
       },
@@ -239,13 +239,14 @@
     if (D.ipe && D.ipe.documentos && D.ipe.documentos.length) P.registra('ipe', 'Comunicados e fatos relevantes', paginaIpe(), false);
     if (D.freIndice && D.freSeries) P.registra('fre', 'Formulário de Referência', paginaFre(), false);
     P.registra('conf', 'Conferências', paginaConf(), false); P.ocultas = { conf: 1 };
+    var abaLink = P.leEstado(location.hash);
     P.montaAbas(); P.iniciaTempo();
     var st = D.status, ult = D.dre.periodos[D.dre.periodos.length - 1], pri = D.dre.periodos[0];
     var ger = st && st.gerado_em ? new Date(st.gerado_em).toLocaleString('pt-BR', { dateStyle: 'short', timeStyle: 'short' }) : '—';
     P.$('sub').textContent = 'Resultados, mercado e comunicados da Vibra Energia (VBBR3) · consolidado, R$ milhões · ' + pri + ' a ' + ult + ' · atualizado em ' + ger;
     var selo = P.$('selo'); if (selo) { selo.textContent = st && st.validado ? 'Dados conferidos' : 'Atenção: conferência com divergência'; selo.className = 'selo' + (st && st.validado ? '' : ' alerta'); }
-    window.addEventListener('hashchange', function () { var hh = location.hash.slice(1); if (P.ordem.indexOf(hh) >= 0 && hh !== P.S.aba) P.aba(hh); });
-    var hsh = location.hash.slice(1);
+    window.addEventListener('hashchange', function () { if (location.hash === P.linkEstado()) return; var hh = P.leEstado(location.hash); P.iniciaTempo(); if (P.ordem.indexOf(hh) >= 0) P.aba(hh); });
+    var hsh = abaLink;
     P.aba(P.ordem.indexOf(hsh) >= 0 ? hsh : 'exec');
   }).catch(function (e) { P.$('sub').textContent = 'Não foi possível carregar os dados: ' + e.message; });
 })();

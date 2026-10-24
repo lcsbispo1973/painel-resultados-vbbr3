@@ -192,7 +192,7 @@
         ref.titulo = h('h2'); ref.chart = P.chart('c-' + ds); ref.tb = h('table');
         el.append(
           h('div', { class: 'controls' }, P.label('Conta', selConta), P.label('Exibir', selModo), P.label('Nível', selNiv),
-            h('button', { class: 'btn', type: 'button', onclick: function () { exportaDemo(ds); } }, 'Baixar CSV')),
+            h('button', { class: 'btn', type: 'button', onclick: function () { exportaDemo(ds); } }, 'Baixar para Excel')),
           h('div', { class: 'card wide', style: 'margin-bottom:14px' }, ref.titulo, h('p', { class: 'note' }, NOTA_DS[ds]), ref.chart),
           h('div', { class: 'sec' }, h('h2', null, titulo)),
           h('div', { class: 'twrap' }, ref.tb));
@@ -227,7 +227,7 @@
         ref.dmplTb = h('table');
         ref.dmplEl = h('div', null,
           h('div', { class: 'controls' }, P.label('Data de referência (acumulado do ano até)', ref.dmplSel),
-            h('button', { class: 'btn', type: 'button', onclick: function () { exportaDmpl(); } }, 'Baixar CSV')),
+            h('button', { class: 'btn', type: 'button', onclick: function () { exportaDmpl(); } }, 'Baixar para Excel')),
           h('p', { class: 'note' }, 'R$ milhões. Cada coluna é um componente do patrimônio líquido; as linhas são as mutações acumuladas desde o início do exercício até a data. Fonte: DFP/ITR (DMPL consolidada).'),
           h('div', { class: 'twrap' }, ref.dmplTb));
         el.append(h('div', { class: 'controls' }, P.label('Demonstração', sel)), ref.dvaEl, ref.draEl, ref.dmplEl);
@@ -286,7 +286,7 @@
         ref.chart = P.chart('c-ind'); ref.titulo = h('h2'); ref.formula = h('p', { class: 'note' }); ref.tb = h('table'); ref.tbD = h('table');
         el.append(
           h('div', { class: 'controls' }, P.label('Grupo', P.select('sel-grupo', grupos, S.grupo, function (v) { S.grupo = v; render(); }, 'Grupo')),
-            h('button', { class: 'btn', type: 'button', onclick: exporta }, 'Baixar CSV')),
+            h('button', { class: 'btn', type: 'button', onclick: exporta }, 'Baixar para Excel')),
           h('div', { class: 'card wide', style: 'margin-bottom:14px' }, ref.titulo, ref.formula, ref.chart),
           h('h3', null, 'Decomposição do ROE (DuPont)'),
           h('p', { class: 'note' }, 'ROE consolidado = margem líquida × giro do ativo × alavancagem financeira, sempre nos últimos 12 meses (UDM). O produto dos três fatores fecha com o ROE consolidado.'),
@@ -403,7 +403,7 @@
         var padrao = function (base) { return function (s) { s.modo = 'base'; s.base = base; s.a = ultCom(base); s.b = P.M.desloca(s.a, 4); }; };
         el.append(
           h('div', { class: 'controls' }, P.label('Modo', ref.selModo), P.label('Seção', ref.selSec), P.label('Nível', ref.selNiv), ref.aplicar,
-            h('button', { class: 'btn', type: 'button', onclick: function () { var r = montaLinhas(); P.csv('vibra_comparacao_' + r.rotA + '_vs_' + r.rotB + '.csv', ['secao', 'cd_conta', 'conta', r.rotA, r.rotB, 'diferenca'], r.csv); } }, 'Baixar CSV')),
+            h('button', { class: 'btn', type: 'button', onclick: function () { var r = montaLinhas(); P.csv('vibra_comparacao_' + r.rotA + '_vs_' + r.rotB + '.csv', ['secao', 'cd_conta', 'conta', r.rotA, r.rotB, 'diferenca'], r.csv); } }, 'Baixar para Excel')),
           ref.boxBase, ref.boxLivre,
           h('div', { class: 'controls' }, h('span', { class: 'kl' }, 'Atalhos (aplicam na hora):'),
             h('div', { class: 'chips' },
@@ -582,9 +582,24 @@
     Array.prototype.forEach.call(document.querySelectorAll('nav.tabs button'), function (b) { b.setAttribute('aria-selected', String(b.dataset.tab === S.aba)); });
     Array.prototype.forEach.call(document.querySelectorAll('.chips button'), function (b) { b.classList.toggle('sel', false); });
     pg.obj.render();
+    try { history.replaceState(null, '', P.linkEstado()); } catch (e) { /* ignora */ }
   }
   P.render = render;
-  P.aba = function (id) { S.aba = id; try { history.replaceState(null, '', '#' + id); } catch (e) { /* ignora */ } render(); };
+  // estado no endereço: #aba?base=S&de=1T24&ate=2T26 — o link compartilhado abre na mesma visão
+  P.linkEstado = function () {
+    var pg = P.paginas[S.aba];
+    return '#' + S.aba + (pg && pg.usaTempo && S.de && S.ate ? '?base=' + encodeURIComponent(S.base) + '&de=' + S.de + '&ate=' + S.ate : '');
+  };
+  P.leEstado = function (hash) {
+    var h0 = String(hash || '').replace(/^#/, ''), partes = h0.split('?'), q = {};
+    (partes[1] || '').split('&').forEach(function (kv) { var x = kv.split('='); if (x[0]) q[x[0]] = decodeURIComponent(x[1] || ''); });
+    if (q.base && Dados.BASES[q.base]) S.base = q.base;
+    var re = /^[1-4]T\d{2}$/;
+    if (re.test(q.de || '')) S.de = q.de;
+    if (re.test(q.ate || '')) S.ate = q.ate;
+    return partes[0];
+  };
+  P.aba = function (id) { S.aba = id; render(); };
   P.montaAbas = function () {
     var nav = P.$('tabs'), main = P.$('pages');
     P.ordem.forEach(function (id) {
