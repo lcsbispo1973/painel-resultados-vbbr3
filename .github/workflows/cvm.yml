@@ -85,6 +85,8 @@ jobs:
           python pipeline/ebitda_df.py
           python pipeline/ipiranga.py
           python pipeline/divida.py
+          python pipeline/releases_texto.py
+          python pipeline/fre_mda.py
           python -I tests/test_documentos.py
 
       - name: Salvar resultados no repositório
@@ -120,6 +122,7 @@ jobs:
           cp -r docs/. _site/
           cp data/*.json _site/data/
           cp -r data/fre _site/data/fre
+          rm -f _site/data/release_segmentos.json
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
