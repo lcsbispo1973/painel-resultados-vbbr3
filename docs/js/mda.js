@@ -30,7 +30,7 @@
     var aj = function (s, x) { return M.aj(s, x.p, x.base); };
     var op = function (s, m, x) { return c.oper(s, m, x.p, x.base); };
     var fontes = [], vistos = {};
-    var addFonte = function (nome, link) { if (link && !vistos[link]) { vistos[link] = 1; fontes.push({ nome: nome, link: link }); } };
+    var addFonte = function (nome, link) { link = link && link.replace(/^http:/, "https:"); if (link && !vistos[link]) { vistos[link] = 1; fontes.push({ nome: nome, link: link }); } };
     // releases dos trimestres de A (o último trimestre traz o acumulado)
     var qsA = trimestres(A), txt = c.textos && c.textos.trimestres ? c.textos.trimestres : {};
     var relUlt = txt[qsA[qsA.length - 1]] || null;

@@ -42,6 +42,7 @@
       if (v === false || v == null) return;
       if (k === 'class') e.className = v;
       else if (k.slice(0, 2) === 'on') e.addEventListener(k.slice(2), v);
+      else if (k === 'href' && typeof v === 'string' && /^http:\/\//.test(v)) e.setAttribute(k, v.replace(/^http:/, 'https:'));   // documentos sempre por conexão segura
       else e.setAttribute(k, v === true ? '' : v);
     });
     Array.prototype.slice.call(arguments, 2).forEach(function add(c) {
