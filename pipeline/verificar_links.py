@@ -61,8 +61,9 @@ def testa(url):
                 ct = (r.headers.get("Content-Type") or "").lower()
                 if ini[:4] == b"%PDF" or ini[:2] == b"PK" or ini[:5] == b"<?xml" or "pdf" in ct or "zip" in ct or "octet" in ct or "excel" in ct:
                     return "ok", "documento"
+                ini += r.read(200000)   # página: lê o corpo inteiro para achar mensagens de erro
                 txt = ini.decode("utf-8", "ignore")
-                if ERRO_CVM.search(txt):
+                if ERRO_CVM.search(re.sub(r"<[^>]+>", " ", re.sub(r"(?is)<(script|style).*?</\1>", " ", txt))):
                     return "quebrado", "página de erro da CVM"
                 tit = re.search(r"<title[^>]*>(.*?)</title>", txt, re.I | re.S)
                 corpo = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", re.sub(r"(?is)<(script|style).*?</\1>", " ", txt))).strip()
