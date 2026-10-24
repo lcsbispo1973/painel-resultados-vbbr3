@@ -1,0 +1,119 @@
+#!/usr/bin/env python3
+"""Cotações diárias da ação da Vibra (BRDT3 até jan/2021, VBBR3 depois) a partir das Séries Históricas da B3 (COTAHIST).
+
+Grava data/b3_cotacoes.json com o fechamento diário (preço NÃO ajustado por proventos ou bonificações, como negociado)
+e logs/b3-ultima-execucao.md com o resultado de cada tentativa de download. Se nenhuma fonte responder, os dados
+anteriores são mantidos e o erro fica no log; a falha não interrompe o restante do fluxo.
+
+Uso: python pipeline/b3.py [--saida DIR]    (B3_LOCAL_DIR lê arquivos COTAHIST_A<ano>.ZIP locais, para testes)
+"""
+import argparse
+import datetime as dt
+import io
+import json
+import os
+import sys
+import time
+import traceback
+import urllib.error
+import urllib.request
+import zipfile
+
+ANO_INICIAL = 2016
+TICKERS = ("BRDT3", "VBBR3")
+URLS = [
+    "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A{ano}.ZIP",
+    "https://www.b3.com.br/data/files/COTAHIST_A{ano}.ZIP",
+]
+UA = {"User-Agent": "Mozilla/5.0 (compatible; painel-vbbr3/1.0)"}
+
+
+def baixar(url, tentativas=3):
+    ultimo = None
+    for i in range(tentativas):
+        try:
+            req = urllib.request.Request(url, headers=UA)
+            with urllib.request.urlopen(req, timeout=120) as r:
+                return r.read(), "HTTP %s, %d bytes" % (r.status, int(r.headers.get("Content-Length") or 0))
+        except Exception as e:  # noqa: BLE001
+            ultimo = "%s: %s" % (type(e).__name__, e)
+            time.sleep(2 * (i + 1))
+    return None, ultimo
+
+
+def analisa_linha(l):
+    """Registro de cotação do COTAHIST (245 colunas). Devolve (data, ticker, fechamento, volume R$, negocios) ou None."""
+    if len(l) < 188 or l[0:2] != "01":
+        return None
+    ticker = l[12:24].strip()
+    if ticker not in TICKERS or l[24:27] != "010":  # 010 = mercado à vista
+        return None
+    data = "%s-%s-%s" % (l[2:6], l[6:8], l[8:10])
+    return data, ticker, int(l[108:121]) / 100.0, int(l[170:188]) / 100.0, int(l[147:152])
+
+
+def le_zip(conteudo):
+    out = []
+    with zipfile.ZipFile(io.BytesIO(conteudo)) as z:
+        for nome in z.namelist():
+            with z.open(nome) as f:
+                for bruto in io.TextIOWrapper(f, encoding="latin-1"):
+                    r = analisa_linha(bruto.rstrip("\r\n"))
+                    if r:
+                        out.append(r)
+    return out
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--saida", default="data")
+    a = ap.parse_args()
+    raiz = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    saida = a.saida if os.path.isabs(a.saida) else os.path.join(raiz, a.saida)
+    os.makedirs(saida, exist_ok=True)
+    os.makedirs(os.path.join(raiz, "logs"), exist_ok=True)
+    local = os.environ.get("B3_LOCAL_DIR")
+    log = ["# B3 — última execução", "", "Executado em %s UTC" % dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M"), ""]
+    por_dia = {}
+    erros = 0
+    for ano in range(ANO_INICIAL, dt.date.today().year + 1):
+        conteudo, info = None, None
+        if local:
+            p = os.path.join(local, "COTAHIST_A%d.ZIP" % ano)
+            if os.path.exists(p):
+                conteudo, info = open(p, "rb").read(), "arquivo local"
+        else:
+            for u in URLS:
+                conteudo, info = baixar(u.format(ano=ano))
+                log.append("- %d %s → %s" % (ano, u.format(ano=ano), info if conteudo is None else "ok (%s)" % info))
+                if conteudo:
+                    break
+        if not conteudo:
+            erros += 1
+            continue
+        try:
+            for d, t, fech, vol, neg in le_zip(conteudo):
+                por_dia[d] = [d, t, fech, vol, neg]
+        except Exception:  # noqa: BLE001
+            erros += 1
+            log.append("- %d: erro ao ler o arquivo\n```\n%s\n```" % (ano, traceback.format_exc()))
+    dias = [por_dia[k] for k in sorted(por_dia)]
+    log += ["", "Dias com cotação: %d" % len(dias)]
+    if dias:
+        log.append("Primeiro: %s (%s) · último: %s (%s) a R$ %.2f" % (dias[0][0], dias[0][1], dias[-1][0], dias[-1][1], dias[-1][2]))
+    log.append("Anos sem arquivo ou com erro: %d" % erros)
+    open(os.path.join(raiz, "logs", "b3-ultima-execucao.md"), "w", encoding="utf-8").write("\n".join(log) + "\n")
+    if not dias:
+        print("Nenhuma cotação obtida; dados anteriores mantidos.")
+        return 0
+    doc = {"fonte": "B3 — Séries Históricas (COTAHIST), mercado à vista, preço de fechamento sem ajuste por proventos",
+           "atualizado_em": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+           "campos": ["data", "ticker", "fechamento_rs", "volume_rs", "negocios"], "dias": dias}
+    with open(os.path.join(saida, "b3_cotacoes.json"), "w", encoding="utf-8") as f:
+        json.dump(doc, f, ensure_ascii=False, separators=(",", ":"))
+    print("OK: %d dias" % len(dias))
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

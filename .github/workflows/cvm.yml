@@ -41,6 +41,7 @@ jobs:
         run: |
           python -I tests/test_cvm_fixture.py
           python -I tests/test_fre_fixture.py
+          python -I tests/test_b3_fixture.py
           node tests/test_dados.js
 
       - name: Baixar e processar dados da CVM
@@ -59,6 +60,11 @@ jobs:
           else
             python pipeline/fre.py
           fi
+
+      - name: Baixar cotações da B3
+        if: always()
+        continue-on-error: true
+        run: python pipeline/b3.py
 
       - name: Salvar resultados no repositório
         if: always()
