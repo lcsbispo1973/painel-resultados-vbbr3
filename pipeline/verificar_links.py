@@ -83,9 +83,15 @@ def main():
             res[fut[f]] = f.result()
     quebrados = sorted([{"url": u, "motivo": m, "origem": links[u]} for u, (s, m) in res.items() if s == "quebrado"], key=lambda x: x["origem"])
     agora = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    json.dump({"verificado_em": agora, "total": len(res), "ok": len(res) - len(quebrados), "quebrados": quebrados},
+    tipos = {}
+    for s_, m in res.values():
+        if s_ == "ok":
+            tipos[m] = tipos.get(m, 0) + 1
+    paginas = sorted(u for u, (s_, m) in res.items() if s_ == "ok" and m == "página")
+    json.dump({"verificado_em": agora, "total": len(res), "ok": len(res) - len(quebrados), "por_tipo": tipos, "paginas": paginas[:200], "quebrados": quebrados},
               open(os.path.join(RAIZ, "data", "links.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    log = ["# Verificação de links — %s" % agora, "", "%d links verificados; %d ok; %d quebrados." % (len(res), len(res) - len(quebrados), len(quebrados)), ""]
+    log = ["# Verificação de links — %s" % agora, "", "%d links verificados; %d ok (%s); %d quebrados." % (
+        len(res), len(res) - len(quebrados), ", ".join("%d %s" % (v, k) for k, v in sorted(tipos.items())), len(quebrados)), ""]
     log += ["- %s — %s (em %s)" % (q["url"], q["motivo"], q["origem"]) for q in quebrados]
     os.makedirs(os.path.join(RAIZ, "logs"), exist_ok=True)
     open(os.path.join(RAIZ, "logs", "links.md"), "w", encoding="utf-8").write("\n".join(log) + "\n")
