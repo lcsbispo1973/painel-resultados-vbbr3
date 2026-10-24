@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Cotações diárias da ação da Vibra (BRDT3 até jan/2021, VBBR3 depois) a partir das Séries Históricas da B3 (COTAHIST).
+"""Cotações diárias da ação da Vibra (BRDT3 até 21/10/2021, VBBR3 a partir de 22/10/2021, conforme o arquivo da B3) a partir das Séries Históricas da B3 (COTAHIST).
 
 Grava data/b3_cotacoes.json com o fechamento diário (preço NÃO ajustado por proventos ou bonificações, como negociado)
 e logs/b3-ultima-execucao.md com o resultado de cada tentativa de download. Se nenhuma fonte responder, os dados

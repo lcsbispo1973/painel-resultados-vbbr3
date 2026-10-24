@@ -188,7 +188,7 @@
     add(G.acao, 'vpa', 'Valor patrimonial por ação', 'R$', 'PL dos controladores ÷ ações em circulação', function (c) { return div(mul(c.plc(0), 1e6), c.acoes(0)); }, NOTA_SALDO);
 
     // valuation: preço de fechamento da B3 no fim do período × ações em circulação (CVM) na mesma data
-    add(G.mer, 'preco', 'Cotação no fim do período (VBBR3)', 'R$', 'Último fechamento da B3 até a data-base do período', function (c) { return c.preco(); }, 'Preço como negociado, sem ajuste por proventos. Até jan/2021 o código era BRDT3.');
+    add(G.mer, 'preco', 'Cotação no fim do período (VBBR3)', 'R$', 'Último fechamento da B3 até a data-base do período', function (c) { return c.preco(); }, 'Preço como negociado, sem ajuste por proventos. Até 21/10/2021 o código negociado era BRDT3 (Petrobras Distribuidora); a partir de 22/10/2021, VBBR3 (Vibra Energia).');
     add(G.mer, 'mcap', 'Valor de mercado', 'R$ mi', 'Cotação × ações em circulação (ex-tesouraria)', function (c) { return c.mcap(); }, 'Disponível a partir de 1T20 (composição do capital na CVM).');
     add(G.mer, 'ev', 'Valor da firma (EV)', 'R$ mi', 'Valor de mercado + dívida líquida + participação de não controladores (2.03.09)', function (c) { return c.ev(); }, 'Dívida líquida conforme definida neste painel (inclui arrendamentos).');
     add(G.mer, 'pl', 'P/L (UDM)', 'x', 'Valor de mercado ÷ lucro dos controladores UDM', function (c) { var l = c.u('dre', '3.11.01'); return ok(l) && l > 0 ? div(c.mcap(), l) : null; }, NOTA_UDM + ' Só calculado com lucro positivo.');
