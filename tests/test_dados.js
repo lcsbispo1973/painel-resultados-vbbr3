@@ -5,9 +5,7 @@ const ld = n => JSON.parse(fs.readFileSync(path.join(raiz, 'data', n + '.json'),
 const D = require(path.join(raiz, 'docs', 'js', 'dados.js'));
 const dre = ld('cvm_dre'), bp = ld('cvm_balanco'), dfc = ld('cvm_fluxo_caixa'), dva = ld('cvm_dva'), dra = ld('cvm_dra'), acoes = ld('cvm_acoes');
 const b3 = ld('b3_cotacoes');
-const aj = ld('ebitda_ajustado');
-const m = D.criar({ dre, bp, dfc, dva, dra, acoes, b3, aj });
-const ajv = (p) => aj.series[p].CONS.v;
+const m = D.criar({ dre, bp, dfc, dva, dra, acoes, b3 });
 const g = (t, cd, p) => { const l = t.linhas.find(x => x.cd_conta === cd); return l ? l[p] : undefined; };
 const lab = (a, q) => q + 'T' + String(a).padStart(2, '0');
 const perto = (a, b, nome, tol = 1e-6) => { assert(a !== null && Math.abs(a - b) <= tol * Math.max(1, Math.abs(b)), `${nome}: painel=${a} esperado=${b}`); };
@@ -18,23 +16,19 @@ const chk = (id, p, base, esperado) => { perto(m.ind(id, p, base), esperado, `${
 chk('mb', '2T26', 'T', 100 * g(dre, '3.03', '2T26') / g(dre, '3.01', '2T26'));
 chk('mliq', '2T26', 'T', 100 * g(dre, '3.11', '2T26') / g(dre, '3.01', '2T26'));
 const ebitda = p => g(dre, '3.05', p) - g(dre, '3.04.06', p) - g(dva, '7.04.01', p);
-chk('ebitdac', '2T26', 'T', ebitda('2T26'));
-chk('ebitda', '2T26', 'T', 4499);   // EBITDA Ajustado da nota de segmentos da ITR 2T26
+chk('ebitda', '2T26', 'T', ebitda('2T26'));
 // UDM 2T26 = 3T25 + 4T25 + 1T26 + 2T26
 const ps = ['3T25', '4T25', '1T26', '2T26'];
 const udm = (t, cd) => ps.reduce((s, p) => s + g(t, cd, p), 0);
 chk('receita', '2T26', 'LTM', udm(dre, '3.01'));
-chk('ebitdac', '2T26', 'LTM', ps.reduce((s, p) => s + ebitda(p), 0));
-chk('ebitda', '2T26', 'LTM', ps.reduce((s, p) => s + ajv(p), 0));
-chk('ebitda', '2T26', 'S', ajv('1T26') + ajv('2T26'));
-chk('mebitda', '2T26', 'T', 100 * 4499 / g(dre, '3.01', '2T26'));
+chk('ebitda', '2T26', 'LTM', ps.reduce((s, p) => s + ebitda(p), 0));
 // ROE UDM: lucro controladores UDM / média simples do PL dos controladores em 2T26 e 2T25
 const plc = p => g(bp, '2.03', p) - g(bp, '2.03.09', p);
 chk('roe', '2T26', 'T', 100 * udm(dre, '3.11.01') / ((plc('2T26') + plc('2T25')) / 2));
 // dívida líquida e alavancagem
 const dliq = p => g(bp, '2.01.04', p) + g(bp, '2.02.01', p) - g(bp, '1.01.01', p) - (g(bp, '1.01.02', p) || 0);
 chk('dliq', '2T26', 'T', dliq('2T26'));
-chk('dlebitda', '2T26', 'T', dliq('2T26') / ps.reduce((s, p) => s + ajv(p), 0));
+chk('dlebitda', '2T26', 'T', dliq('2T26') / ps.reduce((s, p) => s + ebitda(p), 0));
 // liquidez e ciclo
 chk('lcor', '2T26', 'T', g(bp, '1.01', '2T26') / g(bp, '2.01', '2T26'));
 chk('pmp', '2T26', 'T', g(bp, '2.01.02', '2T26') / -udm(dre, '3.02') * 365);
@@ -63,7 +57,7 @@ const evv = mc + dliq('2T26') + g(bp, '2.03.09', '2T26');
 chk('ev', '2T26', 'T', evv);
 chk('pl', '2T26', 'T', mc / udm(dre, '3.11.01'));
 chk('pvp', '2T26', 'T', mc / plc('2T26'));
-chk('evebitda', '2T26', 'T', evv / ps.reduce((s, p) => s + ajv(p), 0));
+chk('evebitda', '2T26', 'T', evv / ps.reduce((s, p) => s + ebitda(p), 0));
 chk('fcfy', '2T26', 'T', 100 * (udm(dfc, '6.01') + udm(dfc, '6.02.01')) / mc);
 chk('dy', '2T26', 'T', 100 * -udm(dfc, '6.03.05') / mc);
 // cotação atual: último fechamento da B3 com as demonstrações do último trimestre
