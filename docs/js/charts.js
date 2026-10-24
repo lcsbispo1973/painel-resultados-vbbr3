@@ -47,7 +47,7 @@
     g.svg.append('g').selectAll('rect').data(pts).join('rect')
       .attr('x', function (d) { return g.x(d.l); }).attr('width', g.x.bandwidth()).attr('rx', 3)
       .attr('y', function (d) { return Math.min(g.y(d.v), g.y(0)); }).attr('height', function (d) { return Math.max(1, Math.abs(g.y(d.v) - g.y(0))); })
-      .attr('fill', function (d) { return d.v >= 0 ? C(1) : C(2); })
+      .attr('fill', function (d) { return d.v >= 0 ? C(1) : C('neg'); })
       .on('pointermove', function (e, d) { tp.show([[d.l, null], [nome, fmt(d.v)]], e); }).on('pointerleave', tp.hide);
     if (g.x.bandwidth() > 34) g.svg.append('g').selectAll('text').data(pts).join('text').attr('class', 'val').attr('text-anchor', 'middle')
       .attr('x', function (d) { return g.x(d.l) + g.x.bandwidth() / 2; }).attr('y', function (d) { return d.v >= 0 ? g.y(d.v) - 4 : g.y(d.v) + 12; }).text(function (d) { return fmt(d.v); });
@@ -116,7 +116,7 @@
     svg.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(0)).attr('y2', y(0)).attr('stroke', 'var(--muted)');
     svg.append('g').selectAll('rect').data(itens).join('rect').attr('x', function (d) { return x(d.l); }).attr('width', x.bandwidth()).attr('rx', 2)
       .attr('y', function (d) { return y(Math.max(d.ini, d.fim)); }).attr('height', function (d) { return Math.max(1, Math.abs(y(d.ini) - y(d.fim))); })
-      .attr('fill', function (d) { return d.tipo === 'tot' ? C(5) : d.tipo === 'up' ? C(3) : C(2); })
+      .attr('fill', function (d) { return d.tipo === 'tot' ? C(2) : d.tipo === 'up' ? C(1) : C('neg'); })
       .on('pointermove', function (e, d) { tp.show([[d.l, null], [d.tipo === 'tot' ? 'Valor' : 'Variação', fmt(d.tipo === 'tot' ? d.fim : d.v)]], e); }).on('pointerleave', tp.hide);
     svg.append('g').selectAll('text').data(itens).join('text').attr('class', 'val').attr('text-anchor', 'middle').attr('x', function (d) { return x(d.l) + x.bandwidth() / 2; })
       .attr('y', function (d) { return y(Math.max(d.ini, d.fim)) - 4; }).text(function (d) { return fmt(d.tipo === 'tot' ? d.fim : d.v); });

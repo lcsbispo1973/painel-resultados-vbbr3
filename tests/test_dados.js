@@ -38,6 +38,13 @@ chk('fco', '3T25', 'YTD', ['1T25', '2T25', '3T25'].reduce((s, p) => s + g(dfc, '
 // por ação (R$): lucro UDM em R$ / média das ações ex-tesouraria
 const sh = p => acoes.valores[p].total - (acoes.valores[p].tesouro || 0);
 chk('lpa', '2T26', 'T', udm(dre, '3.11.01') * 1e6 / ((sh('2T26') + sh('2T25')) / 2));
+// DuPont: ROE consolidado = lucro UDM ÷ PL consolidado médio, calculado de forma independente; e produto dos três fatores
+const plm = (g(bp, '2.03', '2T26') + g(bp, '2.03', '2T25')) / 2;
+chk('roecons', '2T26', 'T', 100 * udm(dre, '3.11') / plm);
+chk('mliqudm', '2T26', 'T', 100 * udm(dre, '3.11') / udm(dre, '3.01'));
+for (const p of ['2T26', '4T25', '2T25']) {
+  perto(m.ind('mliqudm', p, 'T') * m.ind('giro', p, 'T') * m.ind('alav', p, 'T'), m.ind('roecons', p, 'T'), 'DuPont ' + p); n++;
+}
 // fluxo de caixa: saldo inicial do acumulado = saldo inicial do 1T; final = saldo do último trimestre
 perto(m.agg('dfc', '6.05.01', '3T25', 'YTD'), g(dfc, '6.05.01', '1T25'), 'saldo inicial YTD'); n++;
 perto(m.agg('dfc', '6.05.02', '3T25', 'YTD'), g(dfc, '6.05.02', '3T25'), 'saldo final YTD'); n++;

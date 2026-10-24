@@ -127,6 +127,8 @@
     add(G.mar, 'aliq', 'Alíquota efetiva de IR/CS', '%', '− 3.08 ÷ 3.07', function (c) { var lair = c.t('dre', '3.07'); return ok(lair) && lair > 0 ? div(mul(-1, c.t('dre', '3.08')), lair) : null; }, 'Só calculada quando o resultado antes dos tributos é positivo.');
 
     add(G.ren, 'roe', 'ROE (UDM)', '%', 'Lucro dos controladores (3.11.01) UDM ÷ PL dos controladores médio', function (c) { return div(c.u('dre', '3.11.01'), media(c.plc(0), c.plc(4))); }, NOTA_UDM + ' PL médio = média simples do saldo no fim do período e quatro trimestres antes. PL dos controladores = 2.03 − 2.03.09.');
+    add(G.ren, 'mliqudm', 'Margem líquida (UDM)', '%', 'Lucro líquido consolidado UDM ÷ Receita UDM', function (c) { return div(c.u('dre', '3.11'), c.u('dre', '3.01')); }, NOTA_UDM + ' Primeiro fator do DuPont.');
+    add(G.ren, 'roecons', 'ROE consolidado (UDM)', '%', 'Lucro líquido consolidado UDM ÷ PL consolidado médio', function (c) { return div(c.u('dre', '3.11'), c.bm('2.03')); }, NOTA_UDM + ' Igual a margem líquida × giro × alavancagem. Difere do ROE dos controladores por incluir os não controladores.');
     add(G.ren, 'roa', 'ROA (UDM)', '%', 'Lucro líquido consolidado UDM ÷ Ativo total médio', function (c) { return div(c.u('dre', '3.11'), c.bm('1')); }, NOTA_UDM);
     add(G.ren, 'roic', 'ROIC aproximado (UDM)', '%', 'EBIT (ex-equivalência) UDM × (1 − 34%) ÷ (dívida líquida + PL) médio', function (c) {
       var ebit = c.ebit(c.u), nopat = ok(ebit) ? ebit * (1 - 0.34) : null;

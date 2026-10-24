@@ -265,11 +265,14 @@
     return {
       init: function (el) {
         var grupos = [['', 'Todos os grupos']].concat(Object.keys(P.M.grupos).map(function (k) { return [P.M.grupos[k], P.M.grupos[k]]; }));
-        ref.chart = P.chart('c-ind'); ref.titulo = h('h2'); ref.formula = h('p', { class: 'note' }); ref.tb = h('table');
+        ref.chart = P.chart('c-ind'); ref.titulo = h('h2'); ref.formula = h('p', { class: 'note' }); ref.tb = h('table'); ref.tbD = h('table');
         el.append(
           h('div', { class: 'controls' }, P.label('Grupo', P.select('sel-grupo', grupos, S.grupo, function (v) { S.grupo = v; render(); }, 'Grupo')),
             h('button', { class: 'btn', type: 'button', onclick: exporta }, 'Baixar CSV')),
           h('div', { class: 'card wide', style: 'margin-bottom:14px' }, ref.titulo, ref.formula, ref.chart),
+          h('h3', null, 'Decomposição do ROE (DuPont)'),
+          h('p', { class: 'note' }, 'ROE consolidado = margem líquida × giro do ativo × alavancagem financeira, sempre nos últimos 12 meses (UDM). O produto dos três fatores fecha com o ROE consolidado.'),
+          h('div', { class: 'twrap', style: 'margin-bottom:14px' }, ref.tbD),
           h('p', { class: 'note' }, 'Clique em uma linha para ver o gráfico. Indicadores de retorno, alavancagem e ciclo usam os últimos 12 meses (UDM) até cada data, qualquer que seja a base escolhida. Indicadores de saldo (liquidez, estrutura) usam a posição no fim do período.'),
           h('div', { class: 'twrap' }, ref.tb));
       },
@@ -282,6 +285,11 @@
         var tipoLinha = ind.un === '%' || ind.un === 'x' || ind.un === 'dias';
         if (tipoLinha) G.linhas(ref.chart, cols.map(P.rot), [{ nome: ind.nome, vals: vals }], function (v) { return P.fUn(ind.un, v); });
         else G.barras(ref.chart, cols.map(P.rot), vals, ind.nome, function (v) { return P.fUn(ind.un, v); });
+        var dp = [['mliqudm', 'Margem líquida'], ['giro', '× Giro do ativo'], ['alav', '× Alavancagem (ativo ÷ PL)'], ['roecons', '= ROE consolidado']];
+        P.tabela(ref.tbD, 'Fator', cols.map(P.rot), dp.map(function (x, k) {
+          var i = P.M.indicadores.filter(function (z) { return z.id === x[0]; })[0], vs = cols.map(function (p) { return P.M.ind(x[0], p, S.base); });
+          return { id: x[0], conta: x[1], nivel: 2, vals: vs, cel: vs.map(function (v) { return P.fUn(i.un, v); }), cls: k === 3 ? 'tot' : '' };
+        }), function (l) { S.ind = l.id; render(); });
         P.tabela(ref.tb, 'Indicador', cols.map(P.rot), linhasInd(cols), function (l) { S.ind = l.id; render(); });
       }
     };

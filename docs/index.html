@@ -7,23 +7,30 @@
 <meta name="description" content="Base analítica com as demonstrações financeiras públicas da Vibra Energia (CVM), indicadores, análise automática e comparação de períodos, atualizada automaticamente.">
 <style>
   :root {
-    --bg: #ffffff; --panel: #f5f7f8; --fg: #1b1f23; --muted: #5b6670; --border: #d9dee3;
-    --c1: #2a6f97; --c2: #d98324; --c3: #2a9d8f; --c4: #7b5ea7; --c5: #8a949e;
-    --ok: #1a7f37; --bad: #c0392b; --grid: #e6eaee; --shadow: 0 6px 18px rgba(0,0,0,.14); --hl: #fff6e0;
+    --verde: #268200; --verde-esc: #004415; --amarelo: #FEDC00;
+    --bg: #ffffff; --panel: #f4f6f3; --fg: #37373A; --muted: #5d5d60; --border: #d8dcd6;
+    --c1: #268200; --c2: #37373A; --c3: #8c8c8e; --c4: #004415; --c5: #FEDC00; --cneg: #FEDC00;
+    --ok: #268200; --bad: #c0392b; --grid: #e4e7e2; --shadow: 0 6px 18px rgba(0,0,0,.14); --hl: #fff8c4;
+    --fonte: "Acumin Pro", "Calibri", "Carlito", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #12161a; --panel: #1b2127; --fg: #e8ecef; --muted: #98a4ae; --border: #2c353d;
-      --c1: #5aa9d6; --c2: #f0a04b; --c3: #4fc3b3; --c4: #a98bd6; --c5: #8a949e;
-      --ok: #4cc26a; --bad: #ff7b6b; --grid: #232b32; --shadow: 0 6px 18px rgba(0,0,0,.5); --hl: #2b2616;
+      --bg: #121512; --panel: #1b201b; --fg: #eceeea; --muted: #a2a8a0; --border: #2e352d;
+      --c1: #4fb82a; --c2: #d9d9db; --c3: #8c8c8e; --c4: #86d663; --c5: #FEDC00; --cneg: #FEDC00;
+      --ok: #7fd65a; --bad: #ff7b6b; --grid: #262c25; --shadow: 0 6px 18px rgba(0,0,0,.5); --hl: #332f10;
     }
   }
   * { box-sizing: border-box; }
   html { -webkit-text-size-adjust: 100%; }
-  body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.5 var(--fonte); }
   .wrap { max-width: 1280px; margin: 0 auto; padding: 0 16px 48px; }
-  header { padding: 24px 0 8px; }
-  h1 { font: 400 28px/1.2 Georgia, "Times New Roman", serif; margin: 0 0 6px; }
+  header.top { background: var(--verde-esc); color: #fff; }
+  header.top .in { max-width: 1280px; margin: 0 auto; padding: 22px 16px 18px; position: relative; }
+  header.top .logo { position: absolute; right: 16px; top: 22px; width: 38px; height: auto; }
+  header.top .sub { color: #fff; opacity: .85; padding-right: 54px; }
+  header.top .take { margin: 12px 0 0; padding-right: 54px; }
+  header.top .up, header.top .down { color: var(--amarelo); font-weight: 600; }
+  h1 { font: 700 26px/1.2 var(--fonte); margin: 0 0 6px; padding-right: 54px; letter-spacing: -.2px; }
   h2 { font-size: 16px; font-weight: 600; margin: 0 0 2px; }
   h3 { font-size: 14px; font-weight: 600; margin: 14px 0 4px; }
   .sub { color: var(--muted); font-size: 14px; }
@@ -32,7 +39,8 @@
   nav.tabs { position: sticky; top: 0; z-index: 20; background: var(--bg); display: flex; gap: 2px; overflow-x: auto; border-bottom: 1px solid var(--border); margin: 12px 0 14px; scrollbar-width: thin; }
   nav.tabs button { all: unset; cursor: pointer; white-space: nowrap; padding: 10px 12px; color: var(--muted); border-bottom: 2px solid transparent; margin-bottom: -1px; }
   nav.tabs button:hover { color: var(--fg); }
-  nav.tabs button[aria-selected="true"] { color: var(--fg); border-bottom-color: var(--fg); font-weight: 600; }
+  nav.tabs button[aria-selected="true"] { color: var(--verde); border-bottom-color: var(--verde); font-weight: 700; }
+  @media (prefers-color-scheme: dark) { nav.tabs button[aria-selected="true"] { color: var(--c1); border-bottom-color: var(--c1); } }
   nav.tabs button:focus-visible, .btn:focus-visible, select:focus-visible, input:focus-visible { outline: 2px solid var(--c1); outline-offset: 2px; }
   .controls { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; margin-bottom: 12px; }
   .controls label { color: var(--muted); font-size: 13px; display: flex; align-items: center; gap: 6px; max-width: 100%; min-width: 0; }
@@ -40,7 +48,7 @@
   select, input[type="search"], .btn { font: inherit; font-size: 13px; color: var(--fg); background: var(--bg); border: 1px solid var(--border); border-radius: 6px; padding: 6px 10px; max-width: 100%; }
   .btn { cursor: pointer; }
   .btn:hover { background: var(--panel); }
-  .btn.sel { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+  .btn.sel { background: var(--verde); color: #fff; border-color: var(--verde); }
   .chips { display: flex; gap: 6px; flex-wrap: wrap; }
   .grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); margin-bottom: 14px; }
   .kpis { grid-template-columns: repeat(auto-fit, minmax(min(100%, 190px), 1fr)); }
@@ -48,7 +56,7 @@
   .card.wide { grid-column: 1 / -1; }
   .note { color: var(--muted); font-size: 12.5px; line-height: 1.4; margin: 2px 0 10px; }
   .kl { color: var(--muted); font-size: 12.5px; }
-  .kv { font: 400 28px/1.15 Georgia, "Times New Roman", serif; font-variant-numeric: tabular-nums; margin: 4px 0; }
+  .kv { font: 700 27px/1.15 var(--fonte); font-variant-numeric: tabular-nums; margin: 4px 0; }
   .kd { font-size: 12.5px; color: var(--muted); display: flex; gap: 6px 12px; flex-wrap: wrap; font-variant-numeric: tabular-nums; }
   .chart { position: relative; width: 100%; min-height: 0; }
   .chart svg { display: block; overflow: visible; }
@@ -84,12 +92,13 @@
 </style>
 </head>
 <body>
+<header class="top"><div class="in">
+  <img class="logo" src="img/logo-branco.png" alt="" width="38">
+  <h1>Painel de resultados da Vibra Energia (VBBR3)</h1>
+  <div class="sub" id="sub">Carregando dados…</div>
+  <p class="take" id="take"></p>
+</div></header>
 <div class="wrap">
-  <header>
-    <h1>Painel de resultados da Vibra Energia (VBBR3)</h1>
-    <div class="sub" id="sub">Carregando dados…</div>
-    <p class="take" id="take"></p>
-  </header>
   <nav class="tabs" role="tablist" aria-label="Seções do painel" id="tabs"></nav>
   <div class="controls" id="ctl-tempo"></div>
   <main id="pages"></main>
