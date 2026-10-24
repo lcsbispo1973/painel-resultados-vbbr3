@@ -1,14 +1,14 @@
 # Documentos — última execução
 
-Executado em 2026-10-24 18:14 UTC
+Executado em 2026-10-24 18:27 UTC
 
-- vibra_df: 30 no índice, 4 novos, 0 falhas
+- vibra_df: 30 no índice, 0 novos, 0 falhas
   - ERRO 2021-04-15 Deliberações da AGO||Dividendos/Juros sobre Capita: não é PDF: b'\r\n\r\n<!DOCTYP'
-- vibra_proventos: 43 no índice, 6 novos, 1 falhas
-- vibra_rating: 17 no índice, 4 novos, 0 falhas
+- vibra_proventos: 43 no índice, 0 novos, 1 falhas
+- vibra_rating: 17 no índice, 0 novos, 0 falhas
 - IPE Ultrapar: 890 documentos
-- ultrapar_rel: 40 no índice, 6 novos, 0 falhas
-- ultrapar_df: 52 no índice, 7 novos, 0 falhas
+- ultrapar_rel: 40 no índice, 0 novos, 0 falhas
+- ultrapar_df: 52 no índice, 0 novos, 0 falhas
 
 ## Estrutura do XML do FRE
 - 024295FRE31-12-2026v5.xml: 12253924 caracteres; cabeçalho '<?xml version="1.0" encoding="utf-8"?>\r\n<XmlFormularioReferencia xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi='
