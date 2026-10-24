@@ -24,7 +24,18 @@
     var div = -v('5.04.06'), jcp = -v('5.04.07'), tot = div + jcp;
     var luc = alvo[0] === '4' ? P.M.agg('dre', '3.11.01', alvo, 'AN') : null;
     var mc = alvo[0] === '4' ? P.M.ind('mcap', alvo, 'T') : null;
-    return { ano: ano, ate: alvo, dividendos: div, jcp: jcp, total: tot, payout: ok(luc) && luc > 0 ? tot / luc * 100 : null, dy: ok(mc) && mc > 0 ? tot / mc * 100 : null, lucro: luc };
+    var r = { ano: ano, ate: alvo, dividendos: div, jcp: jcp, total: tot, payout: ok(luc) && luc > 0 ? tot / luc * 100 : null, dy: ok(mc) && mc > 0 ? tot / mc * 100 : null, lucro: luc };
+    // exercício em aberto: soma o que foi declarado depois do fim do último trimestre divulgado (avisos arquivados na CVM)
+    if (alvo[0] !== '4') {
+      var fim = P.M.fimPeriodo(alvo);
+      var depois = ((P.D.div && P.D.div.linhas) || []).filter(function (e) { return +e.referencia === +ano && (e.data_com || e.data_ex) > fim; });
+      if (depois.length) {
+        var pDiv = 0, pJcp = 0;
+        depois.forEach(function (e) { if (e.provento === 'Dividendo') pDiv += e.valor_total / 1e6; else pJcp += e.valor_total / 1e6; });
+        r.dmpl = tot; r.aposItr = pDiv + pJcp; r.dividendos = div + pDiv; r.jcp = jcp + pJcp; r.total = tot + pDiv + pJcp; r.ultimos = depois;
+      }
+    }
+    return r;
   };
 
   // mercado na data do período escolhido × último pregão (mesmas fórmulas; muda a cotação e, no último pregão, valem as demonstrações mais recentes)
@@ -98,15 +109,18 @@
     function dividendos(el) {
       var anos = P.M.anos(), linhas = anos.map(function (a) { return P.proventosAno(a); }).filter(function (r) { return r && r.ano >= 2017; });
       var cT = P.chart('d-tot'), cR = P.chart('d-ret'), tb = h('table'), tbEv = h('table'), tbR = h('table');
-      el.append(h('div', { class: 'grid' }, P.card('Proventos declarados por exercício', 'R$ milhões: dividendos e juros sobre capital próprio destinados do lucro de cada exercício (DMPL, CVM). O ano corrente mostra o acumulado até o último trimestre divulgado.', cT),
+      el.append(h('div', { class: 'grid' }, P.card('Proventos declarados por exercício', 'R$ milhões: dividendos e juros sobre capital próprio destinados do lucro de cada exercício (DMPL, CVM). O ano corrente (*) soma também o que foi declarado depois do último trimestre divulgado (avisos aos acionistas arquivados na CVM).', cT),
         P.card('Retorno total desde o IPO (base 100)', 'VBBR3 com proventos reinvestidos no primeiro pregão após a data com (valores por ação dos avisos da CVM) × BOVA11 (ETF do Ibovespa). Fechamentos da B3.', cR)),
         h('div', { class: 'sec' }, h('h2', null, 'Proventos e payout por exercício')), h('div', { class: 'twrap' }, tb),
         h('div', { class: 'sec' }, h('h2', null, 'Retorno por ano')), h('div', { class: 'twrap' }, tbR),
         h('div', { class: 'sec' }, h('h2', null, 'Eventos de proventos')), h('p', { class: 'note' }, 'Eventos e valores totais do site de Relações com Investidores. Valor por ação (todas as casas) e data com conferidos com o aviso arquivado na CVM, quando localizado; * data informada no site de RI, sem aviso localizado.'), h('div', { class: 'twrap' }, tbEv));
       G.empilhado(cT, linhas.map(function (r) { return String(r.ano) + (r.ate[0] === '4' ? '' : '*'); }), [{ nome: 'JCP', vals: linhas.map(function (r) { return r.jcp; }) }, { nome: 'Dividendos', vals: linhas.map(function (r) { return r.dividendos; }) }], null, P.fN);
       P.tabela(tb, 'Exercício', ['Dividendos', 'JCP', 'Total', 'Lucro dos controladores', 'Payout', 'Rendimento s/ valor de mercado'], linhas.slice().reverse().map(function (r) {
-        return { conta: String(r.ano) + (r.ate[0] === '4' ? '' : ' (até ' + r.ate + ')'), cel: [P.fN(r.dividendos), P.fN(r.jcp), P.fN(r.total), P.fN(r.lucro), P.fUn('%', r.payout), P.fUn('%', r.dy)] };
+        return { conta: String(r.ano) + (r.ate[0] === '4' ? '' : r.aposItr ? ' (declarados até hoje)' : ' (até ' + r.ate + ')'), cel: [P.fN(r.dividendos), P.fN(r.jcp), P.fN(r.total), P.fN(r.lucro), P.fUn('%', r.payout), P.fUn('%', r.dy)] };
       }));
+      var ab = linhas.filter(function (r) { return r.aposItr; })[0];
+      if (ab) tb.parentNode.after(h('p', { class: 'note' }, ab.ano + ': ' + P.fMi(ab.dmpl) + ' registrados nas demonstrações até ' + ab.ate + ' + ' + P.fMi(ab.aposItr) + ' declarados depois (' +
+        ab.ultimos.map(function (e) { return e.provento + ' aprovado em ' + P.fData(e.aviso_data || e.data_com) + ', data com ' + P.fData(e.data_com || e.data_ex); }).join('; ') + '). Payout e rendimento só para exercícios encerrados.'));
       var rt = retornoTotal('2017-12-15');
       if (rt) {
         var mv = amostraMensal(rt.vbbr), mb = {}; amostraMensal(rt.bova).forEach(function (x) { mb[x[0].slice(0, 7)] = x[1]; });
