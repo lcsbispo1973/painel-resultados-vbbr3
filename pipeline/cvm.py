@@ -202,6 +202,8 @@ def carregar_linhas(pasta_raw):
             "col": (r.get("COLUNA_DF") or "").strip(),
             "val": para_numero(r["VL_CONTA"]) * escala / 1e6,
         }
+        if item["cd"].startswith("3.99"):  # lucro por ação já vem em R$ por ação, sem escala
+            item["val"] = para_numero(r["VL_CONTA"])
         if item["ultimo"]:
             linhas.append(item)
         elif pen and item["demo"] not in ("DMPL",):
@@ -231,7 +233,8 @@ def carregar_acoes(pasta_raw):
                 v = int(r["VERSAO"] or 0)
                 if k in por_data and por_data[k][0] > v:
                     continue
-                num = lambda c: float(r[c].replace(",", ".")) if r.get(c, "").strip() else None  # noqa: E731
+                # a CVM informa a composição do capital em milhares de ações
+                num = lambda c: float(r[c].replace(",", ".")) * 1000 if r.get(c, "").strip() else None  # noqa: E731
                 tot = num("TOTAL")
                 if tot is None and num("ON") is not None:
                     tot = (num("ON") or 0) + (num("PN") or 0)
@@ -433,7 +436,7 @@ def principal(args):
         gravar_json(os.path.join(pasta_dados, "cvm_dva.json"), larga(dva, descricoes(por("DVA"))))
         gravar_json(os.path.join(pasta_dados, "cvm_dra.json"), larga(dra, descricoes(por("DRA"))))
         gravar_json(os.path.join(pasta_dados, "cvm_dmpl.json"), serie_dmpl(por("DMPL")))
-        gravar_json(os.path.join(pasta_dados, "cvm_acoes.json"), {"unidade": "ações", "periodos": list(acoes), "valores": acoes})
+        gravar_json(os.path.join(pasta_dados, "cvm_acoes.json"), {"unidade": "ações (a CVM informa em milhares; aqui já multiplicado)", "periodos": list(acoes), "valores": acoes})
         testes = conferir(dre, bp, dfc, dva, dra)
         gravar_json(os.path.join(pasta_dados, "cvm_conferencias.json"), testes)
         div = [t for t in testes if t["status"] == "divergente"]

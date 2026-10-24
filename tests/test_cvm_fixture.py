@@ -97,7 +97,7 @@ def monta(pasta):
         escreve(z, f"itr_cia_aberta_DRA_con_{ano}.csv", itr_dra)
         z.writestr(f"itr_cia_aberta_composicao_capital_{ano}.csv",
                    ("CNPJ_CIA;DT_REFER;VERSAO;DENOM_CIA;QT_ACAO_ORDIN_CAP_INTEGR;QT_ACAO_PREF_CAP_INTEGR;QT_ACAO_TOTAL_CAP_INTEGR;QT_ACAO_ORDIN_TESOURO;QT_ACAO_PREF_TESOURO;QT_ACAO_TOTAL_TESOURO\n"
-                    f"{CNPJ};{ano}-03-31;1;VIBRA;1000000000;0;1000000000;5000000;0;5000000\n").encode("latin-1"))
+                    f"{CNPJ};{ano}-03-31;1;VIBRA;1000000;0;1000000;5000;0;5000\n").encode("latin-1"))
         escreve(z, f"itr_cia_aberta_DRE_con_{ano}.csv", itr_dre)
         escreve(z, f"itr_cia_aberta_DRE_ind_{ano}.csv", [linha(f"{ano}-03-31", 1, "ÚLTIMO", f"{ano}-01-01", f"{ano}-03-31", "3.01", "Receita", 123456)])
         escreve(z, f"itr_cia_aberta_BPA_con_{ano}.csv", itr_bpa)
