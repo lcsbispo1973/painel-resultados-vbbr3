@@ -1,6 +1,6 @@
 # IPE (comunicados e fatos relevantes) — última execução
 
-Executado em 2026-10-24 20:47 UTC
+Executado em 2026-10-24 21:03 UTC
 
 - 2017: 26 documentos da Vibra
 - 2018: 153 documentos da Vibra
