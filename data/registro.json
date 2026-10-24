@@ -224,6 +224,26 @@
   "fre:2024:v19",
   "fre:2025:v18",
   "fre:2026:v5",
+  "prov:2018-02-01:0.56527346761",
+  "prov:2018-04-25:0.38850186764",
+  "prov:2018-12-11:0.49381274351",
+  "prov:2019-04-24:0.88062848541",
+  "prov:2019-12-04:0.47363778576",
+  "prov:2020-07-31:0.0428003741",
+  "prov:2021-04-15:0.95037041535",
+  "prov:2022-04-28:0.117107099",
+  "prov:2022-12-21:0.39016209173",
+  "prov:2023-12-22:0.40362074704",
+  "prov:2024-04-18:0.30317400985",
+  "prov:2024-06-28:0.46684904167",
+  "prov:2024-09-23:0.23499089814",
+  "prov:2024-12-23:0.26199833017",
+  "prov:2025-03-21:0.31403898619",
+  "prov:2025-04-16:0.50435328748",
+  "prov:2025-11-25:0.76344892045",
+  "prov:2026-03-26:0.32999456225",
+  "prov:2026-06-22:0.46662275758",
+  "prov:2026-09-21:0.41736421842",
   "release:1T18",
   "release:1T19",
   "release:1T20",
@@ -293,6 +313,16 @@
   },
   {
    "data": "2026-08-14",
+   "tipo": "Proventos",
+   "titulo": "JSCP de R$ 499,4 mi (R$ 0,41736 por ação)",
+   "detalhe": "Data com 21/09/2026; pagamento em 16/11/2027; exercício de 2026.",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1558291&numSequencia=1082997&numVersao=1",
+   "chave": "prov:2026-09-21:0.41736421842",
+   "registrado_em": "2026-10-24T20:22:35Z",
+   "historico": false
+  },
+  {
+   "data": "2026-08-14",
    "tipo": "Demonstrações financeiras",
    "titulo": "ITR do 2º trimestre de 2026",
    "detalhe": "EBITDA Ajustado de R$ 4.499 mi (+205,6% sobre o mesmo trimestre do ano anterior); receita líquida de R$ 57.299 mi (+25,8% sobre o mesmo trimestre do ano anterior); lucro líquido de R$ 2.352 mi (+705,5% sobre o mesmo trimestre do ano anterior).",
@@ -300,6 +330,16 @@
    "chave": "df:2T26",
    "registrado_em": "2026-10-24T19:18:48Z",
    "historico": true
+  },
+  {
+   "data": "2026-06-22",
+   "tipo": "Proventos",
+   "titulo": "JSCP de R$ 558,2 mi (R$ 0,46662 por ação)",
+   "detalhe": "Data com 22/06/2026; pagamento em 15/10/2027; exercício de 2026.",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1537230&numSequencia=1061936&numVersao=1",
+   "chave": "prov:2026-06-22:0.46662275758",
+   "registrado_em": "2026-10-24T20:22:35Z",
+   "historico": false
   },
   {
    "data": "2026-05-06",
@@ -352,6 +392,16 @@
    "historico": true
   },
   {
+   "data": "2026-03-23",
+   "tipo": "Proventos",
+   "titulo": "JSCP de R$ 393,5 mi (R$ 0,32999 por ação)",
+   "detalhe": "Data com 26/03/2026; pagamento em 15/09/2027; exercício de 2026.",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1494108&numSequencia=1018814&numVersao=2",
+   "chave": "prov:2026-03-26:0.32999456225",
+   "registrado_em": "2026-10-24T20:22:35Z",
+   "historico": false
+  },
+  {
    "data": "2026-03-11",
    "tipo": "Release de resultados",
    "titulo": "Release de Resultados 4T25",
@@ -400,6 +450,16 @@
    "chave": "fr:024295IPE081220250136635412-79",
    "registrado_em": "2026-10-24T19:18:48Z",
    "historico": true
+  },
+  {
+   "data": "2025-11-25",
+   "tipo": "Proventos",
+   "titulo": "JSCP de R$ 850,0 mi (R$ 0,76345 por ação)",
+   "detalhe": "Data com 25/11/2025; pagamento em 16/12/2026; exercício de 2025.",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1449438&numSequencia=974150&numVersao=1",
+   "chave": "prov:2025-11-25:0.76344892045",
+   "registrado_em": "2026-10-24T20:22:35Z",
+   "historico": false
   },
   {
    "data": "2025-11-19",
@@ -512,6 +572,16 @@
    "historico": true
   },
   {
+   "data": "2025-04-16",
+   "tipo": "Proventos",
+   "titulo": "Dividendo de R$ 561,6 mi (R$ 0,50435 por ação)",
+   "detalhe": "Data com 16/04/2025; pagamento em 28/11/2025; exercício de 2024.",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1362115&numSequencia=886841&numVersao=1",
+   "chave": "prov:2025-04-16:0.50435328748",
+   "registrado_em": "2026-10-24T20:22:35Z",
+   "historico": false
+  },
+  {
    "data": "2025-03-10",
    "tipo": "Fato relevante",
    "titulo": "Saída do Capital Social da Zeg Biogás",
@@ -530,6 +600,16 @@
    "chave": "release:4T24",
    "registrado_em": "2026-10-24T19:18:48Z",
    "historico": true
+  },
+  {
+   "data": "2025-02-24",
+   "tipo": "Proventos",
+   "titulo": "JSCP de R$ 350,0 mi (R$ 0,31404 por ação)",
+   "detalhe": "Data com 21/03/2025; pagamento em 27/02/2026; exercício de 2025.",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1338704&numSequencia=863430&numVersao=1",
+   "chave": "prov:2025-03-21:0.31403898619",
+   "registrado_em": "2026-10-24T20:22:35Z",
+   "historico": false
   },
   {
    "data": "2025-02-24",
@@ -580,6 +660,36 @@
    "chave": "fr:024295IPE160120250104567311-73",
    "registrado_em": "2026-10-24T19:18:48Z",
    "historico": true
+  },
+  {
+   "data": "2024-12-19",
+   "tipo": "Proventos",
+   "titulo": "JSCP de R$ 292,0 mi (R$ 0,26200 por ação)",
+   "detalhe": "Data com 23/12/2024; pagamento em 29/08/2025; exercício de 2024.",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1317683&numSequencia=842409&numVersao=2",
+   "chave": "prov:2024-12-23:0.26199833017",
+   "registrado_em": "2026-10-24T20:22:35Z",
+   "historico": false
+  },
+  {
+   "data": "2024-12-19",
+   "tipo": "Proventos",
+   "titulo": "JSCP de R$ 262,0 mi (R$ 0,23499 por ação)",
+   "detalhe": "Data com 23/09/2024; pagamento em 30/05/2025; exercício de 2024.",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1317683&numSequencia=842409&numVersao=2",
+   "chave": "prov:2024-09-23:0.23499089814",
+   "registrado_em": "2026-10-24T20:22:35Z",
+   "historico": false
+  },
+  {
+   "data": "2024-12-19",
+   "tipo": "Proventos",
+   "titulo": "JSCP de R$ 520,7 mi (R$ 0,46685 por ação)",
+   "detalhe": "Data com 28/06/2024; pagamento em 27/02/2025; exercício de 2024.",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1317683&numSequencia=842409&numVersao=2",
+   "chave": "prov:2024-06-28:0.46684904167",
+   "registrado_em": "2026-10-24T20:22:35Z",
+   "historico": false
   },
   {
    "data": "2024-12-19",
@@ -832,6 +942,16 @@
    "historico": true
   },
   {
+   "data": "2024-04-18",
+   "tipo": "Proventos",
+   "titulo": "Dividendo de R$ 338,1 mi (R$ 0,30317 por ação)",
+   "detalhe": "Data com 18/04/2024; pagamento em 30/08/2024; exercício de 2023.",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1223379&numSequencia=748105&numVersao=2",
+   "chave": "prov:2024-04-18:0.30317400985",
+   "registrado_em": "2026-10-24T20:22:35Z",
+   "historico": false
+  },
+  {
    "data": "2024-04-08",
    "tipo": "Fato relevante",
    "titulo": "Vibra anuncia cancelamento de ações em tesouraria",
@@ -910,6 +1030,16 @@
    "chave": "fr:024295IPE191220230304527912-72",
    "registrado_em": "2026-10-24T19:18:48Z",
    "historico": true
+  },
+  {
+   "data": "2023-12-20",
+   "tipo": "Proventos",
+   "titulo": "JSCP de R$ 450,0 mi (R$ 0,40362 por ação)",
+   "detalhe": "Data com 22/12/2023; pagamento em 29/05/2024; exercício de 2023.",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1176070&numSequencia=700796&numVersao=2",
+   "chave": "prov:2023-12-22:0.40362074704",
+   "registrado_em": "2026-10-24T20:22:35Z",
+   "historico": false
   },
   {
    "data": "2023-12-20",
@@ -1173,6 +1303,16 @@
   },
   {
    "data": "2022-12-16",
+   "tipo": "Proventos",
+   "titulo": "JSCP de R$ 435,0 mi (R$ 0,39016 por ação)",
+   "detalhe": "Data com 21/12/2022; pagamento em 28/02/2023; exercício de 2022.",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1042266&numSequencia=566996&numVersao=1",
+   "chave": "prov:2022-12-21:0.39016209173",
+   "registrado_em": "2026-10-24T20:22:35Z",
+   "historico": false
+  },
+  {
+   "data": "2022-12-16",
    "tipo": "Fato relevante",
    "titulo": "Pagamento Juros sobre Capital Próprio",
    "detalhe": "",
@@ -1329,6 +1469,16 @@
    "link": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=115774",
    "chave": "fre:2021:v16",
    "registrado_em": "2026-10-24T19:36:27Z",
+   "historico": false
+  },
+  {
+   "data": "2022-05-18",
+   "tipo": "Proventos",
+   "titulo": "Dividendo de R$ 131,8 mi (R$ 0,11711 por ação)",
+   "detalhe": "Data com 28/04/2022; pagamento em 30/05/2022; exercício de 2021.",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=983209&numSequencia=507943&numVersao=1",
+   "chave": "prov:2022-04-28:0.117107099",
+   "registrado_em": "2026-10-24T20:22:35Z",
    "historico": false
   },
   {
@@ -1653,6 +1803,16 @@
   },
   {
    "data": "2021-04-26",
+   "tipo": "Proventos",
+   "titulo": "Dividendo de R$ 1.107,2 mi (R$ 0,95037 por ação)",
+   "detalhe": "Data com 15/04/2021; pagamento em 30/04/2021; exercício de 2020.",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=857542&numSequencia=382279&numVersao=2",
+   "chave": "prov:2021-04-15:0.95037041535",
+   "registrado_em": "2026-10-24T20:22:35Z",
+   "historico": false
+  },
+  {
+   "data": "2021-04-26",
    "tipo": "Formulário de Referência",
    "titulo": "Formulário de Referência 2020, versão 7",
    "detalhe": "",
@@ -1820,6 +1980,26 @@
    "chave": "fr:024295IPE110920200104408514-48",
    "registrado_em": "2026-10-24T19:18:48Z",
    "historico": true
+  },
+  {
+   "data": "2020-08-27",
+   "tipo": "Proventos",
+   "titulo": "Dividendo de R$ 49,9 mi (R$ 0,04280 por ação)",
+   "detalhe": "Data com 31/07/2020; pagamento em 01/09/2020; exercício de 2019.",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=788149&numSequencia=312888&numVersao=2",
+   "chave": "prov:2020-07-31:0.0428003741",
+   "registrado_em": "2026-10-24T20:22:35Z",
+   "historico": false
+  },
+  {
+   "data": "2020-08-27",
+   "tipo": "Proventos",
+   "titulo": "JSCP de R$ 551,8 mi (R$ 0,47364 por ação)",
+   "detalhe": "Data com 04/12/2019; pagamento em 01/09/2020; exercício de 2019.",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=788149&numSequencia=312888&numVersao=2",
+   "chave": "prov:2019-12-04:0.47363778576",
+   "registrado_em": "2026-10-24T20:22:35Z",
+   "historico": false
   },
   {
    "data": "2020-08-26",
@@ -2312,6 +2492,16 @@
    "historico": true
   },
   {
+   "data": "2019-05-29",
+   "tipo": "Proventos",
+   "titulo": "Dividendo de R$ 1.025,9 mi (R$ 0,88063 por ação)",
+   "detalhe": "Data com 24/04/2019; pagamento em 31/05/2019; exercício de 2018.",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=692912&numSequencia=219528&numVersao=1",
+   "chave": "prov:2019-04-24:0.88062848541",
+   "registrado_em": "2026-10-24T20:22:35Z",
+   "historico": false
+  },
+  {
    "data": "2019-05-28",
    "tipo": "Fato relevante",
    "titulo": "Conselho da Petrobras Distribuidora aprova nova diretoria executiva da companhia",
@@ -2390,6 +2580,16 @@
    "chave": "fr:024295IPE290420190104358411-65",
    "registrado_em": "2026-10-24T19:18:48Z",
    "historico": true
+  },
+  {
+   "data": "2019-04-26",
+   "tipo": "Proventos",
+   "titulo": "JSCP de R$ 575,3 mi (R$ 0,49381 por ação)",
+   "detalhe": "Data com 11/12/2018; pagamento em 30/04/2019; exercício de 2018.",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=683030&numSequencia=210816&numVersao=2",
+   "chave": "prov:2018-12-11:0.49381274351",
+   "registrado_em": "2026-10-24T20:22:35Z",
+   "historico": false
   },
   {
    "data": "2019-04-01",
@@ -2622,6 +2822,16 @@
    "historico": true
   },
   {
+   "data": "2018-08-29",
+   "tipo": "Proventos",
+   "titulo": "Dividendo de R$ 433,6 mi (R$ 0,38850 por ação)",
+   "detalhe": "Data com 25/04/2018; pagamento em 04/09/2018; exercício de 2017.",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=639500&numSequencia=172654&numVersao=1",
+   "chave": "prov:2018-04-25:0.38850186764",
+   "registrado_em": "2026-10-24T20:22:35Z",
+   "historico": false
+  },
+  {
    "data": "2018-08-10",
    "tipo": "Fato relevante",
    "titulo": "Divulgação da Fase Vinculante no processo de alienação nas empresas Pecém Energia S.A. e Energética Camaçari Muricy II S.A.",
@@ -2660,6 +2870,16 @@
    "chave": "df:2T18",
    "registrado_em": "2026-10-24T19:18:48Z",
    "historico": true
+  },
+  {
+   "data": "2018-07-18",
+   "tipo": "Proventos",
+   "titulo": "JSCP de R$ 658,5 mi (R$ 0,56527 por ação)",
+   "detalhe": "Data com 01/02/2018; pagamento em 19/07/2018; exercício de 2017.",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=633282&numSequencia=167223&numVersao=1",
+   "chave": "prov:2018-02-01:0.56527346761",
+   "registrado_em": "2026-10-24T20:22:35Z",
+   "historico": false
   },
   {
    "data": "2018-07-17",
@@ -2852,5 +3072,5 @@
    "historico": true
   }
  ],
- "atualizado_em": "2026-10-24T19:57:36Z"
+ "atualizado_em": "2026-10-24T20:22:35Z"
 }
