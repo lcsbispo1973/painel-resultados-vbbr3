@@ -214,6 +214,12 @@
   "fr:024295IPE310520190104361610-54",
   "fr:024295IPE310820180104334310-86",
   "fr:024295IPE311020180104340412-11",
+  "fre:2017:v8",
+  "fre:2018:v9",
+  "fre:2019:v17",
+  "fre:2020:v7",
+  "fre:2021:v16",
+  "fre:2022:v19",
   "fre:2023:v22",
   "fre:2024:v19",
   "fre:2025:v18",
@@ -1086,6 +1092,16 @@
    "historico": true
   },
   {
+   "data": "2023-05-10",
+   "tipo": "Formulário de Referência",
+   "titulo": "Formulário de Referência 2022, versão 19",
+   "detalhe": "",
+   "link": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126115",
+   "chave": "fre:2022:v19",
+   "registrado_em": "2026-10-24T19:36:27Z",
+   "historico": false
+  },
+  {
    "data": "2023-03-31",
    "tipo": "Fato relevante",
    "titulo": "Resultado do Leilão para Alienação da participação na ES Gás",
@@ -1304,6 +1320,16 @@
    "chave": "fr:024295IPE300520220104471112-58",
    "registrado_em": "2026-10-24T19:18:48Z",
    "historico": true
+  },
+  {
+   "data": "2022-05-26",
+   "tipo": "Formulário de Referência",
+   "titulo": "Formulário de Referência 2021, versão 16",
+   "detalhe": "",
+   "link": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=115774",
+   "chave": "fre:2021:v16",
+   "registrado_em": "2026-10-24T19:36:27Z",
+   "historico": false
   },
   {
    "data": "2022-05-16",
@@ -1626,6 +1652,16 @@
    "historico": true
   },
   {
+   "data": "2021-04-26",
+   "tipo": "Formulário de Referência",
+   "titulo": "Formulário de Referência 2020, versão 7",
+   "detalhe": "",
+   "link": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103075",
+   "chave": "fre:2020:v7",
+   "registrado_em": "2026-10-24T19:36:27Z",
+   "historico": false
+  },
+  {
    "data": "2021-03-23",
    "tipo": "Fato relevante",
    "titulo": "Mudança na Diretoria Executiva",
@@ -1864,6 +1900,16 @@
    "chave": "fr:024295IPE020720200104401412-22",
    "registrado_em": "2026-10-24T19:18:48Z",
    "historico": true
+  },
+  {
+   "data": "2020-06-25",
+   "tipo": "Formulário de Referência",
+   "titulo": "Formulário de Referência 2019, versão 17",
+   "detalhe": "",
+   "link": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94297",
+   "chave": "fre:2019:v17",
+   "registrado_em": "2026-10-24T19:36:27Z",
+   "historico": false
   },
   {
    "data": "2020-06-10",
@@ -2316,6 +2362,16 @@
    "historico": true
   },
   {
+   "data": "2019-05-06",
+   "tipo": "Formulário de Referência",
+   "titulo": "Formulário de Referência 2018, versão 9",
+   "detalhe": "",
+   "link": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82715",
+   "chave": "fre:2018:v9",
+   "registrado_em": "2026-10-24T19:36:27Z",
+   "historico": false
+  },
+  {
    "data": "2019-05-03",
    "tipo": "Fato relevante",
    "titulo": "Recebimento de Valores Referentes aos Instrumentos de Confissão de Dívidas com a Eletrobras",
@@ -2656,6 +2712,16 @@
    "historico": true
   },
   {
+   "data": "2018-05-08",
+   "tipo": "Formulário de Referência",
+   "titulo": "Formulário de Referência 2017, versão 8",
+   "detalhe": "",
+   "link": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=73899",
+   "chave": "fre:2017:v8",
+   "registrado_em": "2026-10-24T19:36:27Z",
+   "historico": false
+  },
+  {
    "data": "2018-05-04",
    "tipo": "Release de resultados",
    "titulo": "Earning Release - English||Earning Release - Português",
@@ -2786,5 +2852,5 @@
    "historico": true
   }
  ],
- "atualizado_em": "2026-10-24T19:29:51Z"
+ "atualizado_em": "2026-10-24T19:36:27Z"
 }

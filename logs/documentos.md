@@ -1,12 +1,10 @@
 # Documentos — última execução
 
-Executado em 2026-10-24 19:26 UTC
+Executado em 2026-10-24 19:32 UTC
 
 - vibra_df: 30 no índice, 0 novos, 0 falhas
-  - ERRO 2026-06-19 Distribuição de Dividendos/Juros sobre Capital Pró: não é PDF: b'\r\n\r\n<!DOCTYP'
-  - ERRO 2025-11-19 Remuneração aos Acionistas: não é PDF: b'\r\n\r\n<!DOCTYP'
-  - ERRO 2025-11-19 Remuneração aos Acionistas: não é PDF: b'\r\n\r\n<!DOCTYP'
-- vibra_proventos: 56 no índice, 12 novos, 3 falhas
+  - ERRO 2026-06-16 Remuneração aos Acionistas: não é PDF: b'\r\n\r\n<!DOCTYP'
+- vibra_proventos: 58 no índice, 14 novos, 1 falhas
 - vibra_rating: 17 no índice, 0 novos, 0 falhas
 - IPE Ultrapar: 890 documentos
 - ultrapar_rel: 40 no índice, 0 novos, 0 falhas

@@ -1,6 +1,6 @@
 {
  "grupo": "vibra_proventos",
- "atualizado_em": "2026-10-24T19:27:08Z",
+ "atualizado_em": "2026-10-24T19:33:14Z",
  "documentos": [
   {
    "protocolo": "024295IPE140820260130936892-28",
@@ -33,14 +33,14 @@
    "arquivo": "2026-06-22_024295IPE220620260102890340-95.txt"
   },
   {
-   "protocolo": "024295IPE150620260246901306-31",
-   "data_entrega": "2026-06-16",
+   "protocolo": "024295IPE150620260163409854-91",
+   "data_entrega": "2026-06-19",
    "data_referencia": "2026-06-15",
-   "categoria": "Comunicado ao Mercado",
-   "tipo": "Outros Comunicados Não Considerados Fatos Relevantes",
-   "assunto": "Remuneração aos Acionistas",
-   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1534899&numSequencia=1059605&numVersao=2",
-   "arquivo": "2026-06-16_024295IPE150620260246901306-31.txt"
+   "categoria": "Reunião da Administração",
+   "tipo": "Conselho de Administração",
+   "assunto": "Distribuição de Dividendos/Juros sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1536488&numSequencia=1061194&numVersao=1",
+   "arquivo": "2026-06-19_024295IPE150620260163409854-91.txt"
   },
   {
    "protocolo": "024295IPE150620260113255505-08",
@@ -83,6 +83,16 @@
    "arquivo": "2025-11-25_024295IPE251120250174082949-40.txt"
   },
   {
+   "protocolo": "024295IPE191120250223822819-08",
+   "data_entrega": "2025-11-19",
+   "data_referencia": "2025-11-19",
+   "categoria": "Aviso aos Acionistas",
+   "tipo": "Outros avisos",
+   "assunto": "Remuneração aos Acionistas",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1447647&numSequencia=972359&numVersao=2",
+   "arquivo": "2025-11-19_024295IPE191120250223822819-08.txt"
+  },
+  {
    "protocolo": "024295IPE191120250183048334-58",
    "data_entrega": "2025-11-19",
    "data_referencia": "2025-11-19",
@@ -91,6 +101,16 @@
    "assunto": "Remuneração aos Acionistas",
    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1447586&numSequencia=972298&numVersao=1",
    "arquivo": "2025-11-19_024295IPE191120250183048334-58.txt"
+  },
+  {
+   "protocolo": "024295IPE191120250134097034-17",
+   "data_entrega": "2025-11-19",
+   "data_referencia": "2025-11-19",
+   "categoria": "Fato Relevante",
+   "tipo": "",
+   "assunto": "Remuneração aos Acionistas",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1447585&numSequencia=972297&numVersao=1",
+   "arquivo": "2025-11-19_024295IPE191120250134097034-17.txt"
   },
   {
    "protocolo": "024295IPE160420250190391321-43",
