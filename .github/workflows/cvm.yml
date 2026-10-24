@@ -15,11 +15,9 @@ on:
       - 'docs/**'
       - '.github/workflows/cvm.yml'
   schedule:
-    # horários em UTC; em Brasília: dias úteis às 07:17 (dados da CVM da madrugada e cotação do dia anterior)
-    # e às 21:17 (releases e comunicados divulgados após o pregão); fins de semana às 09:17
-    - cron: '17 10 * * 1-5'
-    - cron: '17 0 * * 2-6'
-    - cron: '17 12 * * 0,6'
+    # horários em UTC; em Brasília, todos os dias: 07:17 (manhã), 14:17 (tarde) e 21:17 (noite, após o pregão)
+    - cron: '17 10,17 * * *'
+    - cron: '17 0 * * *'
 
 permissions:
   contents: write
