@@ -1,0 +1,18 @@
+Execução (UTC): 2026-10-24T14:26:11Z
+
+== Códigos HTTP ==
+200  https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/DFP/DADOS/
+200  https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/ITR/DADOS/
+200  https://ri.vibraenergia.com.br/divulgacao-e-resultados/central-de-resultados/
+200  https://ri.vibraenergia.com.br/informacoes-financeiras/planilhas-interativas/
+
+== Arquivos mais recentes de ITR e DFP na CVM ==
+itr_cia_aberta_2024.zip
+itr_cia_aberta_2025.zip
+itr_cia_aberta_2026.zip
+dfp_cia_aberta_2024.zip
+dfp_cia_aberta_2025.zip
+dfp_cia_aberta_2026.zip
+
+== Links de arquivos no HTML da Central de Resultados (mziq) ==
+(fim)
