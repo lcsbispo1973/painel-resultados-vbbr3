@@ -1,0 +1,376 @@
+{
+ "grupo": "vibra_proventos",
+ "atualizado_em": "2026-10-24T18:02:09Z",
+ "documentos": [
+  {
+   "protocolo": "024295IPE140820260175866648-90",
+   "data_entrega": "2026-08-14",
+   "data_referencia": "2026-08-14",
+   "categoria": "Comunicado ao Mercado",
+   "tipo": "Outros Comunicados Não Considerados Fatos Relevantes",
+   "assunto": "Juros sobre o Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1558291&numSequencia=1082997&numVersao=1",
+   "arquivo": "2026-08-14_024295IPE140820260175866648-90.txt"
+  },
+  {
+   "protocolo": "024295IPE220620260102890340-95",
+   "data_entrega": "2026-06-22",
+   "data_referencia": "2026-06-22",
+   "categoria": "Aviso aos Acionistas",
+   "tipo": "Outros avisos",
+   "assunto": "Dividendos/Juros sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1537230&numSequencia=1061936&numVersao=1",
+   "arquivo": "2026-06-22_024295IPE220620260102890340-95.txt"
+  },
+  {
+   "protocolo": "024295IPE160420250190391321-43",
+   "data_entrega": "2025-04-16",
+   "data_referencia": "2025-04-16",
+   "categoria": "Aviso aos Acionistas",
+   "tipo": "Outros avisos",
+   "assunto": "Vibra aprova pagamento de dividendos",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1362115&numSequencia=886841&numVersao=1",
+   "arquivo": "2025-04-16_024295IPE160420250190391321-43.txt"
+  },
+  {
+   "protocolo": "024295IPE240220250104571211-90",
+   "data_entrega": "2025-02-24",
+   "data_referencia": "2025-02-24",
+   "categoria": "Fato Relevante",
+   "tipo": "",
+   "assunto": "Vibra Aprova Pagamento de Juros Sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1338704&numSequencia=863430&numVersao=1",
+   "arquivo": "2025-02-24_024295IPE240220250104571211-90.txt"
+  },
+  {
+   "protocolo": "024295IPE181220240204564411-64",
+   "data_entrega": "2024-12-19",
+   "data_referencia": "2024-12-18",
+   "categoria": "Fato Relevante",
+   "tipo": "",
+   "assunto": "Aprovação de pagamento de JCP",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1317683&numSequencia=842409&numVersao=2",
+   "arquivo": "2024-12-19_024295IPE181220240204564411-64.txt"
+  },
+  {
+   "protocolo": "024295IPE181220240104564411-64",
+   "data_entrega": "2024-12-18",
+   "data_referencia": "2024-12-18",
+   "categoria": "Fato Relevante",
+   "tipo": "",
+   "assunto": "Aprovação de pagamento de JCP",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1317227&numSequencia=841953&numVersao=1",
+   "arquivo": "2024-12-18_024295IPE181220240104564411-64.txt"
+  },
+  {
+   "protocolo": "024295IPE230920240204555810-84",
+   "data_entrega": "2024-10-04",
+   "data_referencia": "2024-09-23",
+   "categoria": "Aviso aos Acionistas",
+   "tipo": "Outros avisos",
+   "assunto": "Pagamento de Juros Sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1288619&numSequencia=813345&numVersao=2",
+   "arquivo": "2024-10-04_024295IPE230920240204555810-84.txt"
+  },
+  {
+   "protocolo": "024295IPE230920240104555810-84",
+   "data_entrega": "2024-09-23",
+   "data_referencia": "2024-09-23",
+   "categoria": "Aviso aos Acionistas",
+   "tipo": "Outros avisos",
+   "assunto": "Pagamento de Juros Sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1284403&numSequencia=809129&numVersao=1",
+   "arquivo": "2024-09-23_024295IPE230920240104555810-84.txt"
+  },
+  {
+   "protocolo": "024295IPE180920240104555312-83",
+   "data_entrega": "2024-09-18",
+   "data_referencia": "2024-09-18",
+   "categoria": "Fato Relevante",
+   "tipo": "",
+   "assunto": "Vibra Aprova Pagamento de Juros Sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1283480&numSequencia=808206&numVersao=1",
+   "arquivo": "2024-09-18_024295IPE180920240104555312-83.txt"
+  },
+  {
+   "protocolo": "024295IPE250620240204546811-37",
+   "data_entrega": "2024-06-27",
+   "data_referencia": "2024-06-25",
+   "categoria": "Fato Relevante",
+   "tipo": "",
+   "assunto": "Vibra Aprova Pagamento de Juros Sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1254083&numSequencia=778809&numVersao=2",
+   "arquivo": "2024-06-27_024295IPE250620240204546811-37.txt"
+  },
+  {
+   "protocolo": "024295IPE200520240104543212-87",
+   "data_entrega": "2024-05-20",
+   "data_referencia": "2024-05-20",
+   "categoria": "Aviso aos Acionistas",
+   "tipo": "Outros avisos",
+   "assunto": "Data do Pagamento de Juros sobre Capital Próprio e Dividendos",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1240542&numSequencia=765268&numVersao=1",
+   "arquivo": "2024-05-20_024295IPE200520240104543212-87.txt"
+  },
+  {
+   "protocolo": "024295IPE180420240204540011-07",
+   "data_entrega": "2024-04-18",
+   "data_referencia": "2024-04-18",
+   "categoria": "Aviso aos Acionistas",
+   "tipo": "Outros avisos",
+   "assunto": "Dividendos/Juros sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1223379&numSequencia=748105&numVersao=2",
+   "arquivo": "2024-04-18_024295IPE180420240204540011-07.txt"
+  },
+  {
+   "protocolo": "024295IPE180420240104540011-07",
+   "data_entrega": "2024-04-18",
+   "data_referencia": "2024-04-18",
+   "categoria": "Aviso aos Acionistas",
+   "tipo": "Outros avisos",
+   "assunto": "Dividendos/Juros sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1223353&numSequencia=748079&numVersao=1",
+   "arquivo": "2024-04-18_024295IPE180420240104540011-07.txt"
+  },
+  {
+   "protocolo": "024295IPE191220230204527912-72",
+   "data_entrega": "2023-12-20",
+   "data_referencia": "2023-12-19",
+   "categoria": "Fato Relevante",
+   "tipo": "",
+   "assunto": "Novo pagamento de Juros sobre o Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1176070&numSequencia=700796&numVersao=2",
+   "arquivo": "2023-12-20_024295IPE191220230204527912-72.txt"
+  },
+  {
+   "protocolo": "024295IPE191220230104527912-72",
+   "data_entrega": "2023-12-19",
+   "data_referencia": "2023-12-19",
+   "categoria": "Fato Relevante",
+   "tipo": "",
+   "assunto": "Novo pagamento de Juros sobre o Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1175636&numSequencia=700362&numVersao=1",
+   "arquivo": "2023-12-19_024295IPE191220230104527912-72.txt"
+  },
+  {
+   "protocolo": "024295IPE180920230104518712-04",
+   "data_entrega": "2023-09-18",
+   "data_referencia": "2023-09-18",
+   "categoria": "Fato Relevante",
+   "tipo": "",
+   "assunto": "Vibra aprova pagamento de Juros sobre o Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1144088&numSequencia=668816&numVersao=1",
+   "arquivo": "2023-09-18_024295IPE180920230104518712-04.txt"
+  },
+  {
+   "protocolo": "024295IPE220820230104516013-49",
+   "data_entrega": "2023-08-22",
+   "data_referencia": "2023-08-22",
+   "categoria": "Comunicado ao Mercado",
+   "tipo": "Outros Comunicados Não Considerados Fatos Relevantes",
+   "assunto": "Recebimento de Dividendos ES Gás",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1136450&numSequencia=661179&numVersao=1",
+   "arquivo": "2023-08-22_024295IPE220820230104516013-49.txt"
+  },
+  {
+   "protocolo": "024295IPE161220220104491111-38",
+   "data_entrega": "2022-12-16",
+   "data_referencia": "2022-12-16",
+   "categoria": "Fato Relevante",
+   "tipo": "",
+   "assunto": "Pagamento Juros sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1042266&numSequencia=566996&numVersao=1",
+   "arquivo": "2022-12-16_024295IPE161220220104491111-38.txt"
+  },
+  {
+   "protocolo": "024295IPE160920220104482011-69",
+   "data_entrega": "2022-09-16",
+   "data_referencia": "2022-09-16",
+   "categoria": "Fato Relevante",
+   "tipo": "",
+   "assunto": "Vibra aprova pagamento de Juros sobre o Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1016203&numSequencia=540937&numVersao=1",
+   "arquivo": "2022-09-16_024295IPE160920220104482011-69.txt"
+  },
+  {
+   "protocolo": "024295IPE160920220104482011-61",
+   "data_entrega": "2022-09-16",
+   "data_referencia": "2022-09-16",
+   "categoria": "Fato Relevante",
+   "tipo": "",
+   "assunto": "Vibra aprova nova política de distribuição de dividendos",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1016197&numSequencia=540931&numVersao=1",
+   "arquivo": "2022-09-16_024295IPE160920220104482011-61.txt"
+  },
+  {
+   "protocolo": "024295IPE180520220104469911-63",
+   "data_entrega": "2022-05-18",
+   "data_referencia": "2022-05-18",
+   "categoria": "Aviso aos Acionistas",
+   "tipo": "Outros avisos",
+   "assunto": "Dividendos/Juros sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=983209&numSequencia=507943&numVersao=1",
+   "arquivo": "2022-05-18_024295IPE180520220104469911-63.txt"
+  },
+  {
+   "protocolo": "024295IPE141220210104454412-64",
+   "data_entrega": "2021-12-14",
+   "data_referencia": "2021-12-14",
+   "categoria": "Aviso aos Acionistas",
+   "tipo": "Outros avisos",
+   "assunto": "Dividendos/Juros sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=925988&numSequencia=450722&numVersao=1",
+   "arquivo": "2021-12-14_024295IPE141220210104454412-64.txt"
+  },
+  {
+   "protocolo": "024295IPE081220210104453813-82",
+   "data_entrega": "2021-12-08",
+   "data_referencia": "2021-12-08",
+   "categoria": "Aviso aos Acionistas",
+   "tipo": "Outros avisos",
+   "assunto": "Dividendos/Juros sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=923690&numSequencia=448424&numVersao=1",
+   "arquivo": "2021-12-08_024295IPE081220210104453813-82.txt"
+  },
+  {
+   "protocolo": "024295IPE290720210104440612-74",
+   "data_entrega": "2021-07-29",
+   "data_referencia": "2021-07-29",
+   "categoria": "Fato Relevante",
+   "tipo": "",
+   "assunto": "BR Distribuidora aprova pagamento de Juros sobre o Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=887556&numSequencia=412293&numVersao=1",
+   "arquivo": "2021-07-29_024295IPE290720210104440612-74.txt"
+  },
+  {
+   "protocolo": "024295IPE080120210104420411-19",
+   "data_entrega": "2021-01-08",
+   "data_referencia": "2021-01-08",
+   "categoria": "Aviso aos Acionistas",
+   "tipo": "Outros avisos",
+   "assunto": "Dividendos/Juros sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=821522&numSequencia=346260&numVersao=1",
+   "arquivo": "2021-01-08_024295IPE080120210104420411-19.txt"
+  },
+  {
+   "protocolo": "024295IPE161220200104418213-01",
+   "data_entrega": "2020-12-17",
+   "data_referencia": "2020-12-16",
+   "categoria": "Fato Relevante",
+   "tipo": "",
+   "assunto": "BR Distribuidora aprova pagamento de Juros sobre o Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=817783&numSequencia=342521&numVersao=1",
+   "arquivo": "2020-12-17_024295IPE161220200104418213-01.txt"
+  },
+  {
+   "protocolo": "024295IPE250920200104409912-27",
+   "data_entrega": "2020-09-25",
+   "data_referencia": "2020-09-25",
+   "categoria": "Aviso aos Acionistas",
+   "tipo": "Outros avisos",
+   "assunto": "Dividendos/Juros sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=795381&numSequencia=320119&numVersao=1",
+   "arquivo": "2020-09-25_024295IPE250920200104409912-27.txt"
+  },
+  {
+   "protocolo": "024295IPE260820200204406913-95",
+   "data_entrega": "2020-08-27",
+   "data_referencia": "2020-08-26",
+   "categoria": "Aviso aos Acionistas",
+   "tipo": "Outros avisos",
+   "assunto": "Dividendos/Juros sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=788149&numSequencia=312888&numVersao=2",
+   "arquivo": "2020-08-27_024295IPE260820200204406913-95.txt"
+  },
+  {
+   "protocolo": "024295IPE280720200304404011-05",
+   "data_entrega": "2020-07-29",
+   "data_referencia": "2020-07-28",
+   "categoria": "Aviso aos Acionistas",
+   "tipo": "Outros avisos",
+   "assunto": "Dividendos/Juros sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=779004&numSequencia=303745&numVersao=3",
+   "arquivo": "2020-07-29_024295IPE280720200304404011-05.txt"
+  },
+  {
+   "protocolo": "024295IPE090620200104399113-56",
+   "data_entrega": "2020-06-09",
+   "data_referencia": "2020-06-09",
+   "categoria": "Fato Relevante",
+   "tipo": "",
+   "assunto": "Adiamento da data de Pagamento dos Juros Sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=767722&numSequencia=292473&numVersao=1",
+   "arquivo": "2020-06-09_024295IPE090620200104399113-56.txt"
+  },
+  {
+   "protocolo": "024295IPE291120190204379811-66",
+   "data_entrega": "2019-11-29",
+   "data_referencia": "2019-11-29",
+   "categoria": "Fato Relevante",
+   "tipo": "",
+   "assunto": "Petrobras Distribuidora aprova pagamento de Juros sobre o Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=723620&numSequencia=248441&numVersao=2",
+   "arquivo": "2019-11-29_024295IPE291120190204379811-66.txt"
+  },
+  {
+   "protocolo": "024295IPE251020190304376314-63",
+   "data_entrega": "2019-10-28",
+   "data_referencia": "2019-10-25",
+   "categoria": "Aviso aos Acionistas",
+   "tipo": "Outros avisos",
+   "assunto": "Dividendos/Juros sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=717840&numSequencia=242645&numVersao=3",
+   "arquivo": "2019-10-28_024295IPE251020190304376314-63.txt"
+  },
+  {
+   "protocolo": "024295IPE290520190104361409-69",
+   "data_entrega": "2019-05-29",
+   "data_referencia": "2019-05-29",
+   "categoria": "Aviso aos Acionistas",
+   "tipo": "Outros avisos",
+   "assunto": "Dividendos/Juros sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=692912&numSequencia=219528&numVersao=1",
+   "arquivo": "2019-05-29_024295IPE290520190104361409-69.txt"
+  },
+  {
+   "protocolo": "024295IPE260420190204358112-16",
+   "data_entrega": "2019-04-26",
+   "data_referencia": "2019-04-26",
+   "categoria": "Aviso aos Acionistas",
+   "tipo": "Outros avisos",
+   "assunto": "Dividendos/Juros sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=683030&numSequencia=210816&numVersao=2",
+   "arquivo": "2019-04-26_024295IPE260420190204358112-16.txt"
+  },
+  {
+   "protocolo": "024295IPE301120180104343411-80",
+   "data_entrega": "2018-11-30",
+   "data_referencia": "2018-11-30",
+   "categoria": "Fato Relevante",
+   "tipo": "",
+   "assunto": "Pagamento de Juros sobre o Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=653945&numSequencia=185148&numVersao=1",
+   "arquivo": "2018-11-30_024295IPE301120180104343411-80.txt"
+  },
+  {
+   "protocolo": "024295IPE180720180104329908-04",
+   "data_entrega": "2018-07-18",
+   "data_referencia": "2018-07-18",
+   "categoria": "Aviso aos Acionistas",
+   "tipo": "Outros avisos",
+   "assunto": "Dividendos/Juros sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=633282&numSequencia=167223&numVersao=1",
+   "arquivo": "2018-07-18_024295IPE180720180104329908-04.txt"
+  },
+  {
+   "protocolo": "024295IPE290120180104312904-99",
+   "data_entrega": "2018-01-29",
+   "data_referencia": "2018-01-29",
+   "categoria": "Fato Relevante",
+   "tipo": "",
+   "assunto": "Juros sobre capital próprio / Distribution of interest on net equity",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=594581&numSequencia=137377&numVersao=1",
+   "arquivo": "2018-01-29_024295IPE290120180104312904-99.txt"
+  }
+ ]
+}

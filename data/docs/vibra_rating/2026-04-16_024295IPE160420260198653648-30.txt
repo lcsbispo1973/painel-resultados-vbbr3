@@ -1,0 +1,535 @@
+Tear Sheet:
+
+Vibra Energia S.A.
+
+April 16, 2026
+
+
+(Editor's Note: S&P Global Ratings believes there is a high degree of unpredictability around the duration and scale of the Middle       Primary Contact
+East war, and its potential effect on commodity prices, supply chains, economies, and credit conditions. As a result, our baseline
+forecasts carry a significant amount of uncertainty. As situations evolve, we will gauge the macro and credit materiality of potential
+                                                                                                                                         Matheus H Cortes
+shifts and reassess our guidance accordingly.)
+                                                                                                                                         Sao Paulo
+This report does not constitute a rating action.                                                                                         55-11-3039-9775
+                                                                                                                                         matheus.cortes
+War in the Middle East is causing volatility in global oil supply, affecting prices at the pump.                                         @spglobal.com
+S&P Global Ratings' base case assumes the war’s intensity will peak and the Strait of Hormuz’s
+effective closure will ease during April, but some disruptions are likely to persist for months,                                         Secondary Contact
+affecting prices. Brent oil prices have increased around 50% since the war started, and we
+                                                                                                                                         Flavia M Bedran
+assume prices per barrel will average $85 for the rest of 2026 and $70 in 2027.                                                          Sao Paulo
+                                                                                                                                         55-11-3039-9758
+Although Petrobras (BB/Stable/--) continues to soften the volatility of international oil prices with
+                                                                                                                                         flavia.bedran
+adjustments consistent with its pricing policy, market prices have increased, especially for diesel
+                                                                                                                                         @spglobal.com
+(up 23% year-to-date per the Brazilian National Agency of Petroleum, Natural Gas, and Biofuels),
+which is 25%-30% imported. Gasoline is also up (8% year-to-date), supporting Vibra’s top line
+results.
+
+Vibra also benefits from higher volumes, boosting margins in 2026. Vibra procures about 80% of
+its fuel from Petrobras at comparatively stable, lower prices. It also retains the flexibility to adjust
+retail pricing in line with competitors, supporting margin expansion while managing market share
+gains. These also benefit from continued regulatory advancements and governmental scrutiny of
+the domestic market supporting a healthier competitive environment.
+
+We forecast the company's recurrent EBITDA margin per cubic meter will be Brazilian real (R$) 191
+in 2026 and around R$180 in 2027, up from R$151.2 in 2025. This would resulting in adjusted
+EBITDA of R$7.5 billion--up significantly from R$5.6 billion in 2025, though slightly below our prior
+expectation due to last year’s slower-than-anticipated margin expansion (mainly in the first half).
+
+Stronger EBITDA and efforts to improve cash flow will strengthen metrics. We project debt to
+EBITDA leverage will decline to 2.4x in 2026 and below 2.0x in 2027 and FFO to debt will increase
+to 26.4% and 36.5%. While 2025 leverage was higher than we initially projected, it consistently
+improved throughout the year to end at 3.6x after it peaked at 4.3x in June. This owed to stronger
+EBITDA and cash flow, supported by the company’s focus on optimizing working capital,
+particularly through stricter inventory management amid volatile prices.
+
+We expect capital expenditure of R$1.9 billion in 2026 and R$1.8 billion in 2027, down from R$2.1
+billion in 2025, as Vibra completes projects, allowing for FOCF of R$3.3 billion in 2026 and R$5.0
+billion in 2027. We expect dividends to remain 40% of prior-year net income in the next two years.
+
+
+
+www.spglobal.com/ratingsdirect                                                                                                                           April 16, 2026   1
+Vibra Energia S.A.
+
+
+
+
+Ratings Score Snapshot
+Business risk: Satisfactory                           Anchor               SACP        ICR   Issuer credit rating
+                                                       bbb-                bbb-       BBB-
+
+Vulnerable                          Excellent
+
+
+
+
+                                                                                             BBB-/Stable/--
+Financial risk: Significant
+
+
+Highly                                Minimal                  Modifiers     Group/Gov't
+leveraged
+
+ICR--Issuer credit rating. SACP--Stand-alone credit profile.
+
+
+
+
+Recent Research
+• S&P Global Ratings Raises WTI and Brent Price Assumptions Amid Uncertainty Following
+  Announced Ceasefire, April 10, 2026
+
+• Vibra Energia S.A. Assigned 'BBB-' Issuer Credit Rating; Outlook Stable, Sept. 23, 2025
+
+
+Company Description
+Vibra is Brazil’s leading fuel distributor, operating through a network of more than 7,500 service
+centers, close to 1,400 convenience stores, and a sizable logistics framework. This frame includes
+41 owned operating bases, stakes in 13 joint bases (pools with partners), 28 joint storage facilities
+with other distributors, and 14 logistics operators, totaling 96 operational units. Vibra also has
+one lubricant industrial plant (the largest in Latin America), 11 lubricant depots, six lubricant
+logistics operators, and operates in 94 airports and 10 ports throughout Brazil's five regions. In
+2025, the company sold 35.9 million cubic meters of fuel.
+
+Vibra operates using the Petrobras brands, through a license agreement through 2029, and with
+proprietary brands, such as BR Mania and Lubrax. In addition, through wholly owned subsidiary
+Comerc, Vibra owns 2.2 gigawatts of renewable capacity, operating both centralized and
+distributed energy, energy trading, and energy solutions.
+
+Vibra is a publicly traded company. Its largest shareholders are José Odvar Lopes, through Fundo
+Infiniti JL, with close to a 12% stake, followed by Dynamo (9.99%), Previ (5.24%), Blackrock
+(5.22%), and Lazard Asset Management (5.0%). José Odvar and Previ are the only shareholders
+that hold seats on the executive board.
+
+
+Outlook
+The stable outlook reflects our view that Vibra will continue to benefit from favorable market
+dynamics for its distribution business, with higher volumes and prices increasing margins. At the
+same time, we expect the company to focus on improving results and capturing synergies at
+Comerc’s level. We expect net adjusted leverage to decline to 2.0x-2.5x by year-end 2026 and
+improve in subsequent years from consistent EBITDA and cash flow.
+
+
+
+
+www.spglobal.com/ratingsdirect                                                                                      April 16, 2026   2
+Vibra Energia S.A.
+
+
+
+The outlook also incorporates our expectation that cash sources will continue to exceed uses by
+more than 1.2x and will be sufficient for Vibra to pass the stress test to be rated above Brazil
+(BB/Stable/B).
+
+Downside scenario
+We could lower our ratings on Vibra if:
+
+• We take a similar rating action on Brazil, because we believe the company can be rated only up
+  to two notches above the Brazilian sovereign, given its high sensitivity to the domestic
+  economy.
+
+• Higher competition in the fuel distribution segment and inventory volatility hurt volumes and
+  cash flow, restricting the company’s ability to maintain improvements in EBITDA and leverage
+  ratios, with adjusted debt to EBITDA consistently close to or above 3.0x and funds from
+  operations (FFO) to debt below 20%.
+
+• The company adopts a more aggressive approach to capital allocation, mostly toward mergers
+  and acquisitions or shareholders’ remuneration, which would pressure free operating cash
+  flow (FOCF) and Vibra’s liquidity, potentially limiting its ability to be rated above the Brazilian
+  sovereign.
+
+Upside scenario
+A positive rating action on Vibra would depend on a similar action on Brazil coupled with an
+upward revision of Vibra's stand-alone credit profile. An upgrade of Vibra would also depend on
+the company’s ability to maintain growing margins in an economic downturn. In such a scenario,
+we would need to see Vibra maintaining debt to EBITDA consistently below 1.5x and consistent
+FOCF throughout the cycles, even amid potential higher capital expenditure and dividend
+payouts.
+
+
+Key Metrics
+Vibra Energia S.A.--Forecast summary
+
+Period ending       Dec-31-2022 Dec-31-2023 Dec-31-2024 Dec-31-2025 Dec-31-2026 Dec-31-2027 Dec-31-2028 Dec-31-2029
+
+(Mil. BRL)               2022a         2023a      2024a      2025a       2026e        2027f       2028f       2029f
+
+Revenue                 181,446     162,947      172,272    189,256    233,449     226,635     230,835      239,214
+
+Gross profit             8,042         8,915      8,795       9,627      12,952      12,749      13,309      13,848
+
+EBITDA                    4,514        8,097      9,323      5,894        8,161      8,087       8,555        8,919
+(reported)
+
+  Plus: Operating            --            --         --         --          --          --           --         --
+  lease
+  adjustment
+  (OLA) rent
+
+  Plus/(less):           (1,091)       (3,491)   (3,999)      (255)       (700)       (700)        (700)      (700)
+  Other
+
+EBITDA                   3,423         4,606      5,324      5,639        7,461       7,387       7,855       8,219
+
+  Less: Cash              (943)        (1,447)    (1,314)    (2,613)     (2,738)     (2,175)      (1,814)    (1,569)
+  interest paid
+
+  Less: Cash              (478)          (52)       (64)      (462)        (30)        (34)         (40)       (43)
+  taxes paid
+
+  Plus/(less):               --            --         --         --          --          --           --         --
+  Other
+
+
+
+
+www.spglobal.com/ratingsdirect                                                                                         April 16, 2026   3
+Vibra Energia S.A.
+
+
+
+Vibra Energia S.A.--Forecast summary
+
+Funds from              2,002           3,107     3,946      2,564     4,693     5,178     6,001     6,607
+operations (FFO)
+
+EBIT                    3,140          4,500       5,515     5,304     6,511     6,567     7,020     7,226
+
+Interest expense        1,234           1,480      1,450     2,800     2,738     2,175     1,814     1,569
+
+Cash flow from          1,017           5,516      3,139     4,775     5,276    6,780      5,888     6,723
+operations (CFO)
+
+Capital                  1,371          1,321      1,432     2,070     1,906     1,800     1,865     1,934
+expenditure
+(capex)
+
+Free operating           (354)          4,195      1,707     2,705     3,370    4,980      4,022     4,789
+cash flow (FOCF)
+
+Dividends                490              401      1,528     1,547      792      1,389     2,372     3,210
+
+Share                    234               --        29         47        --        --        --        --
+repurchases
+(reported)
+
+Discretionary          (1,078)          3,794        150      1,111    2,579     3,591     1,650     1,579
+cash flow (DCF)
+
+Debt (reported)        16,557          14,770    20,449     22,365    20,582    18,721    15,564    13,564
+
+  Plus: Lease            834             748        359        851       851       851       851       851
+  liabilities debt
+
+  Plus: Pension          508             784        475       779       779       779       779       779
+  and other
+  postretirement
+  debt
+
+  Less:                (4,145)         (6,666)   (10,480)   (3,647)   (4,443)   (6,173)   (4,666)   (4,245)
+  Accessible
+  cash and liquid
+  Investments
+
+  Plus/(less):              --             --         --        --        --        --        --        --
+  Other
+
+Debt                   13,754          9,636     10,803     20,348    17,769    14,178    12,528    10,949
+
+Equity                 12,613          15,731    20,385     20,741    23,422    25,987    28,200    29,926
+
+FOCF (adjusted           (542)          4,126      1,602     2,693     3,370    4,980      4,022     4,789
+for lease capex)
+
+Interest expense        1,142           1,389      1,341     2,713     2,738     2,175     1,814     1,569
+(reported)
+
+Capex (reported)          727            742       1,134     1,452     1,906     1,800     1,865     1,934
+
+Cash and short-         4,145          6,666     10,480      3,647     4,443     6,173     4,666     4,245
+term
+investments
+(reported)
+
+Adjusted ratios
+
+Debt/EBITDA (x)           4.0             2.1        2.0       3.6       2.4       1.9       1.6       1.3
+
+FFO/debt (%)             14.6            32.2       36.5      12.6      26.4      36.5      47.9      60.3
+
+FFO cash                   3.1            3.1        4.0       2.0       2.7       3.4       4.3       5.2
+interest coverage
+(x)
+
+EBITDA interest           2.8             3.1        3.7       2.0       2.7       3.4       4.3       5.2
+coverage (x)
+
+CFO/debt (%)              7.4            57.2       29.1      23.5      29.7      47.8      47.0      61.4
+
+FOCF/debt (%)            (2.6)           43.5       15.8      13.3      19.0      35.1      32.1      43.7
+
+DCF/debt (%)             (7.8)           39.4        1.4       5.5      14.5      25.3      13.2      14.4
+
+
+
+
+www.spglobal.com/ratingsdirect                                                                                April 16, 2026   4
+Vibra Energia S.A.
+
+
+
+Vibra Energia S.A.--Forecast summary
+
+Lease capex-                 (3.9)         42.8            14.8             13.2           19.0           35.1              32.1      43.7
+adjusted
+FOCF/debt (%)
+
+Annual revenue              39.4           (10.2)           5.7             9.9           23.4            (2.9)              1.9       3.6
+growth (%)
+
+Gross margin (%)              4.4           5.5              5.1             5.1            5.5            5.6              5.8        5.8
+
+EBITDA margin                 1.9           2.8              3.1            3.0             3.2            3.3              3.4        3.4
+(%)
+
+Return on capital            12.7           17.4           19.5             14.7           15.8           16.1              17.4      17.7
+(%)
+
+Return on total               8.4          10.6            11.9             9.6            10.3           10.1              10.8      11.0
+assets (%)
+
+EBITDA/cash                   3.6           3.2              4.1            2.2             2.7            3.4              4.3        5.2
+interest (x)
+
+EBIT interest                 2.5           3.0             3.8              1.9            2.4            3.0              3.9        4.6
+coverage (x)
+
+Debt/debt and               52.2           38.0           34.6             49.5            43.1           35.3           30.8         26.8
+equity (%)
+
+Debt fixed-                   2.8            3.1            3.7             2.0             1.7            1.8               1.6       2.3
+charge coverage
+(x)
+
+Debt/debt and               52.2           38.0           34.6             49.5            43.1           35.3           30.8         26.8
+undepreciated
+equity (%)
+
+All figures are adjusted by S&P Global Ratings, unless stated as reported. a--Actual. e--Estimate. f--Forecast. R$--Brazilian real.
+
+
+
+
+Liquidity
+We continue to view Vibra’s liquidity as adequate. We forecast its cash sources-over-uses ratio to
+be above 2.0x in 2026, along with a positive A-B ratio, even if EBITDA were to decline 15% from our
+base-case scenario. Such factors, combined with our expectations of solid cash FFO generation
+supported by the current operational environment and recurrent liability management, should be
+more than enough to support Vibra’s expected investments, working capital outflows, and
+dividends.
+
+The company has maintained a solid cash position in recent years. In addition, the company has a
+sound relationship with the major banks in Brazil and good standing in domestic credit markets.
+
+Going forward, we would need to see Vibra being able to support such a comfortable cushion on a
+consistent basis, even amid potential higher volatility of cash flow, to unlock the potential for a
+stronger liquidity assessment.
+
+  Principal liquidity sources                                      Principal liquidity uses
+
+
+ • Cash and cash equivalents available of R$3.6 billion as         • Short-term debt of R$1.1 billion as of Dec. 31, 2025
+    of Dec. 31, 2025
+                                                                   • Working capital outflows of R$2.1 billion in 2026
+ • Expected FFO of R$7.4 billion in 2026
+                                                                   • Full capital expenditure of R$1.9 billion in 2026
+ • Proceeds from the 10th debentures issuance of R$1.6
+                                                                   • Dividends payment of R$792 million in 2026
+    billion issued in April 2026
+
+
+
+
+www.spglobal.com/ratingsdirect                                                                                                               April 16, 2026   5
+Vibra Energia S.A.
+
+
+
+
+Covenant Analysis
+Requirements
+Vibra has no financial covenants in its debt.
+
+Comerc has covenants on part of its debt, which it has been complying with. Only the leverage
+covenant would cause a nonautomatic debt acceleration if breached. In this case, the company
+would have to call for a debentures holders’ assembly to vote on the matter. The debt service
+coverage ratios covenant, if breached, would not cause a debt acceleration, but limits dividend
+payouts and capital reduction at Comerc’s level.
+
+• Net debt to EBITDA below 5.25x, measured quarterly
+
+• Debt service coverage ratio below 1.2x, measured annually
+
+• Debt service coverage ratio below 1.05x, measured semiannually
+
+Compliance expectations
+We expect Comerc to continue to comply with the covenants with a more comfortable cushion,
+because Vibra has been prepaying part of the higher-cost debt at the subsidiary level since it
+incorporated Comerc.
+
+
+Environmental, Social, And Governance
+Environmental factors are a negative consideration in our credit rating analysis of Vibra.
+Operating as a fuel and lubricant distributor, it has substantial exposure to oil-derived products,
+which account for the bulk of its revenue and cash flow. The uncertainties regarding the long-
+term effects of the energy transition and potential decline in fossil fuel consumption affect our
+evaluation of environmental factors for Vibra.
+
+Nevertheless, Vibra has diversified its portfolio by investing in renewable energy and promoting
+energy efficiency, with the full acquisition of Comerc in 2025. The company has several initiatives
+aimed at reducing greenhouse gas emissions in operations, targeting carbon neutrality by 2050.
+
+
+
+
+www.spglobal.com/ratingsdirect                                                                        April 16, 2026   6
+Vibra Energia S.A.
+
+
+
+Rating Component Scores
+
+Foreign currency issuer credit rating                             BBB-/Stable/--
+
+Local currency issuer credit rating                               BBB-/Stable/--
+
+Business risk                                                     Satisfactory
+
+  Country risk                                                    Moderately High
+
+  Industry risk                                                   Intermediate
+
+  Competitive position                                            Satisfactory
+
+Financial risk                                                    Significant
+
+  Cash flow/leverage                                              Significant
+
+Anchor                                                            bbb-
+
+Modifiers
+
+  Diversification/portfolio effect                                Neutral (no impact)
+
+  Capital structure                                               Neutral (no impact)
+
+  Financial policy                                                Neutral (no impact)
+
+  Liquidity                                                       Adequate (no impact)
+
+  Management and governance                                       Neutral (no impact)
+
+  Comparable rating analysis                                      Neutral (no impact)
+
+Stand-alone credit profile                                        bbb-
+
+
+
+
+Related Criteria
+• Criteria | Corporates | General: Sector-Specific Corporate Methodology, July 7, 2025
+
+• Criteria | Corporates | General: Corporate Methodology, Jan. 7, 2024
+
+• Criteria | Corporates | General: Methodology: Management And Governance Credit Factors For
+  Corporate Entities, Jan. 7, 2024
+
+• General Criteria: Environmental, Social, And Governance Principles In Credit Ratings, Oct. 10,
+  2021
+
+• General Criteria: Group Rating Methodology, July 1, 2019
+
+• Criteria | Corporates | General: Corporate Methodology: Ratios And Adjustments, April 1, 2019
+
+• Criteria | Corporates | General: Methodology And Assumptions: Liquidity Descriptors For Global
+  Corporate Issuers, Dec. 16, 2014
+
+• General Criteria: Methodology: Industry Risk, Nov. 19, 2013
+
+• General Criteria: Country Risk Assessment Methodology And Assumptions, Nov. 19, 2013
+
+• General Criteria: Ratings Above The Sovereign--Corporate And Government Ratings:
+  Methodology And Assumptions, Nov. 19, 2013
+
+• General Criteria: Principles Of Credit Ratings, Feb. 16, 2011
+
+
+
+
+www.spglobal.com/ratingsdirect                                                                     April 16, 2026   7
+Vibra Energia S.A.
+
+
+
+
+     Copyright © 2026 by Standard & Poor's Financial Services LLC. All rights reserved.
+
+     No content (including ratings, credit-related analyses and data, valuations, model, software or other application or output therefrom) or any part thereof
+     (Content) may be modified, reverse engineered, reproduced or distributed in any form by any means, or stored in a database or retrieval system, without the
+     prior written permission of Standard & Poor’s Financial Services LLC or its affiliates (collectively, S&P). The Content shall not be used for any unlawful or
+     unauthorized purposes. S&P and any third-party providers, as well as their directors, officers, shareholders, employees or agents (collectively S&P Parties) do
+     not guarantee the accuracy, completeness, timeliness or availability of the Content. S&P Parties are not responsible for any errors or omissions (negligent or
+     otherwise), regardless of the cause, for the results obtained from the use of the Content, or for the security or maintenance of any data input by the user. The
+     Content is provided on an “as is” basis. S&P PARTIES DISCLAIM ANY AND ALL EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, ANY
+     WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR USE, FREEDOM FROM BUGS, SOFTWARE ERRORS OR DEFECTS, THAT
+     THE CONTENT’S FUNCTIONING WILL BE UNINTERRUPTED OR THAT THE CONTENT WILL OPERATE WITH ANY SOFTWARE OR HARDWARE CONFIGURATION. In
+     no event shall S&P Parties be liable to any party for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages,
+     costs, expenses, legal fees, or losses (including, without limitation, lost income or lost profits and opportunity costs or losses caused by negligence) in
+     connection with any use of the Content even if advised of the possibility of such damages.
+
+
+
+     Some of the Content may have been created with the assistance of an artificial intelligence (AI) tool. Published Content created or processed using AI is
+     composed, reviewed, edited, and approved by S&P personnel.
+
+
+     Credit-related and other analyses, including ratings, and statements in the Content are statements of opinion as of the date they are expressed and not
+     statements of fact. S&P’s opinions, analyses and rating acknowledgment decisions (described below) are not recommendations to purchase, hold, or sell any
+     securities or to make any investment decisions, and do not address the suitability of any security. S&P assumes no obligation to update the Content following
+     publication in any form or format. The Content should not be relied on and is not a substitute for the skill, judgment and experience of the user, its
+     management, employees, advisors and/or clients when making investment and other business decisions. S&P does not act as a fiduciary or an investment
+     advisor except where registered as such. While S&P has obtained information from sources it believes to be reliable, S&P does not perform an audit and
+     undertakes no duty of due diligence or independent verification of any information it receives. Rating-related publications may be published for a variety of
+     reasons that are not necessarily dependent on action by rating committees, including, but not limited to, the publication of a periodic update on a credit
+     rating and related analyses.
+
+
+
+     To the extent that regulatory authorities allow a rating agency to acknowledge in one jurisdiction a rating issued in another jurisdiction for certain regulatory
+     purposes, S&P reserves the right to assign, withdraw or suspend such acknowledgment at any time and in its sole discretion. S&P Parties disclaim any duty
+     whatsoever arising out of the assignment, withdrawal or suspension of an acknowledgment as well as any liability for any damage alleged to have been
+     suffered on account thereof.
+
+
+     S&P keeps certain activities of its business units separate from each other in order to preserve the independence and objectivity of their respective activities.
+     As a result, certain business units of S&P may have information that is not available to other S&P business units. S&P has established policies and procedures
+     to maintain the confidentiality of certain non-public information received in connection with each analytical process.
+
+
+     S&P may receive compensation for its ratings and certain analyses, normally from issuers or underwriters of securities or from obligors. S&P reserves the right
+     to disseminate its opinions and analyses. S&P's public ratings and analyses are made available on its Web sites, www.spglobal.com/ratings (free of charge),
+     and www.ratingsdirect.com (subscription), and may be distributed through other means, including via S&P publications and third-party redistributors.
+     Additional information about our ratings fees is available at www.spglobal.com/usratingsfees.
+
+
+     STANDARD & POOR’S, S&P and RATINGSDIRECT are registered trademarks of Standard & Poor’s Financial Services LLC.
+
+
+
+
+www.spglobal.com/ratingsdirect                                                                                                                          April 16, 2026   8
+

@@ -1,0 +1,2570 @@
+Conteúdo
+
+
+Balanços patrimoniais individuais e consolidados                                                2
+Demonstrações do resultado individuais e consolidadas                                           3
+Demonstrações de resultados abrangentes individuais e consolidadas                              4
+Demonstrações das mutações do patrimônio líquido individuais e consolidadas                     5
+Demonstrações dos fluxos de caixa individuais e consolidadas                                    6
+Demonstrações do valor adicionado individuais e consolidados                                    7
+1     Considerações gerais                                                                      8
+2     Base de preparação das demonstrações contábeis intermediárias                             9
+3     Uso de estimativas e julgamentos                                                          9
+4     Principais políticas contábeis                                                           10
+5     Caixa e equivalentes de caixa                                                            10
+6     Contas a receber, líquidas                                                               10
+7     Estoques                                                                                 12
+8     Bonificações antecipadas concedidas a clientes                                           13
+9     Investimentos                                                                            13
+10    Imobilizado                                                                              16
+11    Intangível                                                                               18
+12    Fornecedores                                                                             19
+13    Empréstimos e Financiamentos                                                             20
+14    Arrendamentos                                                                            22
+15    Tributos                                                                                 25
+16    Salário, férias, encargos, prêmios e participações                                       29
+17    Benefícios concedidos a empregados                                                       31
+18    Patrimônio líquido                                                                       33
+19    Receita de vendas                                                                        35
+20    Custo e despesas por natureza                                                            37
+21    Resultado financeiro, líquido                                                            39
+22    Informações por segmento                                                                 41
+23    Processos judiciais, administrativos, depósitos judiciais e contingências                45
+24    Compromissos contratuais                                                                 54
+25    Instrumentos financeiros                                                                 55
+26    Gerenciamento de riscos                                                                  56
+27    Partes relacionadas                                                                      64
+28    Informações adicionais às demonstrações dos fluxos de caixa                              69
+29    Evento subsequente                                                                       69
+
+
+Declaração sobre as demonstrações contábeis intermediárias e sobre o relatório dos auditores   73
+Membros do Conselho de Adminstração e Diretoria Executiva                                      74
+Relatório sobre a revisão de informações trimestrais – ITR                                     75
+
+
+
+
+                                                             1
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Balanços patrimoniais
+Em 30 de setembro de 2021 e 31 de dezembro de 2020
+(Em milhões de reais)
+
+
+
+
+As notas explicativas são parte integrante das demonstrações contábeis intermediárias.
+
+                                                                              2
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Demonstrações do resultado
+Períodos findos em 30 de setembro de 2021 e 2020
+(Em milhões de reais, exceto pelo resultado por ação)
+
+
+
+
+As notas explicativas são parte integrante das demonstrações contábeis intermediárias.
+
+                                                                            3
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Demonstrações de resultados abrangentes
+Períodos findos em 30 de setembro de 2021 e 2020
+(Em milhões de reais)
+
+
+
+
+As notas explicativas são parte integrante das demonstrações contábeis intermediárias.
+
+                                                                            4
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Demonstrações das mutações do patrimônio líquido
+Períodos findos em 30 de setembro de 2021 e 2020
+(Em milhões de reais)
+
+
+
+
+As notas explicativas são parte integrante das demonstrações contábeis intermediárias.
+
+                                                                            5
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Demonstrações dos fluxos de caixa
+Períodos findos em 30 de setembro de 2021 e 2020
+(Em milhões de reais)
+
+
+
+
+As notas explicativas são parte integrante das demonstrações contábeis intermediárias.
+
+                                                   6
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Demonstrações do valor adicionado
+Períodos findos em 30 de setembro de 2021 e 2020
+(Em milhões de reais)
+
+
+
+
+As notas explicativas são parte integrante das demonstrações contábeis intermediárias.
+
+                                                   7
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ 1 Considerações gerais
+
+ 1.1 Contexto operacional
+ A Petrobras Distribuidora S.A. é uma sociedade anônima de capital aberto, com ações negociadas no Novo
+ Mercado da B3 S.A. – Brasil e constituída em 12 de novembro de 1971.
+
+ Em 1º de julho de 2021, foi registrada na CVM a oferta pública secundária de ações da Petrobras Distribuidora S.A.
+ (Vibra Energia S. A.), por meio da qual a Petróleo Brasileiro S.A. (Petrobras) alienou a totalidade de sua participação
+ na Companhia. A oferta foi concluída em 5 de julho de 2021, momento a partir do qual encerraram-se os vínculos
+ societários entre as empresas.
+
+ Em 19 de agosto de 2021, a Petrobras Distribuidora S.A., fez o lançamento de sua nova marca passando a adotar a
+ identidade corporativa de Vibra Energia.
+
+ Em 13 de outubro de 2021, a Assembleia Geral Extraordinária (AGE) aprovou a alteração da razão social da
+ Petrobras Distribuidora S. A. para Vibra Energia S.A. (nota 29).
+
+ A Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.) é apresentada nessas
+ demonstrações contábeis intermediárias como “Companhia” ou “Vibra”, tem por objeto social a distribuição, o
+ transporte, o comércio, o beneficiamento e a industrialização de derivados de petróleo e de outros combustíveis,
+ a produção, o transporte, a distribuição e a comercialização de todas as formas de energia e de produtos químicos,
+ a prestação de serviços correlatos e a importação e a exportação relacionadas com os produtos e atividades
+ citados. A sede social da Companhia está localizada no município do Rio de Janeiro - RJ.
+
+ 1.2 Impactos causados pela COVID-19 nas demonstrações financeiras
+ Considerando o contexto da pandemia referente ao COVID-19, a Companhia manteve as práticas adotadas no ano
+ anterior e divulgadas na nota 1.3 das demonstrações contábeis de 31 de dezembro de 2020, mantendo no regime
+ de home office, os trabalhadores cujas atividades podem ser desempenhadas remotamente e, para os demais,
+ cujas atividades precisam ser realizadas presencialmente, houve redução do efetivo para minimizar a circulação de
+ pessoas nas unidades operacionais. Todos os protocolos de segurança amplamente divulgados estão sendo
+ seguidos.
+
+ Efeito nas demonstrações contábeis intermediárias
+
+ Apesar da pandemia e da permanência de algumas restrições a viagens e circulação de pessoas, em 30 de setembro
+ de 2021, a receita de vendas da Companhia de diesel, gasolina e etanol, principais produtos para a mobilidade
+ urbana, foi superior em R$33.409 em relação ao mesmo período de 2020. As vendas de querosene de aviação
+ também aumentaram, sendo 87% superiores a 30 de setembro de 2020 (de R$3.583 em 2020 para R$6.713 em
+ 2021).
+
+ Em que pese o crescimento nas vendas da Companhia, o segmento de aviação continua pressionado e o risco de
+ crédito segue monitorado conforme nota 26.3. Destaca-se que o saldo das perdas de crédito esperadas para este
+ segmento em 30 de setembro de 2021 é R$ 114 contra R$ 137 em 31 de dezembro de 2020.
+
+ A Administração entende que os ativos fiscais diferidos e os ativos de longo prazo são recuperáveis
+ economicamente e, portanto, não há necessidade de reconhecer provisões adicionais para perdas de ativos não
+
+
+
+
+                                                           8
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ financeiros. Também não há efeitos materiais adversos nas operações da Companhia que ponham em dúvida o
+ pressuposto de sua continuidade operacional.
+
+ 2 Base de preparação das demonstrações contábeis intermediárias
+ As demonstrações contábeis intermediárias consolidadas foram preparadas conforme as práticas contábeis
+ adotadas no Brasil para demonstrações intermediárias (Pronunciamento Técnico - CPC 21 (R1) - Demonstração
+ Intermediária), e com o IAS 34 - Demonstração Intermediária emitido pelo International Accounting Standards
+ Board (IASB).
+
+ As demonstrações contábeis intermediárias individuais estão sendo apresentadas de acordo com as práticas
+ contábeis adotadas no Brasil para demonstrações intermediárias (Pronunciamento Técnico - CPC 21 (R1) -
+ Demonstração Intermediária).
+
+ Essas demonstrações contábeis intermediárias são apresentadas com as alterações relevantes ocorridas no
+ período, sem a repetição de determinadas notas explicativas previamente divulgadas. Portanto, tais
+ demonstrações contábeis intermediárias devem ser lidas em conjunto com as demonstrações contábeis anuais da
+ Companhia do exercício findo em 31 de dezembro de 2020, que contemplam o conjunto completo de notas
+ explicativas.
+
+ O Conselho de Administração da Companhia, em reunião realizada em 15 de novembro de 2021, autorizou a
+ divulgação destas demonstrações contábeis intermediárias.
+
+ 2.1 Demonstração do valor adicionado
+ A legislação societária brasileira exige para as companhias abertas a elaboração da Demonstração do Valor
+ Adicionado – DVA e sua divulgação como parte integrante do conjunto das demonstrações financeiras. Essas
+ demonstrações foram preparadas de acordo com o CPC 09 - Demonstração do Valor Adicionado, aprovado pela
+ Deliberação CVM 557/08. As IFRS não exigem a apresentação desta demonstração que, portanto, é divulgada como
+ informação adicional.
+
+ Esta demonstração tem como objetivo apresentar informações relativas à riqueza criada pela Companhia e a forma
+ como tais riquezas foram distribuídas.
+
+ 2.2 Base de mensuração
+ Na elaboração das demonstrações contábeis intermediárias individuais e consolidadas foi considerado o custo
+ histórico como base de valor, com exceção de instrumentos financeiros avaliados por valor justo por meio de
+ resultado e de passivo atuarial de benefício definido, reconhecido como o valor presente das obrigações deduzido
+ do valor justo dos ativos do plano.
+
+ 3 Uso de estimativas e julgamentos
+ Ao preparar essas demonstrações contábeis intermediárias, a administração fez julgamentos, estimativas e
+ premissas que afetam a aplicação de políticas contábeis e os valores divulgados de ativos e passivos, receitas e
+ despesas. Os resultados reais podem ser diferentes dessas estimativas.
+
+ Os julgamentos significativos feitos pela administração na aplicação das políticas contábeis e as principais fontes
+ de incerteza de estimativa foram as mesmas que as aplicadas e evidenciadas na nota 3 das demonstrações
+ financeiras consolidadas no exercício findo em 31 de dezembro de 2020.
+
+
+                                                         9
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ 4 Principais políticas contábeis
+ As práticas contábeis e os métodos de cálculo utilizados na preparação dessas demonstrações contábeis
+ intermediárias são os mesmos adotados na preparação das demonstrações contábeis anuais da Companhia do
+ exercício findo em 31 de dezembro de 2020.
+
+ 5 Caixa e equivalentes de caixa
+
+
+
+
+ As aplicações financeiras correspondem a fundos de investimentos no país, cujos recursos encontram-se aplicados
+ majoritariamente em operações compromissadas lastreadas em títulos públicos federais brasileiros, e a
+ Certificados de Depósitos Bancários (CDB) de bancos de primeira linha. Todas as aplicações possuem liquidez
+ imediata. As aplicações financeiras no exterior referem-se a aplicações de recursos no Overnight.
+    3
+
+
+
+
+ 6 Contas a receber, líquidas
+
+
+
+
+ (*) Em 5 de julho de 2021, com a conclusão da venda pela Petrobras da totalidade das ações que detinha da Companhia, os relacionamentos
+ da Companhia com a Petrobras, Empresas do Sistema Petrobras, Governo Federal e Sistema Eletrobras deixaram de atender aos critérios de
+ transações com partes relacionadas.
+
+
+
+
+                                                                  10
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+
+(*) Em 2021, houve o desreconhecimento do contas a receber da Samarco (R$ 159), Enguia Gen CE Ltda (R$ 21) e Enguia Gen PI Ltda (R$ 11).
+
+A Companhia apresenta R$ 3.160 de contas a receber de clientes em cobrança judicial no consolidado e na
+controladora (R$ 3.141 no consolidado e na controladora em 31 de dezembro de 2020). A Companhia reduz a zero
+a expectativa de recuperação da totalidade dos recebíveis em cobrança judicial.
+
+Movimentação das perdas de crédito esperadas
+
+No primeiro trimestre de 2021, a Samarco S.A. ingressou com pedido de recuperação judicial, deferido judicialmente.
+Como consequência e de forma consistente à política contábil adotada pela Companhia em situações similares, uma
+perda de crédito esperada de R$159 em valores atualizados até 30 de setembro de 2021 foi reconhecida no
+resultado.
+
+No 3º trimestre a Companhia, em função da cessão dos recebíveis ao Bank of America, efetuou o desreconhecimento
+dos créditos da Samarco, no valor de R$159. Esse movimento de desreconhecimento de recebíveis não impacta o
+resultado.
+
+  6.1 Composição dos saldos de contas a receber - vencidos e a vencer
+
+
+
+
+                                                                           11
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+
+ 6.2 Composição - Setor elétrico (Sistema isolado)
+
+
+
+
+ 7 Estoques
+
+
+
+
+ (*) Compreendem os saldos de estoques de etanol e biodiesel.
+
+
+
+
+                                                                12
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+Nenhuma redução ao valor realizável líquido dos estoques foi reconhecida em 30 de setembro de 2021 e 31 de
+dezembro de 2020.
+
+Garantias
+
+A Companhia possui estoques dados em garantia em ações judiciais no montante de R$ 192 em 30 de setembro de
+2021 e R$ 204 em 31 de dezembro de 2020.
+
+ 8 Bonificações antecipadas concedidas a clientes
+
+
+
+
+As bonificações antecipadas concedidas a clientes estão condicionadas a prazos e desempenhos a serem cumpridos,
+em especial ao consumo de volumes previstos em contratos de fornecimento (nota 19).
+
+ 9 Investimentos
+
+    9.1 Mutação dos investimentos em controladas, negócios em conjunto e coligada
+
+
+
+
+                                                      13
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+
+(*) As participações no capital total são as mesmas do capital votante exceto pela ES GÁS cuja participação no capital votante é 51%.
+
+   (a) Na aquisição de participação na Brasil Carbonos S.A., em dezembro de 2010, foi apurada mais valia de ativos de R$ 28, que é
+   amortizada em função da vida útil dos ativos. No 3º trimestre de 2021, a Companhia vendeu a sua participação na Brasil Carbonos,
+   conforme nota a seguir. Em 31 de dezembro de 2020, o saldo de R$19 de mais valia de ativos está classificado no imobilizado, no
+   Consolidado.
+   (b) Aporte por meio da indenização pelos ativos reversíveis.
+   (c) Redução de capital da Stratura tendo como contrapartida o recebimento de bens pela Companhia.
+
+
+ Venda de participação acionária na empresa Brasil Carbonos
+
+ Em 10 de agosto de 2021, a Companhia realizou a assinatura do Contrato de Compra e Venda de Participação
+ Societária regulando a venda da totalidade de sua participação acionária na empresa Brasil Carbonos S.A. para a
+ Unimetal Indústria, Comércio e Empreendimentos.
+
+ O valor total da venda, já considerando o caixa da Brasil Carbonos, foi de R$ 19, a ser executado em 30 parcelas
+ iguais, mensais e consecutivas, corrigidas pelo CDI + 2% ao ano. Em garantia ao pagamento do preço da Transação,
+ a Companhia ofertou uma fiança bancária (ou seguro garantia) incondicional emitida por instituição financeira de
+ primeira linha com validade até a data de vencimento da última parcela devida do valor total da venda (ou com
+ validade não inferior a 12 (doze) meses com renovação periódica até a realização integral de todas as parcelas do
+ valor total da venda).
+
+ Com o fechamento da operação, após a aprovação pelo Conselho Administrativo de Defesa Econômica (CADE), a
+ Companhia reconheceu em 30 de setembro de 2021 a baixa do investimento de R$73 e uma receita de alienação
+ de R$19, registrados em Outras Receitas (Despesas) Operacionais.
+
+ Os ativos e passivos da Brasil Carbonos desreconhecidos no Consolidado da Companhia estão apresentados a
+ seguir:
+
+
+
+
+                                                                             14
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+
+ Aquisição da Targus Comercializadora de Energia S.A.
+
+ Em 01 de fevereiro de 2021, a Companhia adquiriu 48,82883% das ações ordinárias da Targus Energia S.A., e na
+ mesma data subscreveu novas ações ordinárias, totalizando 53,9% do capital social. Após a conclusão de todos os
+ aportes previstos, sendo o último ocorrido em maio com subscrição de novas ações, a Companhia passou a ser
+ detentora de 70% do capital social da Targus. O Acordo de Acionistas celebrado com os atuais sócios, que vigorará
+ por 15 anos, e que prevê, entre direitos e obrigações, opções de compra e venda para aquisição dos 30% da
+ participação societária remanescente. As janelas para o exercício das opções de compra e venda ocorrerão a partir
+ de 2026, encerrando-se em 31 de dezembro de 2031.
+
+ A Targus é uma sociedade anônima que tem como objeto social a compra, venda, importação e exportação de
+ energia elétrica, bem como a prestação de serviços de engenharia, assessoria, consultoria e outros ligados aos
+ processos de energia.
+
+ A aquisição permitirá a Vibra atuar na compra e venda de energia elétrica, complementando seu portfólio atual de
+ produtos, bem como poderá capturar novos clientes no mercado, oferecendo serviços de gestão no mercado livre
+ e produtos de geração distribuída, utilizando sua capilaridade comercial e estrutura financeira, aliados à expertise
+ e capacidade de execução dos sócios da Targus Energia, que permanecerão na operação.
+
+ A operação de aquisição dos 70% da Targus totalizou R$73, gerando um ágio por rentabilidade futura (goodwill) de
+ R$47.
+
+
+
+
+                                                        15
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+10 Imobilizado
+
+
+
+
+(a) Ver detalhamento dos ativos de direito de uso na nota 14.
+(b) Referem-se, basicamente, a transferências entre outros grupos como por exemplo, intangível, mantidos para venda, entre outros.
+
+
+
+
+                                                                                                       16
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+
+   (a) Ver detalhamento dos ativos de direito de uso na nota 14.
+   (b) Referem-se, basicamente, a transferências entre outros grupos como por exemplo, intangível, mantidos para venda, entre outros.
+
+
+
+
+                                                                                                       17
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ Os ativos em construção apresentados no Consolidado referem-se, substancialmente, à expansão, modernização
+ e melhorias em terminais e bases de distribuição de combustíveis, aeroportos e fábrica de lubrificantes.
+
+ Os ativos de direito de uso incluem, principalmente, terrenos utilizados como postos de combustíveis, unidades
+ administrativas e edificações (nota 14).
+
+ Garantias
+ Parte do imobilizado da Companhia serve como garantia em ações judiciais nas quais a Companhia figura como ré,
+ sendo R$ 13 em 30 de setembro de 2021 e R$13 em 31 de dezembro de 2020.
+
+11 Intangível
+
+
+
+
+                                                      18
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+
+ (a) A Companhia apresenta saldo de R$ 154 de software em desenvolvimento (R$ 179 em 31 de dezembro de 2020).
+ (b) Goodwill de ativos de distribuição de combustíveis, originado quando da aquisição da Liquigás S.A., distribuidora de Gás Liquefeito de
+ Petróleo (GLP). Essa investida foi transferida para a Petrobras, em 2012, entretanto a operação relacionada a este ágio permaneceu na
+ Companhia.
+ (c) Do total de R$ 80 de adições de softwares (R$ 141 em 31 de dezembro de 2020), R$ 43 correspondem a desenvolvimento interno (R$
+ 65 em 31 de dezembro de 2020).
+
+ Os ativos intangíveis são representados pelos gastos com direitos e concessões, goodwill, softwares e créditos de
+ descarbonização.
+
+ 12 Fornecedores
+
+
+
+
+ O saldo de fornecedores no país é composto, principalmente, (i) de faturas a pagar à Petrobras pela aquisição de
+ derivados de petróleo e (ii) contratação de serviços (inclusive fretes). O saldo de fornecedores no exterior
+ representa, principalmente, as obrigações relacionadas à importação de óleo diesel e de gasolina.
+
+
+
+
+                                                                   19
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ 13 Empréstimos e Financiamentos
+
+
+
+
+(*) Debêntures – Certificado de Recebíveis do Agronegócio
+(**) Certificados de Recebíveis Imobiliários
+(***) Certificados de Direitos Creditórios do Agronegócio
+
+Certificados de Direitos Creditórios do Agronegócio - CDCA
+Em 10 de agosto de 2021, a Companhia emitiu Certificados de Direitos Creditórios do Agronegócio, junto ao Banco
+do Brasil no valor de R$ 1.200, com taxa de CDI + 1,55% a.a., prazo de 8 anos, juros semestrais e amortização do
+principal nos 7º e 8º anos.
+
+Demais movimentações ocorridas nos trimestres anteriores
+ (a) Quitação das captações realizadas durante a pandemia de COVID-19:
+     Em março de 2021, a Companhia quitou R$ 1.780 de um total de R$ 1.980 das NCEs - Notas de crédito à
+     exportação e CCB – Cédulas de Crédito Bancário contratadas no mês de abril de 2020 no início da pandemia.
+
+     Em abril de 2021, a Companhia quitou R$ 128, sendo R$ 125 de amortização e R$ 3 de juros, da NCE - Notas
+     de crédito à exportação contratada no mês de abril de 2020 com o banco MUFG em moeda estrangeira (JPY),
+     sendo esta a quitação da última captação realizada durante a pandemia de COVID-19.
+
+ (b) Em 12 de fevereiro de 2021, empréstimo realizado com o Banco Santander via Resolução 4131 no valor de
+     R$1.060, com taxa CDI + 1,67% a.a., juros semestrais e amortização no vencimento em fevereiro de 2026. Nesta
+     ocasião houve negociação para o pré-pagamento, em fevereiro de 2021, das 3 NCEs com vencimento em março
+     e abril de 2021, totalizando um liability management de R$ 580 através da substituição das NCEs com custo
+     médio de CDI + 4,19% pelo empréstimo supramencionado.
+
+
+
+
+                                                            20
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ (c) Em 26 de fevereiro de 2021, empréstimo realizado com o Scotiabank via Loan 4131 de US$100 milhões
+     equivalentes a R$537, com taxa de USD + 1.53% a.a. e amortização no vencimento, em fevereiro de 2026, além
+     do contrato de swap celebrado com a mesma instituição para hedge integral da dívida em dólar, ao custo de
+     CDI + 1,55% a.a.
+
+ (d) Em 12 de fevereiro de 2021, empréstimo realizado com o BNP Paribas via Loan 4131 de US$150 milhões
+     equivalentes a R$803, com taxa de USD + 2.02% a.a. e amortização no vencimento, em fevereiro de 2026, além
+     do contrato de swap celebrado com a mesma instituição para hedge integral da dívida em dólar, ao custo de
+     CDI + 1,69% a.a.
+
+ (e) Em 12 de março de 2021 empréstimo realizado com o Bank of America via Loan 4131 de US$73 milhões
+     equivalentes a R$ 400, com taxa USD + 2,27 % a.a. e amortização no vencimento, em março de 2026, além do
+     contrato de swap celebrado com a mesma instituição para hedge integral da dívida em dólar, ao custo de CDI
+     + 1,67 % a.a..
+
+ 13.1 Movimentação e conciliação com os fluxos de caixa de financiamentos
+
+
+
+
+                                                      21
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ 13.2 Informações sumarizadas sobre os vencimentos dos financiamentos
+
+
+
+
+ O valor justo dos financiamentos país em 30 de setembro de 2021 é de R$ 5.169 (R$ 4.373 na Controladora) e dos
+ financiamentos exterior é de R$ 4.323 (Consolidado e Controladora).
+
+ Os valores justos dos financiamentos país são determinados pelo método de fluxo de caixa descontado pelas taxas
+ spot interpoladas dos indexadores (ou proxies) dos respectivos financiamentos e pelo risco de crédito da
+ Companhia (nível 2). Os financiamentos feitos em moeda estrangeira são calculados utilizando uma projeção do
+ câmbio para cada vencimento e os valores justos são determinados pelo método de fluxo de caixa descontado
+ pelas taxas spot interpoladas do indexador DI e pelo risco de crédito da Companhia (Nível 2).
+
+ A análise de sensibilidade dos instrumentos financeiros é apresentada na nota 26.1.2.1.
+
+ 13.3 Custos de transação
+
+ Os custos de transações incorridos na captação de recursos financeiros foram deduzidos do saldo do passivo
+ correspondente e apropriados ao resultado de acordo com a taxa efetiva. O valor apropriado em 2021 e os saldos
+ a apropriar nos próximos exercícios estão apresentados a seguir:
+
+
+
+
+ (*) Debêntures – Certificado de Recebíveis do Agronegócio
+ (**) Certificados de Direitos Creditórios do Agronegócio
+ (***) Certificados de Recebíveis Imobiliários
+
+ 14 Arrendamentos
+ A Companhia é arrendatária em diversos contratos, com naturezas distintas, cujas principais operações dizem
+ respeito a arrendamentos de terrenos para uso em postos de combustíveis, bases de distribuição de combustíveis,
+ unidades administrativas e edificações. Parte desses arrendamentos são celebrados com a controlada FII FCM,
+ administrado pela Rio Bravo Investimentos DTVM Ltda.
+
+ A Companhia reconhece o ativo do direito de uso e um passivo de arrendamento correspondente na data de início
+ do contrato.
+
+
+
+                                                             22
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+ Os ativos de direito de uso são depreciados pelos prazos contratuais.
+
+ 14.1 Ativos de direito de uso – Movimentação por tipo de ativo
+
+
+
+
+ 14.2 Passivo de Arrendamento – Movimentação e conciliação com os fluxos de caixa de
+ financiamento
+
+
+
+
+ 14.3 Fluxos de pagamentos
+
+
+
+
+                                                        23
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ Os pagamentos das parcelas variáveis dos arrendamentos, assim como os pagamentos de arrendamentos de curto
+ prazo que não compõem o passivo, foram reconhecidos no resultado totalizando R$ 87 e R$ 32, respectivamente
+ (Consolidado e Controladora).
+
+ Assim sendo, a Companhia está potencialmente exposta a saídas futuras de caixa de pagamentos variáveis de
+ arrendamentos, principalmente associados a variações nos volumes vendidos. Esse fluxo está demonstrado a
+ seguir:
+
+
+
+
+ 14.4 Taxas nominais médias de desconto
+
+
+
+
+ 14.5 Ofício Circular/CVM/SNC/SEP/n°2/2019
+ 14.5.1 Apresentação dos arrendamentos e direito de uso
+ O Ofício Circular/CVM/SNC/SEP/nº2/2019 determina a apresentação dos saldos de passivo de arrendamento,
+ direito de uso, despesa financeira e depreciação com base no fluxo de caixa descontado, incluindo a projeção de
+ inflação futura, diferentemente do que preconiza o CPC 06 (R2), cujo cálculo é feito considerando fluxo de caixa
+ não inflacionado. Assim sendo, segue quadro comparativo com ambas as mensurações para atendimento ao Ofício
+ CVM, que busca resguardar a fidedignidade destes valores aos investidores.
+
+
+
+
+(*) Referem-se aos contratos impactados pela revisão do IFRS16, ou seja, contratos anteriores à revisão e que já estavam classificados como
+arrendamento financeiro não estão sendo considerados nesta apresentação.
+
+
+14.5.2 Direito potencial de PIS/COFINS a recuperar
+
+Os pagamentos das contraprestações dos arrendamentos podem gerar direito ao creditamento do PIS e COFINS,
+desde que atendam as condições previstas na legislação tributária. O quadro a seguir apresenta o direito potencial
+de PIS e COFINS a recuperar, embutido nas contraprestações, considerando os fluxos de pagamentos nominais e os
+fluxos descontados a valor presente.
+
+
+
+
+                                                                   24
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+
+ 15 Tributos
+ 15.1 Impostos e contribuições
+
+
+
+
+ (*) Inclui os créditos decorrentes da exclusão do ICMS da base de cálculo do PIS e COFINS (nota 16.1 de dezembro de 2020).
+ (**) Não incidência de IRPJ/CSLL sobre atualizações monetárias efetuadas com base na Taxa SELIC.
+
+
+ A Companhia tem expectativa de recebimento e/ou compensação dos valores apresentados.
+
+ Não incidência de IRPJ/CSLL sobre atualizações monetárias efetuadas com base na Taxa SELIC
+
+ Em 24 de setembro de 2021, o STF (Supremo Tribunal Federal) formou maioria – ainda não transitada em julgado
+ – no sentido de que fica afastada a incidência do IRPJ e a CSLL sobre a SELIC (outra forma de atualização monetária
+ e de juros de mora) na repetição de indébito (RE 1.063.187/SC, com repercussão geral reconhecida - tema 962).
+ Esta sinalização de decisão pró contribuintes abre assim a oportunidade de recuperação de 34% (tributação
+ combinada de IRPJ/CSLL) correspondentes à aplicação da Taxa SELIC utilizada para as atualizações dos indébitos
+ recebidos desde 2016, bem como não tributar os valores que venham a ser recebidos a título de correção.
+
+ A Companhia impetrou mandado de segurança sobre o tema em referência, em 03 de agosto de2021, e tem uma
+ Sentença desfavorável em 1ª instância, já desafiada por embargos de declaração ainda pendentes de apreciação.
+ No entanto, cumpre informar que esta sentença foi proferida antes de o STF firmar a tese pró-contribuinte (tese
+ 962 está por ora fixada gramaticalmente do seguinte modo: "É inconstitucional a incidência do IRPJ e da CSLL sobre
+ os valores atinentes à taxa Selic recebidos em razão de repetição de indébito tributário").
+
+ Diante do exposto e considerando o fato de a maioria pró-contribuintes ter se formado no STF em 24 de setembro
+ de 2021, foi reconhecido nas demonstrações contábeis intermediárias da Companhia um crédito fiscal de R$162,
+ sendo R$119 de IR a recuperar e R$43 de CSLL a recuperar. Do total reconhecido, o montante de R$144 refere-se
+ ao processo de recuperação de ICMS sobre base de cálculo do PIS e COFINS.
+
+
+
+
+                                                                 25
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ 15.2 Programas de Anistias Estaduais
+ Em 30 de setembro de 2021 e 31 de dezembro de 2020 a Companhia liquidou débitos tributários de ICMS junto a
+ diversos Estados, por meio de Programas de Anistia.
+
+
+
+
+ (*) R$155 desembolso e R$80 pela compensação de saldo de ressarcimento de ICMS ST.
+
+
+
+
+                                                              26
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ 15.3 Imposto de Renda e contribuição social diferidos
+
+
+
+
+(*) Plano de Incentivo ao Desligamento Voluntário
+
+
+
+
+                                                         27
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ A reconciliação dos tributos apurados conforme alíquotas nominais e o valor dos impostos registrados estão apresentados a seguir:
+
+
+
+
+ (*) Não incidência de IRPJ/CSLL sobre atualizações monetárias efetuadas com base na Taxa SELIC.
+
+
+
+
+                                                                                                   28
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ 16 Salário, férias, encargos, prêmios e participações
+
+ Os saldos relativos aos principais benefícios de curto prazo, concedidos aos empregados estão apresentados a
+ seguir:
+
+
+
+
+ 16.1 Abono por repactuação salarial
+
+ Trata-se de abono em função de renegociação contratual com redução salarial, realizada por meio de negociação
+ individual, conforme previsto no artigo 444 da CLT e em acordo firmado com o Tribunal Superior do Trabalho.
+
+ Em 31 de dezembro de 2020, a Companhia provisionou o valor de R$ 68 de abono. Até 30 de setembro de 2021, a
+ Companhia efetuou o pagamento de R$ 60 e reverteu R$ 8 não restando saldo a pagar.
+
+ 16.2 Prêmios e incentivos de curto prazo
+
+ 16.2.1 Pagamento de prêmios e incentivos de curto prazo a empregados
+
+ Em 31 de dezembro de 2020, a Companhia provisionou o montante de R$ 45 para pagamento de incentivos de
+ curto prazo aos empregados referente ao exercício de 2020. Até 30 de setembro de 2021, a Companhia efetuou o
+ pagamento de R$ 43 e reverteu R$ 2, não restando saldo a pagar.
+
+ Em 30 de setembro de 2021, foi provisionado o montante de R$ 38 para pagamento de incentivos de curto prazo
+ aos empregados referente ao exercício de 2021.
+
+ 16.2.2 Pagamento de incentivos de curto prazo aos membros da Diretoria Executiva
+
+ Em 31 de dezembro de 2020, a Companhia provisionou o montante de R$ 10 para o programa de Incentivos de
+ Curto Prazo. Até 30 de setembro de 2021 foi realizado o pagamento de R$ 10, não restando saldo a pagar.
+
+ Em 30 de setembro de 2021, foi provisionado o montante de R$ 8 para pagamento de incentivos de curto prazo
+ aos membros da Diretoria Executiva referente ao exercício de 2021.
+
+ 16.3 Planos de pagamentos baseados em ações
+
+ Em Assembleia Geral Extraordinária realizada em 28 de julho de 2020 foram aprovados o Plano de Incentivo de
+ Longo Prazo em Opções de Compra de Ações e o Plano de Ações Restritas – Programa de Matching Shares, sendo
+ este último aplicável somente aos Dirigentes Estatutários.
+
+
+
+
+                                                     29
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ Esses planos têm, dentre seus objetivos: (i) alinhar interesses entre acionistas e executivos; (ii) reconhecer o sucesso
+ na execução do Business Plan; (iii) reforçar a visão a longo prazo nas decisões da Companhia; e (iv) reter talentos e
+ compartilhar o sucesso da organização.
+
+ No Plano de Incentivo de Longo Prazo em Opções de Compra de Ações o executivo recebe opções da Companhia
+ que poderão ser convertidas em ações por um período de três anos (período do exercício) após um prazo
+ determinado de três anos (vesting) a partir de sua outorga. Já no Plano de Ações Restritas (Programa de Matching
+ Shares), o executivo recebe ações como contrapartida ao investimento feito na compra de ações de emissão da
+ Companhia no mercado, usando parte de seu incentivo de curto prazo, também após um prazo determinado de
+ carência de três anos a partir do seu investimento.
+
+ Adicionalmente, foi implantado no primeiro trimestre de 2021, o plano de Phantom Shares, como estratégia de
+ atração e retenção executiva. O programa estabelece a outorga de uma quantidade específica de ações, com o
+ respectivo recebimento, em dinheiro, após o cumprimento do prazo de vesting de 2 (dois) anos.
+
+ Até 30 de setembro de 2021, foi reconhecido o montante de R$ 9 como despesa de pessoal, incluindo encargos
+ sociais, referentes aos programas de pagamentos baseados em ações.
+
+ Seguem informações dos programas:
+
+
+
+
+ Stock Options 2020: O valor justo (fair value) das opções foi calculado seguindo o método Binomial. As variáveis
+ utilizadas foram: Taxa livre de risco de 4,25% a.a.; Dividend Yield de 1,90% (excluindo o de 2019 por estar acima da
+ média histórica) e Volatilidade da ação de 2 anos, sendo essa de 34,03%, além dos prazos de vesting e exercício.
+
+ Stock Options 2021: O valor justo (fair value) das opções foi calculado seguindo o método Binomial. As variáveis
+ utilizadas foram: Taxa livre de risco de 2% a.a.; Dividend Yield de 9,01% (excluindo o de 2019 por estar acima da
+ média histórica) e Volatilidade (março/2019 a mar/2021), sendo essa de 48,64%, além dos prazos de vesting e
+ exercício.
+
+ Matching Shares 2020: o valor justo (fair value) das ações é equivalente à cotação de fechamento na data da
+ outorga.
+
+ Phantom Shares 2021: O valor justo (fair value) é calculado com base na média ponderada dos últimos 30 pregões
+ anteriores ao último dia do mês de setembro.
+
+
+
+
+                                                          30
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ 17 Benefícios concedidos a empregados
+
+ As obrigações da Companhia relativas aos planos de pensão e de saúde estão representadas a seguir:
+
+
+
+
+ A movimentação dos benefícios concedidos a empregados está representada a seguir:
+
+
+
+
+A despesa líquida com planos de pensão e saúde inclui os seguintes componentes:
+
+
+
+
+                                                      31
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+
+ Plano de saúde
+ Conforme descrito na nota 19.3 das demonstrações contábeis de 31 dezembro de 2020, no 4º trimestre de 2020,
+ a Companhia contratou um plano de mercado administrado pela Bradesco Seguros, oferecendo o benefício de
+ saúde (médico e odontológico) aos seus colaboradores, ex-colaboradores e seus dependentes em substituição ao
+ plano de autogestão (AMS).
+
+ A redução observada nas despesas atuariais projetadas para o exercício de 2021, reflete o ajuste do passivo atuarial
+ remensurado em 31 de dezembro de 2020, por consequência da substituição do plano de autogestão (AMS) para
+ o plano de mercado.
+
+ Plano de pensão
+ O Plano Petros 2 possui uma parcela com característica de contribuição definida cujos pagamentos são
+ reconhecidos no resultado. Até setembro de 2021, a contribuição da Companhia para parcela de contribuição
+ definida no Plano Petros 2 foi de R$ 20 (R$ 18 até setembro de 2020).
+
+PPSP-R e PPSP-NR – Contribuições da Companhia
+Em relação as contribuições dos planos PPSP-R, o valor acumulado até setembro de 2021, referente às
+contribuições normais foi de R$ 19 (R$ 17 até setembro de 2020). Em relação ao mesmo plano, o total até setembro
+de 2021 referente às contribuições extraordinárias (referente ao plano de equacionamento de déficit – PED em
+vigor) foi de R$ 35 (R$ 27 até setembro de 2020).
+
+
+Em relação as contribuições dos planos PPSP- NR, o valor acumulado até setembro de 2021, referente às
+contribuições normais foi de R$ 8 (R$ 7 até setembro de 2020). Em relação ao mesmo plano, o total até setembro
+de 2021 referente às contribuições extraordinárias (referente ao plano de equacionamento de déficit – PED em
+vigor) foi de R$ 14 (R$ 12 até setembro de 2020).
+
+
+
+
+                                                        32
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ 18 Patrimônio líquido
+
+ 18.1 Capital social
+
+ Em 30 de setembro de 2021 o capital social totalmente subscrito e integralizado no valor de R$ 6.353 (R$ 6.353
+ em 31 de dezembro de 2020), está composto por 1.165.000.000 ações ordinárias representadas na forma
+ escritural e sem valor nominal.
+
+ A Companhia poderá, independentemente de reforma estatutária, por deliberação do Conselho de Administração
+ e nas condições determinadas por aquele órgão, aumentar o capital social até o limite de R$ 7.000 (sete bilhões
+ de reais), mediante a emissão de ações ordinárias.
+
+ Em 1º de julho de 2021, foi registrada na CVM a oferta pública de ações da Companhia, por meio da qual a
+ Petrobras alienou a totalidade de sua participação na Petrobras Distribuidora S. A. (37,5%). A oferta foi encerrada
+ em 5 de julho de 2021.
+
+ 18.2 Ações em tesouraria
+ Em 29 de julho de 2021, o Conselho de Administração da Companhia aprovou programa de recompra de ações
+ ordinárias de sua emissão, com efeitos a partir do dia 11 de agosto de 2021, limitado ao valor total de R$ 1,5 bilhão
+ em um prazo de até 18 meses. A Administração da Companhia vê no programa mais uma opção oportuna de
+ alocação de capital.
+
+ A recompra tem por objetivo a aquisição de ações ordinárias de emissão da própria Companhia para manutenção
+ de tais ações adquiridas em tesouraria, cancelamento ou alienação. As ações recompradas e mantidas em
+ tesouraria podem, a critério da administração, ser usadas para cumprir obrigações decorrentes de planos de ações.
+
+ Até 30 de setembro de 2021 a Companhia recomprou um total de 27.570.000 ações e possui registrado no
+ patrimônio líquido um montante de R$ 704 de ações em tesouraria.
+
+ 18.3 Dividendos e juros sobre o capital próprio
+
+ Aos acionistas é assegurado um dividendo obrigatório de 25% do lucro líquido ajustado do período, de acordo com
+ o artigo 44 do Estatuto Social da Companhia e nos termos do artigo 202 da Lei das Sociedades por Ações.
+
+
+
+
+                                                         33
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ Em 12 de janeiro de 2021 a Companhia pagou aos acionistas, juros sobre o capital próprio, referentes ao exercício
+ de 2020, no valor de R$444, líquido do imposto de renda retido na fonte.
+
+ A proposta de dividendos, apresentada na nota 20.3 das demonstrações contábeis de 31 de dezembro de 2020, foi
+ aprovada na Assembleia Geral Ordinária (AGO) em 15/04/21. Em 30 de abril de 2021 a Companhia efetuou o
+ pagamento da primeira parcela dos dividendos no montante de R$ 1.106 e em 31 de agosto de 2021 pagou a
+ segunda e última parcela de R$ 720.
+
+ Em 28 de julho, o Conselho de Administração aprovou a distribuição de remuneração antecipada aos acionistas
+ sob a forma de Juros sobre o Capital Próprio (JCP) referente ao exercício de 2021, em um montante estimado de
+ R$ 554, sendo a primeira parcela de R$ 388 e a parcela complementar de R$ 166.
+
+ O primeiro pagamento foi realizado em 30 de setembro de 2021 no valor de R$ 360, líquido do imposto de renda
+ na fonte. A parcela complementar deverá ser paga em dezembro de 2021.
+
+ Esta antecipação deverá compor o dividendo mínimo obrigatório de 2021, ad referendum da (AGO), sem prejuízo
+ de outras eventuais distribuições a serem definidas na Assembleia Geral Ordinária que apreciará as demonstrações
+ financeiras do exercício social encerrado em 31 de dezembro de 2021.
+
+
+ 18.4 Resultado por ação
+
+
+
+
+                                                       34
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ 19 Receita de vendas
+
+
+
+
+    (a) Trata-se da venda de serviços e produtos químicos para a área de exploração e produção, abastecendo plataformas, sondas, FPSOs
+      e unidades terrestres com os produtos indispensáveis às operações e demais aplicações, sendo o maior cliente a Petrobras.
+    (b) Valores concedidos aos clientes em função do cumprimento de prazos e desempenhos acordados contratualmente.
+
+
+ A variação nas receitas de R$ 34 bilhões de 30 de setembro de 2020 para 30 de setembro de 2021 decorre das
+ sucessivas altas de preços dos produtos nas refinarias da Petrobras em 2021.
+
+ Os principais contratos com clientes da Companhia envolvem a comercialização de combustíveis como gasolina,
+ diesel, querosene de aviação, etanol e óleo combustível, lubrificantes, dentre outros e são revendidos a postos de
+ serviços, indústrias, empresas aéreas, governos, empresas de transporte, termoelétricas, transportadores
+ revendedores retalhistas, entre outros consumidores.
+
+ 19.1 Obrigações de desempenho restantes
+
+ A Companhia possui contratos de vendas de produtos ou serviços, vigentes e assinados até 30 de setembro de
+ 2021, com prazos superiores a 1 ano, onde os direitos de cada parte em relação aos bens e serviços a serem
+ transferidos encontram-se definidos, ou seja, há uma quantidade pré-estabelecida de bens ou serviços prometidos
+ ao cliente para os próximos exercícios, com seus respectivos termos de pagamentos.
+
+
+
+
+                                                                35
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ A seguir estão apresentados os valores totais de preços alocados às obrigações de desempenho que não se
+ encontram satisfeitas em 30 de setembro de 2021, tendo como base volumes de vendas comprometidos entre as
+ partes, bem como preços praticados em vendas recentes, sendo esses sujeitos às variações no valor de
+ commodities, taxa de câmbio e outros fatores de mercado.
+
+
+
+
+ A tabela anterior não inclui informações sobre contratos com clientes com duração igual ou inferior a um ano,
+ como por exemplo, vendas no mercado spot, além de contratos que não estabeleçam volumes.
+
+ 19.2 Passivos de contratos
+
+ Os passivos de contratos referem-se às obrigações contratuais decorrentes de antecipações recebidas dos clientes
+ para futuras vendas de produtos, principalmente, combustíveis claros, combustíveis escuros, solventes e produtos
+ especiais e produtos de aviação os quais serão reconhecidos como receita mediante a efetiva entrega.
+
+ Esses saldos estão classificados no grupo de Adiantamentos de Clientes e em 30 de setembro de 2021 perfazem o
+ montante de R$ 458 (Consolidado e Controladora). Em 31 de dezembro de 2020 estes saldos eram R$494 no
+ Consolidado e na Controladora.
+
+ O valor de R$ 429 foi reconhecido como receita em 2021 e estava incluído no saldo de passivos de contrato no
+ início do exercício (R$ 140 em 30 de setembro de 2020).
+
+
+
+
+                                                      36
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+20 Custo e despesas por natureza
+
+20.1 Custo dos produtos vendidos e serviços prestados
+
+
+
+
+(*) É o resultado da diferença do estoque final pelo estoque inicial apresentado no Balanço Patrimonial.
+
+ Os custos dos produtos vendidos e dos serviços prestados apresentaram variação de R$ 32 bilhões de 30 de
+ setembro de 2020 para 30 de setembro de 2021 em função do aumento no custo médio de aquisição, decorrente
+ do aumento nos preços.
+
+20.2 Despesas de vendas e perdas de créditos esperadas
+
+
+
+
+ (*) O aumento nas perdas de créditos estimadas decorre, principalmente, da recuperação judicial da Samarco (nota
+ 6), que acarretou o reconhecimento em 2021 de R$159 de perdas de créditos, sem correspondência com o período
+ anterior.
+
+
+20.3 Despesas gerais e administrativas
+
+
+
+
+                                                                    37
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+20.4 Outras receitas (despesas) líquidas
+
+
+
+
+   •   O aumento nas despesas de hedge de commodities (de um ganho de R$ 461 em 30 de setembro de 2020
+       para uma perda de R$ 358 em 30 de setembro de 2021) decorre, principalmente, da perda na proteção da
+       variação no preço praticado pela Petrobras em comparação ao preço pago na importação de derivados
+       (R$ 813).
+
+   •   Em 2021 houve reconhecimento de R$ 285 de créditos de ICMS originados do fim da definitividade da
+       substituição tributária, no que se refere à cobrança de complemento ou à geração de ressarcimento nas
+       vendas de Óleo Diesel e Gasolina aos Grandes Consumidores, bem como de Querosene de Aviação às
+       Empresas Aéreas. Estes créditos são reconhecidos à medida que sejam deferidos formalmente pelas
+       autoridades fiscais estaduais.
+
+   •   Ganho em processo transitado em julgado em junho de 2020 referente ao reconhecimento do direito à
+       exclusão do ICMS da base de cálculo do PIS e da COFINS, bem como a compensação dos valores
+       indevidamente recolhidos. Os valores reconhecidos no resultado da Companhia foram de R$ 551, sendo R$
+       392 de principal e R$ 159 de atualização monetária.
+
+   •   Em 2020 a ES GAS tornou-se a nova concessionária estadual de gás natural do Espírito Santo, assumindo os
+       serviços de distribuição a partir de 01 de agosto de 2020, que antes eram prestados pela Companhia. Em
+       função desta operação foi reconhecido um ganho de indenização de R$117 calculado com base nos
+       investimentos realizados pela Companhia.
+
+
+
+
+                                                     38
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ 21 Resultado financeiro, líquido
+
+
+
+
+(*) Ajuste do valor justo de parcela do “earn-out” a receber referente a alienação do controle da Stratura Asfaltos, ocorrida em 2020.
+
+
+
+
+                                                                     39
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+
+ (*) Ajuste do valor justo de parcela do “earn-out” a receber referente a alienação do controle da Stratura Asfaltos, ocorrida em 2020.
+
+ Os encargos dos financiamentos (juros, variação monetária e variação cambial) totalizaram R$ 463 (nota 13.1) no
+ exercício (R$ 995 em 30 de setembro de 2020), sendo R$ 451 (R$ 987 em 30 de setembro de 2020) reconhecidos
+ no resultado e R$ 12 (R$ 8 em 30 de setembro de 2020) como juros capitalizados.
+
+
+
+
+                                                                    40
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ 22 Informações por segmento
+
+ As informações por segmentos operacionais são apresentadas de modo consistente com o relatório interno
+ fornecido para o principal tomador de decisões operacionais. O principal tomador de decisões operacionais,
+ responsável pela alocação de recursos e pela avaliação de desempenho dos segmentos operacionais é a Diretoria
+ Executiva.
+
+ Essas informações são elaboradas com base em itens atribuíveis diretamente ao segmento, bem como aqueles que
+ podem ser alocados em bases razoáveis. Não há transferências entre as áreas de negócio.
+
+ Rede de Postos
+ Comercializa combustíveis derivados de petróleo, lubrificantes, gás natural veicular, biocombustíveis e produtos
+ de conveniência da Companhia, objetivando alcançar as metas de mercado e de rentabilidade estabelecidas, bem
+ como criar as condições favoráveis para o seu crescimento sustentável.
+
+ B2B
+ Comercializa combustíveis, derivados de petróleo, lubrificantes e presta serviços associados em todos os
+ segmentos de atuação no mercado de grandes consumidores da Companhia.
+
+ Mercado de Aviação
+ Comercializa produtos e serviços de aviação nas instalações em aeroportos do país para companhias aéreas que
+ operam o transporte para o exterior e mercado interno.
+
+ Os itens não alocados nos segmentos ficam agrupados no Corporativo e dizem respeito, principalmente, aqueles
+ vinculados à gestão financeira corporativa, o overhead relativo à Administração Central e outras despesas, inclusive
+ as atuariais referentes aos planos de pensão e de saúde destinados aos aposentados e beneficiários.
+
+ O resultado consolidado das receitas com clientes no Brasil, conforme tabela abaixo, é de R$ 90.740 (R$ 57.158
+ janeiro a setembro de 2020), e o total de receita com clientes no exterior, com base no país de destino da venda,
+ é de R$ 731 (R$ 504 janeiro a setembro de 2020).
+
+ Os ativos da Companhia, notadamente as bases, terminais e outros ativos fixos, não são apresentados por
+ segmento à Diretoria Executiva, uma vez que são utilizados, sem segmentação, por todas as unidades de negócio.
+ Da mesma forma, os passivos não são apresentados por segmento, uma vez que são gerenciados pela tesouraria
+ central.
+
+ A seguir, as principais informações financeiras avaliadas pela Diretoria Executiva:
+
+
+
+
+                                                         41
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+
+                                                  42
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+
+                                                  43
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+
+ 22.1 Desagregação da Receita
+
+
+
+
+                                                  44
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+
+ 23 Processos judiciais, administrativos, depósitos judiciais e contingências
+
+ 23.1 Processos judiciais e administrativos provisionados
+ A Companhia e suas investidas constituem provisões em montante suficiente para cobrir as perdas consideradas
+ prováveis e confiavelmente estimáveis. As principais ações se referem aos seguintes eventos:
+
+ Processos Fiscais
+ (i) não homologação de compensações de tributos federais (exceto IPI) (R$ 44 em 30 de setembro de 2021 e R$ 57
+ em 31 de dezembro de 2020).
+
+
+
+
+                                                      45
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ Processos Cíveis
+ (i) processo movido por Valpar em que se discute o suposto descumprimento de Contrato de Transporte e de
+ Mútuo pela Companhia, acarretando prejuízos e inviabilizando a operação de postos da autora (R$ 121 em 30 de
+ setembro de 2021 e R$ 104 em 31 de dezembro de 2020).
+
+ Processos Trabalhistas
+ (i) Subsidiaridades – pedidos de condenação subsidiária da Companhia ao pagamento de verbas trabalhistas
+ devidas aos empregados das empresas prestadoras de serviço (R$ 85 em 30 de setembro de 2021 e R$ 83 em 31
+ de dezembro de 2020);
+
+ (ii) RMNR/Periculosidade - pedido de pagamento do complemento da RMNR sem dedução do adicional de
+ periculosidade do valor da RMNR, em que há decisão condenatória transitada em julgado contra a Companhia (R$
+ 52 em 30 de setembro de 2021 e R$ 36 em 31 de dezembro de 2020); e
+
+ (iii) Complementação/Suplementação de aposentadoria – processos trabalhistas envolvendo a Companhia e a
+ Petros movidos por ex-empregados pleiteando diferenças nos valores recebidos em sua complementação de
+ aposentadoria (R$ 58 em 30 de setembro de 2021).
+
+ As despesas com processos judiciais e administrativos, incluindo atualizações, estão reconhecidas em outras
+ receitas (despesas), líquidas.
+
+ Na preparação das demonstrações contábeis intermediárias do período findo em 30 de setembro de 2021, a
+ Companhia considerou todas as informações disponíveis relativas aos processos em que é parte envolvida para
+ realizar as estimativas dos valores das obrigações e a probabilidade de saída de recursos. Entretanto, dada as
+ características das provisões judiciais de longo prazo, não é possível estimar um cronograma referente à saída
+ desses recursos.
+
+ Essas provisões são apresentadas de acordo com a natureza das correspondentes causas:
+
+
+
+
+ (*) O valor da baixa de depósitos judiciais é R$ 5 em 30 de setembro de 2021 (Consolidado e Controladora),conforme nota 23.2 (R$ 16 em
+ 30 de setembro de 2020 Consolidado e Controladora).
+
+
+
+
+                                                                 46
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ 23.1.1 Processos judiciais provisionados e depósitos judiciais relacionados
+
+
+
+
+ 23.2 Depósitos judiciais
+
+
+
+
+ (a)   Por pagamento de processos judiciais.
+ (b)   Inclui ajustes das estimativas de atualização e juros de depósitos levantados.
+
+ A Companhia mantém R$ 251 (R$ 285 em 31 de dezembro de 2020) de depósitos judiciais vinculados a processos
+ judiciais provisionados (nota 23.1.1); R$ 584 (R$ 597 em 31 de dezembro de 2020) associados a contingências
+ possíveis; R$ 170 (R$ 158 em 31 de dezembro de 2020) associados a contingências remotas; R$ 95 (R$ 91 em 31
+ de dezembro de 2020) referem-se a depósitos relacionados a processos nos quais a Companhia e suas investidas
+ são autoras e R$ 18 (R$ 33 em 31 de dezembro de 2020) referem-se a outros.
+
+ 23.3 Processos não provisionados (perdas possíveis)
+
+
+
+
+                                                                   47
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ Apresentamos a seguir os principais processos não provisionados:
+
+  a)      Processos de natureza fiscal
+
+Descrição dos processos de natureza fiscal                                                          30.09.2021     31.12.2020
+Autores: Estados de GO, PA, RJ, SP e TO
+       Cobrança de ICMS-ST sobre remessa e devolução simbólica de querosene de aviação para
+1)     revenda; consideração de estabelecimento atacadista como varejista; inidoneidade de
+       documentação fiscal. (a) (b) (c)                                                                    1.410           1.509
+
+Autor: Estado do RJ
+       Cobrança da diferença de alíquota de ICMS nas operações internas com querosene de
+       aviação. O Estado do Rio de Janeiro conferiu benefício fiscal reduzindo a alíquota de ICMS
+2)     sobre querosene de aviação. Essa redução foi considerada inconstitucional. Hoje o Estado
+       do Rio de Janeiro cobra essa diferença das distribuidoras relativamente às vendas para
+       as companhias aéreas.                                                                               1.387           1.364
+Autores: Estados de AL, AM, BA, CE, GO, MA, MT, PA, PB, PE, PI, RJ, RN, SE, SP e TO
+       Processos nos quais a Companhia discute a não incidência de ICMS sobre a variação nos
+       volumes de combustíveis por sobras e faltas nos estoques decorrente da
+       operacionalização e transporte dos produtos. A Companhia recebe produtos da refinaria
+3)     de petróleo faturados à temperatura de 20° C. Quando da comercialização (clientes
+       consumidores), a Companhia vende o produto à temperatura ambiente, resultando em
+       variação do estoque decorrente das variações volumétricas naturais em função da
+       temperatura.                                                                                        1.277                928
+Autores: Estados do AP, BA e SP e Discom
+       Processos em que a Companhia discute de quem é a legitimidade passiva para honrar o
+       pagamento de ICMS que não foi retido por substituição tributária em virtude de liminares
+4)     obtidas pelos adquirentes, mas hoje são devidos em virtude de insucesso final desses
+       adquirentes nas demandas por eles movidas em face do Estado.
+                                                                                                            846                 722
+Autor: União
+       Processos em que a Companhia discute a incidência de IPI sobre produtos derivados de
+5)     petróleo e a possibilidade de manutenção de créditos de IPI sobre aquisição de insumos
+       utilizados na produção de derivados de petróleo (imunes ao IPI).                                     604                 574
+Autores: Estados do AM, CE e PE
+      Cobrança de ICMS em supostas vendas de querosene de aviação sem destaque de ICMS
+6)    para companhias aéreas nacionais e estrangeiras, para voos a outros estados ou para o
+      exterior. (e)                                                                                         312                 199
+Autores: Estados do AM, BA, CE, GO, MT, PA, PB, RJ, RO, RS e SP, o Distrito Federal e a União
+      Punição aplicada pelo descumprimento de obrigações acessórias relacionadas a
+7)    recolhimento e creditamento de ICMS, IRPJ, CSLL, PIS e COFINS, incidentes sobre
+      operações em geral pela Companhia.                                                                    217                 234
+Autores: Estado do AC, AM, BA, CE, GO, MG, PB, PI, RO e SP
+      Processos em que a Companhia discute se existe ou não direito a crédito pelo ICMS pago
+8)    quando do frete CIF em operações interestaduais acobertadas pela imunidade. Distinção
+      entre operação e serviço de transporte. (b) (c)                                                       205                 242
+Autor: União
+       Processos em que a Companhia discute a Contribuição Previdenciária incidente sobre
+9)     verba a título de PLR e prêmio por desempenho pagos aos empregados e/ou dirigentes.                  176                 157
+Autor: União
+       Discussão sobre a viabilidade quantitativa e qualitativa de compensações tributárias
+10)    operadas pela Companhia, cujas DCOMPs não são homologadas pela Secretaria da
+       Receita Federal - exceto créditos de IPI, tratados em outro perfil.                                  123                 110
+
+
+
+
+                                                                     48
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+Descrição dos processos de natureza fiscal                                                        30.09.2021    31.12.2020
+Autor: Estado do RJ
+       Processo em que se discute a apropriação de crédito escritural de ICMS, tendo em vista
+11)
+       que o Estado autuou a Companhia por suposta escrituração de créditos em duplicidade.               104                102
+Autores: Estados do MT, PA e PE
+       Processos em que a Companhia foi autuada pelo Fisco, exigindo-se ICMS relativo a
+12)    operações de entrada a partir de transferências entre seus estabelecimentos.                       103                101
+Autor: Estados de AL, BA, CE, MT, PI e RR
+       Processos em que a Companhia foi autuada pelo Fisco, exigindo-se diferenças
+13)
+       (complemento) em relação à apuração do ICMS / ST. (a)                                               97                 4
+Autores: Estados do AC, AM, BA, CE, ES, GO, MA, MT, PA, RJ e RO
+       Processos em que a Companhia é exigida por supostas omissões na prestação de
+14)    informações via SCANC, as quais supostamente resultaram em ausência ou insuficiência
+       de repasse de ICMS em favor da unidade federativa autuante. (b) (c)                                 83                122
+Autores: Estado do PA e União
+      Caso em que a Companhia foi autuada em razão de recolhimento extemporâneo de
+15)
+      tributo sem atualizar os valores na forma exigida pela Fiscalização.                                 76                75
+Autor: União
+
+16)   Cobranças de multas isoladas da Receita Federal em razão da não homologação de
+      compensações tributárias efetuadas pela Companhia.                                                   76                75
+Autores: Estados do PR e SP
+      Guerra fiscal entre Unidades da Federação relativa a benefícios fiscais de ICMS na origem
+17)   e possibilidade de creditamento em operações interestaduais.                                         75                75
+Autor: União
+       Processos em que a Companhia é autuada quanto ao não recolhimento de contribuição
+18)    previdenciária patronal sobre verbas pagas como honorários a administradores,
+       considerando-se suposta relação empregatícia desses com a Companhia.                                68                67
+Autores: Estados do AC, AM, BA, CE, MA, PA, PI, RJ, RS e SP
+       Processos em que o Fisco acusa a Companhia de ter tomado/utilizado crédito de ICMS
+19)    em operações que não gerariam tal direito ao creditamento, como casos de aplicação
+       indevida do princípio da não-cumulatividade.                                                        65                77
+Autor: União
+       Processos em que a Companhia discute a incidência de contribuição previdenciária sobre
+20)    a remuneração de autônomos que prestaram serviços à Companhia.                                      64                63
+Autor: Estado do RJ
+       Processos em que a Companhia foi autuada por utilização de NCM (Nomenclatura
+21)    Comum do Mercosul) de produto com a qual o Estado não concorda, e cobra ICMS-ST
+       que a Companhia entende indevido.                                                                   61                229
+Autor: Estados do AC, ES, GO, MA, MT, PA, PB, PE, PI, RJ, RO, SC e TO
+
+22)    Processos em que há cobrança de ICMS não categorizada nos demais perfis existentes.
+       (d)                                                                                                 57                28
+Autor: Estados do MT e SP
+       Processos em que o estado cobra da Companhia ICMS retido e não recolhido por
+23)    alienante (usina de etanol).                                                                        55                50
+Autor: União
+       Processos em que a Companhia é autuada como responsável solidária pelo recolhimento
+24)    de contribuições previdenciárias.                                                                   20                52
+
+
+
+
+                                                                   49
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+Descrição dos processos de natureza fiscal                                                                30.09.2021            31.12.2020
+
+Autor: Estado de PE
+       Processos em que o Fisco acusa a Companhia de ter tomado/utilizado crédito de ICMS
+       em operações que não gerariam tal direito ao creditamento. Discute-se se as normas
+       contidas no §3º, do art. 32, da Lei Estadual nº 10.259/1989 e do §21, do art. 34, do
+25)
+       Decreto nº 14.876/1991, que previam a possibilidade de tomada e manutenção de
+       créditos fiscais de ICMS, foram ou não tacitamente revogadas pela Lei Estadual nº
+       11.408/1996. (e)                                                                                               1                      684
+       Processos diversos de natureza fiscal (d)                                                                    256                      300
+       Total                                                                                                      7.818                    8.143
+Ocorreram reclassificações entre os perfis, conforme segue abaixo:
+
+      (a) reclassificação de R$ 93 do perfil "1 - ICMS – Aviação Revenda" para o perfil "13 - ICMS – ST complemento".
+      (b) reclassificação de R$ 88 do perfil "8 - ICMS – Crédito sobre frete" para os perfis "1 - ICMS - Aviação Revenda" (R$ 86) e " 14 - ICMS -
+          Omissões Scanc" (R$ 2).
+      (c) reclassificação de R$ 95 do perfil "14 - ICMS – Omissões Scanc" para os perfis "1 - ICMS - Aviação Revenda" (R$ 86) e “8 – ICMS –
+          Crédito sobre frete” (R$ 9).
+      (d) reclassificação de R$ 29 do perfil "Recuperação de Crédito Tributário (Outros)" para o perfil "22 - ICMS – Outras Cobranças".
+      (e) reclassificação de R$ 130 do perfil "25 - ICMS - Créditos - Lei Pe derrogada" para o perfil "6 - ICMS – Aviação Exportação".
+
+
+
+
+ b)           Processos de natureza cível
+
+Descrição dos processos de natureza cível                                                                   30.09.2021        31.12.2020
+
+Autor: WTorre Engenharia E Construção S.A..
+      Procedimento arbitral instaurado pelas requerentes em virtude de imbróglio decorrente de
+      suposta fraude à inexigibilidade de licitação para contratação de locação atípica (BTS) para
+1)    operação do Terminal de Rondonópolis.
+        Situação atual: Decisão suspendendo a arbitragem enquanto estiver eficaz a liminar favorável
+        à Companhia deferida na Ação Civil Pública movida em face da W. Torre.                                   1.249              1.141
+
+Autor: CADE - Conselho Administrativo de Defesa Econômica
+      Inquérito convertido em Processo Administrativo em decisão publicada em 02/07/2020.
+      Eventual multa é calculada com alíquotas entre 0,01% a 20%, tendo sido utilizada a alíquota
+      máxima (20%). Para fins de base de cálculo, restringiu-se ao faturamento bruto anual (ano
+      anterior a instauração do PA - 2019) da Companhia no mercado relevante geográfico definido
+      pelo CADE nos autos do processo - DF.
+
+2)      Situação atual: A SG/CADE emitiu Nota Técnica convertendo o Inquérito Administrativo em
+        Processo Administrativo. As infrações a serem apuradas no referido processo são: acordo de
+        preços do etanol e divisão de clientes no Distrito Federal/DF, bem como a adoção de uma
+        política de discriminação de adquirentes em âmbito nacional, com efeito no mercado do
+        Distrito Federal/DF. A defesa da Companhia foi apresentada em 07/05/2021.
+
+                                                                                                                   350                343
+
+
+
+
+                                                                       50
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+Descrição dos processos de natureza cível                                                                30.09.2021   31.12.2020
+Autor: Forte Comércio, Importação, Exportação e Administração
+      Ação cível perante a justiça do Estado de São Paulo, com pedido de rescisão de contratos e
+      indenização por perdas e danos, sob alegação de a Companhia ter descumprido obrigação
+      que teria assumido para o surgimento do Grupo Forte.
+      Situação atual: A União opôs embargos de divergência contra o acórdão que rejeitou os seus
+      embargos de declaração (RESP nº 1.265.625). O valor em discussão atualizado é R$ 1,6 bilhão,
+      conforme proposta de acordo apresentada pela Rede Forte em 2017. No fim de 2017, a Rede
+      Forte enviou carta ao mercado estimando a condenação em R$8 bilhões – nada obstante ter
+      se manifestado em juízo a respeito de sua iliquidez. Em julho de 2018, enviou nova carta ao
+      mercado estimando a condenação em R$10.600 milhões, tendo iniciado execução provisória
+      de sentença neste montante. O pleito foi indeferido pelo juízo e a decisão mantida pelo TJSP
+3)    após interposição de agravo de instrumento pela autora, dentre outros motivos, pela
+      necessidade de novo julgamento pelo TJSP, que poderá alterar a condenação, bem como as
+      suas premissas. Em abril de 2021, empreendeu pedidos cautelares para determinar que a
+      fossem acautelados R$304 milhões dos dividendos que seriam distribuídos aos acionistas e
+      que a Companhia fosse proibida de alienar bens e direitos, de modo a garantir o pagamento
+      de condenação estimada em valor superior a R$16.000 milhões. Houve desistência do pleito
+      de acautelamento de dividendos e o segundo pedido foi indeferido pelo juízo, que repisou a
+      incerteza e iliquidez do título judicial – decisão que foi mantida pelo TJSP, em agosto de 2021,
+      após recurso da Forte. No entendimento da Administração da Cia, alinhado aos dos
+      advogados que patrocinam a causa, o valor da contingência está indicado neste documento.
+      Tal diferença decorre da necessidade de se promover uma liquidação da sentença, fazendo
+      com que o risco atual não possa ser definido com precisão.                                               315           294
+
+Autor: Francisco Messias Cameli
+      Ação cível perante a justiça do Estado do Amazonas para cobrança de aluguel, em razão de
+      sobrestadia de embarcações na Base de Distribuição Secundária do Cruzeiro do Sul (BASUL).
+      Situação atual: Em 23/06/2020 foi publicado o acórdão do julgamento em 2ª instância
+4)    negando provimento ao recurso da Companhia, por maioria de votos, vencido o
+      Desembargador Relator que dava provimento ao apelo recursal. Em 29/06/2020 a Companhia
+      interpôs recurso de Embargos de Declaração, que foram rejeitados. Interposto pela
+      Companhia o Recurso Especial, este foi admitido na origem e se encontra concluso ao relator
+      no STJ.                                                                                                  214           201
+
+Autor: Dislub Distribuidora De Lubrificantes Ltda.
+      Autor moveu ação em face da Companhia objetivando a rescisão do contrato de distribuição,
+      o pagamento de indenização a título de perdas e danos sobre uma série de alegados prejuízos
+      e o pagamento de multa contratual. A Companhia foi condenada a reparar apenas o dano
+      material, na forma de lucros cessantes. Porém, o cálculo do perito foi realizado com base nas
+      vendas mensais dos produtos pela Dislub sem a dedução dos seus custos operacionais e
+      tributários. Tal metodologia de cálculo elevou o crédito da Dislub para cerca de R$ 95 em
+      valores atuais.
+      Situação atual: A Companhia foi condenada em indenizar lucros cessantes, calculados por
+      perícia homologada pelo juízo e confirmada pelo Tribunal pelo faturamento bruto, sem
+      desconto dos custos operacionais. Em razão disso, a Companhia recorreu ao STJ e anulou o
+5)    acórdão para determinar que Tribunal se manifestasse sobre a necessidade de desconto dos
+      lucros cessantes - em linha com a jurisprudência da corte. Por essa razão, mantivemos o valor
+      do risco financeiro, contudo, imputamos como provável o risco jurídico de pagar o valor
+      encontrado pelo assistente técnico da Companhia aplicando as premissas da decisão e
+      jurisprudência do STJ, reclassificando como possível a diferença entre o valor atualizado
+      pleiteado por DISLUB e o valor provisionado. No retorno do processo ao TJ, foram acolhidos
+      os Embargos de Declaração para reconhecer as omissões apontadas pela Companhia,
+      contudo, sem efeitos modificativos, mantendo, assim, a condenação. A Companhia interpôs
+      novo Recurso Especial, inadmitido pelo TJPR em 01.06.2021 – decisão em face da qual a
+      Companhia interpôs agravo. Aguarda-se distribuição do recurso no STJ.
+                                                                                                               114            99
+
+
+
+
+                                                                     51
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+Descrição dos processos de natureza cível                                                             30.09.2021   31.12.2020
+
+      Autor: Viação Ouro Verde E Outros
+
+      Trata-se de Ação Ordinária ajuizada por Viação Princesa Tecelã Transportes Ltda. e Auto
+      Viação Ouro Verde em face da Companhia. As autoras alegam que cada uma delas, em
+      29/06/92, firmou com a Companhia CPCVM e outros pactos, pelos quais se comprometeram
+      a adquirir, ambas, um volume total de 32.760 m³ de combustíveis, em um prazo de sessenta
+      meses. Alegam, ainda que a segunda autora, Viação Ouro Verde Ltda. celebrou contrato de
+      transporte rodoviário a granel de derivados energéticos e álcool anidro e/ou hidratado, com
+      prazo de sessenta meses. Todos os contratos estariam vinculados, na medida em que se
+      estabeleceu proporção entre as quantidades de combustíveis adquiridas e as quantidades de
+      transportes dos produtos. Todavia, afirmam que a Companhia nunca deu a correta
+      interpretação à cláusula de proporção entre as quantidades dos contratos, de modo que
+6)    sempre se valeu de transportes da Auto Viação Ouro Verde na quantidade aquém da
+      avençada e, com isso, causou-lhe perdas e danos.
+
+      Situação atual: A Companhia foi condenada a ressarcimento de fretes e pagamento de
+      perdas e danos às Autoras. Iniciado cumprimento de sentença, as Autoras apresentaram
+      petição com a quantia que entende devida: R$1.041 como faturamento bruto relativos a
+      fretes não transportados para a Companhia e R$83 a título de lucros cessantes.
+
+      A Companhia requereu a produção de prova pericial técnica para apuração dos volumes e
+      período de contrato que servirão de premissa à liquidação dos valores da condenação. Com
+      apoio dos seus assistentes técnicos, a Companhia considerou provável a perda de valor de
+      lucro líquido estimado com base na proporcionalidade prevista no contrato e possível a perda
+      indicada neste documento, cujo lucro líquido resultante foi calculado com base no
+      faturamento bruto indicado pela autora.                                                               103             75
+
+      Autor: CADE - Conselho Administrativo de Defesa Econômica
+      Trata-se de investigação administrativa de suposta prática anticoncorrencial de abuso de
+      posição dominante, com pedido de adoção de medida preventiva, deflagrada por GRAN
+      PETRO contra as empresas que compõem o pool de aviação no aeroporto de Guarulhos-SP.
+
+      Situação atual: Após o parecer da SG de 10 de setembro de 2020 recomendando a
+      condenação das empresas que integram o pool do aeroporto de Guarulhos, o processo foi
+7)    encaminhado para o Ministério Público Federal – MPF, para o Departamento de Estudos
+      Econômicos – DEE e para a Procuradoria do CADE. Todos os órgãos emitiram pareceres
+      recomendando o arquivamento do feito por não vislumbrarem nenhuma conduta geradora
+      de danos à concorrência. O processo ainda pendente de julgamento pelo Tribunal.                        86             84
+
+Autor: Único Combustíveis Ltda.
+      O autor ajuizou ação postulando indenização pela responsabilidade da Companhia na rescisão
+8)    do contrato de fornecimento de combustíveis. A Companhia se defendeu afirmando que o
+      autor, e não ela, deu causa à rescisão.
+
+      Situação atual: Ação com trânsito em julgado desfavorável à Companhia, em fase de
+      execução. A Companhia apresentou recurso sustentando que o critério de margem
+      bruta/líquida para fins de apuração dos lucros cessantes foi equivocadamente utilizado pelo
+      perito, o que foi acolhido em decisão do Superior Tribunal de Justiça. Ao rejulgar o Embargos
+      de Declaração, o TJPR voltou a negar-lhe provimento. Essa nova decisão negativa foi desafiada
+      pela Companhia por Recurso Especial, que foi admitido no TJPR com efeito suspensivo até
+      julgamento definitivo pelo STJ.                                                                        80             75
+
+
+
+
+                                                                   52
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+Descrição dos processos de natureza cível                                                              30.09.2021   31.12.2020
+Autor: CADE - Conselho Administrativo de Defesa Econômica
+      Cuida-se de ação anulatória buscando ver desconstituída decisão administrativa do CADE
+      oriunda de procedimento de investigação a respeito de supostos cartéis na revenda e
+      distribuição de combustíveis em Belo Horizonte e adjacências.
+9)
+      Situação atual: Em 05 de fevereiro houve decisão que o juiz suscitou a incompetência e
+      determinou a redistribuição para a 4ª Vara da Justiça Federal do DF, por conexão. A Cia entrou
+      com Embargos de Declaração.                                                                             75            70
+Autor: Carrefour Comércio E Indústria Ltda
+      Ação monitoria objetivando a cobrança de valores que foram glosados pela Companhia.
+10) Situação atual: A Companhia apresentou contestação. Processo em fase de produção de
+      provas.                                                                                                 74            63
+Autor: DISCOM Distribuidora de Combustíveis e Comércio Ltda.
+      A DISCOM alega que a Companhia, desde outubro de 1997, firmou contrato de promessa de
+      compra e venda mercantil, constando no mesmo a obrigação da Companhia em fornecer
+      produtos. Alega que a Companhia teria deixado de cumprir o contrato imotivadamente,
+      suspendendo a entrega de produtos a partir de 25 de maio de 2000, tendo assim violado o
+      contrato firmado gerando inúmeros prejuízos para a DISCOM. Requer indenização por perdas
+      e danos e lucros cessantes e indenização por danos morais.
+11)
+      Situação atual: Em julgamento ocorrido em 19 de maio de 2021, o Tribunal de Justiça do
+      Estado de Pernambuco manteve a sentença, exceto para estabelecer a SELIC como critério de
+      atualização da condenação. Em razão da alteração do índice de atualização, a contingência foi
+      reduzida para R$ 61 após recálculo com base no novo parâmetro, validado pelo escritório
+      patrocinador da demanda. A Companhia apresentou embargos de declaração, ainda
+      pendentes de julgamento pelo Tribunal.                                                                  61           230
+      Autor: Posto Pau de Vela Bahia Ltda
+      Autor pede o pagamento de indenização por danos causados ao posto em função de práticas
+      (preços e prazos) que inviabilizariam a obtenção de lucro pelo autor além, dos gastos em
+      investimentos e danos morais. Pautada na tese da responsabilidade objetiva, busca ter por
+      ressarcidos os prejuízos ocasionados pelo descumprimento dos contratos firmados com a
+      Companhia, especialmente no que tange aos lucros, de forma a remunerar seus custos
+      operacionais proporcionando, assim a rentabilidade pactuada.
+12)
+      Situação atual: Foi juntado laudo pericial nos autos indicando que algumas condições
+      comerciais impostas pela Companhia teriam sido um dos fatores que colaboraram para os
+      prejuízos sofridos pela parte autora. Entretanto, não foi feita liquidação, de modo que não se
+      pode afirmar ainda a exata extensão desses alegados danos. O laudo elaborado por assistente
+      técnico da Companhia rebate as conclusões do perito nomeado pelo juízo. O processo se
+      encontra pendente de julgamento.                                                                        59            53
+      Autor: Rrf Participações E Administração De Empresas S.A.
+      A causa de pedir desta demanda decorre do artigo 246 da LSA, segundo o qual a “sociedade
+      controladora será obrigada a reparar os danos que causar à companhia por atos praticados
+      com infração ao disposto nos arts. 116 e 117 ”.A Companhia impediu – tanto por ações quanto
+      por omissões – que a BRF pudesse se desenvolver: a Companhia simplesmente reavaliou suas
+      prioridades internas e perdeu o interesse no projeto, após ter assumido compromissos não
+      apenas perante sua sócia RRF – em acordo de acionistas firmado quando da constituição da
+      sociedade – mas, especialmente, perante a própria BRF. Para atender a interesses
+      particulares, a Companhia desistiu unilateralmente de implementar atos imprescindíveis à
+      concretização do fim social da BRF, recusando-se a assinar os contratos essenciais à
+      viabilização do projeto de produção de óleo para biorrefino. E, ao assim proceder, agiu a ré
+13) em inequívoco abuso de poder de controle, conduta vedada pelos arts. 116 e 117 da LSA.
+      Situação atual: Em 13/10/2021 foi realizado acordo com RRF e outros para extinção da ação,
+      que culminou com o pagamento do valor de R$ 27,5. A sentença de homologação do ajuste
+      foi publicada em 15/10/2021, julgando extinto o processo com resolução do mérito.                        -            51
+      Processos diversos de natureza cível                                                                   556           515
+      Total                                                                                                 3.336         3.294
+
+
+
+
+                                                                    53
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ c)      Processos de natureza trabalhista
+
+
+Descrição dos processos de natureza trabalhistas                                                       30.09.2021             31.12.2020
+Autores: Diversos
+    Ações judiciais nas quais os empregados/ex-empregados da Companhia pleiteiam o
+1) pagamento do Complemento da RMNR sem a dedução do adicional de periculosidade.
+                                                                                                                   316                236
+Autores: Diversos
+    Ações judiciais nas quais os empregados/ex-empregados da Companhia pleiteiam o
+    pagamento do adicional de periculosidade sob o fundamento de que executam seu trabalho
+2)
+    em condições de periculosidade, estando expostos aos agentes nocivos, na forma prevista na
+    Norma Regulamentadora nº 16 do Ministério do Trabalho e do Emprego.                                            65                      41
+Autores: Diversos
+    Processos trabalhistas movidos por ex-empregados/empregados de empresas
+3) transportadoras de produtos combustíveis derivados de petróleo contratados pela
+    Companhia.                                                                                                     57                      67
+
+Autores: Diversos
+    Ações judiciais nas quais os ex-empregados das empresas contratadas da Companhia
+4) pleiteiam a condenação subsidiária da Companhia ao pagamento dos seus créditos
+    trabalhistas.                                                                                                  44                      58
+
+      Processos diversos de natureza trabalhista                                                                   146                307
+      Total                                                                                                        628                709
+
+
+ d)    Processos de natureza ambiental
+
+Descrição dos processos de natureza ambiental                                                         30.09.2021         31.12.2020
+Autor: Ministério Público do Estado de Goiás
+     Ação Civil Pública por meio da qual o MP-GO pede a condenação da Companhia, da
+     Transportadora ITA e do Município de Goiânia em danos ambientais decorrentes de
+1) derramamento de 12.000 litros de produto asfáltico em rios do Estado de Goiás, em razão de
+     acidente ocorrido no momento da descarga do caminhão-tanque na Secretaria de Obras de
+     Goiânia, cliente da Companhia.
+     Situação atual: Processo em fase de perícia. Foi realizada audiência de conciliação em
+     fevereiro de 2021, sem acordo. Diante da dificuldade de peritos especialistas na comarca, juiz
+     requereu às partes indicações de assistentes e peritos capazes de atuar. A Companhia e ITA
+     (co-ré) fizeram suas indicações. Processo em fase de produção de provas.                                118               116
+     Processos diversos de natureza ambiental                                                                 33                29
+     Total                                                                                                   151               145
+
+
+
+ 24 Compromissos contratuais
+
+ a) Contratos “take or pay” de compras
+
+ Em 30 de setembro de 2021, a Companhia possui compromissos de compras de derivados de petróleo, para o
+ período de 1 ano, que correspondem a um valor total estimado de R$ 117 com a Petrobras e R$ 75 com a Refinaria
+ de Petróleo Riograndense.
+
+ A Companhia possui compromissos de compras de gás natural veicular para o período de três anos, num valor
+ estimado de R$ 45 com a Companhia de Gás de Santa Catarina (SCGAS).
+
+
+
+
+                                                                    54
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ b) Contratos “take or pay” de serviços
+
+ A Companhia possui compromissos com a Logum Logística S.A. referente a transporte dutoviário de etanol, num
+ valor total restante estimado de R$ 809, até março de 2029. O contrato envolve o suprimento das bases de São
+ Paulo e Rio de Janeiro e prevê um volume mínimo a ser movimentado (take or pay) por cada trecho.
+
+ A Companhia possui compromissos referentes a serviço de armazenagem com o Terminal Químico de Aratu, para
+ o período de 5 anos, ao valor estimado de R$ 156.
+
+ A Companhia possui compromissos com a VLI Multimodal S.A. referente a transporte ferroviário, para o período
+ de 1 ano, ao valor estimado de R$ 41.
+
+ 25 Instrumentos financeiros
+ Apresentamos os principais instrumentos financeiros incluídos no balanço patrimonial e suas devidas categorias:
+
+
+
+
+                                                       55
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ 26    Gerenciamento de riscos
+
+ A administração dos instrumentos financeiros detidos pela Companhia é efetuada por meio de estratégias
+ operacionais e controles internos, visando à liquidez, no tocante à escolha das contrapartes, rentabilidade e
+ segurança das áreas comerciais para as quais as operações são efetuadas.
+
+ A política de controle consiste no acompanhamento permanente das taxas contratadas versus as vigentes no
+ mercado, sendo o objetivo final a preservação das margens obtidas com a política de hedge definida em conjunto
+ com as áreas comerciais. A Companhia não efetua aplicações de caráter especulativo em derivativos ou quaisquer
+ outros ativos de risco elevado. A Companhia realiza transações com instrumentos financeiros derivativos apenas
+ com o objetivo de reduzir riscos relacionados à variação cambial.
+
+ O gerenciamento do risco de crédito da Companhia tem como principal fórum de discussão o Comitê de Crédito,
+ que define os principais parâmetros e diretrizes para a política de concessão de crédito. As análises de solicitações
+ de crédito, de acordo com os patamares de valores, possuem trâmites específicos e exigências crescentes conforme
+ o nível de exposição, sendo que alguns casos alçam à decisão de Diretoria Executiva.
+
+ A gestão de riscos da Companhia considera o risco proveniente de obrigações assumidas por terceiros perante a
+ Companhia (risco de crédito), bem como o risco gerado pelas variáveis negociadas no mercado financeiro (risco de
+ mercado), entre outros.
+
+ Quanto à exposição ao câmbio, a política de gestão desse tipo de risco é definida pela Diretoria Executiva, com
+ gerenciamento conjunto das áreas financeira e comercial, responsáveis pelo faturamento internacional.
+
+ 26.1 Riscos de mercado
+
+ 26.1.1 Risco cambial
+
+ Em função das vendas a clientes estrangeiros, da importação de produtos e de captações de empréstimos em
+ moeda estrangeira, o risco cambial é um dos riscos aos quais a Companhia está exposta.
+
+ 26.1.1.1 Gerenciamento de risco cambial
+
+Contratos de SWAP
+
+ Entre janeiro e setembro deste ano, a Companhia contratou operações de swap em virtude de captações de
+ recursos realizadas através de Loan 4131 para proteção contra a variação cambial da dívida contratada em moeda
+ estrangeira. Essas novas operações de swap possuem um nocional total de R$1.740. No terceiro trimestre não
+ houve novas contratações.
+
+ Em 30 de setembro de 2021, os empréstimos e financiamentos da Companhia indexados à variação de moedas
+ estrangeiras encontram-se integralmente protegidos, tanto em prazo quanto em valor, por contratos de swap. Os
+ ganhos ou perdas com esses contratos de swap são registrados no resultado da Companhia.
+
+
+
+
+                                                         56
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ US$ x CDI
+
+ A Companhia possui oito contratos desta modalidade, cujo valor nocional agregado é de US$ 938 milhões com
+ diversos vencimentos até 12/03/2026, com uma posição ativa (comprada) em dólares indexados à taxa pré-fixada,
+ e posição passiva (vendida) em reais indexados ao CDI + spread, totalizando um nocional de R$ 4.473.
+
+
+
+
+ Em 30 de setembro o resultado dos SWAP das oito operações foi precificado em R$ 578.
+
+ O valor justo do swap é calculado como o valor presente dos fluxos de caixa futuros estimados. As estimativas de
+ fluxos de caixa futuros de taxa flutuante são baseadas em taxas de swap cotadas, preços futuros e taxas de
+ empréstimos interbancários. Os fluxos de caixa estimados são descontados usando uma curva de rendimento
+ construída a partir de fontes semelhantes e que reflete a taxa interbancária de referência relevante usada pelos
+ participantes do mercado para essa finalidade ao precificar swaps de taxa de juros. A estimativa do valor justo do
+ resultado do SWAP está sujeita a um ajuste do risco de crédito que reflete o risco de crédito da contraparte, isso é
+ calculado com base no CDS (Credit Default Swap) tendo como fonte a Bloomberg.
+
+ As operações de Swap contratadas e vigentes em 30 de setembro de 2021 estão demonstradas a seguir:
+
+
+
+
+ Até o terceiro trimestre de 2021 foram efetuados pagamentos de ajustes de swap no montante de R$ 59 e
+ recebimentos no montante de R$ 10.
+
+ Análise de sensibilidade – efeito na variação do valor justo dos swaps
+
+ A Companhia tem passivos atrelados à moeda estrangeira no balanço de 30 de setembro de 2021 e com o objetivo
+ de identificar possíveis distorções advindas das operações com instrumentos financeiros derivativos consolidados
+ atualmente vigentes, uma análise de sensibilidade foi realizada. Foi estimado o valor potencial dos instrumentos
+
+
+
+
+                                                        57
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ em cenários hipotéticos variando o fator de risco que impacta cada uma das posições, a análise de sensibilidade
+ apresentada considera mudança com relação a variável de riscos assumida, mantendo constantes as demais.
+ - Provável: Valor justo dos derivativos em 30 de setembro de 2021.
+ - Cenário 1: Estimativa do valor justo considerando uma desvalorização do real frente ao dólar de 25%.
+ - Cenário 2: Estimativa do valor justo considerando uma valorização do real frente ao dólar de 25%.
+
+ Análise de Sensibilidade ao USD
+
+
+
+
+                                   30/09/2021         +25%               -25%
+                     USDBRL        R$ 5,4394        R$ 6,7993          R$ 4,0796
+
+
+ O cenário provável é o valor justo em 30 de setembro de 2021, calculado com base na PTAX de venda do último
+ dia útil.
+
+ Non Deliverable Forward - NDF
+
+ A Companhia contrata operações de hedge cambial para: (i) cobertura das margens comerciais inerentes às vendas
+ de combustíveis de aviação para clientes estrangeiros, (ii) para proteção contra a variação cambial nas operações
+ de importação de combustíveis, (iii) para hedge de estoques, (iv) para garantia de preço do Cartão Caminhoneiro.
+ No primeiro caso, o objetivo da operação é garantir que as margens comerciais pactuadas junto aos clientes sejam
+ mantidas durante o prazo de vigência dos preços negociados, bem como durante o prazo comercial de pagamento.
+ No segundo caso, o objetivo é proteger o custo do produto importado. No terceiro caso, o objetivo é alinhar o
+ custo do estoque ao nível de mercado. No quarto caso é a garantia de preço do Cartão do Caminhoneiro.
+
+ Em relação ao faturamento de exportação em dólar do segmento de aviação ocorrido entre janeiro e setembro de
+ 2021, o percentual de hedge contratado representou 100%. No tocante ao montante importado, a Companhia
+ contratou hedge cambial, entre janeiro e setembro de 2021, para 100% das cargas onde há exposição cambial.
+
+ A política de gestão de risco financeiro da Companhia prevê a contratação de operações de hedge cambial para
+ cobertura de, aproximadamente, 100% tanto do montante das exportações quanto das importações.
+
+ As liquidações de todas as operações de hedge cambial com NDF entre janeiro e setembro de 2021 geraram um
+ fluxo negativo para a Companhia de R$ 8.
+
+ Cabe destacar que a Companhia não utilizou nenhum outro instrumento derivativo nas operações de hedge
+ cambial além do NDF e Swap.
+
+ Nenhuma das operações em questão exigiu o depósito de margens de garantia.
+
+
+
+
+                                                       58
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+
+ A seguinte análise de sensibilidade foi realizada para o valor justo dos derivativos de moeda estrangeira. O cenário
+ provável é o valor justo em 30 de setembro de 2021, onde é calculado com base na PTAX de venda do último dia
+ útil atualizada pelo cupom limpo, obtido no site da B3, que ajusta o valor de acordo com o vencimento de cada
+ contrato. Datas intermediárias são interpoladas.
+
+
+
+
+   (*) A Companhia tem mais posição comprada do que vendida em USD.
+
+
+
+
+ A seguir a análise de sensibilidade dos demais instrumentos financeiros sujeitos à variação cambial:
+
+
+
+
+Critérios
+Cenário provável 1 - Desvalorização de 25% do real frente ao dólar. Cenário 2 - Valorização de 25% do real frente ao dólar.
+
+
+
+ 26.1.2 Risco de taxa de juros
+
+ O risco de taxa de juros da Companhia está associado, principalmente, ao CDI e ao IPCA, que são os indicadores
+ dos principais financiamentos (Debêntures, Certificados de Recebíveis Imobiliários-CRI, Nota de Crédito de
+ Exportação-NCE, Loan 4131 e Debêntures dos Certificados de Recebíveis de Agronegócios-CRA).
+
+
+
+
+                                                                     59
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ 26.1.2.1 Gerenciamento de risco de taxa de juros
+
+ A Companhia e suas investidas consolidadas, atualmente não utilizam instrumentos financeiros derivativos para
+ gerenciar sua exposição às flutuações das taxas de juros.
+
+ Segue a análise de sensibilidade dos principais ativos e passivos financeiros, atrelados a taxas de juros pós-fixadas,
+ em 30 de setembro de 2021.
+
+
+
+
+Critérios
+Cenário provável - considera as taxas de juros vigentes no mercado em 30 de setembro de 2021, foram utilizados como fontes: Banco Central
+do Brasil e IBGE.
+
+A análise de sensibilidade levou em consideração apenas a variação da taxa de juros em relação ao saldo devedor em 30 de setembro de
+2021, não assumindo outras variações.
+
+A tabela demonstra a receita (despesa) financeira líquida de um ano considerando os critérios mencionados acima.
+
+ 26.1.3 Gerenciamento de risco de preços
+ Atualmente a política de preços da Petrobras para diesel e gasolina, além de levar em consideração fatores como
+ sua capacidade produtiva de refino, tem como objetivo alinhar os preços de derivados de petróleo com o mercado
+ internacional. Com isso, o preço do combustível no mercado interno tem sofrido alterações para acompanhar esse
+ movimento.
+
+ No mercado internacional, os preços praticados para venda do petróleo e seus derivados são influenciados por
+ diversos fatores de caráter macroeconômico, geopolítico, capacidade de produção por parte da Organização dos
+
+
+
+                                                                   60
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ Países Exportadores de Petróleo (OPEP), impactos no meio ambiente e desenvolvimento de novas tecnologias e
+ fontes alternativas de energia, dentre outros.
+
+ Tendo em vista esses fatores diversos, alheios ao controle da Companhia, de forma a mitigar o risco de commodity
+ e favorecer o alinhamento entre o fluxo de receita e despesa, a Companhia passou a realizar operação de hedge
+ para as cargas compradas no mercado internacional. Desta forma, acredita-se que os custos e receitas da
+ Companhia estejam mais aderentes ao planejado, fazendo com que o fluxo de caixa seja preservado, assim como
+ a rentabilidade dos negócios.
+
+ Conforme política de gestão de risco todas as operações com derivativos de commodity possuem lastro em
+ atividades comerciais e de suprimento.
+
+ A análise de sensibilidade está apresentada a seguir:
+
+
+
+
+ Foi utilizada a Ptax Venda de 30/09/2021 (5,4394) para cálculo dos números descritos acima.
+
+ 26.2 Risco de liquidez
+ O risco de liquidez da Companhia está associado a dificuldades para liquidação de seus passivos financeiros nos
+ devidos vencimentos, em virtude de possíveis insuficiências de caixa ou de ativos financeiros. Para monitoramento
+ desse risco, a Companhia centraliza a gestão do caixa na área financeira, trabalhando com previsões de fluxos de
+ caixa que são revistas mensalmente e discutidas em fóruns e comitês executivos representativos.
+
+ As principais fontes de liquidez da Companhia derivam (a) do fluxo de caixa gerado por suas operações, (b) do saldo
+ de caixa e aplicações financeiras e (c) de eventuais empréstimos e financiamentos. A Companhia acredita que essas
+ fontes são adequadas para atender aos seus usos de fontes atuais, o que inclui, mas não se limita a capital de giro,
+ capital de investimento, amortização de dívidas e pagamento de dividendos.
+
+ O fluxo não descontado a valor presente do principal e juros dos empréstimos e financiamentos, por vencimento,
+ é apresentado a seguir:
+
+
+
+
+ O restante dos passivos financeiros possui expectativa de realização de curto prazo, e estão consequentemente
+ classificados no passivo circulante.
+
+
+
+
+                                                                  61
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ 26.3 Risco de crédito
+ A exposição ao risco de crédito na Companhia surge a partir do fornecimento de produtos a prazo, decorrente de
+ suas operações comerciais usuais, das aplicações financeiras e instrumentos de proteção e instrumentos
+ financeiros destinados à proteção (hedge).
+
+ 26.3.1 Gerenciamento de risco de crédito
+ Risco de Crédito de Contrapartes Comerciais
+ A Política de Crédito e Cobrança da Companhia define esferas de aprovação para cada cliente considerando o valor
+ solicitado e estabelece prazos de vigência de limites, de forma a permitir reavaliação periódica da situação de cada
+ cliente com relação ao risco que este possa representar.
+
+ Na análise são avaliados os comportamentos de pagamento do cliente e de seu grupo econômico, as restrições de
+ mercado, as garantias reais (hipotecas), as garantias pessoais (fianças) e realizadas análises de balanço. A
+ Companhia utiliza-se de tabela de limite de competência aprovada pela Administração para concessão de crédito.
+
+ O crédito concedido a instituições financeiras, nas operações derivativos, está distribuído entre os principais bancos
+ internacionais considerados pelas classificadoras internacionais de riscos como Grau de Investimento e os mais
+ importantes bancos brasileiros, segue rating abaixo:
+
+
+
+
+ Risco de crédito carteira comercial
+ A carteira de crédito comercial da Companhia é bastante diversificada, atendendo clientes da rede automotiva e
+ grandes consumidores, representados, principalmente, por indústrias, transportadoras, clientes governo e setor
+ aéreo. A exposição ao risco de crédito está representada, principalmente, pelo saldo de contas a receber. A
+ expectativa de liquidação desses recebíveis está detalhada na nota 6.
+
+ A carteira da Companhia somava R$ 12.305 em 30 de setembro de 2021.
+
+
+
+                                                         62
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ Para os clientes da Rede de Postos e B2B sem aviação, a Companhia avalia a estimativa de perdas dos créditos com
+ base nos segmentos e histórico de pagamentos dos clientes. As taxas são calculadas considerando o
+ comportamento dos últimos 3 anos, sendo reavaliadas trimestralmente.
+
+ Para o setor elétrico, a Companhia possui uma matriz separada, dado o histórico e especificidade deste segmento.
+ Em relação ao segmento de aviação, devido ao aumento no risco de crédito decorrente do impacto da pandemia
+ do COVID-19, a Companhia incorporou o aumento da probabilidade de default na matriz utilizada para o cálculo
+ das perdas de crédito esperadas, utilizando-se dos ratings divulgados pelas agências classificadoras de risco para
+ as empresas aéreas mais representativas do contas a receber, extrapolando este impacto para toda a carteira de
+ recebíveis da aviação.
+
+ A seguir a matriz atualmente vigente:
+
+
+
+
+ Risco de Crédito de instituições financeiras
+ Para as operações envolvendo caixa e equivalentes de caixa, títulos e valores mobiliários e derivativos, a Companhia
+ segue as disposições da sua Política de Aplicação Financeira e Limites de Crédito de Contrapartes Financeiras que
+ tem como objetivo a mitigação do risco através da diversificação junto às instituições financeiras que possuam boa
+ qualidade de crédito. É realizado o acompanhamento da exposição com cada contraparte, sua qualidade de crédito
+ e seus ratings de longo prazo publicados pelas agências de rating através de limites de: (i) Rating Mínimo em escala
+ Local; (ii) PL Mínimo da Instituição Financeira; (iii) % de exposição ao PL da Instituição financeira e (iv) % de
+ exposição máxima da Companhia a uma instituição financeira.
+
+ 26.3.2 Outros ativos financeiros
+ A qualidade do crédito de ativos financeiros classificados como caixa e equivalentes de caixa e títulos e valores
+ mobiliários tem como base a classificação de risco concedida por agências avaliadoras Standard & Poor’s, Moody’s
+ e Fitch. As informações sobre estes ativos financeiros, que não estão vencidos e sem evidências de perdas, estão
+ dispostas a seguir:
+
+
+
+
+ (*) Os ratings listados na tabela possuem referência em Escala Nacional e a ausência de classificação indica que a respectiva instituição
+ financeira não está classificada segundo esse critério pelas agências S&P e Moody's. Os ratings em Escala Global neste caso são BBB+ em
+ 2021 e 2020.
+
+
+
+
+                                                                   63
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ 26.4 Gestão de capital
+ A gestão do capital consiste no conjunto de processos que visam assegurar que a Companhia mantenha adequada
+ base de capital para o desenvolvimento de suas atividades, fazendo face aos seus compromissos financeiros e
+ riscos, almejando manter um perfil adequado de endividamento e garantindo retorno aos seus acionistas. A
+ Companhia poderá alterar a sua estrutura de capital conforme as condições macroeconômicas.
+
+
+
+
+ 26.5 Mensuração ao valor justo
+ As mensurações do valor justo são classificadas em diferentes níveis em uma hierarquia, conforme descrito a
+ seguir, com base no grau em que as informações para as mensurações do valor justo são observáveis:
+
+ • Nível 1 - são preços cotados (não ajustados) em mercados ativos para ativos ou passivos idênticos aos quais a
+ entidade pode ter acesso na data de mensuração;
+ • Nível 2 - são informações, que não os preços cotados incluídos no Nível 1, observáveis para o ativo ou passivo,
+ direta ou indiretamente;
+ • Nível 3 - são informações não observáveis para o ativo ou passivo.
+
+ Em 30 de setembro de 2021, o valor justo estimado para os financiamentos da Companhia, calculado a taxas de
+ mercado vigentes, é apresentado na nota explicativa 13.2.
+
+ Os valores justos de caixa e equivalentes de caixa e outros ativos e passivos financeiros são equivalentes ou não
+ diferem significativamente de seus valores contábeis.
+
+ 27 Partes relacionadas
+ A Companhia possui política de transações com partes relacionadas, aprovada pelo Conselho de Administração,
+ que visa estabelecer regras para assegurar que todas as decisões envolvendo partes relacionadas e situações com
+ potencial conflito de interesses respeitem a legislação, inclusive dos países onde atua e as partes envolvidas nas
+ negociações. A atual política encontra-se em revisão em decorrência da perda de vínculo societário com a
+ Petrobras.
+
+
+
+
+                                                       64
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+  Petrobras, Empresas do Sistema Petrobras, Governo Federal e Sistema Eletrobras
+  Considerando a venda pela Petrobras das ações que detinha da Companhia (nota 1.1), os relacionamentos da Vibra
+  com a Petrobras, Empresas do Sistema Petrobras, Governo Federal e Sistema Eletrobras deixaram de atender aos
+  critérios de transações com partes relacionadas em 5 de julho de 2021 (data da conclusão da oferta pública).
+
+  27.1 Transações comerciais e outras operações
+
+  27.1.1 Por empresa
+
+
+
+
+(*) No resultado acumulado até 30.09.2021 (R$1.372), estão inseridos os valores acumulados com a Petrobras, Empresas do Sistema Petrobras, Governo Federal
+e Sistema Eletrobras até o momento em que deixaram de ser partes relacionadas, ou seja, representam o período de 6 meses (R$1.361). Assim sendo, a
+Companhia apresenta, adicionalmente, a posição acumulada até 30.06.2020, para fins de comparabilidade(R$.1.321).
+
+
+
+
+                                                                           65
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+
+(*) No resultado acumulado com partes relacionadas até 30.09.2021 (R$1.292), estão inseridos os valores acumulados com a Petrobras, Empresas do Sistema
+Petrobras, Governo Federal e Sistema Eletrobras até o momento em que deixaram de ser partes relacionadas, ou seja, representam o período de 6 meses
+(R$1.361). Assim sendo, a Companhia apresenta, adicionalmente, a posição acumulada até 30.06.2020, para fins de comparabilidade (R$1.322).
+(**) Em 15 de setembro de 2021 a Companhia concluiu o fechamento da operação de venda da totalidade de sua participação acionária na empresa Brasil
+Carbonos S.A. (nota 9).
+
+
+
+As transações com bancos controlados pela União foram efetuadas, principalmente, com o Banco do Brasil.
+
+
+
+
+                                                                         66
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ 27.1.2 Por operação
+
+
+
+
+  (*) No resultado acumulado até 30.09.2021, estão inseridos os valores acumulados com a Petrobras, Empresas do Sistema Petrobras, Governo Federal e
+  Sistema Eletrobras até o momento em que deixaram de ser partes relacionadas.
+
+
+ Em 30 de junho de 2021, as compras efetuadas com a Petrobras totalizavam R$ 38.653 (R$ 19.309 até junho de
+ 2020), com a Refinaria de Petróleo Riograndense R$ 221 (R$ 207 até junho de 2020) e com as Distribuidoras de Gás
+ R$ 120 (R$ 123 até junho de 2020), período no qual estas empresas eram partes relacionadas da Companhia.
+
+ Em 30 de junho de 2021, a Companhia possuía contratos de take or pay de compras de derivados de petróleo, para
+ o período de 1 ano, que correspondiam a um valor total estimado de R$ 100 com a Petrobras e R$ 58 com a
+ Refinaria de Petróleo Riograndense. Adicionalmente, nesta mesma data, a Companhia possuía contratos com a
+ Petrobras, para o período de 3 anos referentes a compra de derivados de petróleo, que correspondiam a um valor
+ total estimado de R$ 19.529.
+
+ Em 30 de setembro de 2021, a Companhia possui garantias corporativas prestadas em favor da Targus, no
+ montante de R$ 163.
+
+ A Companhia tem o compromisso de fazer um aporte adicional na Targus até 31 de dezembro de 2021, num valor
+ estimado de R$ 10.
+
+
+
+
+                                                                       67
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ 27.2 Remuneração da administração da Companhia
+ As remunerações totais dos membros do conselho de administração e da diretoria executiva da Companhia são apresentadas a seguir:
+
+
+
+
+ Em 30 de setembro de 2021, a Companhia mantinha cinco membros na Diretoria Executiva e nove membros no Conselho de Administração.
+
+ No Consolidado a despesa com os honorários de diretores e conselheiros totalizou R$ 30 (R$ 23 em 30 de setembro de 2020).
+
+
+
+
+                                                                                68
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ 28 Informações adicionais às demonstrações dos fluxos de caixa
+
+
+
+
+ A Companhia adota a prática de apresentar os juros pagos como atividade de financiamento e os dividendos
+ recebidos como atividade de investimento na demonstração dos fluxos de caixa.
+
+ 29 Eventos subsequentes
+ Alteração de razão social
+ Em 13 de outubro de 2021, a Assembleia Geral Extraordinária aprovou a alteração da razão social da Petrobras
+ Distribuidora S. A. para Vibra Energia S.A., em linha com a mudança da marca comunicada ao mercado em 19 de
+ agosto de 2021.
+
+ Em decorrência da alteração da denominação social, a partir do pregão do dia 22 de outubro de 2021 (inclusive),
+ as ações de emissão da Companhia passarão a ser negociadas no mercado de bolsa de valores administrado pela
+ B3 S.A. –Brasil, Bolsa, Balcão sob novo código de negociação (ticker) “VBBR3”, em substituição ao código atual
+ “BRDT3” e o nome de pregão da Companhia passará a ser “VIBRA” em substituição à “PETROBRAS BR”.
+
+
+ Aquisição de participação na Comerc Participações S.A.
+ Em 08 de outubro de 2021, a Companhia celebrou contratos que lhe possibilitam adquirir até 50% do capital social
+ da Comerc Participações S.A. (“Comerc” e “Operação”). A operação foi aprovada pelo seu Conselho de
+ Administração e não dependerá da apreciação da Assembleia Geral da Companhia, nos termos do art. 256 da Lei
+ das S.A.
+
+ A Comerc é uma sociedade holding de empresas que atuam na comercialização, gestão de energia para
+ consumidores livres, geradores e pequenas distribuidoras, soluções de eficiência energética, baterias e plataformas
+ de informação e tecnologia, sendo uma das principais comercializadoras de energia do Brasil. Com a celebração
+ dos contratos da Operação, a Comerc não mais realizará sua oferta pública de distribuição primária de ações
+ (“IPO”).
+
+ A operação se dará por meio de um aporte primário e uma aquisição secundária. Conforme os instrumentos da
+ Operação celebrados nesta data, a Companhia: (i) subscreveu debêntures conversíveis em ações ordinárias de
+ emissão da Comerc, representativas de 30% (trinta por cento) do seu capital social, comprometendo-se a transferir
+ à Comerc, por meio da integralização das debêntures, o valor de R$ 2 bilhões; e (ii) assegurou opção para adquirir
+ (parcela secundária), de sócios da Comerc, até 20% de ações ordinárias por um preço de R$1,25 bilhão. A depender
+ do atingimento de determinadas métricas de desempenho de longo prazo e da implantação de capacidades
+ adicionais às previstas em seu plano de negócios, os sócios poderão fazer jus, futuramente, a uma parcela
+ complementar a título de earnout.
+
+
+
+                                                        69
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ A integralização das debêntures está sujeita à verificação de determinadas condições precedentes, dentre elas a
+ consecução de reorganização societária Comerc conforme já descrito no Prospecto do IPO (item 15.8 da minuta de
+ Formulário de Referência). As debêntures terão prazo de vencimento de 4 anos, sendo conversíveis em ações
+ ordinárias até 28 de fevereiro de 2022. O exercício da opção de compra dos 20% remanescentes deverá se dar de
+ maneira concomitante com a conversão das debêntures, caso em que a Companhia atingirá até 50% de
+ participação na Comerc.
+
+ A efetiva conclusão da operação estará sujeita à verificação de determinadas condições precedentes, incluindo a
+ obtenção da aprovação do Conselho Administrativo de Defesa Econômica (CADE).
+
+ Novas captações
+ Em outubro de 2021 foram realizadas novas captações totalizando R$1,3 bilhão (R$ 800 CRA + R$ 500 Scotiabank),
+ através das seguintes operações:
+
+    •   Captação em 01 de outubro de 2021 da 43ª Emissão de Certificados de Recebíveis do Agronegócio - CRA
+        da Virgo Companhia de Securitização, com lastro na 3ª Emissão de Debêntures Simples não-conversíveis
+        da Cia. via Instrução CVM 476/2009, no valor de R$ 800, com taxa final de IPCA + 5,3995% a.a., juros anuais,
+        amortização nos 8º, 9º e 10º anos e vencimento em 2031. Adicionalmente, em ato subsequente
+        ao bookbuilding, a Companhia. celebrou uma operação de SWAP de fluxo de caixa com o banco JP
+        Morgan trocando a exposição da Companhia de IPCA + 5,3995% a.a. para 111,84% do CDI.
+
+    •   Captação em 29 de outubro de 2021 do Loan 4131 com o Scotiabank de US$ 90 milhões equivalentes a R$
+        500, com taxa de USD + 2.3864% a.a. e amortização no vencimento, em 29 de outubro de 2027, além do
+        contrato de swap celebrado com a mesma instituição para hedge integral da dívida em dólar, com um
+        nocional de R$500 ao custo de CDI + 1,52% a.a.
+
+ Além das captações supramencionadas informamos que o Conselho de Administração da Companhia em 29 de
+ outubro de 2021 aprovou a 4ª (quarta) emissão de debêntures, não conversíveis em ações, em até 2 séries, a serem
+ distribuídas com esforços restritos, em regime de garantia firme (até o montante mínimo) e melhores esforços de
+ colocação, no valor de até R$1,8 bilhão, sendo permitida a distribuição parcial no montante mínimo de R$1,5
+ bilhão. As debêntures da primeira série terão prazo de vencimento de 7 anos e as da segunda série terão o prazo
+ de vencimento de 10 anos contados da data de emissão.
+
+
+
+
+                                                       70
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ Correlação entre as notas explicativas de 31 de dezembro de 2020 e 30 de setembro de 2021
+
+
+
+
+                                                  71
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+   As notas explicativas do relatório anual de 2020 que foram suprimidas no ITR de 30 de setembro de 2021 pelo
+   fato de não apresentarem alterações relevantes e/ou não ser aplicável às demonstrações contábeis
+   intermediárias são as seguintes:
+
+
+
+
+                                                    72
+Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.)
+Declaração dos Diretores sobre as Demonstrações Contábeis Intermediárias e sobre o
+Relatório dos Auditores Independentes
+
+Em atendimento ao disposto nos incisos V e VI do artigo 25 da Instrução CVM n° 480, de 7 de dezembro de 2009, o
+presidente e os diretores da Vibra Energia S.A. (anteriormente denominada Petrobras Distribuidora S.A.), sociedade
+por ações de capital aberto, com sede na Rua Correia Vasques, 250, Rio de Janeiro, RJ, inscrita no CNPJ sob n°
+34.274.233/0001-02, declaram que:
+
+(i) reviram, discutiram e concordam com as demonstrações contábeis intermediárias da Companhia no período findo
+em 30 de setembro de 2021;
+
+(ii) reviram, discutiram e concordam com as opiniões expressas no relatório da KPMG Auditores Independentes,
+relativamente às demonstrações contábeis intermediárias da Companhia no período findo em 30 de setembro de
+2021.
+
+Rio de Janeiro, 15 de novembro de 2021.
+
+WILSON PINTO FERREIRA JUNIOR
+Presidente
+
+ANDRÉ CORRÊA NATAL
+Diretor Executivo de Finanças, Compras e RI
+
+BERNARDO KOS WINIK
+Diretor Executivo de Comercial B2B
+
+FLAVIO COELHO DANTAS
+Diretor Executivo de Comercial, Varejo e Inteligência de Mercado
+
+MARCELO FERNANDES BRAGANÇA
+Diretor Executivo de Operações, Logística e Sourcing
+
+
+
+
+                                                             73
+CONSELHO DE ADMINISTRAÇÃO
+EDY LUIZ KOGUT
+Presidente
+
+ALEXANDRE FIRME CARNEIRO
+Conselheiro
+
+CARLOS AUGUSTO LEONE PIANI
+Conselheiro
+
+CLAUDIO ROBERTO ELY
+Conselheiro
+
+LEONEL DIAS DE ANDRADE NETO
+Conselheiro
+
+MARIA CAROLINA FERREIRA LACERDA
+Conselheira
+
+MATEUS AFFONSO BANDEIRA
+Conselheiro
+
+PEDRO SANTOS RIPPER
+Conselheiro
+
+RICARDO CARVALHO MAIA
+Conselheiro
+
+
+DIRETORIA EXECUTIVA
+WILSON PINTO FERREIRA JUNIOR
+Presidente
+
+ANDRÉ CORRÊA NATAL
+Diretor Executivo de Finanças, Compras e RI
+
+BERNARDO KOS WINIK
+Diretor Executivo de Comercial B2B
+
+FLAVIO COELHO DANTAS
+Diretor Executivo de Comercial, Varejo e Inteligência de Mercado
+
+MARCELO FERNANDES BRAGANÇA
+Diretor Executivo de Operações, Logística e Sourcing
+
+
+CONTADOR
+LUÍS CLÁUDIO SACRAMENTO BISPO
+Contador - CRC - RJ – 077.292/O-2
+
+
+
+
+                                                             74
+0123ÿ56789 ÿ7  7 9 ÿ97ÿ
+C6ÿ7 ÿ1 8ÿDEÿÿF 9 ÿGÿÿBHIÿ7ÿÿJ 9 ÿÿ
+GKKGBGLKÿÿC8ÿ7 ÿM 8 NCMÿÿO8ÿ
+J8Pÿ1 9ÿGEEEÿÿJQ1ÿGKKKBLHKÿÿC8ÿ7 ÿM 8 NCMÿÿO8ÿÿ
+R  ÿSTTÿUGBVÿGGKHLWKKÿ
+Xÿ
+
+YZ[\]^_àÿcad_Zÿ\ÿ_Zec̀faÿgZÿ̀hia_j\klZcÿ]_j̀Zc]_\c̀ÿ
+mnoY
+5 ÿJ  p 8 ÿÿ5889ÿ7ÿÿ
+q8ÿQ 8ÿF5ÿ
+C8ÿ7 ÿM 8 ÿrÿCMÿ
+nh]_agskfaÿ
+C 8 ÿÿ8 t ÿ9u 8ÿ89  78u8ÿ8788768ÿÿ 877ÿ7ÿq8ÿ
+Q 8ÿF5ÿUvJ p8wVÿ9 8  9ÿ7  87ÿ1 9 ÿx898687 ÿF5ÿ
+987ÿ ÿy 6u8ÿ7 ÿ t ÿR8 98ÿURCVÿ  9ÿ ÿ98 9 ÿ87 ÿÿ
+DKÿ7 ÿ 9 ÿ7 ÿGKGBÿz6 ÿ 7 ÿÿÿ98 8ÿÿDKÿ7 ÿ 9 ÿ7 ÿ
+GKGBÿÿÿ  98ÿ7  9t ÿ7 ÿ 697 ÿÿ7 ÿ 697 ÿ 9ÿÿ ÿ
+ {7 ÿ7 ÿ9|ÿÿ ÿ ÿ87 ÿz6 ÿ79ÿÿ7ÿ69t ÿ7 ÿ98}8ÿ{z687 ÿÿ
+7 ÿ6P ÿ7 ÿ8Pÿÿÿ {7 ÿ7 ÿ ÿ ÿ87 ÿz6 ÿ79ÿ8687 ÿÿ 9ÿ
+  P898ÿÿ
+5ÿ7889 ÿ7ÿJ p8ÿ~ÿ  uÿ ÿ  ÿ7ÿ8 t ÿ9u 8ÿ
+89  78u8ÿ8788768ÿ7 ÿ 7 ÿÿÿJ1JÿGBUCBVÿÿ7ÿÿ8 t ÿ9u 8ÿ
+89  78u8ÿ 877ÿ7 ÿ 7 ÿÿÿJ1JÿGBUCBVÿÿÿÿ ÿ89 8ÿ
+5FÿDWÿrÿ./),+(8ÿ(/2/;(27ÿ,0*+)(/>ÿ8987ÿ ÿ./),+/2)(*/27ÿ%;;*&/)(/>ÿ)2/'2+'-ÿ
+5*2+'ÿÿ.%5ÿ 8ÿ ÿ ÿ 9 ÿ7 ÿ8 t ÿ7 ÿ ÿ789ÿ
+ÿÿ ÿP 787ÿ ÿJ 8  ÿ7 ÿq ÿ2 88u8 ÿ8u8ÿÿ  ÿ
+7ÿ t ÿR8 98ÿURCVÿ ÿ  8877 ÿ~ÿÿ7 ÿP ÿ6ÿ
+6 ÿ  ÿ ÿ8 t ÿ9u 8ÿ89  78u8ÿÿ ÿÿ ÿ 8 ÿ
+[\hZÿg\ÿ_Zec̀faÿ
+J 768 ÿ ÿ 8 ÿ7 ÿ 7 ÿÿÿ ÿ88ÿÿ89 88ÿ7 ÿ
+   8 ÿ7 ÿ8 t ÿ89  78u8ÿUOJÿRCÿGWBKÿÿC 8 ÿ7 ÿ t ÿ
+9  78u8ÿQP697ÿ ÿ56789 ÿ7ÿQ9877 ÿÿFCQÿGWBKÿÿ,@(,?ÿ*<ÿ./),+(8ÿ
+(/2/;(27ÿ./<*+82)(*/ÿ!,+<*+8,'ÿ9:ÿ)=,ÿ./',0,/',/)ÿ%&'()*+ÿ*<ÿ)=,ÿA/)():ÿ  98 9Vÿ
+ÿ 8 ÿ7 ÿ8 t ÿ89  78u8ÿ89ÿÿ 8 ÿ7 ÿ87t ÿ
+88 9ÿ ÿ ÿ  u8ÿ  ÿ 69 ÿ88 ÿÿ9u 8ÿÿÿ
+8 ÿ7 ÿ 78 9 ÿ{98 ÿÿ7 ÿ69 ÿ 78 9 ÿ7 ÿ 8 ÿÿÿ7 ÿ
+6ÿ 8 ÿ~ÿ88898 9ÿ  ÿ7 ÿz6 ÿÿ7 ÿ6ÿ6789 8ÿ7687ÿ7 ÿ 7 ÿ
+ÿÿ ÿ7 ÿ6789 8ÿÿ z6 9 9ÿ ÿ ÿ 8986ÿ9 ÿ 6ÿ7 ÿ
+z6 ÿ9 ÿp 8 9ÿ7 ÿ97 ÿ ÿ 69 ÿ88898 ÿz6 ÿ 7 8ÿ ÿ
+87 9887 ÿÿ6ÿ6789 8ÿ1 99ÿ ÿP  ÿ6ÿ88 ÿ7 ÿ6789 8ÿ
+
+                                                    75
+0123ÿ56789 ÿ7  7 9 ÿ97ÿ6ÿ 877 ÿ8 ÿ88ÿ7 ÿ          !"#ÿ%&'()*+,-ÿ./',0,/',/),-ÿ1)'234ÿ2ÿ5+26(7(2/ÿ7(8(),'ÿ7(29(7():ÿ;*802/:ÿ
+    8877 ÿ8897ÿÿ8  ÿ7ÿ 8 ÿÿ0123ÿ7 ÿ    2/'ÿ2ÿ8,89,+ÿ<(+8ÿ*<ÿ)=,ÿ!"#ÿ>7*927ÿ*+>2/(62)(*/ÿ*<ÿ(/',0,/',/)ÿ8,89,+ÿ
+8  ÿ87  7 9 ÿ887ÿ7ÿ0123ÿ9 98ÿ8897ÿ6ÿ   <(+8-ÿ2<<(7(2),'ÿ?()=ÿ!"#ÿ./),+/2)(*/27ÿ1(8(),'4ÿ2ÿ0+(@2),ÿA/>7(-=ÿ;*802/:ÿ
+  ÿ8 ÿ87ÿ7 ÿ  8877 ÿ8897ÿ                      7(8(),'ÿ9:ÿ>&2+2/),,3ÿ
+                                                                                                                                               Bÿ
+CDEFGHIJDÿIDLMNÿOIÿPEQDMROSTNIÿPEUNMRNVPWMPOIÿPEVPXPVHOPIÿÿ
+Y ÿ ÿÿ ÿ 8 ÿ ÿ9 ÿZ 8 9ÿ7 ÿ Z6ÿ9ÿ[6 ÿ ÿÿÿ
+ 789ÿ[6 ÿÿ8 \ ÿ9] 8ÿ89  78]8ÿ8788768ÿ86^7ÿÿ
+8 \ ÿ98 98ÿ8ÿ  87ÿ ÿ ÿ 7ÿÿ97 ÿ ÿ 9 ÿ
+   9 ÿ7 ÿ 7 ÿÿÿY1YÿB_`a_bÿ8]8ÿcÿ  ÿ7 ÿ \ ÿ
+d8 98ÿÿdaÿÿ 97ÿ7 ÿ ÿ789ÿÿÿ ÿe 787ÿ ÿ
+Y 8  ÿ7 ÿf ÿ2 88]8 ÿ
+CDEFGHIJDÿIDLMNÿOIÿPEQDMROSTNIÿPEUNMRNVPWMPOIÿFDEIDGPVOVOIÿ
+Y ÿ ÿÿ ÿ 8 ÿ ÿ9 ÿZ 8 9ÿ7 ÿ Z6ÿ9ÿ[6 ÿ ÿÿÿ
+ 789ÿ[6 ÿÿ8 \ ÿ9] 8ÿ89  78]8ÿ 877ÿ86^7ÿÿ
+8 \ ÿ98 98ÿ8ÿ  87ÿ ÿ ÿ 7ÿÿ97 ÿ ÿ 9 ÿ
+   9 ÿ7 ÿ 7 ÿÿÿY1YÿB_`a_bÿÿÿ5gÿhiÿÿ8]8ÿcÿ  ÿ7 ÿ
+ \ ÿd8 98ÿÿdaÿÿ 97ÿ7 ÿ ÿ789ÿÿÿ ÿ
+  e 787ÿ ÿY 8  ÿ7 ÿf ÿ2 88]8 ÿ
+jHUMDIÿOIIHEUDIÿkÿlNRDEIUMOSTNIÿVDÿXOGDMÿOVPFPDEOVDÿ
+5 ÿ8 \ ÿ98 98ÿ8ÿ  87ÿ86 ÿÿ7  9\ ÿ7 ÿ ÿ7887 ÿ
+`mf5bÿ8788768ÿÿ 877ÿ  9 ÿ ÿ ^7 ÿ7 ÿ ÿ ÿ87 ÿÿhnÿ7 ÿ
+   9 ÿ7 ÿBnB_ÿ 7ÿ ÿÿ  8877 ÿ7ÿ7889 ÿ7ÿY Z8ÿÿ
+ 97ÿ ÿ8  ÿ6 9ÿÿ8ÿ7 ÿ5gÿhiÿo ÿ7  9\ ÿ
+ ÿ6 987ÿÿ 78 9 ÿ7 ÿ 8 ÿe697 ÿÿp69ÿÿÿ 8 ÿ7ÿ
+8 \ ÿ98 98ÿÿÿp98ÿ7 ÿ68ÿ ÿÿ 9 ÿ887ÿÿÿ
+8 \ ÿ9] 8ÿ89  78]8ÿÿ 89 ÿ9] 8ÿ  ÿ8]ÿÿ ÿÿ6ÿ
+ ÿÿ9q7 ÿ 9 ÿ7 ÿ 7 ÿÿ ÿ89r8 ÿ7 887 ÿ ÿ1 68 9ÿdr8ÿ
+Y1Yÿnsÿÿm  9 ÿ7 ÿf ÿ57887 ÿY ÿ ÿÿ ÿ 8 ÿ ÿ9 ÿ
+Z 8 9ÿ7 ÿ Z6ÿ9ÿ[6 ÿ ÿÿÿ 789ÿ[6 ÿ ÿ7  9\ ÿ7 ÿ ÿ
+7887 ÿ ÿ ÿ 7ÿÿ97 ÿ ÿ 9 ÿ 9 ÿ 67 ÿ ÿ89r8 ÿ
+7 887 ÿ ÿt ÿÿ7 ÿ ÿ899ÿÿÿ  ÿcÿ8 \ ÿ9] 8ÿ
+89  78]8ÿ8788768ÿÿ 877ÿ97ÿÿp69ÿ
+a8ÿ7 ÿu 8 ÿ_vÿ7 ÿ  ÿ7 ÿBnB_ÿ
+0123ÿ56789 ÿ7  7 9 ÿ97ÿ
+YaYÿg1n_iiBwxyzÿ{auÿ
+
+|6 ÿ| ÿ27 ÿÿ
+Y 97 ÿYaYÿau__Bwhvxy}ÿ
+
+
+
+
+                                                      76
+0123ÿ56789 ÿ7  7 9 ÿ97ÿ6ÿ 877 ÿ8 ÿ88ÿ7 ÿ          !"#ÿ%&'()*+,-ÿ./',0,/',/),-ÿ1)'234ÿ2ÿ5+26(7(2/ÿ7(8(),'ÿ7(29(7():ÿ;*802/:ÿ
+    8877 ÿ8897ÿÿ8  ÿ7ÿ 8 ÿÿ0123ÿ7 ÿ    2/'ÿ2ÿ8,89,+ÿ<(+8ÿ*<ÿ)=,ÿ!"#ÿ>7*927ÿ*+>2/(62)(*/ÿ*<ÿ(/',0,/',/)ÿ8,89,+ÿ
+8  ÿ87  7 9 ÿ887ÿ7ÿ0123ÿ9 98ÿ8897ÿ6ÿ   <(+8-ÿ2<<(7(2),'ÿ?()=ÿ!"#ÿ./),+/2)(*/27ÿ1(8(),'4ÿ2ÿ0+(@2),ÿA/>7(-=ÿ;*802/:ÿ
+  ÿ8 ÿ87ÿ7 ÿ  8877 ÿ8897ÿ                      7(8(),'ÿ9:ÿ>&2+2/),,3ÿ
+                                                                                                                                               Bÿ
+

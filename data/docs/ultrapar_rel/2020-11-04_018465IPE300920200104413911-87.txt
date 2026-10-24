@@ -1,0 +1,2460 @@
+Divulgação dos
+resultados 3T20
+
+
+   São Paulo, 04 de novembro de 2020 – A Ultrapar Participações S.A. (“Companhia” ou “Ultrapar”, B3: UGPA3 /
+   NYSE: UGP), com atuação na cadeia de óleo e gás por meio da Ipiranga, Ultragaz e Ultracargo, especialidades
+   químicas através da Oxiteno e varejo farmacêutico com a Extrafarma, anuncia hoje seus resultados do terceiro
+   trimestre de 2020.
+
+
+           Receita líquida                       EBITDA Ajustado                          Lucro líquido
+
+              R$ 21                                R$ 1.038                                R$ 277
+             bilhões                               milhões                                 milhões
+
+
+           Investimentos             Fluxo de caixa das operações 9M20                Valor de mercado
+
+             R$ 313                                  R$ 2,6                                 R$ 21
+             milhões                                 bilhões                               bilhões
+
+
+
+    Principais destaques
+
+   Neste trimestre, a Ultrapar apresentou crescimento de EBITDA tanto em relação ao terceiro trimestre de 2019
+   quanto em relação ao segundo trimestre de 2020, confirmando nossa expectativa de que o pior momento
+   da crise já passou. Nossas medidas emergenciais e rapidez na resposta aos primeiros efeitos da crise, bem
+   como as iniciativas de apoio à nossa cadeia de valor, foram efetivas para manter nossas atividades em
+   operação, garantindo a entrega dos serviços essenciais para a população e preservando a saúde dos
+   nossos colaboradores.
+
+   Na Ipiranga, nosso negócio mais afetado pela pandemia, observamos uma evolução gradual nos volumes
+   vendidos de combustíveis ao longo do trimestre e uma melhora no ambiente operacional, que possibilitou
+   uma recuperação significativa nos resultados em relação ao 2T20. A Extrafarma pôde reabrir as lojas
+   localizadas em shoppings, contribuindo com um aumento no faturamento e diluição dos custos. A Ultragaz
+   teve uma recuperação nos volumes no segmento granel, impulsionada pela retomada da indústria,
+   enquanto as vendas no segmento envasado continuaram resilientes, retornando gradualmente a
+   patamares pré-pandemia. Movimento similar foi observado na Oxiteno, com a recuperação do volume de
+   vendas para os setores de fluidos automotivos, tintas e vernizes, com manutenção do crescimento dos
+   volumes para o setor de higiene e beleza. A Ultracargo, assim como no segundo trimestre, apresentou
+   aumento na movimentação de produtos e de m³ faturado em relação ao trimestre anterior.
+
+   Mantivemos a disciplina no controle de custos e despesas para preservação de caixa em todos os nossos
+   negócios e a seletividade na alocação de capital. Com isso, tivemos mais um trimestre de forte geração de
+   caixa operacional, com redução da nossa alavancagem, reforçando nosso compromisso com a solidez
+   financeira e demonstrando a resiliência do nosso portfólio.
+
+   A partir desse trimestre, incluímos nesse release de resultados uma seção de atualização dos temas
+   ambientais, sociais e de governança (“ESG”) para compartilhar os avanços e realizações da Ultrapar e dos
+   nossos negócios nestes temas, ampliando a transparência e promovendo o diálogo com nossos
+   stakeholders.
+ 3° TRIMESTRE DE 2020
+
+
+Considerações sobre as informações financeiras e operacionais
+
+As informações financeiras apresentadas nesse documento foram preparadas de acordo com as normas IFRS
+(International Financial Reporting Standards). As informações financeiras referentes à Ultrapar correspondem às
+informações consolidadas da Companhia. As informações da Ultragaz, Ultracargo, Oxiteno, Ipiranga e Extrafarma
+são apresentadas sem eliminação de transações realizadas entre as sociedades. Portanto, a soma de tais
+informações pode não corresponder às informações consolidadas da Ultrapar. Adicionalmente, as informações
+financeiras e operacionais incluídas nesta discussão de resultados são sujeitas a arredondamentos e, como
+consequência, os valores totais apresentados nas tabelas e gráficos podem diferir da agregação numérica direta
+dos valores que os precedem.
+
+Ressaltamos que todas as informações financeiras apresentadas nesse documento contemplam a adoção à norma
+IFRS 16 e a segregação de certas despesas da Holding.
+
+As informações denominadas EBITDA (Lucro Antes dos Juros, Impostos sobre a Renda e Contribuição Social sobre o
+Lucro Líquido, Depreciação e Amortização - LAJIDA); EBITDA Ajustado – ajustado pela amortização de ativos de
+contratos com clientes – direitos de exclusividade e pelo resultado de cash flow hedge dos bonds; e EBIT (Lucro Antes
+dos Juros e Impostos sobre a Renda e Contribuição Social sobre o Lucro Líquido - LAJIR) estão apresentadas de acordo
+com a Instrução nº 527 emitida pela CVM em 04 de outubro de 2012. Segue o cálculo do EBITDA a partir do lucro
+líquido:
+
+
+
+                                                                         Trimestre                 Acumulado
+
+     R$ milhões                                               3T20         3T19       2T20       9M20       9M19
+
+     Lucro líquido                                              277,3        307,3       50,0      496,2       670,6
+       (+) IR e contribuição social                             163,4        140,3       56,2      356,7       397,2
+       (+) Despesa (receita) financeira líquida                 157,9        163,4       80,3      405,8       254,7
+       (+) Depreciação e amortização                            323,4        272,7      313,4      940,5       842,8
+     EBITDA                                                    921,9         883,8      500,0    2.199,2    2.165,4
+     Ajuste
+      (+) Amortização de ativos de contratos com clientes -
+                                                                 73,6         95,6       68,0      224,4       273,4
+      direitos de exclusividade (Ipiranga e Ultragaz)
+      (+) Resultado de cash flow hedge dos bonds                 42,9             -      43,1      105,6         -
+     EBITDA Ajustado                                          1.038,3        979,3      611,0    2.529,2    2.438,8
+     Não recorrentes
+      (+) TAC (Ultracargo)                                           -        13,0        -          -          65,5
+      (-) Créditos tributários (Oxiteno)                             -         -          -        (70,9)        -
+      (-) Créditos tributários (Ultracargo)                          -         -        (11,7)     (11,7)        -
+     EBITDA ex-não recorrentes                                1.038,3        992,3      599,3    2.446,6    2.504,3
+
+
+
+
+                                                                                                                            2
+                                                                                                                        2
+ 3° TRIMESTRE DE 2020
+
+
+Ultragaz
+
+                                                                  Δ             Δ                              Δ
+                             3T20        3T19       2T20                                  9M20    9M19
+                                                              3T20 v 3T19   3T20 v 2T20                    9M20 v 9M19
+ Volume total (mil tons)      453        458        432         (1%)           5%         1.307   1.274        3%
+   Envasado                   309        315        313         (2%)          (1%)         909     874         4%
+   Granel                     144        143        120          1%           20%          398     400        (1%)
+ EBITDA (R$ milhões)          222        187        206         18%            8%          575     419        37%
+
+Desempenho operacional – O volume vendido da Ultragaz no 3T20 apresentou queda de 1% em relação ao 3T19,
+fruto principalmente da redução de 2% das vendas no segmento envasado, em função do menor volume vendido
+para a região Sudeste. No segmento granel, o volume foi 1% maior, devido principalmente ao aumento nas vendas
+para indústrias e de gases especiais (propelente), parcialmente compensadas pela menor demanda de comércios
+e serviços, em função dos efeitos da pandemia. Em relação ao 2T20, o volume vendido cresceu 5%, devido à
+recuperação de vendas no segmento granel.
+
+Receita líquida – Total de R$ 1.955 milhões (+3%), em função dos aumentos de custo do GLP decorrentes dos reajustes
+da Petrobras. Em relação ao 2T20, houve um aumento de 13%, pelo mesmo motivo mencionado acima e pelo maior
+volume vendido.
+
+Custo dos produtos vendidos – Total de R$ 1.637 milhões (+2%), em função dos reajustes de preços de GLP pela
+Petrobras e de maiores custos com frete, apesar do menor volume de vendas, devido à necessidade de retiradas de
+GLP em polos de abastecimento mais distantes. Em relação ao 2T20, o custo dos produtos vendidos aumentou 13%,
+fruto dos reajustes de preços de GLP e do maior volume vendido.
+
+Despesas gerais, administrativas e de vendas – Total de R$ 159 milhões, estável em relação ao 3T19. Houve aumento
+principalmente em remuneração variável, em linha com a progressão de resultados, e em consultorias para ganhos
+de eficiência operacional, compensadas por diversas reduções em função de iniciativas implementadas para
+contenção de despesas e efeitos decorrentes da pandemia. Em relação ao 2T20, as despesas gerais, administrativas
+e de vendas subiram 16%, em função do aumento sazonal nas despesas com frete, maior provisão para remuneração
+variável e maiores gastos com consultorias.
+
+EBITDA – Total de R$ 222 milhões (+18%), resultado trimestral recorde registrado pela Ultragaz, devido principalmente
+ao melhor mix de vendas e à maior eficiência operacional. Em relação ao 2T20, o aumento foi de 8%, em função do
+maior volume de vendas, parcialmente compensado pelas maiores despesas.
+
+Investimentos – Foram investidos R$ 68 milhões, direcionados principalmente à reposição e aquisição de vasilhames,
+instalações em novos clientes no segmento granel e segurança operacional.
+
+
+
+
+                                                                                                                             3
+                                                                                                                         3
+ 3° TRIMESTRE DE 2020
+
+
+Ultracargo
+
+                                                                                          Δ             Δ                           Δ
+                                               3T20         3T19         2T20                                     9M20    9M19    9M20 v
+                                                                                      3T20 v 3T19   3T20 v 2T20
+                                                                                                                                   9M19
+ Capacidade estática¹ (mil m³)                  838          753         832             11%           1%          831     717    16%
+ m³ faturado (mil m³)                          3.062        2.676       2.963            14%           3%         9.174   7.819   17%
+ EBITDA ex-não recorrentes² (R$
+                                                 78          58           80            35%           (2%)        249     177     41%
+ milhões)
+ EBITDA (R$ milhões)                             78          45           92            74%          (14%)        261     111     134%
+1 Média mensal
+
+² Não considera o efeito do TAC no 2T19 e no 3T19 e de créditos tributários no 2T20
+
+Desempenho operacional – A capacidade estática média da Ultracargo aumentou 11% em relação ao 3T19, fruto
+da entrada em operação das expansões de capacidade em Santos e Itaqui nos últimos doze meses.
+Consequentemente, o m³ faturado cresceu 14%, com maior movimentação de combustíveis e maior movimentação
+spot. Em relação ao 2T20, houve um crescimento de 3% no m³ faturado, principalmente em função da maior
+movimentação de combustíveis em Itaqui e Suape.
+
+Receita líquida – Total de R$ 160 milhões no 3T20 (+18%), impulsionada pelo aumento da movimentação de
+combustíveis, reajustes contratuais, novos contratos e movimentações spot. Em comparação ao 2T20, a receita
+líquida aumentou 3%, em função de maiores movimentações de combustíveis em Itaqui e Suape, parcialmente
+compensadas pelo menor faturamento em Aratu.
+
+Custo dos serviços prestados – Total de R$ 68 milhões (-1%), devido aos menores custos com manutenção e pessoal,
+atenuados pelos maiores gastos com apólices de seguros, que também aumentaram em escopo. O custo dos
+serviços prestados por m³ faturado apresentou redução de 13%, ganho de produtividade ainda maior que o
+observado no trimestre anterior. Em relação ao 2T20, o custo dos serviços prestados aumentou 4%, em função
+principalmente dos maiores gastos com apólices de seguros e indenizações, mas em linha quando considerado por
+m³ faturado.
+
+Despesas gerais, administrativas e de vendas – Total de R$ 35 milhões (+9%), devido a maiores despesas com pessoal
+e com sistemas de informação para fortalecimento da plataforma tecnológica da Ultracargo. Em relação ao 2T20,
+o aumento foi de 22%, em função de maiores despesas com sistemas de informação e gastos com pessoal e
+consultoria.
+
+Outros resultados operacionais – Melhora de R$ 9 milhões em relação ao 3T19, resultado principalmente do
+complemento ao Termo de Ajustamento de Conduta (“TAC”) no valor de R$ 13 milhões registrado no 3T19. Em relação
+ao 2T20, houve uma queda de R$ 11 milhões, devido à constituição dos créditos extraordinários de PIS/Cofins
+reportada no trimestre anterior.
+
+EBITDA – Total de R$ 78 milhões. Excluindo o efeito do pagamento do TAC no 3T19, houve um aumento de 35%, devido
+à maior movimentação de produtos viabilizada pelas expansões de capacidade e ganhos de eficiência nos
+terminais, aos reajustes contratuais e aos ganhos de produtividade. Em relação ao 2T20, excluindo o efeito dos
+créditos de PIS/Cofins, o EBITDA foi 2% menor, principalmente pelo aumento de despesas.
+
+Investimentos – Na Ultracargo, os investimentos no período foram de R$ 70 milhões, direcionados ao início das obras
+no novo terminal de Vila do Conde (PA), à aquisição de terreno em Santos e à expansão do terminal de Itaqui.
+
+
+
+
+                                                                                                                                               4
+                                                                                                                                           4
+ 3° TRIMESTRE DE 2020
+
+
+Oxiteno
+
+                                                                 Δ             Δ                           Δ
+                                        3T20   3T19   2T20                               9M20   9M19
+                                                             3T20 v 3T19   3T20 v 2T20                 9M20 v 9M19
+
+ Dólar médio (R$/US$)                   5,38   3,97   5,39     35%            0%         5,08   3,89      31%
+ Volume total (mil tons)                202    195    166       4%           22%         549    559       (2%)
+    Commodities                          37    42     28      (13%)          33%          97    112      (14%)
+    Especialidades/Outros               166    153    139       8%           19%         453    447       1%
+   Vendas no Brasil                     143    147    111      (3%)          29%         381    403       (5%)
+   Vendas no mercado
+                                         60    49     56       23%            7%         169    156       8%
+   externo
+ EBITDA ex-não
+                                        169    80     162      110%           5%         452    165      174%
+ recorrentes¹ (R$ milhões)
+ EBITDA (R$ milhões)                    169    80     162      110%           5%         523    165      217%
+¹ Não considera créditos tributários no 1T20
+
+
+Desempenho operacional – O volume de especialidades químicas apresentou aumento de 8% na comparação com
+o 3T19, resultado de fortes vendas no segmento de higiene e beleza no mercado interno, algo já observado desde o
+2T20, do aumento nas vendas nos Estados Unidos (+41%) e de maiores exportações. O volume de commodities
+apresentou redução de 13%, em função da menor demanda no mercado. Em relação ao 2T20, o volume total
+cresceu 22%, fruto principalmente da recuperação das vendas nos segmentos de fluidos automotivos, tintas e
+vernizes.
+
+Receita líquida – Total de R$ 1.425 milhões (+27%), em função da desvalorização média de 35% do Real (R$ 1,41/US$)
+e do aumento do volume vendido, atenuados pela redução de 7% dos preços médios em dólar. Em relação ao 2T20,
+a receita líquida aumentou 19%, fruto do maior volume de vendas, apesar da redução de 3% dos preços médios em
+dólar.
+
+Custo dos produtos vendidos – Total de R$ 1.152 milhões (+27%), devido à desvalorização média de 35% do Real (R$
+1,41/US$) e ao maior volume de vendas, atenuados pela redução de 10% do custo dos produtos vendidos em US$
+por tonelada. Em relação ao 2T20, o custo dos produtos vendidos aumentou 18%, fruto do maior volume de vendas,
+parcialmente compensado pela redução de 3% no custo dos produtos vendidos em US$ por tonelada.
+
+Despesas gerais, administrativas e de vendas – Total de R$ 219 milhões (+20%), decorrente da variação cambial nas
+unidades internacionais, além de maiores despesas com fretes, devido ao maior volume de vendas, exportações e
+armazenagem, e com remuneração variável, em linha com a progressão de resultados. Em relação ao 2T20, as
+despesas gerais, administrativas e de vendas aumentaram 22%, em função dos mesmos fatores citados
+anteriormente, além das iniciativas para contenção de despesas adotadas no trimestre anterior.
+
+EBITDA – Total de R$ 169 milhões (+110%), em razão do maior volume de vendas, do ramp-up da planta dos Estados
+Unidos e do Real médio 35% mais desvalorizado (R$ 1,41/US$), atenuados pelo aumento nas despesas. Em relação
+ao 2T20, o EBITDA aumentou 5%, devido ao maior volume de vendas, apesar da menor margem unitária em US$/ton.
+
+Investimentos – Os investimentos no período foram de R$ 39 milhões, direcionados, principalmente, a investimentos
+rotineiros de manutenção, continuidade operacional e segurança das unidades produtivas.
+
+
+
+
+                                                                                                                         5
+                                                                                                                     5
+ 3° TRIMESTRE DE 2020
+
+
+Ipiranga
+
+                                                                               Δ             Δ                               Δ
+                                     3T20           3T19           2T20                                9M20     9M19
+                                                                           3T20 v 3T19   3T20 v 2T20                     9M20 v 9M19
+ Volume total (mil m³)              5.530          6.185           4.626    (11%)           20%        15.646   17.382     (10%)
+ Diesel                             2.999          3.167           2.582     (5%)           16%         8.303    8.628      (4%)
+ Ciclo Otto                         2.421          2.903           1.958    (17%)           24%         7.048    8.434     (16%)
+ Outros¹                             110            115              86      (5%)           28%          295      319       (8%)
+ EBITDA (R$ milhões)                 566            679             179     (17%)          217%        1.224    1.787      (31%)
+¹ Óleos combustíveis, arla 32, querosene, lubrificantes e graxas
+
+Desempenho operacional – A Ipiranga apresentou redução de 11% no volume vendido em relação ao 3T19, em
+função dos efeitos da pandemia que impactaram de forma significativa o consumo de combustíveis no Brasil desde
+o final de março. O ciclo Otto, segmento mais afetado, registrou redução no volume de vendas de 17% no trimestre,
+enquanto o volume de diesel reduziu 5%. Apesar da queda em relação ao ano anterior, o volume foi 20% maior que
+o do 2T20, com crescimento de 24% no ciclo Otto e 16% no diesel, fruto da recuperação gradual ao longo dos meses.
+Receita líquida – Total de R$ 16.767 milhões (-14%), devido principalmente ao menor volume de vendas. Em relação
+ao 2T20, a receita líquida apresentou crescimento de 36%, reflexo da recuperação gradual no volume vendido e dos
+reajustes de preços da Petrobras.
+Custo dos produtos vendidos – Total de R$ 15.956 milhões (-15%), devido principalmente ao menor volume de vendas.
+Em relação ao 2T20, houve aumento de 33%, em função do aumento no volume de vendas e dos reajustes de preços
+da Petrobras.
+Despesas gerais, administrativas e de vendas – Total de R$ 407 milhões (-12%), em função principalmente da redução
+nas despesas com pessoal, frete (menor volume de vendas) e reversão de PDD. Em relação ao 2T20, houve aumento
+de 12% nas despesas gerais, administrativas e de vendas, devido a maiores despesas com frete (maior volume de
+vendas) e à retomada de algumas despesas contingenciadas no trimestre anterior.
+Outros resultados operacionais – Total de R$ 46 milhões negativos, diminuição de R$ 91 milhões em relação ao mesmo
+período do ano passado, em função da apropriação dos custos relativos às metas do RenovaBio de R$ 66 milhões
+no 3T20 e de créditos extraordinários de PIS/Cofins de R$ 32 milhões no 3T19.
+Resultado na venda de bens – Total de R$ 13 milhões, devido à venda de terrenos no período.
+EBITDA – Total de R$ 566 milhões (-17%), em função do menor volume de vendas e de outros resultados operacionais,
+parcialmente compensados pela diminuição nas despesas. Em relação ao 2T20, houve aumento de 217%, reflexo da
+recuperação gradual no volume e melhora nas margens.
+Investimentos – Foram investidos R$ 109 milhões, direcionados à ampliação e manutenção das redes de postos e
+franquias e à infraestrutura logística da Ipiranga. Do total investido, R$ 36 milhões referem-se a imobilizações e adições
+ao intangível, R$ 60 milhões a ativos de contratos com clientes (direitos de exclusividade) e R$ 13 milhões a liberações
+de financiamento a clientes e antecipação de aluguel, líquidos de recebimento. A Ipiranga encerrou o 3T20 com
+7.107 postos, praticamente em linha com o 2T20.
+AmPm - A partir de 2019, iniciou-se um amplo projeto de revisão do modelo de negócio e gestão da AmPm. A primeira
+etapa foi a revisão da loja física, com novo layout que proporciona uma jornada mais fluída e intuitiva para o
+consumidor, com maior espaço para consumo de produtos em loja em um ambiente ainda mais agradável. Em
+complemento, foi desenvolvida a seção digital da AmPm no aplicativo do Abastece aí, além de soluções
+proprietárias via WhatsApp e QR Code e parceria com as principais plataformas de delivery.
+A segunda etapa envolveu a revisão do posicionamento de marca, explorando conceitos de proximidades e novos
+hábitos de consumo, combinado com a revisão do mix de produtos, ampliando a oferta de food service (padarias e
+refeições prontas para consumo), mercearia e produtos de higiene e beleza.
+Os testes iniciais deste novo modelo têm sido promissores, com maior faturamento e melhores margens. Para garantir
+a viabilidade de implementação de roll-out do novo modelo, fez-se necessária a revisão criteriosa das lojas que
+deveriam permanecer com a marca AmPm, levando em consideração aspectos como tamanho, localização e
+rentabilidade. Nessa revisão foram identificadas 486 lojas que não se adequaram ao novo modelo de negócio.
+Adicionalmente, 81 lojas encerraram suas atividades durante o trimestre em função da pandemia. Com isso, a AmPm
+encerrou o 3T20 com 1.778 lojas.
+
+
+
+
+                                                                                                                                           6
+                                                                                                                                       6
+ 3° TRIMESTRE DE 2020
+
+
+Extrafarma
+
+                                                                 Δ             Δ                             Δ
+                                3T20      3T19      2T20                                 9M20    9M19
+                                                             3T20 v 3T19   3T20 v 2T20                   9M20 v 9M19
+ Número de lojas (final do
+                                 408       423      410        (4%)           0%         408     423        (4%)
+ período)
+  % de lojas maduras (+3
+                                68%       51%       62%      16,6 p.p.     5,2 p.p.      68%     51%      16,6 p.p.
+ anos)
+ Receita bruta (R$ milhões)      523       541      515        (3%)           2%         1.558   1.646      (5%)
+ EBITDA (R$ milhões)              28        18       14        52%           103%         50      38        34%
+
+Desempenho operacional – A Extrafarma encerrou o 3T20 com 408 lojas, sendo 8 aberturas e 23 fechamentos nos
+últimos doze meses, uma redução de 4% na sua base, resultado da maior seletividade na expansão e maior rigor em
+relação a lojas com baixo desempenho. Ao longo do 3T20, as lojas localizadas em shoppings retomaram suas
+operações, porém ainda com horário reduzido de funcionamento e com fluxo aquém do período pré-pandemia. Ao
+final do 3T20, as lojas em maturação (com até três anos de operação) representavam 32% da rede.
+
+Receita bruta – Total de R$ 523 milhões (-3%), devido ao menor número de lojas (-4%) e ao menor fluxo de clientes em
+lojas em shoppings, atenuados pelo maior faturamento de mesmas lojas ex-lojas em shopping (+3%), impulsionado
+pelo reajuste anual no preço de medicamentos e pela expansão de vendas por meio de canais digitais. Em relação
+ao 2T20, a receita bruta apresentou um crescimento de 2%, em função do retorno gradual do funcionamento das
+lojas em shoppings durante a pandemia.
+
+Custo dos produtos vendidos e lucro bruto – O custo dos produtos vendidos totalizou R$ 345 milhões (-5%), em
+decorrência do menor faturamento. O lucro bruto atingiu R$ 147 milhões (-2%), equivalente a uma margem bruta de
+28,2%, 0,3 p.p. superior ao 3T19, devido principalmente às melhores margens no varejo, ajudadas pela postergação
+do reajuste anual de preços de abril para junho, e à menor participação nas vendas do segmento atacado, que
+possui menor margem. Em relação ao 2T20, o custo dos produtos vendidos aumentou 1%, reflexo da recuperação
+das vendas, enquanto o lucro bruto cresceu 4%, fruto principalmente do reajuste anual de medicamentos.
+
+Despesas gerais, administrativas e de vendas – Total de R$ 159 milhões (-14%), em função do menor número de lojas
+e das iniciativas de contingenciamento, ganhos de produtividade e otimização logística. Em relação ao trimestre
+anterior, as despesas gerais, administrativas e de vendas reduziram 3%, devido a menores despesas com pessoal.
+
+Outros resultados operacionais – Redução de R$ 15 milhões em relação ao 3T19, decorrente principalmente da
+constituição de créditos tributários e previdenciários extemporâneos no ano anterior.
+
+EBITDA – Total de R$ 28 milhões (+52%), apesar da queda de 3% no faturamento e créditos extraordinários no 3T19.
+Esse crescimento é consequência (i) do processo de depuração implementado e de maior rentabilização da rede
+existente, (ii) de iniciativas para ganho de produtividade e redução de despesas e (iii) de melhores margens. Em
+relação ao 2T20, houve um crescimento de 103%, devido principalmente à recuperação nas vendas, ao reajuste
+anual de medicamentos e às ações para redução de despesas e ganhos de produtividade.
+
+Investimentos – No 3T20 foram investidos R$ 10 milhões, direcionados principalmente à construção do centro de
+distribuição do Maranhão que entrará em operação no final de 2020 e a projetos ligados à tecnologia da informação
+e manutenção de lojas.
+
+
+
+
+                                                                                                                           7
+                                                                                                                       7
+ 3° TRIMESTRE DE 2020
+
+
+Ultrapar
+
+                                                                                         Δ             Δ                                        Δ
+ Valores em R$ milhões                           3T20          3T19       2T20                                     9M20        9M19
+                                                                                   3T20 v 3T19    3T20 v 2T20                            9M20 v 9M19
+ Receita líquida                               20.762       23.203      15.876         (11%)          31%         58.025       65.635        (12%)
+ Lucro líquido                                   277           307         50          (10%)          n/a           496          671         (26%)
+ Lucro por ação atribuível aos
+                                                 0,24          0,27       0,04         (11%)          n/a           0,43        0,59         (27%)
+ acionistas²
+ EBITDA ex-não recorrentes¹                     1.038          992         599          5%            73%          2.447       2.504          (2%)
+ EBITDA Ajustado                                1.038          979         611          6%            70%          2.529       2.439           4%
+ Investimentos                                   313           472         361         (34%)         (13%)         1.024        1.076         (5%)
+ Fluxo de caixa das operações                    828           922         871         (10%)          (5%)         2.630        2.449          7%
+¹ Não considera o efeito do TAC da Ultracargo no 2T19 e 3T19, créditos tributários da Oxiteno no 1T20 e créditos tributários da Ultracargo no 2T20
+² Calculado em Reais a partir da média ponderada do número de ações ao longo do período, líquido das ações em tesouraria
+
+Receita líquida – Total de R$ 20.762 milhões (-11%), principalmente em função da redução na receita líquida da
+Ipiranga, decorrente dos impactos da pandemia. Em relação ao 2T20, a receita líquida aumentou 31%, reflexo do
+maior faturamento em todos os negócios.
+
+EBITDA Ajustado – Total de R$ 1.038 milhões (+6%), devido ao maior EBITDA da Oxiteno, Ultragaz, Ultracargo e
+Extrafarma. Em relação ao 2T20, houve um aumento de 70%, devido principalmente à recuperação de resultado na
+Ipiranga.
+
+Depreciação e amortização3 – Total de R$ 397 milhões (+8%), em função de maiores amortizações de softwares,
+veículos e investimentos realizados ao longo dos últimos doze meses. Em relação ao 2T20, o total de custos e despesas
+com depreciação e amortização foi 4% maior, devido à maior amortização de ativos de contratos com clientes na
+Ipiranga e veículos.
+
+Resultado financeiro – A Ultrapar apresentou despesa financeira líquida de R$ 158 milhões no 3T20, uma ligeira melhora
+de R$ 6 milhões em relação ao 3T19, principalmente em função da queda das taxas de juros, apesar da maior dívida
+líquida, de maiores custos de carregamento da dívida bruta e de concentração de despesas com marcação a
+mercado de juros. Em relação ao 2T20, houve um aumento de 97%, explicado por maiores despesas de juros sobre a
+dívida, conforme explicado acima, e pela piora no resultado da variação cambial no período comparado.
+
+Lucro líquido – Total de R$ 277 milhões (-10%), fruto de maiores custos e despesas com depreciação e amortização e
+imposto de renda, assim como do resultado negativo do cash flow hedge dos bonds no 3T20. Em relação ao 2T20, o
+lucro líquido apresentou aumento de R$ 227 milhões, decorrente do maior EBITDA, atenuado pelo aumento na
+despesa financeira.
+
+Fluxo de caixa gerado pelas atividades operacionais – Geração de R$ 2.630 milhões nos 9M20, comparada a uma
+geração de R$ 2.449 milhões nos 9M19, devido principalmente ao desinvestimento em capital de giro e ao maior
+EBITDA no período.
+
+Resultado Holding, coligadas e abastece aí – Em adição aos resultados dos cinco principais negócios, a Ultrapar
+registrou um impacto negativo de R$ 25 milhões, composto principalmente de (i) R$ 20 milhões de despesas da
+Holding e (ii) R$ 6 milhões de EBITDA negativo com o abastece aí (nova empresa de pagamentos digitais), devido às
+despesas com pessoal e tecnologia para estruturação e crescimento do negócio, atenuados por (iii) R$ 2 milhões de
+EBITDA positivo com as coligadas.
+
+³ Inclui amortização de ativos de contratos com clientes – direitos de exclusividade
+
+
+
+
+                                                                                                                                                           8
+                                                                                                                                                       8
+ 3° TRIMESTRE DE 2020
+
+
+Atualizações sobre temas ESG
+
+A Oxiteno se tornou empresa membro da iniciativa Pacto Global da ONU (a Ultragaz e a Ipiranga já eram signatárias),
+uma ação alinhada com seu Plano Estratégico de Sustentabilidade de 2030, baseado em oito pilares que equilibram
+a prosperidade econômica, proteção ao meio ambiente e o atendimento às necessidades da sociedade. Outra
+conquista da Oxiteno neste trimestre foi se tornar a primeira indústria química brasileira a firmar parceria com a
+EcoVadis, empresa líder global de avaliação em sustentabilidade, visando impulsionar práticas sustentáveis em toda
+sua cadeia de fornecimento.
+
+Em agosto, a Ipiranga lançou sua nova Política de Sustentabilidade, alinhada aos princípios estabelecidos pelo Pacto
+Global e aos Objetivos de Desenvolvimento Sustentável (ODS) da ONU, com novas diretrizes estratégicas de
+sustentabilidade guiadas para a atuação em temas materiais, incluindo mobilidade urbana, mudanças climáticas e
+ecoeficiência, com objetivo de gerar e proteger o valor do negócio no longo prazo, aplicável a toda sua cadeia de
+valor. A elaboração da política surgiu como resultado do estudo de materialidade realizado pela Ipiranga em 2019
+junto aos seus stakeholders e o lançamento interno foi acompanhado de uma nova identidade visual e de eventos
+online promovidos por executivos da Ipiranga com profissionais de referência no setor. A referida Política está
+disponível para consulta no site de Relações com Investidores da Companhia.
+
+Além disso, a Ipiranga realizou parceria com a GDSolar para a construção e operação de cinco usinas
+solares/fotovoltaicas para redução de custo com energia elétrica em seus postos e franquias e para aumentar a
+participação de fontes renováveis em sua matriz energética. A expectativa é de gerar mais de 50 mil MWh/ano a
+partir de abril de 2021, energia suficiente para suprir aproximadamente 300 postos, com economia de até 15% no
+custo dos postos com energia elétrica, totalizando uma economia de mais de R$ 70 milhões ao ano na rede
+participante.
+
+Em setembro, o Conselho de Administração da Companhia passou a contar com onze membros com a eleição do
+Sr. Alexandre Saigh, cofundador e membro do Comitê Executivo do Pátria Investimentos. Saigh possui vasta
+experiência em gestão de portfólio, infraestrutura e alocação de capital, temas que estão na agenda estratégica
+da Ultrapar.
+
+No mesmo mês, o Conselho de Administração elegeu o Sr. Rodrigo Pizzinatto como Diretor Financeiro e de Relações
+com Investidores. O Sr. Rodrigo Pizzinatto possui 21 anos de casa e uma longa carreira no Grupo Ultra, onde ingressou
+como estagiário e passou por diversas áreas financeiras como Tesouraria, M&A, Planejamento Corporativo e RI. Fez
+parte da Diretoria da Extrafarma nos últimos anos, onde exerceu a posição de Presidente entre junho de 2018 e
+outubro de 2020.
+
+Em outubro, o Sr. Marcelo Bazzali foi eleito Presidente da Extrafarma. Bazzali construiu uma sólida carreira de mais de
+25 anos em varejo, incluindo posições de alta liderança nas áreas de operações, marketing, comercial, e-commerce
+e gestão de negócios no Grupo Pão de Açúcar.
+
+
+
+
+                                                                                                                              9
+                                                                                                                          9
+ 3° TRIMESTRE DE 2020
+
+
+Mercado de capitais
+
+O volume financeiro médio negociado da Ultrapar, considerando as negociações ocorridas na B3 e na NYSE, foi de
+R$ 169 milhões/dia no 3T20 (+19%). As ações da Ultrapar encerraram o trimestre cotadas a R$ 19,27 na B3, crescimento
+de 5% no trimestre, enquanto o índice Ibovespa permaneceu praticamente estável. Na NYSE, as ações da Ultrapar
+apresentaram valorização de 1% no 3T20, enquanto o índice Dow Jones apresentou crescimento de 8%. A Ultrapar
+encerrou o 3T20 com valor de mercado de R$ 21 bilhões.
+
+
+
+
+Mercado de capitais                                    3T20                3T19      2T20       9M20            9M19
+
+Quantidade de ações (mil)                           1.115.006         1.112.810    1.114.919   1.115.006       1.112.810
+Valor de mercado¹ (R$ milhões)                        21.486           20.576       20.492      21.486          20.576
+B3
+Volume médio/dia (mil ações)                           7.415               6.562    9.136       8.793           5.723
+Volume financeiro médio/dia (R$ mil)                 149.324           121.997     141.452     158.259         124.301
+Cotação média (R$/ação)                                20,14               18,59    15,48       18,00           21,72
+NYSE
+Quantidade de ADRs² (mil ADRs)                        47.480           46.518       47.480      47.480          46.518
+Volume médio/dia (mil ADRs)                             958                1.051    1.494       1.458           1.236
+Volume financeiro médio/dia (US$ mil)                  3.594               4.887    4.341       5.639           7.286
+Cotação média (US$/ADRs)                               3,76                4,65      2,91        3,88            5,90
+Total
+Volume médio/dia (mil ações)                           8.373               7.612    10.630      10.251          6.958
+Volume financeiro médio/dia (R$ mil)                 168.661           141.380     164.769     185.681         152.387
+¹ Calculado a partir do preço de fechamento da ação no período
+² 1 ADR = 1 ação ordinária
+
+
+                                              Evolução UGPA3 x Ibovespa – 3T20
+                                                              (Base 100)
+
+
+
+
+                                                                                                   30/set/20
+
+
+
+
+                          Fonte: Bloomberg
+
+
+
+
+                                                                                                                                10
+                                                                                                                           10
+ 3° TRIMESTRE DE 2020
+
+
+ Endividamento (R$ milhões)
+
+ Ultrapar consolidado                                                     3T20            2T20            3T19
+
+ Dívida bruta                                                           (18.756)        (17.764)        (15.069)
+ Caixa e aplicações financeiras                                          9.798            8.448          6.439
+ Dívida líquida (ex-IFRS 16)                                            (8.958)          (9.317)        (8.631)
+ Arrendamentos a pagar                                                  (1.832)          (1.775)        (1.568)
+ Dívida líquida                                                        (10.790)         (11.092)        (10.199)
+ Dívida líquida/EBITDA Ajustado LTM¹ (ex-IFRS 16)                         2,9x             3,1x           2,7x
+ Dívida líquida/EBITDA Ajustado LTM¹                                      3,1x             3,2x           n/a
+                                                                        193% DI         141% DI         99% DI
+ Custo médio da dívida
+                                                                       DI + 1,9%        DI + 1,2%       DI - 0,0%
+ Rendimento médio do caixa (% DI)                                         68%              87%            94%
+ Prazo médio de amortização (anos)                                         4,8             4,4            5,0
+¹ EBITDA Ajustado LTM não considera o impairment da Extrafarma de R$ 593 milhões para o 2T20 e o 3T20
+
+
+A Ultrapar encerrou o 3T20 com dívida financeira líquida de R$ 9,0 bilhões, composta de endividamento bruto de R$
+18,8 bilhões e posição de caixa de R$ 9,8 bilhões. O efeito da variação cambial na dívida líquida sobre a parcela dos
+bonds designada para hedge accounting foi de R$ 93 milhões no 3T20. Considerando os arrendamentos a pagar
+(IFRS 16) de R$ 1,8 bilhão, a dívida líquida total foi de R$ 10,8 bilhões (3,1x EBITDA Ajustado LTM) em comparação a R$
+11,1 bilhões em 30 de junho de 2020 (3,2x EBITDA Ajustado LTM), devido principalmente à melhora do EBITDA.
+
+Perfil de amortização e composição por moeda:
+
+
+
+
+                                                                                         Moeda nacional
+
+                                                                                         Moeda estrangeira
+                                                                                              Com hedge
+
+                                                                                              Sem hedge
+
+                                                                                         Resultado de instrumentos de
+                                                                                         proteção cambial e de juros
+
+
+
+
+                                                                                                                               11
+                                                                                                                          11
+ 3° TRIMESTRE DE 2020
+
+
+Teleconferência 3T20
+
+A Ultrapar realizará a teleconferência com analistas e investidores em 05 de novembro de 2020 para
+comentários sobre o desempenho da Companhia no terceiro trimestre de 2020 e perspectivas. A apresentação
+estará disponível para download no website da Companhia 30 minutos antes de seu início.
+
+A teleconferência será transmitida via WEBCAST e realizada em português com tradução simultânea para
+inglês. O link de acesso estará disponível no site ri.ultra.com.br. Favor conectar-se com 15 minutos de
+antecedência.
+
+
+Teleconferência em português com tradução simultânea para inglês
+Horário: 11h00 (BRT) / 9h00 (EST)
+
+
+Participantes do Brasil: +55 (11) 3181-8565 (HD Web Phone) ou +55 (11) 4118-4632
+Código: Ultrapar – em português
+
+Replay: +55 (11) 3193-1012 (disponível por sete dias)
+Código: 0785935#
+
+
+Participantes Internacionais: +1 (844) 204-8942 (HD Web Phone) ou +1 (412) 717-9627
+Código: Ultrapar – em inglês
+
+Replay: +55 (11) 3193-1012 (disponível por sete dias)
+Código: 9792937#
+
+
+
+
+                                                                                                                12
+                                                                                                           12
+3° TRIMESTRE DE 2020
+
+                                                          ULTRAPAR
+                                              BALANÇO PATRIMONIAL CONSOLIDADO
+
+
+ Em milhões de Reais                                                                SET 20        SET 19       JUN 20
+
+
+ ATIVO
+   Caixa e equivalentes de caixa                                                      2.996,3      2.553,3       3.805,2
+   Aplicações financeiras e instrumentos financeiros derivativos de proteção          5.582,7      3.339,7       3.174,9
+   Contas a receber de clientes e financiamentos a clientes                           3.801,5      4.201,0       3.505,6
+   Estoques                                                                           3.539,6      3.285,6       2.970,2
+   Tributos a recuperar                                                               1.144,6      1.303,2       1.476,1
+   Despesas antecipadas                                                                 136,4        133,3         158,2
+   Ativos de contratos com clientes - direitos de exclusividade                         481,1        481,5         473,0
+   Outros                                                                                69,4         76,6          87,3
+ Total Ativo Circulante                                                              17.751,6     15.374,2      15.650,4
+   Aplicações financeiras e instrumentos financeiros derivativos de proteção          1.218,8        545,5       1.467,5
+   Contas a receber de clientes e financiamentos a clientes                             515,2        389,9         470,7
+   Imposto de renda e contribuição social diferidos                                   1.068,2        599,9       1.016,6
+   Tributos a recuperar                                                               1.573,1        845,7       1.149,1
+   Depósitos judiciais                                                                  952,4        920,1         949,7
+   Despesas antecipadas                                                                  79,8         94,9          87,8
+   Ativos de contratos com clientes - direitos de exclusividade                       1.183,4        977,6       1.127,4
+   Outros                                                                               197,0        196,6         197,2
+   Investimentos                                                                        170,3        130,6         165,8
+   Ativos de direito de uso                                                           2.163,0      1.945,0       2.135,5
+   Imobilizado                                                                        7.976,1      7.453,7       7.899,3
+   Intangível                                                                         1.762,2      2.323,0       1.770,5
+ Total Ativo Não Circulante                                                          18.859,5     16.422,6      18.437,0
+
+ TOTAL ATIVO                                                                         36.611,2     31.796,8      34.087,4
+
+ PASSIVO
+
+   Empréstimos, financiamentos e instrumentos financeiros derivativos de proteção     3.004,4       1.131,9      2.335,1
+   Debêntures                                                                           960,1         257,4        262,1
+   Fornecedores                                                                       3.447,4       2.407,9      2.538,3
+   Salários e encargos sociais                                                          514,0         432,1        439,1
+   Impostos a pagar                                                                     419,7         325,2        316,6
+   Arrendamentos a pagar                                                                247,7         205,3        238,5
+   Outros                                                                               409,9         409,0        355,3
+ Total Passivo Circulante                                                             9.003,1       5.168,7      6.485,0
+
+   Empréstimos, financiamentos e instrumentos financeiros derivativos de proteção     9.240,6      7.410,5       8.951,8
+   Debêntures                                                                         5.550,9      6.269,4       6.215,2
+   Provisões para riscos tributários, cíveis e trabalhistas                             844,6        852,5         846,7
+   Benefícios pós-emprego                                                               234,4        202,3         247,1
+   Arrendamentos a pagar                                                              1.584,1      1.362,7       1.536,7
+   Outros                                                                               326,2        457,6         297,0
+ Total Passivo Não Circulante                                                        17.780,8     16.554,9      18.094,5
+ TOTAL PASSIVO                                                                       26.783,9     21.723,6      24.579,4
+
+ PATRIMÔNIO LÍQUIDO
+   Capital social                                                                     5.171,8      5.171,8       5.171,8
+   Reservas                                                                           4.593,8      4.646,1       4.595,3
+   Ações em tesouraria                                                                 (489,1)      (485,4)       (485,4)
+   Outros                                                                               147,8        355,2        (165,3)
+   Participação dos não-controladores                                                   403,0        385,6         391,6
+ Total do Patrimônio Líquido                                                          9.827,3     10.073,2       9.508,0
+ TOTAL PASSIVO E PATRIMÔNIO LÍQUIDO                                                  36.611,2     31.796,8      34.087,4
+  Caixa e aplicações financeiras                                                       9.797,8      6.438,5      8.447,5
+  Empréstimos e debêntures                                                           (18.755,9)   (15.069,2)   (17.764,2)
+  Arrendamentos a pagar                                                               (1.831,8)    (1.567,9)    (1.775,3)
+ Caixa (endividamento) líquido                                                       (10.789,9)   (10.198,7)   (11.091,9)
+ Caixa (endividamento) líquido ex-IFRS 16                                             (8.958,1)    (8.630,7)    (9.316,6)
+
+
+
+
+                                                                                                                                 13
+                                                                                                                            13
+3° TRIMESTRE DE 2020
+
+                                                                                    ULTRAPAR
+                                                           DEMONSTRATIVO DE RESULTADOS CONSOLIDADO
+
+
+
+ Em milhões de Reais                                                                       3T20                3T19               2T20         9M20         9M19
+
+
+   Receita líquida de vendas e serviços                                                    20.762,1            23.203,3           15.876,2     58.025,5     65.635,2
+   Custos dos produtos vendidos e dos serviços prestados                                  (19.123,3)          (21.580,2)         (14.825,0)    (53.925,5)   (61.161,8)
+   Lucro bruto                                                                               1.638,8            1.623,1            1.051,2      4.099,9      4.473,4
+   Receitas (despesas) operacionais
+     Com vendas e comerciais                                                                  (630,7)            (613,5)             (608,3)    (1.883,9)    (1.988,5)
+     Gerais e administrativas                                                                 (373,9)            (445,5)             (293,2)    (1.077,0)    (1.245,0)
+
+   Outros resultados operacionais, líquidos                                                    (45,9)               53,2               36,2       114,2        100,0
+   Resultado na venda de bens                                                                   15,0                  2,0              14,0         35,9           0,9
+
+   Lucro (prejuízo) operacional                                                                603,3              619,3               199,8     1.289,2      1.340,8
+
+   Resultado financeiro
+     Receitas financeiras                                                                       71,6              125,6                53,1        306,8        401,9
+     Despesas financeiras                                                                     (229,5)            (289,0)             (133,4)      (712,6)      (656,6)
+   Equivalência patrimonial                                                                     (4,8)              (8,2)              (13,3)       (30,5)       (18,3)
+
+   Lucro antes do imposto de renda e contribuição social                                       440,7              447,6               106,2       852,9      1.067,8
+
+   Imposto de renda e contribuição social
+     Corrente                                                                                 (205,2)              (58,7)            (130,7)      (460,1)      (337,6)
+     Diferido                                                                                   20,5               (93,1)              55,1         46,8        (90,5)
+     Incentivos fiscais                                                                         21,3                11,4               19,3         56,6         30,9
+
+   Lucro líquido                                                                               277,3              307,3                50,0       496,2        670,6
+
+   Lucro atribuível a:
+     Acionistas da Ultrapar                                                                    265,4              297,8                41,1       467,4        640,1
+     Acionistas não controladores de controladas                                                11,9                9,5                 9,0        28,8         30,5
+
+   EBITDA Ajustado                                                                           1.038,3              979,3               611,0     2.529,2      2.438,8
+
+   Depreciação e amortização¹                                                                  397,0              368,3               381,4      1.165,0      1.116,2
+   Cash flow hedge bonds                                                                        42,9                -                  43,1        105,6          -
+   Investimentos totais²                                                                       312,8              472,4               360,8      1.023,7      1.076,0
+   Índices
+     Lucro por ação - R$                                                                        0,24               0,27                0,04        0,43         0,59
+     Dívida líquida / Patrimônio líquido                                                        0,91               0,86                0,98        0,91         0,86
+     Dívida líquida / EBITDA Ajustado LTM³ (ex-IFRS 16)                                         2,91               2,72                3,07        2,91         2,72
+     Dívida líquida / EBITDA Ajustado LTM³                                                      3,10                n/a                3,24        3,10          n/a
+     Despesa financeira líquida / EBITDA Ajustado                                               0,15               0,17                0,13        0,16         0,10
+     Margem bruta                                                                               7,9%               7,0%                6,6%        7,1%         6,8%
+     Margem operacional                                                                         2,9%               2,7%                1,3%        2,2%         2,0%
+     Margem EBITDA Ajustado                                                                     5,0%               4,2%                3,8%        4,4%
+                                                                                                                                                     -          3,7%
+   Número de funcionários                                                                    15.759              16.529             16.003       15.759       16.529
+
+
+
+ ¹ Inclui amortização de ativ os de contratos com clientes – direitos de exclusiv idade
+ ² Inclui imobilizações e adições ao intangív el, ativ os de contratos com clientes (direitos de exclusiv idade), custos diretos iniciais de
+ ativ os de direito de uso, liberações de financiamentos a clientes, antecipações de aluguel (líquidos de repagamentos) e
+ aquisições de participações acionárias
+ ³ EBITDA Ajustado LTM não considera o impairment da Extrafarma para o 2T20, 3T20 e 9M20
+
+
+
+
+                                                                                                                                                                              14
+                                                                                                                                                                         14
+3° TRIMESTRE DE 2020
+
+                                                                       ULTRAPAR
+                                                             FLUXO DE CAIXA CONSOLIDADO
+
+
+        Em milhões de Reais                                                                      JAN - SET     JAN - SET
+                                                                                                   2020          2019
+        Fluxo de caixa das atividades operacionais
+        Lucro líquido do exercício                                                                    496,2         670,6
+        Ajustes para reconciliar o lucro líquido ao caixa gerado pelas atividades operacionais
+            Equivalência patrimonial                                                                   30,5          18,3
+            Amortização de ativos de contratos com clientes - direitos de exclusividade               224,4         273,4
+            Amortização de ativos de direito de uso                                                   242,1         219,2
+            Depreciações e amortizações                                                               698,4         623,6
+            Créditos de PIS e COFINS sobre depreciação                                                 11,5          11,1
+            Juros, variações monetárias e cambiais                                                    768,8       1.083,9
+            Imposto de renda e contribuição social diferidos                                          (46,8)         90,5
+            Resultado na venda de bens                                                                (35,9)         (0,9)
+            Perdas estimadas de crédito de liquidação duvidosa                                         29,1          27,5
+            Provisão para perda em estoques                                                            (0,8)          3,0
+            Provisão para benefício pós-emprego                                                       (18,6)         (1,9)
+            Instrumento patrimonial outorgado                                                           4,5           5,4
+            Demais provisões e ajustes                                                                 (1,0)         (2,1)
+
+                                                                                                    2.402,3       3.021,7
+
+        (Aumento) diminuição no ativo circulante
+           Contas a receber e financiamentos a clientes                                               255,2         225,7
+           Estoques                                                                                   180,8          71,2
+           Impostos a recuperar                                                                       303,1        (406,3)
+           Dividendos recebidos de controladas e empreendimentos controlados em conjunto                4,7           3,7
+           Demais contas a receber                                                                    (32,4)        (18,0)
+           Despesas antecipadas                                                                       (65,0)         12,7
+
+        Aumento (diminuição) no passivo circulante
+           Fornecedores                                                                               607,4        (344,2)
+           Salários e encargos sociais                                                                108,4           3,9
+           Obrigações tributárias                                                                      40,4           2,2
+           Imposto de renda e contribuição social                                                     171,9         118,4
+           Benefícios pós-emprego                                                                       0,6          (3,4)
+           Provisões para riscos tributários, cíveis e trabalhistas                                     1,5          15,0
+           Demais contas a pagar                                                                       66,4          87,1
+           Receita diferida                                                                            (0,7)         (5,7)
+
+        (Aumento) diminuição no ativo não circulante
+           Contas a receber e financiamentos a clientes                                               (96,8)         39,9
+           Impostos a recuperar                                                                      (700,8)          7,1
+           Depósitos judiciais                                                                        (31,0)        (38,6)
+           Demais contas a receber                                                                      0,4           0,1
+           Despesas antecipadas                                                                         5,3         (11,8)
+
+        Aumento (diminuição) no passivo não circulante
+           Benefícios pós-emprego                                                                       9,1           0,3
+           Provisões para riscos tributários, cíveis e trabalhistas                                   (39,5)        (12,8)
+           Demais contas a pagar                                                                      (37,0)         43,3
+           Receita diferida                                                                             -           (11,9)
+
+        Pagamentos de ativos de contratos com clientes - direitos de exclusividade                   (296,8)       (231,7)
+        Imposto de renda e contribuição social pagos                                                 (227,3)       (118,9)
+
+        Caixa líquido gerado pelas atividades operacionais                                          2.630,3       2.449,1
+
+        Fluxo de caixa das atividades de investimentos
+            Aplicações financeiras, líquidas de resgates                                           (1.567,1)       (841,2)
+            Aquisição de imobilizado                                                                 (587,1)       (669,8)
+            Aquisição de intangível                                                                  (112,3)        (75,8)
+            Aporte de capital em empreendimentos controlados em conjunto                              (20,0)        (22,9)
+            Custos diretos iniciais de ativos de direito de uso                                         -           (69,5)
+            Receita com a venda de bens                                                                86,0          28,7
+
+        Caixa líquido utilizado nas atividades de investimentos                                    (2.200,5)     (1.650,6)
+
+        Fluxo de caixa das atividades de financiamentos
+          Empréstimos, financiamentos e debêntures
+            Captação                                                                                3.591,6       2.016,4
+            Amortização                                                                            (2.280,2)     (2.160,6)
+            Juros pagos                                                                              (478,8)     (1.220,7)
+          Contraprestação de arrendamento                                                            (266,5)       (237,2)
+          Dividendos pagos                                                                           (264,5)       (596,5)
+          Resgate de ações de acionistas não-controladores da Oxiteno Nordeste                          -            (2,2)
+          Aumento de capital realizado por acionistas não-controladores da Iconic                       -             7,0
+          Sociedades relacionadas                                                                      (0,1)         (0,1)
+
+        Caixa líquido gerado pelas (utilizado nas) atividades de financiamentos                       301,7      (2.193,9)
+
+        Variação cambial de caixa e equivalentes de caixa em moeda estrangeira                        149,5             9,8
+
+        Aumento (diminuição) de caixa e equivalentes de caixa                                         881,0      (1.385,7)
+
+        Caixa e equivalentes de caixa no início do período                                          2.115,4       3.939,0
+
+        Caixa e equivalentes de caixa no fim do período                                             2.996,3       2.553,3
+
+        Transações sem efeito caixa:
+        Adições em ativos de direito de uso e arrendamentos a pagar                                   407,1         244,7
+        Custos diretos iniciais de ativos de direito de uso                                             -            20,4
+        Adições em ativos de contratos com clientes - direitos de exclusividade                       140,0           -
+        Fundo de reversão - previdência privada                                                        47,1           -
+
+
+                                                                                                                                   15
+                                                                                                                              15
+3° TRIMESTRE DE 2020
+
+                                                                      ULTRAGAZ
+                                                          CAPITAL OPERACIONAL CONSOLIDADO
+
+
+ Em milhões de Reais                                                        SET 20         SET 19         JUN 20
+
+
+ ATIVO OPERACIONAL
+     Clientes                                                                   366,9         393,3           336,9
+     Clientes a receber LP                                                       31,7          13,5            31,3
+     Estoques                                                                   122,3         172,6           132,6
+     Impostos                                                                    97,9          80,9            96,1
+     Depósitos judiciais                                                        218,9         221,6           220,4
+     Outros                                                                      63,0          55,5            73,7
+     Ativos de direito de uso                                                   110,7         128,8           107,0
+     Imobilizado / Intangível                                                 1.045,0         955,2         1.022,4
+
+ TOTAL ATIVO OPERACIONAL                                                      2.056,4       2.021,5         2.020,5
+
+ PASSIVO OPERACIONAL
+     Fornecedores                                                                88,7          81,6           93,1
+     Salários e encargos                                                        105,9         118,7           90,3
+     Impostos                                                                    25,2           9,9           13,0
+     Provisões judiciais                                                        127,3         119,4          129,4
+     Arrendamentos a pagar                                                      150,7         166,2          144,3
+     Outros                                                                      80,0         119,1           83,1
+ TOTAL PASSIVO OPERACIONAL                                                      577,8         614,9          553,2
+
+
+
+
+                                                    DEMONSTRATIVO DE RESULTADOS CONSOLIDADO
+
+
+  Em milhões de Reais                                                       3T20           3T19            2T20         9M20         9M19
+
+
+   Receita líquida                                                            1.954,9       1.894,4         1.723,4      5.439,7      5.307,1
+     Custo dos produtos vendidos                                             (1.636,8)      (1.604,8)      (1.442,3)    (4.602,0)    (4.586,8)
+   Lucro bruto                                                                  318,0         289,6          281,1        837,7        720,3
+     Despesas operacionais
+      Vendas e comerciais                                                      (104,4)       (107,2)         (104,2)      (315,1)      (320,6)
+      Gerais e administrativas                                                  (54,4)        (51,4)          (32,3)      (134,2)      (152,3)
+     Outros resultados operacionais                                                0,5            2,5             1,8          7,1          5,5
+     Resultado na venda de bens                                                    2,8            1,6             2,3          6,0          2,8
+   Lucro (prejuízo) operacional                                                 162,5         135,0          148,7        401,4        255,7
+   Equivalência patrimonial                                                        (0,1)          (0,0)           0,0       (0,0)           0,0
+   EBITDA Ajustado                                                              222,2         187,5          205,7        574,8        418,7
+   Depreciação e amortização¹                                                    59,7          52,5            56,9       173,4        163,0
+ Índices
+   Margem bruta (R$/ton)                                                           702            632             650       641          565
+   Margem operacional (R$/ton)                                                     359            295             344       307          201
+   Margem EBITDA (R$/ton)                                                          491            409             476       440          329
+ Número de funcionários                                                         3.421         3.401          3.428        3.421        3.401
+
+ ¹ Inclui amortização de ativ os de contratos com clientes – direitos de exclusiv idade
+
+
+
+
+                                                                                                                                                       16
+                                                                                                                                                  16
+3° TRIMESTRE DE 2020
+
+                                                                    ULTRACARGO
+                                                         CAPITAL OPERACIONAL CONSOLIDADO
+
+
+ Em milhões de Reais                                                    SET 20             SET 19            JUN 20
+
+
+ ATIVO OPERACIONAL
+     Clientes                                                                 43,4              38,4               62,0
+     Estoques                                                                  7,8               6,3                8,1
+     Impostos                                                                 15,2              27,0               17,4
+     Outros                                                                   30,0              15,0               30,1
+     Ativos de direito de uso                                                473,1             307,9              475,1
+     Imobilizado / Intangível / Investimentos                              1.381,9           1.246,3            1.329,3
+
+ TOTAL ATIVO OPERACIONAL                                                   1.951,3           1.640,8            1.922,1
+
+ PASSIVO OPERACIONAL
+     Fornecedores                                                             64,7              28,2               25,0
+     Salários e encargos                                                      41,9              24,5               37,5
+     Impostos                                                                 15,4               7,6               11,6
+     Provisões judiciais                                                       9,4               8,6                9,9
+     Arrendamentos a pagar                                                   438,2             259,1              436,0
+     Outros¹                                                                  94,9             140,6               97,7
+ TOTAL PASSIVO OPERACIONAL                                                   664,4             468,5              617,8
+
+ ¹ Inclui obrigações com clientes de longo prazo e saldo referente ao v alor adicional mínimo da aquisição do Temmar, no
+ porto de Itaqui e contas a pagar - indenização clientes e terceiros
+
+
+
+
+                                                   DEMONSTRATIVO DE RESULTADOS CONSOLIDADO
+
+
+ Em milhões de Reais                                                     3T20               3T19              2T20           9M20         9M19
+
+
+   Receita líquida                                                           159,9             135,3              155,0        478,2        387,9
+     Custo dos serviços prestados                                            (68,1)             (68,6)            (65,6)       (196,2)      (187,4)
+   Lucro bruto                                                                91,8              66,8               89,4        282,0        200,5
+     Despesas operacionais
+      Vendas e comerciais                                                     (1,7)              (2,4)             (1,7)         (5,1)        (6,0)
+      Gerais e administrativas                                               (33,1)             (29,4)            (26,8)        (90,7)       (84,4)
+     Outros resultados operacionais                                           (1,4)             (10,3)                9,7        11,2        (60,9)
+     Resultado na venda de bens                                               (0,2)              (0,1)               (0,0)       (0,4)        (0,0)
+
+   Lucro (prejuízo) operacional                                               55,4              24,6               70,6        196,9         49,1
+   Equivalência patrimonial                                                     0,2                0,6               0,3            0,6          1,7
+   EBITDA                                                                     78,4              45,0               91,5        260,5        111,1
+   Depreciação e amortização                                                  22,9               19,8              20,6          63,0         60,3
+ Índices
+   Margem bruta                                                              57,4%             49,3%              57,7%         59,0%        51,7%
+   Margem operacional                                                        34,6%             18,1%              45,6%         41,2%        12,7%
+   Margem EBITDA                                                             49,1%             33,3%              59,1%         54,5%        28,7%
+ Número de funcionários                                                         911                751               878         911          751
+
+
+
+
+                                                                                                                                                            17
+                                                                                                                                                       17
+3° TRIMESTRE DE 2020
+
+                                                            OXITENO
+                                               CAPITAL OPERACIONAL CONSOLIDADO
+
+
+ Em milhões de Reais                                      SET 20        SET 19        JUN 20
+
+
+ ATIVO OPERACIONAL
+    Clientes                                                 738,4         607,5          707,8
+    Estoques                                                 941,2         741,5          951,9
+    Impostos                                                 642,4         585,8          665,1
+    Outros                                                   158,3         154,7          173,1
+    Ativos de direito de uso                                  41,7          40,1           40,1
+    Imobilizado / Intangível / Investimentos               2.994,1       2.660,1        2.962,4
+
+ TOTAL ATIVO OPERACIONAL                                   5.516,2       4.789,7        5.500,2
+
+ PASSIVO OPERACIONAL
+    Fornecedores                                             638,6         422,7         545,9
+    Salários e encargos                                      148,0         107,2         114,7
+    Impostos                                                  62,5          36,8          36,4
+    Provisões judiciais                                       27,4          28,3          26,8
+    Arrendamentos a pagar                                     44,3          41,1          42,4
+    Outros                                                    41,5          52,2          43,3
+ TOTAL PASSIVO OPERACIONAL                                   962,2         688,3         809,6
+
+
+
+
+                                          DEMONSTRATIVO DE RESULTADOS CONSOLIDADO
+
+
+ Em milhões de Reais                                      3T20          3T19           2T20         9M20         9M19
+
+
+  Receita líquida                                          1.425,0       1.120,6        1.201,0      3.733,9      3.242,6
+  Custo dos produtos vendidos
+    Variável                                                (964,8)       (759,6)        (798,4)    (2.492,3)    (2.221,6)
+    Fixo                                                    (134,2)       (103,9)        (124,5)      (361,0)      (347,9)
+    Depreciação e amortização                                (53,3)        (46,9)         (50,2)      (149,0)      (140,8)
+  Lucro bruto                                                272,7         210,2         227,9        731,6        532,2
+  Despesas operacionais
+   Vendas e comerciais                                      (105,5)        (86,4)         (89,8)      (279,8)      (251,1)
+   Gerais e administrativas                                 (113,4)        (96,0)         (89,2)      (312,3)      (277,0)
+                                                                             -              -
+  Outros resultados operacionais                                0,8          0,8            1,3         74,0            3,0
+  Resultado na venda de bens                                   (0,4)        (0,1)          (0,0)        (0,6)           0,3
+  Lucro (prejuízo) operacional                                54,1          28,5          50,1        212,8             7,6
+ Equivalência patrimonial                                        0,2           0,3            0,1          0,6          0,6
+  EBITDA Ajustado                                            168,8          80,5         161,6        523,0        164,8
+ Depreciação e amortização                                    71,6          51,7           68,2       204,0        156,7
+ Cash flow hedge bonds                                        42,9             -           43,1       105,6             -
+ Índices
+  Margem bruta (R$/ton)                                      1.347         1.076         1.371        1.332          952
+  Margem bruta (US$/ton)                                         250           271            254       262          245
+  Margem operacional (R$/ton)                                    267           146            302       387             14
+  Margem operacional (US$/ton)                                     50            37            56          76               3
+  Margem EBITDA (R$/ton)                                         834           412            972       952          295
+  Margem EBITDA (US$/ton)                                        155           104            180       188             76
+ Número de funcionários                                      1.849         1.894         1.834        1.849        1.894
+
+
+
+
+                                                                                                                                     18
+                                                                                                                                18
+3° TRIMESTRE DE 2020
+
+                                                                       IPIRANGA
+                                                          CAPITAL OPERACIONAL CONSOLIDADO
+
+
+ Em milhões de Reais                                                          SET 20        SET 19       JUN 20
+
+
+ ATIVO OPERACIONAL
+     Clientes                                                                   2.584,9       3.010,3      2.335,9
+     Clientes a receber LP                                                        483,2         376,2        439,2
+     Estoques                                                                   2.000,1       1.850,2      1.385,7
+     Impostos                                                                   1.226,0         821,0      1.089,6
+     Ativos de contratos com clientes - direitos de
+   exclusividade                                                                1.658,5       1.458,6      1.593,9
+     Outros                                                                       511,5         551,8        533,6
+     Ativos de direito de uso                                                   1.098,3       1.003,3      1.073,8
+     Imobilizado / Intangível / Investimentos                                   3.534,7       3.505,0      3.593,3
+
+ TOTAL ATIVO OPERACIONAL                                                       13.097,1     12.576,4      12.044,9
+
+ PASSIVO OPERACIONAL
+     Fornecedores                                                               2.484,3       1.714,5      1.690,3
+     Salários e encargos                                                          117,9         120,1        108,0
+     Benefícios pós-emprego                                                       230,1         202,3        234,6
+     Impostos                                                                     184,9         186,6        140,6
+     Provisões judiciais                                                          298,0         333,3        299,8
+     Arrendamentos a pagar                                                        752,1         651,5        709,9
+     Outros                                                                       347,6         246,7        286,4
+ TOTAL PASSIVO OPERACIONAL                                                      4.414,9      3.454,9       3.469,7
+
+
+
+
+                                                    DEMONSTRATIVO DE RESULTADOS CONSOLIDADO
+
+
+  Em milhões de Reais                                                          3T20         3T19          2T20         9M20         9M19
+
+
+   Receita líquida                                                             16.767,4     19.568,5      12.350,2     47.017,1     55.220,0
+   Custos dos produtos vendidos e dos serviços prestados                      (15.955,9)    (18.676,3)   (12.035,0)    (45.195,5)   (52.673,6)
+   Lucro bruto                                                                    811,5        892,2        315,2       1.821,6      2.546,3
+   Despesas operacionais
+    Vendas e comerciais                                                          (272,5)       (259,2)      (273,2)       (853,4)      (927,3)
+    Gerais e administrativas                                                     (134,5)       (203,5)       (88,6)       (382,0)      (551,5)
+   Outros resultados operacionais                                                  (46,3)        45,2         21,9          19,7       110,4
+   Resultado na venda de bens                                                       12,9          0,7         14,0          33,4        (2,0)
+   Lucro (prejuízo) operacional                                                   371,1        475,4         (10,8)       639,3      1.176,0
+ Equivalência patrimonial                                                           (0,3)          0,4           0,8          0,8          1,3
+   EBITDA Ajustado                                                                565,7        679,4        178,7       1.224,3      1.787,1
+ Depreciação e amortização¹                                                       194,9        203,6         188,7        584,1        609,8
+ Índices
+   Margem bruta (R$/m³)                                                             147          144            68          116          146
+   Margem operacional (R$/m³)                                                         67           77           (2)           41           68
+   Margem EBITDA Ajustado (R$/m³)                                                   102          110            39            78         103
+   Margem EBITDA Ajustado (%)                                                       3,4%         3,5%         1,4%          2,6%         3,2%
+ Número de postos                                                                 7.107        7.151        7.105         7.107        7.151
+ Número de funcionários                                                           3.276        3.287        3.351         3.276        3.287
+
+ ¹ Inclui amortização de ativ os de contratos com clientes – direitos de exclusiv idade
+
+
+
+
+                                                                                                                                                      19
+                                                                                                                                                 19
+3° TRIMESTRE DE 2020
+
+                                                             EXTRAFARMA
+                                                         CAPITAL OPERACIONAL
+
+
+ Em milhões de Reais                                          SET 20       SET 19          JUN 20
+
+
+ ATIVO OPERACIONAL
+      Clientes                                                    54,0            155,1        66,5
+      Estoques                                                   468,2            515,0       491,9
+      Impostos                                                   227,4            213,0       213,7
+      Outros                                                      26,6             22,0        29,6
+      Ativos de direito de uso                                   402,4            464,4       402,5
+      Imobilizado / Intangível                                   497,9          1.136,7       508,8
+
+ TOTAL ATIVO OPERACIONAL                                        1.676,5         2.506,2      1.713,0
+
+ PASSIVO OPERACIONAL
+      Fornecedores                                               167,1           162,9        179,0
+      Salários e encargos                                         60,4            60,6         58,6
+      Impostos                                                    20,4            28,7         27,5
+      Provisões judiciais                                          9,7            40,1          9,7
+      Arrendamentos a pagar                                      407,1           449,6        403,4
+      Outros                                                      15,7            14,3         11,1
+ TOTAL PASSIVO OPERACIONAL                                       680,4           756,1        689,3
+
+
+
+
+                                                     DEMONSTRATIVO DE RESULTADOS
+
+
+     Em milhões de Reais                                       3T20            3T19         2T20        9M20        9M19
+
+
+      Receita bruta                                              522,9           540,9        514,7      1.558,4     1.646,1
+      Devoluções, abatimentos e impostos faturados                (30,8)          (28,0)       (30,6)      (88,9)      (87,0)
+      Receita líquida                                            492,0           512,9        484,1      1.469,5     1.559,1
+      Custos dos produtos vendidos e dos serviços prestados      (344,6)         (362,0)      (342,7)   (1.035,8)   (1.115,3)
+      Lucro bruto                                                147,5           151,0        141,3       433,7       443,8
+      Despesas operacionais                                      (158,9)         (184,4)      (163,3)     (496,6)     (561,3)
+      Outros resultados operacionais                                0,3            14,9         (0,6)       (0,7)       40,1
+      Resultado na venda de bens                                    0,0            (0,2)        (2,3)       (2,3)       (0,2)
+      Lucro (prejuízo) operacional                                (11,1)          (18,6)       (24,8)      (65,9)      (77,6)
+      EBITDA                                                      27,7            18,2         13,7        50,2        37,5
+ Depreciação e amortização                                         38,8            36,9         38,5      116,2       115,1
+ Índices¹
+ Margem bruta                                                    28,2%           27,9%        27,5%       27,8%       27,0%
+ Margem operacional                                              (2,1%)          (3,4%)       (4,8%)      (4,2%)      (4,7%)
+ Margem EBITDA                                                    5,3%            3,4%         2,7%        3,2%        2,3%
+ Número de funcionários                                          5.893           6.811        6.095       5.893       6.811
+
+ 1
+     Calculado sobre a receita bruta
+
+
+
+
+                                                                                                                                     20
+                                                                                                                                20
+3Q20 Earnings
+Release
+
+
+   São Paulo, November 4, 2020 – Ultrapar Participações S.A. (“Company” or “Ultrapar”, B3: UGPA3 / NYSE: UGP),
+   a company engaged in the Oil & Gas sector through Ipiranga, Ultragaz and Ultracargo, specialty chemicals
+   through Oxiteno and retail pharmacy with Extrafarma, today announces its results for the third quarter 2020.
+
+
+             Net revenues                           Adjusted EBITDA                            Net income
+
+               R$ 21                                  R$ 1,038                                  R$ 277
+               billion                                 million                                  million
+
+
+             Investments                Cash flow from operations – 9M20                      Market cap
+
+               R$ 313                                   R$ 2.6                                   R$ 21
+               million                                  billion                                  billion
+
+
+
+    Highlights
+
+   In this quarter, Ultrapar reported EBITDA growth both in relation to the third quarter of 2019 and to the second
+   quarter of 2020, confirming our expectations that the worst moment of the crisis is behind. Our emergency
+   measures and quick response to the first effects of the crisis, combined with initiatives taken to support our
+   value chain, proved effective in maintaining our activities operational, ensuring the delivery of essential
+   services to the population, and preserving the health of our employees.
+
+   At Ipiranga, our business most affected by the pandemic, we saw a gradual evolution in sales volumes of fuel
+   during the quarter, as well as an improvement in the operating environment, which contributed to a
+   significant recovery in the results compared to 2Q20. Extrafarma was able to reopen stores in shopping malls,
+   contributing to increased revenues and dilution of costs. Ultragaz posted a recovery in sales volume in the
+   bulk segment, driven by the resumption in industrial activities, while sales to the bottled segment remained
+   resilient and gradually reverting to pre-pandemic levels. Oxiteno reported a similar trend: sales volume
+   recovering for the automotive and coatings segments, while it maintained volume growth for the home and
+   personal care segment. Just as in the second quarter, Ultracargo registered increased product handling and
+   m³ sold compared to the previous quarter.
+
+   We maintained a disciplined control over costs and expenses for cash preservation purposes at all our
+   businesses, in addition to selectivity in capital allocation. With this, we saw one more quarter of strong
+   operating cash generation with a reduction in our leverage, reinforcing our commitment to financial
+   soundness and demonstrating the resilience of our portfolio.
+
+   As from this quarter, we are including an update section on environmental, social and governance (ESG)
+   themes in this earnings release to share the progress and achievements of Ultrapar and its businesses on these
+   topics, enhancing transparency and fostering the dialog with our stakeholders.
+ 3rd QUARTER 2020
+
+
+Considerations on the financial and operational information
+
+The financial information presented in this document has been prepared according to International Financial
+Reporting Standards (IFRS). The financial information of Ultrapar corresponds to the Company’s consolidated
+information. The information on Ultragaz, Ultracargo, Oxiteno, Ipiranga and Extrafarma is reported without the
+elimination of intersegment transactions. Therefore, the sum of such information may not correspond to Ultrapar’s
+consolidated information. Additionally, the financial and operational information presented in this document is subject
+to rounding and, consequently, the total amounts presented in the tables and charts may differ from the direct sum
+of the amounts that precede them.
+We emphasize that all the financial information shown in this document includes the adoption of the IFRS 16 norm and
+the segregation of certain expenses pertaining to the Holding.
+
+Information denominated EBITDA – Earnings Before Interest, Taxes on Income and Social Contribution on Net Income,
+Depreciation and Amortization; Adjusted EBITDA – adjusted for amortization of contractual assets with customers –
+exclusive rights and cash flow hedge of the bonds; and EBIT – Earnings Before Interest and Taxes on Income and Social
+Contribution on Net Income are presented in accordance with Instruction 527, issued by the Brazilian Securities and
+Exchange Commission - CVM on October 4, 2012. The calculation of EBITDA based on net earnings is shown below:
+
+
+
+                                                                          Quarter                 Accumulated
+
+     R$ million                                                 3Q20      3Q19       2Q20       9M20       9M19
+
+     Net income                                                  277.3       307.3      50.0      496.2         670.6
+      (+) Income and social contribution taxes                   163.4       140.3      56.2      356.7         397.2
+      (+) Financial (income) expenses, net                       157.9       163.4      80.3      405.8         254.7
+      (+) Depreciation and amortization                          323.4       272.7     313.4      940.5         842.8
+     EBITDA                                                      921.9       883.8     500.0    2,199.2    2,165.4
+     Adjustments
+      (+) Amortization of contractual assets with customers -
+                                                                   73.6       95.6      68.0      224.4         273.4
+      exclusive rights (Ipiranga and Ultragaz)
+      (+) Cash flow hedge from bonds                               42.9        -        43.1      105.6           -
+     Adjusted EBITDA                                            1,038.3      979.3     611.0    2,529.2    2,438.8
+     Non-recurring items
+      (+) TAC in Ultracargo                                         -         13.0       -          -            65.5
+      (+) Tax credits in Oxiteno                                    -          -         -        (70.9)          -
+      (+) Tax credits in Ultracargo                                 -          -       (11.7)     (11.7)          -
+
+     Adjusted EBITDA ex-non-recurring items                     1,038.3      992.3     599.3    2,446.6    2,504.3
+
+
+
+
+                                                                                                                              2
+                                                                                                                          2
+ 3rd QUARTER 2020
+
+
+Ultragaz
+
+                                                                    Δ             Δ                                 Δ
+                              3Q20        3Q19        2Q20                                  9M20      9M19
+                                                                3Q20 v 3Q19   3Q20 v 2Q20                      9M20 v 9M19
+ Total volume (000 tons)       453         458         432         (1%)           5%        1,307     1,274        3%
+   Bottled                     309         315         313         (2%)          (1%)        909       874         4%
+   Bulk                        144         143         120          1%           20%         398       400        (1%)
+ EBITDA (R$ million)           222         187         206         18%            8%         575       419        37%
+
+Operational performance – Sales volume at Ultragaz in 3Q20 fell by 1% compared to 3Q19, mainly due to the reduction
+of 2% in sales to the bottled segment, reflecting lower sales volume to the Southeast region. In the bulk segment,
+volumes were up by 1%, driven largely by the increase in sales to industries and special gases (propellant), although
+partially offset by lower demand from commercial and service segments in connection with the pandemic. Compared
+to 2Q20, sales volume grew by 5%, due to the sales recovery in the bulk segment.
+
+Net revenues – Total of R$ 1,955 million (+3%), mainly due to LPG costs readjustments by Petrobras. Compared to 2Q20,
+net revenues grew 13% for the same reason mentioned above and due to increased sales volume.
+
+Cost of goods sold – Total of R$ 1,637 million (+2%), largely due to price readjustments of LPG by Petrobras and increases
+in freight costs, despite lower sales volume, due to the need to source LPG from more distant supply bases. Compared
+to 2Q20, cost of goods sold increased by 13%, driven by LPG price readjustments and greater sales volume.
+
+Sales, general and administrative expenses – Total of R$ 159 million, stable compared to 3Q19. There was an increase
+in variable compensation, in line with the earnings progression, and in consultancies for operational efficiency gains.
+However, these factors were compensated by initiatives implemented for controlling expenses and effects of the
+pandemic. In relation to 2Q20, sales, general and administrative expenses grew by 16%, reflecting seasonal increases
+in freight expenditures, higher provisioning for variable compensation and increased expenses with consultancies.
+
+EBITDA – Total of R$ 222 million (+18%), a record quarterly result for Ultragaz, mainly due to the better sales mix and
+improved operational efficiency. Compared to 2Q20, there was an increase of 8%, due to stronger sales volume,
+partially offset by higher expenses.
+
+Investments – Ultragaz invested R$ 68 million, allocated largely to the replacement and acquisition of gas bottles, in
+the setting up of new clients in the bulk segment and operational safety.
+
+
+
+
+                                                                                                                                 3
+                                                                                                                             3
+ 3rd QUARTER 2020
+
+
+Ultracargo
+
+                                                                                   Δ             Δ                           Δ
+                                              3Q20         3Q19        2Q20                                9M20    9M19    9M20 v
+                                                                               3Q20 v 3Q19   3Q20 v 2Q20
+                                                                                                                            9M19
+ Installed capacity¹ (000 m³)                  838          753         832       11%           1%          831     717    16%
+ m³ sold (000 m³)                             3,062        2,676       2,963      14%           3%         9,174   7,819   17%
+ EBITDA ex-non-recurring items²
+                                                78           58          80       35%          (2%)        249     177     41%
+ (R$ million)
+ EBITDA (R$ million)                            78           45          92       74%          (14%)       261     111     134%
+1Monthly average
+
+² Excluding the effect of the TAC in 2Q19 and 3Q19 and tax credits in 2Q20
+
+Operational performance – Ultracargo’s average installed capacity increased 11% compared to 3Q19, due to the
+expanded tankage capacity at the terminals in Santos and Itaqui over the last twelve months. Consequently, m³ sold
+grew by 14%, with greater fuel handling operations and a higher number of spot operations. Compared to 2Q20, there
+was a 3% increase in m³ sold, mainly due to greater fuel handling activities at the terminals in Itaqui and Suape.
+
+Net revenues – Total of R$ 160 million in 3Q20 (+18%), driven by increased fuel handling, contractual readjustments,
+new agreements and spot operations. In relation to 2Q20, net revenues were up 3%, due to increased fuel handling
+at the Itaqui and Suape terminals, partially offset by reduced sales at the Aratu terminal.
+
+Cost of services provided – Total of R$ 68 million (-1%), due to lower maintenance and payroll costs, attenuated by
+increased costs with insurance policies, which have also increased in scope. The cost of services provided per m³ sold
+posted a reduction of 13%, an even greater improvement in productivity than that recorded in the last quarter.
+Compared to 2Q20, the cost of services provided was up by 4%, mainly due to higher expenditure with insurance
+policies and indemnities, but in line when related to m³ sold.
+
+Sales, general and administrative expenses – Total of R$ 35 million (+9%), due to increased payroll expenses and to
+information systems for reinforcing Ultracargo’s technological platform. In relation to 2Q20, the increase was 22%, a
+result of higher expenses with information systems, payroll and consultancy.
+
+Other operating results – An improvement of R$ 9 million compared to 3Q19, mainly due to the additional amount of
+R$ 13 million complementary to the Conduct Adjustment Agreement (“TAC”) booked in 3Q19. Compared to 2Q20,
+there was a decrease of R$ 11 million, due to non-recurring PIS/Cofins tax credits reported in the previous quarter.
+
+EBITDA – Total of R$ 78 million. Excluding the effect of the TAC in 3Q19, Ultracargo posted an increase of 35%, as a result
+of increased handling of products enabled by the expanded capacity and to efficiency gains at the terminals, as well
+as contractual readjustments and improved productivity. In relation to 2Q20, excluding the non-recurring effect of the
+PIS/Cofins tax credits, EBITDA was 2% lower, mainly due to an increase in expenses.
+
+Investments – Ultracargo recorded investments in the period of R$ 70 million, mainly allocated to the beginning of the
+construction of the new Vila do Conde terminal (state of Pará), the acquisition of land in Santos and expansion at the
+Itaqui terminal.
+
+
+
+
+                                                                                                                                        4
+                                                                                                                                    4
+ 3rd QUARTER 2020
+
+
+Oxiteno
+
+                                                                     Δ             Δ                                Δ
+                                       3Q20    3Q19     2Q20                                 9M20     9M19
+                                                                 3Q20 v 3Q19   3Q20 v 2Q20                     9M20 v 9M19
+
+ Average exchange rate (R$/US$)         5.38    3.97     5.39       35%           0%         5.08      3.89        31%
+ Total volume (000 tons)                202     195      166        4%            22%         549      559        (2%)
+    Commodities                         37       42      28        (13%)          33%         97       112        (14%)
+    Specialty chemicals/others          166     153      139        8%            19%         453      447         1%
+    Sales in Brazil                     143     147      111        (3%)          29%         381      403        (5%)
+   International sales                  60       49      56         23%           7%          169      156         8%
+ EBITDA ex-non-recurring¹ (R$
+                                        169      80      162       110%           5%          452      165        174%
+ million)
+ EBITDA (R$ million)                    169      80      162       110%           5%          523      165        217%
+¹Excluding tax credits in 1Q20
+
+
+Operational performance – Specialty chemicals volume grew 8% compared to 3Q19, boosted by robust sales in the
+home and personal care segment in the domestic market, a trend seen since 2Q20, by an increase of sales from the
+United States plant (+41%) and by higher exports. Commodity volumes decreased 13%, due to lower market demand.
+In relation to 2Q20, total volume rose by 22%, mainly following a recovery of sales in the automotive fluids and coatings
+segments.
+
+Net revenues – Total of R$ 1,425 million (+27%), due to an average devaluation of 35% of the Real (R$ 1.41/US$) and
+an increase in sales volume, offset by the reduction of 7% in average prices in dollars. Compared to 2Q20, net revenues
+increased by 19%, as a result of greater sales volume and despite the reduction of 3% in average prices in dollars.
+
+Cost of goods sold – Total of R$ 1,152 million (+27%), due to an average devaluation of 35% of the Real (R$ 1.41/US$)
+and increased sales volume, partially offset by the reduction of 10% in the cost of goods sold in dollars per ton. In
+relation to 2Q20, the cost of goods sold was up by 18%, a result of higher sales volume, partially offset by the reduction
+of 3% in the cost of goods sold in dollars per ton.
+
+Sales, general and administrative expenses – Total of R$ 219 million (+20%), due to the foreign exchange translation
+effect of the international units, besides increased freight expenses (due to greater sales volume, exports and storage)
+and variable compensation, in line with the earnings progression. Compared to 2Q20, sales, general and administrative
+expenses were up by 22%, for the same reasons described previously, in addition to the effects of the initiatives to
+contain expenses adopted in the second quarter 2020.
+
+EBITDA – Total of R$ 169 million (+110%), in light of increased sales volume, the ramp up of the plant in the United States
+and the 35% devaluation of the average Real (R$ 1.41/US$), partially offset by the increase in expenses. In relation to
+2Q20, EBITDA was 5% higher, due to greater sales volume, despite the lower unitary margin in dollars per ton.
+
+Investments – Investments in the period were R$ 39 million, mainly spent in maintenance CAPEX, operational continuity
+and safety at the manufacturing units.
+
+
+
+
+                                                                                                                                  5
+                                                                                                                              5
+ 3rd QUARTER 2020
+
+
+Ipiranga
+
+                                                                         Δ             Δ                               Δ
+                                      3Q20           3Q19    2Q20                                9M20     9M19
+                                                                     3Q20 v 3Q19   3Q20 v 2Q20                     9M20 v 9M19
+  Total volume (000 m³)               5,530          6,185   4,626     (11%)         20%         15,646   17,382     (10%)
+  Diesel                              2,999          3,167   2,582      (5%)          16%         8,303    8,628      (4%)
+  Otto cycle                          2,421          2,903   1,958     (17%)          24%         7,048    8,434     (16%)
+  Others¹                              110            115      86       (5%)          28%          295      319       (8%)
+  EBITDA (R$ million)                  566            679     179      (17%)         217%        1,224    1,787      (31%)
+¹ Fuel oils, arla 32, kerosene, lubricants and greases
+
+Operational performance – Ipiranga reported a reduction of 11% in sales volume in relation to 3Q19, due to the major
+impact of the pandemic on fuel consumption in Brazil since the end of March. Otto cycle was the most affected
+segment and registered a 17% reduction in volume in the quarter, while diesel volume was down by 5%. Despite the
+decrease compared to the previous year, Ipiranga posted a 20% improvement in volumes compared to 2Q20, with
+the Otto cycle recovering by 24% and diesel by 16%, thanks to a gradual improvement in demand over the months.
+Net revenues – Total of R$ 16,767 million (-14%), mainly due to lower sales volume. In relation to 2Q20, net revenues
+grew by 36%, reflecting the gradual recovery in volume and price readjustments by Petrobras.
+Cost of goods sold – Total of R$ 15,956 million (-15%), largely due to lower sales volume. Compared to 2Q20, there was
+an increase of 33%, due to the increase in sales volume and the price readjustments by Petrobras.
+Sales, general and administrative expenses – Total of R$ 407 million (-12%), mainly reflecting the reduction in expenses
+with payroll, freight (lower sales volume) and the reversal of provisions for doubtful accounts. Compared to 2Q20, there
+was an increase of 12% in sales, general and administrative expenses, due to higher freight expenses (greater sales
+volumes) and the recovery of recurring levels for some of the expenses reduced in the previous quarter.
+Other operating results – Total of a negative R$ 46 million, a reduction of R$ 91 million compared to the same period of
+2019, due to the cost relative to the RenovaBio program of R$ 66 million in 3Q20 and non-recurring PIS/Cofins tax credits
+of R$ 32 million in 3Q19.
+Disposal of property – Total of R$ 13 million, due to the sale of real estate properties in the period.
+EBITDA – Total of R$ 566 million (-17%), in light of lower sales volume and other operating results, partially offset by the
+reduction in expenses. Compared to 2Q20, there was an increase of 217%, driven by a gradual recovery in volume
+and an improvement in margins.
+Investments – Ipiranga invested R$ 109 million in the expansion and maintenance of the service stations and franchise
+networks and in the company’s logistics infrastructure. Out of the total investments, R$ 36 million was expended on
+plant, property and equipment and additions to intangible assets, R$ 60 million on contractual assets with clients
+(exclusivity rights) and R$ 13 million in the form of drawdowns of financing to clients and advanced payments of rentals,
+net of receipts. Ipiranga ended 3Q20 with 7,107 service stations, practically in line with the number in 2Q20.
+AmPm – As from 2019, a comprehensive project for reviewing the AmPm’s business and management model has
+begun. The first stage involved the revision of the physical store with a new layout to provide the consumer with a more
+fluid and intuitive experience and a larger area for consuming products instore, in an even more pleasant ambience.
+In addition, AmPm created a digital section in the Abastece Aí application, as well as proprietary solutions via
+WhatsApp and QR Code and developed partnerships with the leading delivery platforms.
+The second stage of the project involved the revision of brand positioning, exploring proximity marketing concepts
+and new habits of consumption, combined with a review of the product mix, expanding the offer of food service
+(bakeries and ready-to-eat meals), groceries and home and personal care products.
+Early findings of this new model have been promising, with higher sales and better margins. To ensure the feasibility of
+implementing the rollout of the new model, a careful revision of those stores remaining under the AmPm brand name
+has been undertaken based on aspects as size, location and profitability. Under this revision AmPm identified 486 stores
+not suitable to the new business model. In addition, 81 stores ceased its activities during the pandemic. Therefore, the
+AmPm network ended 3Q20 with 1,778 units.
+
+
+
+
+                                                                                                                                     6
+                                                                                                                                 6
+ 3rd QUARTER 2020
+
+
+Extrafarma
+
+                                                                     Δ              Δ                                 Δ
+                                  3Q20       3Q19      2Q20                                   9M20      9M19
+                                                                 3Q20 v 3Q19    3Q20 v 2Q20                      9M20 v 9M19
+ Drugstores (end of period)        408        423       410         (4%)            0%         408       423        (4%)
+  % mature stores (+3 years)       68%        51%       62%       16.6 p.p.      5.2 p.p.      68%       51%      16.6 p.p.
+ Gross revenues (R$ million)       523        541       515         (3%)           2%         1,558     1,646       (5%)
+ EBITDA (R$ million)                28         18        14         52%           103%          50        38        34%
+
+Operational performance – Extrafarma ended 3Q20 with 408 stores, 8 store openings and 23 closures in the past twelve
+months, a reduction of 4% in its network, and the result of greater selectivity in expansion and a more rigorous approach
+to underperforming stores. Over the course of 3Q20, the stores located in shopping malls resumed operations, although
+with limitations on opening hours and with customer flow still below pre-pandemic levels. At the end of 3Q20, stores still
+ramping-up (with up to three years of operations) represented 32% of the network.
+
+Gross revenues – Total of R$ 523 million (-3%), due to the lower number of stores (-4%) and reduced customer flow in
+stores based in shopping malls, attenuated by higher same-store-sales excluding stores located in malls (+3%), driven
+by the annual readjustment in medicine prices and by expanded sales through digital channels. In relation to 2Q20,
+gross revenues registered a growth of 2%, due to the gradual resumption of mall-based store operations during the
+pandemic.
+
+Cost of goods sold and gross profit – The cost of goods sold totaled R$ 345 million (-5%) due to lower sales. Gross profit
+reached R$ 147 million (-2%), equivalent to a gross margin of 28.2%, 0.3 p.p. higher than 3Q19, mainly due to the
+improvement in retail margins, helped by the postponement of the annual readjustment in medicine prices from April
+to June, and the lower share of sales in the wholesale segment, where margins are lower. Compared to 2Q20, the cost
+of goods sold increased by 1%, reflecting the recovery in sales, while gross profit rose by 4%, mainly due to the annual
+readjustment in medicine prices.
+
+Sales, general and administrative expenses – Total of R$ 159 million (-14%) due to the lower number of stores, expense
+reduction initiatives, productivity gains and logistics optimization. Compared to the preceding quarter, sales, general
+and administrative expenses decreased by 3%, resulting from lower payroll expenses.
+
+Other operating results – Reduction of R$ 15 million in relation to 3Q19, mainly due to extraordinary credits from
+PIS/COFINS taxes and from social security contributions registered in 3Q19.
+
+EBITDA – Total of R$ 28 million (+52%), despite the decline of 3% in sales and extraordinary tax credits in 3Q19. This growth
+is a consequence of (i) the closure of underperforming stores and higher profitability from the existing network, (ii)
+initiatives to increase productivity and reduce expenses and (iii) improved margins. Compared to 2Q20, the growth
+was 103%, mainly reflecting a recovery in sales, the annual readjustment in medicine prices and measures taken to
+reduce expenses and increase productivity.
+
+Investments – In 3Q20, Extrafarma invested R$ 10 million, largely in the construction of the distribution center in the state
+of Maranhão, scheduled to be concluded at the end of 2020, in IT and store maintenance.
+
+
+
+
+                                                                                                                                    7
+                                                                                                                                7
+ 3rd QUARTER 2020
+
+
+Ultrapar
+
+                                                                                              Δ           Δ                                     Δ
+  Amounts in R$ million                                3Q20            3Q19      2Q20                              9M20        9M19
+                                                                                         3Q20 v 3Q19 3Q20 v 2Q20                           9M20 v 9M19
+  Net revenues                                        20,762         23,203     15,876      (11%)        31%       58,025      65,635         (12%)
+  Net income                                            277             307       50       (10%)         n/a        496          671          (26%)
+  Earnings per share attributable
+                                                        0.24           0.27      0.04       (11%)        n/a        0.43        0.59          (27%)
+  to shareholders²
+  EBITDA ex-non-recurring¹                             1,038            992      599         5%          73%       2,447        2,504         (2%)
+  Adjusted EBITDA                                      1,038            979      611         6%          70%       2,529        2,439          4%
+  Investments                                           313             472      361        (34%)       (13%)      1,024        1,076         (5%)
+  Operating cash flow                                   828             922      871        (10%)       (5%)       2,630        2,449          7%
+¹ Excludes the effect of the TAC of Ultracargo in 2Q19 and 3Q19, tax credits at Oxiteno in 1Q20 and at tax credits at Ultracargo in 2Q20
+² Calculated in Reais based on the weighted average number of shares over the period, net of shares held as treasury
+
+Net revenues – Total of R$ 20,762 million (-11%), mainly due to the decrease in net revenues at Ipiranga impacted by
+the pandemic. In relation to 2Q20, net revenues increased by 31%, due to higher sales at all the businesses.
+
+Adjusted EBITDA – Total of R$ 1,038 million (+6%), due to EBITDA growth at Oxiteno, Ultragaz, Ultracargo and Extrafarma.
+Compared to 2Q20, there was an increase of 70%, principally due to the recovery in results at Ipiranga.
+
+Depreciation and amortization3 – Total of R$ 397 million (+8%), the result of greater amortization of software, vehicles
+and investments executed over the past twelve months. In relation to 2Q20, total costs and expenses with depreciation
+and amortization increased 4%, due to increased amortization of contractual assets with clients at Ipiranga and
+vehicles.
+
+Financial result – Ultrapar recorded a net financial expense of R$ 158 million in 3Q20, a slight improvement of R$ 6
+million in relation to 3Q19, mainly due to the decrease in interest rates, in spite of higher net debt, greater carrying
+costs of the gross debt and the concentration of expenses with the mark to market of interest rates. Compared to
+2Q20, there was an increase of 97%, due to higher interest expenses on debt, as mentioned above, and to a worsening
+result of exchange rate variation quarter on quarter.
+
+Net income – Total of R$ 277 million (-10%), as a result of higher costs and expenses with depreciation and amortization
+and income tax, as well as the negative result of the cash flow hedge from bonds in 3Q20. In relation to 2Q20, net
+income registered an increase of R$ 227 million, due to the EBITDA growth, partially offset by an increase in financial
+expenses.
+
+Cash flow from operational activities – Cash generation of R$ 2,630 million in 9M20 compared to R$ 2,449 million in
+9M19, mainly due to greater divestment in working capital and to the increased EBITDA in the period.
+
+Results from the Holding, affiliates and abastece aí – In addition to the five principal businesses, Ultrapar recorded a
+negative impact on its EBITDA of R$ 25 million, comprised of (i) R$ 20 million of the Holding’s expenses and (ii) R$ 6
+million of negative EBITDA from abastece aí (new digital payment business), due to payroll and technology expenses
+for the structuring and growth of the business, partially offset by (iii) R$ 2 million of positive EBITDA with affiliates.
+
+
+
+
+³ Includes amortization of contractual assets with clients – exclusive rights
+
+
+
+
+                                                                                                                                                             8
+                                                                                                                                                         8
+ 3rd QUARTER 2020
+
+
+
+Updates on ESG themes
+
+Oxiteno became a company member of UN’s Global Compact (Ultragaz and Ipiranga were already signatories), an
+initiative aligned with its Strategic Sustainability Plan of 2030, based on eight pillars that balance economic prosperity,
+environmental protection and attendance of the society needs. Another achievement of Oxiteno this quarter was to
+become the first Brazilian chemical company to establish a partnership with EcoVadis, a global leader player in
+sustainability assessment, aiming to boost sustainable practices along its entire supply chain.
+
+In August, Ipiranga launched its new Sustainability Policy aligned with the principles established by the UN’s Global
+Compact and Sustainable Development Goals (SDGs). The policy includes new strategic guidelines for sustainability
+with orientation for acting in material themes such as urban mobility, climate change and ecoefficiency, aiming to
+generate and protect the value of the business over the long term, applied along its entire value chain. The
+preparation of the policy arose from a materiality assessment carried out by Ipiranga in 2019 with its stakeholders and
+the inhouse launch was accompanied by a new visual identity, as well as online events promoted by Ipiranga’s
+executives and think-tanks in the sector. The policy is available for consultation on Company’s Investor Relations
+website.
+
+In addition, Ipiranga established a partnership with GDSolar for building and operating five solar energy/photovoltaic
+power plants to reduce electricity costs in its service stations and franchises and increase the share of renewable
+energy sources in its energy matrix. The forecast is to generate more than 50 thousand MWh/year from April 2021,
+sufficient energy to supply approximately 300 service stations with savings of up to 15% in cost of electric energy,
+totaling an economy of more than R$ 70 million annually in the participating network.
+
+As from September, the Company’s Board of Directors is composed of eleven members with the election of Alexandre
+Saigh, cofounder and a member of the Executive Committee of Pátria Investimentos. Saigh has a vast experience in
+portfolio management, infrastructure and capital allocation, themes which are on Ultrapar’s strategic agenda.
+
+In the same month, the Board of Directors elected Rodrigo Pizzinatto as Chief Financial and Investor Relations Officer.
+Rodrigo Pizzinatto has had a long career of 21 years in the Ultra Group, where he started as an intern, working in several
+financial areas such as Treasury, M&A, Corporate Planning and IR. In the past years he has been a member of the
+Executive Board of Extrafarma, where he held the position of Chief Executive Officer between June 2018 and October
+2020.
+
+In October, Marcelo Bazzali was elected as Chief Executive Officer of Extrafarma. Bazzali built a solid career of over 25
+years in retail, including leadership positions in operations, marketing, commercial, e-commerce and business
+management in Grupo Pão de Açúcar.
+
+
+
+
+                                                                                                                                  9
+                                                                                                                              9
+ 3rd QUARTER 2020
+
+
+Capital markets
+
+Ultrapar’s combined average daily trading volume on B3 and NYSE totaled R$ 169 million/day in 3Q20 (+19% YoY).
+Ultrapar’s shares closed the quarter quoted at R$ 19.27 on B3, an appreciation of 5% in the quarter, while the Ibovespa
+stock index remained stable over the same period. In NYSE, Ultrapar’s shares posted an appreciation of 1% in 3Q20,
+while the Dow Jones stock index registered growth of 8%. Ultrapar closed 3Q20 with a market cap of R$ 21 billion.
+
+
+
+
+Capital markets                                                3Q20            3Q19      2Q20        9M20            9M19
+
+Number of shares (000)                                    1,115,006         1,112,810   1,114,919   1,115,006       1,112,810
+Market capitalization¹ (R$ million)                            21,486         20,576     20,492      21,486          20,576
+B3
+Average daily trading volume (000 shares)                      7,415           6,562     9,136       8,793           5,723
+Average daily trading volume (R$ 000)                      149,324           121,997    141,452     158,259         124,301
+Average share price (R$/share)                                 20.14           18.59     15.48       18.00           21.72
+NYSE
+Quantity of ADRs² (000 ADRs)                                   47,480         46,518     47,480      47,480          46,518
+Average daily trading volume (000 ADRs)                         958            1,051     1,494       1,458           1,236
+Average daily trading volume (US$ 000)                         3,594           4,887     4,341       5,639           7,286
+Average share price (US$/ADRs)                                  3.76           4.65       2.91        3.88            5.90
+Total
+Average daily trading volume (000 shares)                      8,373           7,612     10,630      10,251          6,958
+Average daily trading volume (R$ 000)                      168,661           141,380    164,769     185,681         152,387
+¹ Calculated based on the closing share price for the period
+² 1 ADR = 1 common share
+
+
+                                                Performance UGPA3 x Ibovespa – 3Q20
+                                                                (Jun 30, 2020 = 100)
+
+
+
+
+                                                                                                        30-Sep-20
+
+
+
+
+                            Source: Bloomberg
+
+
+
+
+                                                                                                                                     10
+                                                                                                                                10
+ 3rd QUARTER 2020
+
+
+ Debt (R$ million)
+
+ Ultrapar consolidated                                                     3Q20             2Q20           3Q19
+
+ Gross debt                                                              (18,756)          (17,764)      (15,069)
+ Cash and cash equivalents                                                 9,798            8,448          6,439
+ Net debt (ex-IFRS 16)                                                    (8,958)          (9,317)        (8,631)
+ Leases payable                                                           (1,832)          (1,775)        (1,568)
+ Net debt                                                                (10,790)          (11,092)      (10,199)
+ Net debt/LTM Adjusted EBITDA¹ (ex-IFRS 16)                                 2.9x             3.1x             2.7x
+ Net debt/LTM Adjusted EBITDA¹                                              3.1x             3.2x             n/a
+                                                                          193% DI          141% DI        99% DI
+ Average cost of debt
+                                                                         DI + 1.9%        DI + 1.2%      DI - 0.0%
+ Average cash yield (% DI)                                                  68%              87%              94%
+ Duration (years)                                                            4.8              4.4             5.0
+¹ LTM Adjusted EBITDA excludes the impairment of Extrafarma of R$ 593 million in 2Q20 and in 3Q20
+
+
+Ultrapar ended 3Q20 with net financial debt of R$ 9.0 billion, comprised of a gross debt of R$ 18.8 billion and a cash
+position of R$ 9.8 billion. The effect of exchange rate variation on the net debt for the portion of the notes designated
+for hedge accounting was R$ 93 million in 3Q20. Considering leases payable (IFRS 16) of R$ 1.8 billion, the Company’s
+total net debt was R$ 10.8 billion (3.1x LTM Adjusted EBITDA) compared to R$ 11.1 billion on June 30, 2020 (3.2x LTM
+Adjusted EBITDA), mainly due to the improvement in EBITDA.
+
+Maturity profile and debt breakdown:
+
+
+
+
+                                                                                           Local currency
+                                                                                           nacional
+                                                                                           Foreign currency
+                                                                                                Hedged
+
+                                                                                                Non hedged
+
+                                                                                           Result from currency and
+                                                                                           interest hedging instruments
+
+
+
+
+                                                                                                                                 11
+                                                                                                                            11
+ 3rd QUARTER 2020
+
+
+3Q20 Conference Call
+
+Ultrapar will host a conference call for analysts and investors on November 5, 2020 to comment on the
+Company’s performance in the third quarter of 2020 and its outlook. The presentation will be available for
+download in the Company’s website 30 minutes prior to the conference call.
+
+The conference call will be transmitted via WEBCAST and held in Portuguese with simultaneous translation into
+English. The link for access will be available at ri.ultra.com.br. Please connect 15 minutes in advance.
+
+
+Conference call in Portuguese with simultaneous translation into English
+Time: 11:00 a.m. (BRT) / 9:00 a.m. (EST)
+
+
+Participants in Brazil: +55 (11) 3181-8565 (HD Web Phone) or +55 (11) 4118-4632
+Code: Ultrapar – in Portuguese
+
+Replay: +55 (11) 3193-1012 (available for seven days)
+Code: 0785935#
+
+
+International Participants: +1 (844) 204-8942 (HD Web Phone) or +1 (412) 717-9627
+Code: Ultrapar – in English
+
+Replay: +55 (11) 3193-1012 (available for seven days)
+Code: 9792937#
+
+
+
+
+                                                                                                                     12
+                                                                                                                12
+3rd QUARTER 2020
+
+                                                             ULTRAPAR
+                                                     CONSOLIDATED BALANCE SHEET
+
+
+   In million of Reais                                                            SEP 20          SEP 19       JUN 20
+
+
+  ASSETS
+
+   Cash and cash equivalents                                                         2,996.3        2,553.3      3,805.2
+   Financial investments and hedging instruments                                     5,582.7        3,339.7      3,174.9
+   Trade receivables and reseller financing                                          3,801.5        4,201.0      3,505.6
+   Inventories                                                                       3,539.6        3,285.6      2,970.2
+   Recoverable taxes                                                                 1,144.6        1,303.2      1,476.1
+   Prepaid expenses                                                                    136.4          133.3        158.2
+   Contractual assets with customers - exclusive rights                                481.1          481.5        473.0
+   Other receivable                                                                        69.4        76.6         87.3
+  Total Current Assets                                                              17,751.6       15,374.2     15,650.4
+
+   Financial investments and hedging instruments                                     1,218.8          545.5      1,467.5
+   Trade receivables and reseller financing                                            515.2          389.9        470.7
+   Deferred income and social contribution taxes                                     1,068.2          599.9      1,016.6
+   Recoverable taxes                                                                 1,573.1          845.7      1,149.1
+   Escrow deposits                                                                     952.4          920.1        949.7
+   Prepaid expenses                                                                        79.8        94.9         87.8
+   Contractual assets with customers - exclusive rights                              1,183.4          977.6      1,127.4
+   Other receivables                                                                   197.0          196.6        197.2
+   Investments                                                                         170.3          130.6        165.8
+   Right to use assets                                                               2,163.0        1,945.0      2,135.5
+   Property, plant and equipment                                                     7,976.1        7,453.7      7,899.3
+   Intangible assets                                                                 1,762.2        2,323.0      1,770.5
+  Total Non-Current Assets                                                          18,859.5       16,422.6     18,437.0
+
+  TOTAL ASSETS                                                                      36,611.2       31,796.8     34,087.4
+
+  LIABILITIES
+
+   Loans and hedging instruments                                                     3,004.4        1,131.9      2,335.1
+   Debentures                                                                          960.1          257.4        262.1
+   Trade payables                                                                    3,447.4        2,407.9      2,538.3
+   Salaries and related charges                                                        514.0          432.1        439.1
+   Taxes payable                                                                       419.7          325.2        316.6
+   Leases payable                                                                      247.7          205.3        238.5
+   Other payables                                                                      409.9          409.0        355.3
+  Total Current Liabilities                                                          9,003.1        5,168.7      6,485.0
+
+   Loans and hedging instruments                                                     9,240.6        7,410.5      8,951.8
+   Debentures                                                                        5,550.9        6,269.4      6,215.2
+   Provisions for tax, civil and labor risks                                           844.6          852.5        846.7
+   Post-employment benefits                                                            234.4          202.3        247.1
+   Leases payable                                                                    1,584.1        1,362.7      1,536.7
+   Other payables                                                                      326.2          457.6        297.0
+  Total Non-Current Liabilities                                                     17,780.8       16,554.9     18,094.5
+
+  TOTAL LIABILITIES                                                                 26,783.9       21,723.6     24,579.4
+
+  EQUITY
+
+   Share capital                                                                     5,171.8        5,171.8      5,171.8
+   Reserves                                                                          4,593.8        4,646.1      4,595.3
+   Treasury shares                                                                    (489.1)        (485.4)      (485.4)
+   Other                                                                               147.8          355.2       (165.3)
+   Non-controlling interests in subsidiaries                                           403.0          385.6        391.6
+  Total equity                                                                       9,827.3       10,073.2      9,508.0
+
+  TOTAL LIABILITIES AND EQUITY                                                      36,611.2       31,796.8     34,087.4
+
+   Cash and financial investments                                                    9,797.8        6,438.5      8,447.5
+   Loans and debentures                                                            (18,755.9)     (15,069.2)   (17,764.2)
+   Leases payable                                                                   (1,831.8)      (1,567.9)    (1,775.3)
+  Net cash (debt)                                                                  (10,789.9)     (10,198.7)   (11,091.9)
+  Net cash (debt) ex-IFRS 16                                                        (8,958.1)      (8,630.7)    (9,316.6)
+
+                                                                                                                                 13
+                                                                                                                            13
+3rd QUARTER 2020
+
+                                                                                               ULTRAPAR
+                                                                              CONSOLIDATED INCOME STATEMENT
+
+
+      In million of Reais                                                                                  3Q20               3Q19                2Q20          9M20         9M19
+
+
+   Net revenue from sales and services                                                                      20,762.1           23,203.3           15,876.2      58,025.5     65,635.2
+
+     Cost of products and services sold                                                                    (19,123.3)          (21,580.2)         (14,825.0)    (53,925.5)   (61,161.8)
+
+   Gross profit                                                                                              1,638.8            1,623.1             1,051.2      4,099.9      4,473.4
+
+   Operating expenses
+     Selling and marketing                                                                                     (630.7)            (613.5)            (608.3)     (1,883.9)    (1,988.5)
+     General and administrative                                                                                (373.9)            (445.5)            (293.2)     (1,077.0)    (1,245.0)
+
+     Other operating income                                                                                     (45.9)              53.2                36.2       114.2        100.0
+     Gain (loss) on disposal of property, plant and equipment and intangibles                                    15.0                2.0                14.0        35.9          0.9
+
+   Operating income (loss)                                                                                     603.3               619.3              199.8      1,289.2      1,340.8
+
+     Financial result
+       Financial income                                                                                          71.6              125.6                53.1       306.8        401.9
+       Financial expenses                                                                                      (229.5)            (289.0)            (133.4)       (712.6)      (656.6)
+     Share of profit (loss) of subsidiaries, joint ventures and associates                                       (4.8)               (8.2)             (13.3)       (30.5)       (18.3)
+
+   Income before income and social contribution taxes                                                          440.7               447.6              106.2        852.9      1,067.8
+
+     Provision for income and social contribution taxes
+       Current                                                                                                 (205.2)             (58.7)            (130.7)       (460.1)      (337.6)
+       Deferred                                                                                                  20.5              (93.1)               55.1         46.8        (90.5)
+       Benefit of tax holidays                                                                                   21.3               11.4                19.3         56.6         30.9
+
+   Net income                                                                                                  277.3               307.3                50.0       496.2        670.6
+
+     Net income attributable to:
+       Shareholders of the Company                                                                             265.4               297.8                41.1       467.4        640.1
+       Non-controlling interests in subsidiaries                                                                 11.9                 9.5                9.0         28.8         30.5
+
+   Adjusted EBITDA                                                                                           1,038.3               979.3              611.0      2,529.2      2,438.8
+
+     Depreciation and amortization¹                                                                            397.0               368.3              381.4      1,165.0      1,116.2
+     Cash flow hedge bonds                                                                                       42.9                -                  43.1       105.6            -
+
+     Total investments²                                                                                        312.8               472.4              360.8      1,023.7      1,076.0
+
+   RATIOS
+
+     Earnings per share - R$                                                                                     0.24               0.27                0.04         0.43         0.59
+     Net debt / Stockholders' equity                                                                             0.91               0.86                0.98         0.91         0.86
+     Net debt / LTM Adjusted EBITDA³ (ex-IFRS16)                                                                 2.91               2.72                3.07         2.91         2.72
+     Net debt / LTM Adjusted EBITDA³                                                                             3.10                n/a                3.24         3.10           n/a
+     Net interest expense / Adjusted EBITDA                                                                      0.15               0.17                0.13         0.16         0.10
+     Gross margin                                                                                               7.9%               7.0%                6.6%         7.1%         6.8%
+     Operating margin                                                                                           2.9%               2.7%                1.3%         2.2%         2.0%
+     Adjusted EBITDA margin                                                                                     5.0%               4.2%                3.8%         4.4%         3.7%
+
+   Number of employees                                                                                        15,759             16,529              16,003       15,759       16,529
+
+
+
+   ¹ Includes amortization with contractual assets with customers – exclusive rights
+   ² Includes property, plant and equipment and additions to intangible assets, contractual assets with customers (exclusive rights), initial direct costs of
+   assets with right of use, financing of clients and rental advances (net of repayments) and acquisition of shareholdings
+   ³ LTM adjusted EBITDA does not consider impairment of Extrafarma for 2Q20, 3Q20 and 9M20
+
+
+
+
+                                                                                                                                                                                               14
+                                                                                                                                                                                          14
+3rd QUARTER 2020
+
+                                                                      ULTRAPAR
+                                                                CONSOLIDATED CASH FLOW
+
+
+              In million of Reais                                                              JAN - SEP        JAN - SEP
+                                                                                                 2020             2019
+            Cash flows from operating activities
+            Net income for the period                                                               496.2            670.6
+            Adjustments to reconcile net income to cash provided by operating activities
+               Share of loss (profit) of subsidiaries, joint ventures and associates                 30.5             18.3
+               Amortization of contractual assets with customers - exclusive rights                 224.4            273.4
+               Amortization of right to use assets                                                  242.1            219.2
+               Depreciation and amortization                                                        698.4            623.6
+               PIS and COFINS credits on depreciation                                                11.5             11.1
+                Interest and foreign exchange rate variations                                       768.8           1,083.9
+                Deferred income and social contribution taxes                                       (46.8)             90.5
+                (Gain) loss on disposal of property, plant and equipment and intangibles            (35.9)             (0.9)
+                Expected losses on doubtful accounts                                                 29.1              27.5
+                Provision for losses in inventories                                                  (0.8)              3.0
+                Provision for post-employment benefits                                               (18.6)              (1.9)
+                Equity instrument granted                                                              4.5                5.4
+                Other provisions and adjustments                                                        (1.0)            (2.1)
+
+                                                                                                  2,402.3          3,021.7
+
+            (Increase) decrease in current assets
+                Trade receivables and reseller financing                                            255.2             225.7
+                Inventories                                                                         180.8              71.2
+                Recoverable taxes                                                                   303.1            (406.3)
+                Dividends received from subsidiaries and joint-ventures                               4.7               3.7
+                Insurance and other receivables                                                     (32.4)            (18.0)
+                Prepaid expenses                                                                    (65.0)             12.7
+
+            Increase (decrease) in current liabilities
+                Trade payables                                                                      607.4            (344.2)
+                Salaries and related charges                                                        108.4               3.9
+                Taxes payable                                                                        40.4               2.2
+                Income and social contribution taxes                                                171.9             118.4
+                Post-employment benefits                                                              0.6              (3.4)
+                Provision for tax, civil, and labor risks                                             1.5              15.0
+                Insurance and other payables                                                         66.4              87.1
+                Deferred revenue                                                                     (0.7)             (5.7)
+
+            (Increase) decrease in non-current assets
+                Trade receivables and reseller financing                                             (96.8)            39.9
+                Recoverable taxes                                                                   (700.8)             7.1
+                Escrow deposits                                                                      (31.0)           (38.6)
+                Other receivables                                                                      0.4              0.1
+                Prepaid expenses                                                                       5.3            (11.8)
+
+            Increase (decrease) in non-current liabilities
+                Post-employment benefits                                                               9.1              0.3
+                Provision for tax, civil, and labor risks                                            (39.5)           (12.8)
+                Other payables                                                                       (37.0)            43.3
+                Deferred revenue                                                                       -              (11.9)
+
+            Payments of contractual assets with customers - exclusive rights                        (296.8)          (231.7)
+            Income and social contribution taxes paid                                               (227.3)          (118.9)
+
+            Net cash provided by operating activities                                             2,630.3          2,449.1
+
+            Cash flows from investing activities
+                Financial investments, net of redemptions                                         (1,567.1)          (841.2)
+                Acquisition of property, plant, and equipment                                       (587.1)          (669.8)
+                Acquisition of intangible assets                                                    (112.3)           (75.8)
+                Capital increase in joint ventures                                                   (20.0)           (22.9)
+                Initial upfront costs of entitlement assets                                            -              (69.5)
+                Proceeds from disposal of property, plant and equipment and intangibles               86.0             28.7
+
+            Net cash used in investing activities                                                 (2,200.5)        (1,650.6)
+
+            Cash flows from financing activities
+              Loans and debentures
+                Proceeds                                                                           3,591.6          2,016.4
+                Repayments                                                                        (2,280.2)        (2,160.6)
+                Interest paid                                                                       (478.8)        (1,220.7)
+              Payments of lease                                                                     (266.5)          (237.2)
+              Dividends paid                                                                        (264.5)          (596.5)
+              Redemption of non-controlling shares of Oxiteno Nordeste                                 -               (2.2)
+              Capital increase from Iconic non-controlling shareholders                                 -                7.0
+              Related parties                                                                           (0.1)            (0.1)
+
+            Net cash provided by (used in) financing activities                                     301.7          (2,193.9)
+
+            Effect of exchange rate changes on cash and cash equivalents in foreign currency        149.5                9.8
+
+            Increase (decrease) in cash and cash equivalents                                        881.0          (1,385.7)
+
+            Cash and cash equivalents at the beginning of the period                              2,115.4          3,939.0
+
+            Cash and cash equivalents at the end of the period                                    2,996.3          2,553.3
+
+            Transactions without cash effect:
+
+            Addition on right to use assets and leases payable                                      407.1            244.7
+            Initial direct costs of right to use assets                                                 -              20.4
+            Addition on contractual assets with costumers - exclusive rights                        140.0                -
+            Reversion fund – private pension                                                         47.1                -
+
+
+                                                                                                                                      15
+                                                                                                                                 15
+3rd QUARTER 2020
+
+                                                                                          ULTRAGAZ
+                                                                                        BALANCE SHEET
+
+
+     In million of Reais                                                                         SEP 20         SEP 19         JUN 20
+
+
+   OPERATING ASSETS
+     Trade receivables                                                                                366.9        393.3          336.9
+     Non-current trade receivables                                                                      31.7        13.5            31.3
+     Inventories                                                                                      122.3        172.6          132.6
+     Taxes                                                                                              97.9        80.9            96.1
+     Escrow deposits                                                                                  218.9        221.6          220.4
+     Other                                                                                              63.0        55.5            73.7
+     Right to use assets                                                                              110.7        128.8          107.0
+     Property, plant and equipment / Intangibles                                                     1,045.0       955.2         1,022.4
+
+   TOTAL OPERATING ASSETS                                                                         2,056.4        2,021.5         2,020.5
+
+   OPERATING LIABILITIES
+     Suppliers                                                                                          88.7        81.6            93.1
+     Salaries and related charges                                                                     105.9        118.7            90.3
+     Taxes                                                                                              25.2           9.9          13.0
+     Judicial provisions                                                                              127.3        119.4          129.4
+     Leases payable                                                                                   150.7        166.2          144.3
+     Other accounts payable                                                                             80.0       119.1            83.1
+
+   TOTAL OPERATING LIABILITIES                                                                        577.8        614.9          553.2
+
+
+
+
+                                                                                       INCOME STATEMENT
+
+
+
+      In million of Reais                                                                        3Q20           3Q19           2Q20         9M20         9M19
+
+
+   Net sales                                                                                      1,954.9        1,894.4         1,723.4     5,439.7      5,307.1
+
+   Cost of products sold                                                                          (1,636.8)      (1,604.8)      (1,442.3)    (4,602.0)    (4,586.8)
+
+   Gross profit                                                                                       318.0        289.6          281.1        837.7        720.3
+
+   Operating expenses
+      Selling                                                                                         (104.4)      (107.2)        (104.2)     (315.1)      (320.6)
+      General and administrative                                                                       (54.4)       (51.4)         (32.3)     (134.2)      (152.3)
+
+   Other operating income                                                                                0.5           2.5            1.8          7.1          5.5
+   Gain (loss) on disposal of property, plant and equipment and intangibles                              2.8           1.6            2.3          6.0          2.8
+
+   Operating income (loss)                                                                            162.5        135.0          148.7        401.4        255.7
+   Share of profit of subsidiaries, joint ventures and associates                                       (0.1)          (0.0)          0.0        (0.0)          0.0
+
+   Adjusted EBITDA                                                                                    222.2        187.5          205.7        574.8        418.7
+
+   Depreciation and amortization¹                                                                       59.7        52.5            56.9       173.4        163.0
+
+   Ratios
+
+    Gross margin (R$/ton)                                                                               702            632            650        641          565
+    Operating margin (R$/ton)                                                                           359            295            344        307          201
+    EBITDA margin (R$/ton)                                                                              491            409            476        440          329
+
+   Number of employees                                                                                3,421        3,401          3,428        3,421        3,401
+
+   ¹ Includes amortization with contractual assets with customers - exclusive rights
+
+
+
+
+                                                                                                                                                                           16
+                                                                                                                                                                      16
+3rd QUARTER 2020
+
+                                                                                      ULTRACARGO
+                                                                                     BALANCE SHEET
+
+
+     In million of Reais                                                                        SEP 20              SEP 19             JUN 20
+
+
+   OPERATING ASSETS
+     Trade receivables                                                                                 43.4               38.4                62.0
+     Inventories                                                                                        7.8                 6.3                 8.1
+     Taxes                                                                                             15.2               27.0                17.4
+     Other                                                                                             30.0               15.0                30.1
+     Right to use assets                                                                             473.1               307.9               475.1
+     Property, plant and equipment / Intangibles / Investments                                     1,381.9             1,246.3             1,329.3
+
+   TOTAL OPERATING ASSETS                                                                          1,951.3             1,640.8            1,922.1
+
+   OPERATING LIABILITIES
+     Suppliers                                                                                         64.7               28.2                25.0
+     Salaries and related charges                                                                      41.9               24.5                37.5
+     Taxes                                                                                             15.4                 7.6               11.6
+     Judicial provisions                                                                                9.4                 8.6                 9.9
+     Leases payable                                                                                  438.2               259.1               436.0
+     Other accounts payable¹                                                                           94.9              140.6                97.7
+
+   TOTAL OPERATING LIABILITIES                                                                       664.4               468.5               617.8
+
+   ¹ Includes the long term obligations with clients account and the extra amount related to the acquisition of Temmar, in the port of Itaqui and
+   payables - indemnification clients and third parties
+
+
+
+
+                                                                                  INCOME STATEMENT
+
+
+
+      In million of Reais                                                                        3Q20                3Q19                2Q20           9M20         9M19
+
+
+   Net sales                                                                                         159.9               135.3               155.0        478.2        387.9
+
+   Cost of services sold                                                                              (68.1)              (68.6)             (65.6)       (196.2)      (187.4)
+
+   Gross profit                                                                                        91.8               66.8                89.4        282.0        200.5
+
+   Operating expenses
+      Selling                                                                                          (1.7)                (2.4)               (1.7)       (5.1)        (6.0)
+      General and administrative                                                                      (33.1)              (29.4)             (26.8)        (90.7)       (84.4)
+
+   Other operating income                                                                              (1.4)              (10.3)                9.7        11.2         (60.9)
+   Gain (loss) on disposal of property, plant and equipment and intangibles                            (0.2)                (0.1)               (0.0)       (0.4)        (0.0)
+
+   Operating income (loss)                                                                             55.4               24.6                70.6        196.9         49.1
+
+   Share of profit of subsidiaries, joint ventures and associates                                       0.2                 0.6                 0.3            0.6          1.7
+
+   EBITDA                                                                                              78.4               45.0                91.5        260.5        111.1
+
+   Depreciation and amortization                                                                       22.9               19.8                20.6         63.0         60.3
+
+   Ratios
+
+    Gross margin                                                                                     57.4%               49.3%               57.7%        59.0%        51.7%
+    Operating margin                                                                                 34.6%               18.1%               45.6%        41.2%        12.7%
+    EBITDA margin                                                                                    49.1%               33.3%               59.1%        54.5%        28.7%
+
+   Number of employees                                                                                 911                  751                 878         911          751
+
+
+
+
+                                                                                                                                                                                       17
+                                                                                                                                                                                  17
+3rd QUARTER 2020
+
+                                                                              OXITENO
+                                                                          BALANCE SHEET
+
+
+     In million of Reais                                                          SEP 20          SEP 19         JUN 20
+
+
+   OPERATING ASSETS
+     Trade receivables                                                                  738.4        607.5          707.8
+     Inventories                                                                        941.2        741.5          951.9
+     Taxes                                                                              642.4        585.8          665.1
+     Other                                                                              158.3        154.7          173.1
+     Right to use assets                                                                 41.7         40.1            40.1
+     Property, plant and equipment / Intangibles / Investments                      2,994.1         2,660.1        2,962.4
+
+   TOTAL OPERATING ASSETS                                                           5,516.2        4,789.7         5,500.2
+
+   OPERATING LIABILITIES
+     Suppliers                                                                          638.6        422.7          545.9
+     Salaries and related charges                                                       148.0        107.2          114.7
+     Taxes                                                                               62.5         36.8            36.4
+     Judicial provisions                                                                 27.4         28.3            26.8
+     Leases payable                                                                      44.3         41.1            42.4
+     Other accounts payable                                                              41.5         52.2            43.3
+
+   TOTAL OPERATING LIABILITIES                                                          962.2        688.3          809.6
+
+
+
+
+                                                                       INCOME STATEMENT
+
+
+
+     In million of Reais                                                           3Q20           3Q19           2Q20           9M20         9M19
+
+
+   Net sales                                                                        1,425.0        1,120.6         1,201.0       3,733.9      3,242.6
+
+   Cost of products sold
+      Variable                                                                          (964.8)      (759.6)        (798.4)      (2,492.3)    (2,221.6)
+      Fixed                                                                             (134.2)      (103.9)        (124.5)       (361.0)      (347.9)
+      Depreciation and amortization                                                      (53.3)       (46.9)         (50.2)       (149.0)      (140.8)
+
+   Gross profit                                                                         272.7        210.2          227.9          731.6        532.2
+
+   Operating expenses
+      Selling                                                                           (105.5)       (86.4)         (89.8)       (279.8)      (251.1)
+      General and administrative                                                        (113.4)       (96.0)         (89.2)       (312.3)      (277.0)
+
+   Other operating income                                                                  0.8           0.8            1.3         74.0            3.0
+   Gain (loss) on disposal of property, plant and equipment and intangibles               (0.4)          (0.1)          (0.0)        (0.6)          0.3
+
+   Operating income (loss)                                                               54.1         28.5           50.1          212.8            7.6
+   Share of profit of subsidiaries, joint ventures and associates                          0.2           0.3            0.1            0.6          0.6
+
+   Adjusted EBITDA                                                                      168.8         80.5          161.6          523.0        164.8
+
+   Depreciation and amortization                                                         71.6         51.7            68.2         204.0        156.7
+
+   Cash flow hedge bonds                                                                 42.9            -            43.1         105.6            -
+
+   Ratios
+
+    Gross margin (R$/ton)                                                               1,347        1,076          1,371          1,332          952
+    Gross margin (US$/ton)                                                                250            271            254          262          245
+    Operating margin (R$/ton)                                                             267            146            302          387            14
+    Operating margin (US$/ton)                                                             50              37             56           76               3
+    EBITDA margin (R$/ton)                                                                834            412            972          952          295
+    EBITDA margin (US$/ton)                                                               155            104            180          188            76
+
+   Number of employees                                                                  1,849        1,894          1,834          1,849        1,894
+
+
+
+
+                                                                                                                                                                 18
+                                                                                                                                                            18
+3rd QUARTER 2020
+
+                                                                                         IPIRANGA
+                                                                                       BALANCE SHEET
+
+
+     In million of Reais                                                                      SEP 20         SEP 19        JUN 20
+
+
+   OPERATING ASSETS
+     Trade receivables                                                                          2,584.9        3,010.3       2,335.9
+     Non-current trade receivables                                                                  483.2       376.2          439.2
+     Inventories                                                                                2,000.1        1,850.2       1,385.7
+     Taxes                                                                                      1,226.0         821.0        1,089.6
+     Contractual assets with customers - exclusive rights                                       1,658.5        1,458.6       1,593.9
+     Other                                                                                          511.5       551.8          533.6
+     Right to use assets                                                                        1,098.3        1,003.3       1,073.8
+     Property, plant and equipment / Intangibles / Investments                                  3,534.7        3,505.0       3,593.3
+
+   TOTAL OPERATING ASSETS                                                                      13,097.1      12,576.4       12,044.9
+
+   OPERATING LIABILITIES
+     Suppliers                                                                                  2,484.3        1,714.5       1,690.3
+     Salaries and related charges                                                                   117.9       120.1          108.0
+     Post-employment benefits                                                                       230.1       202.3          234.6
+     Taxes                                                                                          184.9       186.6          140.6
+     Judicial provisions                                                                            298.0       333.3          299.8
+     Leases payable                                                                                 752.1       651.5          709.9
+     Other accounts payable                                                                         347.6       246.7          286.4
+
+   TOTAL OPERATING LIABILITIES                                                                  4,414.9       3,454.9        3,469.7
+
+
+
+
+                                                                                   INCOME STATEMENT
+
+
+
+      In million of Reais                                                                      3Q20          3Q19          2Q20           9M20         9M19
+
+
+   Net sales                                                                                   16,767.4      19,568.5       12,350.2      47,017.1     55,220.0
+
+   Cost of products and services sold                                                          (15,955.9)    (18,676.3)    (12,035.0)     (45,195.5)   (52,673.6)
+
+   Gross profit                                                                                     811.5       892.2         315.2        1,821.6      2,546.3
+
+   Operating expenses
+      Selling                                                                                     (272.5)       (259.2)       (273.2)        (853.4)      (927.3)
+      General and administrative                                                                  (134.5)       (203.5)        (88.6)        (382.0)      (551.5)
+
+   Other operating income                                                                           (46.3)        45.2          21.9           19.7       110.4
+   Gain (loss) on disposal of property, plant and equipment and intangibles                          12.9           0.7         14.0           33.4         (2.0)
+
+   Operating income (loss)                                                                          371.1       475.4          (10.8)        639.3      1,176.0
+
+   Share of profit of subsidiaries, joint ventures and associates                                    (0.3)          0.4           0.8            0.8          1.3
+
+   Adjusted EBITDA                                                                                  565.7       679.4         178.7        1,224.3      1,787.1
+
+   Depreciation and amortization¹                                                                   194.9       203.6          188.7         584.1        609.8
+
+   Ratios
+
+    Gross margin (R$/m³)                                                                             147            144             68         116          146
+    Operating margin (R$/m³)                                                                           67             77            (2)          41           68
+    Adjusted EBITDA margin (R$/m³)                                                                   102            110             39           78         103
+    Adjusted EBITDA margin (%)                                                                       3.4%         3.5%          1.4%           2.6%         3.2%
+
+   Number of service stations                                                                       7,107       7,151         7,105          7,107        7,151
+
+   Number of employees                                                                              3,276       3,287         3,351          3,276        3,287
+
+
+   ¹ Includes amortization with contractual assets with customers - exclusive rights
+
+
+
+
+                                                                                                                                                                         19
+                                                                                                                                                                    19
+3rd QUARTER 2020
+
+                                                                              EXTRAFARMA
+                                                                              BALANCE SHEET
+
+
+     In million of Reais                                                              SEP 20        SEP 19         JUN 20
+
+
+   OPERATING ASSETS
+     Trade receivables                                                                     54.0        155.1            66.5
+     Inventories                                                                         468.2         515.0          491.9
+     Taxes                                                                               227.4         213.0          213.7
+     Other                                                                                 26.6         22.0            29.6
+     Right to use assets                                                                 402.4         464.4          402.5
+     Property, plant and equipment / Intangibles                                         497.9        1,136.7         508.8
+
+   TOTAL OPERATING ASSETS                                                               1,676.5      2,506.2         1,713.0
+
+   OPERATING LIABILITIES
+     Suppliers                                                                           167.1         162.9          179.0
+     Salaries and related charges                                                          60.4         60.6            58.6
+     Taxes                                                                                 20.4         28.7            27.5
+     Judicial provisions                                                                      9.7       40.1              9.7
+     Leases payable                                                                      407.1         449.6          403.4
+     Other accounts payable                                                                15.7         14.3            11.1
+
+   TOTAL OPERATING LIABILITIES                                                           680.4         756.1          689.3
+
+
+
+
+                                                                        INCOME STATEMENT
+
+
+
+      In million of Reais                                                             3Q20          3Q19           2Q20           9M20         9M19
+
+
+
+   Gross revenues                                                                        522.9         540.9          514.7        1,558.4      1,646.1
+
+   Sales returns, discounts and taxes                                                     (30.8)        (28.0)         (30.6)         (88.9)       (87.0)
+
+   Net sales                                                                             492.0         512.9          484.1        1,469.5      1,559.1
+
+   Cost of products and services sold                                                    (344.6)       (362.0)        (342.7)      (1,035.8)    (1,115.3)
+
+   Gross profit                                                                          147.5         151.0          141.3          433.7        443.8
+
+   Operating expenses                                                                    (158.9)       (184.4)        (163.3)       (496.6)      (561.3)
+   Other operating income                                                                     0.3       14.9              (0.6)        (0.7)       40.1
+   Gain (loss) on disposal of property, plant and equipment and intangibles                   0.0          (0.2)          (2.3)        (2.3)        (0.2)
+   Impairment                                                                                 -            -              -              -            -
+
+   Operating income (loss)                                                                (11.1)        (18.6)         (24.8)        (65.9)       (77.6)
+
+   EBITDA                                                                                  27.7         18.2           13.7           50.2         37.5
+
+   Depreciation and amortization                                                           38.8         36.9            38.5         116.2        115.1
+
+   Ratios¹
+
+     Gross margin                                                                        28.2%         27.9%          27.5%          27.8%        27.0%
+     Operating margin                                                                    (2.1%)        (3.4%)         (4.8%)         (4.2%)       (4.7%)
+     EBITDA margin                                                                        5.3%          3.4%           2.7%           3.2%         2.3%
+
+   Number of employees                                                                   5,893         6,811          6,095          5,893        6,811
+
+   ¹ Calculated based on gross revenues
+
+
+
+
+                                                                                                                                                                 20
+                                                                                                                                                            20
+

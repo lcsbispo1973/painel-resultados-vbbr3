@@ -1,0 +1,2432 @@
+Conteúdo
+
+
+Balanços patrimoniais individuais e consolidados                                                2
+Demonstrações do resultado individuais e consolidadas                                           3
+Demonstrações de resultados abrangentes individuais e consolidadas                              4
+Demonstrações das mutações do patrimônio líquido individuais e consolidadas                     5
+Demonstrações dos fluxos de caixa individuais e consolidadas                                    6
+Demonstrações do valor adicionado individuais e consolidados                                    7
+1     Considerações gerais                                                                      8
+2     Base de preparação das demonstrações contábeis intermediárias                             9
+3     Uso de estimativas e julgamentos                                                         10
+4     Principais políticas contábeis                                                           10
+5     Caixa e equivalentes de caixa                                                            10
+6     Contas a receber, líquidas                                                               11
+7     Estoques                                                                                 13
+8     Bonificações antecipadas concedidas a clientes                                           14
+9     Investimentos                                                                            14
+10    Imobilizado                                                                              16
+11    Intangível                                                                               18
+12    Fornecedores                                                                             19
+13    Empréstimos e Financiamentos                                                             20
+14    Arrendamentos                                                                            22
+15    Tributos                                                                                 25
+16    Salário, férias, encargos, prêmios e participações                                       28
+17    Benefícios concedidos a empregados                                                       30
+18    Patrimônio líquido                                                                       32
+19    Receita de vendas                                                                        33
+20    Custo e despesas por natureza                                                            35
+21    Resultado financeiro, líquido                                                            37
+22    Informações por segmento                                                                 38
+23    Processos judiciais, administrativos, depósitos judiciais e contingências                41
+24    Compromissos contratuais                                                                 50
+25    Instrumentos financeiros                                                                 51
+26    Gerenciamento de riscos                                                                  52
+27    Partes relacionadas                                                                      61
+28    Informações adicionais às demonstrações dos fluxos de caixa                              66
+29    Evento subsequente                                                                       66
+
+
+Declaração sobre as demonstrações contábeis intermediárias e sobre o relatório dos auditores   69
+Membros do Conselho de Adminstração e Diretoria Executiva                                      70
+Relatório sobre a revisão de informações trimestrais – ITR                                     71
+
+
+
+
+                                                             1
+Petrobras Distribuidora S.A.
+Balanços patrimoniais
+Em 31 de março de 2021 e 31 de dezembro de 2020
+(Em milhões de reais)
+
+
+
+
+As notas explicativas são parte integrante das demonstrações contábeis intermediárias.
+
+                                                                              2
+Petrobras Distribuidora S.A.
+Demonstrações do resultado
+Períodos findos em 31 de março de 2021 e 2020
+(Em milhões de reais, exceto pelo resultado por ação)
+
+
+
+
+As notas explicativas são parte integrante das demonstrações contábeis intermediárias.
+
+                                                   3
+Petrobras Distribuidora S.A.
+Demonstrações de resultados abrangentes
+Períodos findos em 31 de março de 2021 e 2020
+(Em milhões de reais)
+
+
+
+
+As notas explicativas são parte integrante das demonstrações contábeis intermediárias.
+
+                                                   4
+Petrobras Distribuidora S.A.
+Demonstrações das mutações do patrimônio líquido
+Períodos findos em 31 de março de 2021 e 2020
+(Em milhões de reais)
+
+
+
+
+As notas explicativas são parte integrante das demonstrações contábeis intermediárias.
+
+                                                                            5
+Petrobras Distribuidora S.A.
+Demonstrações dos fluxos de caixa
+Períodos findos em 31 de março de 2021 e 2020
+(Em milhões de reais)
+
+
+
+
+As notas explicativas são parte integrante das demonstrações contábeis intermediárias.
+
+                                                   6
+Petrobras Distribuidora S.A.
+Demonstrações do valor adicionado
+Períodos findos em 31 de março de 2021 e 2020
+(Em milhões de reais)
+
+
+
+
+As notas explicativas são parte integrante das demonstrações contábeis intermediárias.
+
+                                                   7
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+1 Considerações gerais
+
+1.1 Contexto operacional
+
+A Petrobras Distribuidora S.A. (“Companhia” ou “BR”) é uma sociedade anônima de capital aberto, com ações
+negociadas no Novo Mercado da B3 S.A. – Brasil. Constituída em 12 de novembro de 1971, tem por objeto social a
+distribuição, o transporte, o comércio, o beneficiamento e a industrialização de derivados de petróleo e de outros
+combustíveis, a produção, o transporte, a distribuição e a comercialização de todas as formas de energia e de
+produtos químicos, a prestação de serviços correlatos e a importação e a exportação relacionadas com os produtos
+e atividades citados. A sede social da Companhia está localizada no município do Rio de Janeiro - RJ.
+
+1.2 Eventos do período
+
+Aquisição de participação societária
+
+Em 25/11/2020, a BR assinou o Contrato de Compra e Venda de Ações e Outras Avenças das empresas Targus
+Comercializadora de Energia Ltda. e Targus Serviços de Energia Ltda. (“Targus Energia”) com o objetivo de atuar na
+comercialização de energia elétrica em todo o território nacional.
+
+Em 01 de fevereiro de 2021, diante do cumprimento de todas as condições precedentes, incluindo a aprovação do
+Conselho Administrativo de Defesa Econômica (“CADE”), a Companhia concluiu o fechamento da Transação com a
+Targus Comercializadora de Energia S.A, adquirindo 48,82883% das ações e, na mesma data, após subscrição de
+novas ações, aumentou sua participação para 53,9% (nota 9.1).
+
+Venda de Participação em Termelétricas
+
+Em 05 de fevereiro de 2021, a Companhia assinou o contrato de compra e venda para alienar a totalidade de sua
+participação acionária nas empresas Pecém Energia S.A. (Pecém) e Energética Camaçari Muricy II S.A. (Muricy) para
+a CH4 ENERGIA LTDA, sociedade brasileira controlada pela NEW FORTRESS ENERGY INC. (“NFE”), sociedade limitada
+constituída e existente de acordo com as leis de Delaware, Estados Unidos, com sede em Nova Iorque.
+
+A transação foi aprovada pelo Conselho de Administração da Companhia e nas demonstrações contábeis
+intermediárias em 31 de março de 2021 foi reconhecida a receita de R$51 e a baixa do investimento de R$5 (nota
+20.4).
+
+Captações
+
+No trimestre findo em 31 de março de 2021, a Companhia efetuou captações com diferentes instituições
+totalizando R$ 2.800, com custo médio de CDI + 1,65% a.a. e prazos médios de 5 anos. Todas as operações de
+empréstimos em moeda estrangeira (R$1.740) foram integralmente protegidas por meio de contratos de swap
+celebrados com as respectivas contrapartes (Nota 13 e nota 26.1.1).
+
+1.3 Impactos causados pela COVID-19 nas demonstrações financeiras
+
+Considerando o avanço da pandemia referente ao COVID-19, a Companhia manteve as práticas adotadas no ano
+anterior e divulgadas na nota 1.3 das demonstrações contábeis de 31 de dezembro de 2020, mantendo no regime
+de home office, os trabalhadores cujas atividades podem ser desempenhadas remotamente e, para os demais,
+cujas atividades precisam ser realizadas presencialmente, houve redução do efetivo para minimizar a circulação de
+pessoas nas unidades operacionais. Todos os protocolos de segurança amplamente divulgados estão sendo
+
+
+                                                       8
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+seguidos. Todas as viagens a serviço e visitas a clientes, das regiões classificadas como de alto risco, estão sendo
+evitadas e aquelas indispensáveis necessitam de aprovações da Diretoria ou Líder de equipe, conforme o tipo da
+viagem.
+
+Efeito nas demonstrações contábeis intermediárias
+
+No primeiro trimestre de 2021, a receita de vendas da BR de diesel, gasolina e etanol, principais produtos para a
+mobilidade urbana, foi 26% superior ao verificado no 1º trimestre de 2020, o que representa um aumento de
+receita de R$5.587 para este grupo.
+
+As vendas de querosene de aviação continuam com uma lenta recuperação, tendo reduzido 12% em relação ao
+mesmo período de 2020 (de R$2.350 no 1T20 para R$2.077 no 1T21).
+
+No segmento de aviação, onde temos uma presença preponderante no fornecimento de combustíveis, o avanço
+da pandemia em 2021, tem dificultado a retomada deste setor devido a continuidade das restrições a viagens e
+circulação de pessoas.
+
+Diante deste cenário, a Companhia elevou as perdas esperadas em relação final do exercício de 2020 para este
+grupo de clientes (nota 26.3). Assim sendo, o saldo das perdas de crédito esperadas para este segmento em 31 de
+março de 2021 é R$163 contra R$137 em 31 de dezembro de 2020.
+
+A Administração entende que os ativos fiscais diferidos e os ativos de longo prazo são recuperáveis
+economicamente e, portanto, não há necessidade de reconhecer provisões adicionais para perdas de ativos não
+financeiros. Também não há efeitos materiais adversos nas operações da Companhia que ponham em dúvida o
+pressuposto de sua continuidade operacional.
+
+2 Base de preparação das demonstrações contábeis intermediárias
+
+As demonstrações contábeis intermediárias consolidadas foram preparadas conforme as práticas contábeis
+adotadas no Brasil para demonstrações intermediárias (Pronunciamento Técnico - CPC 21 (R1) - Demonstração
+Intermediária), e com o IAS 34 - Demonstração Intermediária emitido pelo International Accounting Standards
+Board (IASB).
+
+As demonstrações contábeis intermediárias individuais estão sendo apresentadas de acordo com as práticas
+contábeis adotadas no Brasil para demonstrações intermediárias (Pronunciamento Técnico - CPC 21 (R1) -
+Demonstração Intermediária).
+
+Essas demonstrações contábeis intermediárias são apresentadas com as alterações relevantes ocorridas no
+período, sem a repetição de determinadas notas explicativas previamente divulgadas. Portanto, tais
+demonstrações contábeis intermediárias devem ser lidas em conjunto com as demonstrações contábeis anuais da
+Companhia do exercício findo em 31 de dezembro de 2020, que contemplam o conjunto completo de notas
+explicativas.
+
+O Conselho de Administração da Companhia, em reunião realizada em 11 de maio de 2021, autorizou a divulgação
+destas demonstrações contábeis intermediárias.
+
+
+
+
+                                                        9
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+2.1 Demonstração do valor adicionado
+
+A legislação societária brasileira exige para as companhias abertas a elaboração da Demonstração do Valor
+Adicionado – DVA e sua divulgação como parte integrante do conjunto das demonstrações financeiras. Essas
+demonstrações foram preparadas de acordo com o CPC 09 - Demonstração do Valor Adicionado, aprovado pela
+Deliberação CVM 557/08. As IFRS não exigem a apresentação desta demonstração que, portanto, é divulgada como
+informação adicional.
+
+Esta demonstração tem como objetivo apresentar informações relativas à riqueza criada pela Companhia e a forma
+como tais riquezas foram distribuídas.
+
+2.2 Base de mensuração
+
+Na elaboração das demonstrações contábeis intermediárias individuais e consolidadas foi considerado o custo
+histórico como base de valor, com exceção de instrumentos financeiros avaliados por valor justo por meio de
+resultado e de passivo atuarial de benefício definido, reconhecido como o valor presente das obrigações deduzido
+do valor justo dos ativos do plano.
+
+3 Uso de estimativas e julgamentos
+
+Ao preparar essas demonstrações contábeis intermediárias, a administração fez julgamentos, estimativas e
+premissas que afetam a aplicação de políticas contábeis e os valores divulgados de ativos e passivos, receitas e
+despesas. Os resultados reais podem ser diferentes dessas estimativas.
+
+Os julgamentos significativos feitos pela administração na aplicação das políticas contábeis e as principais fontes
+de incerteza de estimativa foram as mesmas que as aplicadas e evidenciadas na nota 3 das demonstrações
+financeiras consolidadas no exercício findo em 31 de dezembro de 2020.
+
+4 Principais políticas contábeis
+
+As práticas contábeis e os métodos de cálculo utilizados na preparação dessas demonstrações contábeis
+intermediárias são os mesmos adotados na preparação das demonstrações contábeis anuais da Companhia do
+exercício findo em 31 de dezembro de 2020.
+
+5 Caixa e equivalentes de caixa
+
+
+
+
+As aplicações financeiras correspondem a fundos de investimentos no país, cujos recursos encontram-se aplicados
+majoritariamente em operações compromissadas lastreadas em títulos públicos federais brasileiros, e a
+
+
+
+
+                                                       10
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+Certificados de Depósitos Bancários (CDB) de bancos de primeira linha. Todas as aplicações possuem liquidez
+imediata. As aplicações financeiras no exterior referem-se a aplicações de recurso no Overnight.
+
+A Companhia reforçou a sua posição financeira concluindo novas captações neste trimestre (nota 13).
+   3
+
+
+
+
+6 Contas a receber, líquidas
+
+
+
+
+                                                     11
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+A Companhia apresenta R$ 3.137 de contas a receber de clientes em cobrança judicial no consolidado e na
+controladora (R$ 3.141 no consolidado e na controladora em 31 de dezembro de 2020). A Companhia reduz a zero
+a expectativa de recuperação da totalidade dos recebíveis em cobrança judicial.
+
+Os saldos de precatórios (R$ 23) e os valores a receber referente ao “earn-out” da operação de venda da participação
+societária na Stratura (R$ 61) e das termelétricas Pecém e Muricy (R$30) estão mensurados ao valor justo por meio
+de resultado.
+
+Movimentação das perdas de crédito esperadas
+
+ No primeiro trimestre de 2021, a Samarco S.A. ingressou com pedido de recuperação judicial, deferido
+ judicialmente. Como consequência e de forma consistente à política contábil adotada pela Companhia em
+ situações similares, uma perda de crédito esperada de R$154 em valores atualizados até 31 de março de 2021 foi
+ reconhecida no resultado. Cumpre destacar que o reconhecimento da perda ora efetuado busca consistência na
+ aplicação de nossas práticas contábeis, mas não denota desistência pela Companhia da busca de seus direitos,
+ sobretudo considerando a qualificação da mesma como fornecedor relevante de produtos para a Samarco S.A. e
+ considerando ainda que os referidos débitos já foram objeto de negociação entre as partes no que tange as
+ condições de pagamento.
+
+
+ 6.1 Composição dos saldos de contas a receber - vencidos e a vencer
+
+
+
+
+                                                        12
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ 6.2 Composição - Setor elétrico (Sistema isolado)
+
+
+
+
+ 6.3 Movimentação das contas a receber de clientes - Setor elétrico (Sistema isolado – Sistema
+ Eletrobras e Terceiros)
+
+
+
+
+(*) Instrumento de Confissão de Dívida
+
+ 7 Estoques
+
+
+
+
+ (*) Compreendem os saldos de estoques de etanol e biodiesel.
+
+
+
+                                                                13
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+Nenhuma redução ao valor realizável líquido dos estoques foi reconhecida em 31 de março de 2021 e 31 de
+dezembro de 2020.
+
+Garantias
+
+A Companhia possui estoques dados em garantia em ações judiciais no montante de R$204 em 31 de março de 2021
+e em 31 de dezembro de 2020.
+
+ 8 Bonificações antecipadas concedidas a clientes
+
+
+
+
+As bonificações antecipadas concedidas a clientes estão condicionadas a prazos e desempenhos a serem cumpridos,
+em especial ao consumo de volumes previstos em contratos de fornecimento (nota 19).
+
+
+
+ 9 Investimentos
+
+    9.1 Mutação dos investimentos em controladas, negócios em conjunto e coligada
+
+
+
+
+                                                      14
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+
+(*) As participações no capital total são as mesmas do capital votante exceto pela ES GÁS cuja participação no capital votante é 51%.
+
+   (a) Na aquisição de participação na Brasil Carbonos S.A., em dezembro de 2010, foi apurada mais valia de ativos de R$ 28, que é
+   amortizada em função da vida útil dos ativos. Em 31 de março de 2021, o saldo de R$ 18 (R$19 em 31 de dezembro de 2020) está
+   classificado no imobilizado, no Consolidado.
+   (b) Aporte por meio da indenização pelos ativos reversíveis.
+   (c) Redução de capital da Stratura tendo como contrapartida o recebimento de bens pela Companhia.
+
+ Aquisição da Targus Comercializadora de Energia S.A.
+
+ Em 01 de fevereiro de 2021, a Companhia adquiriu 48,82883% das ações ordinárias da Targus Energia S.A., e na
+ mesma data subscreveu novas ações ordinárias, totalizando 53,9% do capital social. Após a conclusão de todos os
+ aportes previstos para serem realizados até 31 de dezembro 2021, a BR será detentora de 70% do capital social da
+ Targus. Nesta mesma ocasião, a BR também celebrou o Acordo de Acionistas com os atuais sócios, que vigorará
+ por 15 anos, e que prevê, entre direitos e obrigações, opções de compra e venda para aquisição dos 30% da
+ participação societária remanescente. As janelas para o exercício das opções de compra e venda ocorrerão a partir
+ de 2026, encerrando-se em 31 de dezembro de 2031.
+
+ A Targus é uma sociedade anônima que tem como objeto social a compra, venda, importação e exportação de
+ energia elétrica, bem como a prestação de serviços de engenharia, assessoria, consultoria e outros ligados aos
+ processos de energia.
+
+ A aquisição permitirá a Companhia atuar na compra e venda de energia elétrica, complementando seu portfólio
+ atual de produtos, bem como poderá capturar novos clientes no mercado, oferecendo serviços de gestão no
+ mercado livre e produtos de geração distribuída, utilizando sua capilaridade comercial e estrutura financeira,
+ aliados à expertise e capacidade de execução dos sócios da Targus Energia, que permanecerão na operação.
+
+ A operação de aquisição das ações dos sócios e da subscrição de novas ações acarretou, até o momento, um
+ desembolso total de R$31.
+
+ O valor da contraprestação contingente, os ajustes de preço, a parcela do ágio gerado na aquisição da participação
+ da Targus, bem como o valor justo das opções de compra e venda previstos no SPA (Share Purchase Agreement),
+ estão sendo avaliados e terão seus impactos refletidos no segundo trimestre.
+
+
+
+
+                                                                             15
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+10 Imobilizado
+
+
+
+
+(a) Ver detalhamento dos ativos de direito de uso na nota 14.
+
+
+
+
+                                                                16
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+
+   (a) Ver detalhamento dos ativos de direito de uso na nota 14.
+   (b) Referem-se, basicamente, a transferências entre outros grupos como por exemplo, intangível, mantidos para venda, entre outros.
+
+
+
+
+                                                                                                       17
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ Os ativos em construção apresentados no Consolidado referem-se, substancialmente, à expansão, modernização
+ e melhorias em terminais e bases de distribuição de combustíveis, aeroportos e fábrica de lubrificantes.
+
+ Os ativos de direito de uso incluem, principalmente, terrenos utilizados como postos de combustíveis, unidades
+ administrativas e edificações (nota 14).
+
+ Garantias
+ Parte do imobilizado da Companhia serve como garantia em ações judiciais nas quais a Companhia figura como ré,
+ sendo R$ 18 em 31 de março de 2021 e R$13 em 31 de dezembro de 2020.
+
+
+11 Intangível
+
+
+
+
+                                                      18
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+
+(a) A Companhia apresenta saldo de R$ 177 de software em desenvolvimento (R$ 179 em 31 de dezembro de 2020).
+(b) Goodwill de ativos de distribuição de combustíveis, originado quando da aquisição da Liquigás S.A., distribuidora de Gás Liquefeito de
+Petróleo (GLP). Essa investida foi transferida para a Petrobras, em 2012, entretanto a operação relacionada a este ágio permaneceu na
+Companhia.
+(c) Do total de R$ 25 de adições de softwares (R$ 141 em 31 de dezembro de 2020), R$ 15 correspondem a desenvolvimento interno (R$
+65 em 31 de dezembro de 2020).
+
+
+
+Os ativos intangíveis são representados pelos gastos com direitos e concessões, goodwill, softwares e créditos de
+descarbonização.
+
+12 Fornecedores
+
+
+
+
+O saldo de fornecedores no país é composto, principalmente, (i) de faturas a pagar à Petrobras pela aquisição de
+derivados de petróleo e (ii) contratação de serviços (inclusive fretes). O saldo de fornecedores no exterior
+representa, principalmente, as obrigações relacionadas à importação de óleo diesel e de gasolina.
+
+
+
+
+                                                                  19
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ 13 Empréstimos e Financiamentos
+
+
+
+
+(*) Debêntures – Certificado de Recebíveis do Agronegócio
+(**) Certificados de Recebíveis Imobiliários
+
+Principais movimentações ocorridas no período
+
+ (a) Quitação das captações realizadas durante a pandemia de COVID-19:
+     Em março de 2021, a Companhia quitou R$ 1.780 de um total de R$ 1.980 das NCEs - Notas de crédito à
+     exportação e CCB – Cédulas de Crédito Bancário contratadas no mês de abril de 2020 no início da pandemia.
+
+ (b) Em 12 de fevereiro de 2021, empréstimo realizado com o Banco Santander via Resolução 4131 no valor de
+     R$1.060, com taxa CDI + 1,67% a.a., juros semestrais e amortização no vencimento em fevereiro de 2026. Nesta
+     ocasião houve negociação para o pré-pagamento, em fevereiro de 2021, das 3 NCEs com vencimento em março
+     e abril de 2021, totalizando um liability management de R$ 580 através da substituição das NCEs com custo
+     médio de CDI + 4,19% pelo empréstimo supramencionado.
+
+ (c) Em 26 de fevereiro de 2021, Loan 4131 com o Scotiabank de US$100 milhões equivalentes a R$537, com taxa
+     de USD + 1.53% a.a. e amortização no vencimento, em fevereiro de 2026, além do contrato de swap celebrado
+     com a mesma instituição para hedge integral da dívida em dólar, ao custo de CDI + 1,55% a.a.
+ (d) Em 12 de fevereiro de 2021, Loan 4131 com o BNP Paribas de US$150 milhões equivalentes a R$803, com taxa
+     de USD + 2.02% a.a. e amortização no vencimento, em fevereiro de 2026, além do contrato de swap celebrado
+     com a mesma instituição para hedge integral da dívida em dólar, ao custo de CDI + 1,69% a.a.
+
+
+
+
+                                                            20
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+(e) Em 12 de março de 2021 do Loan 4131 com o Bank of America de US$73 milhões equivalentes a R$ 400, com
+    taxa USD + 2,27 % a.a. e amortização no vencimento, em março de 2026, além do contrato de swap celebrado
+    com a mesma instituição para hedge integral da dívida em dólar, ao custo de CDI + 1,67 % a.a..
+
+
+13.1 Movimentação e conciliação com os fluxos de caixa de financiamentos
+
+
+
+
+                                                    21
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+13.2 Informações sumarizadas sobre os vencimentos dos financiamentos
+
+
+
+
+O valor justo dos financiamentos país em 31 de março de 2021 é de R$ 3.550 (R$ 2.826 na Controladora) e dos
+financiamentos exterior é de R$ 5.155 (Consolidado e Controladora).
+
+Os valores justos dos financiamentos país são determinados pelo método de fluxo de caixa descontado pelas taxas
+spot interpoladas dos indexadores (ou proxies) dos respectivos financiamentos e pelo risco de crédito da
+Companhia (nível 2). Os financiamentos feitos em moeda estrangeira são calculados utilizando uma projeção do
+câmbio para cada vencimento e os valores justos são determinados pelo método de fluxo de caixa descontado
+pelas taxas spot interpoladas do indexador DI e pelo risco de crédito da Companhia (Nível 2).
+
+A análise de sensibilidade dos instrumentos financeiros é apresentada na nota 26.1.2.1.
+
+13.3 Custos de transação
+
+Os custos de transações incorridos na captação de recursos financeiros foram deduzidos do saldo do passivo
+correspondente e apropriados ao resultado de acordo com a taxa efetiva. O valor apropriado em 2021 e os saldos
+a apropriar nos próximos exercícios estão apresentados a seguir:
+
+
+
+
+(*) Debêntures – Certificado de Recebíveis do Agronegócio
+(**) Certificados de Recebíveis Imobiliários
+
+
+14 Arrendamentos
+
+A Companhia é arrendatária em diversos contratos, com naturezas distintas, cujas principais operações dizem
+respeito a arrendamentos de terrenos para uso em postos de combustíveis, bases de distribuição de combustíveis,
+unidades administrativas e edificações. Parte desses arrendamentos são celebrados com a controlada FII FCM,
+administrado pela Rio Bravo Investimentos DTVM Ltda.
+
+A Companhia reconhece o ativo do direito de uso e um passivo de arrendamento correspondente na data de início
+do contrato.
+
+
+                                                            22
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+Os ativos de direito de uso são depreciados pelos prazos contratuais.
+
+14.1 Ativos de direito de uso – Movimentação por tipo de ativo
+
+
+
+
+14.2 Passivo de Arrendamento – Movimentação e conciliação com os fluxos de caixa de
+financiamento
+
+
+
+
+14.3 Fluxos de pagamentos
+
+
+
+
+                                                       23
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ Os pagamentos das parcelas variáveis dos arrendamentos, assim como os pagamentos de arrendamentos de curto
+ prazo que não compõem o passivo, foram reconhecidos no resultado totalizando R$ 36 e R$ 8, respectivamente
+ (Consolidado e Controladora). Os pagamentos de parcelas variáveis representam 4% no Consolidado e 3% na
+ Controladora em relação aos pagamentos fixos realizados.
+
+ Assim sendo, a Companhia está potencialmente exposta a saídas futuras de caixa de pagamentos variáveis de
+ arrendamentos, principalmente associados a variações nos volumes vendidos. Esse fluxo está demonstrado a
+ seguir:
+
+
+
+
+ 14.4 Taxas nominais médias de desconto
+
+
+
+
+ 14.5 Ofício Circular/CVM/SNC/SEP/n°2/2019
+
+ 14.5.1 Apresentação dos arrendamentos e direito de uso
+
+ O Ofício Circular/CVM/SNC/SEP/nº2/2019 determina a apresentação dos saldos de passivo de arrendamento,
+ direito de uso, despesa financeira e depreciação com base no fluxo de caixa descontado, incluindo a projeção de
+ inflação futura, diferentemente do que preconiza o CPC 06 (R2), cujo cálculo é feito considerando fluxo de caixa
+ não inflacionado. Assim sendo, segue quadro comparativo com ambas as mensurações para atendimento ao Ofício
+ CVM, que busca resguardar a fidedignidade destes valores aos investidores.
+
+
+
+
+(*) Referem-se aos contratos impactados pela revisão do IFRS16, ou seja, contratos anteriores à revisão e que já estavam classificados como
+arrendamento financeiro não estão sendo considerados nesta apresentação.
+
+
+
+
+                                                                   24
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+14.5.2 Direito potencial de PIS/COFINS a recuperar
+
+Os pagamentos das contraprestações dos arrendamentos podem gerar direito ao creditamento do PIS e COFINS,
+desde que atendam as condições previstas na legislação tributária. O quadro a seguir apresenta o direito potencial
+de PIS e COFINS a recuperar, embutido nas contraprestações, considerando os fluxos de pagamentos nominais e os
+fluxos descontados a valor presente.
+
+
+
+
+ 15 Tributos
+
+ 15.1 Impostos e contribuições
+
+
+
+
+  (*) Inclui os créditos decorrentes da exclusão do ICMS da base de cálculo do PIS e COFINS.
+
+
+ A Companhia tem expectativa de recebimento e/ou compensação dos valores apresentados.
+
+
+
+
+                                                                    25
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+15.2 Programas de Anistias Estaduais
+
+Em 31 de março de 2021 e 31 de dezembro de 2020 a Companhia liquidou débitos tributários de ICMS junto a
+diversos Estados, por meio de Programas de Anistia.
+
+
+
+
+                                                  26
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ 15.3 Imposto de Renda e contribuição social diferidos
+
+
+
+
+(*) Plano de Incentivo ao Desligamento Voluntário
+
+
+
+
+                                                         27
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+A reconciliação dos tributos apurados conforme alíquotas nominais e o valor dos impostos registrados estão
+apresentados a seguir:
+
+
+
+
+ 16 Salário, férias, encargos, prêmios e participações
+
+Os saldos relativos aos principais benefícios de curto prazo, concedidos aos empregados estão apresentados a
+seguir:
+
+
+
+
+16.1 Abono por repactuação salarial
+
+Trata-se de abono em função de renegociação contratual com redução salarial, realizada por meio de negociação
+individual, conforme previsto no artigo 444 da CLT e em acordo firmado com o Tribunal Superior do Trabalho.
+
+Em 31 de dezembro de 2020, a Companhia provisionou o valor de R$ 68 de abono, tendo sido pago até de 31 de
+março o valor de R$ 61, restando o saldo a pagar de R$ 7.
+
+16.2 Prêmios e incentivos de curto prazo
+
+16.2.1 Pagamento de prêmios e incentivos de curto prazo a empregados
+
+Em 31 de dezembro de 2020, a Companhia provisionou o montante de R$ 45 para pagamento de incentivos de
+curto prazo aos empregados referente ao exercício de 2020. Até 31 de março de 2021, a Companhia efetuou o
+pagamento de R$ 41 e reverteu R$2, restando saldo de R$ 2.
+
+
+
+
+                                                    28
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+Em 31 de março de 2021, foi provisionado o montante de R$ 13 para pagamento de incentivos de curto prazo aos
+empregados referente ao exercício de 2021.
+
+16.2.2 Pagamento de incentivos de curto prazo aos membros da Diretoria Executiva
+
+Em 31 de dezembro de 2020, a Companhia provisionou o montante de R$ 10 para o programa de Incentivos de
+Curto Prazo. Até 31 de março de 2021 foi realizado o pagamento de R$ 10.
+
+Em 31 de março de 2021, foi provisionado o montante de R$ 2 para pagamento de incentivos de curto prazo aos
+membros da Diretoria Executiva referente ao exercício de 2021.
+
+16.3 Planos de pagamentos baseados em ações
+
+Em Assembleia Geral Extraordinária realizada em 28 de julho de 2020 foram aprovados o Plano de Incentivo de
+Longo Prazo em Opções de Compra de Ações e o Plano de Ações Restritas – Programa de Matching Shares, sendo
+este último aplicável somente aos Dirigentes Estatutários.
+
+Esses planos têm, dentre seus objetivos: (i) alinhar interesses entre acionistas e executivos; (ii) reconhecer o sucesso
+na execução do Business Plan; (iii) reforçar a visão a longo prazo nas decisões da Companhia; e (iv) reter talentos e
+compartilhar o sucesso da organização.
+
+No Plano de Incentivo de Longo Prazo em Opções de Compra de Ações o executivo recebe opções da Companhia
+que poderão ser convertidas em ações por um período de três anos (período do exercício) após um prazo
+determinado de três anos (vesting) a partir de sua outorga. Já no Plano de Ações Restritas (Programa de Matching
+Shares), o executivo recebe ações como contrapartida ao investimento feito na compra de ações de emissão da
+Companhia no mercado, usando parte de seu incentivo de curto prazo, também após um prazo determinado de
+carência de três anos a partir do seu investimento.
+
+Adicionalmente, foi implantado no primeiro trimestre de 2021, o plano de Phantom Shares, como estratégia de
+atração e retenção executiva. O programa estabelece a outorga de uma quantidade específica de ações, com o
+respectivo recebimento, em dinheiro, após o cumprimento do prazo de vesting de 2 (dois) anos. A outorga ocorreu
+em 16 de março de 2021.
+
+A primeira outorga do Plano de Incentivo de Longo Prazo em Opções de Compra de Ações ocorreu em 31 de julho
+de 2020, tendo sido reconhecido até 31 de março de 2021 o montante de R$1 como despesa de pessoal, incluindo
+encargos sociais.
+
+A primeira outorga do Plano de Matching Shares está prevista para o 1º semestre de 2021.
+
+Seguem informações dos programas:
+
+
+
+
+Stock Options 2020: O valor justo (fair value) das opções foi calculado seguindo o método Binomial. As variáveis
+utilizadas foram: Taxa livre de risco de 4,25% a.a.; Dividend Yield de 1,90% (excluindo o de 2019 por estar acima da
+média histórica) e Volatilidade da ação de 2 anos, sendo essa de 34,03%, além dos prazos de vesting e exercício.
+
+
+
+                                                         29
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+Phantom Shares 2021: O valor justo (fair value) é calculado com base na média ponderada dos últimos 30 pregões
+anteriores ao último dia do mês de março.
+
+17 Benefícios concedidos a empregados
+
+ As obrigações da Companhia relativas aos planos de pensão e de saúde estão representadas a seguir:
+
+
+
+
+A movimentação dos benefícios concedidos a empregados está representada a seguir:
+
+
+
+
+A despesa líquida com planos de pensão e saúde inclui os seguintes componentes:
+
+
+
+
+                                                      30
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+
+Plano de saúde
+
+Conforme descrito na nota 19.3 das demonstrações contábeis de 31 dezembro de 2020, no 4º trimestre de 2020, a
+Companhia contratou um plano de mercado administrado pela Bradesco Seguros, oferecendo o benefício de saúde
+(médico e odontológico) aos seus colaboradores, ex-colaboradores e seus dependentes em substituição ao plano
+de autogestão (AMS).
+
+A redução observada nas despesas atuariais projetadas para o exercício de 2021, reflete o ajuste do passivo atuarial
+remensurado em 31 de dezembro de 2020, por consequência da substituição do plano de autogestão (AMS) para
+o plano de mercado.
+
+Plano de pensão
+
+O Plano Petros 2 possui uma parcela com característica de contribuição definida cujos pagamentos são
+reconhecidos no resultado. Até março de 2021, a contribuição da Companhia para parcela de contribuição definida
+no Plano Petros 2 foi de R$ 7 (R$ 7 até março de 2020).
+
+Novo Plano de Equacionamento de Déficit (Novo PED) – PPSP-R e PPSP-NR
+
+O Novo PED, foi aprovado pela PREVIC e publicado no DOU no dia 05 de maio de 2020, sendo que o desconto das
+novas alíquotas, a título de contribuição extraordinária, foi implantado na competência junho/2020, conforme
+divulgado na nota 19.1 das demonstrações contábeis de 31 de dezembro de 2020.
+
+Dentre as obrigações contidas no Novo PED, restou estabelecida a obrigatoriedade de aportes extraordinários das
+patrocinadoras em contrapartida à redução do benefício de Pecúlio por Morte aplicada aos participantes e
+assistidos. A obrigação total da Companhia foi firmada em instrumento de parcelamento de dívida no total de
+R$150, com as seguintes condições: prazo 15 anos, com carência até 31/12/2020 e pagamentos semestrais de
+principal e juros, a partir de janeiro de 2021, corrigidos pela meta atuarial, calculada anualmente de acordo com as
+premissas dos planos, além de opção de pré-pagamento
+
+No dia 18/12/2020, a Companhia exerceu sua opção de pré-pagamento, conforme prevista em contrato, e realizou
+a liquidação total da dívida, no valor de R$ 162 (atualizado), referente ao parcelamento que a BR assumiu com o
+Novo PED.
+
+No ano de 2020, a Companhia desembolsou R$ 224 a título de contribuições extraordinárias do PED - parte patronal
+(PED 2015 até maio/2020 e Novo PED a partir de junho/2020). No primeiro trimestre de 2021, para a mesma
+finalidade, a Companhia desembolsou R$ 13.
+
+
+                                                       31
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+18 Patrimônio líquido
+
+18.1 Capital social
+
+Em 31 de março de 2021 o capital social totalmente subscrito e integralizado no valor de R$ 6.353 (R$ 6.353 em
+31 de dezembro de 2020), está composto por 1.165.000.000 ações ordinárias representadas na forma escritural e
+sem valor nominal. A Petrobras é detentora de 37,5% das ações, estando os 62,5% restantes em poder de Outros
+Acionistas, sem concentrações significativas.
+
+A Companhia poderá, independentemente de reforma estatutária, por deliberação do Conselho de Administração
+e nas condições determinadas por aquele órgão, aumentar o capital social até o limite de R$ 7.000 (sete bilhões
+de reais), mediante a emissão de ações ordinárias.
+
+18.2 Dividendos e juros sobre o capital próprio
+
+Aos acionistas é assegurado um dividendo obrigatório de 25% do lucro líquido ajustado do período, de acordo com
+o artigo 44 do Estatuto Social da Companhia e nos termos do artigo 202 da Lei das Sociedades por Ações.
+
+
+
+
+Em 12 de janeiro de 2021 a Companhia pagou aos acionistas, juros sobre o capital próprio, referentes ao exercício
+de 2020, no valor de R$444, líquido do imposto de renda retido na fonte.
+
+A proposta de dividendos, apresentada na nota 20.3 das demonstrações contábeis de 31 de dezembro de 2020, foi
+aprovada na Assembleia Geral Ordinária (AGO) em 15/04/21. Em 30 de abril de 2021 a Companhia efetuou o
+pagamento da primeira parcela dos dividendos no montante de R$1,1 bilhão.
+
+18.3 Resultado por ação
+
+
+
+
+                                                      32
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+19 Receita de vendas
+
+
+
+
+   (a) Trata-se da venda de serviços e produtos químicos para a área de exploração e produção, abastecendo plataformas, sondas, FPSOs
+     e unidades terrestres com os produtos indispensáveis às operações e demais aplicações, sendo o maior cliente a Petrobras.
+   (b) Valores concedidos aos clientes em função do cumprimento de prazos e desempenhos acordados contratualmente.
+
+A variação nas receitas de R$5 bilhões decorre das sucessivas altas de preços dos produtos nas refinarias da
+Petrobras no 1T21.
+
+Os principais contratos com clientes da Companhia envolvem a comercialização de combustíveis como gasolina,
+diesel, querosene de aviação, etanol, gás natural e óleo combustível, lubrificantes, dentre outros. Esses produtos
+são adquiridos, substancialmente, da parte relacionada Petrobras (detentora de 37,5 % das ações da Companhia)
+e são revendidos a postos de serviços, indústrias, empresas aéreas, governos, empresas de transporte,
+termoelétricas, transportadores revendedores retalhistas, entre outros consumidores.
+
+
+
+
+                                                               33
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+19.1 Obrigações de desempenho restantes
+
+A Companhia possui contratos de vendas de produtos ou serviços, vigentes e assinados até 31 de março de 2021,
+com prazos superiores a 1 ano, onde os direitos de cada parte em relação aos bens e serviços a serem transferidos
+encontram-se definidos, ou seja, há uma quantidade pré-estabelecida de bens ou serviços prometidos ao cliente
+para os próximos exercícios, com seus respectivos termos de pagamentos.
+
+
+
+
+A seguir estão apresentados os valores totais de preços alocados às obrigações de desempenho que não se
+encontram satisfeitas em 31 de março de 2021, tendo como base volumes de vendas comprometidos entre as
+partes, bem como preços praticados em vendas recentes, sendo esses sujeitos às variações no valor de
+commodities, taxa de câmbio e outros fatores de mercado.
+
+
+
+
+A tabela anterior não inclui informações sobre contratos com clientes com duração igual ou inferior a um ano,
+como por exemplo, vendas no mercado spot, além de contratos que não estabeleçam volumes.
+
+19.2 Passivos de contratos
+
+Os passivos de contratos referem-se às obrigações contratuais decorrentes de antecipações recebidas dos clientes
+para futuras vendas de produtos, principalmente, combustíveis claros, produtos de aviação, solventes e produtos
+especiais e combustíveis escuros os quais serão reconhecidos como receita mediante a efetiva entrega.
+
+Esses saldos estão classificados no grupo de Adiantamentos de Clientes e em 31 de março de 2021 perfazem o
+montante de R$405 (Consolidado e Controladora). Em 31 de dezembro de 2020 estes saldos eram R$494 no
+Consolidado e na Controladora.
+
+O valor de R$336 foi reconhecido como receita em 2021 e estava incluído no saldo de passivos de contrato no início
+do exercício (R$126 em 31 de março de 2020).
+
+
+
+
+                                                      34
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+20 Custo e despesas por natureza
+
+20.1 Custo dos produtos vendidos e serviços prestados
+
+
+
+
+(*)É o resultado da diferença do estoque final pelo estoque inicial apresentado no Balanço Patrimonial.
+
+ Os custos dos produtos vendidos e dos serviços prestados apresentaram variação de R$4 bilhões em função do
+ aumento no custo médio de aquisição, decorrente do aumento nos preços.
+
+
+20.2 Despesas de vendas e perdas de créditos esperadas
+
+
+
+
+ (*) O aumento nas perdas de créditos estimadas decorre da recuperação judicial da Samarco (nota 6), que
+ acarretou o reconhecimento no 1T21 de R$154 de perdas de créditos, sem correspondência com o período
+ anterior.
+
+
+
+
+                                                                   35
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+20.3 Despesas gerais e administrativas
+
+
+
+
+20.4 Outras receitas (despesas) líquidas
+
+
+
+
+(*) Inclui resultado de R$46 referente à venda das termelétricas Pecém e Muricy.
+
+ (a) O aumento nas despesas de hedge de commodities (de uma receita de R$416 em 2020 para uma despesa de
+     R$212 em 2021) decorre, principalmente, da perda na proteção da variação no preço praticado pela Petrobras
+     em comparação ao preço pago na importação de derivados (R$ 629). Esta perda foi compensada pelos ganhos
+     observados nas margens brutas de comercialização entre os períodos de comparação.
+
+ (b) Em 2021 houve reconhecimento de R$128 de créditos de ICMS originados do fim da definitividade da
+     substituição tributária, no que se refere à cobrança de complemento ou à geração de ressarcimento nas vendas
+     de Óleo Diesel e Gasolina aos Grandes Consumidores, bem como de Querosene de Aviação às Empresas Aéreas.
+     Estes créditos são reconhecidos à medida que sejam deferidos formalmente pelas autoridades fiscais
+     estaduais.
+
+
+
+
+                                                                    36
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+21 Resultado financeiro, líquido
+
+
+
+
+Os encargos dos financiamentos (juros, variação monetária e variação cambial) totalizaram R$ 505 (nota 13.1) no
+exercício (R$ 553 em 31 de março de 2020), sendo R$ 500 (R$ 550 em 31 de março de 2020) reconhecidos no
+resultado e R$ 5 (R$ 3 em 31 de março de 2020) como juros capitalizados.
+
+
+
+
+                                                     37
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+22 Informações por segmento
+
+As informações por segmentos operacionais são apresentadas de modo consistente com o relatório interno
+fornecido para o principal tomador de decisões operacionais. O principal tomador de decisões operacionais,
+responsável pela alocação de recursos e pela avaliação de desempenho dos segmentos operacionais é a Diretoria
+Executiva.
+
+Essas informações são elaboradas com base em itens atribuíveis diretamente ao segmento, bem como aqueles que
+podem ser alocados em bases razoáveis. Não há transferências entre as áreas de negócio.
+
+
+Rede de Postos
+Comercializa combustíveis derivados de petróleo, lubrificantes, gás natural veicular, biocombustíveis e produtos
+de conveniência da Companhia, objetivando alcançar as metas de mercado e de rentabilidade estabelecidas, bem
+como criar as condições favoráveis para o seu crescimento sustentável.
+
+B2B
+Comercializa combustíveis, derivados de petróleo, lubrificantes e presta serviços associados em todos os
+segmentos de atuação no mercado de grandes consumidores da Companhia.
+
+Mercado de Aviação
+Comercializa produtos e serviços de aviação nas instalações em aeroportos do país para companhias aéreas que
+operam o transporte para o exterior e mercado interno.
+
+Os itens não alocados nos segmentos ficam agrupados no Corporativo e dizem respeito, principalmente, aqueles
+vinculados à gestão financeira corporativa, o overhead relativo à Administração Central e outras despesas, inclusive
+as atuariais referentes aos planos de pensão e de saúde destinados aos aposentados e beneficiários.
+
+O resultado consolidado das receitas com clientes no Brasil, antes dos ajustes, conforme tabela abaixo, é de
+R$ 26.130 (R$ 20.988 janeiro a março de 2020), e o total de receita com clientes no exterior, com base no país de
+destino da venda, é de R$ 196 (R$ 350 janeiro a março de 2020).
+
+Os ativos da Companhia, notadamente as bases, terminais e outros ativos fixos, não são apresentados por
+segmento à Diretoria Executiva, uma vez que são utilizados, sem segmentação, por todas as unidades de negócio.
+Da mesma forma, os passivos não são apresentados por segmento, uma vez que são gerenciados pela tesouraria
+central.
+
+A seguir, as principais informações financeiras avaliadas pela Diretoria Executiva:
+
+
+
+
+                                                        38
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+
+                                                  39
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+
+                                                  40
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+ 22.1 Desagregação da Receita
+
+
+
+
+23 Processos judiciais, administrativos, depósitos judiciais e contingências
+
+23.1 Processos judiciais e administrativos provisionados
+A Companhia e suas investidas constituem provisões em montante suficiente para cobrir as perdas consideradas
+prováveis e confiavelmente estimáveis. As principais ações se referem aos seguintes eventos:
+
+Processos Fiscais
+(i) suposto recolhimento a menor de ICMS – Substituição Tributária em operações de revenda de produtos de
+aviação (R$ 92 em 31 de março de 2021 e R$ 28 em 31 de dezembro de 2020); e
+
+(ii) não homologação de compensações de tributos federais (exceto IPI) (R$ 57 em 31 de março de 2021 e R$ 57
+em 31 de dezembro de 2020).
+
+Processos Cíveis
+(i) processo movido por Valpar em que se discute o suposto descumprimento de Contrato de Transporte e de
+Mútuo pela Companhia, acarretando prejuízos e inviabilizando a operação de postos da autora (R$ 110 em 31 de
+março de 2021 e R$ 104 em 31 de dezembro de 2020).
+
+
+
+                                                    41
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+Processos Trabalhistas
+(i) Subsidiaridades – pedidos de condenação subsidiária da Companhia ao pagamento de verbas trabalhistas
+devidas aos empregados das empresas prestadoras de serviço (R$ 87 em 31 de março de 2021 e R$ 83 em 31 de
+dezembro de 2020);
+
+(ii) RMNR/Periculosidade - pedido de pagamento do complemento da RMNR sem dedução do adicional de
+periculosidade do valor da RMNR, em que há decisão condenatória transitada em julgado contra a Companhia (R$
+55 em 31 de março de 2021 e R$ 36 em 31 de dezembro de 2020); e
+
+(iii) Complementação/Suplementação de aposentadoria – processos trabalhistas envolvendo a BR e a Petros
+movidos por ex-empregados pleiteando diferenças nos valores recebidos em sua complementação de
+aposentadoria (R$ 54 em 31 de março de 2021).
+
+As despesas com processos judiciais e administrativos, incluindo atualizações, estão reconhecidas em outras
+receitas (despesas), líquidas.
+
+Na preparação das demonstrações contábeis intermediárias do período findo em 31 de março de 2021, a
+Companhia considerou todas as informações disponíveis relativas aos processos em que é parte envolvida para
+realizar as estimativas dos valores das obrigações e a probabilidade de saída de recursos. Entretanto, dada as
+características das provisões judiciais de longo prazo, não é possível estimar um cronograma referente à saída
+desses recursos.
+
+Essas provisões são apresentadas de acordo com a natureza das correspondentes causas:
+
+
+
+
+(*) O valor da baixa de depósitos judiciais é R$ 3 em 31 de março de 2021 (Consolidado e Controladora),conforme nota 23.2 (R$ 3 em 31 de
+março de 2020 Consolidado e Controladora).
+
+
+
+
+                                                                 42
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+23.1.1 Processos judiciais provisionados e depósitos judiciais relacionados
+
+
+
+
+23.2 Depósitos judiciais
+
+
+
+
+(a)   Por pagamento de processos judiciais.
+(b)   Inclui ajustes das estimativas de atualização e juros de depósitos levantados.
+
+A Companhia mantém R$ 326 (R$ 285 em 31 de dezembro de 2020) de depósitos judiciais vinculados a processos
+judiciais provisionados (nota 23.1.1); R$ 570 (R$ 597 em 31 de dezembro de 2020) associados a contingências
+possíveis; R$ 131 (R$ 158 em 31 de dezembro de 2020) associados a contingências remotas; R$ 93 (R$ 91 em 31
+de dezembro de 2020) referem-se a depósitos relacionados a processos nos quais a Companhia e suas investidas
+são autoras e R$ 33 (R$ 33 em 31 de dezembro de 2020) referem-se a outros.
+
+23.3 Processos não provisionados (perdas possíveis)
+
+
+
+
+                                                                  43
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+Apresentamos a seguir os principais processos não provisionados:
+
+  a)      Processos de natureza fiscal
+
+Descrição dos processos de natureza fiscal                                                         31.03.2021     31.12.2020
+Autores: Estados de SC, GO, PA, RJ, SP e TO
+       Cobrança de ICMS-ST sobre remessa e devolução simbólica de querosene de aviação para
+1)     revenda; consideração de estabelecimento atacadista como varejista; inidoneidade de
+       documentação fiscal. (a) (b) (c)                                                                   1.413          1.509
+
+Autor: Estado do RJ
+       Cobrança da diferença de alíquota nas operações internas com querosene de aviação. O
+       Estado do Rio de Janeiro conferiu benefício fiscal reduzindo a alíquota de ICMS sobre
+2)     querosene de aviação. Essa redução foi considerada inconstitucional. Hoje o Estado do Rio
+       de Janeiro cobra essa diferença das distribuidoras relativamente às vendas para as
+       companhias aéreas.                                                                                 1.367          1.364
+Autores: Estados de AL, AM, BA, CE, GO, MA, MT, PA, PB, PE, PI, RJ, SE, SP e TO
+       Processos nos quais a Companhia discute a não incidência de ICMS sobre a variação nos
+       volumes de combustíveis por sobras e faltas nos estoques decorrente da operacionalização
+       e transporte dos produtos. A Companhia recebe produtos da refinaria de petróleo
+3)     faturados à temperatura de 20º C. Quando da comercialização (clientes consumidores), a
+       Companhia vende o produto à temperatura ambiente, resultando em variação do estoque
+       decorrente das variações volumétricas naturais em função da temperatura.
+                                                                                                           963            928
+Autores: Estados do AP, BA e SP e Discom
+       Processos em que a Companhia discute de quem é a legitimidade passiva para honrar o
+       pagamento de ICMS que não foi retido por substituição tributária em virtude de liminares
+4)     obtidas pelos adquirentes, mas hoje são devidos em virtude de insucesso final desses
+       adquirentes nas demandas por eles movidas em face do Estado.
+                                                                                                           827            722
+Autor: Estado de PE
+       Processos em que o Fisco acusa a Companhia de ter tomado/utilizado crédito em
+       operações que não gerariam tal direito ao creditamento. Discute-se se as normas contidas
+5)     no §3º, do art. 32, da Lei Estadual nº 10.259/1989 e do §21, do art. 34, do Decreto nº
+       14.876/1991, que previam a possibilidade de tomada e manutenção de créditos fiscais de
+       ICMS, foram ou não tacitamente revogadas pela Lei Estadual nº 11.408/1996.
+                                                                                                           687            684
+Autor: União
+       Processos em que a Companhia discute a incidência de IPI sobre produtos derivados de
+6)     petróleo e a possibilidade de manutenção de créditos de IPI sobre aquisição de insumos
+       utilizados na produção de derivados de petróleo.                                                    539            574
+Autores: Estados do AC, AM, BA, CE, GO, MA, MT, PA, PB, RJ, RO e SP, o Distrito Federal e a
+União
+       Punição aplicada pelo descumprimento de obrigações acessórias relacionadas a
+7)     recolhimento e creditamento de ICMS, IRPJ, CSLL, PIS e COFINS, incidentes sobre operações
+       em geral pela Companhia.                                                                            245            234
+
+Autores: Estado do AC, AM, BA, CE, GO, MG, PB, PI, RO e SP
+       Processos em que a Companhia discute se existe ou não direito a crédito pelo ICMS pago
+8)     quando do frete CIF em operações interestaduais acobertadas pela imunidade. Distinção
+       entre operação e serviço de transporte. (a) (b)                                                     220            242
+
+
+
+
+                                                                  44
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+Autores: Estados do AM, CE e PE
+       Cobrança de ICMS em supostas vendas de querosene de aviação sem destaque de ICMS
+9)     para companhias aéreas nacionais e estrangeiras, para voos a outros estados ou para o
+       exterior.                                                                                    200   199
+
+
+Autor: União
+       Processos em que a Companhia discute a Contribuição Previdenciária incidente sobre verba
+10)    a título de PLR e prêmio por desempenho pagos aos empregados.                                178   157
+Autor: União
+       Discussão sobre a viabilidade quantitativa e qualitativa de compensações operadas pela
+11)    BR, cujas DCOMPs não são homologadas pela Secretaria da Receita Federal - exceto
+       créditos de IPI, tratados em outro perfil.                                                   148   110
+Autores: Estados do MT, PA e PE
+       Processos em que a Companhia foi autuada pelo Fisco, exigindo-se ICMS relativo a
+12)    operações de entrada a partir de transferências entre seus estabelecimentos.                 108   101
+Autor: Estado do RJ
+       Processo em que se discute a apropriação de crédito escritural de ICMS, tendo em vista que
+13)
+       o Estado autuou a Companhia por suposta escrituração de créditos em duplicidade.             102   102
+Autor: Estados de AL, BA, CE, MT, PI e RR
+       Processos em que a BR foi autuada pelo Fisco, exigindo-se diferenças (complemento) em
+14)
+       relação à apuração do ICMS / ST. (a)                                                         98     4
+Autores: Estados do AC, AM, BA, CE, MA, MT, PA, PE, PI, RJ, RS e SP
+       Processos em que o Fisco acusa a Companhia de ter tomado/utilizado crédito em
+15)    operações que não gerariam tal direito ao creditamento, como casos de aplicação indevida
+       do princípio da não-cumulatividade.                                                          78    77
+Autores: Estado do PA, União e Município de Sorocaba
+       Caso em que a Companhia foi autuada em razão de recolhimento extemporâneo sem
+16)    atualizar os valores na forma exigida pela Fiscalização.                                     76    75
+Autores: Estados do PR e SP
+       Guerra fiscal entre Unidades da Federação relativa a benefícios fiscais na origem e
+17)    possibilidade de creditamento em operações interestaduais.                                   76    75
+
+Autor: União
+18)    Cobranças de multas isoladas da Receita Federal em razão da não homologação de
+       compensações efetuadas pela BR.                                                              75    75
+Autor: Estado do RJ
+       Processos em que a Companhia foi autuada por utilização de NCM (Nomenclatura Comum
+19)
+       do Mercosul) de produto com a qual o Estado não concorda.                                    69    229
+Autor: União
+       Processos em que a Companhia é autuada quanto às verbas pagas como honorários a
+20)    administradores, considerando-se suposta relação empregatícia desses com a Companhia.
+                                                                                                    67    67
+Autor: União
+       Processos em que a Companhia discute a incidência de contribuição previdenciária sobre a
+21)    remuneração de autônomos que prestaram serviços à Companhia.                                 63    63
+Autores: Estados do AC, AM, BA, CE, ES, GO, MA, MS, MT, PA, PI, RJ e RO
+       Processos em que a Companhia é exigida por supostas omissões na prestação de
+22)    informações via SCANC, as quais supostamente resultaram em ausência ou insuficiência de
+       repasse de ICMS em favor da unidade federativa autuante. (b) (c)                             61    122
+
+
+
+
+                                                                   45
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+Autor: União
+       Processos em que a Companhia é autuada como responsável solidária pelo recolhimento
+23)
+       de contribuições previdenciárias.                                                                                52                  52
+
+Autor: Estados do MT e SP
+       Processos em que o estado cobra da BR tributo retido e não recolhido por alienante
+24)
+       (usina de etanol).                                                                                             52                     50
+       Processos diversos de natureza fiscal                                                                         353                    328
+       Total                                                                                                       8.117                  8.143
+Ocorreram reclassificações entre os perfis, conforme segue abaixo:
+
+      (a) reclassificação de R$102 do perfil "1 - ICMS – Aviação Revenda" para os perfis "8 - ICMS Crédito sobre frete" (R$ 8)” e "14-ICMS –
+          ST complemento" (R$94).
+      (b) reclassificação de R$ 185 do perfil "8 - ICMS – Crédito sobre frete" para os perfis "1 - ICMS - Aviação Revenda" (R$ 183)” e " 22 -
+          ICMS - Omissões Scanc" (R$ 2).
+      (c) reclassificação de R$121 do perfil "22 - ICMS – Omissões Scanc" para o perfil "1 - ICMS - Aviação Revenda".
+
+
+ b)           Processos de natureza cível
+
+Descrição dos processos de natureza cível                                                                  31.03.2021        31.12.2020
+
+Autor: WTorre Engenharia E Construção S.A..
+      Procedimento arbitral instaurado pelas requerentes em virtude de imbróglio decorrente de
+      suposta fraude à inexigibilidade de licitação para contratação de locação atípica (BTS) para
+1)    operação do Terminal de Rondonópolis.
+        Situação atual: Decisão suspendendo a arbitragem enquanto estiver eficaz a liminar favorável
+        à Companhia deferida na Ação Civil Pública movida em face da W. Torre.                                  1.176            1.141
+
+Autor: CADE - Conselho Administrativo de Defesa Econômica
+       Inquérito convertido em Processo Administrativo em decisão publicada em 02/07/2020. O
+      Processo Administrativo foi instaurado com o objetivo de apurar a suposta adoção de
+      condutas concertadas no mercado de distribuição e revenda de combustíveis automotivos no
+      Distrito Federal.
+
+
+
+
+        Situação atual: Nota Técnica convertendo o Inquérito Administrativo em Processo
+2)      Administrativo em face da BR, Adão e Sanches. As infrações à ordem econômica a serem
+        apuradas são: 284. A SG/CADE entende que a BR Distribuidora, por meio de Adão do
+        Nascimento Pereira e Luiz Cláudio Caseira Sanches, teria participado de acordo de preços do
+        etanol e de divisão de clientes no Distrito Federal/DF, bem como adotado uma política de
+        discriminação de adquirentes em âmbito nacional, com efeito no mercado do Distrito
+        Federal/DF. Aguarda-se o início da contagem do prazo para defesa.
+
+
+                                                                                                                  344              343
+
+
+
+
+                                                                      46
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+Autor: Forte Comércio, Importação, Exportação e Administração
+      Ação cível perante a justiça do Estado de São Paulo, com pedido de rescisão de contratos e
+      indenização por perdas e danos, sob alegação de a Companhia ter descumprido obrigação
+      que teria assumido para o soerguimento do Grupo Forte.
+       Situação atual: A União opôs embargos de divergência contra o acórdão que rejeitou os seus
+      embargos de declaração (RESP nº 1.265.625). O valor em discussão atualizado é R$ 1,6 bilhão,
+      conforme proposta de acordo apresentada pela Rede Forte em 2017. No fim de 2017, a Rede
+      Forte enviou carta ao mercado estimando a condenação em R$8 bilhões – nada obstante ter
+      se manifestado em juízo a respeito de sua iliquidez. Em julho de 2018, enviou nova carta ao
+3)    mercado estimando a condenação em R$10.600 milhões, tendo iniciado execução provisória
+      de sentença neste montante. O pleito foi indeferido pelo juízo e a decisão mantida pelo TJSP
+      após interposição de agravo de instrumento pela autora, dentre outros motivos, pela
+      necessidade de novo julgamento pelo TJSP, que poderá alterar a condenação, bem como as
+      suas premissas. Tal decisão não foi desafiada por novos recursos da Autora. No entendimento
+      da Administração da Cia, alinhado aos dos advogados que patrocinam a causa, o valor da
+      contingência está indicado neste documento. Tal diferença decorre da necessidade de se
+      promover uma liquidação da sentença, fazendo com que o risco atual não possa ser definido
+      com precisão                                                                                   301   294
+Autor: DISCOM Distribuidora de Combustíveis e Comércio Ltda.
+      A DISCOM alega que a Companhia, desde outubro de 1997, firmou contrato de promessa de
+      compra e venda mercantil, constando no mesmo a obrigação da Companhia em fornecer
+      produtos. Alega que a Companhia teria deixado de cumprir o contrato imotivadamente,
+      suspendendo a entrega de produtos a partir de 25 de maio de 2000, tendo assim violado o
+4)    contrato firmado gerando inúmeros prejuízos para a DISCOM. Requer indenização por perdas
+      e danos e lucros cessantes e indenização por danos morais.
+      Situação atual: Aguardando o julgamento do Recurso de Apelação da Companhia, e do
+      recurso Adesivo da DISCOM.                                                                     234   230
+
+Autor: Francisco Messias Cameli
+      Ação cível perante a justiça do Estado do Amazonas para cobrança de aluguel, em razão de
+      sobrestadia de embarcações na Base de Distribuição Secundária do Cruzeiro do Sul (BASUL).
+
+
+5)    Situação atual: Em 23/06/2020 foi publicado o acórdão do julgamento em 2ª instância
+      negando provimento ao recurso da BR, por maioria de votos, vencido o Desembargador
+      Relator que dava provimento ao apelo recursal. Em 29/06/2020 a BR interpôs recurso de
+      Embargos de Declaração, que foram rejeitados. Interposto pela BR o Recurso Especial, este
+      foi admitido na origem. Aguarda-se distribuição do recurso perante o STJ.                      206   201
+Autor: Dislub Distribuidora De Lubrificantes Ltda.
+      Autor moveu ação em face da BR objetivando a rescisão do contrato de distribuição, o
+      pagamento de indenização a título de perdas e danos sobre uma série de alegados prejuízos
+      e o pagamento de multa contratual. A BR foi condenada a reparar apenas o dano material,
+      na forma de lucros cessantes. Porém, o cálculo do perito foi realizado com base nas vendas
+      mensais dos produtos pela Dislub sem a dedução dos seus custos operacionais e tributários.
+      Tal metodologia de cálculo elevou o crédito da Dislub para os valores atuais.
+
+      Situação atual: BR foi condenada em indenizar lucros cessantes, calculados por perícia
+      homologada pelo juízo e confirmada pelo Tribunal pelo faturamento bruto, sem desconto dos
+6)    custos operacionais. Em razão disso, BR recorreu ao STJ e anulou o acórdão para determinar
+      que Tribunal se manifestasse sobre a necessidade de desconto dos lucros cessantes - em linha
+      com a jurisprudência da corte. Por essa razão, mantivemos o valor do risco financeiro,
+      contudo, imputamos como provável o risco jurídico de pagar o valor encontrado pelo
+      assistente técnico da BR aplicando as premissas da decisão e jurisprudência do STJ,
+      reclassificando como possível a diferença entre o valor atualizado pleiteado por DISLUB e o
+      valor provisionado. No retorno do processo ao TJ, foram acolhidos os Emargos de Declaração
+      para reconhecer as omissões apontadas pela BR, contudo, sem efeitos modificativos,
+      mantendo, assim, a condenação. Novo Recurso Especial foi protocolizado e aguarda-se
+      apreciação pelo TJPR.                                                                          104   99
+
+
+
+                                                                   47
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+      Autor: CADE - Conselho Administrativo de Defesa Econômica
+      Trata-se de investigação administrativa de suposta prática anticoncorrencial de abuso de
+      posição dominante, com pedido de adoção de medida preventiva, deflagrada por GRAN
+      PETRO contra as empresas que compõem o pool de aviação no aeroporto de Guarulhos-SP.
+
+      Situação atual: Em 10/09/2020 a SG/CADE emitiu parecer por meio da Nota Técnica nº
+      31/2020/CGAA4/SGA1/SG/CADE opinando pela condenação das Representadas em virtude
+      de, a seu ver, configuração de infração à ordem econômica por imposição artificial de
+7)    barreiras à entrada no mercado relevante de comercialização de Querosene de Aviação
+      ("QAv") no Aeroporto de Guarulhos, Em 22/12/2020 o Ministério Público Federal emitiu
+      parecer pelo arquivamento do processo por não vislumbrar as mencionadas infrações à
+      ordem econômica.                                                                                85   84
+
+Autor: Único Combustíveis Ltda.
+      O autor ajuizou ação postulando indenização pela responsabilidade da Companhia na rescisão
+8)    do contrato de fornecimento de combustíveis. A Companhia se defendeu afirmando que o
+      autor, e não ela, deu causa à rescisão.
+      Situação atual: Ação com trânsito em julgado desfavorável à Companhia, em fase de
+      execução. A Companhia apresentou recurso sustentando que o critério de margem
+      bruta/líquida para fins de apuração dos lucros cessantes foi equivocadamente utilizado pelo
+      perito, o que foi acolhido em decisão do Superior Tribunal de Justiça. Ao rejulgar o Embargos
+      de Declaração, o TJPR voltou a negar-lhe provimento. Essa nova decisão negativa foi desafiada
+      pela BR por Recurso Especial, que foi admitido no TJPR com efeito suspensivo e será
+      encaminhado ao STJ para julgamento.                                                             76   75
+
+Autor: CADE - Conselho Administrativo de Defesa Econômica
+      Cuida-se de ação anulatória buscando ver desconstituída decisão administrativa do CADE
+      oriunda de procedimento de investigação a respeito de supostos cartéis na revenda e
+      distribuição de combustíveis em Belo Horizonte e adjacências.
+      Situação atual: Em 10 de abril de 2019, o Tribunal Colegiado do CADE finalizou o julgamento,
+      e por maioria de votos (3 a 2), a Companhia foi absolvida pelo CADE da acusação de formação
+      de cartel. Por unanimidade, contudo, a Companhia e a IPP foram condenadas pelo CADE, por
+9)    suposto exercício de influência negativa na cadeia econômica de revenda. Em setembro de
+      2019 a Companhia ajuizou ação anulatória do débito, com oferta de garantia, perante a
+      Justiça Federal do Distrito Federal. Nesse processo foi proferida decisão concedendo efeito
+      suspensivo ao agravo de instrumento interposto pela BR, suspendendo a multa administrava
+      oriunda da decisão do CADE até ulterior decisão do juízo competente. Foi ainda determinado,
+      na mesma decisão, que o CADE se abstenha de inscrever no CADIN e em qualquer cadastro
+      de proteção ao crédito, o nome da PETROBRAS DISTRIBUIDORA S.A. Em 22/10/2020, BR
+      protocolou a sua réplica.                                                                       72   70
+
+Autor: Viação Ouro Verde E Outros
+
+
+
+      Autoras afirmam que a BR não observou cláusula de proporção de volume exigida nos
+      contratos vinculados de fornecimento de combustível e de transporte (fretes). Alegam que a
+      BR sempre se valeu dos transportes contratados em quantidade aquém da avençada e, com
+      isso, causou-lhes prejuízo.
+10)
+      Situação atual: BR foi condenada a ressarcimento de fretes e pagamento de perdas e danos
+      às Autoras. Iniciado cumprimento de sentença, as Autoras apresentaram petição com a
+      quantia que entende devida: R$1.041 de indenização a título de frete não transportado e
+      R$83 a título de lucros cessantes.
+
+
+                                                                                                      68   75
+
+
+
+
+                                                                   48
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+      A Companhia requereu a produção de prova pericial técnica para apuração dos volumes e
+      período de contrato que servirão de premissa à liquidação dos valores da condenação. Com
+      apoio dos seus assistentes técnicos, a Companhia avalia que R$83 equivaleria ao lucro líquido
+      que seria obtido com base em faturamento bruto de R$1.041, relativo ao volume de fretes
+      que deveriam ter sido transportados indicados pelas Autoras. Assim, a Companhia considerou
+      provável a perda de valor estimado com base na proporcionalidade prevista no contrato e
+      possível a perda indicada neste documento.
+      Autor: Carrefour Comércio E Indústria Ltda
+
+      Ação monitoria objetivando a cobrança de valores que foram glosados pelo BR, em razão de
+11)   discussão sobre cláusulas do contrato de fornecimento de combustível firmado entre as
+      partes.
+
+      Situação atual: Processo em fase de produção de provas.                                            67      63
+
+      Autor: Posto Pau de Vela Bahia Ltda
+
+      Autor pede o pagamento de indenização por danos causados ao posto em função de práticas
+      (preços e prazos) que inviabilizariam a obtenção de lucro pelo autor, além dos gastos em
+      investimentos e danos morais. Pautada na tese da responsabilidade objetiva, busca ter por
+      ressarcidos os prejuízos ocasionados pelo descumprimento dos contratos firmados com a
+      Companhia, especialmente no que tange aos lucros, de forma a remunerar seus custos
+      operacionais proporcionando, assim a rentabilidade pactuada.
+
+12)   Situação atual: Foi juntado laudo pericial nos autos indicando que algumas condições
+      comerciais impostas pela Companhia teriam sido um dos fatores que colaboraram para os
+      prejuízos sofridos pela parte autora. Entretanto, não foi feita liquidação, de modo que não se
+      pode afirmar ainda a exata extensão desses alegados danos. O laudo elaborado por assistente
+      técnico da Companhia rebate as conclusões do perito nomeado pelo juízo. O processo se
+      encontra pendente de julgamento.                                                                   55      53
+
+      Autor: Rrf Participações E Administração De Empresas S.A.
+
+      RRF (na qualidade de subsituta processual) ajuizou ação de reparação civil contra a BR em
+      razão de supostos prejuízos causados à BRF, pessoa jurídica em que ambas as partes são
+      sócias. RRF fundamenta sua pretensão no descumprimento, pela BR, de seus deveres
+13)   societários.
+
+      Situação atual: BR apresentou contestação.                                                         54      51
+      Processos diversos de natureza cível                                                              547     515
+      Total                                                                                            3.389   3.294
+
+
+
+
+                                                                    49
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+c)      Processos de natureza trabalhista
+
+
+Descrição dos processos de natureza trabalhistas                                                        31.03.2021             31.12.2020
+Autores: Diversos
+    Ações judiciais nas quais os empregados/ex-empregados da Companhia pleiteiam o
+1) pagamento do Complemento da RMNR sem a dedução do adicional de periculosidade.
+                                                                                                                    356                236
+
+Autores: Diversos
+    Processos trabalhistas movidos por ex-empregados/empregados de empresas
+2) transportadoras de produtos combustíveis derivados de petróleo contratados pela
+    Companhia.                                                                                                      78                  67
+Autores: Diversos
+    Ações judiciais nas quais os ex-empregados das empresas contratadas da Companhia
+3) pleiteiam a condenação subsidiária da Companhia ao pagamento dos seus créditos
+    trabalhistas.                                                                                                   60                  58
+
+
+Autores: Diversos
+    Ações judiciais nas quais os empregados/ex-empregados da BR pleiteiam o pagamento do
+    adicional de periculosidade sob o fundamento de que executam seu trabalho em condições
+4) de periculosidade, estando expostos aos agentes nocivos, na forma prevista na Norma
+    Regulamentadora nº 16 do Ministério do Trabalho e do Emprego.                                                   60                  41
+
+     Processos diversos de natureza trabalhista                                                                     157                307
+     Total                                                                                                          711                709
+
+
+
+d)    Processos de natureza ambiental
+
+Descrição dos processos de natureza ambiental                                                          31.03.2021         31.12.2020
+Autor: Ministério Público do Estado de Goiás
+     Ação Civil Pública por meio da qual o MP-GO pede a condenação da Companhia, da
+     Transportadora ITA e do Município de Goiânia em danos ambientais decorrentes de
+     derramamento de 12.000 litros de produto asfáltico em rios do Estado de Goiás, em razão de
+1)
+     acidente ocorrido no momento da descarga do caminhão-tanque na Secretaria de Obras de
+     Goiânia, cliente da Companhia.
+
+     Situação atual: Processo em fase de perícia. Foi realizada audiência de conciliação em fev/21,
+     sem acordo. Diante da dificuldade de peritos especialistas na comarca, juiz requereu às partes
+     indicações de assistentes e peritos capazes de atuar. BR e ITA (co-ré) fizeram suas indicações.
+                                                                                                              116               116
+     Processos diversos de natureza ambiental                                                                  30                29
+     Total                                                                                                    146               145
+
+
+24 Compromissos contratuais
+
+a) Contratos “take or pay” de compras
+
+A Companhia possui compromissos de compras de derivados de petróleo, para o período de 3 anos, que
+correspondem a um valor total estimado de R$ 97 com a Petrobras e R$ 53 com a Refinaria de Petróleo
+Riograndense.
+
+
+
+                                                                     50
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+A Companhia possui compromissos de compras de gás natural veicular para o período de dois anos, num valor
+estimado de R$ 46 com a Companhia de Gás de Santa Catarina (SCGAS).
+
+b) Contratos “take or pay” de serviços
+
+A Companhia possui compromissos com a Logum Logística S.A. referente a transporte dutoviário de etanol, num
+valor total restante estimado de R$ 848, até março de 2029. O contrato envolve o suprimento das bases de São
+Paulo e Rio de Janeiro e prevê um volume mínimo a ser movimentado (take or pay) por cada trecho.
+
+Serviços de beneficiamento prestados pela Brasil Carbonos nas plantas de Taubaté/SP e Cosmópolis, cujo saldo
+contratual remanescente refere-se a aproximadamente 15,1 mil toneladas de coque verde de petróleo, ao valor
+estimado de R$ 415, até outubro de 2033.
+
+A Companhia possui compromissos com a Ageo Terminais referente a serviço de armazenagem, para o período de
+1 ano, ao valor estimado de R$ 44.
+
+A Companhia possui compromissos com a VLI Multimodal S.A. referente a transporte ferroviário, para o período
+de 2 anos, ao valor estimado de R$ 83.
+
+25 Instrumentos financeiros
+Apresentamos os principais instrumentos financeiros incluídos no balanço patrimonial e suas devidas categorias:
+
+
+
+
+                                                      51
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+26     Gerenciamento de riscos
+
+A administração dos instrumentos financeiros detidos pela Companhia é efetuada por meio de estratégias
+operacionais e controles internos, visando à liquidez, no tocante à escolha das contrapartes, rentabilidade e
+segurança das áreas comerciais para as quais as operações são efetuadas.
+
+A política de controle consiste no acompanhamento permanente das taxas contratadas versus as vigentes no
+mercado, sendo o objetivo final a preservação das margens obtidas com a política de hedge definida em conjunto
+com as áreas comerciais. A Companhia não efetua aplicações de caráter especulativo em derivativos ou quaisquer
+outros ativos de risco elevado. A Companhia realiza transações com instrumentos financeiros derivativos apenas
+com o objetivo de reduzir riscos relacionados à variação cambial.
+
+O gerenciamento do risco de crédito da Companhia tem como principal fórum de discussão o Comitê de Crédito,
+que define os principais parâmetros e diretrizes para a política de concessão de crédito. As análises de solicitações
+de crédito, de acordo com os patamares de valores, possuem trâmites específicos e exigências crescentes conforme
+o nível de exposição, sendo que alguns casos alçam à decisão de Diretoria Executiva.
+
+A gestão de riscos da Companhia considera o risco proveniente de obrigações assumidas por terceiros perante a
+Companhia (risco de crédito), bem como o risco gerado pelas variáveis negociadas no mercado financeiro (risco de
+mercado), entre outros.
+
+Quanto à exposição ao câmbio, a política de gestão desse tipo de risco é definida pela Diretoria Executiva, com
+gerenciamento conjunto das áreas financeira e comercial, responsáveis pelo faturamento internacional.
+
+26.1 Riscos de mercado
+
+26.1.1 Risco cambial
+
+Em função das vendas a clientes estrangeiros, da importação de produtos e de captações de empréstimos em
+moeda estrangeira, o risco cambial é um dos riscos aos quais a Companhia está exposta.
+
+26.1.1.1 Gerenciamento de risco cambial
+
+Contratos de SWAP
+
+Entre janeiro e março deste ano, a Companhia contratou operações de swap em virtude de captações de recursos
+realizadas através de Loan 4131 para proteção contra a variação cambial da dívida contraída em moeda estrangeira.
+Essas novas operações de swap possuem um nocional total de R$1.740.
+
+Em 31 de março de 2021, os empréstimos e financiamentos da Companhia indexados à variação de moedas
+estrangeiras encontram-se integralmente protegidos, tanto em prazo quanto em valor, por contratos de swap. Os
+ganhos ou perdas com esses contratos de swap são registrados no resultado da Companhia.
+
+
+
+
+                                                        52
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+US$ x CDI
+
+A Companhia possui oito contratos desta modalidade, cujo valor nocional agregado é de US$ 938 milhões com
+diversos vencimentos até 12/03/2026, com uma posição ativa (comprada) em dólares indexados à taxa pré-fixada,
+e posição passiva (vendida) em reais indexados ao CDI + spread, totalizando um nocional de R$ 4.473.
+
+YEN x CDI
+
+A Companhia possui um contrato desta modalidade, cujo valor nocional é de ¥ 2.449 milhões (R$ 129 em 31 de
+março de 2021) com vencimento em 09/04/2021, com uma posição ativa (comprada) em YEN indexado a uma taxa
+pré-fixada, e posição passiva (vendida) em reais indexados ao CDI + spread, totalizando um nocional de R$ 115.
+
+
+
+
+Em 31 de março o resultado dos SWAP das nove operações foi precificado em R$ 821.
+
+O valor justo do swap é calculado como o valor presente dos fluxos de caixa futuros estimados. As estimativas de
+fluxos de caixa futuros de taxa flutuante são baseadas em taxas de swap cotadas, preços futuros e taxas de
+empréstimos interbancários. Os fluxos de caixa estimados são descontados usando uma curva de rendimento
+construída a partir de fontes semelhantes e que reflete a taxa interbancária de referência relevante usada pelos
+participantes do mercado para essa finalidade ao precificar swaps de taxa de juros. O valor justo do SWAP de Iene
+x CDI, é calculado pela paridade iene-dólar. A estimativa do valor justo do resultado do SWAP está sujeita a um
+ajuste do risco de crédito que reflete o risco de crédito da contraparte, isso é calculado com base no CDS (Credit
+Default Swap) tendo como fonte a Bloomberg.
+
+As operações de Swap contratadas e vigentes em 31 de março de 2021 estão demonstradas a seguir:
+
+
+
+
+                                                      53
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+No primeiro trimestre de 2021 foram efetuados pagamentos de ajustes de swap no montante de R$ 4 e
+recebimentos no montante de R$ 3.
+
+ Análise de sensibilidade – efeito na variação do valor justo dos swaps
+
+A Companhia tem passivos atrelados à moeda estrangeira no balanço de 31 de março de 2021 e com o objetivo de
+identificar possíveis distorções advindas das operações com instrumentos financeiros derivativos consolidados
+atualmente vigentes, uma análise de sensibilidade foi realizada. Para as dívidas em dólar e os respectivos
+instrumentos de hedge (SWAPs Dólar x DI) adotou como cenário provável o câmbio projetado pelo relatório Focus
+publicado em 26/03/2021. Para a dívida em iene e o respectivo instrumento de hedge (SWAP Iene x DI) adotou
+como cenário provável o contrato futuro de JPYUSD e o câmbio USDBRL projetado pelo relatório Focus publicado
+em 31/03/2021.
+
+As análises de sensibilidade apresentadas consideram mudanças com relação às variáveis de riscos assumidas,
+mantendo constantes as demais.
+
+Análise de Sensibilidade ao USD
+
+
+
+
+                                   31/03/2021     Cenário Provável
+                     USDBRL        R$ 5,6973          R$ 5,55
+
+
+
+
+Análise de Sensibilidade ao Iene
+
+
+
+
+                                   31/03/2021      Cenário Provável
+                   JPYUSD      R$ 0,009032      R$ 0,0091
+                   USDBRL      R$ 5,6973        R$ 5,55
+
+
+
+
+                                                          54
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+Non Deliverable Forward - NDF
+
+A Companhia contrata operações de hedge cambial para: (i) cobertura das margens comerciais inerentes às vendas
+de combustíveis de aviação para clientes estrangeiros, (ii) para proteção contra a variação cambial nas operações
+de importação de combustíveis, (iii) para hedge de estoques, (iv) para garantia de preço do Cartão Caminhoneiro.
+No primeiro caso, o objetivo da operação é garantir que as margens comerciais pactuadas junto aos clientes sejam
+mantidas durante o prazo de vigência dos preços negociados, bem como durante o prazo comercial de pagamento.
+No segundo caso, o objetivo é proteger o custo do produto importado. No terceiro caso, o objetivo é alinhar o
+custo do estoque ao nível de mercado. No quarto caso, ainda em fase inicial, é a garantia de preço do Cartão do
+Caminhoneiro.
+
+Em relação ao faturamento de exportação em dólar do segmento de aviação ocorrido entre janeiro e março de
+2021, o percentual de hedge contratado representou 100%. No tocante ao montante importado, a Companhia
+contratou hedge cambial, entre janeiro e março de 2021, para 100% das cargas onde há exposição cambial.
+
+A política de gestão de risco financeiro da Companhia prevê a contratação de operações de hedge cambial para
+cobertura de, aproximadamente, 100% tanto do montante das exportações quanto das importações.
+
+As liquidações de todas as operações de hedge cambial com NDF entre janeiro e março de 2021 geraram um fluxo
+positivo para a Companhia de R$ 35.
+
+Cabe destacar que a Companhia não utilizou nenhum outro instrumento derivativo nas operações de hedge
+cambial além do NDF e Swap.
+
+Nenhuma das operações em questão exigiu o depósito de margens de garantia.
+
+
+
+
+A seguinte análise de sensibilidade foi realizada para o valor justo dos derivativos de moeda estrangeira. O cenário
+provável é o valor justo em 31 de março de 2021, onde é calculado com base na PTAX de venda do último dia útil
+atualizada pelo cupom limpo, obtido no site da B3, que ajusta o valor de acordo com o vencimento de cada
+contrato. Datas intermediárias são interpoladas.
+
+
+
+
+  (*) A Companhia tem mais posição comprada do que vendida em USD.
+
+
+
+
+                                                             55
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ A seguir a análise de sensibilidade dos demais instrumentos financeiros sujeitos à variação cambial:
+
+
+
+
+Critérios
+Cenário provável - Variação de -2,585% do Real frente ao Dólar e de -1,852% frente ao Iene. Fonte: Focus.
+
+
+ 26.1.2 Risco de taxa de juros
+
+ O risco de taxa de juros da Companhia está associado, principalmente, ao CDI e ao IPCA, que são os indicadores
+ dos principais financiamentos (Debêntures, Certificados de Recebíveis Imobiliários-CRI, Nota de Crédito de
+ Exportação-NCE, Loan 4131 e Debêntures dos Certificados de Recebíveis de Agronegócios-CRA).
+
+ 26.1.2.1 Gerenciamento de risco de taxa de juros
+
+ A Companhia e suas investidas consolidadas, atualmente não utilizam instrumentos financeiros derivativos para
+ gerenciar sua exposição às flutuações das taxas de juros.
+
+ Segue a análise de sensibilidade dos principais ativos e passivos financeiros, atrelados a taxas de juros pós-fixadas,
+ em 31 de março de 2021.
+
+
+
+
+                                                                    56
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+
+Critérios
+Cenário provável - considera a projeção das taxas para 2021, conforme Sistema de Expectativas de Mercado do Banco Central do Brasil. Em
+relação ao CDI, foi utilizada como fonte a CETIP.
+
+ 26.1.3 Gerenciamento de risco de preços
+
+ Atualmente a política de preços da Petrobras para diesel e gasolina, além de levar em consideração fatores como
+ sua capacidade produtiva de refino, tem como objetivo alinhar os preços de derivados de petróleo com o mercado
+ internacional. Com isso, o preço do combustível no mercado interno tem sofrido alterações para acompanhar esse
+ movimento.
+
+ No mercado internacional, os preços praticados para venda do petróleo e seus derivados são influenciados por
+ diversos fatores de caráter macroeconômico, geopolítico, capacidade de produção por parte da Organização dos
+ Países Exportadores de Petróleo (OPEP), impactos no meio ambiente e desenvolvimento de novas tecnologias e
+ fontes alternativas de energia, dentre outros. Tendo em vista esses fatores diversos, alheios ao controle da
+ Companhia, de forma a mitigar o risco de commodity e favorecer o alinhamento entre o fluxo de receita e despesa,
+ a Companhia passou a realizar operação de hedge para as cargas compradas no mercado internacional. Desta
+ forma, acredita-se que os custos e receitas da Companhia estejam mais aderentes ao planejado, fazendo com que
+ o fluxo de caixa seja preservado, assim como a rentabilidade dos negócios.
+
+
+
+
+                                                                  57
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+Conforme política de gestão de risco todas as operações com derivativos de commodity possuem lastro em
+atividades comerciais e de suprimento.
+
+A análise de sensibilidade considera a maior variação percentual ocorrida nos contratos futuros de Heating Oil e
+Rbob (1º vencimento) nos últimos 6 meses para o período de 21 dias úteis (tempo médio de exposição) e está
+apresentada a seguir:
+
+
+
+
+Foi utilizada a Ptax Venda de 31/03/2021 (5,6973) para cálculo dos números descritos acima.
+
+
+
+26.2 Risco de liquidez
+O risco de liquidez da Companhia está associado a dificuldades para liquidação de seus passivos financeiros nos
+devidos vencimentos, em virtude de possíveis insuficiências de caixa ou de ativos financeiros. Para monitoramento
+desse risco, a Companhia centraliza a gestão do caixa na área financeira, trabalhando com previsões de fluxos de
+caixa que são revistas mensalmente e discutidas em fóruns e comitês executivos representativos.
+
+As principais fontes de liquidez da Companhia derivam (a) do fluxo de caixa gerado por suas operações, (b) do saldo
+de caixa e aplicações financeiras e (c) de eventuais empréstimos e financiamentos. A Companhia acredita que essas
+fontes são adequadas para atender aos seus usos de fontes atuais, o que inclui, mas não se limita a capital de giro,
+capital de investimento, amortização de dívidas e pagamento de dividendos.
+
+O fluxo não descontado a valor presente do principal e juros dos financiamentos, por vencimento, é apresentado
+a seguir:
+
+
+
+
+O fluxo dos pagamentos de arrendamentos está apresentado na nota 14.
+
+O restante dos passivos financeiros possui expectativa de realização de curto prazo, e estão consequentemente
+classificados no passivo circulante.
+
+26.3 Risco de crédito
+A exposição ao risco de crédito na Companhia surge a partir do fornecimento de produtos a prazo, decorrente de
+suas operações comerciais usuais, das aplicações financeiras e instrumentos de proteção e instrumentos
+financeiros destinados à proteção (hedge).
+
+
+
+
+                                                                 58
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+26.3.1 Gerenciamento de risco de crédito
+
+Risco de Crédito de Contrapartes Comerciais
+A Política de Crédito e Cobrança da Companhia define esferas de aprovação para cada cliente considerando o valor
+solicitado e estabelece prazos de vigência de limites, de forma a permitir reavaliação periódica da situação de cada
+cliente com relação ao risco que este possa representar.
+
+Na análise são avaliados os comportamentos de pagamento do cliente e de seu grupo econômico, as restrições de
+mercado, as garantias reais (hipotecas), as garantias pessoais (fianças) e realizadas análises de balanço. A
+Companhia utiliza-se de tabela de limite de competência aprovada pela Administração para concessão de crédito.
+
+O crédito concedido a instituições financeiras, nas operações derivativos, está distribuído entre os principais bancos
+internacionais considerados pelas classificadoras internacionais de riscos como Grau de Investimento e os mais
+importantes bancos brasileiros, segue rating abaixo:
+
+
+
+
+Risco de crédito carteira comercial
+A carteira de crédito comercial da Companhia é bastante diversificada, atendendo clientes da rede automotiva e
+grandes consumidores, representados, principalmente, por indústrias, transportadoras, clientes governo e setor
+aéreo. A exposição ao risco de crédito está representada, principalmente, pelo saldo de contas a receber. A
+expectativa de liquidação desses recebíveis está detalhada na nota 6.
+
+A carteira da Companhia somava R$ 14.991 em 31 de março de 2021.
+
+Para os clientes da Rede de Postos e B2B sem aviação, a Companhia avalia a estimativa de perdas dos créditos com
+base nos segmentos e histórico de pagamentos dos clientes. As taxas são calculadas considerando o
+comportamento dos últimos 3 anos, sendo reavaliadas trimestralmente.
+
+Para o setor elétrico, a Companhia possui uma matriz separada, dado o histórico e especificidade deste segmento.
+
+
+
+
+                                                        59
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+Em relação ao segmento de aviação, devido ao aumento no risco de crédito mencionado na nota 1.3, decorrente
+do impacto da pandemia do COVID-19, a Companhia incorporou o aumento da probabilidade de default na matriz
+utilizada para o cálculo das perdas de crédito esperadas, utilizando-se dos ratings divulgados pelas agências
+classificadoras de risco para as empresas aéreas mais representativas do contas a receber, extrapolando este
+impacto para toda a carteira de recebíveis da aviação.
+
+A seguir a matriz atualmente vigente:
+
+
+
+
+Risco de Crédito de instituições financeiras
+Para as operações envolvendo caixa e equivalentes de caixa, títulos e valores mobiliários e derivativos, a Companhia
+segue as disposições da sua Política de Aplicação Financeira e Limites de Crédito de Contrapartes Financeiras que
+tem como objetivo a mitigação do risco através da diversificação junto às instituições financeiras que possuam boa
+qualidade de crédito. É realizado o acompanhamento da exposição com cada contraparte, sua qualidade de crédito
+e seus ratings de longo prazo publicados pelas agências de rating através de limites de: (i) Rating Mínimo em escala
+Local; (ii) PL Mínimo da Instituição Financeira; (iii) % de exposição ao PL da Instituição financeira e (iv) % de
+exposição máxima da Companhia a uma instituição financeira.
+
+26.3.2 Outros ativos financeiros
+A qualidade do crédito de ativos financeiros classificados como caixa e equivalentes de caixa e títulos e valores
+mobiliários tem como base a classificação de risco concedida por agências avaliadoras Standard & Poor’s, Moody’s
+e Fitch. As informações sobre estes ativos financeiros, que não estão vencidos e sem evidências de perdas, estão
+dispostas a seguir:
+
+
+
+
+(*) Os ratings listados na tabela possuem referência em Escala Nacional e a ausência de classificação indica que a respectiva instituição
+financeira não está classificada segundo esse critério pelas agências S&P e Moody's. Os ratings em Escala Global neste caso são BBB+ em
+2021 e 2020.
+
+
+
+
+                                                                  60
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+26.4 Gestão de capital
+A gestão do capital consiste no conjunto de processos que visam assegurar que a Companhia mantenha adequada
+base de capital para o desenvolvimento de suas atividades, fazendo face aos seus compromissos financeiros e
+riscos, almejando manter um perfil adequado de endividamento e garantindo retorno aos seus acionistas. A
+Companhia poderá alterar a sua estrutura de capital conforme as condições macroeconômicas.
+
+
+
+
+26.5 Mensuração ao valor justo
+
+As mensurações do valor justo são classificadas em diferentes níveis em uma hierarquia, conforme descrito a
+seguir, com base no grau em que as informações para as mensurações do valor justo são observáveis:
+
+• Nível 1 - são preços cotados (não ajustados) em mercados ativos para ativos ou passivos idênticos aos quais a
+entidade pode ter acesso na data de mensuração;
+• Nível 2 - são informações, que não os preços cotados incluídos no Nível 1, observáveis para o ativo ou passivo,
+direta ou indiretamente;
+• Nível 3 - são informações não observáveis para o ativo ou passivo.
+
+Em 31 de março de 2021, o valor justo estimado para os financiamentos da Companhia, calculado a taxas de
+mercado vigentes, é apresentado na nota explicativa 13.2.
+
+Os valores justos de caixa e equivalentes de caixa e outros ativos e passivos financeiros são equivalentes ou não
+diferem significativamente de seus valores contábeis.
+
+27 Partes relacionadas
+A Companhia possui política de transações com partes relacionadas, aprovada pelo Conselho de Administração,
+que visa estabelecer regras para assegurar que todas as decisões envolvendo partes relacionadas e situações com
+potencial conflito de interesses respeitem a legislação, inclusive dos países onde atua e as partes envolvidas nas
+negociações.
+
+
+
+
+                                                      61
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+27.1 Transações comerciais e outras operações
+27.1.1 Por operação
+
+
+
+
+As compras efetuadas com a Petrobras totalizaram R$ 17.343 (R$ 11.372 até março de 2020), com a Refinaria de
+Petróleo Riograndense R$ 108 (R$ 127 até março de 2020) e com as Distribuidoras de Gás R$ 57 (R$ 80 até março
+de 2020).
+
+A Companhia possui contratos mínimos de compra com a Petrobras, conforme mencionado na nota 24 (a).
+Adicionalmente, a Companhia possui contratos com a Petrobras para o período de 3 anos referentes a compra de
+derivados de petróleo, que corresponde a um valor total estimado de R$ 31.792.
+
+
+
+
+                                                    62
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+27.1.2 Por empresa
+
+
+
+
+                                                  63
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+
+(*) Em 18 de agosto de 2020 a Companhia concluiu o processo de venda da totalidade da participação na Stratura.
+(**) Em 05 de junho de 2020, a Companhia realizou o fechamento da operação de venda da totalidade de sua participação acionária na
+CDGN LOGÍSTICA S.A. ao MDC I Fundo de Investimento em Participações Multiestratégia.
+
+     As transações com bancos controlados pela União foram efetuadas, principalmente, com o Banco do Brasil.
+
+
+
+
+                                                                  64
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+27.2 Remuneração da administração da Companhia
+As remunerações totais dos membros do conselho de administração e da diretoria executiva da Companhia são apresentadas a seguir:
+
+
+
+
+Em 31 de março de 2021, a Companhia mantinha cinco membros na Diretoria Executiva e nove membros no Conselho de Administração.
+
+No Consolidado a despesa com os honorários de diretores e conselheiros totalizou R$ 9 (R$ 8 em 31 de março de 2020).
+
+
+
+
+                                                                               65
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+ 28 Informações adicionais às demonstrações dos fluxos de caixa
+
+
+
+
+ A Companhia adota a prática de apresentar os juros pagos como atividade de financiamento e os dividendos
+ recebidos como atividade de investimento na demonstração dos fluxos de caixa.
+
+
+ 29 Evento subsequente
+
+Em 11 de maio de 2021, mediante aprovação do Conselho de Administração, a Companhia firmou, juntamente
+com outros credores, Acordo de Renegociação de Dívida (“Acordo”) com a Companhia de Eletricidade do Amapá
+(“CEA”).
+
+O Acordo, para produzir efetivo impacto no resultado da Companhia, dependerá das seguintes condições:
+
+(i) a realização da licitação para privatização da CEA até 30/06/2021; e (ii) a realização da transferência de controle
+acionário da CEA, decorrente da privatização, até 31/12/2021.
+
+Atendidas as condicionantes contratuais, o Acordo gerará impacto positivo no resultado da Companhia, estimado
+em R$ 353, composto como se segue:
+
+(i) R$169 por meio do recebimento de uma primeira parcela de aproximadamente R$ 71,8 , e mais 23 parcelas
+mensais no valor de aproximadamente R$ 4,2, acrescidas de atualização monetária equivalente à variação do CDI +
+2,7% ao ano, incidentes sobre o saldo devedor.; e
+
+(ii) R$184 por meio de cessão de recebíveis da ANEEL, sujeitos à atualização monetária, que estão sendo pagos
+mensalmente a CEA até dez/21 e serão objeto de cessão total à Cia, sujeito à condição resolutiva mencionada.
+
+O Acordo, uma vez atendidas as condicionantes contratuais, também encerrará litígio fiscal com o Estado do
+Amapá.
+
+
+
+
+                                                          66
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+Correlação entre as notas explicativas de 31 de dezembro de 2020 e 31 de março de 2021
+
+
+
+
+   As notas explicativas do relatório anual de 2020 que foram suprimidas no ITR de 31 de março de 2021 pelo fato
+   de não apresentarem alterações relevantes e/ou não ser aplicável às demonstrações contábeis intermediárias
+   são as seguintes:
+
+
+
+
+                                                     67
+Petrobras Distribuidora S.A.
+Notas explicativas às demonstrações contábeis intermediárias
+(Em milhões de reais, exceto quando mencionado)
+
+
+
+
+                                                  68
+Petrobras Distribuidora S.A.
+Declaração dos Diretores sobre as Demonstrações Contábeis Intermediárias e sobre o
+Relatório dos Auditores Independentes
+
+Em atendimento ao disposto nos incisos V e VI do artigo 25 da Instrução CVM n° 480, de 7 de dezembro de 2009, o
+presidente e os diretores da Petrobras Distribuidora S.A - BR, sociedade por ações de capital aberto, com sede na
+Rua Correia Vasques, 250, Rio de Janeiro, RJ, inscrita no CNPJ sob n° 34.274.233/0001-02, declaram que:
+
+(i) reviram, discutiram e concordam com as demonstrações contábeis intermediárias da Companhia no período findo
+em 31 de março de 2021;
+
+(ii) reviram, discutiram e concordam com as opiniões expressas no relatório da KPMG Auditores Independentes,
+relativamente às demonstrações contábeis intermediárias da Companhia no período findo em 31 de março de 2021.
+
+Rio de Janeiro, 11 de maio de 2021.
+
+WILSON PINTO FERREIRA JUNIOR
+Presidente
+
+ANDRÉ CORRÊA NATAL
+Diretor Executivo de Finanças, Compras e RI
+
+FLAVIO COELHO DANTAS
+Diretor Executivo de Comercial, Varejo e Inteligência de Mercado
+
+MARCELO CRUZ LOPES
+Diretor Executivo de Comercial B2B
+
+MARCELO FERNANDES BRAGANÇA
+Diretor Executivo de Operações, Logística e Sourcing
+
+
+
+
+                                                             69
+CONSELHO DE ADMINISTRAÇÃO
+EDY LUIZ KOGUT
+Presidente
+
+ALEXANDRE FIRME CARNEIRO
+Conselheiro
+
+CARLOS AUGUSTO LEONE PIANI
+Conselheiro
+
+CLAUDIO ROBERTO ELY
+Conselheiro
+
+LEONEL DIAS DE ANDRADE NETO
+Conselheiro
+
+MARIA CAROLINA FERREIRA LACERDA
+Conselheira
+
+MATEUS AFFONSO BANDEIRA
+Conselheiro
+
+PEDRO SANTOS RIPPER
+Conselheiro
+
+RICARDO CARVALHO MAIA
+Conselheiro
+
+
+DIRETORIA EXECUTIVA
+WILSON PINTO FERREIRA JUNIOR
+Presidente
+
+ANDRÉ CORRÊA NATAL
+Diretor Executivo de Finanças, Compras e RI
+
+FLAVIO COELHO DANTAS
+Diretor Executivo de Comercial, Varejo e Inteligência de Mercado
+
+MARCELO CRUZ LOPES
+Diretor Executivo de Comercial B2B
+
+MARCELO FERNANDES BRAGANÇA
+Diretor Executivo de Operações, Logística e Sourcing
+
+
+CONTADOR
+LUÍS CLÁUDIO SACRAMENTO BISPO
+Contador - CRC - RJ – 077.292/O-2
+
+
+
+
+                                                             70
+ÿ
+ÿ
+
+    ÿ
+    1234ÿ6789 ÿ8  8  ÿ
+    J7ÿ8 ÿ29ÿKLÿÿM ÿNÿÿOPQÿ8ÿÿ  ÿÿ
+    NRRNONSRÿÿJ9ÿ8 ÿT 9 UJTÿÿV9ÿ
+    9Wÿ2 ÿNLLLÿÿX2ÿNRRROSPRÿÿJ9ÿ8 ÿT 9 UJTÿÿV9ÿÿ
+    Y  ÿZ[[ÿNOÿNNRPS\RRÿ
+    ]^##ÿ
+    ÿ
+    ÿ
+    _`abcdefgÿigje`ÿbÿe`kfilgÿm`ÿfnogepbqr`iÿcefp`icebfiÿ
+    sÿtu_ÿ
+    vwxÿzw{x|}~|wxÿ|ÿvw{xxÿÿÿ
+      |wxÿxwÿvÿ
+    wÿ|ÿ{|wÿÿÿ
+    ÿ
+    tncegmqlgÿ
+    |xwxÿxÿ{w|xÿw{|xÿ{||xÿ{xÿ|ÿw{xw}xÿÿ
+      |wxÿxwÿvÿzw{~ÿw{xÿ{wÿw}wÿ|ÿ{w|xÿ
+    |xxÿÿ|||{|ÿwÿ|x|ÿ{wÿ|ÿÿ|ÿwÿ|ÿ¡ ÿ¢|ÿ
+    w||{|ÿwÿ}{wÿw{}ÿ|ÿÿ|ÿwÿ|ÿ¡ ÿ|ÿxÿ|x|xÿ
+    |w{x|xÿwÿ|x}wÿwÿ|x}wÿ{£|{|ÿxÿ|xÿwÿ¤{wÿ
+    }¥¢wÿ|ÿwxÿ}¦wxÿ|ÿ¦ÿÿwÿ|¥wwÿ|ÿ§xÿ|x|xÿ{wÿ{¢|}ÿÿ{}{wÿxÿ
+    {wxÿ|¦}xÿÿ
+      ÿ
+    vÿ{x¨wÿÿzw{~ÿ©ÿ|xw{x|}ÿ|}ÿ|}w¨wÿxÿ{w|xÿw{|xÿ
+    {||xÿ{xÿ|ÿwwÿwÿwÿz zÿÿÿ|ÿxÿ{w|xÿw{|xÿ
+    {||xÿw{xw}xÿ|ÿwwÿwÿwÿz zÿÿ|ÿwÿÿ{wÿ{|{w{}ÿ
+    vÿªÿÿ«¬­®¯°±ÿ³°¬´¬µ°́¶ÿ·®¸¹¯­°¬ºÿ|ÿ|}wÿ«¬­®¯¬´­°¹¬´¶ÿ»µµ¹¼¬­°¬ºÿ½­´¬¾´¯¾¿ÿ
+    À¹´¯¾ÿÿvÁÿxxÿwwÿ|}ÿ|x|{¨wÿ|xxxÿ{w|xÿ|ÿwÿw{Â|{|ÿ
+    wÿxÿ{wxÿ|¦|xÿ|}ÿzwxx¨wÿ|ÿÃ}w|xÿÄw}wxÿ}|xÿÅÿ|}w¨wÿ
+    xÿ{w|xÿ|xxÿÿÆwxxÿ|xw{x}|ÿ©ÿÿ|ÿ|¦|xxÿÿ
+    w{}x¨wÿxw|ÿ|xxxÿ{w|xÿw{|xÿ{||xÿwÿx|ÿ|ÿ{wxxÿ|x¨wÿ
+    ÇÈÉÊËÉÌÿÎÊÿÏÌÐÑÒÓÔÿ
+    zw{Âwxÿ{wxxÿ|x¨wÿ|ÿwwÿwÿxÿ{wxÿx}|xÿ|ÿ{|{w{xÿ|ÿ|x¨wÿ
+    |ÿ{w|xÿ{||xÿÆÁzÿÿª¡ÿÕÿ|x¨wÿ|ÿ{w|xÿ{||xÿ
+    Ö¦|ÿ|}wÿvwÿÿÖ{|ÿ|ÿÖÿª¡ÿÕÿ·®×°®Øÿ¹Ùÿ«¬­®¯°±ÿ³°¬´¬µ°́¶ÿ«¬Ù¹¯±´­°¹¬ÿ
+    Ú®¯Ù¹¯±®¾ÿÛÜÿ­Ý®ÿ«¬¾®¸®¬¾®¬­ÿ»¼¾°­¹¯ÿ¹Ùÿ­Ý®ÿÞ¬­°­Üÿ|x||{|ÿßÿ|x¨wÿ|ÿ
+    {w|xÿ{||xÿw{xx|ÿ{ÿ|}Â¨wÿ|ÿ{£|xÿ{}|{|ÿÅxÿ
+    |xxwxÿ|xw{x|xÿ|}wxÿxx{wxÿ{{|wxÿ|ÿw{|xÿ|ÿ{ÿ}¨wÿ|ÿ
+    w||{wxÿ{}¥wxÿ|ÿ|ÿwwxÿw||{wxÿ|ÿ|x¨wÿàÿ}{|ÿ|ÿÿ|x¨wÿ
+    ©ÿx£{|{|ÿ|{wÿwÿ¢|ÿwÿ|ÿÿwÿw{Âÿ|ÿwwÿwÿxÿ{wxÿ
+    |ÿwÿ|ÿw{x|¢|{||{|ÿ{¨wÿ{wxÿ|ÿw|ÿx|£{ÿ|ÿ¢|ÿwwxÿ
+    w{~||{wÿ|ÿwwxÿwxÿxx{wxÿx£{wxÿ¢|ÿw|ÿx|ÿ|{wxÿ|ÿÿ
+    wÿw{wÿ{¨wÿ|¦|xxwxÿÿw{¨wÿ|ÿwÿ
+                                                          71
+    1234ÿ6789 ÿ8  8  ÿ7ÿ988 ÿ9ÿ99ÿÿ9        $%&'ÿ)*+,-./01ÿ23+0403+03-015ÿ6ÿ7/68,9,63ÿ03-,-:ÿ63+ÿ6ÿ;0;<0/ÿ=,/;ÿ.=ÿ->0ÿ
+      ÿ8ÿ 8 ÿ1234ÿ8 ÿ9  ÿ98  8  ÿÿ998ÿÿ1234ÿ   $%&'ÿ30-?./@ÿ.=ÿ,3+0403+03-ÿ;0;<0/ÿ=,/;1ÿ6==,9,6-0+ÿ?,->ÿ$%&'ÿ
+     9ÿ  9ÿ1234ÿ 9ÿ7ÿ988 ÿ7!"#ÿ            23-0/36-,.369ÿA..40/6-,B0ÿCD$%&'ÿ23-0/36-,.369EF5ÿ6ÿG?,11ÿ03-,-:Hÿ
+    ÿ
+HIJKLMNOIÿNIQRSÿTNÿUJVIRWTXYSNÿUJZSRWS[U\RUTNÿUJ[U]U[MTUNÿ
+^_`ÿbcdeÿe`ÿf_ddcÿgehidj_kÿfj_ÿle`_dÿm_fnemìefl_ÿoeÿfefnp`ÿqcl_ÿrpeÿf_dÿseheÿcÿ
+cmgeoilcgÿrpeÿcdÿifq_g`ctuedÿm_flvbeidÿifleg`eoivgicdÿifoihiopcidÿifmspwocdÿfcdÿ
+ifq_g`ctuedÿlgìedlgcidÿcmìcÿgeqegiocdÿfj_ÿq_gc`ÿescb_gcocdkÿe`ÿl_o_dÿ_dÿcdxeml_dÿ
+gesehcfledkÿoeÿcm_go_ÿm_`ÿ_ÿ^y^ÿz{|}{~kÿcxsimvheidÿÿescb_gctj_ÿoeÿfq_g`ctuedÿ
+gìedlgcidÿÿ}ÿeÿcxgedeflcocdÿoeÿq_g`cÿm_foiefleÿm_`ÿcdÿf_g`cdÿexeoiocdÿxescÿ
+^_`iddj_ÿoeÿcs_gedÿ_bisivgi_dÿ
+HIJKLMNOIÿNIQRSÿTNÿUJVIRWTXYSNÿUJZSRWS[U\RUTNÿKIJNILU[T[TNÿ
+^_`ÿbcdeÿe`ÿf_ddcÿgehidj_kÿfj_ÿle`_dÿm_fnemìefl_ÿoeÿfefnp`ÿqcl_ÿrpeÿf_dÿseheÿcÿ
+cmgeoilcgÿrpeÿcdÿifq_g`ctuedÿm_flvbeidÿifleg`eoivgicdÿm_fd_siococdÿifmspwocdÿfcdÿ
+ifq_g`ctuedÿlgìedlgcidÿcmìcÿgeqegiocdÿfj_ÿq_gc`ÿescb_gcocdkÿe`ÿl_o_dÿ_dÿcdxeml_dÿ
+gesehcfledkÿoeÿcm_go_ÿm_`ÿ_ÿ^y^ÿz{|}{~ÿeÿcÿÿkÿe`iliocÿxes_ÿÿcxsimvheidÿÿ
+escb_gctj_ÿoeÿfq_g`ctuedÿgìedlgcidÿÿ}ÿeÿcxgedeflcocdÿoeÿq_g`cÿm_foiefleÿm_`ÿcdÿ
+f_g`cdÿexeoiocdÿxescÿ^_`iddj_ÿoeÿcs_gedÿ_bisivgi_dÿ
+MZRINÿNNMJZINÿÿSWIJNZRTXYSNÿ[Iÿ]TLIRÿT[UKUIJT[Iÿ
+dÿifq_g`ctuedÿlgìedlgcidÿcmìcÿgeqegiocdÿifmspe`ÿcdÿoe`_fdlgctuedÿo_ÿhcs_gÿcoimi_fco_ÿ
+| ~kÿifoihiopcidÿeÿm_fd_siococdÿgeqegefledÿc_ÿxegw_o_ÿoeÿlgdÿ̀ededÿqifo_ÿe`ÿ{ÿoe
+`cgt_ÿoeÿzz{kÿescb_gcocdÿd_bÿcÿgedx_fdcbisiocoeÿocÿco`ifidlgctj_ÿocÿ^_`xcfnicÿeÿ
+cxgedeflcocdÿm_`_ÿifq_g`ctj_ÿdpxse`eflcgÿxcgcÿqifdÿoeÿÿÿddcdÿoe`_fdlgctuedÿ
+q_gc`ÿdpb`eliocdÿcÿxg_meoìefl_dÿoeÿgehidj_ÿeemplco_dÿe`ÿm_fpfl_ÿm_`ÿcÿgehidj_ÿocdÿ
+ifq_g`ctuedÿlgìedlgcidkÿm_`ÿ_ÿ_belih_ÿoeÿm_fmspigÿdeÿescdÿedlj_ÿm_fmisicocdÿm_`ÿcdÿ
+ifq_g`ctuedÿm_flvbeidÿifleg`eoivgicdÿeÿgeidlg_dÿm_flvbeidkÿm_fq_g`eÿcxsimvheskÿeÿdeÿÿdpcÿ
+q_g`cÿeÿm_fleo_ÿedlj_ÿoeÿcm_go_ÿm_`ÿ_dÿmgilgi_dÿoeqifio_dÿf_ÿyg_fpfmic`efl_ÿmfim_ÿ
+^y^ÿÿÿe`_fdlgctj_ÿo_ÿcs_gÿoimi_fco_ÿ^_`ÿbcdeÿe`ÿf_ddcÿgehidj_kÿfj_ÿle`_dÿ
+m_fnemìefl_ÿoeÿfefnp`ÿqcl_ÿrpeÿf_dÿseheÿcÿcmgeoilcgÿrpeÿeddcdÿoe`_fdlgctuedÿo_ÿhcs_gÿ
+coimi_fco_ÿfj_ÿq_gc`ÿescb_gcocdkÿe`ÿl_o_dÿ_dÿcdxeml_dÿgesehcfledkÿdepfo_ÿ_dÿmgilgi_dÿ
+oeqifio_dÿfeddcÿ_g`cÿeÿoeÿq_g`cÿm_fdidlefleÿÿe`ÿgesctj_ÿdÿifq_g`ctuedÿm_flvbeidÿ
+ifleg`eoivgicdÿifoihiopcidÿeÿm_fd_siococdÿl_`cocdÿe`ÿm_fpfl_ÿ
+}i_ÿoeÿcfeig_kÿ{{ÿoeÿ̀ci_ÿoeÿzz{ÿ
+
+ y¡ÿpoil_gedÿfoexefoefledÿ
+^}^ÿy{z¢£¤¥ÿ¦}ÿ
+
+
+gpf_ÿgeddcfÿcgm_foedÿ
+^_flco_gÿ^}^ÿ}{{z¢§£¤¨ÿ
+
+                                                        72
+0123ÿ56789 ÿ7  7 9 ÿ6ÿ 877 ÿ8 ÿ88ÿÿ8        #$%&ÿ()*+,-./0ÿ12*/3/2*/2,/04ÿ5ÿ6.57+8+52ÿ/2,+,9ÿ52*ÿ5ÿ:/:;/.ÿ<+.:ÿ-<ÿ,=/ÿ
+  ÿ7ÿ 7 ÿ0123ÿ7 ÿ8  ÿ87  7 9 ÿÿ887ÿÿ0123ÿ   #$%&ÿ2/,>-.?ÿ-<ÿ+2*/3/2*/2,ÿ:/:;/.ÿ<+.:0ÿ5<<+8+5,/*ÿ>+,=ÿ#$%&ÿ
+9 98ÿ  98ÿ0123ÿ9 98ÿ6ÿ9877 ÿ6!"ÿ     12,/.25,+-258ÿ@--3/.5,+A/ÿBC#$%&ÿ12,/.25,+-258DE4ÿ5ÿF>+00ÿ/2,+,9Gÿ
+

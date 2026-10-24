@@ -1,0 +1,2405 @@
+DIVULGAÇÃO DOS RESULTADOS 1T19
+
+São Paulo, 15 de maio de 2019 – A Ultrapar Participações S.A. (“Companhia”, B3: UGPA3/NYSE: UGP), com atuação
+em varejo e distribuição especializada (Ipiranga/Ultragaz/Extrafarma), especialidades químicas (Oxiteno) e
+armazenagem para granéis líquidos (Ultracargo), anuncia hoje seus resultados do primeiro trimestre de 2019.
+
+
+
+
+       Receita líquida                                                       EBITDA Ajustado                                                        Lucro líquido
+
+            R$ 21                                                                R$ 782                                                                 R$ 243
+            bilhões                                                              milhões                                                                milhões
+    0% YoY              -12% QoQ                                           37% YoY1             -30% QoQ1                                     245% YoY1        -49% QoQ1
+
+
+
+       Investimentos                                      Fluxo de caixa das operações                                                           Valor de mercado
+
+          R$ 268                                                            R$ 462                                                                          R$ 26
+          milhões                                                           milhões                                                                         bilhões
+1
+    As variações acima não consideram os ajustes de IFRS 16, conforme detalhado na sessão “Resumo das alterações decorrentes do IFRS 16 e do Corporativo”
+
+
+
+
+     Destaques
+     • Ipiranga e Ultracargo vencem licitações para investir e operar em áreas portuárias nos estados do ES, PB e PA
+     • Ultrapar realiza desdobramento de suas ações na razão de 1 para 2
+
+
+Teleconferência 1T19
+
+A Ultrapar realizará teleconferência com analistas e investidores em 16 de maio de 2019 para comentários sobre o
+desempenho da Companhia no primeiro trimestre de 2019 e perspectivas. A apresentação estará disponível para
+download no website da Companhia 30 minutos antes do início da teleconferência. Haverá WEBCAST simultâneo
+pela internet no site ri.ultra.com.br. Solicitamos conectar-se com 15 minutos de antecedência.
+
+     Português: 11h (horário Brasília) / 10h (horário EUA EST)
+     Telefone para conexão: +55 (11) 2188-0155
+     Código: Ultrapar
+     Replay: +55 (11) 2188-0400 (disponível por sete dias)
+     Código: Ultrapar
+
+     Inglês: 12h30min (horário Brasília) / 11h30min (horário EUA EST)
+     Participantes Internacionais: +1 (844) 802-0962
+     Código: Ultrapar
+     Replay: +1 (412) 317-0088 (disponível por sete dias)
+     Código: 10130737
+            1° TRIMESTRE DE 2019
+
+Considerações sobre as informações financeiras e operacionais
+
+As informações financeiras apresentadas nesse documento foram preparadas de acordo com as normas IFRS (International
+Financial Reporting Standards). As informações financeiras referentes à Ultrapar correspondem às informações
+consolidadas da Companhia. As informações da Ipiranga, Oxiteno, Ultragaz, Ultracargo, Extrafarma e Corporativo (novo
+segmento explicado abaixo) são apresentadas sem eliminação de transações realizadas entre segmentos. Portanto, a soma
+de tais informações pode não corresponder às informações consolidadas da Ultrapar. Adicionalmente, as informações
+financeiras e operacionais são sujeitas a arredondamentos e, como consequência, os valores totais apresentados nas
+tabelas e gráficos podem diferir da agregação numérica direta dos valores que os precedem.
+
+A partir de 2019, foram introduzidas duas alterações na apresentação das informações financeiras da Ultrapar: (i) adoção
+à norma IFRS 16 emitida pelo IASB – International Accounting Standards Board prospectivamente e (ii) segregação de certas
+despesas corporativas, anteriormente distribuídas entre os negócios da Ultrapar, em um novo segmento gerencial
+denominado “Corporativo”. Com a finalidade de manter a comparabilidade com o 1T18 e o 4T18, as discussões de
+resultado são apresentadas sem os ajustes relacionados ao IFRS 16 e ao Corporativo e referências a “1T19” seguem
+esse critério. Menções a informações que contemplem tais alterações estarão identificadas como “1T19 Pós-ajustes”. Para
+permitir melhor compreensão acerca dessas alterações, o item “Resumo das alterações decorrentes do IFRS 16 e do
+Corporativo” contém os demonstrativos dos principais efeitos dos ajustes neste trimestre.
+
+As informações denominadas LAJIDA (EBITDA) – (LAJIDA – Lucro Antes dos Juros, Impostos sobre a Renda e Contribuição
+Social sobre o Lucro Líquido, Depreciação e Amortização); EBITDA Ajustado – ajustado pela amortização de ativos de
+contratos com clientes – direitos de exclusividade; e LAJIR (EBIT) – (LAJIR – Lucro Antes dos Juros e Impostos sobre a Renda
+e Contribuição Social sobre o Lucro Líquido) estão apresentadas de acordo com a Instrução nº 527 emitida pela CVM em
+04 de outubro de 2012. Segue o cálculo do EBITDA a partir do lucro líquido:
+
+
+
+
+                                                            1T19
+   R$ milhões                                                               1T19           1T18            4T18
+                                                        Pós-ajustes
+
+   Lucro líquido                                               242,6          251,1            72,9          495,6
+     (+) IR e contribuição social                              168,2          172,6            29,5          314,5
+     (+) Despesa (receita) financeira líquida                    (0,8)         (21,3)         107,0          (116,7)
+     (+) Depreciação e amortização                             288,8          211,9           194,2          210,2
+
+   EBITDA                                                      698,7          614,3           403,6          903,6
+
+   Ajuste
+     (+) Amortização de ativos de contratos com
+                                                                83,6            83,6          104,5            89,4
+     clientes - direitos de exclusividade (Ipiranga)
+
+   EBITDA Ajustado                                             782,3          697,9           508,1          993,0
+
+
+
+
+                                                                                                                               2
+             1° TRIMESTRE DE 2019
+
+Resumo das alterações decorrentes do IFRS 16 e do Corporativo
+
+ No quadro abaixo estão demonstrados os principais efeitos decorrentes da adoção do IFRS 16 e do segmento
+ Corporativo, resultando nas seguintes alterações:
+
+    • Arrendamento mercantil – IFRS 16: requer que arrendatários de bens contabilizem em seus balanços patrimoniais
+        um valor no passivo refletindo futuros pagamentos de contratos de arrendamento descontados a valor presente,
+        bem como um valor no ativo referente ao direito de uso dos bens objeto de tais contratos, com exceção de certos
+        arrendamentos de curto prazo e contratos de ativos de valor baixo. Consequentemente os demonstrativos de
+        resultados também sofrem alterações, uma vez que tais arrendamentos deixam de ser considerados como
+        despesa operacional, passando a ser amortizados, e os pagamentos futuros do arrendamento incluem correções
+        por juros, que afetam o resultado financeiro.
+
+    • Corporativo: constituem as despesas referentes aos principais órgãos de governança da Ultrapar, incluindo a
+        Presidência, os Conselhos de Administração (“CA”) e Fiscal, os comitês de assessoramento ao CA e as estruturas
+        corporativas de Capital Humano e Riscos, Compliance e Auditoria, que foram destacadas dos segmentos de
+        negócios, possibilitando maior transparência sobre despesas e melhor comparabilidade com empresas pares.
+
+ As tabelas completas encontram-se nas páginas 12 a 19 deste documento. Informações adicionais estão disponíveis na
+ nota explicativa nº 2.y das informações trimestrais de 31 de março de 2019, disponíveis no site da Ultrapar
+ (ri.ultra.com.br).
+
+
+ EBITDA Ajustado (R$ milhões)      Ultrapar      Ipiranga        Oxiteno      Ultragaz       Ultracargo      Extrafarma     Corporativo
+
+ 1T19                                   697,9           538,4         34,1         97,0            52,2            (21,2)           -
+  IFRS 16                                84,4            45,2          2,4             9,0             6,4          21,4            -
+  Corporativo                             -              10,3          2,0             2,2             0,7           0,3           (15,5)
+
+ 1T19 Pós-ajustes                       782,3           593,9         38,6        108,2            59,2              0,6          (15,5)
+
+
+
+                                    EBITDA      Resultado                      Lucro                                        Patrimônio
+ ULTRAPAR (R$ milhões)                                           IR/CSLL                       Ativo           Passivo
+                                   Ajustado     financeiro                    líquido                                         líquido
+
+ 1T19                                   697,9            21,3       (172,6)       251,1         29.618,6        19.680,1        9.938,5
+  IFRS 16                                84,4           (20,5)         4,4          (8,5)        1.568,2         1.576,8            (8,5)
+  Corporativo                             -               -            -               -               -             -              -
+
+ 1T19 Pós-ajustes                       782,3             0,8       (168,2)       242,6         31.186,9        21.256,9        9.929,9
+
+
+
+
+                                                                                                                                            3
+              1° TRIMESTRE DE 2019
+
+Ipiranga
+
+                                                                                                    Δ (%)          Δ (%)
+                                                                   1T19     1T18        4T18
+                                                                                                  1T19 v 1T18    1T19 v 4T18
+
+  Volume total (mil m³)                                            5.587   5.461       6.160         2%            (9%)
+  Diesel                                                           2.674   2.626       2.971         2%            (10%)
+  Ciclo Otto                                                       2.810   2.723       3.087         3%             (9%)
+  Outros¹                                                          102      112         101          (9%)           1%
+  EBITDA Ajustado (R$ milhões)                                     538      585         569          (8%)          (5%)
+  EBITDA Ajustado Pós-ajustes (R$ milhões)                         594
+¹ Óleos combustíveis, arla 32, querosene, lubrificantes e graxas
+
+
+Desempenho operacional – O volume de ciclo Otto aumentou 3% em relação ao 1T18, com maior participação do etanol
+no mix de vendas, enquanto o volume de diesel cresceu 2%. Em relação ao 4T18, o volume diminuiu 9%, com redução de
+10% no diesel e 9% no ciclo Otto, explicados, principalmente, pela sazonalidade entre os períodos.
+
+Receita líquida – Total de R$ 17.428 milhões (-1%), em função da queda no preço unitário do etanol, compensando o
+aumento nos preços de combustíveis derivados de petróleo. Este efeito foi atenuado pelo maior volume de vendas. Em
+relação ao 4T18, a receita líquida foi 12% menor, consequência do volume de vendas sazonalmente menor e das
+movimentações nos custos de combustíveis.
+
+Custo dos produtos vendidos – Total de R$ 16.566 milhões (0%), em função do menor custo unitário de etanol, combinado
+com a maior participação do produto no mix de vendas, neutralizado pelo maior volume vendido no período. Em relação
+ao 4T18, o custo dos produtos vendidos diminuiu 13%, decorrente do menor volume vendido, além do efeito negativo no
+estoque do 4T18, decorrente das movimentações nos custos de combustíveis no período.
+
+Despesas gerais, administrativas e de vendas – Total de R$ 505 milhões (-8%), devido às menores despesas da ICONIC,
+que no 1T18 incluiu despesas adicionais para a integração dos negócios, e às iniciativas de redução de despesas na Ipiranga,
+como menores gastos com programas de marketing, além da menor provisão para créditos de liquidação duvidosa, fruto
+da melhora nos índices de crédito de sua carteira de clientes. Em relação ao 4T18, as despesas gerais, administrativas e de
+vendas diminuíram 2%, devido às menores despesas com frete, reflexo do volume sazonalmente menor, e das iniciativas
+de redução de despesa.
+
+EBITDA Ajustado – Total de R$ 538 milhões (-8%), influenciado, principalmente, pela redução da margem bruta no ciclo
+Otto, parcialmente atenuada pelo maior volume de vendas e pela redução das despesas no período. Em relação ao 4T18,
+o EBITDA Ajustado foi 5% menor, em função do volume sazonalmente menor e da concentração de receitas com
+merchandising típicas do quarto trimestre. Considerando os ajustes do IFRS 16 e com a segregação das despesas
+corporativas mencionados anteriormente, o EBITDA Ajustado Pós-ajustes da Ipiranga foi de R$ 594 milhões.
+
+Investimentos – Foram investidos R$ 123 milhões, direcionados à manutenção e ampliação das redes de postos e
+franquias, e à expansão da infraestrutura logística da Ipiranga. Do total dos investimentos, R$ 61 milhões referem-se a
+imobilizações e adições ao intangível, R$ 64 milhões a ativos de contratos com clientes (direitos de exclusividade) e R$ 1
+milhão negativo a liberações de financiamento a clientes e antecipação de aluguel, líquidos de repagamentos. A Ipiranga
+encerrou o 1T19 com 7.218 postos (+2%), adição líquida de 138 postos nos últimos 12 meses, e estável em relação ao 4T18.
+
+
+
+
+                                                                                                                               4
+              1° TRIMESTRE DE 2019
+
+Oxiteno
+
+                                                                                                                              Δ (%)                  Δ (%)
+                                                                        1T19             1T18              4T18
+                                                                                                                            1T19 v 1T18            1T19 v 4T18
+
+  Dólar médio (R$/US$)                                                  3,77              3,24             3,81                16%                    (1%)
+  Volume total (mil tons)                                                180              180              190                  0%                    (5%)
+    Especialidades                                                       148              152              148                 (2%)                    0%
+    Commodities                                                          32                28               42                 12%                   (24%)
+    Vendas no Brasil                                                     124              126              141                 (2%)                  (12%)
+    Vendas no mercado externo                                            56                54               49                  4%                    15%
+  EBITDA (R$ milhões)                                                    34                51              280¹               (33%)                  (88%)
+  EBITDA Pós-ajustes (R$ milhões)                                        39
+¹ No 4T18, considera o efeito de créditos tributários devido à exclusão do ICMS da base de cálculo do PIS/Cofins no valor líquido de R$ 186 milhões. Excluindo esse
+efeito, o EBITDA foi de R$ 94 milhões.
+
+
+Desempenho operacional – O volume vendido de commodities cresceu 12% na comparação anual, refletindo novas
+oportunidades de vendas. Já o volume de especialidades químicas diminuiu 2%, com redução de 6% no mercado interno,
+reflexo principalmente da desaceleração da economia brasileira. No mercado externo, o volume de especialidades
+aumentou 4%, devido ao maior volume vendido nos Estados Unidos, após a inauguração da planta de Pasadena, apesar
+da redução das exportações para os países do Mercosul, especialmente para a Argentina. Quando comparado ao 4T18, o
+volume total de vendas diminuiu 5%, com redução de 24% no volume de commodities e estabilidade em especialidades.
+
+Receita líquida – Total de R$ 1.056 milhões (+6%), principalmente em função do Real 16% mais depreciado em relação ao
+dólar (equivalente a R$ 0,53/US$), atenuado pela redução de 9% dos preços médios em dólar dos produtos vendidos, fruto
+da queda nos preços de commodities no mercado internacional e da maior participação de commodities na composição de
+vendas. Em relação ao 4T18, a receita líquida diminuiu 12%, fruto (i) do menor volume de vendas, (ii) da valorização de 1%
+do Real frente ao dólar e (iii) da queda nos preços de commodities no mercado internacional.
+
+Custo dos produtos vendidos – Total de R$ 899 milhões (+9%), em consequência do Real 16% mais depreciado em relação
+ao dólar e da partida da nova unidade de Pasadena em setembro/18. Esses efeitos foram atenuados pela redução nos
+custos em dólares de suas principais matérias-primas, em particular o eteno e o óleo de palmiste. Na comparação com o
+4T18, o custo dos produtos vendidos foi 8% menor, reflexo (i) do menor volume de vendas, (ii) do Real 1% mais apreciado
+em relação ao dólar e (iii) da queda nos custos das matérias-primas citadas acima.
+
+Despesas gerais, administrativas e de vendas – Total de R$ 175 milhões (+5%), em função de maiores despesas com
+pessoal e do Real 16% mais depreciado em relação ao dólar sobre as despesas das operações internacionais. Em relação
+ao 4T18, as despesas gerais, administrativas e de vendas diminuíram 11%.
+
+EBITDA – O EBITDA da Oxiteno totalizou R$ 34 milhões (-33%), em função (i) do menor patamar de margens unitárias em
+dólar no período, fruto da queda dos preços de commodities petroquímicas no mercado internacional, (ii) do maior volume
+de commodities no mix de vendas e (iii) dos maiores custos com a nova planta dos EUA, parcialmente compensados pela
+desvalorização do Real frente ao dólar. A queda em relação ao 4T18, deu-se em função do menor volume de vendas no
+período e do menor patamar de margens unitárias em dólar, reflexo da queda de preços de commodities petroquímicas no
+mercado internacional. Considerando os ajustes do IFRS 16 e com a segregação das despesas corporativas mencionados
+anteriormente, o EBITDA Pós-ajustes da Oxiteno foi de R$ 39 milhões.
+
+Investimentos – Os investimentos no período foram de R$ 60 milhões, direcionados, principalmente, aos investimentos
+na nova planta de especialidades químicas nos Estados Unidos e à manutenção de suas unidades produtivas.
+
+
+
+
+                                                                                                                                                                      5
+              1° TRIMESTRE DE 2019
+
+Ultragaz
+
+                                                                                                                               Δ (%)               Δ (%)
+                                                                        1T19              1T18             4T18
+                                                                                                                            1T19 v 1T18          1T19 v 4T18
+
+  Volume total (mil tons)                                                395               410              421                 (4%)               (6%)
+    Envasado                                                             270              281               297                 (4%)                (9%)
+    Granel                                                               126              129               124                 (3%)                1%
+  EBITDA (R$ milhões)                                                     97             (170)¹             121                  na                (20%)
+  EBITDA Pós-ajustes (R$ milhões)                                        108
+¹ No 1T18, considera a multa de R$ 286 milhões decorrente da não aquisição da Liquigás. Excluindo esse efeito, o EBITDA foi de R$ 116 milhões.
+
+
+Desempenho operacional – No segmento envasado, o volume diminuiu 4% quando comparado ao mesmo período do
+ano anterior, em função da retração do mercado e da interrupção temporária no fornecimento de GLP em algumas
+refinarias, impactando pontualmente o abastecimento do produto. No segmento granel, o volume foi 3% menor,
+principalmente devido à menor atividade industrial. Em relação ao 4T18, o volume vendido reduziu 6%, explicado pela
+sazonalidade entre os períodos e pelo impacto pontual no abastecimento de GLP citado anteriormente no segmento
+envasado.
+
+Receita líquida – Total de R$ 1.640 milhões (+1%), em função dos reajustes nos custos do GLP, parcialmente compensados
+pelo menor volume de vendas. Em relação ao 4T18, a receita líquida diminuiu 8%, principalmente em função do menor
+volume de vendas no período.
+
+Custo dos produtos vendidos – Total de R$ 1.432 milhões (0%), principalmente em função dos reajustes nos custos de
+GLP em 2018, neutralizados pelo menor volume vendido e por menores custos com depreciação. Em relação ao 4T18, o
+custo dos produtos vendidos reduziu 8%, refletindo, principalmente, o volume de vendas sazonalmente menor.
+
+Despesas gerais, administrativas e de vendas – Total de R$ 165 milhões (+25%), devido (i) às maiores despesas com
+provisão para créditos de liquidação duvidosa, (ii) às maiores despesas com pessoal (principalmente indenizações, fruto de
+reorganizações na estrutura) e (iii) às despesas pontuais com processos judiciais nesse trimestre. Em relação ao 4T18, as
+despesas gerais, administrativas e de vendas permaneceram estáveis, devido às menores despesas com assessoria jurídica
+e consultoria estratégica, neutralizadas por despesas pontuais com processos judiciais no trimestre e por maiores
+provisões para créditos de liquidação duvidosa.
+
+EBITDA – Total de R$ 97 milhões (em comparação aos R$ 170 milhões negativos no 1T18), principalmente em função da
+multa no 1T18 pela não aprovação da aquisição da Liquigás. Excluindo o efeito da multa, o EBITDA da Ultragaz diminuiu
+17%, devido ao menor volume de vendas e às maiores despesas neste trimestre. Em relação ao 4T18, o EBITDA da Ultragaz
+foi 20% menor, principalmente devido ao menor volume de vendas. Considerando os ajustes do IFRS 16 e com a segregação
+das despesas corporativas mencionados anteriormente, o EBITDA Pós-ajustes da Ultragaz foi de R$ 108 milhões.
+
+Investimentos – Foram investidos R$ 29 milhões, direcionados a clientes do segmento granel, reposição e aquisição de
+vasilhames e tecnologia da informação, com foco na estratégia de diferenciação e inovação da Ultragaz.
+
+
+
+
+                                                                                                                                                               6
+               1° TRIMESTRE DE 2019
+
+Ultracargo
+
+                                                                                             Δ (%)            Δ (%)
+                                                     1T19         1T18        4T18
+                                                                                           1T19 v 1T18      1T19 v 4T18
+
+    Armazenagem efetiva1 (mil m³)                    758          722          756            5%               0%
+    EBITDA (R$ milhões)                               52           41           40           27%              32%
+    EBITDA Pós-ajustes (milhões)                      59
+1
+    Média mensal
+
+
+Desempenho operacional – A armazenagem média da Ultracargo cresceu 5% em relação ao 1T18, devido à maior
+movimentação em Santos, além da maior movimentação de etanol nos terminais, compensando a redução de
+combustíveis. Em relação ao 4T18, a armazenagem média nos terminais permaneceu estável, com maior movimentação
+em combustíveis em Aratu e Santos e químicos em Suape, neutralizadas por menor movimentação de etanol em Santos.
+
+Receita líquida – Total de R$ 127 milhões no 1T19 (+9%), impulsionada pela maior armazenagem média e reajustes
+contratuais. Em relação ao 4T18, a receita líquida manteve-se estável, acompanhando a armazenagem média.
+
+Custo dos serviços prestados – Total de R$ 59 milhões (0%), devido aos maiores gastos relacionados à maior
+movimentação nos terminais (principalmente tarifas portuárias e serviços de terceiros), neutralizado por despesa pontual
+de pagamento de IPTU retroativo no 1T18. Em relação ao 4T18, o custo dos serviços prestados diminuiu 7%, principalmente
+por menores gastos com serviços de terceiros e com pessoal.
+
+Despesas gerais, administrativas e de vendas – Total de R$ 29 milhões (+3%), devido às maiores despesas com pessoal,
+parcialmente compensadas por menores despesas com consultorias. Em relação ao 4T18, as despesas gerais,
+administrativas e de vendas diminuíram 13%, principalmente devido às menores despesas com assessoria jurídica e às
+menores despesas com pessoal.
+
+EBITDA – Total de R$ 52 milhões (+27%), em função da maior armazenagem média e dos reajustes contratuais. Em relação
+ao 4T18, o EBITDA aumentou 32%, devido aos menores custos e despesas. Considerando os ajustes do IFRS 16 e com a
+segregação das despesas corporativas mencionados anteriormente, o EBITDA Pós-ajustes da Ultracargo foi de R$ 59
+milhões.
+
+Investimentos – Na Ultracargo, os investimentos no período foram de R$ 37 milhões, direcionados à expansão dos
+terminais de Itaqui e Santos, manutenção e modernização dos terminais e em segurança operacional.
+
+Termo de Ajustamento de Conduta (“TAC”) – Em 15 de maio de 2019 a Ultracargo firmou um TAC com o Ministério
+Público Federal e o Ministério Público do Estado de São Paulo para a implementação de ações com o objetivo de compensar
+os impactos causados ao estuário de Santos pelo incêndio ocorrido no terminal da Ultracargo em abril de 2015. O valor
+total do acordo foi de R$ 67,5 milhões, que serão integralmente desembolsados até setembro de 2020. Em 31 de março
+de 2019, a Companhia possuía provisão de R$ 15 milhões para essa finalidade e, no 2T19, complementará a provisão no
+valor remanescente.
+
+
+
+
+                                                                                                                           7
+          1° TRIMESTRE DE 2019
+
+Extrafarma
+
+                                                                                              Δ (%)            Δ (%)
+                                                     1T19         1T18         4T18
+                                                                                            1T19 v 1T18      1T19 v 4T18
+
+ Número de lojas (final do período)                   440          401          433            10%              2%
+   % de lojas maduras (+3 anos)                       46%         46%          45%           0,0 p.p.         0,9 p.p.
+ Receita bruta (R$ milhões)                           546          542          526            1%               4%
+ EBITDA (R$ milhões)                                  (21)          0           (15)           na              (37%)
+ EBITDA Pós-ajustes (R$ milhões)                       1
+
+
+Desempenho operacional – A Extrafarma encerrou o 1T19 com 440 lojas, sendo 65 aberturas e 26 fechamentos nos
+últimos 12 meses, equivalente a um aumento de 10% em sua base. Ao final do 1T19, as lojas em maturação (até três anos
+de operação) representavam 54% da rede, reflexo do ritmo de expansão da rede nos últimos anos. Em relação ao 4T18, a
+Extrafarma abriu 9 novas lojas e fechou 2.
+
+Receita bruta – Total de R$ 546 milhões (+1%), devido ao crescimento de 3% no faturamento do varejo, em função do
+maior número de lojas e do reajuste anual nos preços dos medicamentos. Esses efeitos foram atenuados pelo ambiente
+competitivo mais acirrado e pelo maior fechamento de lojas de baixa performance no período. Em relação ao 4T18, a
+receita bruta aumentou 4%, em decorrência do maior número de lojas e da recuperação do segmento atacado.
+
+Custo dos produtos vendidos e lucro bruto – Custo dos produtos vendidos totalizou R$ 375 milhões (+5%), em
+decorrência do crescimento das vendas e do reajuste anual nos preços de medicamentos. O lucro bruto atingiu R$ 141
+milhões (-8%), em função do ambiente competitivo mais acirrado e da expansão da rede em novos estados, pressionando
+as margens no trimestre. Em relação ao 4T18, o custo dos produtos vendidos aumentou 8% e o lucro bruto diminuiu 6%,
+em função da maior competição do mercado, parcialmente compensado pelo maior faturamento.
+
+Despesas gerais, administrativas e de vendas – Total de R$ 189 milhões (+11%), reflexo do maior número de lojas.
+Excluindo o efeito de novas lojas, as despesas gerais, administrativas e de vendas ficaram estáveis na comparação anual,
+principalmente em função das iniciativas para ganho de produtividade, com destaque para as despesas com pessoal e
+logísticas. Em relação ao 4T18, as despesas gerais, administrativas e de vendas aumentaram 2%, reflexo do maior número
+médio de lojas e da convenção anual de vendas da Extrafarma no período, parcialmente atenuados por menores gastos
+com pessoal.
+
+Outros resultados operacionais – Total de R$ 9 milhões no 1T19, resultado da constituição de créditos tributários de anos
+anteriores relacionados à decisão judicial sobre a exclusão do ICMS da base de cálculo do PIS/Cofins.
+
+EBITDA – Total de R$ 21 milhões negativo em comparação ao reportado próximo de zero no 1T18, em função do ambiente
+competitivo mais pressionado e do efeito das lojas novas em maturação, atenuados pela constituição de créditos
+tributários no 1T19. Em relação ao 4T18, o EBITDA diminuiu R$ 6 milhões, principalmente devido ao ambiente competitivo
+ainda mais pressionado e à baixa de investimentos no período fruto do maior número de lojas a depurar, atenuados pela
+constituição de créditos tributários no 1T19. Considerando os ajustes do IFRS 16 e com a segregação das despesas
+corporativas mencionados anteriormente, o EBITDA Pós-ajustes da Extrafarma foi de R$ 1 milhão.
+
+Investimentos – No 1T19, foram investidos R$ 16 milhões, direcionados à abertura de novas lojas e tecnologia da
+informação, com foco na melhoria da experiência de compra e excelência operacional.
+
+
+
+
+                                                                                                                            8
+                 1° TRIMESTRE DE 2019
+
+Ultrapar
+
+                                                                                                                             Δ (%)                 Δ (%)
+    Valores em R$ milhões                                                    1T19        1T18            4T18
+                                                                                                                          1T19 v 1T18            1T19 v 4T18
+
+    Receita líquida                                                         20.739       20.751         23.467                 0%                   (12%)
+    Lucro líquido    1
+                                                                              251         73              496                245%                   (49%)
+    Lucro líquido Pós-ajustes                                                 243
+    Lucro por ação atribuível aos acionistas (R$)       2
+                                                                             0,22         0,07            0,47               214%                   (53%)
+    EBITDA Ajustado                                                           698         508             993                 37%                   (30%)
+    EBITDA Ajustado ex-não recorrentes³                                       698         794             807                (12%)                  (14%)
+    EBITDA Ajustado Pós-ajustes                                               782
+    Investimentos                                                             268         604             548                (56%)                  (51%)
+¹ No padrão contábil IFRS, o lucro líquido consolidado inclui o lucro líquido atribuível à participação de acionistas não controladores das controladas
+² Calculado em reais a partir da média ponderada do número de ações ao longo do período, líquido das ações em tesouraria. Estes valores consideram o
+desdobramento de ações ocorrido em abril.
+³ Não considera a multa de R$ 286 milhões decorrente da não aquisição da Liquigás no 1T18 e o efeito de créditos tributários devido à exclusão do ICMS da base de
+cálculo do PIS/Cofins no valor líquido de R$ 186 milhões no 4T18
+
+
+Receita líquida – Total de R$ 20.739 milhões (0%), estável sobre o 1T18. Em relação ao 4T18, a receita líquida diminuiu
+12%, em consequência da redução nas receitas da Ipiranga, Oxiteno e Ultragaz.
+
+EBITDA Ajustado – Total de R$ 698 milhões (+37%), em função da multa pela não aprovação da aquisição da Liquigás no
+1T18. Excluindo a multa, o EBITDA Ajustado diminuiu 12%, reflexo do menor EBITDA da Ipiranga, Oxiteno, Ultragaz e
+Extrafarma. O EBITDA Ajustado diminuiu 30% na comparação com o 4T18, devido ao menor EBITDA da Ipiranga, Oxiteno,
+Ultragaz e Extrafarma, e da sazonalidade entre períodos. Considerando os ajustes do IFRS 16, o EBITDA Ajustado Pós-
+ajustes da Ultrapar foi de R$ 782 milhões.
+
+Depreciação e amortização4 – Total de R$ 296 milhões (-1%), em função da menor amortização de ativos de contrato com
+clientes na Ipiranga, parcialmente compensada pela depreciação dos investimentos realizados ao longo dos últimos 12
+meses. Na comparação com o 4T18, o total de custos e despesas com depreciação e amortização foi 1% menor.
+
+Resultado financeiro – A Ultrapar encerrou 1T19 com dívida líquida de R$ 8,7 bilhões (2,65x EBITDA LTM Ajustado) em
+comparação a R$ 8,2 bilhões em 31 de dezembro de 2018 (2,68x EBITDA LTM Ajustado), principalmente em função do
+pagamento de dividendos no período. A Ultrapar apresentou receita financeira líquida de R$ 21 milhões no 1T19 em
+comparação a uma despesa financeira líquida de R$ 107 milhões no 1T18, devido (i) ao resultado dos hedges cambiais em
+função da marcação a mercado no período e (ii) à melhora na rentabilidade do caixa, aliado à redução no custo da dívida,
+fruto das iniciativas de gestão de passivo da Companhia. Na comparação trimestral, a receita financeira líquida reduziu
+R$ 95 milhões, em função, principalmente, da apropriação de juros de créditos tributários referentes à exclusão do ICMS
+da base de cálculo do PIS/COFINS no 4T18.
+
+Lucro líquido – Total de R$ 251 milhões (+245%), principalmente em função da multa mencionada anteriormente que
+impactou o 1T18 e do melhor resultado financeiro. Em relação ao 4T18, o lucro líquido diminuiu 49%, devido à redução no
+EBITDA e no resultado financeiro no período. Considerando os ajustes do IFRS 16, o lucro líquido Pós-ajustes da Ultrapar
+foi de R$ 243 milhões.
+
+Fluxo de caixa das atividades operacionais – Geração de R$ 462 milhões no 1T19, comparado a um consumo de R$ 113
+milhões no 1T18, em função do pagamento da multa contratual pela não aquisição da Liquigás no 1T18, e iniciativas de
+otimização do capital de giro no 1T19.
+4
+    Inclui amortização de ativos de contratos com clientes – direitos de exclusividade
+
+
+
+
+                                                                                                                                                                    9
+              1° TRIMESTRE DE 2019
+
+Mercado de capitais
+
+O volume financeiro negociado da Ultrapar, considerando as negociações ocorridas na B3 e na NYSE, foi de R$ 187
+milhões/dia no 1T19 (+52%). As ações da Ultrapar encerraram o trimestre cotadas a R$ 47,00 na B3, redução de 12% no
+trimestre. Já o índice Ibovespa valorizou 9% no 1T19. Na NYSE, as ações da Ultrapar apresentaram desvalorização de 12%
+no 1T19, enquanto o índice Dow Jones apresentou valorização de 11%, no mesmo período. A Ultrapar encerrou o 1T19 com
+um valor de mercado de R$ 26 bilhões.
+
+
+ Mercado de capitais                                                     1T19                 1T18        4T18
+
+ Quantidade de ações (mil)                                           556.405                556.405     556.405
+ Valor de mercado¹ (R$ milhões)                                       26.151                 39.460      29.601
+ B3
+ Volume médio/dia (ações)                                           2.732.425               1.122.070   2.756.147
+ Volume financeiro médio/dia (R$ mil)                                143.814                 85.424     121.971
+ Cotação média (R$/ação)                                                 52,63                76,13       44,25
+ NYSE
+ Quantidade de ADRs² (mil ADRs)                                       24.096                 30.280      27.863
+ Volume médio/dia (ADRs)                                             819.842                489.799     975.807
+ Volume financeiro médio/dia (US$ mil)                                11.507                 11.534      11.388
+ Cotação média (US$/ADRs)                                                14,04                23,55       11,67
+ Total
+ Volume médio/dia (ações)                                           3.552.267               1.611.869   3.731.955
+ Volume financeiro médio/dia (R$ mil)                                187.235                122.828     165.305
+¹ Calculado a partir do preço de fechamento da ação no período
+² 1 ADR = 1 ação ordinária
+
+
+Em 10 de abril de 2019, a Assembleia Geral Extraordinária e Ordinária da Companhia aprovou o desdobramento das
+ações ordinárias de emissão da Ultrapar, de forma que uma ação atualmente existente passou a representar duas
+ações de mesma classe e espécie. O desdobramento não implicou em alteração do capital social da Ultrapar.
+
+
+
+                                                  Evolução UGPA3 x Ibovespa – 1T19
+                                                                  (Base 100)
+
+
+
+
+                   Fonte: Bloomberg                              UGPA3           Ibovespa
+
+
+
+
+                                                                                                                         10
+          1° TRIMESTRE DE 2019
+
+Endividamento (R$ milhões)
+
+
+ Ultrapar consolidado                                 1T19         4T18         1T18
+
+ Dívida bruta                                       (15.112,0)   (15.206,1)   (14.780,3)
+ Caixa e aplicações financeiras                      6.492,0      6.994,4      6.239,3
+ Dívida líquida                                     (8.620,0)    (8.211,7)    (8.541,0)
+ Dívida líquida/EBITDA Ajustado LTM                   2,65x        2,68x        2,41x
+ Custo médio da dívida (% CDI)                        97,5%        97,5%       97,5%
+ Rendimento médio do caixa (% CDI)                    97,4%        97,0%       96,4%
+
+
+
+Perfil de amortização:
+
+
+
+
+Composição por moeda:
+
+Moeda Nacional                                                                             9.516,9
+Moeda Estrangeira                                                                          5.578,0
+Resultado de instrumentos de proteção cambial e de juros                                    17,1
+Total                                                                                     15.112,0
+
+
+
+
+                                  Moeda Nacional   Moeda Estrangeira   Com hedge    Sem hedge
+
+
+
+
+                                                                                                     11
+     1° TRIMESTRE DE 2019
+
+                                                                             ULTRAPAR
+                                                                BALANÇO PATRIMONIAL CONSOLIDADO
+
+
+                                                                                        MAR 19        Ajustes
+Em milhões de Reais                                                                                                 MAR 19        MAR 18        DEZ 18
+                                                                                    Pós-ajustes       IFRS 16
+
+ATIVO
+
+ Caixa e equivalentes de caixa                                                            3.446,3            -        3.446,3       4.667,6       3.939,0
+ Aplicações financeiras e instrumentos financeiros derivativos de proteção                2.791,1            -        2.791,1       1.482,0       2.853,1
+ Contas a receber de clientes e financiamentos a clientes                                 4.183,8            -        4.183,8       4.351,3       4.436,6
+ Estoques                                                                                 3.243,4            -        3.243,4       3.338,1       3.354,5
+ Impostos                                                                                   958,5            -          958,5         899,1         896,9
+ Despesas antecipadas                                                                       163,2           38,8        202,0         146,6         187,6
+ Ativos de contratos com clientes - direitos de exclusividade                               489,6            -          489,6         456,8         484,5
+ Outros                                                                                       72,0           -            72,0          96,0         59,6
+Total Ativo Circulante                                                                   15.347,8          38,8      15.386,6      15.437,4      16.211,7
+
+ Aplicações financeiras e instrumentos financeiros derivativos de proteção                  254,6            -          254,6           89,6        202,3
+ Contas a receber de clientes e financiamentos a clientes                                   384,3            -          384,3         347,6         429,8
+ Imposto de renda e contribuição social diferidos                                           500,8           (4,4)       496,4         710,8         514,2
+ Impostos a recuperar                                                                       829,6            -          829,6         325,5         852,8
+ Depósitos judiciais                                                                        892,9            -          892,9         830,3         881,5
+ Despesas antecipadas                                                                       112,6         280,0         392,6         377,0         399,1
+ Ativos de contratos com clientes - direitos de exclusividade                             1.007,8            -        1.007,8       1.037,1       1.034,0
+ Outros                                                                                     196,5            -          196,5         205,2         196,6
+ Investimentos                                                                              122,2            -          122,2         155,6         129,1
+ Ativos de direito de uso                                                                 1.921,3       (1.921,3)          -             -            -
+ Imobilizado                                                                              7.295,3            -        7.295,3       6.813,7       7.278,9
+ Intángivel                                                                               2.321,0           38,6      2.359,7       2.218,9       2.369,4
+Total Ativo Não Circulante                                                               15.839,0       (1.607,1)    14.232,0      13.111,3      14.287,7
+
+TOTAL ATIVO                                                                              31.186,9       (1.568,2)    29.618,6      28.548,7      30.499,4
+
+PASSIVO
+
+
+ Empréstimos, financiamentos e instrumentos financeiros derivativos de proteção           1.937,3            -        1.937,3       1.942,7       2.007,4
+ Debêntures                                                                                 308,5            -          308,5         945,0         263,7
+ Fornecedores                                                                             2.083,4            -        2.083,4       1.859,8       2.731,7
+ Salários e encargos sociais                                                                326,5            -          326,5         304,5         428,2
+ Impostos                                                                                   363,8            -          363,8         221,7         268,0
+ Arrendamentos a pagar                                                                      226,7         (223,8)          2,9           2,7          2,8
+ Outros                                                                                     315,3            -          315,3         358,9         634,9
+Total Passivo Circulante                                                                  5.561,5        (223,8)      5.337,7       5.635,2       6.336,8
+
+
+ Empréstimos, financiamentos e instrumentos financeiros derivativos de proteção           6.453,3            -        6.453,3       6.186,6       6.487,4
+ Debêntures                                                                               6.412,9            -        6.412,9       5.658,2       6.401,5
+ Provisões judiciais                                                                        864,0            -          864,0         866,0         865,2
+ Benefícios pós-emprego                                                                     200,2            -          200,2         213,7         204,2
+ Arrendamentos a pagar                                                                    1.395,5       (1.353,0)        42,5          45,2          43,2
+ Outros                                                                                     369,5            -          369,5         478,4         361,0
+Total Passivo Não Circulante                                                             15.695,4       (1.353,0)    14.342,5      13.448,1      14.362,6
+
+TOTAL PASSIVO                                                                            21.256,9       (1.576,8)    19.680,1      19.083,2      20.699,4
+
+PATRIMÔNIO LÍQUIDO
+
+ Capital social                                                                           5.171,8            -        5.171,8       5.171,8       5.171,8
+ Reservas                                                                                 4.646,2            -        4.646,2       4.314,7       4.646,2
+ Ações em tesouraria                                                                        (485,4)          -          (485,4)       (482,3)      (485,4)
+ Outros                                                                                     239,8            8,5        248,3         126,6         115,5
+ Participação dos não-controladores                                                         357,6           (0,0)       357,6         334,7         351,9
+Total do Patrimônio Líquido                                                               9.929,9            8,5      9.938,5       9.465,5       9.800,0
+
+TOTAL PASSIVO E PATRIMÔNIO LÍQUIDO                                                       31.186,9       (1.568,2)    29.618,6      28.548,7      30.499,4
+
+ Caixa e aplicações financeiras                                                           6.492,0            -        6.492,0       6.239,3       6.994,4
+ Empréstimos e debêntures                                                                (15.112,0)          -       (15.112,0)    (14.780,3)   (15.206,1)
+Caixa (endividamento) líquido                                                            (8.620,0)           -       (8.620,0)     (8.541,0)     (8.211,7)
+
+
+
+
+                                                                                                                                                             12
+     1° TRIMESTRE DE 2019
+
+                                                                                   ULTRAPAR
+                                                          DEMONSTRATIVO DE RESULTADOS CONSOLIDADO
+
+
+                                                                                    1T19              Ajustes
+Em milhões de Reais                                                                                                         1T19                1T18                4T18
+                                                                               Pós-ajustes            IFRS 16
+
+Receita líquida de vendas e serviços                                                20.739,3                   -            20.739,3            20.751,1             23.467,0
+
+  Custos dos produtos vendidos e dos serviços prestados                             (19.294,7)                (0,5)         (19.295,2)          (19.229,8)          (21.911,9)
+
+Lucro bruto                                                                            1.444,6                (0,5)           1.444,0             1.521,3             1.555,2
+
+Receitas (despesas) operacionais
+  Com vendas e comerciais                                                               (678,5)               (6,3)            (684,8)             (671,4)              (653,6)
+  Gerais e administrativas                                                              (383,8)               (0,7)            (384,6)             (372,6)              (448,6)
+  Outros resultados operacionais, líquidos                                                36,7                 -                  36,7             (262,7)              261,0
+  Resultado na venda de bens                                                              (2,1)                -                  (2,1)              (2,2)              (15,0)
+
+Lucro operacional                                                                       416,9                 (7,6)             409,3               212,3               699,0
+
+  Resultado financeiro
+    Receita financeira                                                                  144,1                  -                144,1               112,4               231,6
+    Despesa financeira                                                                  (143,3)              20,5              (122,8)             (219,4)              (115,0)
+  Equivalência patrimonial                                                                 (7,0)               -                   (7,0)               (3,0)               (5,6)
+
+Lucro antes do imposto de renda e contribuição social                                   410,7                12,9               423,7               102,4               810,1
+
+  Imposto de renda e contribuição social
+    Corrente                                                                            (152,9)                -               (152,9)             (138,5)              (211,9)
+    Diferido                                                                             (28,8)               (4,4)              (33,2)               92,5              (134,2)
+    Incentivos fiscais                                                                    13,5                 -                  13,5                16,5                31,6
+
+Lucro líquido                                                                           242,6                  8,5              251,1                72,9               495,6
+
+  Lucro atribuível a:
+    Acionistas da Ultrapar                                                              233,7                  8,5              242,2                 73,9              507,6
+    Acionistas não controladores de controladas                                            8,9                (0,0)                8,9                 (1,0)             (12,1)
+
+EBITDA Ajustado                                                                         782,3               (84,4)              697,9               508,1               993,0
+
+  Depreciação e amortização¹                                                            372,4                (76,9)             295,6               298,8               299,6
+  Investimentos totais²                                                                 267,8                  -                267,8               603,5               548,1
+
+Índices
+
+  Lucro por ação - R$                                                                     0,22                                    0,22                0,07                0,47
+  Dívida líquida / Patrimônio líquido                                                     0,87                                    0,87                0,90                0,84
+  Dívida líquida / LTM EBITDA Ajustado                                                    2,65                                    2,65                2,41                2,68
+  Despesa financeira líquida / EBITDA Ajustado                                              na                                      na                0,21                  na
+  Margem bruta                                                                            7,0%                                    7,0%                7,3%                6,6%
+  Margem operacional                                                                      2,0%                                    2,0%                1,0%                3,0%
+  Margem EBITDA Ajustado                                                                  3,8%                                    3,4%                2,4%                4,2%
+
+Número de funcionários                                                                 17.027                                  17.027              16.991              17.034
+
+
+
+¹ Inclui amortização de ativos de contratos com clientes – direitos de exclusividade
+² Inclui imobilizações e adições ao intangível, ativos de contratos com clientes (direitos de exclusividade), liberações de financiamentos a clientes, antecipações de aluguel
+(líquidos de repagamentos) e aquisições de participações acionárias
+
+
+
+
+                                                                                                                                                                                   13
+1° TRIMESTRE DE 2019
+
+                                                                 ULTRAPAR
+                                                        FLUXO DE CAIXA CONSOLIDADO
+
+
+       Em milhões de Reais                                                                      JAN - MAR      JAN - MAR
+                                                                                                  2019           2018
+       Fluxo de caixa das atividades operacionais
+       Lucro líquido do exercício                                                                    242,6           72,9
+       Ajustes para reconciliar o lucro líquido ao caixa gerado pelas atividades operacionais
+           Equivalência patrimonial                                                                    7,0            3,0
+           Amortização de ativos de contratos com clientes - direitos de exclusividade                83,6          104,5
+           Amortização de ativos de direito de uso                                                    78,1            -
+           Depreciações e amortizações                                                               210,6          194,2
+           Créditos de PIS e COFINS sobre depreciação                                                  3,6            4,3
+           Juros, variações monetárias e cambiais                                                    236,1          223,2
+           Imposto de renda e contribuição social diferidos                                           28,8          (92,5)
+           Resultado na venda de bens                                                                  2,1            2,2
+           Perdas estimadas de crédito de liquidação duvidosa                                         28,2           27,5
+           Provisão para perda em estoques                                                             2,1           (0,1)
+           Provisão para benefício pós-emprego                                                        (3,9)           5,7
+           Demais provisões e ajustes                                                                 (1,2)          (1,3)
+
+                                                                                                     917,8          543,6
+
+       (Aumento) diminuição no ativo circulante
+          Contas a receber e financiamentos a clientes                                               226,1         (230,9)
+          Estoques                                                                                   107,1          175,6
+          Impostos a recuperar                                                                       (61,7)         (13,6)
+          Seguro e demais contas a receber                                                           (12,4)         (25,2)
+          Despesas antecipadas                                                                       (14,7)           3,5
+          Ativos de contratos com clientes - direitos de exclusividade                                 -             (0,6)
+
+       Aumento (diminuição) no passivo circulante
+          Fornecedores                                                                              (648,3)        (295,7)
+          Salários e encargos sociais                                                               (101,7)         (83,6)
+          Obrigações tributárias                                                                     (28,2)           0,2
+          Imposto de renda e contribuição social                                                     109,3            6,0
+          Provisões para riscos tributários, cíveis e trabalhistas                                     7,1           (7,1)
+          Seguro e demais contas a pagar                                                              (8,3)         (32,6)
+          Receita diferida                                                                             6,9            0,4
+
+       (Aumento) diminuição no ativo não circulante
+          Contas a receber e financiamentos a clientes                                                45,5           (17,6)
+          Impostos a recuperar                                                                        23,2           (12,3)
+          Depósitos judiciais                                                                        (11,4)           (7,7)
+          Demais contas a receber                                                                      0,1             5,6
+          Despesas antecipadas                                                                        (2,1)          (30,1)
+          Ativos de contratos com clientes - direitos de exclusividade                                 -               0,4
+
+       Aumento (diminuição) no passivo não circulante
+          Benefícios pós-emprego                                                                       0,1            0,3
+          Provisões para riscos tributários, cíveis e trabalhistas                                    (1,2)           4,7
+          Demais contas a pagar                                                                       14,9           33,4
+          Receita diferida                                                                            (0,8)           0,5
+
+       Pagamentos de ativos de contratos com clientes - direitos de exclusividade                    (64,1)          (95,9)
+       Imposto de renda e contribuição social pagos                                                  (40,8)          (34,3)
+
+       Caixa líquido gerado pelas (utilizados nas) atividades operacionais                           462,4         (113,1)
+
+       Fluxo de caixa das atividades de investimentos
+         Aplicações financeiras, liquidas de resgates                                                  7,7         (203,5)
+         Caixa e equivalentes de caixa de controlada adquirida                                         -              3,7
+         Aquisição de imobilizado                                                                   (199,2)        (284,5)
+         Aquisição de intangível                                                                     (14,9)         (70,9)
+         Aquisição de subsidiária                                                                      -           (100,0)
+         Aporte de capital em empreendimentos controlados em conjunto                                  -             (8,0)
+         Receita com a venda de bens                                                                   9,0            4,9
+
+       Caixa líquido utilizado nas atividades de investimentos                                      (197,4)        (658,3)
+
+       Fluxo de caixa das atividades de financiamentos
+       Financiamentos e debêntures
+         Captação                                                                                     60,1         2.081,1
+         Amortização                                                                                (247,4)       (1.074,0)
+         Juros pagos                                                                                (113,8)          (84,3)
+       Contraprestação de arrendamento mercantil                                                     (76,8)           (1,3)
+       Dividendos pagos                                                                             (380,6)         (488,1)
+       Sociedades relacionadas                                                                        (0,0)           (0,0)
+
+       Caixa líquido gerado pelas (utilizado nas) atividades de financiamentos                      (758,6)         433,4
+
+       Variação cambial de caixa e equivalentes de caixa em moeda estrangeira                            1,0            3,6
+
+       Aumento (diminuição) de caixa e equivalentes de caixa                                        (492,6)        (334,4)
+
+       Caixa e equivalentes de caixa no início do exercício                                        3.939,0        5.002,0
+
+       Caixa e equivalentes de caixa no fim do exercício                                           3.446,3        4.667,6
+
+       Informações adicionais - transações que não afetaram o caixa:
+       Ativos de direito de uso                                                                          27                -
+
+
+                                                                                                                               14
+      1° TRIMESTRE DE 2019
+
+                                                                                IPIRANGA
+                                                              CAPITAL OPERACIONAL CONSOLIDADO
+
+                                                                                 MAR 19           Ajustes
+Em milhões de Reais                                                                                               MAR 19       MAR 18          DEZ 18
+                                                                              Pós-ajustes         IFRS 16
+
+ATIVO OPERACIONAL
+    Clientes                                                                           2.995,9          -           2.995,9      3.259,8         3.263,4
+    Clientes a receber LP                                                               361,5           -             361,5        313,3           393,2
+    Estoques                                                                           1.793,5          -           1.793,5      1.938,3         1.768,4
+    Impostos                                                                            598,2           -             598,2        534,9           576,9
+    Ativos de contratos com clientes - direitos de exclusividade                       1.497,5          -           1.497,5      1.493,9         1.518,5
+    Outros                                                                              595,3         317,5           912,7        824,6           906,5
+    Ativos de direito de uso                                                           1.076,2      (1.076,2)           -              -              -
+    Imobilizado / Intangível / Investimentos                                           3.491,5          -           3.491,5      3.356,2         3.501,1
+
+TOTAL ATIVO OPERACIONAL                                                            12.409,5          (758,7)       11.650,7     11.721,0        11.928,0
+
+PASSIVO OPERACIONAL
+    Fornecedores                                                                       1.463,0          -           1.463,0      1.251,3         1.892,8
+    Salários e encargos                                                                   91,3          -              91,3          85,0          122,7
+    Benefícios pós-emprego                                                              201,6           -             201,6        192,8           204,3
+    Impostos                                                                            171,0           -             171,0        153,6           177,8
+    Provisões judiciais                                                                 330,0           -             330,0        326,9           327,9
+    Arrendamentos a pagar                                                               765,2        (765,2)            -              -              -
+    Outros                                                                              248,0           -             248,0        246,2           242,0
+
+TOTAL PASSIVO OPERACIONAL                                                              3.270,0       (765,2)        2.504,9      2.255,9         2.967,4
+
+
+
+
+                                                                 DEMONSTRATIVO DE RESULTADOS CONSOLIDADO
+
+                                                                                   1T19           Ajustes
+Em milhões de Reais                                                                                             Corporativo     1T19           1T18           4T18
+                                                                              Pós-ajustes         IFRS 16
+
+Receita líquida                                                                    17.428,0             -               -       17.428,0        17.516,3      19.883,0
+
+ Custos dos produtos vendidos e dos serviços prestados                             (16.565,5)           -               -       (16.565,5)     (16.574,1)     (19.002,8)
+
+Lucro bruto                                                                             862,5           -               -          862,5          942,2          880,1
+
+ Despesas operacionais
+   Vendas e comerciais                                                                  (326,9)         (3,5)           -          (330,4)        (363,3)        (305,9)
+   Gerais e administrativas                                                             (163,8)         -             (10,3)       (174,1)        (185,3)        (210,2)
+
+ Outros resultados operacionais                                                           24,1          -               -            24,1           21,2           50,5
+ Resultado na venda de bens                                                               (0,9)         -               -              (0,9)          (0,8)          (9,7)
+
+Lucro operacional                                                                       394,9           (3,5)         (10,3)       381,1          413,9          404,9
+Equivalência patrimonial                                                                   0,4          -               -              0,4            0,2            (0,3)
+
+EBITDA Ajustado                                                                         593,9         (45,2)          (10,3)       538,4          585,4          568,7
+
+Depreciação e amortização¹                                                              198,6          (41,7)           -          156,8           171,2         164,2
+
+Índices
+
+ Margem bruta (R$/m³)                                                                     154                                          154            173            143
+ Margem operacional (R$/m³)                                                                71                                           68              76            66
+ Margem EBITDA Ajustado (R$/m³)                                                           106                                           96            107             92
+ Margem EBITDA Ajustado (%)                                                               3,4%                                       3,1%           3,3%           2,9%
+
+Número de postos                                                                        7.218                                      7.218          7.080          7.218
+
+Número de funcionários                                                                  3.368                                      3.368          3.386          3.318
+
+
+¹ Inclui amortização de ativos de contratos com clientes – direitos de exclusividade
+
+
+
+
+                                                                                                                                                                             15
+     1° TRIMESTRE DE 2019
+
+                                                         OXITENO
+                                              CAPITAL OPERACIONAL CONSOLIDADO
+
+                                                        MAR 19         Ajustes
+Em milhões de Reais                                                                    MAR 19       MAR 18         DEZ 18
+                                                      Pós-ajustes      IFRS 16
+
+ATIVO OPERACIONAL
+   Clientes                                                 560,4            -             560,4       523,0          605,1
+   Estoques                                                 778,7            -             778,7       804,0          861,2
+   Impostos                                                 582,5            -             582,5       151,0          578,7
+   Outros                                                   137,3            -             137,3       140,8          140,6
+   Ativos de direito de uso                                  37,2           (37,2)           -              -             -
+   Imobilizado / Intangível / Investimentos                2.577,1           -           2.577,1      2.207,6        2.556,2
+
+TOTAL ATIVO OPERACIONAL                                   4.673,2          (37,2)        4.636,0      3.826,5        4.741,8
+
+PASSIVO OPERACIONAL
+   Fornecedores                                             356,9            -             356,9       268,4          444,2
+   Salários e encargos                                       89,3            -              89,3         62,4         140,9
+   Impostos                                                  28,6            -              28,6         30,8           36,7
+   Provisões judiciais                                       25,2            -              25,2         15,8           26,9
+   Arrendamentos a pagar                                     37,4           (37,4)           -              -             -
+   Outros                                                    30,6            -              30,6         41,6           75,2
+
+TOTAL PASSIVO OPERACIONAL                                   568,0          (37,4)          530,5       419,0          723,9
+
+
+
+
+                                               DEMONSTRATIVO DE RESULTADOS CONSOLIDADO
+
+                                                         1T19          Ajustes
+Em milhões de Reais                                                                  Corporativo     1T19          1T18           4T18
+                                                      Pós-ajustes      IFRS 16
+
+Receita líquida                                           1.055,7            -               -        1.055,7         999,3        1.199,9
+
+ Custo dos produtos vendidos
+   Variável                                                 (738,5)          -               -         (738,5)        (684,5)       (811,5)
+   Fixo                                                     (111,9)          (1,6)           -         (113,6)        (103,2)       (122,3)
+   Depreciação e amortização                                 (48,2)           1,5            -          (46,7)         (36,3)        (39,9)
+
+Lucro bruto                                                 157,0            (0,2)           -         156,9          175,3         226,2
+
+ Despesas operacionais
+  Vendas e comerciais                                        (81,4)          (0,0)           -          (81,4)         (78,0)        (77,5)
+  Gerais e administrativas                                   (91,9)          (0,1)          (2,0)       (94,0)         (88,8)       (119,8)
+
+ Outros resultados operacionais                                 1,3          -               -              1,3           1,9       208,9
+ Resultado na venda de bens                                     0,3          -               -              0,3           (0,4)          (2,5)
+Lucro (prejuízo) operacional                                 (14,8)          (0,2)          (2,0)       (17,0)         10,1         235,3
+Equivalência patrimonial                                        0,0          -               -              0,0           0,3            (0,1)
+
+EBITDA                                                       38,6            (2,4)          (2,0)       34,1           51,2         279,8
+
+Depreciação e amortização                                    53,3            (2,2)           -           51,2           40,8          44,6
+
+Índices
+
+ Margem bruta (R$/ton)                                          872                                         871           974       1.191
+ Margem bruta (US$/ton)                                         231                                         231           300            313
+ Margem operacional (R$/ton)                                    (82)                                        (95)            56      1.239
+ Margem operacional (US$/ton)                                   (22)                                        (25)            17           325
+ Margem EBITDA (R$/ton)                                         214                                         190           284       1.474
+ Margem EBITDA (US$/ton)                                        57                                          50              88           387
+
+Número de funcionários                                      1.941                                      1.941          1.931         1.943
+
+
+
+
+                                                                                                                                                 16
+    1° TRIMESTRE DE 2019
+
+                                               ULTRAGAZ
+                                    CAPITAL OPERACIONAL CONSOLIDADO
+
+                                              MAR 19        Ajustes
+Em milhões de Reais                                                         MAR 19       MAR 18        DEZ 18
+                                            Pós-ajustes     IFRS 16
+
+ATIVO OPERACIONAL
+   Clientes                                       412,8           -             412,8       367,2         386,3
+   Clientes a receber LP                           22,5           -              22,5         34,0          36,3
+   Estoques                                       102,9           -             102,9       105,6         140,7
+   Impostos                                        89,5           -              89,5         66,7          88,2
+   Depósitos judiciais                            220,1           -             220,1       211,3         217,9
+   Outros                                          61,6           -              61,6         55,8          58,4
+   Ativos de direito de uso                       155,6        (155,6)            -              -            -
+   Imobilizado / Intangível                       945,2           -             945,2       973,2         964,5
+
+TOTAL ATIVO OPERACIONAL                         2.010,3        (155,6)        1.854,8      1.813,7       1.892,4
+
+PASSIVO OPERACIONAL
+   Fornecedores                                    73,2           -              73,2         74,7          74,2
+   Salários e encargos                             79,7           -              79,7         85,7          92,9
+   Impostos                                           8,1         -               8,1         10,4            8,3
+   Provisões judiciais                            115,3           -             115,3       110,1         113,4
+   Arrendamentos a pagar                          156,5        (156,5)            -              -            -
+   Outros                                         123,0           -             123,0       141,4         128,6
+
+TOTAL PASSIVO OPERACIONAL                         555,9        (156,5)          399,4       422,3         417,5
+
+
+
+
+                                     DEMONSTRATIVO DE RESULTADOS CONSOLIDADO
+
+                                               1T19         Ajustes
+Em milhões de Reais                                                       Corporativo     1T19         1T18           4T18
+                                            Pós-ajustes     IFRS 16
+
+ Receita líquida                                1.640,2           -               -        1.640,2       1.625,8       1.782,6
+
+   Custo dos produtos vendidos                  (1.432,0)         (0,3)           -       (1.432,3)     (1.432,3)     (1.551,8)
+
+ Lucro bruto                                      208,3          (0,3)            -         207,9         193,5         230,8
+
+   Despesas operacionais
+    Vendas e comerciais                          (107,7)          (0,1)           -         (107,8)        (81,9)       (105,9)
+    Gerais e administrativas                       (54,0)         (0,6)          (2,2)       (56,8)        (49,4)        (58,9)
+
+   Outros resultados operacionais                     3,4         -               -              3,4      (284,9)            1,4
+   Resultado na venda de bens                         0,9         -               -              0,9          (0,8)          (1,0)
+
+ Lucro (prejuízo) operacional                      50,9          (1,0)           (2,2)       47,6         (223,5)        66,5
+ Equivalência patrimonial                             0,0         -               -              0,0          0,0            (0,0)
+
+ EBITDA                                           108,2          (9,0)           (2,2)       97,0         (170,0)       120,8
+
+ Depreciação e amortização                         57,3           (8,0)           -           49,3          53,4          54,2
+
+Índices
+
+ Margem bruta (R$/ton)                                527                                        526          472            548
+ Margem operacional (R$/ton)                          129                                        121       (545)             158
+ Margem EBITDA (R$/ton)                               274                                        245       (415)             287
+
+Número de funcionários                            3.508                                     3.508         3.586         3.511
+
+
+
+
+                                                                                                                                     17
+     1° TRIMESTRE DE 2019
+
+                                                                         ULTRACARGO
+                                                          CAPITAL OPERACIONAL CONSOLIDADO
+
+                                                                          MAR 19             Ajustes
+Em milhões de Reais                                                                                              MAR 19             MAR 18              DEZ 18
+                                                                       Pós-ajustes           IFRS 16
+
+ATIVO OPERACIONAL
+    Clientes                                                                     47,5                 -                 47,5               43,9                 37,1
+    Estoques                                                                       5,9                -                  5,9                 5,6                   5,6
+    Impostos                                                                       4,8                -                  4,8                 2,5                   3,7
+    Outros                                                                       17,3                 0,3               17,7               13,6                 28,4
+    Ativos de direito de uso                                                    138,8             (138,8)                -                   -                     -
+    Imobilizado / Intangível / Investimentos                                  1.188,7               10,3             1.199,0            1.068,9              1.175,3
+
+TOTAL ATIVO OPERACIONAL                                                      1.403,0              (128,2)           1.274,9             1.134,5              1.250,2
+
+PASSIVO OPERACIONAL
+    Fornecedores                                                                 28,9                 -                 28,9               22,5                 50,5
+    Salários e encargos                                                          17,9                 -                 17,9               26,3                 25,8
+    Impostos                                                                       6,9                -                  6,9                 5,9                   9,1
+    Provisões judiciais                                                          24,0                 -                 24,0               25,0                 24,1
+    Arrendamentos a pagar                                                       129,9             (129,9)                -                   -                     -
+    Outros¹                                                                      61,7                 -                 61,7              100,4                 59,9
+
+TOTAL PASSIVO OPERACIONAL                                                      269,2              (129,9)             139,3               180,2               169,4
+
+¹ Inclui obrigações com clientes de longo prazo e saldo referente ao valor adicional mínimo da aquisição do Temmar, no porto de Itaqui e contas a pagar -
+indenização clientes
+
+
+
+
+                                                             DEMONSTRATIVO DE RESULTADOS CONSOLIDADO
+
+                                                                            1T19             Ajustes
+Em milhões de Reais                                                                                           Corporativo             1T19                  1T18           4T18
+                                                                       Pós-ajustes           IFRS 16
+
+  Receita líquida                                                              126,5                  -                  -                126,5               116,0          126,8
+
+    Custo dos serviços prestados                                                (58,8)               (0,1)               -                 (58,9)              (58,8)         (63,4)
+
+  Lucro bruto                                                                    67,7                (0,1)               -                 67,7                57,2           63,4
+
+    Despesas operacionais
+     Vendas e comerciais                                                           (1,7)              -                  -                   (1,7)                 (1,9)          (3,2)
+     Gerais e administrativas                                                   (27,1)                -                 (0,7)              (27,7)              (26,8)         (30,5)
+
+    Outros resultados operacionais                                                 (1,0)              -                  -                   (1,0)                 (0,7)          (1,5)
+    Resultado na venda de bens                                                     0,0                -                  -                   0,0                   0,0            (2,1)
+
+  Lucro operacional                                                              38,0                (0,1)              (0,7)              37,3                27,8           26,0
+
+  Equivalência patrimonial                                                         0,5                -                  -                   0,5                   0,6            (0,1)
+
+  EBITDA                                                                         59,2                (6,4)              (0,7)              52,2                41,0           39,6
+
+  Depreciação e amortização                                                      20,7                (6,3)               -                 14,4                 12,5          13,7
+
+Índices
+
+ Margem bruta                                                                   53,5%                                                     53,5%               49,3%          50,0%
+ Margem operacional                                                             30,1%                                                     29,5%               24,0%          20,5%
+ Margem EBITDA                                                                  46,8%                                                     41,3%               35,3%          31,2%
+
+Número de funcionários                                                             707                                                       707                   731            710
+
+
+
+
+                                                                                                                                                                                          18
+        1° TRIMESTRE DE 2019
+
+                                                               EXTRAFARMA
+                                                            CAPITAL OPERACIONAL
+
+                                                                MAR 19          Ajustes
+Em milhões de Reais                                                                             MAR 19       MAR 18          DEZ 18
+                                                              Pós-ajustes       IFRS 16
+
+ATIVO OPERACIONAL
+    Clientes                                                        176,9             -             176,9       166,5           154,4
+    Estoques                                                        562,3             -             562,3       484,6           578,7
+    Impostos                                                        155,0             -             155,0       132,4           136,7
+    Outros                                                           25,9              1,1           27,0         19,9            21,6
+    Ativos de direito de uso                                        513,6          (513,6)            -              -              -
+    Imobilizado / Intangível                                       1.134,4           28,4         1.162,7      1.130,0         1.169,3
+
+TOTAL ATIVO OPERACIONAL                                           2.568,1          (484,1)        2.084,0      1.933,5         2.060,8
+
+PASSIVO OPERACIONAL
+    Fornecedores                                                    171,8             -             171,8       247,8           267,9
+    Salários e encargos                                              48,2             -              48,2         44,7            45,8
+    Impostos                                                         24,7             -              24,7         20,2            24,0
+    Provisões judiciais                                              44,8             -              44,8         48,8            43,8
+    Arrendamentos a pagar                                           487,7          (487,7)            -              -              -
+    Outros                                                           13,6             -              13,6         13,0            11,1
+
+TOTAL PASSIVO OPERACIONAL                                           790,8          (487,7)          303,0       374,5           392,5
+
+
+
+
+                                                             DEMONSTRATIVO DE RESULTADOS
+
+                                                                 1T19           Ajustes
+Em milhões de Reais                                                                           Corporativo     1T19           1T18           4T18
+                                                              Pós-ajustes       IFRS 16
+
+
+Receita bruta                                                       545,7             -               -         545,7           542,0         525,7
+
+    Devoluções, abatimentos e impostos faturados                     (29,3)           -               -          (29,3)          (30,4)        (27,0)
+
+Receita líquida                                                     516,3             -               -         516,3           511,6         498,7
+
+    Custos dos produtos vendidos e dos serviços prestados           (374,8)           -               -         (374,8)         (358,5)       (348,0)
+
+Lucro bruto                                                         141,5             -               -         141,5           153,0         150,7
+
+    Despesas operacionais                                           (186,0)           (2,8)          (0,3)      (189,1)         (169,7)       (185,8)
+    Outros resultados operacionais                                      8,8           -               -              8,8            (0,2)          0,3
+    Resultado na venda de bens                                          (2,4)         -               -              (2,4)          (0,3)          0,3
+
+Prejuízo operacional                                                 (38,0)           (2,8)          (0,3)       (41,1)          (17,2)        (34,6)
+
+EBITDA                                                                  0,6         (21,4)           (0,3)       (21,2)             (0,2)      (15,5)
+
+Depreciação e amortização                                            38,6            (18,7)           -           20,0            17,0         19,1
+
+Índices¹
+Margem bruta                                                        25,9%                                       25,9%           28,2%         28,7%
+Margem operacional                                                  (7,0%)                                      (7,5%)          (3,2%)        (6,6%)
+Margem EBITDA                                                        0,1%                                       (3,9%)           0,0%         (2,9%)
+
+Número de funcionários                                              7.095                                       7.095           6.902         7.112
+
+1
+    Calculado sobre a receita bruta
+
+
+
+
+                                                                                                                                                         19
+1Q19 EARNINGS RELEASE
+
+São Paulo May 15, 2019 – Ultrapar Participações S.A. (B3: UGPA3 / NYSE: UGP), a Company engaged in retail and
+specialized distribution (Ipiranga/Ultragaz/Extrafarma), specialty chemicals (Oxiteno) and storage for liquid bulk
+(Ultracargo), hereby reports its results for the first quarter of 2019.
+
+
+
+
+   Net revenues                                                Adjusted EBITDA                                                   Net earnings
+
+       R$ 21                                                         R$ 782                                                         R$ 243
+       billion                                                       million                                                        million
+ 0% YoY           -12% QoQ                                    37% YoY¹           -30% QoQ¹                                245% YoY¹           -49% QoQ¹
+
+
+
+    Investments                                               Operating Cash Flow                                                   Market Cap.
+
+    R$ 268                                                              R$ 462                                                          R$ 26
+     million                                                            million                                                         billion
+¹The variations above does not consider the IFRS adjustments, as detailed in the section “Summary of changes resulting from the application of IFRS 16
+and Corporate”
+
+
+
+  Highlights
+  • Ipiranga and Ultracargo win bids to invest and operate in port areas in the states of ES, PB and PA
+  • Ultrapar realizes a 1 for 2 stock split of its shares
+
+Conference Call 1Q19
+
+Ultrapar will be holding a conference call for analysts and investors on May 16, 2019 to comment on the Company's
+performance in the first quarter of 2019 and its outlook. The presentation will be available for download on the
+Company's website 30 minutes prior to the conference call. A WEBCAST live will be available via internet at
+ri.ultra.com.br. Please connect 15 minutes in advance.
+
+  Portuguese: 11 a.m. (Brasília time) / 10 a.m. (US EST)
+  Telephone for connection: +55 (11) 2188-0155
+  Code: Ultrapar
+  Replay: +55 (11) 2188-0400 (available for seven days)
+  Code: Ultrapar
+
+  English: 12:30 p.m. (Brasília time) / 11:30 a.m. (US EST)
+  International Participants: +1 (844) 802-0962
+  Code: Ultrapar
+  Replay: +1 (412) 317-0088 (available for seven days)
+  Code: 10130737
+           1st QUARTER 2019
+
+Considerations on the financial and operational information
+
+The financial information presented in this document has been prepared according to the International Financial Reporting
+Standards (IFRS). The financial information of Ultrapar corresponds to the Company’s consolidated information. The
+information on Ipiranga, Oxiteno, Ultragaz, Ultracargo, Extrafarma and Corporate (a new segment explained below) is
+reported without the elimination of inter-segment transactions. Hence, the sum of such information may not correspond
+to Ultrapar’s consolidated information. Additionally, the financial and operational information presented in this document
+is subject to rounding and, consequently, the total amounts presented in the tables and charts may differ from the direct
+sum of the amounts that precede them.
+
+As from 2019, two changes have been introduced in the presentation of Ultrapar’s financial information: (i) we have adopted
+the IFRS 16 published by IASB – International Accounting Standards Board prospectively; and (ii) we have separated certain
+corporate expenses, previously distributed among Ultrapar’s businesses, to a new managerial segment known as
+“Corporate”. In order to retain comparability between 1Q18 and 4Q18, discussion of results is shown without
+adjustments related to IFRS 16 and the Corporate and references to “1Q19” adopt the same criterion. Any mention
+of information incorporating these changes will be identified as “1Q19 Post-adjustments”. The section “Summary of changes
+due to IFRS 16 and Corporate” show the main effects of the adjustments for this quarter in order to improve the
+understanding of these changes.
+
+Information denominated EBITDA – Earnings Before Interest, Taxes, Depreciation and Amortization; Adjusted EBITDA –
+adjusted for amortization of contractual assets with clients - exclusive rights; and EBIT – Earnings Before Interest and Taxes
+is presented in accordance with Instruction 527, issued by the Brazilian Securities and Exchange Commission – CVM on
+October 04, 2012. The calculation of EBITDA based on net earnings is shown below:
+
+
+
+                                                                1Q19
+     R$ million                                                 Post            1Q19           1Q18            4Q18
+                                                           Adjustments
+
+     Net income                                                     242.6          251.1            72.9          495.6
+       (+) Income and social contribution taxes                     168.2          172.6            29.5          314.5
+       (+) Financial result                                            (0.8)        (21.3)        107.0          (116.7)
+       (+) Depreciation and amortization                            288.8          211.9          194.2           210.2
+
+     EBITDA                                                        698.7           614.3          403.6           903.6
+
+     Adjustments
+       (+) Amortization of contractual assets with
+                                                                       83.6         83.6          104.5            89.4
+       customers - exclusive rights (Ipiranga)
+
+     Adjusted EBITDA                                               782.3           697.9          508.1           993.0
+
+
+
+
+                                                                                                                                 2
+              1st QUARTER 2019
+
+Summary of the changes due to IFRS 16 and Corporate
+
+ The table below shows the main effects arising from the adoption of IFRS 16 and the creation of the Corporate segment,
+ resulting in the following changes:
+
+       • Leasing – IFRS 16: requires that lessors of goods book an amount to the liabilities of their balance sheets reflecting
+        future payments on leasing agreements discounted to present value together with an amount in the assets with
+        respect to right of use of the goods under these agreements - except for certain short-term leases and agreements
+        covering assets of low value. Consequently, the income statements are also impacted by these changes since the
+        same leasing operations cease to be considered as an operational expense, becoming subject to amortization,
+        while future leasing payments include restatement for interest, thus affecting the financial result.
+
+       • Corporate: constitutes the expenses relating to the main governance organs of Ultrapar, including the Board of
+        Directors, Executive Officers, Fiscal Council, the advisory committees to the Board of Directors and the corporate
+        structures of Human Capital and Risks, Auditing and Compliance, which have been separated from the business
+        segments for greater transparency with respect to expenses as well as better comparability among peer
+        companies.
+
+
+
+ The complete tables can be found on pages 12 to 19 of this document. Additional information is contained in
+ explanatory note 2.y of the financial statements of March 31, 2019, available on Ultrapar’s website (ri.ultra.com.br).
+
+
+Adjusted EBITDA (R$ million)        Ultrapar     Ipiranga       Oxiteno          Ultragaz       Ultracargo       Extrafarma        Corporate
+
+1T19                                     697.9       538.4             34.1            97.0            52.2               (21.2)               -
+ IFRS 16                                  84.4        45.2                 2.4          9.0                6.4             21.4                -
+ Corporate                                 -          10.3                 2.0          2.2                0.7              0.3            (15.5)
+
+1T19 Post Adjustments                    782.3       593.9             38.6           108.2            59.2                 0.6            (15.5)
+
+
+                                                               Income and
+                                     Adjusted    Financial        social                                                           Stockholders'
+ULTRAPAR (R$ million)                                                            Net income       Assets          Liabilities
+                                     EBITDA       result       contribution                                                           equity
+                                                                  taxes
+
+1T19                                     697.9        21.3           (172.6)          251.1         29,618.6          19,680.1           9,938.5
+ IFRS 16                                  84.4        (20.5)               4.4          (8.5)        1,568.2           1,576.8                 (8.5)
+ Corporate                                 -           -                   -            -                  -                -                  -
+
+1T19 Post Adjustments                    782.3         0.8           (168.2)          242.6         31,186.9          21,256.9           9,929.9
+
+
+
+
+                                                                                                                                                       3
+                 1st QUARTER 2019
+
+Ipiranga
+
+                                                                                                  Δ (%)            Δ (%)
+                                                           1Q19        1Q18        4Q18
+                                                                                               1Q19 v 1Q18       1Q19 v 4Q18
+
+    Total volume (000 m³)                                  5,587       5,461       6,160           2%               (9%)
+    Diesel                                                 2,674       2,626       2,971           2%              (10%)
+    Gasoline, ethanol and NGV (Otto cycle)                 2,810       2,723       3,087           3%               (9%)
+    Others1                                                102          112         101           (9%)              1%
+    Adjusted EBITDA (R$ million)                           538          585         569           (8%)              (5%)
+    Adjusted EBITDA Post Adjustments (R$ million)          594
+1
+    Fuel oils, arla 32, kerosene, lubricants and greases
+
+
+Operational performance – Otto cycle volume rose 3% compared with 1Q18, with a greater share of ethanol in the sales
+mix, while diesel volumes grew 2%. In relation to 4Q18, volumes fell 9%, a reduction of 10% in diesel and 9% in Otto cycle,
+largely explained by seasonal differences between the periods.
+
+Net revenues – Total of R$ 17,428 million (-1%), mainly due to a reduction in the unit prices of ethanol, compensating the
+higher prices in oil-related fuels. This effect was attenuated by greater sales volume. In relation to 4Q18, net revenues
+declined 12% due to seasonally lower sales volume and fuel cost variations.
+
+Cost of goods sold – Total of R$ 16,566 million (0%), mainly due to the reduction in the unit costs of ethanol, combined
+with the greater participation of the product in the sales mix, neutralized by the greater sales volume in the period. In
+relation to 4Q18, the cost of goods sold declined 13% due to lower sales volume as well as the negative effect on inventory
+in 4Q18, in turn reflecting variations in fuel costs during the period.
+
+Sales, general and administrative expenses (SG&A) – Total of R$ 505 million (-8%), due to lower expenses at ICONIC, as
+it included expenses with the integration of the businesses in 1Q18, and the initiatives to reduce expenses at Ipiranga, such
+as lower expenditures with marketing programs, in addition to a decline in provisions for losses on doubtful accounts, in
+line with the improvement in credit ratios in the client portfolio. In relation to 4Q18, sales, general and administrative
+expenses decreased 2% due to lower expenses with freight, reflecting seasonal lower volumes and the initiatives to diminish
+expenses.
+
+Adjusted EBITDA – Total of R$ 538 million (-8%), mainly influenced by a reduction in gross margin in the Otto cycle segment,
+partially attenuated by higher sales volume and the reduction in expenses during the period. In relation to 4Q18, Adjusted
+EBITDA declined 5%, due to seasonally lower volumes and the concentration of revenue from merchandising, typical of the
+fourth quarter. Considering the IFRS 16 adjustments and the separation of the corporate expenses mentioned, the Ipiranga
+Adjusted EBITDA Post adjustments was R$ 594 million.
+
+Investments – Ipiranga invested R$ 123 million, allocated mainly to maintenance and expansion of the service station and
+franchise networks, and the expansion of the logistic structure of Ipiranga. Out of the total investments, R$ 61 million was
+allocated to plant, property and equipment and to intangible assets, R$ 64 million to contractual assets with clients
+(exclusive rights) and a negative R$ 1 million in drawdowns on financing to clients and rental advances, net of repayments.
+Ipiranga ended 1Q19 with 7,218 service stations (+2%), a net addition of 138 service stations over the last 12 months and
+flat in relation to 4Q18.
+
+
+
+
+                                                                                                                                4
+              1st QUARTER 2019
+
+Oxiteno
+
+                                                                                                                                  Δ (%)                   Δ (%)
+                                                                          1Q19              1Q18             4Q18
+                                                                                                                              1Q19 v 1Q18             1Q19 v 4Q18
+    Average exchange rate (R$/US$)                                         3.77             3.24              3.81                16%                     (1%)
+    Total volume (000 tons)                                                180              180               190                  0%                     (5%)
+      Specialty Chemicals                                                  148              152               148                 (2%)                     0%
+      Commodities                                                           32               28                42                 12%                    (24%)
+      Sales in Brazil                                                      124              126               141                 (2%)                   (12%)
+      Sales outside Brazil                                                  56               54                49                  4%                     15%
+    EBITDA (R$ million)                                                     34               51               280¹               (33%)                   (88%)
+    EBITDA Post Adjustments (R$ million)                                    39
+1
+ In 4Q18, figures do not exclude the effect of the credits arising from the exclusion of ICMS from the PIS/COFINS basis in the amount of R$ 186 million. Excluding this
+effect, EBITDA was R$ 94 million.
+
+
+Operational performance – Sales volume of commodities increased 12% year-over-year, reflecting new sales
+opportunities. Conversely, volumes of specialty chemicals declined by 2% with the domestic market reporting a decrease
+of 6%, mainly reflecting the deceleration in the Brazilian economy. In the international market, volumes of specialty
+chemicals reported an increase of 4%, due to higher volumes sold in the United States following the start-up of the
+Pasadena plant, despite the decline in sales to the Mercosur countries, specially Argentina. When compared to 4Q18, total
+sales volume was down 5%, with a 24% reduction in commodity volumes, while specialty chemicals volume was unchanged.
+
+Net revenues – Total of R$ 1,056 million (+6%), mainly due to a 16% devaluation in the Real against the US Dollar (equivalent
+to R$ 0.53/US$), attenuated by a 9% reduction in average US Dollar prices on products sold, as a result of the decline in
+commodity prices in the international market, as well as the greater share of commodities in the overall sales mix. In relation
+to 4Q18, net revenues declined by 12%, due to (i) lower sales volume, (ii) the appreciation of 1% in the Real against the US
+Dollar, and (iii) the decrease in commodities prices in the international market.
+
+Cost of goods sold – Total of R$ 899 million (+9%), a reflection of the 16% devaluation in the Real in relation to the US Dollar
+and the start-up in the new Pasadena unit in September/18. However, these effects were mitigated by the reduction in the
+costs of Oxiteno’s main raw materials, particularly ethylene and palm kernel oil. Compared with 4Q18, the cost of goods
+sold fell by 8%, reflecting (i) lower sales volume, (ii) the 1% appreciation in the Real in relation to the US Dollar, and (iii) the
+decline in the cost of raw materials mentioned above.
+
+Sales, general and administrative expenses (SG&A) – Total of R$ 175 million (+5%), due to higher payroll expenses and
+the 16% devaluation in the Real against the US Dollar relative to expenses with the international operations. In relation to
+4Q18, sales, general and administrative expenses fell by 11%.
+
+EBITDA – Oxiteno’s EBITDA totaled R$ 34 million (-33%), a function of (i) lower level of unit margins in US Dollars in the
+period, due to the decline in petrochemical commodity prices in the international market, (ii) the higher volume of
+commodities in the sales mix, and (iii) the higher costs with the new plant in the USA, partially offset by the devaluation in
+the Real against the US Dollar. The decline in relation to 4Q18 was due to lower sales volume in the period and a reduction
+in the level of unit margins in US Dollars, reflecting the decline in petrochemical commodity prices in the international
+market. Considering the IFRS 16 adjustments and the separation of the corporate expenses mentioned, the Oxiteno EBITDA
+Post adjustments was R$ 39 million.
+
+Investments – Investments in the period were R$ 60 million, allocated mainly to investments in the new specialty chemicals
+plant in the United States and maintenance at the Company’s other industrial units.
+
+
+
+
+                                                                                                                                                                          5
+                 1st QUARTER 2019
+
+Ultragaz
+
+                                                                                                                                        Δ (%)                   Δ (%)
+                                                                               1Q19              1Q18             4Q18
+                                                                                                                                    1Q19 v 1Q18              1Q19 v 4Q18
+
+    Total volume (000 tons)                                                     395               410               421                 (4%)                     (6%)
+       Bottled                                                                  270               281               297                 (4%)                     (9%)
+       Bulk                                                                     126               129               124                 (3%)                      1%
+    EBITDA (R$ million)                                                          97             (170)¹              121                   na                    (20%)
+    EBITDA Post Adjustments (R$ million)                                        108
+1
+    In the 1Q18, figures exclude the R$ 286 million break-up fee following the rejection of the Liquigás acquisition. Excluding this effect, EBITDA was R$ 116 million.
+
+
+Operational performance – In the bottled segment, volume declined 4% compared with the same period in 2018, due to
+weaker demand and the temporary interruption in the supply of LPG at some refineries, momentarily impacting the delivery
+of the product. The bulk segment recorded a 3% decline in volume, mainly due to reduced industrial activity. In relation to
+4Q18, sales volume was 6% lower, reflecting the seasonality between periods and the momentarily impact on the supply
+of LPG already mentioned in the bottled segment.
+
+Net revenues – Total of R$ 1,640 million (+1%), due to readjustments in LPG costs, in part offset by lower sales volume. In
+relation to 4Q18, net revenues fell 8%, mainly due to lower sales volume in the period.
+
+Cost of goods sold – Total of R$ 1,432 million (0%), mainly due to the readjustment of costs of LPG in 2018, neutralized by
+a reduction in sales volume and by lower depreciation costs. Compared with 4Q18, the cost of goods sold was down 8%,
+largely reflecting seasonally lower sales volume.
+
+Sales, general and administrative expenses (SG&A) – Total of R$ 165 million (+25%), due to (i) higher expenses with
+provisions for losses on doubtful accounts, (ii) an increase in payroll expenses (mainly indemnifications, due to structure
+reorganization), and (iii) higher expenses with legal actions in the quarter. In relation to 4Q18, sales, general and
+administrative expenses remained flat, due to lower fees with legal advisory and a reduction in expenses with strategic
+consultancy, neutralized by higher expenses with legal actions in the quarter and by an increase in provisions for losses on
+doubtful accounts.
+
+EBITDA – Total of R$ 97 million (compared with R$ 170 million negative in 1Q18), mainly a reflection of the break-up fee in
+1Q18 due to the rejection of the Liquigás acquisition. Excluding the fee, Ultragaz EBITDA decreased 17% over 1Q18, due to
+lower sales volume and higher expenses during the quarter. In relation to 4Q18, Ultragaz registered a 20% reduction in
+EBITDA, principally due to lower sales volume. Considering the IFRS 16 adjustments and the separation of the corporate
+expenses mentioned, Ultragaz EBITDA Post adjustments was R$ 108 million.
+
+Investments – Ultragaz invested R$ 29 million, allocated to clients in the bulk segment, to replacement and acquisition of
+gas bottles and to IT, with a focus on the strategy of differentiation and innovation.
+
+
+
+
+                                                                                                                                                                           6
+                1st QUARTER 2019
+
+Ultracargo
+
+                                                                                                  Δ (%)             Δ (%)
+                                                        1Q19         1Q18         4Q18
+                                                                                               1Q19 v 1Q18       1Q19 v 4Q18
+
+    Effective storage1 (000 m³)                          758          722          756             5%                0%
+    EBITDA (R$ million)                                  52           41            40            27%               32%
+
+    EBITDA Post Adjustments (R$ million)                 59
+1
+    Monthly average
+
+
+Operational performance – Ultracargo’s average storage rose 5% in relation to 1Q18, due to greater movement in Santos,
+as well as an increase in ethanol handling at the terminals, compensated by lower fuel handling activities. In relation to
+4Q18, the average storage at the terminals remained stable, with an increase in fuel movement in Aratu and Santos, and
+chemicals in Suape, both neutralized by reduced ethanol handling in Santos.
+
+Net revenues – Total of R$ 127 million in 1Q19 (+9%), driven by the higher average storage and contractual price
+adjustments. Compared with 4Q18, net revenues were flat and in line with the average storage.
+
+Cost of services provided – Total of R$ 59 million (0%), due to higher expenditures related to greater effective storage at
+the terminals (mainly port tariffs and third-party services) neutralized by a non-recurring retroactive payment of a municipal
+property tax (IPTU) in 1Q18. In relation to 4Q18, the cost of services rendered fell 7%, principally due to lower expenditures
+with third-party services and payroll.
+
+Sales, general and administrative expenses (SG&A) – Total of R$ 29 million (+3%), due to higher payroll expenses,
+partially compensated by lower expenses with consultancies. In relation to 4Q18, sales, general and administrative
+expenses were down 13%, mainly due to lower legal advisory and payroll expenses.
+
+EBITDA – Total of R$ 52 million (+27%) due to higher average storage and contractual readjustments. In relation to 4Q18,
+EBITDA increased by 32%, due to lower costs and expenses. Considering the IFRS 16 adjustments and the separation of the
+corporate expenses mentioned, the Ultracargo EBITDA Post adjustments was R$ 59 million.
+
+Investments – Ultracargo invested R$ 37 million in the period dedicated to expansion of the Itaqui and Santos terminals
+and maintenance and modernization of the terminals and in operational safety.
+
+Conduct Adjustment Commitment (“TAC”) – On May 15, 2019, Ultracargo signed a TAC with the Brazilian Federal
+Prosecution Service and the Prosecution Service of the state of São Paulo for the implementation of actions to compensate
+for the impacts caused to the estuary in the municipality of Santos due to the fire occurred at the Ultracargo terminal in
+April 2015. The total amount of the agreement is BRL 67.5 million, approximately, to be fully disbursed up to September
+2020. On March 31,2019 the Company had a provision of R$ 15 million related to such matter and will complement it with
+the remaining amount in 2Q19.
+
+
+
+
+                                                                                                                                 7
+          1st QUARTER 2019
+
+Extrafarma
+
+                                                                                                Δ (%)             Δ (%)
+                                                       1Q19         1Q18         4Q18
+                                                                                              1Q19 v 1Q18       1Q19 v 4Q18
+
+ Drugstores (end of the period)                         440          401          433            10%               2%
+   % of mature stores (+ 3 years)                      46%          46%          45%           0.0 p.p.          0.9 p.p.
+
+ Gross Revenues (R$ million)                            546          542          526            1%                4%
+
+ EBITDA (R$ million)                                    (21)          0           (15)            na              (37%)
+ EBITDA Post Adjustments (R$ million)                    1
+
+
+Operational performance – Extrafarma ended 1Q19 with 440 stores, 65 openings and 26 closures over the past 12
+months, equivalent to an increase of 10% of its network. At the end of 1Q19, still maturing stores (up to three years of
+operations) accounted for 54% of the network, reflecting the rate of expansion over the past few years. In relation to 4Q18,
+Extrafarma opened 9 new stores, closing 2.
+
+Gross revenues – Total of R$ 546 million (+1%), due to 3% growth in retail sales, in turn reflecting the larger number of
+stores and the annual readjustment in medicine prices. These effects were offset by a more competitive environment and
+by the higher churn of underperforming stores in the period. In relation to 4Q18, gross revenues rose by 4%, reflecting
+greater store numbers and the recovery of the wholesale segment.
+
+Cost of goods sold and gross profit – Cost of goods sold totaled R$ 375 million (+5%) due to an improvement in sales and
+the annual readjustments in medicine prices. Gross profit reached R$ 141 million (-8%) due to a more competitive
+environment and to the network expansion into new states, pressuring the sales margins in the quarter. In relation to 4Q18,
+the cost of goods sold increased by 8%, while gross profit decreased 6% due to a more competitive market, partially offset
+by greater revenues.
+
+Sales, general and administrative expenses (SG&A) – Total of R$ 189 million (+11%), reflecting higher number of stores.
+Excluding the effect of new stores, SG&A expenses remained unchanged year-over-year mainly due to initiatives introduced
+for improving productivity, notably involving payroll and logistics expenses. In relation to 4Q18, SG&A increased by 2% due
+to the higher average number of stores and the Extrafarma annual sales convention held in the period, partially attenuated
+by lower expenditures with payroll.
+
+Other operating income – Total of R$ 9 million in 1Q19, due to tax credits from previous fiscal years and following a final
+ruling excluding ICMS sales tax from the PIS/COFINS calculation base.
+
+EBITDA – Total of R$ 21 million negative compared to close to zero in 1Q18, a reflection of (i) more competitive environment
+and the effect of new and still maturing stores attenuated by tax credits in 1Q19. In relation to 4Q18, EBITDA fell by R$ 6
+million, due to the greater competition environment and investments write off due to the closure of underperforming
+stores, attenuated by tax credits in 1Q19. Considering the IFRS 16 adjustments and the separation of the corporate
+expenses mentioned, the Extrafarma EBITDA Post adjustments was R$ 1 million.
+
+Investments – In 1Q19, Extrafarma invested R$ 16 million dedicated to opening new drugstores and for IT, to improve the
+shopping experience and operational excellence.
+
+
+
+
+                                                                                                                               8
+               1st QUARTER 2019
+
+Ultrapar
+
+                                                                                                                                    Δ (%)                   Δ (%)
+    Values in R$ million                                                   1Q19              1Q18              4Q18
+                                                                                                                                1Q19 v 1Q18             1Q19 v 4Q18
+
+    Net sales and service                                                 20,739            20,751            23,467                 0%                     (12%)
+    Net earnings1                                                           251                73               496                 245%                    (49%)
+    Net earnings Post-adjustments                                           243
+    Earnings per share attributable to Ultrapar
+                                                                            0.22              0.07              0.47                214%                    (53%)
+    shareholders2 (R$)
+    Adjusted EBITDA                                                         698               508               993                  37%                    (30%)
+    Adjusted EBITDA
+                                                                            698               794               807                 (12%)                   (14%)
+    ex-non-recurring³
+    Adjusted EBITDA Post adjustments                                        782
+    Investments                                                             268               604               548                 (56%)                   (51%)
+¹ Under IFRS, consolidated net earnings includes net earnings attributable to the stake of non-controlling shareholders of the controlled companies
+² Calculated in Reais based on the weighted average number of shares over the period net of shares held as treasury stock. This amount considers the stock split
+that occurred in April.
+3
+  Figures exclude the R$ 286 million break-up fee following the rejection of the Liquigás acquisition in the 1Q18 and the effect of the credits arising from the exclusion
+of ICMS from the PIS/COFINS basis in the amount of R$ 186 million in the 4Q18
+
+
+Net revenues – Total of R$ 20,739 million (0%), flat compared with 1Q18. In relation to 4Q18, net revenues were down 12%
+due to lower revenues at Ipiranga, Oxiteno and Ultragaz.
+
+Adjusted EBITDA – Total of R$ 698 million (+37%) due to the break-up fee following the rejection of the Liquigás acquisition
+in 1Q18. Excluding the fee, the Adjusted EBITDA would have been 12% down year-over-year, reflecting reduced EBITDA at
+Ipiranga, Oxiteno, Ultragaz and Extrafarma. The Adjusted EBITDA was down 30% compared with 4Q18, due to lower EBITDA
+at Ipiranga, Oxiteno, Ultragaz and Extrafarma, combined with the seasonality between periods. Considering the IFRS 16
+Adjustments the Adjusted EBITDA Post adjustments was R$ 782 million.
+
+Depreciation and amortization4 – Total R$ 296 million (-1%) due to the reduction in amortization of contractual assets
+with clients at Ipiranga, attenuated by depreciation of the investments made in the past 12 months. Compared with 4Q18,
+total costs and expenses with depreciation and amortization fell by 1%.
+
+Financial results – Ultrapar ended 1Q19 with net debt of R$ 8.7 billion (2.65x EBITDA LTM Adjusted) compared with R$ 8.2
+billion at December 31, 2018 (2.68x EBITDA Adjusted LTM), mainly due to the payment of dividends in the period. Ultrapar
+reported net financial income of R$ 21 million in 1Q19 compared with a net financial expense of R$ 107 million in 1Q18,
+due to (i) the result of the currency hedges and its mark to market in the period and (ii) improvement in the profitability of
+the cash invested, combined with a reduction in the cost of debt. On a quarter-over-quarter basis, net financial revenue
+reduced R$ 95 million, largely due to the appropriation of interest on tax credits arising from the exclusion of ICMS sales
+tax from the PIS/COFINS tax calculation base in 4Q18.
+
+Net earnings – Total of R$ 251 million (+245%), largely due to the fee mentioned earlier which impacted 1Q18 results and
+better financial results. In relation to 4Q18, net earnings were down 49%, due to a reduction in EBITDA and in the financial
+results for the period. Considering the IFRS 16 adjustments, the net earnings Post adjustments of Ultrapar was R$ 243
+million.
+
+Cash flow from operational activities – Generation of R$ 462 million in 1Q19, compared to R$ 113 million consumed in
+1Q18, due to the payment of the break-up fee following the rejection of the Liquigás acquisition in 1Q18, and initiatives for
+optimizing working capital in 1Q19.
+
+4
+    Includes amortization of contractual assets with customers– exclusive rights
+
+
+
+
+                                                                                                                                                                             9
+             1st QUARTER 2019
+
+Capital markets
+
+Ultrapar reported a financial trading volume of R$ 187 million/day in 1Q19 (+52%) including the trading on both B3 and
+NYSE. Ultrapar’s shares ended the quarter at R$ 47.00 on B3, a reduction of 12% in the quarter, compared to Ibovespa stock
+index’s appreciation of 9%. On the NYSE, the Company’s shares recorded a depreciation of 12% in 1Q19, while the Dow
+Jones Industrial Average for the same period advanced 11%. Ultrapar’s market capitalization at the end of 1Q19 was R$ 26
+billion.
+
+
+ Capital markets                                                  1Q19              1Q18        4Q18
+
+ Number of shares (000)                                          556,405           556,405    556,405
+ Market capitalization (R$ million)1
+                                                                 26,151             39,460     29,601
+ B3
+ Average daily traded volume (shares)                           2,732,425         1,122,070   2,756,147
+ Average daily traded volume (R$ 000)                            143,814            85,424    121,971
+ Average share price (R$/share)                                   52.63             76.13      44.25
+ NYSE
+ Quantity of ADRs² (000 ADRs)                                    24,096             30,280     27,863
+ Average daily traded volume (ADRs)                              819,842           489,799    975,807
+ Average daily traded volume (US$ 000)                           11,507             11,534     11,388
+ Average share price (US$/ADR)                                    14.04             23.55      11.67
+ Total
+ Average daily traded volume (shares)                           3,552,267         1,611,869   3,731,955
+ Average daily traded volume (R$ 000)                            187,235           122,828    165,305
+¹ Calculated based on the closing price of the period
+² 1 ADR = 1 common share
+
+
+On April 10, 2019, the Company’s Extraordinary and Annual General Meeting approved a stock split of Ultrapar’s
+common shares, whereby one existing share now represents two shares of the same class and type. The stock split
+implies no alteration in Ultrapar’s capital stock.
+
+
+
+                                                        Performance UGPA3 x Ibovespa – 1Q19
+                                                                 (Dec 28, 2018 = 100)
+
+
+
+
+                    Source: Bloomberg                           UGPA3         Ibovespa
+
+
+
+
+                                                                                                                             10
+         1st QUARTER 2019
+
+Debt (R$ million)
+
+
+ Ultrapar consolidated                              1Q19           4Q18         1Q18
+
+ Gross debt                                       (15,112.0)     (15,206.1)   (14,780.3)
+ Cash and cash equivalents                         6,492.0        6,994.4      6,239.3
+ Net debt                                         (8,620.0)      (8,211.7)    (8,541.0)
+ Net debt/Adjusted EBITDA LTM                       2.65x          2.68x        2.41x
+ Average cost of debt (% CDI)                      97.5%           97.5%       97.5%
+ Average cash yield (% CDI)                        97.4%           97.0%       96.4%
+
+
+
+Debt amortization profile:
+
+
+
+
+Debt breakdown:
+ Local currency                                                                  9,516.9
+ Foreign currency                                                                5,578.0
+ Result from currency and interest hedge instruments                              17.1
+ Total                                                                          15,112.0
+
+
+
+
+            Local currency    Foreign currency   Hedged       Non hedged
+
+
+
+
+                                                                                           11
+     1st QUARTER 2019
+
+                                                                ULTRAPAR
+                                                        CONSOLIDATED BALANCE SHEET
+
+
+                                                                           MAR 19
+                                                                                            IFRS 16
+ In millions of Reais                                                       Post                          MAR 19        MAR 18        DEC 18
+                                                                                          Adjustments
+                                                                       Adjustments
+
+ASSETS
+
+ Cash and cash equivalents                                                    3,446.3              -        3,446.3       4,667.6       3,939.0
+ Financial investments and hedging instruments                                2,791.1              -        2,791.1       1,482.0       2,853.1
+ Trade receivables and reseller financing                                     4,183.8              -        4,183.8       4,351.3       4,436.6
+ Inventories                                                                  3,243.4              -        3,243.4       3,338.1       3,354.5
+ Taxes                                                                         958.5               -          958.5         899.1         896.9
+ Prepaid expenses                                                              163.2              38.8        202.0         146.6         187.6
+ Contractual assets with customers - exclusive rights                          489.6               -          489.6         456.8         484.5
+ Other                                                                             72.0            -            72.0          96.0         59.6
+Total Current Assets                                                        15,347.8             38.8      15,386.6      15,437.4      16,211.7
+
+ Financial investments and hedging instruments                                 254.6               -          254.6           89.6        202.3
+ Trade receivables and reseller financing                                      384.3               -          384.3         347.6         429.8
+ Deferred income and social contribution taxes                                 500.8              (4.4)       496.4         710.8         514.2
+ Recoverable taxes                                                             829.6               -          829.6         325.5         852.8
+ Escrow deposits                                                               892.9               -          892.9         830.3         881.5
+ Prepaid expenses                                                              112.6            280.0         392.6         377.0         399.1
+ Contractual assets with customers - exclusive rights                         1,007.8              -        1,007.8       1,037.1       1,034.0
+ Other                                                                         196.5               -          196.5         205.2         196.6
+ Investments                                                                   122.2               -          122.2         155.6         129.1
+ Right of use assets                                                          1,921.3         (1,921.3)          -             -            -
+ Property, plant and equipment and intangible assets                          7,295.3              -        7,295.3       6,813.7       7,278.9
+ Intangible                                                                   2,321.0             38.6      2,359.7       2,218.9       2,369.4
+Total Non-Current Assets                                                    15,839.0          (1,607.1)    14,232.0      13,111.3      14,287.7
+
+TOTAL ASSETS                                                                31,186.9          (1,568.2)    29,618.6      28,548.7      30,499.4
+
+LIABILITIES
+
+ Loans and hedging instruments                                                1,937.3              -        1,937.3       1,942.7       2,007.4
+ Debentures                                                                    308.5               -          308.5         945.0         263.7
+ Trade payables                                                               2,083.4              -        2,083.4       1,859.8       2,731.7
+ Salaries and related charges                                                  326.5               -          326.5         304.5         428.2
+ Taxes                                                                         363.8               -          363.8         221.7         268.0
+ Leases payable                                                                226.7            (223.8)          2.9           2.7          2.8
+ Other                                                                         315.3               -          315.3         358.9         634.9
+Total Current Liabilities                                                    5,561.5           (223.8)      5,337.7       5,635.2       6,336.8
+
+ Loans and hedging instruments                                                6,453.3              -        6,453.3       6,186.6       6,487.4
+ Debentures                                                                   6,412.9              -        6,412.9       5,658.2       6,401.5
+ Provisions for tax, civil and labor risks                                     864.0               -          864.0         866.0         865.2
+ Post-employment benefits                                                       200.2              -          200.2         213.7         204.2
+ Leases payable                                                               1,395.5         (1,353.0)        42.5          45.2          43.2
+ Other                                                                         369.5               -          369.5         478.4         361.0
+Total Non-Current Liabilities                                               15,695.4          (1,353.0)    14,342.5      13,448.1      14,362.6
+
+TOTAL LIABILITIES                                                           21,256.9          (1,576.8)    19,680.1      19,083.2      20,699.4
+
+SHAREHOLDERS' EQUITY
+
+ Share capital                                                                5,171.8              -        5,171.8       5,171.8       5,171.8
+ Reserves                                                                     4,646.2              -        4,646.2       4,314.7       4,646.2
+ Treasury shares                                                               (485.4)             -          (485.4)       (482.3)      (485.4)
+ Other                                                                         239.8               8.5        248.3         126.6         115.5
+ Non-controlling interests in subsidiaries                                     357.6              (0.0)       357.6         334.7         351.9
+Total shareholders’ equity                                                   9,929.9               8.5      9,938.5       9,465.5       9,800.0
+
+TOTAL LIABILITIES AND SHAREHOLDERS' EQUITY                                  31,186.9          (1,568.2)    29,618.6      28,548.7      30,499.4
+
+ Cash and financial investments                                               6,492.0              -        6,492.0       6,239.3       6,994.4
+ Debt                                                                       (15,112.0)             -       (15,112.0)    (14,780.3)   (15,206.1)
+Net cash (debt)                                                              (8,620.0)             -       (8,620.0)     (8,541.0)     (8,211.7)
+
+
+
+
+                                                                                                                                                   12
+     1st QUARTER 2019
+
+                                                                                    ULTRAPAR
+                                                                  CONSOLIDATED INCOME STATEMENT
+
+
+                                                                                    1Q19
+                                                                                                     IFRS 16
+  In millions of Reais                                                              Post                                  1Q19               1Q18                  4Q18
+                                                                                                   Adjustments
+                                                                             Adjustments
+
+Net revenue from sales and services                                                 20,739.3                 -            20,739.3            20,751.1             23,467.0
+
+  Cost of products and services sold                                                (19,294.7)              (0.5)         (19,295.2)          (19,229.8)           (21,911.9)
+
+Gross profit                                                                         1,444.6                (0.5)           1,444.0            1,521.3              1,555.2
+
+Operating expenses
+  Selling and marketing                                                   (678.5)                           (6.3)            (684.8)             (671.4)              (653.6)
+  General and administrative                                              (383.8)                           (0.7)            (384.6)             (372.6)              (448.6)
+                                                                             -
+  Other operating income (expenses)                                         36.7                             -                 36.7              (262.7)              261.0
+  Gain (loss) on disposal of property, plant and equipment and intangibles (2.1)                             -                 (2.1)               (2.2)              (15.0)
+
+Operating income                                                                       416.9                (7.6)             409.3              212.3                699.0
+
+  Financial results
+    Financial income                                                                   144.1                 -                144.1               112.4               231.6
+    Financial expenses                                                                 (143.3)              20.5             (122.8)             (219.4)              (115.0)
+  Share of profit of subsidiaries, joint ventures and associates                           (7.0)             -                  (7.0)               (3.0)                 (5.6)
+
+Income before income and social contribution taxes                                     410.7               12.9               423.7              102.4                810.1
+
+  Provision for income and social contribution taxes
+    Current                                                                            (152.9)               -               (152.9)             (138.5)              (211.9)
+    Deferred                                                                            (28.8)              (4.4)             (33.2)               92.5               (134.2)
+    Benefit of tax holidays                                                                13.5              -                 13.5                16.5                 31.6
+
+Net income                                                                             242.6                 8.5              251.1                72.9               495.6
+
+  Net income attributable to:
+    Shareholders of the Company                                                        233.7                 8.5              242.2                73.9               507.6
+    Non-controlling interests in subsidiaries                                               8.9             (0.0)                8.9                (1.0)              (12.1)
+
+Adjusted EBITDA                                                                        782.3               (84.4)             697.9              508.1                993.0
+
+  Depreciation and amortization¹                                                       372.4               (76.9)             295.6               298.8               299.6
+  Total investments²                                                                   267.8                 -                267.8               603.5               548.1
+
+RATIOS
+
+  Earnings per share - R$                                                                  0.22                                0.22                0.07                 0.47
+  Net debt / Stockholders' equity                                                          0.87                                0.87                0.90                 0.84
+  Net debt / LTM Adjusted EBITDA                                                           2.65                                2.65                2.41                 2.68
+  Net interest expense / Adjusted EBITDA                                                    na                                   na                0.21                    na
+  Gross margin                                                                             7.0%                                7.0%                7.3%                 6.6%
+  Operating margin                                                                         2.0%                                2.0%                1.0%                 3.0%
+  Adjusted EBITDA margin                                                                   3.8%                                3.4%                2.4%                 4.2%
+
+Number of employees                                                                   17,027                                17,027              16,991               17,034
+
+
+
+¹ Includes amortization with contractual assets with customers – exclusive rights
+² Includes property, plant and equipment and additions to intangible assets, contractual assets with customers, financing of clients and rental advances (net of
+repayments) and acquisition of shareholdings
+
+
+
+
+                                                                                                                                                                                  13
+1st QUARTER 2019
+
+                                                                  ULTRAPAR
+                                                            CONSOLIDATED CASH FLOW
+
+
+        In millions of Reais                                                             JAN - MAR        JAN - MAR
+                                                                                           2019             2018
+     Cash flows from operating activities
+     Net income for the period                                                                242.6             72.9
+     Adjustments to reconcile net income to cash provided by operating activities
+        Share of loss (profit) of subsidiaries, joint ventures and associates                   7.0              3.0
+        Amortization of contractual assets with customers - exclusive rights                   83.6            104.5
+        Amortization of right of use assets                                                    78.1              -
+        Depreciation and amortization                                                         210.6            194.2
+        PIS and COFINS credits on depreciation                                                  3.6              4.3
+        Interest, monetary, and foreign exchange rate variations                              236.1            223.2
+        Deferred income and social contribution taxes                                          28.8            (92.5)
+        (Gain) loss on disposal of property, plant and equipment and intangibles                2.1              2.2
+          Estimated losses on doubtful accounts                                                28.2             27.5
+          Provision for losses in inventories                                                   2.1             (0.1)
+          Provision for post-employment benefits                                               (3.9)             5.7
+          Other provisions and adjustments                                                     (1.2)            (1.3)
+
+                                                                                              917.8            543.6
+
+      (Increase) decrease in current assets
+          Trade receivables and reseller financing                                            226.1           (230.9)
+          Inventories                                                                         107.1            175.6
+          Taxes                                                                               (61.7)           (13.6)
+          Insurance and other receivables                                                     (12.4)           (25.2)
+          Prepaid expenses                                                                    (14.7)             3.5
+          Contractual assets with customers - exclusive rights                                  -               (0.6)
+
+      Increase (decrease) in current liabilities
+          Trade payables                                                                     (648.3)          (295.7)
+          Salaries and related charges                                                       (101.7)           (83.6)
+          Taxes                                                                               (28.2)             0.2
+          Income and social contribution taxes                                                109.3              6.0
+          Provision for tax, civil, and labor risks                                             7.1             (7.1)
+          Insurance and other payables                                                         (8.3)           (32.6)
+          Deferred revenue                                                                      6.9              0.4
+
+      (Increase) decrease in non-current assets
+          Trade receivables and reseller financing                                             45.5             (17.6)
+          Taxes                                                                                23.2             (12.3)
+          Escrow deposits                                                                     (11.4)             (7.7)
+          Other receivables                                                                     0.1               5.6
+          Prepaid expenses                                                                     (2.1)            (30.1)
+          Contractual assets with customers - exclusive rights                                  -                 0.4
+
+      Increase (decrease) in non-current liabilities
+          Post-employment benefits                                                              0.1              0.3
+          Provision for tax, civil, and labor risks                                            (1.2)             4.7
+          Other payables                                                                       14.9             33.4
+          Deferred revenue                                                                     (0.8)             0.5
+
+      Payments of contractual assets with customers - exclusive rights                        (64.1)            (95.9)
+      Income and social contribution taxes paid                                               (40.8)            (34.3)
+
+      Net cash provided by operating activities                                               462.4           (113.1)
+
+      Cash flows from investing activities
+        Financial investments, net of redemptions                                               7.7           (203.5)
+        Cash and cash equivalents of subsidiary acquired                                        -                3.7
+        Acquisition of property, plant, and equipment                                        (199.2)          (284.5)
+        Acquisition of intangible assets                                                      (14.9)           (70.9)
+        Acquisiton of companies                                                                 -             (100.0)
+        Capital increase in joint ventures                                                      -               (8.0)
+        Proceeds from disposal of property, plant and equipment and intangibles                 9.0              4.9
+
+      Net cash used in investing activities                                                  (197.4)          (658.3)
+
+      Cash flows from financing activities
+      Loans and debentures
+        Proceeds                                                                               60.1           2,081.1
+        Repayments                                                                           (247.4)         (1,074.0)
+        Interest paid                                                                        (113.8)            (84.3)
+      Payments of leases                                                                      (76.8)             (1.3)
+      Dividends paid                                                                         (380.6)           (488.1)
+      Related parties                                                                             (0.0)            (0.0)
+
+      Net cash provided by (used in) financing activities                                    (758.6)           433.4
+
+      Effect of exchange rate changes on cash and cash equivalents in foreign currency            1.0              3.6
+
+      Increase (decrease) in cash and cash equivalents                                       (492.6)          (334.4)
+
+      Cash and cash equivalents at the beginning of the period                              3,939.0          5,002.0
+
+      Cash and cash equivalents at the end of the period                                    3,446.3          4,667.6
+
+      Additional Information - Transactions with no cash effect
+      Right of use assets                                                                          27              -
+
+
+                                                                                                                           14
+      1st QUARTER 2019
+
+                                                                                      IPIRANGA
+                                                                                    BALANCE SHEET
+
+                                                                                           MAR 19
+                                                                                                             IFRS 16
+  In millions of Reais                                                                      Post                            MAR 19       MAR 18        DEC 18
+                                                                                                           Adjustments
+                                                                                         Adjustments
+
+OPERATING ASSETS
+    Trade receivables                                                                         2,995.9              -          2,995.9      3,259.8       3,263.4
+    Non-current trade receivables                                                                361.5             -            361.5        313.3         393.2
+    Inventories                                                                               1,793.5              -          1,793.5      1,938.3       1,768.4
+    Taxes                                                                                        598.2             -            598.2        534.9         576.9
+    Contractual assets with customers - exclusive rights                                      1,497.5              -          1,497.5      1,493.9       1,518.5
+    Other                                                                                        595.3           317.5          912.7        824.6         906.5
+    Right to use assets                                                                       1,076.2          (1,076.2)          -              -            -
+    Property, plant and equipment / Intangibles / Investments                                 3,491.5              -          3,491.5      3,356.2       3,501.1
+
+
+TOTAL OPERATING ASSETS                                                                       12,409.5           (758.7)      11,650.7     11,721.0      11,928.0
+
+OPERATING LIABILITIES
+    Suppliers                                                                                 1,463.0              -          1,463.0      1,251.3       1,892.8
+    Salaries and related charges                                                                   91.3            -             91.3          85.0        122.7
+    Post-employment benefits                                                                     201.6             -            201.6        192.8         204.3
+    Taxes                                                                                        171.0             -            171.0        153.6         177.8
+    Judicial provisions                                                                          330.0             -            330.0        326.9         327.9
+    Leases payable                                                                               765.2          (765.2)           -              -            -
+    Other accounts payable                                                                       248.0             -            248.0        246.2         242.0
+
+TOTAL OPERATING LIABILITIES                                                                   3,270.0           (765.2)       2,504.9      2,255.9       2,967.4
+
+
+
+
+                                                                                        INCOME STATEMENT
+
+                                                                                            1Q19
+                                                                                                             IFRS 16
+ In million of Reais                                                                        Post                           Corporate      1Q19         1Q18           4Q18
+                                                                                                           Adjustments
+                                                                                         Adjustments
+
+
+ Net sales                                                                                   17,428.0              -              -       17,428.0      17,516.3      19,883.0
+
+  Cost of products and services sold                                                        (16,565.5)             -              -       (16,565.5)   (16,574.1)     (19,002.8)
+
+ Gross profit                                                                                    862.5             -              -          862.5        942.2          880.1
+
+  Operating expenses
+     Selling                                                                                     (326.9)           (3.5)          -          (330.4)      (363.3)        (305.9)
+     General and administrative                                                                  (163.8)           -            (10.3)       (174.1)      (185.3)        (210.2)
+
+    Other operating income (expenses)                                                              24.1            -              -            24.1         21.2           50.5
+    (Gain) loss on disposal of property, plant and equipment and intangibles                       (0.9)           -              -            (0.9)          (0.8)          (9.7)
+
+ Operating income                                                                                394.9             (3.5)        (10.3)       381.1        413.9          404.9
+  Share of profit of subsidiaries, joint ventures and associates                                    0.4            -              -              0.4          0.2            (0.3)
+
+  Adjusted EBITDA                                                                                593.9           (45.2)         (10.3)       538.4        585.4          568.7
+
+ Depreciation and amortization¹                                                                  198.6            (41.7)          -          156.8         171.2         164.2
+
+Ratios
+
+ Gross margin (R$/m³)                                                                              154                                         154            173            143
+ Operating margin (R$/m³)                                                                           71                                           68             76            66
+ Adjusted EBITDA margin (R$/m³)                                                                    106                                           96           107             92
+ Adjusted EBITDA margin (%)                                                                        3.4%                                        3.1%         3.3%           2.9%
+
+Number of service stations                                                                       7,218                                       7,218        7,080          7,218
+
+Number of employees                                                                              3,368                                       3,368        3,386          3,318
+
+
+¹ Includes amortization with contractual assets with customers - exclusive rights
+
+
+
+
+                                                                                                                                                                                     15
+     1st QUARTER 2019
+
+                                                                              OXITENO
+                                                                       BALANCE SHEET
+
+                                                                                  MAR 19
+                                                                                                     IFRS 16
+ In millions of Reais                                                              Post                            MAR 19       MAR 18         DEC 18
+                                                                                                   Adjustments
+                                                                                Adjustments
+
+OPERATING ASSETS
+   Trade receivables                                                                     560.4             -           560.4       523.0          605.1
+   Inventories                                                                           778.7             -           778.7       804.0          861.2
+   Taxes                                                                                 582.5             -           582.5       151.0          578.7
+   Other                                                                                 137.3             -           137.3       140.8          140.6
+   Right to use assets                                                                    37.2           (37.2)          -              -             -
+   Property, plant and equipment / Intangibles / Investments                            2,577.1            -         2,577.1      2,207.6        2,556.2
+
+TOTAL OPERATING ASSETS                                                              4,673.2              (37.2)      4,636.0      3,826.5        4,741.8
+
+OPERATING LIABILITIES
+   Suppliers                                                                             356.9             -           356.9       268.4          444.2
+   Salaries and related charges                                                           89.3             -            89.3         62.4         140.9
+   Taxes                                                                                  28.6             -            28.6         30.8           36.7
+   Judicial provisions                                                                    25.2             -            25.2         15.8           26.9
+   Leases payable                                                                         37.4           (37.4)          -              -             -
+   Other accounts payable                                                                 30.6             -            30.6         41.6           75.2
+
+TOTAL OPERATING LIABILITIES                                                              568.0           (37.4)        530.5       419.0          723.9
+
+
+
+
+                                                                               INCOME STATEMENT
+
+                                                                                   1Q19
+                                                                                                     IFRS 16
+ In million of Reais                                                               Post                           Corporate      1Q19          1Q18           4Q18
+                                                                                                   Adjustments
+                                                                                Adjustments
+
+ Net sales                                                                          1,055.7                -             -        1,055.7         999.3        1,199.9
+
+ Cost of products and services sold
+   Variable                                                                              (738.5)           -             -         (738.5)        (684.5)       (811.5)
+   Fixed                                                                                 (111.9)          (1.6)          -         (113.6)        (103.2)       (122.3)
+   Depreciation and amortization                                                          (48.2)           1.5           -          (46.7)         (36.3)        (39.9)
+
+ Gross profit                                                                            157.0            (0.2)          -         156.9          175.3         226.2
+
+ Operating expenses
+    Selling                                                                               (81.4)          (0.0)          -          (81.4)         (78.0)        (77.5)
+    General and administrative                                                            (91.9)          (0.1)         (2.0)       (94.0)         (88.8)       (119.8)
+
+   Other operating income (expenses)                                                        1.3            -             -              1.3           1.9       208.9
+   (Gain) loss on disposal of property, plant and equipment and intangibles                 0.3            -             -              0.3           (0.4)          (2.5)
+ Operating income (loss)                                                                  (14.8)          (0.2)         (2.0)       (17.0)         10.1         235.3
+ Share of profit of subsidiaries, joint ventures and associates                             0.0            -             -              0.0           0.3            (0.1)
+
+ EBITDA                                                                                   38.6            (2.4)         (2.0)       34.1           51.2         279.8
+
+ Depreciation and amortization                                                            53.3            (2.2)          -           51.2           40.8          44.6
+
+Ratios
+
+ Gross margin (R$/ton)                                                                     872                                       871              974       1,191
+ Gross margin (US$/ton)                                                                    231                                       231              300            313
+ Operating margin (R$/ton)                                                                  (82)                                        (95)            56      1,239
+ Operating margin (US$/ton)                                                                 (22)                                        (25)            17           325
+ EBITDA margin (R$/ton)                                                                    214                                       190              284       1,474
+ EBITDA margin (US$/ton)                                                                    57                                          50              88           387
+
+Number of employees                                                                      1,941                                     1,941          1,931         1,943
+
+
+
+
+                                                                                                                                                                             16
+     1st QUARTER 2019
+
+                                                                          ULTRAGAZ
+                                                                       BALANCE SHEET
+
+                                                                                 MAR 19
+                                                                                                  IFRS 16
+ In millions of Reais                                                             Post                          MAR 19       MAR 18        DEC 18
+                                                                                                Adjustments
+                                                                              Adjustments
+
+OPERATING ASSETS
+   Trade receivables                                                                 412.8              -           412.8       367.2         386.3
+   Non-current trade receivables                                                         22.5           -            22.5         34.0          36.3
+   Inventories                                                                       102.9              -           102.9       105.6         140.7
+   Taxes                                                                                 89.5           -            89.5         66.7          88.2
+   Escrow deposits                                                                   220.1              -           220.1       211.3         217.9
+   Other                                                                                 61.6           -            61.6         55.8          58.4
+   Right to use assets                                                               155.6           (155.6)          -              -            -
+   Property, plant and equipment / Intangibles                                       945.2              -           945.2       973.2         964.5
+
+TOTAL OPERATING ASSETS                                                             2,010.3           (155.6)      1,854.8      1,813.7       1,892.4
+
+OPERATING LIABILITIES
+   Suppliers                                                                             73.2           -            73.2         74.7          74.2
+   Salaries and related charges                                                          79.7           -            79.7         85.7          92.9
+   Taxes                                                                                  8.1           -             8.1         10.4            8.3
+   Judicial provisions                                                               115.3              -           115.3       110.1         113.4
+   Leases payable                                                                    156.5           (156.5)          -              -            -
+   Other accounts payable¹                                                           123.0              -           123.0       141.4         128.6
+
+TOTAL OPERATING LIABILITIES                                                          555.9           (156.5)        399.4       422.3         417.5
+
+
+
+
+                                                                              INCOME STATEMENT
+
+                                                                                  1Q19
+                                                                                                  IFRS 16
+ In million of Reais                                                              Post                         Corporate      1Q19         1Q18           4Q18
+                                                                                                Adjustments
+                                                                              Adjustments
+
+
+Net sales                                                                          1,640.2              -             -        1,640.2       1,625.8       1,782.6
+
+ Cost of products and services sold                                                (1,432.0)           (0.3)          -       (1,432.3)     (1,432.3)      (1,551.8)
+
+ Gross profit                                                                        208.3             (0.3)          -         207.9         193.5          230.8
+
+ Operating expenses
+    Selling                                                                          (107.7)           (0.1)          -         (107.8)        (81.9)       (105.9)
+    General and administrative                                                        (54.0)           (0.6)         (2.2)       (56.8)        (49.4)         (58.9)
+
+   Other operating income (expenses)                                                      3.4           -             -              3.4      (284.9)            1.4
+   (Gain) loss on disposal of property, plant and equipment and intangibles               0.9           -             -              0.9          (0.8)          (1.0)
+
+ Operating income (loss)                                                              50.9             (1.0)         (2.2)       47.6         (223.5)         66.5
+ Share of profit of subsidiaries, joint ventures and associates                           0.0           -             -              0.0          0.0            (0.0)
+
+ EBITDA                                                                              108.2             (9.0)         (2.2)       97.0         (170.0)        120.8
+
+ Depreciation and amortization                                                           57.3          (8.0)          -           49.3          53.4          54.2
+
+Ratios
+
+ Gross margin (R$/ton)                                                                   527                                      526             472            548
+ Operating margin (R$/ton)                                                               129                                      121          (545)             158
+ EBITDA margin (R$/ton)                                                                  274                                      245          (415)             287
+
+Number of employees                                                                  3,508                                      3,508         3,586          3,511
+
+
+
+
+                                                                                                                                                                         17
+      1st QUARTER 2019
+
+                                                                                    ULTRACARGO
+                                                                                   BALANCE SHEET
+
+                                                                                               MAR 19
+                                                                                                                   IFRS 16
+ In millions of Reais                                                                           Post                                  MAR 19              MAR 18              DEC 18
+                                                                                                               Adjustments
+                                                                                           Adjustments
+
+OPERATING ASSETS
+  Trade receivables                                                                                    47.5                -                 47.5                43.9                  37.1
+  Inventories                                                                                           5.9                -                   5.9                5.6                   5.6
+  Taxes                                                                                                 4.8                -                   4.8                2.5                   3.7
+  Other                                                                                                17.3                0.3               17.7                13.6                  28.4
+  Right to use assets                                                                               138.8              (138.8)                -                   -                     -
+  Property, plant and equipment / Intangibles / Investments                                       1,188.7                10.3             1,199.0             1,068.9               1,175.3
+
+TOTAL OPERATING ASSETS                                                                            1,403.0              (128.2)           1,274.9             1,134.5                1,250.2
+
+OPERATING LIABILITIES
+  Suppliers                                                                                            28.9                -                 28.9                22.5                  50.5
+  Salaries and related charges                                                                         17.9                -                 17.9                26.3                  25.8
+  Taxes                                                                                                 6.9                -                   6.9                5.9                   9.1
+  Judicial provisions                                                                                  24.0                -                 24.0                25.0                  24.1
+  Leases payable                                                                                    129.9              (129.9)                -                   -                     -
+  Other accounts payable¹                                                                              61.7                -                 61.7               100.4                  59.9
+
+TOTAL OPERATING LIABILITIES                                                                         269.2              (129.9)              139.3              180.2                 169.4
+
+
+
+¹ Includes the long term obligations with clients account and the extra amount related to the acquisition of Temmar, in the port of Itaque and payables - indemnification clients
+
+
+
+
+                                                                                          INCOME STATEMENT
+
+                                                                                                1Q19
+                                                                                                                   IFRS 16
+ In million of Reais                                                                            Post                                Corporate              1Q19                1Q18            4Q18
+                                                                                                               Adjustments
+                                                                                           Adjustments
+
+ Net sales                                                                                          126.5                  -                  -                126.5                 116.0       126.8
+
+  Cost of products and services sold                                                                 (58.8)               (0.1)               -                 (58.9)                (58.8)      (63.4)
+
+ Gross profit                                                                                         67.7                (0.1)               -                  67.7                 57.2        63.4
+
+  Operating expenses
+     Selling                                                                                           (1.7)               -                  -                  (1.7)                 (1.9)          (3.2)
+     General and administrative                                                                      (27.1)                -                  (0.7)             (27.7)                (26.8)      (30.5)
+
+    Other operating income (expenses)                                                                  (1.0)               -                  -                  (1.0)                 (0.7)          (1.5)
+   (Gain) loss on disposal of property, plant and equipment and intangibles                             0.0                -                  -                   0.0                   0.0           (2.1)
+
+ Operating income                                                                                     38.0                (0.1)               (0.7)              37.3                 27.8        26.0
+
+  Share of profit of subsidiaries, joint ventures and associates                                        0.5                -                  -                   0.5                   0.6           (0.1)
+
+  EBITDA                                                                                              59.2                (6.4)               (0.7)              52.2                 41.0        39.6
+
+  Depreciation and amortization                                                                        20.7               (6.3)               -                  14.4                  12.5       13.7
+
+Ratios
+
+ Gross margin                                                                                       53.5%                                                       53.5%                49.3%       50.0%
+ Operating margin                                                                                   30.1%                                                       29.5%                24.0%       20.5%
+ EBITDA margin                                                                                      46.8%                                                       41.3%                35.3%       31.2%
+
+Number of employees                                                                                    707                                                       707                   731            710
+
+
+
+
+                                                                                                                                                                                                              18
+         1st QUARTER 2019
+
+                                                                          EXTRAFARMA
+                                                                         BALANCE SHEET
+
+                                                                                 MAR 19
+                                                                                                   IFRS 16
+    In millions of Reais                                                          Post                           MAR 19       MAR 18        DEC 18
+                                                                                                 Adjustments
+                                                                               Adjustments
+
+OPERATING ASSETS
+    Trade receivables                                                                176.9               -           176.9       166.5         154.4
+    Inventories                                                                      562.3               -           562.3       484.6         578.7
+    Taxes                                                                            155.0               -           155.0       132.4         136.7
+    Other                                                                                25.9            1.1          27.0         19.9          21.6
+    Right to use assets                                                              513.6            (513.6)          -              -            -
+    Property, plant and equipment / Intangibles                                     1,134.4             28.4       1,162.7      1,130.0       1,169.3
+
+TOTAL OPERATING ASSETS                                                             2,568.1            (484.1)      2,084.0      1,933.5       2,060.8
+
+OPERATING LIABILITIES
+    Suppliers                                                                        171.8               -           171.8       247.8         267.9
+    Salaries and related charges                                                         48.2            -            48.2         44.7          45.8
+    Taxes                                                                                24.7            -            24.7         20.2          24.0
+    Judicial provisions                                                                  44.8            -            44.8         48.8          43.8
+    Leases payable                                                                   487.7            (487.7)          -              -            -
+    Other accounts payable                                                               13.6            -            13.6         13.0          11.1
+
+TOTAL OPERATING LIABILITIES                                                          790.8            (487.7)        303.0       374.5         392.5
+
+
+
+
+                                                                               INCOME STATEMENT
+
+                                                                                  1Q19
+                                                                                                   IFRS 16
+    In million of Reais                                                           Post                          Corporate      1Q19         1Q18           4Q18
+                                                                                                 Adjustments
+                                                                               Adjustments
+
+
+    Gross Revenues                                                                   545.7               -             -         545.7         542.0         525.7
+
+    Sales returns, discounts and taxes                                                (29.3)             -             -          (29.3)        (30.4)        (27.0)
+
+    Net sales                                                                        516.3               -             -         516.3         511.6         498.7
+
+    Cost of products and services sold                                               (374.8)             -             -         (374.8)       (358.5)       (348.0)
+
+    Gross profit                                                                     141.5               -             -         141.5         153.0         150.7
+
+    Operating expenses                                                               (186.0)            (2.8)         (0.3)      (189.1)       (169.7)       (185.8)
+    Other operating income (expenses)                                                     8.8            -             -              8.8          (0.2)          0.3
+    (Gain) loss on disposal of property, plant and equipment and intangibles             (2.4)           -             -           (2.4)           (0.3)          0.3
+
+    Operating loss                                                                    (38.0)            (2.8)         (0.3)       (41.1)        (17.2)        (34.6)
+
+    EBITDA                                                                               0.6           (21.4)         (0.3)       (21.2)         (0.2)        (15.5)
+
+Depreciation and amortization                                                            38.6          (18.7)          -           20.0          17.0         19.1
+
+Ratios¹
+
+Gross margin                                                                         25.9%                                       25.9%         28.2%         28.7%
+Operating margin                                                                     (7.0%)                                      (7.5%)        (3.2%)        (6.6%)
+EBITDA margin                                                                         0.1%                                       (3.9%)         0.0%         (2.9%)
+
+Number of employees                                                                  7,095                                       7,095         6,902         7,112
+
+1
+    Calculated base on gross revenues
+
+
+
+
+                                                                                                                                                                        19
+
