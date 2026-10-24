@@ -132,7 +132,7 @@ def main():
         doc = a["documentos"][-1]
         ano = str(a["ano"])
         chave = "%s v%s" % (doc["id"], doc["versao"])
-        if atual["anos"].get(ano, {}).get("chave") == chave:
+        if atual["anos"].get(ano, {}).get("chave") == chave and atual["anos"][ano].get("subitens"):
             continue
         b = baixar(doc["link"])
         if not b or b[:2] != b"PK":
@@ -142,6 +142,10 @@ def main():
         if not t:
             log.append("- %s: item 10 não encontrado; pacote: %s" % (ano, " | ".join(rastro)[:1500])); continue
         sub = subitens(t)
+        if not sub:   # formato não reconhecido: guarda o trecho do item 10 para diagnóstico
+            os.makedirs(os.path.join(RAIZ, "logs", "fre10"), exist_ok=True)
+            i0 = max(0, (re.search(r"condi[çc][õo]es financeiras e patrimoniais gerais", t, re.I) or re.search("", t)).start() - 3000)
+            open(os.path.join(RAIZ, "logs", "fre10", "%s.txt" % ano), "w", encoding="utf-8").write(t[i0:i0 + 40000])
         atual["anos"][ano] = {"chave": chave, "versao": doc["versao"], "recebido": doc["dt_receb"], "link": doc["link"].replace("http://", "https://"), "subitens": sub}
         log.append("- %s v%s: subitens %s (%s)" % (ano, doc["versao"], ", ".join(sorted(sub)) or "nenhum", rastro[-1]))
     atual["fonte"] = "Formulário de Referência (CVM), item 10 — comentários dos diretores, última versão de cada ano"
