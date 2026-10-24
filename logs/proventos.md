@@ -1,6 +1,6 @@
 # Proventos — conferência com os avisos da CVM
 
-58 avisos lidos; 29 eventos no site de RI.
+59 avisos lidos; 29 eventos no site de RI.
 21 eventos conferidos com o aviso.
 
 - JSCP 2026-09-22: R$ 0.41736421842 por ação, data com 2026-09-21 (aviso de 2026-08-14)

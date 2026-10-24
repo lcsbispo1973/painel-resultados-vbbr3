@@ -1,6 +1,6 @@
 {
  "grupo": "vibra_proventos",
- "atualizado_em": "2026-10-24T19:33:14Z",
+ "atualizado_em": "2026-10-24T19:40:07Z",
  "documentos": [
   {
    "protocolo": "024295IPE140820260130936892-28",
@@ -41,6 +41,16 @@
    "assunto": "Distribuição de Dividendos/Juros sobre Capital Próprio",
    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1536488&numSequencia=1061194&numVersao=1",
    "arquivo": "2026-06-19_024295IPE150620260163409854-91.txt"
+  },
+  {
+   "protocolo": "024295IPE150620260246901306-31",
+   "data_entrega": "2026-06-16",
+   "data_referencia": "2026-06-15",
+   "categoria": "Comunicado ao Mercado",
+   "tipo": "Outros Comunicados Não Considerados Fatos Relevantes",
+   "assunto": "Remuneração aos Acionistas",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1534899&numSequencia=1059605&numVersao=2",
+   "arquivo": "2026-06-16_024295IPE150620260246901306-31.txt"
   },
   {
    "protocolo": "024295IPE150620260113255505-08",

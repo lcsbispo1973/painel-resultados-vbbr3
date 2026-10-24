@@ -1,10 +1,9 @@
 # Documentos — última execução
 
-Executado em 2026-10-24 19:32 UTC
+Executado em 2026-10-24 19:40 UTC
 
 - vibra_df: 30 no índice, 0 novos, 0 falhas
-  - ERRO 2026-06-16 Remuneração aos Acionistas: não é PDF: b'\r\n\r\n<!DOCTYP'
-- vibra_proventos: 58 no índice, 14 novos, 1 falhas
+- vibra_proventos: 59 no índice, 1 novos, 0 falhas
 - vibra_rating: 17 no índice, 0 novos, 0 falhas
 - IPE Ultrapar: 890 documentos
 - ultrapar_rel: 40 no índice, 0 novos, 0 falhas

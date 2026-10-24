@@ -1,0 +1,607 @@
+ais Diretores sobre as
+atividades, negócios e desempenho da Companhia, bem como visam fornecer aos investidores
+informações que os ajudarão a comparar as demonstrações financeiras da Companhia para (i)
+os exercícios sociais findos em 31 de dezembro de 2017, 2016 e 2015, (ii) as mudanças nas
+principais linhas dessas demonstrações financeiras de período para período; e (iii) os principais
+fatores que explicam tais alterações.
+
+Cabe ressaltar que, em Assembleia Geral Extraordinária realizada em 31 de agosto de 2017,
+foi aprovada a cisão parcial da Companhia, com versão da parcela de seu patrimônio
+compreendida pelos recebíveis de titularidade da Companhia decorrentes de Contratos de
+Confissão de Dívida (CCDs1) com o Sistema Eletrobras, incluindo as respectivas garantias
+reais (penhor de créditos oriundos da Conta de Desenvolvimento Energético-CDE) e dos
+recebíveis detidos pela Companhia das empresas Breitener Tambaqui e Breitener Jaraqui,
+pertencentes ao Sistema Petrobras, no valor total de R$6.339 milhões para a Downstream
+Participações Ltda. (“Downstream”), sociedade constituída em 21 de novembro de 2000, cujo
+capital social pertence integralmente à Petrobras.
+
+Na mesma Assembleia Geral Extraordinária, realizada em 31 de agosto de 2017, foi deliberado
+o aumento do capital social da Companhia pela Petrobras, sua única acionista, no valor de
+R$6.313 milhões. Os recursos oriundos da operação de aporte de capital foram utilizados
+integralmente para o pré-pagamento de dívidas, contraídas anteriormente pela Companhia e
+garantidas pela Petrobras, no valor de R$7.708 milhões.
+
+Por se tratar de reestruturação entre sociedades cuja totalidade do capital social pertencia à
+Petrobras, as operações foram realizadas a valor contábil com base em laudo de avaliação
+elaborado pela KPMG Auditores Independentes S/S, não gerando impacto no resultado das
+empresas envolvidas. A operação também não gerou alteração relevante no patrimônio líquido
+da Companhia. As alterações oriundas da operação de cisão supramencinada relacionadas a
+contas a receber, contas a receber não circulante e financiamentos não circulante estão
+refletidas abaixo conforme aplicável.
+
+Os termos “AH” e “AV” constantes das colunas de determinadas tabelas abaixo significam
+“Análise Horizontal” e “Análise Vertical”, respectivamente. A Análise Horizontal compara
+medidas derivadas ou rubricas das demonstrações financeiras da Companhia com o fim de
+determinar a respectiva evolução ao longo de um período de tempo. A Análise Vertical
+
+1
+ Para maiores informações sobre os referidos contratos de confissão de dívida, fazemos referência a nota explicativa
+7.2.1 das Demonstrações Contábeis de 31 de dezembro de 2014.
+corresponde à representatividade, em termos percentuais, de rubricas das demonstrações de
+resultado em relação às receitas de vendas da Companhia em um determinado período, ou de
+saldos de contas de balaços patrimoniais da Companhia em relação ao ativo total em
+determinada data.
+
+a.                 condições financeiras e patrimoniais gerais.
+
+A Diretoria da Companhia revisa regularmente as métricas de liquidez e financeira descritas
+abaixo para avaliar os seus negócios.
+                                                                                                                                     Em 31 de dezembro de
+(Em milhões de R$, exceto os índices)                                                                                        2017            2016           2015
+Patrimônio líquido ...........................................................................................               8.826          7.410           9.925
+
+Receita de vendas...........................................................................................                 84.567         86.637      97.280
+
+Lucro Bruto .....................................................................................................            6.367          6.465           7.313
+
+Lucro (Prejuízo) líquido...................................................................................                  1.151           (315)      (1.161)
+
+*EBITDA2 ........................................................................................................            2.574           439        (1.165)
+
+*EBITDA Ajustado3..........................................................................................                  3.067          2.995           3.452
+
+*Margem EBITDA Ajustado4 ...........................................................................                         3,6%            3,5%           3,5%
+
+*Dívida bruta5...................................................................................................            4.738          12.940      13.047
+
+*Caixa e equivalentes de caixa6......................................................................                         483            655            810
+Recursos Aplicados em Fundo de Investimento em Direitos Creditórios –
+FIDC .....................................................................................................................    370           2.776           2.766
+                                        7
+*Dívida financeira líquida ................................................................................                  3.885          9.509           9.471
+
+Dívida financeira líquida/EBITDA Ajustado .........................................................                           1,27           3,17           2,74
+
+*Índice de Liquidez Corrente8 ..............................................................................                  2,43           2,18           2,30
+
+*Índice de Endividamento Total9 ........................................................................                      1,69           3,24           2,15
+
+
+Em 31 de dezembro de 2017, a receita de vendas da Companhia foi de R$84.567 milhões,
+uma redução de 2,4%, comparado com 31 de dezembro de 2016, que foi de R$86.637 milhões.
+A Diretoria ressalta que essa diminuição na receita de vendas é decorrente principalmente da
+queda de 5,7% no volume de vendas, associada a perda de market share, em função,
+principalmente, do menor volume vendido às térmicas, além do maior avanço dos players
+regionais, parcialmente compensada pelo aumento de 3,5% dos preços médios de realização.
+
+A receita de vendas da Companhia no exercício social findo em 31 de dezembro de 2016 foi de
+R$86.637 milhões, representando uma redução de 10,9%, se comparado aos R$97.280
+
+2
+  EBITDA - consiste no lucro líquido da Companhia, acrescido do resultado financeiro líquido, do imposto de renda e da
+contribuição social e das despesas com depreciação e amortização.
+3
+  EBITDA Ajustado - consiste no lucro (prejuízo) líquido da Companhia, acrescido do resultado financeiro líquido, do
+imposto de renda e da contribuição social, das despesas com depreciação e amortização, da apropriação das
+bonificações antecipadas, perdas estimadas em crédito de liquidação duvidosa do sistema isolado e interligado de
+energia, perdas e provisões com processos judiciais, impairment, plano de incentivo do desligamento voluntário (PIDV),
+anistias fiscais, encargos tributários sobre receitas financeiras e baixas contábeis relativas a Operação “Lava Jato”.
+4
+  Margem EBITDA Ajustado - índice calculado por meio da divisão do EBITDA Ajustado pela receita de vendas.
+5
+  Dívida Bruta - calculado pela soma dos valores circulante e não circulante de financiamentos, operações de mútuo
+com acionista controladora, cessão de direitos creditórios e arrendamentos mercantis financeiros.
+6
+  Caixa e equivalentes de caixa - estão representados por numerário em espécie, depósitos bancários disponíveis e
+aplicações financeiras de curto prazo, com alta liquidez, sujeitos a um risco insignificante de alteração no valor, que são
+prontamente conversíveis em caixa, com vencimento em até três meses da data de aquisição.
+7
+  Dívida financeira líquida - calculada pelo resultado da dívida bruta subtraída do caixa e equivalentes de caixa e do
+Fundo de Investimento em Direitos Creditórios – FIDC.
+8
+  Índice de Liquidez Corrente - índice que relaciona a liquidez de curto prazo da Companhia, calculado por meio da
+divisão do ativo circulante pelo passivo circulante.
+9
+  Índice de Endividamento Total - índice representado pela soma do passivo circulante e do passivo não circulante
+dividido pelo patrimônio líquido.
+milhões do exercício social findo em 31 de dezembro de 2015. Os Diretores da Companhia
+entendem que a diminuição da receita de vendas no exercício social findo em 31 de dezembro
+de 2016 é explicada principalmente pela redução de 14,6% no volume dos produtos. Essa
+redução, por sua vez, é decorrente, principalmente, do menor nível de atividade econômica no
+Brasil, cujo PIB caiu 3,6% em 2016, de acordo com publicação do IBGE e perda de market
+share de 34,9% para 31,2%, de acordo com Anuário Sindicom (atual Plural). A redução do
+market share é explicada principalmente pela redução de 54,3% das vendas para as térmicas
+no exercício social findo em 31 de dezembro de 2016, e pela manutenção da política adotada
+pela Companhia desde o último trimestre de 2015 de preservação das margens de
+comercialização de seus principais produtos (gasolina, diesel, etanol), priorizando a
+rentabilidade da Companhia através de uma maior seletividade das vendas. A redução do
+volume vendido no exercício social findo em 31 de dezembro de 2016 foi compensada
+parcialmente pelo aumento de 4,2% nos preços médios de realização.
+
+Em 31 de dezembro de 2017, o lucro líquido da Companhia foi de R$1.151 milhões e o
+EBITDA Ajustado alcançou R$3.067 milhões, um aumento de 2,4% ou R$72 milhões em
+relação a 31 de dezembro de 2016 que foi de R$2.995 milhões.
+
+Em 31 de dezembro de 2016, o prejuízo líquido foi de R$315 milhões e o EBITDA Ajustado foi
+de R$2.995 milhões em comparação aos R$3.452 milhões alcançados em 2015. A redução de
+R$457 milhões, foi devido, principalmente, a redução de R$848 milhões do lucro bruto, em
+função da redução média de 14,6% no volume de todos os produtos vendidos pela Companhia,
+compensados parcialmente pela redução das despesas com fretes de entrega em função do
+menor volume vendido (R$181 milhões) e dos menores gastos com publicidade e propaganda
+(R$113 milhões).
+
+Em 31 de dezembro de 2017, o ativo circulante da Companhia era de R$10.703 milhões, e
+superava em R$6.290 milhões o passivo circulante, que foi de R$4.413 milhões, representando
+um índice de liquidez corrente de 2,43. Em 31 de dezembro de 2016, o índice de liquidez
+corrente foi 2,18. Esse aumento na liquidez corrente no período ocorreu, principalmente, em
+função da redução dos financiamentos circulantes, cujos recursos utilizados advieram
+substancialmente do aporte de capital efetuado pela Petrobras em 31 de agosto de 2017 no
+montante de R$6.313 milhões.
+
+Em 31 de dezembro de 2016, o índice de liquidez corrente foi de 2,18. Em 31 de dezembro de
+2015, o índice de liquidez corrente foi 2,30. Essa redução na liquidez corrente para o exercício
+social findo em 31 de dezembro de 2016 ocorreu devido a redução das contas a receber, em
+consequência das menores vendas praticadas pela Companhia no período.
+
+Em 31 de dezembro de 2017 e em 31 de dezembro de 2016, o índice de endividamento total
+foi de 1,69 e 3,24, respectivamente. A redução de 1,55 ocorrida no período foi consequência,
+principalmente, da redução dos financiamentos circulantes e não circulantes no montante de
+R$8.174 milhões, passando de R$12.814 milhões em 31 de dezembro de 2016 para R$4.640
+milhões em 31 de dezembro de 2017 em função do pré-pagamento de dívidas no montante de
+R$7.708 milhões, utilizando-se principalmente dos recursos do aporte de capital efetuado pela
+Petrobras em 31 de agosto de 2017 no montante de R$6.313 milhões, associado ao lucro
+líquido do exercício. Cabe ressaltar que com a operação de cisão parcial ocorrida na mesma
+data, não houve alteração substancial do patrimônio líquido em função do aporte.
+
+Em 31 de dezembro de 2016 e 2015, o índice de endividamento total foi de 3,24 e 2,15,
+respectivamente. O aumento de 1,09 ocorrido entre 31 de dezembro de 2015 e 2016 foi
+consequência, principalmente, das perdas atuariais reconhecidas em função das
+remensurações das obrigações líquidas da Companhia junto aos planos de benefício definido
+do Plano Petros e do Plano de Saúde AMS, reconhecidos em outros resultados abrangentes,
+no Patrimônio Líquido, atribuíveis às premissas financeiras empregadas na estimativa desta
+obrigação, associada ao prejuízo do exercício findo em 31 de dezembro de 2016 e a
+declaração dos juros sobre capital próprio.
+
+Com base nas informações acima destacadas, bem como considerando a geração de caixa e o
+índice de endividamento da Companhia mencionados acima, a Diretoria da Companhia
+entende que possui as condições de geração de caixa, patrimoniais e financeiras suficientes
+para (i) implementar os seus planos de negócios e investimentos e (ii) cumprir com suas
+obrigações financeiras de curto e longo prazo.
+
+Maiores informações sobre o resultado operacional da Companhia estão apresentadas no item
+3.2 deste Formulário de Referência.
+
+b.              estrutura de capital
+
+Os diretores da Companhia entendem que a Companhia possui estrutura de capital adequado
+ao cumprimento de suas obrigações de curto e longo prazo e à condução de suas operações,
+considerando sua estratégia de negócios e de crescimento.
+
+
+
+Consolidado (Em milhões de reais - R$, exceto os índices)                                                    2017     2016     2015
+
+Patrimônio Líquido (Capital Próprio) …………………………………………………..                                                   8.826    7.410    9.925
+
+Passivo Circulante + Passivo Não Circulante (Capital de Terceiros) ...................                       14.936   23.988   21.316
+
+Passivo Total (Capital de Terceiros + Patrimônio Líquido) ...................................                23.762   31.398   31.241
+
+Capital de Terceiros / Passivo Total .....................................................................   62,9%    76,4%    68,2%
+
+Patrimônio Líquido / Passivo Total …………………………………………………...                                                    37,1%    23,6%    31,8%
+
+
+(i) Capital Próprio (Patrimônio Líquido)
+
+Em 31 de dezembro de 2017, o patrimônio líquido da Companhia era de R$8.826 milhões. Em
+31 de dezembro de 2016, o patrimônio líquido da Companhia era de R$7.410 milhões. Esta
+variação positiva de 19,1% decorreu, principalmente, do lucro líquido apurado no período de
+R$1.151 milhões, associado ao ganho atuarial apurado ao final do exercício social findo em 31
+de dezembro de 2017 referentes ao Plano Petros e Plano de Saúde - AMS, líquido dos efeitos
+tributários (R$564 milhões), parcialmente compensados pela destinação dos dividendos
+mínimos obrigatórios (R$273 milhões) e pelas variações patrimoniais ocorridas entre a data de
+emissão do laudo de avaliação (30/06/2017) e a data da aprovação da cisão (31/08/2017), no
+montante de R$26 milhões, referente a cisão parcial que compreendeu os recebíveis detidos
+pela Companhia decorrentes de Contratos de Confissão de Dívida (CCDs) com o Sistema
+Eletrobras que possuem garantias reais (penhor de créditos oriundos da Conta de
+Desenvolvimento Energético-CDE) e dos recebíveis detidos pela companhia com outras
+sociedades do Sistema Petrobras.
+
+Em 31 de dezembro de 2016, o patrimônio líquido da Companhia era de R$7.410 milhões. Em
+31 de dezembro de 2015, o patrimônio líquido da Companhia era de R$9.925 milhões. Esta
+variação negativa de 25,3% em 2016 decorreu principalmente, do prejuízo líquido apurado no
+exercício findo em 31 de dezembro de 2016, associado a distribuição dos juros sobre capital
+próprio no montante de R$747 milhões e pelo reconhecimento, no montante de R$1.453
+milhões, de perdas atuariais apuradas ao final do exercício social findo em 31 de dezembro de
+2016 referentes ao Plano Petros e Plano de Saúde - AMS, líquido dos efeitos tributários.
+
+
+
+
+(ii) Capital de Terceiros
+
+Em 31 de dezembro de 2017, o capital de terceiros da Companhia era de R$14.936 milhões,
+uma redução de R$9.052 milhões, se comparado a 31 de dezembro de 2016 que era de
+R$23.988 milhões. Essa queda é explicada, principalmente pela redução dos financiamentos
+circulantes e não circulantes no montante de R$8.174 milhões, passando de R$12.814 milhões
+em 31 de dezembro de 2016 para R$4.640 milhões em 31 de dezembro de 2017 em função do
+pré-pagamento de dívidas no montante de R$7.708 milhões, utilizando-se principalmente dos
+recursos do aporte de capital efetuado pela Petrobras em 31 de agosto de 2017 no montante
+de R$6.313 milhões.
+
+Em 31 de dezembro de 2016, o capital de terceiros da Companhia era de R$23.988 milhões,
+um aumento de R$2.672 milhões, se comparado a 31 de dezembro de 2015 que era de
+R$21.316 milhões. Esse acréscimo é explicado, principalmente pelo aumento de R$1.936
+milhões nos saldos circulante e não circulante dos planos de pensão e saúde, em função da
+perda atuarial apurada ao final do exercício social findo em 31 de dezembro de 2016 no
+montante de R$1.691 milhões.
+
+c.     capacidade      de   pagamento      em   relação   aos   compromissos       financeiros
+assumidos.
+
+Tendo em vista o nível de geração de caixa operacional da Companhia e sua capacidade de
+acessar recursos provenientes de empréstimos e financiamentos no mercado financeiro e
+mercado de capitais, a Diretoria acredita ter plenas condições de honrar os compromissos
+financeiros assumidos.
+
+Considerando o perfil de financiamento da Companhia em 31 de dezembro de 2017, de R$ 240
+milhões no passivo circulante e R$ 4.498 milhões no passivo não circulante, bem como sua
+posição de caixa e equivalentes de caixa e FIDC de R$ 853 milhões na mesma data, a
+Diretoria acredita que a Companhia apresenta plena capacidade de pagamento de todas as
+suas obrigações financeiras. Adicionalmente, entende-se que a Companhia apresenta fluxo de
+caixa e recursos de capital suficientes para cobrir os investimentos, despesas e outras dívidas
+a serem pagas nos próximos anos.
+
+A Companhia conta com diversas opções para manter sua capacidade de honrar com suas
+obrigações, tais como: (i) geração operacional de caixa; (ii) antecipações de recebíveis de
+clientes alocados em carteiras de cobrança vinculadas ao FIDC, dentro do limite aprovado pela
+Petrobras para a Companhia, conforme detalhado na seção 9.2 deste Formulário de
+Referência; (iii) e acesso ao mercado financeiro e mercado de capitais.
+
+d.       fontes de financiamento para capital de giro e para investimentos em ativos
+não-circulantes utilizados.
+
+
+A Companhia realiza investimentos em capital de giro e ativos não circulantes, utilizando a
+própria geração de caixa operacional e financiamentos de terceiros, conforme descritos no item
+“f.” abaixo desta seção 10.1. Os Diretores da Companhia acreditam que o fluxo de caixa
+operacional é suficiente para que a Companhia satisfaça às suas necessidades de liquidez
+futura, sendo possível ainda a captação de recursos adicionais, caso haja necessidade.
+
+A Companhia capta recursos por meio de operações no mercado financeiro e mercado de
+capitais, quando necessário, os quais são empregados no financiamento de suas necessidades
+de capital de giro e investimentos de curto e longo prazo. Os empréstimos da Companhia em
+aberto em 31 de dezembro de 2017, bem como em 31 de dezembro de 2016 e 2015 estão
+detalhados no item “10.1.f.” abaixo.
+
+Os Diretores da Companhia esclarecem, por fim, que estas iniciativas são recorrentes e
+seguem o curso normal dos negócios da Companhia dentro de uma gestão prudente do seu
+passivo financeiro. O prazo médio da dívida bruta da Companhia em 31 de dezembro de 2017
+era de 2,8 anos, em 31 de dezembro de 2016 era de 3,2 anos e em 31 de dezembro de 2015
+era de 4,1 anos.
+e.       fontes de financiamento para capital de giro e para investimentos em ativos não
+circulantes que pretende utilizar para cobertura de deficiências de liquidez.
+
+A Companhia pretende financiar o capital de giro e os investimentos em ativos não circulantes
+através dos saldos de caixa e equivalentes de caixa, do FIDC, de sua geração futura de caixa
+operacional, e de operações de captação de recursos no mercado financeiro e no mercado de
+capitais, caso seja necessário. As operações de captação são precedidas de avaliações de
+necessidade de caixa, custo e níveis de alavancagem da Companhia. Para tanto, as
+modalidades de captação de recursos escolhidas devem estar de acordo com as melhores
+opções disponíveis no mercado, considerando-se as expectativas de custo, prazo, garantias e
+demais condições de captação de cada modalidade e sua adequação às Sociedades do
+Sistema Petrobras, bem como aos objetivos estratégicos da Companhia.
+
+São consideradas as premissas estabelecidas quando da confecção do Plano de Negócios
+(“PNG”) para as necessidades de captação de recursos da Companhia e a manutenção da sua
+capacidade de financiar suas atividades, seja por empréstimos, ou por outros meios. Dentre
+estes devem ser consideradas as premissas estabelecidas quando da confecção do PNG, para
+as necessidades de captação de recursos da Companhia.
+
+Na contratação de operações de captações têm preferência aquelas que apresentarem o
+menor custo, levando-se em consideração, inclusive, os riscos embutidos, as expectativas de
+variação cambial e de taxas de juros, observada a capacidade de performance, o histórico de
+relacionamento e reciprocidade da instituição com a Companhia.
+
+f.        níveis de endividamento e as características de tais dívidas.
+
+Em 31 de dezembro de 2017, o endividamento bruto da Companhia era de R$ 4.738 milhões
+em comparação com a dívida bruta de R$ 12.940 milhões ao final do exercício social de 2016.
+A redução ocorreu principalmente pela quitação de empréstimo com o Banco da Amazônia S/A
+(BASA) em junho de 2017 e pela quitação das NCEs do Banco do Brasil e Bradesco em agosto
+de 2017. A dívida bruta ao final de 2015 foi de R$ 13.047 milhões e ao final de 2014 foi de R$
+8.506 milhões, sendo esse aumento da dívida bruta fruto das captações bancárias ocorridas ao
+longo do exercício de 2015, visando uma melhora na estrutura de capital e no índice de
+liquidez corrente da Companhia.
+
+O endividamento da Companhia e suas subsidiárias em 31 de setembro de 2017 têm as
+seguintes características:
+
+        Cédulas de Crédito Bancário – Banco IBM, emitidas em favor do Banco IBM S.A., em
+         27 de setembro de 2012, no valor principal de R$ 75 milhões e R$ 40 milhões, cujo
+         saldo devedor total estava em R$ 56 milhões em 31 de dezembro de 2017;
+        Debêntures com valor de principal de R$ 3,5 bilhões e cujo saldo devedor estava em
+         R$ 3.572 milhões em 31 de dezembro de 2017;
+        Certificados de Recebíveis Imobiliários – CRI (lastreados em contratos de locação
+         celebrados pela Companhia, conforme descrito no item “i” abaixo e seção 9.2 deste
+         Formulário de Referência) com valor de principal de R$ 972 milhões, cujo saldo
+         devedor está em R$ 1.000 milhões em 31 de dezembro de 2017;
+        Arrendamentos mercantis financeiros - incluindo o contrato de locação Lubrax (lastro
+         CRI 25), com saldo em 31 de dezembro de 2017 de R$ 72 milhões, conforme
+         detalhado no item “i” abaixo e contratos celebrados entre a Companhia e a CDGN com
+         saldo em 31 de dezembro de 2017 de R$ 25 milhões (a Companhia é arrendatária de
+         equipamentos da investida CDGN, e arrendadora desses equipamentos aos clientes
+         Suzano Papel e Celulose S.A. e Fiat Automóveis Ltda);
+        Fundo de Direitos Creditórios-FIDC - utilizado pela Companhia para centralização do
+         caixa de curto prazo. Os recursos disponíveis no curto prazo são aplicados em cotas
+         deste fundo com remuneração de 100% do CDI e liquidez diária. As necessidades de
+         recursos de capital de giro também são supridas pelo fundo, por meio da cessão, pela
+         Companhia, de recebíveis de sua titularidade ao fundo com valor de cessão
+         equivalente a 100,5% do CDI. A Companhia fechou o dia 31 de dezembro de 2017 com
+         um montante de R$ 26 milhões de cessão de direitos creditórios em aberto.
+         i. contratos de empréstimo e financiamento relevantes.
+
+A tabela abaixo apresenta as principais características dos contratos de empréstimo e
+financiamento relevantes em vigor em 31 de dezembro de 2017:
+
+                                                                                Saldo em 31
+                                                                  Valor do
+                                                                                de dezembro
+             Contrato               Credor      Taxa de Juros   Principal (em                 Vencimento
+                                                                                de 2017 (em
+                                                                R$ milhões)
+                                                                                R$ milhões)
+                                                 CDI – 0,37%
+CCB nº 3015                        Banco IBM                         76             50        28/09/2020
+                                                     a.a.
+                                                 CDI – 0,55%
+CCB nº 3016                        Banco IBM                         40              6        28/03/2018
+                                                     a.a.
+
+
+Debêntures                            Itaú      111,57% CDI        3.518           3.572      15/04/2020
+
+
+Contrato de Locação - Fábrica
+Lubrax - (lastro para CRI 25ª      RB Capital   IPCA + 6,85%        110             72        15/10/2019
+Série)
+Contrato de Locação Basul e 1º
+Aditivo Locação Lubrax (Expansão
+                                   RB Capital   IPCA + 6,84%        350             402       15/02/2023
+Lubrax) - (lastro para CRI 73º
+Série)
+Contrato de Locação – Bapon –
+                                   RB Capital   IPCA + 4,09%        235             247       15/02/2025
+(lastro para CRI 99ª Série)
+Contrato de Locação – Bapon e
+Basul – (lastro para CRI 100ª      RB Capital   IPCA + 4,98%        277             351       15/02/2032
+Série)
+
+Apresentamos a seguir descrição dos principais contratos financeiros celebrados pela
+Companhia, vigentes em 31 de dezembro de 2017:
+
+         (1)       BANCO IBM
+
+Em 27 de setembro de 2012, a Companhia emitiu 2 (duas) Cédulas de Crédito Bancário em
+favor do Banco IBM, para o financiamento de capital de giro no valor total de R$ 115 milhões,
+sendo a CCB nº 3015, no valor de aproximadamente R$ 75 milhões e a CCB 3016, no valor de
+R$ 40 milhões, com o vencimento final em 28 de setembro de 2020 e 28 de março de 2018,
+respectivamente. Sobre o valor principal do crédito referente à CCB 3015 incide a taxa de juros
+de 100% do CDI menos 0,37% ao ano e referente à CCB 3016 incide a taxa de juros de 100%
+do CDI menos 0,55% ao ano.
+
+
+
+Os juros e o principal de ambas as CCBs são amortizados semestralmente, tendo a primeira
+parcela sido amortizada em 28 de março de 2013.
+
+
+
+Além disso, as Cláusulas nº VI das CCBs nº 3015 e 3016 dispõem que haverá o vencimento
+antecipado das obrigações nelas contidas, entre outras possibilidades, em caso de: (i)
+inadimplemento de obrigações pecuniárias ou não pecuniárias no âmbito das CCBs; (ii) pedido
+ou decretação de falência ou recuperação judicial da Companhia; (iii) protesto de títulos, ou o
+início de processos judiciais ou administrativos em que a Companhia seja parte, que o Banco
+IBM considere que poderá afetar a capacidade da Companhia de cumprir com o Contrato; (iv)
+alienação ou transferência, direta ou indireta, do controle acionário da Companhia, sem a
+prévia e expressa anuência do Banco IBM; (v) incorporação, fusão, cisão ou redução de capital
+da Companhia, sem a prévia concordância por escrito do Banco IBM, ou que a Companhia
+simplesmente interrompa suas atividades; (vi) estatização, encampação ou expropriação da
+Companhia; (vii) não apresentação pela Companhia, dentro de 15 dias da data da notificação
+do Banco IBM, de suas demonstrações financeiras periódicas; (viii) transferência, cessão ou
+promessa de cessão pela Companhia a terceiros dos direitos e obrigações decorrentes da
+Cédula de Crédito Bancário, sem a prévia e expressa anuência do Banco IBM; (ix) instituição
+ou majoração de qualquer tributo ou contribuição incidente sobre operações do banco,
+podendo o banco, em vez de declarar o vencimento antecipado, cobrar da Companhia o custo
+referente ao tributo novo ou majorado; (x) falsidade de declarações ou informações prestadas
+pela Companhia; e (xi) congelamento ou fixação de limites, pelas autoridades monetárias, das
+taxas de juros que podem ser cobradas pelas instituições financeiras neste tipo de operação.
+
+
+       (2)     BANCO ITAÚ BBA
+
+Em 10 de agosto de 2015, a Companhia celebrou o "Instrumento Particular de Escritura da
+Primeira Emissão de Debêntures Simples, Não Conversíveis em Ações, da Espécie
+Quirografária, com Garantia Fidejussória, em Série Única, para Distribuição Pública, com
+Esforços Restritos de Distribuição", por meio da qual a Companhia emitiu debêntures no valor
+de R$ 3,5 bilhões, pelo prazo de cinco anos, com garantia fidejussória da Petrobras. Sobre o
+valor nominal unitário das debêntures incidem juros remuneratórios correspondentes a
+111,57% do CDI. Os juros remuneratórios são amortizados semestralmente, tendo o primeiro
+pagamento sido realizado no dia 15 de abril de 2016, e a amortização do principal ocorrerá
+através de pagamento único, na data de vencimento das debêntures. Os recursos decorrentes
+da emissão das Debêntures foram aplicados na aquisição de álcool etílico anidro e álcool
+etílico hidratado de produtores rurais. Há isenção de IOF na operação, conforme previsto na
+Lei 6.313/75.
+
+A escritura de emissão prevê as seguintes hipóteses de vencimento antecipado automático:
+
+(i) incapacidade, da Companhia ou da Petrobras, de pagar suas dívidas financeiras ou
+obrigações decorrentes de contratos, financeiros ou não, utilizados como ativo subjacente em
+operações de captação ou securitização, nos respectivos vencimentos, respeitados os
+respectivos prazos de cura; (ii) declaração, por escrito, prestada pela Companhia ou pela
+Petrobras, atestando a sua incapacidade de honrar suas respectivas obrigações pecuniárias no
+correspondente vencimento, observados os prazos de cura aplicáveis; (iii) consentimento, por
+escrito, pela Companhia ou Petrobras, sobre a indicação de um custodiante, administrador ou
+interventor para administrar a Companhia, a Petrobras ou a parte substancial de seus ativos,
+ou em caso da mera indicação judicial de um custodiante, administrador ou interventor, sendo
+certo que, para a referida indicação judicial, não será necessário o consentimento da
+Companhia ou da Petrobras; (iv) qualquer procedimento de falência, recuperação judicial,
+dissolução, reorganização, intervenção, arranjo ou liquidação (ou procedimentos similares cujo
+efeito ou propósito seja o mesmo) que venha a ser instaurado: (1) por iniciativa da Companhia
+ou Petrobras; ou (2) contra a Companhia ou Petrobras, desde que, na hipótese prevista neste
+item (2), o referido procedimento não seja revertido no prazo de 30 (trinta) dias contados da
+declaração do respectivo evento; (v) descumprimento, pela Companhia, de qualquer obrigação
+pecuniária prevista na escritura, desde que tal descumprimento não seja sanado em até 7
+(sete) dias, no caso do não pagamento do valor principal das Debêntures, ou em até 30 (trinta)
+dias, no caso do não pagamento de qualquer outro obrigação pecuniária prevista na escritura,
+após o recebimento, pela Companhia de notificação por escrito enviada pelo Agente Fiduciário,
+sendo certo que qualquer descumprimento da Companhia com relação a este item “v” não
+constituirá um evento de vencimento antecipado de declaração automática caso a Petrobras,
+sendo devidamente notificada na forma da cláusula 3.8.3 da escritura, venha a cumprir com
+todas as obrigações previstas neste item na qualidade de garantidora das obrigações previstas
+na escritura; (vi) descumprimento, pela Petrobras, de qualquer obrigação pecuniária prevista
+na escritura, desde que tal descumprimento não seja sanado em até 7 (sete) dias, no caso do
+não pagamento do valor principal das Debêntures, ou em até 30 (trinta) dias, no caso do não
+pagamento de qualquer outra obrigação pecuniária prevista na escritura, após o recebimento,
+pela Petrobras, de notificação por escrito enviada pelo Agente Fiduciário, nos termos da
+cláusula 3.8.3 da escritura; e (vii) transformação da forma societária da Companhia de
+sociedade por ações para sociedade limitada nos termos dos artigos 220 a 222 da Lei das
+Sociedades por Ações.
+
+A escritura de emissão prevê, ainda, as seguintes hipóteses de vencimento antecipado
+mediante deliberação em Assembleia Geral de Debenturistas:
+
+(i) caso qualquer declaração prestada pela Companhia e/ou pela Petrobras no âmbito da
+escritura (ou no caso de qualquer modificação ou aditamento à declaração) se prove falsa, em
+qualquer aspecto materialmente relevante com relação aos interesses dos Debenturistas, na
+data em que tal declaração foi prestada, sendo que não constituirá um evento de vencimento
+antecipado a ser deliberado em assembleia de debenturistas caso as circunstâncias que deram
+causa a tal declaração falsa venham a ser sanadas no prazo de até 60 dias após o
+recebimento, pela Companhia e/ou pela Petrobras, de notificação por escrito enviada pelo
+Agente Fiduciário; (ii) descumprimento, pela Companhia e/ou pela Petrobras, de qualquer
+obrigação não pecuniária prevista na escritura, desde que não sanado no prazo de 60 dias
+após o descumprimento da referida obrigação pela Companhia e/ou pela Petrobras; (iii) caso a
+Petrobras deixe de deter, direta ou indiretamente, 50% mais 1 (uma) ação do capital votante da
+Companhia, e tal alteração na composição acionária da Companhia venha a potencialmente
+causar um efeito material adverso nos negócios, operações ou condições financeira da
+Companhia ou da Petrobras e que possa impedi-las de realizar os pagamentos das obrigações
+relativas às Debêntures; e (iv) descumprimento, pela Companhia, da obrigação de
+apresentação das notas fiscais que comprovem a aquisição de etanol de produtores rurais e
+dos documentos comprobatórios que atestem a natureza rural dos produtores rurais de etanol
+ao Agente Fiduciário.
+
+Para maiores informações sobre as debêntures emitidas pela Companhia, favor observar o
+item 18.5 do Formulário de Referência.
+
+         (3)   FII FCM / RB CAPITAL
+
+A Companhia possui compromissos financeiros com a RB Capital Securitizadora S.A. em
+função da cessão dos direitos creditórios dos contratos de locação celebrados entre a BR e o
+FII FCM no fluxo da operação de captação de recursos para os projetos de construção e /ou
+ampliação da Fábrica de Lubrificantes (Lubrax), Base de Cruzeiro do Sul (Basul) e Base de
+porto Nacional (Bapon), os quais serviram de lastro para emissão dos Certificados de
+Recebíveis Imobiliários, pela Securitizadora. Para maiores detalhes sobre a operação ver
+tópico 9.2 deste Formulário de Referência:
+
+
+ Tipo:          Contrato de Locação - Fábrica LUBRAX - (lastro para CRI 25ª Série)
+ Ano:           2009
+ Valor:         R$ 110,1 milhões
+ Custo:         IPCA + 6,8688 % a.a.
+ Prazo:         120 meses (amortização do principal e dos juros em dez parcelas anuais, a
+                partir de outubro de 2010)
+ Vencimento:    Out/2019
+ Saldo:         R$ 72 milhões em 31 de dezembro de 2017
+
+ Tipo:          Contratos de Locação BASUL e Primeiro Aditivo Contrato de Locação LUBRAX
+                (Expansão Lubrax) - (lastro para CRI 73º Série)
+ Ano:           2011
+ Valor:         R$ 350 milhões
+ Custo:         IPCA + 6,84% a.a.
+ Prazo:         138 meses (amortização do principal e dos juros em dez parcelas anuais, a
+                partir de fevereiro de 2014)
+ Vencimento:    Fev/2023
+ Saldo:         R$ 402 milhões em 31 de dezembro de 2017
+
+ Tipo:          Contrato de Locação – BAPON – (lastro para CRI 99ª Série)
+ Ano:           2012
+ Valor:         R$ 235,5 milhões
+ Custo:         IPCA + 4,09% a.a.
+ Prazo:         155 meses (amortização do principal e dos juros em doze parcelas anuais, a
+                partir ee fevereiro de 2014)
+ Vencimento:    Fev/2025
+ Saldo:         R$ 247 milhões em 31 de dezembro de 2017
+
+ Tipo:          Contrato de Locação – BAPON e BASUL – (lastro para CRI 100ª Série)
+ Ano:           2012
+ Valor:         R$ 276,6 milhões
+ Custo:         IPCA + 4,98%
+ Prazo:         240 meses (amortização do principal e dos juros em doze parcelas anuais, a
+                partir de fevereiro de 2014)
+ Vencimento:    Fev/2032
+ Saldo:         R$ 351 milhões em 31 de dezembro de 2017
+
+       ii. Outras relações de longo prazo com instituições financeiras.
+
+A Companhia possui um relacionamento próximo e equilibrado com as principais instituições
+financeiras atuantes no mercado brasileiro. A Companhia possui contratos de serviços de
+cobrança de longa data com o Banco do Brasil, Santander e Bradesco, possui contratos de
+fianças bancárias (garantia em processos judiciais) por prazo indeterminado com os Bancos
+Itaú, Banrisul, Bradesco, Safra e Santander e Contratos Globais de Derivativos (CGD) com
+Bradesco, Citibank, BNP Paribas, Deutsche Bank, Votorantin, JP Morgan, Morgan Stanley,
+Santander, BMG, entre outros.
+
+       iii. Grau de subordinação entre as dívidas.
+
+As dívidas da Companhia não são subordinadas, e todas têm direitos iguais sobre a ordem de
+pagamento, observada a legislação aplicável.
+
+       iv. Eventuais restrições impostas à Companhia em relação a limites de
+       endividamento e contratação de novas dívidas, à distribuição de dividendos, à
+       alienação de ativos e à alienação de controle societário.
+
+ Dentre os contratos de financiamento firmados com terceiros, alguns foram elaborados com
+cláusulas restritivas (covenants), dentre os quais destacam-se:
+
+       1.      CCBS Nº 3015 E 3016 DO BANCO IBM:
+
+As CCBs nº 3015 e 3016 dispõem que haverá o vencimento antecipado das obrigações nela
+contidas, entre outras possibilidades, em caso de: (i) alienação ou transferência, direta ou
+indireta, do controle acionário da Companhia, sem a prévia e expressa anuência do Banco
+IBM; (ii) incorporação, fusão, cisão ou redução de capital, sem a prévia concordância por
+escrito do Banco IBM, ou simplesmente interrompa suas atividades; (iii) estatização,
+encampação ou expropriação da Companhia;
+
+A Companhia acompanha o atendimento das cláusulas estabelecidas e entende que atendeu
+todas as cláusulas restritivas mencionadas acima até 31 de dezembro de 2017.
+
+       2.      DEBÊNTURE DO ITAÚ:
+
+A escritura de emissão prevê como hipótese de vencimento antecipado automático a
+transformação da forma societária da Companhia de sociedade por ações para sociedade
+limitada nos termos dos artigos 220 a 222 da Lei das Sociedades por Ações. A escritura de
+emissão prevê, ainda, como hipótese para vencimento antecipado mediante deliberação em
+Assembleia Geral de Debenturistas, a Petrobras deixar de deter, direta ou indiretamente, 50%
+mais 1 (uma) ação do capital votante da Companhia, e tal alteração na composição acionária
+da Companhia vier a potencialmente causar um efeito material adverso nos negócios,
+operações ou condições financeiras da Companhia ou da Petrobras que possam impedi-las de
+realizar os pagamentos das obrigações relativas às Debêntures.
+
+A Companhia acompanha o atendimento da cláusula restritiva estabelecida, não tendo havido
+descumprimento até 31 de dezembro de 2017.
+
+       3.      BRASIL CARBONOS – FINANCIAMENTO BNDES:
+
+Em 24 de abril de 2012, a Brasil Carbonos S.A., investida da Companhia, celebrou o "Contrato
+de Financiamento Mediante Repasse de Recursos do Banco Nacional de De
