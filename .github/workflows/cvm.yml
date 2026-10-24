@@ -37,8 +37,10 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Teste automático do pipeline
-        run: python -I tests/test_cvm_fixture.py
+      - name: Testes automáticos do pipeline
+        run: |
+          python -I tests/test_cvm_fixture.py
+          python -I tests/test_fre_fixture.py
 
       - name: Baixar e processar dados da CVM
         run: |
@@ -46,6 +48,15 @@ jobs:
             python pipeline/cvm.py --completo
           else
             python pipeline/cvm.py
+          fi
+
+      - name: Baixar e processar o Formulário de Referência
+        if: always()
+        run: |
+          if [ "${{ inputs.completo }}" = "true" ]; then
+            python pipeline/fre.py --completo
+          else
+            python pipeline/fre.py
           fi
 
       - name: Salvar resultados no repositório
@@ -80,7 +91,7 @@ jobs:
           mkdir -p _site/data
           cp -r docs/. _site/
           cp data/*.json _site/data/
-          rm -rf _site/data/cvm_raw
+          cp -r data/fre _site/data/fre
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

@@ -56,6 +56,11 @@ def monta(pasta):
         if r[1] == f"{ano}-03-31":
             r[2] = "2"
     itr_dre.append(linha(f"{ano}-03-31", 1, "ÚLTIMO", f"{ano}-01-01", f"{ano}-03-31", "3.01", "Receita", 5))
+    # comparativos de 2024 (sem demonstrações próprias): 1 por trimestre; o ano inteiro (pen. do DFP) vale 7
+    for q in (1, 2, 3):
+        ref = f"{ano}-{FIM[q]}"
+        itr_dre.append(linha(ref, 2 if q == 1 else 1, "PENÚLTIMO", f"2024-{INI_TRI[q]}", f"2024-{FIM[q]}", "3.01", "Receita", 1))
+        itr_dre.append(linha(ref, 2 if q == 1 else 1, "PENÚLTIMO", "2024-01-01", f"2024-{FIM[q]}", "3.01", "Receita", q))
     for cd in DRE_Q[1]:
         fy = sum(DRE_Q[k][cd] for k in range(1, 5))
         dfp_dre.append(linha(f"{ano}-12-31", 1, "ÚLTIMO", f"{ano}-01-01", f"{ano}-12-31", cd, f"Conta {cd}", fy))
@@ -77,7 +82,22 @@ def monta(pasta):
         for cd, v in (("6.01", acum[0]), ("6.02", acum[1]), ("6.03", acum[2]), ("6.04", acum[3]),
                       ("6.05", sum(acum)), ("6.05.01", ini_ano), ("6.05.02", ini_ano + sum(acum))):
             alvo.append(linha(ref, 1, "ÚLTIMO", f"{ano}-01-01", ref, cd, f"Conta {cd}", v))
+    itr_dva, itr_dra = [], []
+    for q in (1, 2, 3):
+        ref = f"{ano}-{FIM[q]}"
+        for cd, v in (("7.01", 100 * q), ("7.02", -40 * q), ("7.03", 60 * q), ("7.04", -10 * q), ("7.05", 50 * q),
+                      ("7.06", 5 * q), ("7.07", 55 * q), ("7.08", 55 * q)):
+            itr_dva.append(linha(ref, 1, "ÚLTIMO", f"{ano}-01-01", ref, cd, f"Conta {cd}", v))
+        for cd, v in (("4.01", 20), ("4.02", 3), ("4.03", 23)):
+            itr_dra.append(linha(ref, 1, "ÚLTIMO", f"{ano}-{INI_TRI[q]}", ref, cd, f"Conta {cd}", v))
+            if q > 1:
+                itr_dra.append(linha(ref, 1, "ÚLTIMO", f"{ano}-01-01", ref, cd, f"Conta {cd}", v * q))
     with zipfile.ZipFile(os.path.join(pasta, f"itr_cia_aberta_{ano}.zip"), "w") as z:
+        escreve(z, f"itr_cia_aberta_DVA_con_{ano}.csv", itr_dva)
+        escreve(z, f"itr_cia_aberta_DRA_con_{ano}.csv", itr_dra)
+        z.writestr(f"itr_cia_aberta_composicao_capital_{ano}.csv",
+                   ("CNPJ_CIA;DT_REFER;VERSAO;DENOM_CIA;QT_ACAO_ORDIN_CAP_INTEGR;QT_ACAO_PREF_CAP_INTEGR;QT_ACAO_TOTAL_CAP_INTEGR;QT_ACAO_ORDIN_TESOURO;QT_ACAO_PREF_TESOURO;QT_ACAO_TOTAL_TESOURO\n"
+                    f"{CNPJ};{ano}-03-31;1;VIBRA;1000000000;0;1000000000;5000000;0;5000000\n").encode("latin-1"))
         escreve(z, f"itr_cia_aberta_DRE_con_{ano}.csv", itr_dre)
         escreve(z, f"itr_cia_aberta_DRE_ind_{ano}.csv", [linha(f"{ano}-03-31", 1, "ÚLTIMO", f"{ano}-01-01", f"{ano}-03-31", "3.01", "Receita", 123456)])
         escreve(z, f"itr_cia_aberta_BPA_con_{ano}.csv", itr_bpa)
@@ -107,14 +127,21 @@ def main():
             ("bp", "1.01.01", "4T25"): 180, ("bp", "1", "2T25"): 1000,
             ("dfc", "6.01", "1T25"): 50, ("dfc", "6.01", "2T25"): 60, ("dfc", "6.01", "3T25"): 55, ("dfc", "6.01", "4T25"): 70,
             ("dfc", "6.05.01", "3T25"): 120, ("dfc", "6.05.02", "4T25"): 180,
+            ("dre", "3.01", "1T24"): 1, ("dre", "3.01", "2T24"): 1, ("dre", "3.01", "3T24"): 1, ("dre", "3.01", "4T24"): 4,
         }
-        tabelas = {"dre": dre, "bp": bp, "dfc": dfc}
+        dva, dra = carrega("cvm_dva.json"), carrega("cvm_dra.json")
+        esperado.update({("dva", "7.03", "1T25"): 60, ("dva", "7.03", "2T25"): 60, ("dva", "7.03", "3T25"): 60,
+                         ("dra", "4.03", "2T25"): 23})
+        acoes = carrega("cvm_acoes.json")
+        assert acoes["valores"]["1T25"] == {"total": 1e9, "tesouro": 5e6}, acoes
+        tabelas = {"dre": dre, "bp": bp, "dfc": dfc, "dva": dva, "dra": dra}
         falhas = []
         for (t, cd, p), v in esperado.items():
             obtido = val(tabelas[t], cd, p)
             if obtido is None or abs(obtido - v) > 1e-6:
                 falhas.append(f"{t} {cd} {p}: esperado {v}, obtido {obtido}")
-        internas = [c for c in conf if c["demo"] != "Release" and c["status"] == "divergente"]
+        # 4T24 só tem a conta 3.01 nos comparativos do fixture; as somas internas desse trimestre não se aplicam
+        internas = [c for c in conf if c["demo"] != "Release" and c["status"] == "divergente" and c["periodo"] != "4T24"]
         falhas += [f"conferência divergente: {c['demo']} {c['periodo']} {c['teste']} dif {c['diferenca']}" for c in internas]
         ok = [c for c in conf if c["demo"] != "Release" and c["status"] == "ok"]
         assert len(ok) >= 25, f"poucas conferências ok ({len(ok)})"

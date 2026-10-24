@@ -28,9 +28,11 @@ from collections import defaultdict
 CNPJ = "34.274.233/0001-02"
 ANO_INICIAL = 2016
 TOL = 2.0  # tolerância de arredondamento, em R$ milhões
-DEMOS = {"DRE": "DRE_con", "BPA": "BPA_con", "BPP": "BPP_con", "DFC": "DFC_MI_con"}
+DEMOS = {"DRE": "DRE_con", "BPA": "BPA_con", "BPP": "BPP_con", "DFC": "DFC_MI_con",
+         "DVA": "DVA_con", "DRA": "DRA_con", "DMPL": "DMPL_con"}
 COLUNAS_RAW = ["tipo", "demo", "ano", "DT_REFER", "VERSAO", "ESCALA_MOEDA", "ORDEM_EXERC",
-               "DT_INI_EXERC", "DT_FIM_EXERC", "CD_CONTA", "DS_CONTA", "VL_CONTA", "ST_CONTA_FIXA"]
+               "DT_INI_EXERC", "DT_FIM_EXERC", "CD_CONTA", "DS_CONTA", "VL_CONTA", "ST_CONTA_FIXA", "COLUNA_DF"]
+COLUNAS_ACOES = ["tipo", "ano", "DT_REFER", "VERSAO", "ON", "PN", "TOTAL", "ON_TESOURO", "PN_TESOURO", "TOTAL_TESOURO"]
 SALDO_INI, SALDO_FIM = "6.05.01", "6.05.02"
 
 # Valores já conferidos nos releases de resultados (R$ milhões), usados só como teste cruzado.
@@ -123,6 +125,24 @@ def extrair_zip(caminho, tipo, ano, pasta_raw, log):
                 w.writeheader()
                 w.writerows(linhas)
             contagem[demo] = len(linhas)
+        nomes = [n for n in zf.namelist() if "composicao_capital" in n and n.lower().endswith(".csv")]
+        acoes = []
+        for n in nomes:
+            with zf.open(n) as bruto:
+                leitor = csv.DictReader(io.TextIOWrapper(bruto, encoding="latin-1", newline=""), delimiter=";")
+                for r in leitor:
+                    if r.get("CNPJ_CIA", "").strip() != CNPJ:
+                        continue
+                    g = lambda k: (r.get(k) or "").strip()  # noqa: E731
+                    acoes.append({"tipo": tipo, "ano": ano, "DT_REFER": g("DT_REFER"), "VERSAO": g("VERSAO"),
+                                  "ON": g("QT_ACAO_ORDIN_CAP_INTEGR"), "PN": g("QT_ACAO_PREF_CAP_INTEGR"),
+                                  "TOTAL": g("QT_ACAO_TOTAL_CAP_INTEGR"), "ON_TESOURO": g("QT_ACAO_ORDIN_TESOURO"),
+                                  "PN_TESOURO": g("QT_ACAO_PREF_TESOURO"), "TOTAL_TESOURO": g("QT_ACAO_TOTAL_TESOURO")})
+        with open(os.path.join(pasta_raw, f"{tipo}_ACOES_{ano}.csv"), "w", encoding="utf-8", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=COLUNAS_ACOES)
+            w.writeheader()
+            w.writerows(acoes)
+        contagem["ações"] = len(acoes)
     log.append(f"- {tipo} {ano}: linhas da Vibra por demonstração: {contagem}")
 
 
@@ -157,7 +177,7 @@ def coletar(anos_forcados, completo, pasta_raw, log):
 def carregar_linhas(pasta_raw):
     brutas = []
     for nome in sorted(os.listdir(pasta_raw)):
-        if not nome.endswith(".csv"):
+        if not nome.endswith(".csv") or "_ACOES_" in nome:
             continue
         with open(os.path.join(pasta_raw, nome), encoding="utf-8", newline="") as f:
             brutas.extend(csv.DictReader(f))
@@ -165,22 +185,62 @@ def carregar_linhas(pasta_raw):
     for r in brutas:
         k = (r["tipo"], r["demo"], r["DT_REFER"])
         versao_max[k] = max(versao_max[k], int(r["VERSAO"] or 0))
-    linhas = []
+    linhas, comparativos = [], {}
     for r in brutas:
         k = (r["tipo"], r["demo"], r["DT_REFER"])
         if int(r["VERSAO"] or 0) != versao_max[k]:
             continue
         escala = {"MIL": 1e3, "UNIDADE": 1.0}.get(r["ESCALA_MOEDA"].strip().upper(), 1.0)
         ordem = r["ORDEM_EXERC"].upper()
-        linhas.append({
+        pen = "PEN" in ordem and "ANTE" not in ordem
+        item = {
             "tipo": r["tipo"], "demo": r["demo"], "ref": para_data(r["DT_REFER"]),
             "ini": para_data(r["DT_INI_EXERC"]) if r["DT_INI_EXERC"].strip() else None,
             "fim": para_data(r["DT_FIM_EXERC"]), "ultimo": "LTIMO" in ordem and "PEN" not in ordem,
             "cd": r["CD_CONTA"].strip(), "ds": r["DS_CONTA"].strip(),
             "fixa": r["ST_CONTA_FIXA"].strip().upper() == "S",
+            "col": (r.get("COLUNA_DF") or "").strip(),
             "val": para_numero(r["VL_CONTA"]) * escala / 1e6,
-        })
+        }
+        if item["ultimo"]:
+            linhas.append(item)
+        elif pen and item["demo"] not in ("DMPL",):
+            # comparativo do exercício anterior: só será usado onde não existe demonstração própria
+            chave = (item["demo"], item["ini"], item["fim"], item["cd"], item["col"])
+            if chave not in comparativos or comparativos[chave]["ref"] < item["ref"]:
+                comparativos[chave] = item
+    proprios = {(r["demo"], r["ini"], r["fim"]) for r in linhas}
+    for item in comparativos.values():
+        if (item["demo"], item["ini"], item["fim"]) in proprios:
+            continue
+        linhas.append({**item, "ref": item["fim"], "ultimo": True, "comparativo": True})
     return linhas
+
+
+def carregar_acoes(pasta_raw):
+    """Quantidade de ações por data de referência (DFP/ITR, arquivo composicao_capital)."""
+    por_data = {}
+    for nome in sorted(os.listdir(pasta_raw)):
+        if "_ACOES_" not in nome or not nome.endswith(".csv"):
+            continue
+        with open(os.path.join(pasta_raw, nome), encoding="utf-8", newline="") as f:
+            for r in csv.DictReader(f):
+                if not r["DT_REFER"]:
+                    continue
+                k = para_data(r["DT_REFER"])
+                v = int(r["VERSAO"] or 0)
+                if k in por_data and por_data[k][0] > v:
+                    continue
+                num = lambda c: float(r[c].replace(",", ".")) if r.get(c, "").strip() else None  # noqa: E731
+                tot = num("TOTAL")
+                if tot is None and num("ON") is not None:
+                    tot = (num("ON") or 0) + (num("PN") or 0)
+                tes = num("TOTAL_TESOURO")
+                if tes is None and num("ON_TESOURO") is not None:
+                    tes = (num("ON_TESOURO") or 0) + (num("PN_TESOURO") or 0)
+                por_data[k] = (v, {"total": tot, "tesouro": tes})
+    res = {rotulo(d): v for d, (_, v) in por_data.items() if v["total"]}
+    return {p: res[p] for p in sorted(res, key=ordem_periodo)}
 
 
 # ----------------------------------------------------------------------------- séries trimestrais
@@ -243,6 +303,24 @@ def serie_dfc(linhas, log):
     return res
 
 
+def serie_dmpl(linhas):
+    """Mutações do patrimônio líquido (acumulado do ano até cada data), por conta e coluna."""
+    cont = {}
+    for r in linhas:
+        if r["ultimo"] and r["fim"] == r["ref"] and r["ini"]:
+            cont[(rotulo(r["fim"]), r["cd"], r["col"])] = (r["ds"], r["val"])
+    periodos = sorted({k[0] for k in cont}, key=ordem_periodo)
+    colunas = sorted({k[2] for k in cont})
+    contas = {}
+    for (p, cd, col), (ds, v) in cont.items():
+        contas.setdefault(cd, ds)
+    return {"unidade": "R$ milhões", "observacao": "acumulado do ano até a data de referência",
+            "periodos": periodos, "colunas": colunas,
+            "contas": [{"cd_conta": cd, "conta": contas[cd]} for cd in sorted(contas, key=chave_conta)],
+            "valores": [[p, cd, col, round(v, 3)] for (p, cd, col), (ds, v) in sorted(
+                cont.items(), key=lambda x: (ordem_periodo(x[0][0]), chave_conta(x[0][1]), x[0][2]))]}
+
+
 def larga(series, desc):
     periodos = sorted(series, key=ordem_periodo)
     cds = sorted({cd for s in series.values() for cd in s}, key=chave_conta)
@@ -258,7 +336,7 @@ def larga(series, desc):
 
 
 # ----------------------------------------------------------------------------- conferências
-def conferir(dre, bp, dfc):
+def conferir(dre, bp, dfc, dva=None, dra=None):
     out = []
 
     def registrar(demo, teste, p, esperado, reportado):
@@ -303,6 +381,17 @@ def conferir(dre, bp, dfc):
     for a, b in zip(periodos_dfc, periodos_dfc[1:]):
         if ordem_periodo(b) == (ordem_periodo(a)[0] + (1 if a[0] == "4" else 0), 1 if a[0] == "4" else int(a[0]) + 1):
             registrar("Fluxo de caixa", f"Saldo final de {a} = saldo inicial de {b}", b, dfc[b].get(SALDO_INI), dfc[a].get(SALDO_FIM))
+    for p in sorted(dva or {}, key=ordem_periodo):
+        g = lambda cd: dva[p].get(cd)  # noqa: E731
+        registrar("DVA", "7.01 + 7.02 = 7.03 (valor adicionado bruto)", p, soma(dva, p, ["7.01", "7.02"]), g("7.03"))
+        registrar("DVA", "7.03 + 7.04 = 7.05 (valor adicionado líquido)", p, soma(dva, p, ["7.03", "7.04"]), g("7.05"))
+        registrar("DVA", "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)", p, soma(dva, p, ["7.05", "7.06"]), g("7.07"))
+        registrar("DVA", "7.08 (distribuição) = 7.07 (valor adicionado total)", p, g("7.08"), g("7.07"))
+    for p in sorted(dra or {}, key=ordem_periodo):
+        g = lambda cd: dra[p].get(cd)  # noqa: E731
+        registrar("DRA", "4.01 + 4.02 = 4.03 (resultado abrangente)", p, soma(dra, p, ["4.01", "4.02"]), g("4.03"))
+        if p in dre:
+            registrar("Cruzado", "Lucro da DRA (4.01) = lucro da DRE (3.11)", p, g("4.01"), dre[p].get("3.11"))
     series = {"dre": dre, "bp": bp, "dfc": dfc}
     for chave, por_conta in REFERENCIA_RELEASE.items():
         for cd, valores in por_conta.items():
@@ -333,17 +422,27 @@ def principal(args):
         dre = serie_dre(por("DRE"))
         bp = serie_bp(por("BPA", "BPP"))
         dfc = serie_dfc(por("DFC"), log)
+        dva = serie_dfc(por("DVA"), log)
+        dra = serie_dre(por("DRA"))
+        acoes = carregar_acoes(os.path.join(pasta_dados, "cvm_raw"))
+        n_comp = len({(r["demo"], r["fim"]) for r in linhas if r.get("comparativo")})
+        log.append(f"- Períodos completados por comparativos do ano seguinte (sem demonstração própria na CVM): {n_comp}")
         gravar_json(os.path.join(pasta_dados, "cvm_dre.json"), larga(dre, descricoes(por("DRE"))))
         gravar_json(os.path.join(pasta_dados, "cvm_balanco.json"), larga(bp, descricoes(por("BPA", "BPP"))))
         gravar_json(os.path.join(pasta_dados, "cvm_fluxo_caixa.json"), larga(dfc, descricoes(por("DFC"))))
-        testes = conferir(dre, bp, dfc)
+        gravar_json(os.path.join(pasta_dados, "cvm_dva.json"), larga(dva, descricoes(por("DVA"))))
+        gravar_json(os.path.join(pasta_dados, "cvm_dra.json"), larga(dra, descricoes(por("DRA"))))
+        gravar_json(os.path.join(pasta_dados, "cvm_dmpl.json"), serie_dmpl(por("DMPL")))
+        gravar_json(os.path.join(pasta_dados, "cvm_acoes.json"), {"unidade": "ações", "periodos": list(acoes), "valores": acoes})
+        testes = conferir(dre, bp, dfc, dva, dra)
         gravar_json(os.path.join(pasta_dados, "cvm_conferencias.json"), testes)
         div = [t for t in testes if t["status"] == "divergente"]
         sem = [t for t in testes if t["status"] == "sem dados"]
         status = {
             "gerado_em": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "periodos": {"dre": sorted(dre, key=ordem_periodo), "balanco": sorted(bp, key=ordem_periodo),
-                         "fluxo_caixa": sorted(dfc, key=ordem_periodo)},
+                         "fluxo_caixa": sorted(dfc, key=ordem_periodo), "dva": sorted(dva, key=ordem_periodo),
+                         "dra": sorted(dra, key=ordem_periodo), "acoes": list(acoes)},
             "testes": len(testes), "divergentes": len(div), "sem_dados": len(sem), "validado": not div,
         }
         gravar_json(os.path.join(pasta_dados, "cvm_status.json"), status)
