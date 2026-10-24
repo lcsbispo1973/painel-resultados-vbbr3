@@ -91,7 +91,7 @@
     var r = P.proventosAno ? P.proventosAno(S.a.ano) : null;
     if (!r || !ok(r.total)) return null;
     var parcial = r.ate[0] !== '4';
-    return frase([parcial ? 'De janeiro ao fim do ' + P.rotuloLongo({ ano: S.a.ano, tipo: r.ate.slice(0, 2) }) + ', ' : 'No exercício de ' + S.a.ano + ', ', b(P.fBi(r.total)), ' em dividendos e JCP declarados', parcial ? ' (registrados nas demonstrações até ' + r.ate + ')' : '', parcial ? '' : ok(r.payout) ? ' (' + P.f1(r.payout) + '% do lucro dos controladores)' : '', ok(r.dy) ? '; rendimento de ' + P.f1(r.dy) + '% sobre o valor de mercado no fim do ano.' : '.']);
+    return frase([parcial ? { '1T': 'No 1º trimestre de ', '2T': 'No 1º semestre de ', '3T': 'Nos 9 meses de ' }[r.ate.slice(0, 2)] + S.a.ano + ', ' : 'No exercício de ' + S.a.ano + ', ', b(P.fBi(r.total)), ' em dividendos e JCP declarados', parcial ? ' (registrados nas demonstrações até ' + r.ate + ')' : '', parcial ? '' : ok(r.payout) ? ' (' + P.f1(r.payout) + '% do lucro dos controladores)' : '', ok(r.dy) ? '; rendimento de ' + P.f1(r.dy) + '% sobre o valor de mercado no fim do ano.' : '.']);
   };
   H.governanca = function () {
     var s = P.D.freSeries; if (!s) return null;

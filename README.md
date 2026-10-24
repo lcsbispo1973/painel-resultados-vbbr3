@@ -39,7 +39,11 @@ manchete calculada a partir dos números da aba e do período escolhidos. O link
   do Formulário de Referência (PDF embutido no pacote da CVM; disponível de 2023 em diante).
 - **Formulário de Referência** (`pipeline/fre.py`), **cotações** (`pipeline/b3.py`, VBBR3/BRDT3 e BOVA11),
   **comunicados** (`pipeline/ipe.py`), **documentos** (`pipeline/documentos.py`).
-- **Proventos**: totais anuais da DMPL (automático); eventos por ação em `data/dividendos.json` (site de RI).
+- **Dívida líquida e alavancagem** (`pipeline/divida_release.py`): dívida líquida como a Companhia divulga no release
+  (dívida bruta + swap − disponibilidades); alavancagem = essa dívida ÷ EBITDA Ajustado de 12 meses da nota de segmentos.
+  A dívida líquida contábil (balanço) segue disponível como indicador à parte.
+- **Proventos**: totais anuais da DMPL (automático); eventos em `data/dividendos.json` (site de RI), com valor por ação
+  exato e data com conferidos pelos avisos arquivados na CVM (`pipeline/proventos.py` → `data/proventos.json`).
 
 ## Trava de publicação e alertas
 

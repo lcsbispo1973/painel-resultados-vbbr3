@@ -100,6 +100,18 @@ def main():
             if c.get("pais") is not None and c.get("exterior") is not None:
                 checa(abs(c["pais"] + c["exterior"] - c["total_consolidado"]) <= 2, f"dívida {p}: país + exterior ≠ total")
 
+    # Dívida líquida divulgada (releases): série contínua desde 4T17, valores positivos
+    dr = opcional("divida_release.json")
+    if dr:
+        ps = [p for p in dr.get("periodos", []) if ordem(p) >= ordem("4T17")]
+        for a, b in zip(ps, ps[1:]):
+            checa(ordem(b) == ordem(a) + 1, f"dívida líquida divulgada: falta trimestre entre {a} e {b}")
+        for p in ps:
+            v = dr["series"][p].get("v")
+            checa(v is not None and 0 < v < 100000, f"dívida líquida divulgada {p}: valor {v}")
+        if dre_per and ps and ordem(ps[-1]) < ordem(dre_per[-1]):
+            avisos.append(f"dívida líquida de {dre_per[-1]} ainda sem release lido (o painel usa o balanço até lá)")
+
     # Ipiranga
     ip = opcional("ipiranga.json")
     if ip:
@@ -125,7 +137,7 @@ def main():
                 avisos.append(f"cotações {nome}: último pregão em {datas[-1]}")
 
     # Proventos
-    pv = opcional("dividendos.json")
+    pv = opcional("proventos.json") or opcional("dividendos.json")
     if pv:
         for l in pv.get("linhas", []):
             if l.get("valor_acao") and l.get("valor_total"):

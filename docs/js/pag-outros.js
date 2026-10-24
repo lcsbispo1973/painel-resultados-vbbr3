@@ -206,15 +206,16 @@
 
   // ---------- carga ----------
   var ARQ = { dre: 'cvm_dre.json', bp: 'cvm_balanco.json', dfc: 'cvm_fluxo_caixa.json', dva: 'cvm_dva.json', dra: 'cvm_dra.json', dmpl: 'cvm_dmpl.json', acoes: 'cvm_acoes.json',
-    conf: 'cvm_conferencias.json', status: 'cvm_status.json', oper: 'release_operacional.json', aj: 'ebitda_ajustado.json', div: 'dividendos.json', freIndice: 'fre/indice.json', freSeries: 'fre_series.json',
-    b3: 'b3_cotacoes.json', ipe: 'ipe.json', ipiranga: 'ipiranga.json', divida: 'divida.json', reltxt: 'releases_texto.json', fre10: 'fre_item10.json', registro: 'registro.json', validacao: 'validacao.json' };
+    conf: 'cvm_conferencias.json', status: 'cvm_status.json', oper: 'release_operacional.json', aj: 'ebitda_ajustado.json', div: 'proventos.json', divRI: 'dividendos.json', freIndice: 'fre/indice.json', freSeries: 'fre_series.json',
+    b3: 'b3_cotacoes.json', ipe: 'ipe.json', ipiranga: 'ipiranga.json', divida: 'divida.json', reltxt: 'releases_texto.json', fre10: 'fre_item10.json', registro: 'registro.json', validacao: 'validacao.json', dlrel: 'divida_release.json' };
   var OBRIG = { dre: 1, bp: 1, dfc: 1, conf: 1, status: 1, aj: 1 };
   Promise.all(Object.keys(ARQ).map(function (k) {
     return fetch('data/' + ARQ[k], { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(ARQ[k] + ' (' + r.status + ')'); return r.json(); }).then(function (j) { P.D[k] = j; })
       .catch(function (e) { if (OBRIG[k]) throw e; });
   })).then(function () {
     var D = P.D;
-    P.M = Dados.criar({ dre: D.dre, bp: D.bp, dfc: D.dfc, dva: D.dva, dra: D.dra, acoes: D.acoes, b3: D.b3, aj: D.aj });
+    if (!D.div) D.div = D.divRI;   // proventos conferidos com os avisos da CVM; na falta, o site de RI
+    P.M = Dados.criar({ dre: D.dre, bp: D.bp, dfc: D.dfc, dva: D.dva, dra: D.dra, acoes: D.acoes, b3: D.b3, aj: D.aj, dlrel: D.dlrel });
     P.paginasConsulta(); P.paginasAnalise(); P.paginasMercado();
     P.registra('gov', 'Governança', paginaGovernanca(), false);
     if (D.ipe && D.ipe.documentos && D.ipe.documentos.length) P.registra('ipe', 'Comunicados', paginaIpe(), false);

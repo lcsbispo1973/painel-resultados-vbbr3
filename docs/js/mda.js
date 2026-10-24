@@ -115,8 +115,9 @@
 
     // 5. balanço
     secoes.push({ id: 'bal', titulo: 'Balanço, capital de giro e endividamento', paragrafos: [
-      'Ao fim do período, a dívida bruta (empréstimos, financiamentos e arrendamentos) era de ' + P.fMi(V.dbr[0]) + ' e a dívida líquida, de ' + varTxt(V.dliq[0], V.dliq[1]) + '.' +
-        (ok(V.alav[0]) ? ' A alavancagem medida por dívida líquida ÷ EBITDA Ajustado de 12 meses ficou em ' + varTxt(V.alav[0], V.alav[1], 'x') + '.' : ''),
+      'Ao fim do período, a dívida bruta (empréstimos, financiamentos e arrendamentos) era de ' + P.fMi(V.dbr[0]) + ' e a dívida líquida, conforme o release, de ' + varTxt(V.dliq[0], V.dliq[1]) + '.' +
+        (ok(V.alav[0]) ? ' A alavancagem medida por dívida líquida ÷ EBITDA Ajustado de 12 meses ficou em ' + varTxt(V.alav[0], V.alav[1], 'x') +
+          (function () { var r = window.P && P.D.dlrel && P.D.dlrel.series[A.p]; return r && ok(r.alav_divulgada) ? ' (a Companhia divulgou ' + P.f1(r.alav_divulgada) + 'x no release)' : ''; })() + '.' : ''),
       ok(V.ciclo[0]) ? 'No capital de giro (12 meses), o prazo médio de recebimento foi de ' + P.f1(V.pmr[0]) + ' dias, o de estocagem de ' + P.f1(V.pme[0]) + ' e o de pagamento de ' + P.f1(V.pmp[0]) + ', resultando em ciclo de caixa de ' + P.f1(V.ciclo[0]) + ' dias' + (ok(V.ciclo[1]) ? ' (' + P.f1(V.ciclo[1]) + ' no ' + lB + ')' : '') + '.' : null,
       'O patrimônio líquido consolidado somava ' + varTxt(V.pl[0], V.pl[1]) + '.'
     ].filter(Boolean), citacoes: cita('DIV', 1) });

@@ -30,7 +30,8 @@
   // retorno total (preço + proventos reinvestidos) da VBBR3 e do BOVA11, base 100
   function retornoTotal(desde) {
     var b3 = P.D.b3; if (!b3) return null;
-    var ev = ((P.D.div && P.D.div.linhas) || []).map(function (e) { return { d: e.data_ex, v: e.valor_acao }; }).filter(function (e) { return e.d && ok(e.v); }).sort(function (a, b) { return a.d < b.d ? -1 : 1; });
+    // provento entra no primeiro pregão depois da data com (quando o aviso da CVM não foi localizado, vale a data do site de RI)
+    var ev = ((P.D.div && P.D.div.linhas) || []).map(function (e) { return { d: e.data_com || e.data_ex, v: e.valor_acao }; }).filter(function (e) { return e.d && ok(e.v); }).sort(function (a, b) { return a.d < b.d ? -1 : 1; });
     var dias = b3.dias.filter(function (x) { return x[0] >= desde; }), out = [], idx = 100, k = 0;
     while (k < ev.length && ev[k].d < (dias[0] || [''])[0]) k++;
     for (var i = 0; i < dias.length; i++) {
@@ -77,7 +78,7 @@
         P.card('Retorno total desde o IPO (base 100)', 'VBBR3 com proventos reinvestidos na data ex (valores por ação do site de RI) × BOVA11 (ETF do Ibovespa). Fechamentos da B3.', cR)),
         h('div', { class: 'sec' }, h('h2', null, 'Proventos e payout por exercício')), h('div', { class: 'twrap' }, tb),
         h('div', { class: 'sec' }, h('h2', null, 'Retorno por ano')), h('div', { class: 'twrap' }, tbR),
-        h('div', { class: 'sec' }, h('h2', null, 'Eventos de proventos')), h('p', { class: 'note' }, 'Valores por ação e datas conforme o site de Relações com Investidores; avisos aos acionistas na aba Comunicados.'), h('div', { class: 'twrap' }, tbEv));
+        h('div', { class: 'sec' }, h('h2', null, 'Eventos de proventos')), h('p', { class: 'note' }, 'Eventos e valores totais do site de Relações com Investidores. Valor por ação (todas as casas) e data com conferidos com o aviso arquivado na CVM, quando localizado; * data informada no site de RI, sem aviso localizado.'), h('div', { class: 'twrap' }, tbEv));
       G.empilhado(cT, linhas.map(function (r) { return String(r.ano) + (r.ate[0] === '4' ? '' : '*'); }), [{ nome: 'JCP', vals: linhas.map(function (r) { return r.jcp; }) }, { nome: 'Dividendos', vals: linhas.map(function (r) { return r.dividendos; }) }], null, P.fN);
       P.tabela(tb, 'Exercício', ['Dividendos', 'JCP', 'Total', 'Lucro dos controladores', 'Payout', 'Rendimento s/ valor de mercado'], linhas.slice().reverse().map(function (r) {
         return { conta: String(r.ano) + (r.ate[0] === '4' ? '' : ' (até ' + r.ate + ')'), cel: [P.fN(r.dividendos), P.fN(r.jcp), P.fN(r.total), P.fN(r.lucro), P.fUn('%', r.payout), P.fUn('%', r.dy)] };
@@ -95,8 +96,13 @@
         });
         P.tabela(tbR, 'Ano', ['VBBR3 (retorno total)', 'BOVA11'], linR.reverse());
       }
-      var ev = ((P.D.div && P.D.div.linhas) || []).slice().sort(function (a, b) { return a.data_ex < b.data_ex ? 1 : -1; });
-      P.tabela(tbEv, 'Data com', ['Tipo', 'Exercício', 'Valor total (R$ mi)', 'Por ação (R$)', 'Pagamento'], ev.map(function (e) { return { conta: P.fData(e.data_ex), cel: [e.provento, String(e.referencia), P.fN(e.valor_total / 1e6), P.f2(e.valor_acao), P.fData(e.data_pagamento)] }; }));
+      var dc = function (e) { return e.data_com || e.data_ex; };
+      var ev = ((P.D.div && P.D.div.linhas) || []).slice().sort(function (a, b) { return dc(a) < dc(b) ? 1 : -1; });
+      var pa = function (v) { var s = String(v).split('.')[1] || ''; return s.length > 2 ? v.toFixed(5).replace('.', ',') : P.f2(v); };
+      P.tabela(tbEv, 'Data com', ['Tipo', 'Exercício', 'Valor total (R$ mi)', 'Por ação (R$)', 'Pagamento', 'Aviso'], ev.map(function (e) {
+        return { conta: P.fData(dc(e)) + (e.data_com ? '' : ' *'), cel: [e.provento, String(e.referencia), P.fN(e.valor_total / 1e6), pa(e.valor_acao), P.fData(e.data_pagamento),
+          e.aviso ? h('a', { href: e.aviso, target: '_blank', rel: 'noopener noreferrer' }, P.fData(e.aviso_data)) : '—'] };
+      }));
     }
     function ipiranga(el) {
       var x = P.x(S.a), lh = P.hist(x.base === 'T' ? 12 : 8), rs = lh.map(P.rotP), dest = { destaque: P.rotulo(S.a) };
@@ -130,8 +136,8 @@
       init: function (el) {
         ref.cr = P.chart('dv-cr'); ref.hist = P.chart('dv-hist'); ref.alav = P.chart('dv-alav'); ref.tb = h('table'); ref.rat = h('div'); ref.tit = h('h2');
         el.append(h('div', { class: 'grid' }, h('div', { class: 'card' }, ref.tit, h('p', { class: 'note' }, 'R$ milhões por ano de vencimento: financiamentos no país e no exterior (nota explicativa de empréstimos e financiamentos; não inclui arrendamentos).'), ref.cr),
-          P.card('Dívida bruta e líquida', 'R$ milhões, fim de cada período (balanço): empréstimos, financiamentos e arrendamentos; líquida de caixa e aplicações.', ref.hist),
-          P.card('Alavancagem', 'Dívida líquida ÷ EBITDA Ajustado dos últimos 12 meses.', ref.alav)),
+          P.card('Dívida bruta e líquida', 'R$ milhões, fim de cada período. Bruta: empréstimos, financiamentos e arrendamentos (balanço). Líquida: como divulgada no release (dívida bruta + swap − disponibilidades).', ref.hist),
+          P.card('Alavancagem', 'Dívida líquida divulgada ÷ EBITDA Ajustado dos últimos 12 meses (nota de segmentos). Linha preta: valor divulgado pela Companhia no release, com uma casa decimal.', ref.alav)),
           h('div', { class: 'sec' }, h('h2', null, 'Cronograma de vencimentos')), h('div', { class: 'twrap' }, ref.tb), ref.rat);
       },
       render: function () {
@@ -145,10 +151,12 @@
         }
         var lh = P.hist(x.base === 'T' ? 12 : 8), rs = lh.map(P.rotP);
         G.linhas(ref.hist, rs, [{ nome: 'Dívida bruta', vals: lh.map(function (q) { return P.M.ind('dbruta', q, x.base); }) }, { nome: 'Dívida líquida', vals: lh.map(function (q) { return P.M.ind('dliq', q, x.base); }) }], P.fN, { destaque: P.rotulo(S.a) });
-        G.linhas(ref.alav, rs, [{ nome: 'Dív. líq. ÷ EBITDA Aj.', vals: lh.map(function (q) { return P.M.ind('dlebitda', q, x.base); }) }], function (v) { return P.f2(v) + 'x'; }, { destaque: P.rotulo(S.a) });
+        var dr = P.D.dlrel && P.D.dlrel.series;
+        G.linhas(ref.alav, rs, [{ nome: 'Dív. líq. ÷ EBITDA Aj.', vals: lh.map(function (q) { return P.M.ind('dlebitda', q, x.base); }) },
+          { nome: 'Divulgada (release)', vals: lh.map(function (q) { return dr && dr[q] ? dr[q].alav_divulgada : null; }) }], function (v) { return P.f2(v) + 'x'; }, { destaque: P.rotulo(S.a) });
         ref.rat.replaceChildren();
         if (d && d.rating && d.rating.length) ref.rat.append(h('div', { class: 'sec' }, h('h2', null, 'Relatórios de agências de rating arquivados na CVM')),
-          h('ul', { class: 'lista-ipe' }, d.rating.slice(0, 8).map(function (r) { return h('li', null, h('span', { class: 'kl' }, P.fData(r.data)), h('br'), h('a', { href: r.link, target: '_blank', rel: 'noopener noreferrer' }, (r.documento || 'Relatório de rating').replace(/&amp;/g, '&'))); })));
+          h('ul', { class: 'lista-ipe' }, d.rating.slice(0, 8).map(function (r) { return h('li', null, h('span', { class: 'kl' }, P.fData(r.data)), h('br'), h('a', { href: r.link, target: '_blank', rel: 'noopener noreferrer' }, (r.documento || 'Relatório de rating').replace(/&amp;?/g, '&'))); })));
       },
       manchete: function () { return P.manchete.divida(); }
     };

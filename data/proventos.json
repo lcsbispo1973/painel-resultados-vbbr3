@@ -1,0 +1,304 @@
+{
+ "fonte": "Site de RI da Vibra, página Dividendos e JCP (consultada em 20/10/2026, carga manual); valores por ação e datas conferidos com os avisos arquivados na CVM quando disponíveis",
+ "linhas": [
+  {
+   "provento": "JSCP",
+   "referencia": 2026,
+   "data_ex": null,
+   "valor_total": 499407124.29,
+   "valor_acao": 0.41736421842,
+   "data_pagamento": "2027-11-16",
+   "data_com": "2026-09-21",
+   "aviso": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1558291&numSequencia=1082997&numVersao=1",
+   "aviso_data": "2026-08-14"
+  },
+  {
+   "provento": "JSCP",
+   "referencia": 2026,
+   "data_ex": "2026-06-23",
+   "valor_total": 558180232.04,
+   "valor_acao": 0.46662275758,
+   "data_pagamento": "2027-10-15",
+   "data_com": "2026-06-22",
+   "aviso": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1537230&numSequencia=1061936&numVersao=1",
+   "aviso_data": "2026-06-22"
+  },
+  {
+   "provento": "JSCP",
+   "referencia": 2026,
+   "data_ex": "2026-03-27",
+   "valor_total": 393537245.31,
+   "valor_acao": 0.33,
+   "data_pagamento": "2027-09-15",
+   "data_com": null
+  },
+  {
+   "provento": "JSCP",
+   "referencia": 2025,
+   "data_ex": "2025-11-26",
+   "valor_total": 850000000.0,
+   "valor_acao": 0.76,
+   "data_pagamento": "2026-12-16",
+   "data_com": null
+  },
+  {
+   "provento": "JSCP",
+   "referencia": 2025,
+   "data_ex": "2025-03-24",
+   "valor_total": 350000000.0,
+   "valor_acao": 0.31403898619,
+   "data_pagamento": "2026-02-27",
+   "data_com": "2025-03-21",
+   "aviso": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1338704&numSequencia=863430&numVersao=1",
+   "aviso_data": "2025-02-24"
+  },
+  {
+   "provento": "Dividendo",
+   "referencia": 2024,
+   "data_ex": "2025-04-17",
+   "valor_total": 561554971.51,
+   "valor_acao": 0.50435328748,
+   "data_pagamento": "2025-11-28",
+   "data_com": "2025-04-16",
+   "aviso": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1362115&numSequencia=886841&numVersao=1",
+   "aviso_data": "2025-04-16"
+  },
+  {
+   "provento": "JSCP",
+   "referencia": 2024,
+   "data_ex": "2024-12-26",
+   "valor_total": 292000000.0,
+   "valor_acao": 0.26199833017,
+   "data_pagamento": "2025-08-29",
+   "data_com": "2024-12-23",
+   "aviso": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1317683&numSequencia=842409&numVersao=2",
+   "aviso_data": "2024-12-19"
+  },
+  {
+   "provento": "JSCP",
+   "referencia": 2024,
+   "data_ex": null,
+   "valor_total": 262000000.0,
+   "valor_acao": 0.23499089814,
+   "data_pagamento": "2025-05-30",
+   "data_com": "2024-09-23",
+   "aviso": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1317683&numSequencia=842409&numVersao=2",
+   "aviso_data": "2024-12-19"
+  },
+  {
+   "provento": "JSCP",
+   "referencia": 2024,
+   "data_ex": null,
+   "valor_total": 520700033.81,
+   "valor_acao": 0.46684904167,
+   "data_pagamento": "2025-02-27",
+   "data_com": "2024-06-28",
+   "aviso": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1317683&numSequencia=842409&numVersao=2",
+   "aviso_data": "2024-12-19"
+  },
+  {
+   "provento": "Dividendo",
+   "referencia": 2023,
+   "data_ex": "2024-04-19",
+   "valor_total": 338080219.91,
+   "valor_acao": 0.30317400985,
+   "data_pagamento": "2024-11-29",
+   "data_com": "2024-04-18",
+   "aviso": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1223379&numSequencia=748105&numVersao=2",
+   "aviso_data": "2024-04-18"
+  },
+  {
+   "provento": "Dividendo",
+   "referencia": 2023,
+   "data_ex": "2024-04-19",
+   "valor_total": 338080219.91,
+   "valor_acao": 0.30317400985,
+   "data_pagamento": "2024-08-30",
+   "data_com": "2024-04-18",
+   "aviso": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1223379&numSequencia=748105&numVersao=2",
+   "aviso_data": "2024-04-18"
+  },
+  {
+   "provento": "JSCP",
+   "referencia": 2023,
+   "data_ex": "2023-12-23",
+   "valor_total": 450021090.24,
+   "valor_acao": 0.40362074704,
+   "data_pagamento": "2024-05-29",
+   "data_com": "2023-12-22",
+   "aviso": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1176070&numSequencia=700796&numVersao=2",
+   "aviso_data": "2023-12-20"
+  },
+  {
+   "provento": "JSCP",
+   "referencia": 2023,
+   "data_ex": "2023-09-22",
+   "valor_total": 478400000.0,
+   "valor_acao": 0.43,
+   "data_pagamento": "2024-02-29",
+   "data_com": null
+  },
+  {
+   "provento": "JSCP",
+   "referencia": 2022,
+   "data_ex": "2022-12-22",
+   "valor_total": 434993081.64,
+   "valor_acao": 0.39016209173,
+   "data_pagamento": "2023-02-28",
+   "data_com": "2022-12-21",
+   "aviso": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1042266&numSequencia=566996&numVersao=1",
+   "aviso_data": "2022-12-16"
+  },
+  {
+   "provento": "JSCP",
+   "referencia": 2022,
+   "data_ex": "2022-09-22",
+   "valor_total": 389000000.0,
+   "valor_acao": 0.34,
+   "data_pagamento": "2022-12-29",
+   "data_com": null
+  },
+  {
+   "provento": "Dividendo",
+   "referencia": 2021,
+   "data_ex": "2022-04-29",
+   "valor_total": 131849828.95,
+   "valor_acao": 0.117107099,
+   "data_pagamento": "2022-05-30",
+   "data_com": "2022-04-28",
+   "aviso": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=983209&numSequencia=507943&numVersao=1",
+   "aviso_data": "2022-05-18"
+  },
+  {
+   "provento": "JSCP",
+   "referencia": 2021,
+   "data_ex": "2021-12-14",
+   "valor_total": 148547535.44,
+   "valor_acao": 0.13,
+   "data_pagamento": "2021-12-23",
+   "data_com": null
+  },
+  {
+   "provento": "JSCP",
+   "referencia": 2021,
+   "data_ex": "2021-09-14",
+   "valor_total": 383277611.0,
+   "valor_acao": 0.33,
+   "data_pagamento": "2021-09-29",
+   "data_com": null
+  },
+  {
+   "provento": "Dividendo",
+   "referencia": 2020,
+   "data_ex": "2021-04-16",
+   "valor_total": 1107181533.88,
+   "valor_acao": 0.95037041535,
+   "data_pagamento": "2021-04-30",
+   "data_com": "2021-04-15",
+   "aviso": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=857542&numSequencia=382279&numVersao=2",
+   "aviso_data": "2021-04-26"
+  },
+  {
+   "provento": "Dividendo",
+   "referencia": 2020,
+   "data_ex": "2021-04-16",
+   "valor_total": 721735862.91,
+   "valor_acao": 0.61,
+   "data_pagamento": "2021-08-31",
+   "data_com": null
+  },
+  {
+   "provento": "JSCP",
+   "referencia": 2020,
+   "data_ex": "2020-12-22",
+   "valor_total": 498127018.06,
+   "valor_acao": 0.43,
+   "data_pagamento": "2021-01-12",
+   "data_com": null
+  },
+  {
+   "provento": "Dividendo",
+   "referencia": 2019,
+   "data_ex": "2020-07-31",
+   "valor_total": 547199374.6,
+   "valor_acao": 0.46,
+   "data_pagamento": "2020-09-30",
+   "data_com": null
+  },
+  {
+   "provento": "Dividendo",
+   "referencia": 2019,
+   "data_ex": null,
+   "valor_total": 49862435.84,
+   "valor_acao": 0.0428003741,
+   "data_pagamento": "2020-09-01",
+   "data_com": "2020-07-31",
+   "aviso": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=788149&numSequencia=312888&numVersao=2",
+   "aviso_data": "2020-08-27"
+  },
+  {
+   "provento": "JSCP",
+   "referencia": 2019,
+   "data_ex": null,
+   "valor_total": 551788020.41,
+   "valor_acao": 0.47363778576,
+   "data_pagamento": "2020-09-01",
+   "data_com": "2019-12-04",
+   "aviso": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=788149&numSequencia=312888&numVersao=2",
+   "aviso_data": "2020-08-27"
+  },
+  {
+   "provento": "Dividendo",
+   "referencia": 2018,
+   "data_ex": "2019-04-24",
+   "valor_total": 1544523867.35,
+   "valor_acao": 1.32,
+   "data_pagamento": "2019-10-29",
+   "data_com": null
+  },
+  {
+   "provento": "Dividendo",
+   "referencia": 2018,
+   "data_ex": null,
+   "valor_total": 1025932185.51,
+   "valor_acao": 0.88062848541,
+   "data_pagamento": "2019-05-31",
+   "data_com": "2019-04-24",
+   "aviso": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=692912&numSequencia=219528&numVersao=1",
+   "aviso_data": "2019-05-29"
+  },
+  {
+   "provento": "JSCP",
+   "referencia": 2018,
+   "data_ex": null,
+   "valor_total": 575291846.19,
+   "valor_acao": 0.49381274351,
+   "data_pagamento": "2019-04-30",
+   "data_com": "2018-12-11",
+   "aviso": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=683030&numSequencia=210816&numVersao=2",
+   "aviso_data": "2019-04-26"
+  },
+  {
+   "provento": "Dividendo",
+   "referencia": 2017,
+   "data_ex": null,
+   "valor_total": 433616632.99,
+   "valor_acao": 0.38850186764,
+   "data_pagamento": "2018-09-04",
+   "data_com": "2018-04-25",
+   "aviso": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=639500&numSequencia=172654&numVersao=1",
+   "aviso_data": "2018-08-29"
+  },
+  {
+   "provento": "JSCP",
+   "referencia": 2017,
+   "data_ex": null,
+   "valor_total": 658543589.77,
+   "valor_acao": 0.56527346761,
+   "data_pagamento": "2018-07-19",
+   "data_com": "2018-02-01",
+   "aviso": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=633282&numSequencia=167223&numVersao=1",
+   "aviso_data": "2018-07-18"
+  }
+ ]
+}

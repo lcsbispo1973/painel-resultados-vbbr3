@@ -43,6 +43,7 @@ def ler(texto):
         cols = ["%d" % a for a in anos] + (["%d+" % diante_ano] if diante_ano else [])
         pais = ext = total = None
         data_base = None
+        comps = []   # linhas "Em <data anterior>": comparativo do exercício anterior, mesmas colunas
         for l2 in L[ini_dados:ini_dados + 8]:
             l2 = re.sub(r"(?<=\s)[-–](?=\s|$)", "0", l2)   # "-" = sem vencimento no ano
             rot, ini = rotulo_e_inicio(l2)
@@ -53,11 +54,14 @@ def ler(texto):
                 pais = vs
             elif re.match(r"^financiamentos? (no )?exterior", rot, re.I):
                 ext = vs
-            elif total is None:
+            else:
                 m = re.match(r"^\s*em (\d{1,2}) de ([a-zç]+) de (\d{4})(\s{2,}.*)$", l2, re.I)
                 if m and m.group(2).lower() in MESES:
-                    data_base = dt.date(int(m.group(3)), MESES[m.group(2).lower()], int(m.group(1)))
-                    total = valores(m.group(4), 0, False)
+                    d0 = dt.date(int(m.group(3)), MESES[m.group(2).lower()], int(m.group(1)))
+                    if total is None:
+                        data_base, total = d0, valores(m.group(4), 0, False)
+                    else:
+                        comps.append((d0, valores(m.group(4), 0, False)))
         if not total or not data_base:
             continue
         n = len(cols)
@@ -70,6 +74,11 @@ def ler(texto):
         if pais and ext and len(pais) >= n + 1 and len(ext) >= n + 1:
             if abs(pais[n] + ext[n] - tot) <= 2:
                 out["pais"] = pais[n]; out["exterior"] = ext[n]
+        out["_comparativos"] = []
+        for d0, vs in comps:   # mesma trava: soma dos vencimentos = total
+            if d0 < data_base and len(vs) >= n + 1 and abs(sum(vs[:n]) - vs[n]) <= 2:
+                out["_comparativos"].append({"data_base": d0.isoformat(), "colunas": cols, "total": vs[:n], "total_consolidado": vs[n],
+                                             "pais": None, "exterior": None})
         return out, None
     return None, "tabela de vencimentos não encontrada"
 
@@ -78,7 +87,7 @@ def main():
     pasta = os.path.join(RAIZ, "data", "docs", "vibra_df")
     idx = json.load(open(os.path.join(pasta, "indice.json"), encoding="utf-8"))["documentos"]
     log = ["# Dívida — última execução", "", "Executado em %s UTC" % dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M"), ""]
-    serie = {}
+    serie, comp = {}, {}
     for d in sorted(idx, key=lambda x: x["data_entrega"]):
         p = os.path.join(pasta, d["arquivo"])
         if not os.path.exists(p):
@@ -89,7 +98,18 @@ def main():
         db = dt.date.fromisoformat(r["data_base"])
         per = "%dT%02d" % ((db.month - 1) // 3 + 1, db.year % 100)
         r["fonte"] = {"data": d["data_entrega"], "documento": d["assunto"] or d["tipo"], "link": d["link"]}
+        for c in r.pop("_comparativos", []):
+            c0 = dt.date.fromisoformat(c["data_base"])
+            pc = "%dT%02d" % ((c0.month - 1) // 3 + 1, c0.year % 100)
+            c["fonte"] = dict(r["fonte"], como="comparativo na nota de %s" % r["data_base"])
+            comp.setdefault(pc, c)   # o primeiro documento que traz o comparativo
         serie[per] = r
+    for pc, c in comp.items():
+        if pc not in serie:
+            serie[pc] = c
+            log.append("- %s: tabela própria não lida; usado o comparativo publicado em %s" % (pc, c["fonte"]["data"]))
+        elif abs(serie[pc]["total_consolidado"] - c["total_consolidado"]) > 2:
+            log.append("- %s: total %s; comparativo posterior %s (reapresentação)" % (pc, serie[pc]["total_consolidado"], c["total_consolidado"]))
     pers = sorted(serie, key=ord_t)
     rating = json.load(open(os.path.join(RAIZ, "data", "docs", "vibra_rating", "indice.json"), encoding="utf-8"))["documentos"] \
         if os.path.exists(os.path.join(RAIZ, "data", "docs", "vibra_rating", "indice.json")) else []

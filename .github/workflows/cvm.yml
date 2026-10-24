@@ -86,6 +86,8 @@ jobs:
           python pipeline/ebitda_df.py
           python pipeline/ipiranga.py
           python pipeline/divida.py
+          python pipeline/divida_release.py
+          python pipeline/proventos.py
           python pipeline/releases_texto.py
           python pipeline/fre_mda.py
           python -I tests/test_documentos.py

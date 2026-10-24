@@ -86,8 +86,9 @@ def main():
                 else:
                     conf.setdefault((col, nome), []).append((vs[k], d["data_entrega"]))
     # trimestres sem release próprio legível: comparativo publicado no release seguinte (marcado)
+    proprios = {p for p in serie}   # trimestres com release próprio: não se misturam bases (original × reapresentado)
     for (per, nome), outros in conf.items():
-        if per in serie and nome in serie[per]:
+        if per in proprios:
             continue
         v, dd = sorted(outros, key=lambda o: o[1])[0]
         serie.setdefault(per, {"_rotulo": "EBITDA Ajustado"})[nome] = {"v": v, "fonte": {"data": dd, "documento": "comparativo no release de %s" % dd, "link": None}, "comparativo": True}

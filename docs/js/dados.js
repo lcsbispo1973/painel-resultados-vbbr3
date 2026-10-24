@@ -159,7 +159,11 @@
       c.ebit = function (f) { f = f || c.t; return sub(f('dre', '3.05'), nz(f('dre', '3.04.06'))); };
       c.dbruta = function (k) { var a = c.b('2.01.04', k), b = c.b('2.02.01', k); return soma(a, b); };
       c.caixa = function (k) { var a = c.b('1.01.01', k); return ok(a) ? a + nz(c.b('1.01.02', k)) : null; };
-      c.dliq = function (k) { return sub(c.dbruta(k), c.caixa(k)); };
+      c.dliqc = function (k) { return sub(c.dbruta(k), c.caixa(k)); };   // pelo balanço (CVM)
+      c.dliq = function (k) {   // como a Companhia divulga no release; na falta, pelo balanço
+        var r = dados.dlrel && dados.dlrel.series && dados.dlrel.series[desloca(p, k || 0)];
+        return r && ok(r.v) ? r.v : c.dliqc(k);
+      };
       c.plc = function (k) { var pl = c.b('2.03', k); return ok(pl) ? pl - nz(c.b('2.03.09', k)) : null; };
       c.ncg = function (k) { var r = c.b('1.01.03', k), e = c.b('1.01.04', k), f = c.b('2.01.02', k); return ok(r) && ok(e) && ok(f) ? r + e - f : null; };
       return c;
@@ -196,8 +200,8 @@
     add(G.ren, 'roa', 'ROA (UDM)', '%', 'Lucro líquido consolidado UDM ÷ Ativo total médio', function (c) { return div(c.u('dre', '3.11'), c.bm('1')); }, NOTA_UDM);
     add(G.ren, 'roic', 'ROIC aproximado (UDM)', '%', 'EBIT (ex-equivalência) UDM × (1 − 34%) ÷ (dívida líquida + PL) médio', function (c) {
       var ebit = c.ebit(c.u), nopat = ok(ebit) ? ebit * (1 - 0.34) : null;
-      return div(nopat, media(soma(c.dliq(0), c.b('2.03', 0)), soma(c.dliq(4), c.b('2.03', 4))));
-    }, NOTA_UDM + ' Aproximação: alíquota nominal de IRPJ/CSLL de 34% e dívida líquida conforme definida abaixo.');
+      return div(nopat, media(soma(c.dliqc(0), c.b('2.03', 0)), soma(c.dliqc(4), c.b('2.03', 4))));
+    }, NOTA_UDM + ' Aproximação: alíquota nominal de IRPJ/CSLL de 34% e dívida líquida contábil (balanço).');
     add(G.ren, 'giro', 'Giro do ativo (UDM)', 'x', 'Receita UDM ÷ Ativo total médio', function (c) { return div(c.u('dre', '3.01'), c.bm('1')); }, NOTA_UDM);
     add(G.ren, 'alav', 'Alavancagem financeira (ativo ÷ PL)', 'x', 'Ativo total médio ÷ PL consolidado médio', function (c) { return div(c.bm('1'), c.bm('2.03')); }, 'DuPont: ROE ≈ margem líquida × giro × alavancagem (com lucro e PL consolidados).');
 
@@ -209,8 +213,9 @@
 
     add(G.end, 'dbruta', 'Dívida bruta', 'R$ mi', 'Empréstimos e financiamentos 2.01.04 + 2.02.01', function (c) { return c.dbruta(0); }, 'Na CVM essas contas incluem os passivos de arrendamento (financiamento por arrendamento). Não inclui instrumentos derivativos nem o financiamento de fornecimento de produtos (2.01.05.02.08).');
     add(G.end, 'caixa', 'Caixa e aplicações financeiras', 'R$ mi', '1.01.01 + 1.01.02', function (c) { return c.caixa(0); }, 'Não inclui caixa e aplicações restritas (1.01.08.03.05).');
-    add(G.end, 'dliq', 'Dívida líquida', 'R$ mi', 'Dívida bruta − caixa e aplicações', function (c) { return c.dliq(0); }, 'Definição contábil a partir da CVM. A dívida líquida do release pode diferir (por exemplo, tratamento de derivativos).');
-    add(G.end, 'dlebitda', 'Dívida líquida ÷ EBITDA Ajustado (UDM)', 'x', 'Dívida líquida ÷ EBITDA Ajustado dos últimos 12 meses', function (c) { var e = c.aj(true); return ok(e) && e > 0 ? div(c.dliq(0), e) : null; }, NOTA_UDM + ' Dívida líquida conforme este painel (inclui arrendamentos); pode diferir da alavancagem divulgada pela Companhia.');
+    add(G.end, 'dliq', 'Dívida líquida', 'R$ mi', 'Como divulgada pela Companhia no release: dívida bruta + swap − disponibilidades', function (c) { return c.dliq(0); }, 'Valor da linha "Dívida Líquida" do release de resultados do trimestre (disponibilidades incluem caixa restrito e títulos). Trimestres sem release: dívida bruta − caixa e aplicações do balanço.');
+    add(G.end, 'dliqc', 'Dívida líquida contábil', 'R$ mi', 'Dívida bruta − caixa e aplicações (balanço)', function (c) { return c.dliqc(0); }, 'Definição a partir das demonstrações (CVM): empréstimos, financiamentos e arrendamentos menos caixa e aplicações financeiras. Não considera swaps nem caixa restrito.');
+    add(G.end, 'dlebitda', 'Dívida líquida ÷ EBITDA Ajustado (UDM)', 'x', 'Dívida líquida divulgada ÷ EBITDA Ajustado dos últimos 12 meses', function (c) { var e = c.aj(true); return ok(e) && e > 0 ? div(c.dliq(0), e) : null; }, NOTA_UDM + ' Dívida líquida do release; EBITDA Ajustado da nota de segmentos (soma dos 4 trimestres). A Companhia divulga a alavancagem com uma casa decimal.');
     add(G.end, 'dlpl', 'Dívida líquida ÷ PL', 'x', 'Dívida líquida ÷ PL consolidado (2.03)', function (c) { return div(c.dliq(0), c.b('2.03')); }, NOTA_SALDO);
     add(G.end, 'dbpl', 'Dívida bruta ÷ PL', 'x', 'Dívida bruta ÷ PL consolidado (2.03)', function (c) { return div(c.dbruta(0), c.b('2.03')); }, NOTA_SALDO);
     add(G.end, 'passat', 'Passivo exigível ÷ ativo total', '%', '(2.01 + 2.02) ÷ 1', function (c) { return div(soma(c.b('2.01'), c.b('2.02')), c.b('1')); }, NOTA_SALDO);

@@ -6,7 +6,8 @@ const D = require(path.join(raiz, 'docs', 'js', 'dados.js'));
 const dre = ld('cvm_dre'), bp = ld('cvm_balanco'), dfc = ld('cvm_fluxo_caixa'), dva = ld('cvm_dva'), dra = ld('cvm_dra'), acoes = ld('cvm_acoes');
 const b3 = ld('b3_cotacoes');
 const aj = ld('ebitda_ajustado');
-const m = D.criar({ dre, bp, dfc, dva, dra, acoes, b3, aj });
+const dlrel = ld('divida_release');
+const m = D.criar({ dre, bp, dfc, dva, dra, acoes, b3, aj, dlrel });
 const ajv = (p) => aj.series[p].CONS.v;
 const g = (t, cd, p) => { const l = t.linhas.find(x => x.cd_conta === cd); return l ? l[p] : undefined; };
 const lab = (a, q) => q + 'T' + String(a).padStart(2, '0');
@@ -32,8 +33,12 @@ chk('mebitda', '2T26', 'T', 100 * 4499 / g(dre, '3.01', '2T26'));
 const plc = p => g(bp, '2.03', p) - g(bp, '2.03.09', p);
 chk('roe', '2T26', 'T', 100 * udm(dre, '3.11.01') / ((plc('2T26') + plc('2T25')) / 2));
 // dívida líquida e alavancagem
-const dliq = p => g(bp, '2.01.04', p) + g(bp, '2.02.01', p) - g(bp, '1.01.01', p) - (g(bp, '1.01.02', p) || 0);
-chk('dliq', '2T26', 'T', dliq('2T26'));
+const dliqc = p => g(bp, '2.01.04', p) + g(bp, '2.02.01', p) - g(bp, '1.01.01', p) - (g(bp, '1.01.02', p) || 0);
+const dliq = p => dlrel.series[p].v;
+assert.strictEqual(dliq('2T26'), 16062); n++;   // linha "Dívida Líquida" do release 2T26
+chk('dliqc', '2T26', 'T', dliqc('2T26'));
+chk('dliq', '2T26', 'T', 16062);
+chk('dliq', '1T26', 'T', 18615);
 chk('dlebitda', '2T26', 'T', dliq('2T26') / ps.reduce((s, p) => s + ajv(p), 0));
 // liquidez e ciclo
 chk('lcor', '2T26', 'T', g(bp, '1.01', '2T26') / g(bp, '2.01', '2T26'));

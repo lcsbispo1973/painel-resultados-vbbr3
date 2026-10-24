@@ -22,7 +22,7 @@ import ipe  # noqa: E402
 
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"}
 CNPJ_ULTRAPAR = "33.256.439/0001-39"
-RX_PROV = re.compile(r"dividend|juros sobre (o )?capital|jcp|provento|bonifica", re.I)
+RX_PROV = re.compile(r"dividend|juros sobre (o )?capital|jcp|provento|bonifica|remunera[çc][ãa]o aos acionistas", re.I)
 
 
 def baixar(url, tentativas=3):
@@ -172,7 +172,7 @@ def main():
     log = ["# Documentos — última execução", "", "Executado em %s UTC" % dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M"), ""]
     vibra = json.load(open(os.path.join(RAIZ, "data", "ipe.json"), encoding="utf-8"))["documentos"]
     coletar("vibra_df", [d for d in vibra if d["tipo"].startswith("Demonstrações Financeiras") and "Especiais" not in d["tipo"]], log, a.completo)
-    coletar("vibra_proventos", [d for d in vibra if d["categoria"] in ("Aviso aos Acionistas", "Comunicado ao Mercado", "Fato Relevante") and RX_PROV.search(d["assunto"] + " " + d["tipo"])], log, a.completo)
+    coletar("vibra_proventos", [d for d in vibra if d["categoria"] in ("Aviso aos Acionistas", "Comunicado ao Mercado", "Fato Relevante", "Reunião da Administração") and RX_PROV.search(d["assunto"] + " " + d["tipo"])], log, a.completo)
     coletar("vibra_rating", [d for d in vibra if "rating" in (d["tipo"] + " " + d["assunto"]).lower()], log, a.completo)
     ult = ipe_ultrapar(log)
     coletar("ultrapar_rel", [d for d in ult if d["tipo"] == "Press-release"], log, a.completo)

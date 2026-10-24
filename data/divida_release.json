@@ -1,0 +1,393 @@
+{
+ "fonte": "Releases de resultados da Vibra (IPE da CVM), linha Dívida Líquida",
+ "unidade": "R$ milhões",
+ "atualizado_em": "2026-10-24T19:22:52Z",
+ "periodos": [
+  "4T16",
+  "1T17",
+  "2T17",
+  "4T17",
+  "1T18",
+  "2T18",
+  "3T18",
+  "4T18",
+  "1T19",
+  "2T19",
+  "3T19",
+  "4T19",
+  "1T20",
+  "2T20",
+  "3T20",
+  "4T20",
+  "1T21",
+  "2T21",
+  "3T21",
+  "4T21",
+  "1T22",
+  "2T22",
+  "3T22",
+  "4T22",
+  "1T23",
+  "2T23",
+  "3T23",
+  "4T23",
+  "1T24",
+  "2T24",
+  "3T24",
+  "4T24",
+  "1T25",
+  "2T25",
+  "3T25",
+  "4T25",
+  "1T26",
+  "2T26"
+ ],
+ "series": {
+  "4T16": {
+   "v": 9509.0,
+   "alav_divulgada": null,
+   "fonte": {
+    "data": "2018-03-13",
+    "documento": "Divulgação de Resultados do 4T 2017 e 2017.",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=600989&numSequencia=143785&numVersao=2",
+    "como": "comparativo"
+   }
+  },
+  "1T17": {
+   "v": 9175.0,
+   "alav_divulgada": null,
+   "fonte": {
+    "data": "2018-05-04",
+    "documento": "Earning Release - English||Earning Release - Português",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=619966&numSequencia=156697&numVersao=1",
+    "como": "comparativo"
+   }
+  },
+  "2T17": {
+   "v": 3418.0,
+   "alav_divulgada": null,
+   "fonte": {
+    "data": "2018-08-01",
+    "documento": "Release de Resultados 2T2018",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=634929&numSequencia=168666&numVersao=1",
+    "como": "comparativo"
+   }
+  },
+  "4T17": {
+   "v": 3885.0,
+   "alav_divulgada": 1.3,
+   "fonte": {
+    "data": "2018-03-13",
+    "documento": "Divulgação de Resultados do 4T 2017 e 2017.",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=600989&numSequencia=143785&numVersao=2"
+   }
+  },
+  "1T18": {
+   "v": 3418.0,
+   "alav_divulgada": 1.1,
+   "fonte": {
+    "data": "2018-05-04",
+    "documento": "Earning Release - English||Earning Release - Português",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=619966&numSequencia=156697&numVersao=1"
+   }
+  },
+  "2T18": {
+   "v": 3220.0,
+   "alav_divulgada": 1.0,
+   "fonte": {
+    "data": "2018-08-01",
+    "documento": "Release de Resultados 2T2018",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=634929&numSequencia=168666&numVersao=1"
+   }
+  },
+  "3T18": {
+   "v": 4232.0,
+   "alav_divulgada": null,
+   "fonte": {
+    "data": "2019-11-12",
+    "documento": "Release de Resultados 3T19",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=720845&numSequencia=245667&numVersao=2",
+    "como": "comparativo"
+   }
+  },
+  "4T18": {
+   "v": 2356.0,
+   "alav_divulgada": 0.9,
+   "fonte": {
+    "data": "2019-02-26",
+    "documento": "Release de resultados 4T2018",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=667487&numSequencia=197124&numVersao=1"
+   }
+  },
+  "1T19": {
+   "v": 2376.0,
+   "alav_divulgada": 0.9,
+   "fonte": {
+    "data": "2019-05-07",
+    "documento": "Release de resultados 1T2019",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=687927&numSequencia=214887&numVersao=2"
+   }
+  },
+  "2T19": {
+   "v": 4091.0,
+   "alav_divulgada": 1.5,
+   "fonte": {
+    "data": "2019-07-31",
+    "documento": "Release de Resultados 2T19",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=703001&numSequencia=228894&numVersao=1"
+   }
+  },
+  "3T19": {
+   "v": 2311.0,
+   "alav_divulgada": 0.8,
+   "fonte": {
+    "data": "2019-11-12",
+    "documento": "Release de Resultados 3T19",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=720845&numSequencia=245667&numVersao=2"
+   }
+  },
+  "4T19": {
+   "v": 4413.0,
+   "alav_divulgada": 1.4,
+   "fonte": {
+    "data": "2020-03-11",
+    "documento": "Release de Resultados 4T19",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=745123&numSequencia=269894&numVersao=1"
+   }
+  },
+  "1T20": {
+   "v": 3923.0,
+   "alav_divulgada": 1.4,
+   "fonte": {
+    "data": "2020-06-10",
+    "documento": "Release de Resultados 1T20",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=768236&numSequencia=292986&numVersao=1"
+   }
+  },
+  "2T20": {
+   "v": 3282.0,
+   "alav_divulgada": 1.0,
+   "fonte": {
+    "data": "2020-08-11",
+    "documento": "Release de Resultados 2T20",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=783724&numSequencia=308465&numVersao=1"
+   }
+  },
+  "3T20": {
+   "v": 4082.0,
+   "alav_divulgada": 1.3,
+   "fonte": {
+    "data": "2020-11-10",
+    "documento": "Release de Resultados 3T20",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=807295&numSequencia=332033&numVersao=1"
+   }
+  },
+  "4T20": {
+   "v": 4691.0,
+   "alav_divulgada": 1.2,
+   "fonte": {
+    "data": "2021-03-11",
+    "documento": "Release de Resultados 4T20",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=841450&numSequencia=366188&numVersao=1"
+   }
+  },
+  "1T21": {
+   "v": 5134.0,
+   "alav_divulgada": 1.2,
+   "fonte": {
+    "data": "2021-05-12",
+    "documento": "Release de Resultados do 1T21",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=866381&numSequencia=391118&numVersao=2"
+   }
+  },
+  "2T21": {
+   "v": 6634.0,
+   "alav_divulgada": 1.4,
+   "fonte": {
+    "data": "2021-08-10",
+    "documento": "Release de Resultados 2T21",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=891644&numSequencia=416380&numVersao=1"
+   }
+  },
+  "3T21": {
+   "v": 8180.0,
+   "alav_divulgada": 1.6,
+   "fonte": {
+    "data": "2021-11-15",
+    "documento": "Release de Resultados 3T21",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=917256&numSequencia=441990&numVersao=1"
+   }
+  },
+  "4T21": {
+   "v": 10111.0,
+   "alav_divulgada": 2.0,
+   "fonte": {
+    "data": "2022-03-28",
+    "documento": "Release de Resultados 4T21",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=959490&numSequencia=484224&numVersao=2"
+   }
+  },
+  "1T22": {
+   "v": 10215.0,
+   "alav_divulgada": 2.1,
+   "fonte": {
+    "data": "2022-05-16",
+    "documento": "Release de resultados 1T22",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=982147&numSequencia=506881&numVersao=1"
+   }
+  },
+  "2T22": {
+   "v": 13295.0,
+   "alav_divulgada": 2.4,
+   "fonte": {
+    "data": "2022-08-16",
+    "documento": "Release 2T22",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1008626&numSequencia=533360&numVersao=3"
+   }
+  },
+  "3T22": {
+   "v": 14744.0,
+   "alav_divulgada": 2.8,
+   "fonte": {
+    "data": "2022-11-10",
+    "documento": "Release de Resultados 3T22",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1031679&numSequencia=556409&numVersao=1"
+   }
+  },
+  "4T22": {
+   "v": 13729.0,
+   "alav_divulgada": 2.6,
+   "fonte": {
+    "data": "2023-03-21",
+    "documento": "Release de Resultados 4T22",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1075467&numSequencia=600197&numVersao=1"
+   }
+  },
+  "1T23": {
+   "v": 12567.0,
+   "alav_divulgada": 2.7,
+   "fonte": {
+    "data": "2023-05-12",
+    "documento": "Release 1T23",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1101673&numSequencia=626402&numVersao=1"
+   }
+  },
+  "2T23": {
+   "v": 12197.0,
+   "alav_divulgada": 3.0,
+   "fonte": {
+    "data": "2023-08-14",
+    "documento": "Release 2T23",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1133801&numSequencia=658530&numVersao=1"
+   }
+  },
+  "3T23": {
+   "v": 10167.0,
+   "alav_divulgada": 1.9,
+   "fonte": {
+    "data": "2023-11-06",
+    "documento": "Release de Resultado 3T23",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1158403&numSequencia=683129&numVersao=2"
+   }
+  },
+  "4T23": {
+   "v": 9496.0,
+   "alav_divulgada": 1.1,
+   "fonte": {
+    "data": "2024-03-05",
+    "documento": "Release de Resultados 4T23",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1203060&numSequencia=727786&numVersao=2"
+   }
+  },
+  "1T24": {
+   "v": 10651.0,
+   "alav_divulgada": 1.1,
+   "fonte": {
+    "data": "2024-05-08",
+    "documento": "Release de Resultados 1T24",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1234947&numSequencia=759673&numVersao=2"
+   }
+  },
+  "2T24": {
+   "v": 10423.0,
+   "alav_divulgada": 1.0,
+   "fonte": {
+    "data": "2024-08-06",
+    "documento": "Release 2T24",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1267638&numSequencia=792364&numVersao=2"
+   }
+  },
+  "3T24": {
+   "v": 9301.0,
+   "alav_divulgada": 0.6,
+   "fonte": {
+    "data": "2024-11-05",
+    "documento": "Release Resultados 3T24",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1298602&numSequencia=823328&numVersao=1"
+   }
+  },
+  "4T24": {
+   "v": 9454.0,
+   "alav_divulgada": 0.9,
+   "fonte": {
+    "data": "2025-02-24",
+    "documento": "Release de Resultados 4T24",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1338775&numSequencia=863501&numVersao=1"
+   }
+  },
+  "1T25": {
+   "v": 20546.0,
+   "alav_divulgada": 1.8,
+   "fonte": {
+    "data": "2025-05-07",
+    "documento": "Release 1T25",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1373186&numSequencia=897898&numVersao=2"
+   }
+  },
+  "2T25": {
+   "v": 21005.0,
+   "alav_divulgada": 1.8,
+   "fonte": {
+    "data": "2025-08-11",
+    "documento": "Release Resultados 2T25",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1411618&numSequencia=936330&numVersao=1"
+   }
+  },
+  "3T25": {
+   "v": 18750.0,
+   "alav_divulgada": 2.7,
+   "fonte": {
+    "data": "2025-11-05",
+    "documento": "Release de Resultado",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1440446&numSequencia=965158&numVersao=1"
+   }
+  },
+  "4T25": {
+   "v": 19189.0,
+   "alav_divulgada": 2.4,
+   "fonte": {
+    "data": "2026-03-11",
+    "documento": "Release de Resultados 4T25",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1489227&numSequencia=1013933&numVersao=1"
+   }
+  },
+  "1T26": {
+   "v": 18615.0,
+   "alav_divulgada": 2.0,
+   "fonte": {
+    "data": "2026-05-06",
+    "documento": "Release de Resultados 1T26",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1517228&numSequencia=1041934&numVersao=1"
+   }
+  },
+  "2T26": {
+   "v": 16062.0,
+   "alav_divulgada": 1.3,
+   "fonte": {
+    "data": "2026-08-14",
+    "documento": "Release 2T26",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1558260&numSequencia=1082966&numVersao=1"
+   }
+  }
+ }
+}
