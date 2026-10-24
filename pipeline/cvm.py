@@ -36,14 +36,22 @@ SALDO_INI, SALDO_FIM = "6.05.01", "6.05.02"
 # Valores já conferidos nos releases de resultados (R$ milhões), usados só como teste cruzado.
 REFERENCIA_RELEASE = {
     "dre": {
-        "3.01": {"3T24": 46271, "4T24": 44293, "1T25": 44906, "3T25": 48423, "4T25": 50318, "1T26": 48100},
-        "3.11": {"3T24": 4201, "4T24": 510, "1T25": 601, "3T25": 407, "4T25": 679, "1T26": 1613},
+        # Na CVM a conta 3.01 inclui a marcação a mercado do trading de energia, que o release mostra em linha separada.
+        # Valor esperado = receita do release + marcação a mercado (1T25: 44.906 - 47; 3T25: 48.423 - 78; 4T25: 50.318 + 8; 1T26: 48.100 - 96).
+        "3.01": {"3T24": 46271, "4T24": 44293, "1T25": 44859, "3T25": 48345, "4T25": 50326, "1T26": 48004},
+        "3.11": {"3T24": 4201, "4T24": 510, "1T25": 601, "2T25": 292, "3T25": 407, "4T25": 679, "1T26": 1613},
     },
     "bp": {
         "1": {"4T24": 49000, "1T25": 62234, "3T25": 60987, "4T25": 60963, "1T26": 64225},
         "1.01.01": {"4T24": 10480, "1T25": 5473, "3T25": 5936, "4T25": 3647, "1T26": 5107},
     },
+    "dfc": {
+        # Fluxo de caixa operacional (6.01) do release = DFC da CVM, exceto 1T26 (diferença conhecida de 738, ver README).
+        "6.01": {"1T25": 945, "2T25": 808, "3T25": 3508, "4T25": 1405},
+        "6.02": {"1T25": -3379, "2T25": -259, "3T25": -274, "4T25": -230, "1T26": -174},
+    },
 }
+NOME_DEMO = {"dre": "DRE", "bp": "Balanço", "dfc": "Fluxo de caixa"}
 
 
 # ----------------------------------------------------------------------------- utilidades
@@ -295,11 +303,11 @@ def conferir(dre, bp, dfc):
     for a, b in zip(periodos_dfc, periodos_dfc[1:]):
         if ordem_periodo(b) == (ordem_periodo(a)[0] + (1 if a[0] == "4" else 0), 1 if a[0] == "4" else int(a[0]) + 1):
             registrar("Fluxo de caixa", f"Saldo final de {a} = saldo inicial de {b}", b, dfc[b].get(SALDO_INI), dfc[a].get(SALDO_FIM))
-    series = {"dre": dre, "bp": bp}
+    series = {"dre": dre, "bp": bp, "dfc": dfc}
     for chave, por_conta in REFERENCIA_RELEASE.items():
         for cd, valores in por_conta.items():
             for p, ref in valores.items():
-                registrar("Release", f"{'DRE' if chave == 'dre' else 'Balanço'} {cd} da CVM = valor do release", p, series[chave].get(p, {}).get(cd), ref)
+                registrar("Release", f"{NOME_DEMO[chave]} {cd} da CVM = valor do release", p, series[chave].get(p, {}).get(cd), ref)
     return out
 
 

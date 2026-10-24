@@ -14,6 +14,15 @@ Todas as informações são públicas. Valores em R$ milhões, consolidado.
 - `.github/workflows/cvm.yml`: executa diariamente e a cada alteração do pipeline.
 - `data/cvm_*.json`: séries geradas. `logs/cvm-ultima-execucao.md`: resultado da última execução.
 
+## Observações sobre as fontes
+
+- **Receita:** a conta 3.01 da CVM inclui a marcação a mercado do trading de energia; o release mostra a receita e a
+  marcação a mercado em linhas separadas. As diferenças de 1T25, 3T25, 4T25 e 1T26 são exatamente essa linha.
+- **Fluxo de caixa operacional do 1T26:** CVM (DFC) = 2.641; release = 1.903. A diferença, 738, é igual ao saldo de
+  "Financiamento de fornecimento de produtos" no balanço de 31/03/2026. O fluxo de caixa total do período fecha nas duas
+  fontes (variação de 1.460); o motivo da classificação diferente não foi confirmado nas notas explicativas.
+- Os períodos de 1T25 a 4T25 do fluxo operacional coincidem com o release.
+
 ## Em construção
 
 - EBITDA Ajustado por segmento e demais indicadores gerenciais (release do RI).
