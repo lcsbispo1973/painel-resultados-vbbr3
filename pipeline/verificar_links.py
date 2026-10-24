@@ -51,34 +51,42 @@ def coletar():
     return links
 
 
+def abre(alvo):
+    with urllib.request.urlopen(urllib.request.Request(alvo, headers=UA), timeout=60) as r:
+        ini = r.read(6000)
+        ct = (r.headers.get("Content-Type") or "").lower()
+        if ini[:4] == b"%PDF" or ini[:2] == b"PK" or ini[:5] == b"<?xml" or "pdf" in ct or "zip" in ct or "octet" in ct or "excel" in ct:
+            return "documento", None
+        ini += r.read(200000)
+    txt = ini.decode("utf-8", "ignore")
+    corpo = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", re.sub(r"(?is)<(script|style).*?</\1>", " ", txt))).strip()
+    if ERRO_CVM.search(corpo):
+        return "erro", corpo[:160]
+    return "pagina", corpo[:160]
+
+
 def testa(url):
+    """Abre o link. Se a CVM devolver a página intermediária vazia, tenta de novo (ela costuma entregar o arquivo depois)."""
     alvo = url.replace("http://", "https://", 1)
-    ultimo = None
-    for tentativa in range(3):
+    ultimo, paginas = None, 0
+    for tentativa in range(4):
         try:
-            with urllib.request.urlopen(urllib.request.Request(alvo, headers=UA), timeout=60) as r:
-                ini = r.read(6000)
-                ct = (r.headers.get("Content-Type") or "").lower()
-                if ini[:4] == b"%PDF" or ini[:2] == b"PK" or ini[:5] == b"<?xml" or "pdf" in ct or "zip" in ct or "octet" in ct or "excel" in ct:
-                    return "ok", "documento"
-                ini += r.read(200000)   # página: lê o corpo inteiro para achar mensagens de erro
-                txt = ini.decode("utf-8", "ignore")
-                if ERRO_CVM.search(re.sub(r"<[^>]+>", " ", re.sub(r"(?is)<(script|style).*?</\1>", " ", txt))):
-                    return "quebrado", "página de erro da CVM"
-                tit = re.search(r"<title[^>]*>(.*?)</title>", txt, re.I | re.S)
-                corpo = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", re.sub(r"(?is)<(script|style).*?</\1>", " ", txt))).strip()
-                if not os.path.exists(os.path.join(RAIZ, "logs", "links_exemplo.html")):
-                    os.makedirs(os.path.join(RAIZ, "logs"), exist_ok=True)
-                    open(os.path.join(RAIZ, "logs", "links_exemplo.html"), "w", encoding="utf-8").write("<!-- " + url + " -->\n" + txt)
-                AMOSTRAS[url] = ((tit.group(1).strip() if tit else "") + " | " + corpo[:160])[:220]
-                return "ok", "página"
+            tipo, info = abre(alvo)
+            if tipo == "documento":
+                return "ok", "documento" if paginas == 0 else "documento após nova tentativa"
+            if tipo == "erro":
+                return "quebrado", "página de erro da CVM: " + info
+            paginas += 1
+            AMOSTRAS[url] = info
         except urllib.error.HTTPError as e:
             ultimo = "HTTP %d" % e.code
             if e.code in (404, 410):
                 break
         except Exception as e:  # noqa: BLE001
             ultimo = type(e).__name__
-        time.sleep(3 * (tentativa + 1))
+        time.sleep(4 * (tentativa + 1))
+    if paginas:
+        return "ok", "página da CVM sem o arquivo (persistente)"
     return "quebrado", ultimo or "falha"
 
 
@@ -95,7 +103,7 @@ def main():
     for s_, m in res.values():
         if s_ == "ok":
             tipos[m] = tipos.get(m, 0) + 1
-    paginas = sorted(u for u, (s_, m) in res.items() if s_ == "ok" and m == "página")
+    paginas = sorted(u for u, (s_, m) in res.items() if s_ == "ok" and m.startswith("página"))
     grupos = {}
     for u in paginas:
         grupos.setdefault(AMOSTRAS.get(u, ""), []).append(u)
