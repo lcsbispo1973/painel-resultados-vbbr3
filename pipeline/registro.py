@@ -140,7 +140,8 @@ def main():
                     f.write(f"  {v['detalhe']}\n")
                 if v["link"]:
                     f.write(f"  [Documento na CVM]({v['link']})\n")
-            f.write("\nPainel: https://lcsbispo1973.github.io/painel-resultados-vbbr3/\n")
+            dono, _, nome = os.environ.get("GITHUB_REPOSITORY", "lcsbispo1973/vibraemnumeros").partition("/")
+            f.write("\nPainel: https://%s.github.io/%s/\n" % (dono, nome))   # acompanha o nome do repositório
     print(f"registro: {len(novos)} novidade(s)" + (" (histórico inicial, sem alerta)" if primeira else ""))
     return 0
 
