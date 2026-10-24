@@ -1,0 +1,425 @@
+tipo,demo,ano,DT_REFER,VERSAO,ESCALA_MOEDA,ORDEM_EXERC,DT_INI_EXERC,DT_FIM_EXERC,CD_CONTA,DS_CONTA,VL_CONTA,ST_CONTA_FIXA,COLUNA_DF
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.01,Saldos Iniciais,6352000.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.01,Saldos Iniciais,6352000.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.01,Saldos Iniciais,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.01,Saldos Iniciais,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.01,Saldos Iniciais,3045000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.01,Saldos Iniciais,3897000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.01,Saldos Iniciais,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.01,Saldos Iniciais,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.01,Saldos Iniciais,-1987000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.01,Saldos Iniciais,-1423000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.01,Saldos Iniciais,7410000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.01,Saldos Iniciais,8826000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.01,Saldos Iniciais,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.01,Saldos Iniciais,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.01,Saldos Iniciais,7410000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.01,Saldos Iniciais,8826000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.02,Ajustes de Exercícios Anteriores,-177000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.02,Ajustes de Exercícios Anteriores,-177000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.02,Ajustes de Exercícios Anteriores,-177000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.03,Saldos Iniciais Ajustados,6352000.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.03,Saldos Iniciais Ajustados,6352000.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.03,Saldos Iniciais Ajustados,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.03,Saldos Iniciais Ajustados,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.03,Saldos Iniciais Ajustados,3045000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.03,Saldos Iniciais Ajustados,3897000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.03,Saldos Iniciais Ajustados,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.03,Saldos Iniciais Ajustados,-177000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.03,Saldos Iniciais Ajustados,-1987000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.03,Saldos Iniciais Ajustados,-1423000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.03,Saldos Iniciais Ajustados,7410000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.03,Saldos Iniciais Ajustados,8649000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.03,Saldos Iniciais Ajustados,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.03,Saldos Iniciais Ajustados,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.03,Saldos Iniciais Ajustados,7410000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.03,Saldos Iniciais Ajustados,8649000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04,Transações de Capital com os Sócios,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04,Transações de Capital com os Sócios,1000.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04,Transações de Capital com os Sócios,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04,Transações de Capital com os Sócios,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04,Transações de Capital com os Sócios,819000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04,Transações de Capital com os Sócios,1379000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04,Transações de Capital com os Sócios,-1118000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04,Transações de Capital com os Sócios,-3033000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04,Transações de Capital com os Sócios,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04,Transações de Capital com os Sócios,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04,Transações de Capital com os Sócios,-299000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04,Transações de Capital com os Sócios,-1653000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04,Transações de Capital com os Sócios,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04,Transações de Capital com os Sócios,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04,Transações de Capital com os Sócios,-299000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04,Transações de Capital com os Sócios,-1653000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.01,Aumentos de Capital,6313000.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.01,Aumentos de Capital,1000.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.01,Aumentos de Capital,-1000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.01,Aumentos de Capital,6313000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.01,Aumentos de Capital,6313000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.06,Dividendos,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.06,Dividendos,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.06,Dividendos,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.06,Dividendos,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.06,Dividendos,433000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.06,Dividendos,1766000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.06,Dividendos,-433000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.06,Dividendos,-2469000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.06,Dividendos,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.06,Dividendos,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.06,Dividendos,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.06,Dividendos,-703000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.06,Dividendos,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.06,Dividendos,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.06,Dividendos,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.06,Dividendos,-703000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.07,Juros sobre Capital Próprio,386000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.07,Juros sobre Capital Próprio,-386000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.07,Juros sobre Capital Próprio,-659000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.07,Juros sobre Capital Próprio,-564000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.07,Juros sobre Capital Próprio,-273000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.07,Juros sobre Capital Próprio,-950000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.07,Juros sobre Capital Próprio,-273000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.04.07,Juros sobre Capital Próprio,-950000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.08,Cisão,-6313000.0000000000,N,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.08,Cisão,0.0000000000,N,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.08,Cisão,0.0000000000,N,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.08,Cisão,-26000.0000000000,N,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.08,Cisão,0.0000000000,N,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.08,Cisão,-6339000.0000000000,N,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.08,Cisão,0.0000000000,N,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.04.08,Cisão,-6339000.0000000000,N,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05,Resultado Abrangente Total,1151000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05,Resultado Abrangente Total,3193000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05,Resultado Abrangente Total,564000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05,Resultado Abrangente Total,-503000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05,Resultado Abrangente Total,1715000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05,Resultado Abrangente Total,2690000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05,Resultado Abrangente Total,1715000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05,Resultado Abrangente Total,2690000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.01,Lucro Líquido do Período,1151000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.01,Lucro Líquido do Período,3193000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.01,Lucro Líquido do Período,1151000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.01,Lucro Líquido do Período,3193000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.01,Lucro Líquido do Período,1151000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.01,Lucro Líquido do Período,3193000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02,Outros Resultados Abrangentes,564000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02,Outros Resultados Abrangentes,-503000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02,Outros Resultados Abrangentes,564000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02,Outros Resultados Abrangentes,-503000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02,Outros Resultados Abrangentes,564000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02,Outros Resultados Abrangentes,-503000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06,Mutações Internas do Patrimônio Líquido,33000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06,Mutações Internas do Patrimônio Líquido,-17000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06,Mutações Internas do Patrimônio Líquido,-33000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06,Mutações Internas do Patrimônio Líquido,17000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06.01,Constituição de Reservas,33000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06.01,Constituição de Reservas,-17000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06.01,Constituição de Reservas,-33000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06.01,Constituição de Reservas,17000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.07,Saldos Finais,6352000.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.07,Saldos Finais,6353000.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.07,Saldos Finais,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.07,Saldos Finais,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.07,Saldos Finais,3897000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.07,Saldos Finais,5259000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.07,Saldos Finais,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.07,Saldos Finais,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.07,Saldos Finais,-1423000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.07,Saldos Finais,-1926000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.07,Saldos Finais,8826000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.07,Saldos Finais,9686000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.07,Saldos Finais,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.07,Saldos Finais,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2018,2018-12-31,1,MIL,PENÚLTIMO,2017-01-01,2017-12-31,5.07,Saldos Finais,8826000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2018,2018-12-31,1,MIL,ÚLTIMO,2018-01-01,2018-12-31,5.07,Saldos Finais,9686000.0000000000,S,Patrimônio Líquido Consolidado

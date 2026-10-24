@@ -1,0 +1,417 @@
+tipo,demo,ano,DT_REFER,VERSAO,ESCALA_MOEDA,ORDEM_EXERC,DT_INI_EXERC,DT_FIM_EXERC,CD_CONTA,DS_CONTA,VL_CONTA,ST_CONTA_FIXA,COLUNA_DF
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.01,Saldos Iniciais,5991000.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.01,Saldos Iniciais,6352000.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.01,Saldos Iniciais,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.01,Saldos Iniciais,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.01,Saldos Iniciais,6559000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.01,Saldos Iniciais,4107000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.01,Saldos Iniciais,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.01,Saldos Iniciais,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.01,Saldos Iniciais,-429000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.01,Saldos Iniciais,-534000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.01,Saldos Iniciais,12121000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.01,Saldos Iniciais,9925000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.01,Saldos Iniciais,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.01,Saldos Iniciais,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.01,Saldos Iniciais,12121000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.01,Saldos Iniciais,9925000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.03,Saldos Iniciais Ajustados,5991000.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.03,Saldos Iniciais Ajustados,6352000.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.03,Saldos Iniciais Ajustados,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.03,Saldos Iniciais Ajustados,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.03,Saldos Iniciais Ajustados,6559000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.03,Saldos Iniciais Ajustados,4107000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.03,Saldos Iniciais Ajustados,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.03,Saldos Iniciais Ajustados,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.03,Saldos Iniciais Ajustados,-429000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.03,Saldos Iniciais Ajustados,-534000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.03,Saldos Iniciais Ajustados,12121000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.03,Saldos Iniciais Ajustados,9925000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.03,Saldos Iniciais Ajustados,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.03,Saldos Iniciais Ajustados,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.03,Saldos Iniciais Ajustados,12121000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.03,Saldos Iniciais Ajustados,9925000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04,Transações de Capital com os Sócios,361000.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04,Transações de Capital com os Sócios,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04,Transações de Capital com os Sócios,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04,Transações de Capital com os Sócios,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04,Transações de Capital com os Sócios,-1291000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04,Transações de Capital com os Sócios,-747000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04,Transações de Capital com os Sócios,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04,Transações de Capital com os Sócios,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04,Transações de Capital com os Sócios,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04,Transações de Capital com os Sócios,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04,Transações de Capital com os Sócios,-930000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04,Transações de Capital com os Sócios,-747000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04,Transações de Capital com os Sócios,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04,Transações de Capital com os Sócios,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04,Transações de Capital com os Sócios,-930000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04,Transações de Capital com os Sócios,-747000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.01,Aumentos de Capital,361000.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.01,Aumentos de Capital,-361000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.06,Dividendos,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.06,Dividendos,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.06,Dividendos,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.06,Dividendos,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.06,Dividendos,-206000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.06,Dividendos,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.06,Dividendos,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.06,Dividendos,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.06,Dividendos,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.06,Dividendos,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.06,Dividendos,-206000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.06,Dividendos,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.06,Dividendos,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.06,Dividendos,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.06,Dividendos,-206000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.06,Dividendos,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.07,Juros sobre Capital Próprio,-724000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.07,Juros sobre Capital Próprio,-747000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.07,Juros sobre Capital Próprio,-724000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.07,Juros sobre Capital Próprio,-747000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.04.07,Juros sobre Capital Próprio,-724000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.04.07,Juros sobre Capital Próprio,-747000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05,Resultado Abrangente Total,-1161000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05,Resultado Abrangente Total,-315000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05,Resultado Abrangente Total,-105000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05,Resultado Abrangente Total,-1453000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05,Resultado Abrangente Total,-1266000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05,Resultado Abrangente Total,-1768000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05,Resultado Abrangente Total,-1266000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05,Resultado Abrangente Total,-1768000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.01,Lucro Líquido do Período,-1161000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.01,Lucro Líquido do Período,-315000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.01,Lucro Líquido do Período,-1161000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.01,Lucro Líquido do Período,-315000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.01,Lucro Líquido do Período,-1161000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.01,Lucro Líquido do Período,-315000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02,Outros Resultados Abrangentes,-105000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02,Outros Resultados Abrangentes,-1453000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02,Outros Resultados Abrangentes,-105000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02,Outros Resultados Abrangentes,-1453000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02,Outros Resultados Abrangentes,-105000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02,Outros Resultados Abrangentes,-1453000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06,Mutações Internas do Patrimônio Líquido,-1161000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06,Mutações Internas do Patrimônio Líquido,-315000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06,Mutações Internas do Patrimônio Líquido,1161000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06,Mutações Internas do Patrimônio Líquido,315000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06.01,Constituição de Reservas,-1161000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06.01,Constituição de Reservas,-315000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06.01,Constituição de Reservas,1161000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06.01,Constituição de Reservas,315000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.07,Saldos Finais,6352000.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.07,Saldos Finais,6352000.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.07,Saldos Finais,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.07,Saldos Finais,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.07,Saldos Finais,4107000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.07,Saldos Finais,3045000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.07,Saldos Finais,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.07,Saldos Finais,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.07,Saldos Finais,-534000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.07,Saldos Finais,-1987000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.07,Saldos Finais,9925000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.07,Saldos Finais,7410000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.07,Saldos Finais,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.07,Saldos Finais,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2016,2016-12-31,1,MIL,PENÚLTIMO,2015-01-01,2015-12-31,5.07,Saldos Finais,9925000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2016,2016-12-31,1,MIL,ÚLTIMO,2016-01-01,2016-12-31,5.07,Saldos Finais,7410000.0000000000,S,Patrimônio Líquido Consolidado

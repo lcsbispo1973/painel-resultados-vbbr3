@@ -2,6 +2,186 @@
  {
   "demo": "DRE",
   "teste": "3.01 + 3.02 = 3.03 (resultado bruto)",
+  "periodo": "1T16",
+  "esperado": 1651.0,
+  "reportado": 1651.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRE",
+  "teste": "3.03 + 3.04 = 3.05 (resultado antes do financeiro)",
+  "periodo": "1T16",
+  "esperado": -217.0,
+  "reportado": -217.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRE",
+  "teste": "3.05 + 3.06 = 3.07 (resultado antes dos tributos)",
+  "periodo": "1T16",
+  "esperado": -397.0,
+  "reportado": -397.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRE",
+  "teste": "3.07 + 3.08 = 3.09 (resultado das operações continuadas)",
+  "periodo": "1T16",
+  "esperado": -262.0,
+  "reportado": -262.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRE",
+  "teste": "3.09 + 3.10 = 3.11 (lucro do período)",
+  "periodo": "1T16",
+  "esperado": -262.0,
+  "reportado": -262.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRE",
+  "teste": "3.01 + 3.02 = 3.03 (resultado bruto)",
+  "periodo": "2T16",
+  "esperado": 1461.0,
+  "reportado": 1461.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRE",
+  "teste": "3.03 + 3.04 = 3.05 (resultado antes do financeiro)",
+  "periodo": "2T16",
+  "esperado": 55.0,
+  "reportado": 55.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRE",
+  "teste": "3.05 + 3.06 = 3.07 (resultado antes dos tributos)",
+  "periodo": "2T16",
+  "esperado": -121.0,
+  "reportado": -121.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRE",
+  "teste": "3.07 + 3.08 = 3.09 (resultado das operações continuadas)",
+  "periodo": "2T16",
+  "esperado": -91.0,
+  "reportado": -91.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRE",
+  "teste": "3.09 + 3.10 = 3.11 (lucro do período)",
+  "periodo": "2T16",
+  "esperado": -91.0,
+  "reportado": -91.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRE",
+  "teste": "3.01 + 3.02 = 3.03 (resultado bruto)",
+  "periodo": "3T16",
+  "esperado": 1545.0,
+  "reportado": 1545.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRE",
+  "teste": "3.03 + 3.04 = 3.05 (resultado antes do financeiro)",
+  "periodo": "3T16",
+  "esperado": 185.0,
+  "reportado": 185.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRE",
+  "teste": "3.05 + 3.06 = 3.07 (resultado antes dos tributos)",
+  "periodo": "3T16",
+  "esperado": 0.0,
+  "reportado": 0.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRE",
+  "teste": "3.07 + 3.08 = 3.09 (resultado das operações continuadas)",
+  "periodo": "3T16",
+  "esperado": -14.0,
+  "reportado": -14.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRE",
+  "teste": "3.09 + 3.10 = 3.11 (lucro do período)",
+  "periodo": "3T16",
+  "esperado": -14.0,
+  "reportado": -14.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRE",
+  "teste": "3.01 + 3.02 = 3.03 (resultado bruto)",
+  "periodo": "4T16",
+  "esperado": 1808.0,
+  "reportado": 1808.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRE",
+  "teste": "3.03 + 3.04 = 3.05 (resultado antes do financeiro)",
+  "periodo": "4T16",
+  "esperado": -39.0,
+  "reportado": -39.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRE",
+  "teste": "3.05 + 3.06 = 3.07 (resultado antes dos tributos)",
+  "periodo": "4T16",
+  "esperado": -120.0,
+  "reportado": -120.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRE",
+  "teste": "3.07 + 3.08 = 3.09 (resultado das operações continuadas)",
+  "periodo": "4T16",
+  "esperado": 52.0,
+  "reportado": 52.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRE",
+  "teste": "3.09 + 3.10 = 3.11 (lucro do período)",
+  "periodo": "4T16",
+  "esperado": 52.0,
+  "reportado": 52.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRE",
+  "teste": "3.01 + 3.02 = 3.03 (resultado bruto)",
   "periodo": "1T17",
   "esperado": 1481.0,
   "reportado": 1481.0,
@@ -1712,6 +1892,33 @@
  {
   "demo": "Balanço",
   "teste": "Ativo total (1) = passivo total (2)",
+  "periodo": "4T15",
+  "esperado": 31241.0,
+  "reportado": 31241.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Balanço",
+  "teste": "1.01 + 1.02 = 1",
+  "periodo": "4T15",
+  "esperado": 31241.0,
+  "reportado": 31241.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Balanço",
+  "teste": "2.01 + 2.02 + 2.03 = 2",
+  "periodo": "4T15",
+  "esperado": 31241.0,
+  "reportado": 31241.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Balanço",
+  "teste": "Ativo total (1) = passivo total (2)",
   "periodo": "4T16",
   "esperado": 31398.0,
   "reportado": 31398.0,
@@ -2759,6 +2966,87 @@
   "periodo": "2T26",
   "esperado": 65837.0,
   "reportado": 65837.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Fluxo de caixa",
+  "teste": "6.01 + 6.02 + 6.03 + 6.04 = 6.05",
+  "periodo": "1T16",
+  "esperado": 6.0,
+  "reportado": 6.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Fluxo de caixa",
+  "teste": "Saldo inicial + variação = saldo final",
+  "periodo": "1T16",
+  "esperado": 816.0,
+  "reportado": 816.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Fluxo de caixa",
+  "teste": "6.01 + 6.02 + 6.03 + 6.04 = 6.05",
+  "periodo": "2T16",
+  "esperado": 74.0,
+  "reportado": 74.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Fluxo de caixa",
+  "teste": "Saldo inicial + variação = saldo final",
+  "periodo": "2T16",
+  "esperado": 890.0,
+  "reportado": 890.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Fluxo de caixa",
+  "teste": "6.01 + 6.02 + 6.03 + 6.04 = 6.05",
+  "periodo": "3T16",
+  "esperado": -229.0,
+  "reportado": -229.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Fluxo de caixa",
+  "teste": "Saldo inicial + variação = saldo final",
+  "periodo": "3T16",
+  "esperado": 661.0,
+  "reportado": 661.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Fluxo de caixa",
+  "teste": "6.01 + 6.02 + 6.03 + 6.04 = 6.05",
+  "periodo": "4T16",
+  "esperado": -6.0,
+  "reportado": -6.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Fluxo de caixa",
+  "teste": "Saldo inicial + variação = saldo final",
+  "periodo": "4T16",
+  "esperado": 655.0,
+  "reportado": 655.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Caixa final do fluxo = caixa do balanço (1.01.01)",
+  "periodo": "4T16",
+  "esperado": 655.0,
+  "reportado": 655.0,
   "diferenca": 0.0,
   "status": "ok"
  },
@@ -3790,6 +4078,42 @@
  },
  {
   "demo": "Fluxo de caixa",
+  "teste": "Saldo final de 1T16 = saldo inicial de 2T16",
+  "periodo": "2T16",
+  "esperado": 816.0,
+  "reportado": 816.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Fluxo de caixa",
+  "teste": "Saldo final de 2T16 = saldo inicial de 3T16",
+  "periodo": "3T16",
+  "esperado": 890.0,
+  "reportado": 890.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Fluxo de caixa",
+  "teste": "Saldo final de 3T16 = saldo inicial de 4T16",
+  "periodo": "4T16",
+  "esperado": 661.0,
+  "reportado": 661.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Fluxo de caixa",
+  "teste": "Saldo final de 4T16 = saldo inicial de 1T17",
+  "periodo": "1T17",
+  "esperado": 655.0,
+  "reportado": 655.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Fluxo de caixa",
   "teste": "Saldo final de 1T17 = saldo inicial de 2T17",
   "periodo": "2T17",
   "esperado": 596.0,
@@ -4118,6 +4442,2274 @@
   "periodo": "2T26",
   "esperado": 5107.0,
   "reportado": 5107.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "1T16",
+  "esperado": 4760.0,
+  "reportado": 4760.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "1T16",
+  "esperado": 4647.0,
+  "reportado": 4647.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "1T16",
+  "esperado": 5057.0,
+  "reportado": 5057.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "1T16",
+  "esperado": 5057.0,
+  "reportado": 5057.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "2T16",
+  "esperado": 4788.0,
+  "reportado": 4788.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "2T16",
+  "esperado": 4675.0,
+  "reportado": 4675.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "2T16",
+  "esperado": 5110.0,
+  "reportado": 5110.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "2T16",
+  "esperado": 5110.0,
+  "reportado": 5110.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "3T16",
+  "esperado": 4979.0,
+  "reportado": 4979.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "3T16",
+  "esperado": 4872.0,
+  "reportado": 4872.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "3T16",
+  "esperado": 5288.0,
+  "reportado": 5288.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "3T16",
+  "esperado": 5288.0,
+  "reportado": 5288.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "4T16",
+  "esperado": 5292.0,
+  "reportado": 5292.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "4T16",
+  "esperado": 5171.0,
+  "reportado": 5171.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "4T16",
+  "esperado": 5663.0,
+  "reportado": 5663.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "4T16",
+  "esperado": 5663.0,
+  "reportado": 5663.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "1T17",
+  "esperado": 5168.0,
+  "reportado": 5168.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "1T17",
+  "esperado": 5056.0,
+  "reportado": 5056.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "1T17",
+  "esperado": 5447.0,
+  "reportado": 5447.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "1T17",
+  "esperado": 5447.0,
+  "reportado": 5447.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "2T17",
+  "esperado": 4833.0,
+  "reportado": 4833.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "2T17",
+  "esperado": 4718.0,
+  "reportado": 4718.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "2T17",
+  "esperado": 5112.0,
+  "reportado": 5112.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "2T17",
+  "esperado": 5112.0,
+  "reportado": 5112.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "3T17",
+  "esperado": 6017.0,
+  "reportado": 6017.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "3T17",
+  "esperado": 5901.0,
+  "reportado": 5901.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "3T17",
+  "esperado": 6085.0,
+  "reportado": 6085.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "3T17",
+  "esperado": 6085.0,
+  "reportado": 6085.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "4T17",
+  "esperado": 5940.0,
+  "reportado": 5940.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "4T17",
+  "esperado": 5831.0,
+  "reportado": 5831.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "4T17",
+  "esperado": 5973.0,
+  "reportado": 5973.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "4T17",
+  "esperado": 5973.0,
+  "reportado": 5973.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "1T18",
+  "esperado": 5688.0,
+  "reportado": 5688.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "1T18",
+  "esperado": 5582.0,
+  "reportado": 5582.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "1T18",
+  "esperado": 5744.0,
+  "reportado": 5744.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "1T18",
+  "esperado": 5744.0,
+  "reportado": 5744.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "2T18",
+  "esperado": 5616.0,
+  "reportado": 5616.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "2T18",
+  "esperado": 5509.0,
+  "reportado": 5509.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "2T18",
+  "esperado": 6034.0,
+  "reportado": 6034.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "2T18",
+  "esperado": 6034.0,
+  "reportado": 6034.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "3T18",
+  "esperado": 7285.0,
+  "reportado": 7285.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "3T18",
+  "esperado": 7183.0,
+  "reportado": 7183.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "3T18",
+  "esperado": 7838.0,
+  "reportado": 7838.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "3T18",
+  "esperado": 7838.0,
+  "reportado": 7838.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "4T18",
+  "esperado": 6078.0,
+  "reportado": 6078.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "4T18",
+  "esperado": 5976.0,
+  "reportado": 5976.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "4T18",
+  "esperado": 8029.0,
+  "reportado": 8029.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "4T18",
+  "esperado": 8029.0,
+  "reportado": 8029.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "1T19",
+  "esperado": 5537.0,
+  "reportado": 5537.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "1T19",
+  "esperado": 5409.0,
+  "reportado": 5409.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "1T19",
+  "esperado": 5846.0,
+  "reportado": 5846.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "1T19",
+  "esperado": 5846.0,
+  "reportado": 5846.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "2T19",
+  "esperado": 5675.0,
+  "reportado": 5675.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "2T19",
+  "esperado": 5548.0,
+  "reportado": 5548.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "2T19",
+  "esperado": 6072.0,
+  "reportado": 6072.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "2T19",
+  "esperado": 6072.0,
+  "reportado": 6072.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "3T19",
+  "esperado": 5762.0,
+  "reportado": 5762.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "3T19",
+  "esperado": 5635.0,
+  "reportado": 5635.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "3T19",
+  "esperado": 7526.0,
+  "reportado": 7526.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "3T19",
+  "esperado": 7526.0,
+  "reportado": 7526.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "4T19",
+  "esperado": 6020.0,
+  "reportado": 6020.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "4T19",
+  "esperado": 5874.0,
+  "reportado": 5874.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "4T19",
+  "esperado": 6026.0,
+  "reportado": 6026.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "4T19",
+  "esperado": 6026.0,
+  "reportado": 6026.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "1T20",
+  "esperado": 5704.0,
+  "reportado": 5704.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "1T20",
+  "esperado": 5569.0,
+  "reportado": 5569.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "1T20",
+  "esperado": 5916.0,
+  "reportado": 5916.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "1T20",
+  "esperado": 5916.0,
+  "reportado": 5916.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "2T20",
+  "esperado": 3727.0,
+  "reportado": 3727.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "2T20",
+  "esperado": 3591.0,
+  "reportado": 3591.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "2T20",
+  "esperado": 3915.0,
+  "reportado": 3915.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "2T20",
+  "esperado": 3915.0,
+  "reportado": 3915.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "3T20",
+  "esperado": 5810.0,
+  "reportado": 5810.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "3T20",
+  "esperado": 5678.0,
+  "reportado": 5678.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "3T20",
+  "esperado": 5949.0,
+  "reportado": 5949.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "3T20",
+  "esperado": 5949.0,
+  "reportado": 5949.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "4T20",
+  "esperado": 6448.0,
+  "reportado": 6448.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "4T20",
+  "esperado": 6314.0,
+  "reportado": 6314.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "4T20",
+  "esperado": 6792.0,
+  "reportado": 6792.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "4T20",
+  "esperado": 6792.0,
+  "reportado": 6792.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "1T21",
+  "esperado": 6866.0,
+  "reportado": 6866.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "1T21",
+  "esperado": 6727.0,
+  "reportado": 6727.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "1T21",
+  "esperado": 7015.0,
+  "reportado": 7015.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "1T21",
+  "esperado": 7015.0,
+  "reportado": 7015.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "2T21",
+  "esperado": 6423.0,
+  "reportado": 6423.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "2T21",
+  "esperado": 6283.0,
+  "reportado": 6283.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "2T21",
+  "esperado": 6490.0,
+  "reportado": 6490.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "2T21",
+  "esperado": 6490.0,
+  "reportado": 6490.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "3T21",
+  "esperado": 8258.0,
+  "reportado": 8258.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "3T21",
+  "esperado": 8114.0,
+  "reportado": 8114.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "3T21",
+  "esperado": 8542.0,
+  "reportado": 8542.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "3T21",
+  "esperado": 8542.0,
+  "reportado": 8542.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "4T21",
+  "esperado": 8770.0,
+  "reportado": 8770.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "4T21",
+  "esperado": 8634.0,
+  "reportado": 8634.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "4T21",
+  "esperado": 10065.0,
+  "reportado": 10065.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "4T21",
+  "esperado": 10065.0,
+  "reportado": 10065.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "1T22",
+  "esperado": 8806.0,
+  "reportado": 8806.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "1T22",
+  "esperado": 8667.0,
+  "reportado": 8667.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "1T22",
+  "esperado": 8883.0,
+  "reportado": 8883.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "1T22",
+  "esperado": 8883.0,
+  "reportado": 8883.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "2T22",
+  "esperado": 9867.0,
+  "reportado": 9867.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "2T22",
+  "esperado": 9732.0,
+  "reportado": 9732.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "2T22",
+  "esperado": 10360.0,
+  "reportado": 10360.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "2T22",
+  "esperado": 10360.0,
+  "reportado": 10360.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "3T22",
+  "esperado": 6924.0,
+  "reportado": 6924.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "3T22",
+  "esperado": 6782.0,
+  "reportado": 6782.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "3T22",
+  "esperado": 7194.0,
+  "reportado": 7194.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "3T22",
+  "esperado": 7194.0,
+  "reportado": 7194.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "4T22",
+  "esperado": 6258.0,
+  "reportado": 6258.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "4T22",
+  "esperado": 6121.0,
+  "reportado": 6121.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "4T22",
+  "esperado": 6362.0,
+  "reportado": 6362.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "4T22",
+  "esperado": 6362.0,
+  "reportado": 6362.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "1T23",
+  "esperado": 6402.0,
+  "reportado": 6402.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "1T23",
+  "esperado": 6264.0,
+  "reportado": 6264.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "1T23",
+  "esperado": 6657.0,
+  "reportado": 6657.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "1T23",
+  "esperado": 6657.0,
+  "reportado": 6657.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "2T23",
+  "esperado": 3642.0,
+  "reportado": 3642.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "2T23",
+  "esperado": 3506.0,
+  "reportado": 3506.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "2T23",
+  "esperado": 3949.0,
+  "reportado": 3949.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "2T23",
+  "esperado": 3949.0,
+  "reportado": 3949.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "3T23",
+  "esperado": 2437.0,
+  "reportado": 2437.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "3T23",
+  "esperado": 2298.0,
+  "reportado": 2298.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "3T23",
+  "esperado": 2641.0,
+  "reportado": 2641.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "3T23",
+  "esperado": 2641.0,
+  "reportado": 2641.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "4T23",
+  "esperado": 2236.0,
+  "reportado": 2236.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "4T23",
+  "esperado": 2095.0,
+  "reportado": 2095.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "4T23",
+  "esperado": 3360.0,
+  "reportado": 3360.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "4T23",
+  "esperado": 3360.0,
+  "reportado": 3360.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "1T24",
+  "esperado": 2085.0,
+  "reportado": 2085.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "1T24",
+  "esperado": 1942.0,
+  "reportado": 1942.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "1T24",
+  "esperado": 2199.0,
+  "reportado": 2199.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "1T24",
+  "esperado": 2199.0,
+  "reportado": 2199.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "2T24",
+  "esperado": 2146.0,
+  "reportado": 2146.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "2T24",
+  "esperado": 2011.0,
+  "reportado": 2011.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "2T24",
+  "esperado": 2623.0,
+  "reportado": 2623.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "2T24",
+  "esperado": 2623.0,
+  "reportado": 2623.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "3T24",
+  "esperado": 2276.0,
+  "reportado": 2276.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "3T24",
+  "esperado": 2136.0,
+  "reportado": 2136.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "3T24",
+  "esperado": 2814.0,
+  "reportado": 2814.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "3T24",
+  "esperado": 2814.0,
+  "reportado": 2814.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "4T24",
+  "esperado": 869.0,
+  "reportado": 869.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "4T24",
+  "esperado": 733.0,
+  "reportado": 733.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "4T24",
+  "esperado": 2064.0,
+  "reportado": 2064.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "4T24",
+  "esperado": 2064.0,
+  "reportado": 2064.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "1T25",
+  "esperado": 2121.0,
+  "reportado": 2121.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "1T25",
+  "esperado": 1879.0,
+  "reportado": 1879.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "1T25",
+  "esperado": 2563.0,
+  "reportado": 2563.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "1T25",
+  "esperado": 2563.0,
+  "reportado": 2563.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "2T25",
+  "esperado": 2024.0,
+  "reportado": 2024.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "2T25",
+  "esperado": 1761.0,
+  "reportado": 1761.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "2T25",
+  "esperado": 2519.0,
+  "reportado": 2519.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "2T25",
+  "esperado": 2519.0,
+  "reportado": 2519.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "3T25",
+  "esperado": 1889.0,
+  "reportado": 1889.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "3T25",
+  "esperado": 1620.0,
+  "reportado": 1620.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "3T25",
+  "esperado": 2247.0,
+  "reportado": 2247.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "3T25",
+  "esperado": 2247.0,
+  "reportado": 2247.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "4T25",
+  "esperado": 1001.0,
+  "reportado": 1001.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "4T25",
+  "esperado": 707.0,
+  "reportado": 707.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "4T25",
+  "esperado": 1308.0,
+  "reportado": 1308.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "4T25",
+  "esperado": 1308.0,
+  "reportado": 1308.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "1T26",
+  "esperado": 2849.0,
+  "reportado": 2849.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "1T26",
+  "esperado": 2560.0,
+  "reportado": 2560.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "1T26",
+  "esperado": 3186.0,
+  "reportado": 3186.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "1T26",
+  "esperado": 3186.0,
+  "reportado": 3186.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "2T26",
+  "esperado": 3619.0,
+  "reportado": 3619.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "2T26",
+  "esperado": 3267.0,
+  "reportado": 3267.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "2T26",
+  "esperado": 4090.0,
+  "reportado": 4090.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "2T26",
+  "esperado": 4090.0,
+  "reportado": 4090.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "1T16",
+  "esperado": -262.0,
+  "reportado": -262.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "1T16",
+  "esperado": -262.0,
+  "reportado": -262.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "2T16",
+  "esperado": -91.0,
+  "reportado": -91.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "2T16",
+  "esperado": -91.0,
+  "reportado": -91.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "3T16",
+  "esperado": -14.0,
+  "reportado": -14.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "3T16",
+  "esperado": -14.0,
+  "reportado": -14.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "4T16",
+  "esperado": -1401.0,
+  "reportado": -1401.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "4T16",
+  "esperado": 52.0,
+  "reportado": 52.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "1T17",
+  "esperado": 156.0,
+  "reportado": 156.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "1T17",
+  "esperado": 156.0,
+  "reportado": 156.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "2T17",
+  "esperado": 70.0,
+  "reportado": 70.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "2T17",
+  "esperado": 70.0,
+  "reportado": 70.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "3T17",
+  "esperado": 394.0,
+  "reportado": 394.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "3T17",
+  "esperado": 394.0,
+  "reportado": 394.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "4T17",
+  "esperado": 1095.0,
+  "reportado": 1095.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "4T17",
+  "esperado": 531.0,
+  "reportado": 531.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "1T18",
+  "esperado": 247.0,
+  "reportado": 247.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "1T18",
+  "esperado": 247.0,
+  "reportado": 247.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "2T18",
+  "esperado": 263.0,
+  "reportado": 263.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "2T18",
+  "esperado": 263.0,
+  "reportado": 263.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "3T18",
+  "esperado": 1078.0,
+  "reportado": 1078.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "3T18",
+  "esperado": 1078.0,
+  "reportado": 1078.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "4T18",
+  "esperado": 1102.0,
+  "reportado": 1102.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "4T18",
+  "esperado": 1605.0,
+  "reportado": 1605.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "1T19",
+  "esperado": 477.0,
+  "reportado": 477.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "1T19",
+  "esperado": 477.0,
+  "reportado": 477.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "2T19",
+  "esperado": 302.0,
+  "reportado": 302.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "2T19",
+  "esperado": 302.0,
+  "reportado": 302.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "3T19",
+  "esperado": 1336.0,
+  "reportado": 1336.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "3T19",
+  "esperado": 1336.0,
+  "reportado": 1336.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "4T19",
+  "esperado": -246.0,
+  "reportado": -246.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "4T19",
+  "esperado": 96.0,
+  "reportado": 96.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "1T20",
+  "esperado": 234.0,
+  "reportado": 234.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "1T20",
+  "esperado": 234.0,
+  "reportado": 234.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "2T20",
+  "esperado": 813.0,
+  "reportado": 813.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "2T20",
+  "esperado": 188.0,
+  "reportado": 188.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "3T20",
+  "esperado": 335.0,
+  "reportado": 335.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "3T20",
+  "esperado": 335.0,
+  "reportado": 335.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "4T20",
+  "esperado": 3586.0,
+  "reportado": 3586.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "4T20",
+  "esperado": 3148.0,
+  "reportado": 3148.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "1T21",
+  "esperado": 492.0,
+  "reportado": 492.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "1T21",
+  "esperado": 492.0,
+  "reportado": 492.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "2T21",
+  "esperado": 382.0,
+  "reportado": 382.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "2T21",
+  "esperado": 382.0,
+  "reportado": 382.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "3T21",
+  "esperado": 598.0,
+  "reportado": 598.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "3T21",
+  "esperado": 598.0,
+  "reportado": 598.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "4T21",
+  "esperado": 1506.0,
+  "reportado": 1506.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "4T21",
+  "esperado": 1025.0,
+  "reportado": 1025.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "1T22",
+  "esperado": 304.0,
+  "reportado": 304.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "1T22",
+  "esperado": 325.0,
+  "reportado": 325.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "2T22",
+  "esperado": 682.0,
+  "reportado": 682.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "2T22",
+  "esperado": 707.0,
+  "reportado": 707.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "3T22",
+  "esperado": -46.0,
+  "reportado": -46.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "3T22",
+  "esperado": -61.0,
+  "reportado": -61.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "4T22",
+  "esperado": 400.0,
+  "reportado": 400.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "4T22",
+  "esperado": 566.0,
+  "reportado": 566.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "1T23",
+  "esperado": 76.0,
+  "reportado": 76.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "1T23",
+  "esperado": 81.0,
+  "reportado": 81.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "2T23",
+  "esperado": 120.0,
+  "reportado": 120.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "2T23",
+  "esperado": 133.0,
+  "reportado": 133.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "3T23",
+  "esperado": 1219.0,
+  "reportado": 1219.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "3T23",
+  "esperado": 1255.0,
+  "reportado": 1255.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "4T23",
+  "esperado": 2882.0,
+  "reportado": 2882.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "4T23",
+  "esperado": 3297.0,
+  "reportado": 3297.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "1T24",
+  "esperado": 797.0,
+  "reportado": 797.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "1T24",
+  "esperado": 789.0,
+  "reportado": 789.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "2T24",
+  "esperado": 900.0,
+  "reportado": 900.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "2T24",
+  "esperado": 867.0,
+  "reportado": 867.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "3T24",
+  "esperado": 4166.0,
+  "reportado": 4166.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "3T24",
+  "esperado": 4201.0,
+  "reportado": 4201.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "4T24",
+  "esperado": 779.0,
+  "reportado": 779.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "4T24",
+  "esperado": 510.0,
+  "reportado": 510.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "1T25",
+  "esperado": 576.0,
+  "reportado": 576.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "1T25",
+  "esperado": 601.0,
+  "reportado": 601.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "2T25",
+  "esperado": 236.0,
+  "reportado": 236.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "2T25",
+  "esperado": 292.0,
+  "reportado": 292.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "3T25",
+  "esperado": 356.0,
+  "reportado": 356.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "3T25",
+  "esperado": 407.0,
+  "reportado": 407.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "4T25",
+  "esperado": 232.0,
+  "reportado": 232.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "4T25",
+  "esperado": 679.0,
+  "reportado": 679.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "1T26",
+  "esperado": 1504.0,
+  "reportado": 1504.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "1T26",
+  "esperado": 1613.0,
+  "reportado": 1613.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "2T26",
+  "esperado": 2396.0,
+  "reportado": 2396.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "2T26",
+  "esperado": 2352.0,
+  "reportado": 2352.0,
   "diferenca": 0.0,
   "status": "ok"
  },

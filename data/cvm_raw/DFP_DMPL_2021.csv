@@ -1,0 +1,433 @@
+tipo,demo,ano,DT_REFER,VERSAO,ESCALA_MOEDA,ORDEM_EXERC,DT_INI_EXERC,DT_FIM_EXERC,CD_CONTA,DS_CONTA,VL_CONTA,ST_CONTA_FIXA,COLUNA_DF
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.01,Saldos Iniciais,6353000.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.01,Saldos Iniciais,6353000.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.01,Saldos Iniciais,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.01,Saldos Iniciais,4000.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.01,Saldos Iniciais,4681000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.01,Saldos Iniciais,7055000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.01,Saldos Iniciais,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.01,Saldos Iniciais,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.01,Saldos Iniciais,-2268000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.01,Saldos Iniciais,-1205000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.01,Saldos Iniciais,8766000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.01,Saldos Iniciais,12207000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.01,Saldos Iniciais,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.01,Saldos Iniciais,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.01,Saldos Iniciais,8766000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.01,Saldos Iniciais,12207000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.03,Saldos Iniciais Ajustados,6353000.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.03,Saldos Iniciais Ajustados,6353000.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.03,Saldos Iniciais Ajustados,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.03,Saldos Iniciais Ajustados,4000.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.03,Saldos Iniciais Ajustados,4681000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.03,Saldos Iniciais Ajustados,7055000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.03,Saldos Iniciais Ajustados,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.03,Saldos Iniciais Ajustados,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.03,Saldos Iniciais Ajustados,-2268000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.03,Saldos Iniciais Ajustados,-1205000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.03,Saldos Iniciais Ajustados,8766000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.03,Saldos Iniciais Ajustados,12207000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.03,Saldos Iniciais Ajustados,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.03,Saldos Iniciais Ajustados,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.03,Saldos Iniciais Ajustados,8766000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.03,Saldos Iniciais Ajustados,12207000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04,Transações de Capital com os Sócios,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04,Transações de Capital com os Sócios,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04,Transações de Capital com os Sócios,4000.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04,Transações de Capital com os Sócios,-905000.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04,Transações de Capital com os Sócios,774000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04,Transações de Capital com os Sócios,-1308000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04,Transações de Capital com os Sócios,-2305000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04,Transações de Capital com os Sócios,-664000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04,Transações de Capital com os Sócios,1063000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04,Transações de Capital com os Sócios,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04,Transações de Capital com os Sócios,-464000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04,Transações de Capital com os Sócios,-2877000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04,Transações de Capital com os Sócios,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04,Transações de Capital com os Sócios,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04,Transações de Capital com os Sócios,-464000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04,Transações de Capital com os Sócios,-2877000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.01,Aumentos de Capital,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.03,Opções Outorgadas Reconhecidas,4000.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.03,Opções Outorgadas Reconhecidas,13000.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.03,Opções Outorgadas Reconhecidas,4000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.03,Opções Outorgadas Reconhecidas,13000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.03,Opções Outorgadas Reconhecidas,4000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.03,Opções Outorgadas Reconhecidas,13000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.04,Ações em Tesouraria Adquiridas,-918000.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.04,Ações em Tesouraria Adquiridas,-918000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.04,Ações em Tesouraria Adquiridas,-918000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.06,Dividendos,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.06,Dividendos,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.06,Dividendos,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.06,Dividendos,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.06,Dividendos,774000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.06,Dividendos,-1308000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.06,Dividendos,-1807000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.06,Dividendos,-132000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.06,Dividendos,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.06,Dividendos,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.06,Dividendos,-1033000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.06,Dividendos,-1440000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.06,Dividendos,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.06,Dividendos,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.06,Dividendos,-1033000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.06,Dividendos,-1440000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.07,Juros sobre Capital Próprio,-498000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.07,Juros sobre Capital Próprio,-532000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.07,Juros sobre Capital Próprio,-498000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.07,Juros sobre Capital Próprio,-532000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.07,Juros sobre Capital Próprio,-498000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.04.07,Juros sobre Capital Próprio,-532000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.08,Ganhos atuariais,0.0000000000,N,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.08,Ganhos atuariais,0.0000000000,N,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.08,Ganhos atuariais,0.0000000000,N,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.08,Ganhos atuariais,0.0000000000,N,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.08,Ganhos atuariais,1063000.0000000000,N,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.08,Ganhos atuariais,1063000.0000000000,N,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.08,Ganhos atuariais,0.0000000000,N,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.04.08,Ganhos atuariais,1063000.0000000000,N,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05,Resultado Abrangente Total,3905000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05,Resultado Abrangente Total,2497000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05,Resultado Abrangente Total,481000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05,Resultado Abrangente Total,3905000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05,Resultado Abrangente Total,2978000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05,Resultado Abrangente Total,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05,Resultado Abrangente Total,3905000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05,Resultado Abrangente Total,2978000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.01,Lucro Líquido do Período,3905000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.01,Lucro Líquido do Período,2497000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.01,Lucro Líquido do Período,3905000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.01,Lucro Líquido do Período,2497000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.01,Lucro Líquido do Período,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.01,Lucro Líquido do Período,3905000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.01,Lucro Líquido do Período,2497000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02,Outros Resultados Abrangentes,481000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02,Outros Resultados Abrangentes,481000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02,Outros Resultados Abrangentes,481000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.06,Ganhos atuariais,0.0000000000,N,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.06,Ganhos atuariais,0.0000000000,N,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.06,Ganhos atuariais,0.0000000000,N,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.06,Ganhos atuariais,0.0000000000,N,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.06,Ganhos atuariais,481000.0000000000,N,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.06,Ganhos atuariais,481000.0000000000,N,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.06,Ganhos atuariais,0.0000000000,N,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.02.06,Ganhos atuariais,481000.0000000000,N,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06,Mutações Internas do Patrimônio Líquido,1600000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06,Mutações Internas do Patrimônio Líquido,1833000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06,Mutações Internas do Patrimônio Líquido,-1600000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06,Mutações Internas do Patrimônio Líquido,-1833000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06.01,Constituição de Reservas,1600000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06.01,Constituição de Reservas,1833000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06.01,Constituição de Reservas,-1600000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06.01,Constituição de Reservas,-1833000.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06.01,Constituição de Reservas,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.07,Saldos Finais,6353000.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.07,Saldos Finais,6353000.0000000000,S,Capital Social Integralizado
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.07,Saldos Finais,4000.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.07,Saldos Finais,-901000.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.07,Saldos Finais,7055000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.07,Saldos Finais,7580000.0000000000,S,Reservas de Lucro
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.07,Saldos Finais,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.07,Saldos Finais,0.0000000000,S,Lucros ou Prejuízos Acumulados
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.07,Saldos Finais,-1205000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.07,Saldos Finais,-724000.0000000000,S,Outros Resultados Abrangentes
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.07,Saldos Finais,12207000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.07,Saldos Finais,12308000.0000000000,S,Patrimônio Líquido
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.07,Saldos Finais,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.07,Saldos Finais,0.0000000000,S,Participação dos Não Controladores
+DFP,DMPL,2021,2021-12-31,1,MIL,PENÚLTIMO,2020-01-01,2020-12-31,5.07,Saldos Finais,12207000.0000000000,S,Patrimônio Líquido Consolidado
+DFP,DMPL,2021,2021-12-31,1,MIL,ÚLTIMO,2021-01-01,2021-12-31,5.07,Saldos Finais,12308000.0000000000,S,Patrimônio Líquido Consolidado
