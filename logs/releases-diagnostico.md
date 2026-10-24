@@ -1,16 +1,12 @@
-# Diagnóstico de acesso aos releases
+# Diagnóstico de acesso aos releases (2)
 
-- OK https://ri.vibraenergia.com.br/ → HTTP 200, text/html; charset=UTF-8, 70729 bytes
-- OK https://ri.vibraenergia.com.br/informacoes-financeiras/central-de-resultados/ → HTTP 200, text/html; charset=UTF-8, 73911 bytes
-  PDFs na página: 0; exemplos: []
-  URLs mziq na página: ['https://api.mziq.com/mzevents/events', 'https://apicatalog.mziq.com/filemanager', 'https://apicatalog.mziq.com/mailer', 'https://cdn-sites-assets.mziq.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js', 'https://cdn-sites-assets.mziq.com/wp-content/themes/mziq_brdistribuidora_ri/fonts/fonts.css', 'https://cdn-sites-assets.mziq.com/wp-content/themes/mziq_brdistribuidora_ri/img/favicon/favicon.ico', 'https://cdn-sites-assets.mziq.com/wp-content/themes/mziq_brdistribuidora_ri/img/favicon/favicon144.png', 'https://cdn-sites-assets.mziq.com/wp-content/themes/mziq_brdistribuidora_ri/img/favicon/favicon16.png', 'https://cdn-sites-assets.mziq.com/wp-content/themes/mziq_brdistribuidora_ri/img/favicon/favicon180.png', 'https://cdn-sites-assets.mziq.com/wp-content/themes/mziq_brdistribuidora_ri/img/favicon/favicon32.png']
-- ERRO https://api.mziq.com/mzfilemanager/v2/d/ → HTTPError: HTTP Error 401: Unauthorized
-- OK https://apicatalog.mziq.com/ → HTTP 200, text/html, 0 bytes
 
-Documentos IPE com 'release/resultado' (amostra): 3
-  2026-09-25 | Comunicado ao Mercado | Outros Comunicados Não Considerados Fatos Relevantes | Comunicado sobre o resultado do Procedimento de Bookbuilding
-- OK https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1571880&numSequencia=1096586&numVersao=1 → HTTP 200, text/html, 231332 bytes
-  2026-09-03 | Comunicado ao Mercado | Apresentações a analistas/agentes do mercado | Apresentação Call de Resultados 2T26
-- OK https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1564536&numSequencia=1089242&numVersao=1 → HTTP 200, text/html; charset=utf-8, 4260 bytes
-  2026-08-19 | Reunião da Administração | Conselho de Administração | Distribuição de Dividendos/Juros sobre Capital Próprio||Resultados de desempenho das atividades Vibra 2T26
-- OK https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1559393&numSequencia=1084099&numVersao=1 → HTTP 200, text/html, 117725 bytes
+## 2026-08-14 Release 2T26 (protocolo 024295IPE300620260142328555-32)
+- https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1558260&numSequencia=1082966&numVersao=1 → HTTP 200 | text/html | attachment; filename=024295000101011.pdf | 1706941 bytes | início=b'%PDF-1.7\r\n%\xb5\xb5\xb5\xb5\r\n1 0 obj\r\n<</Type/Catalog/Pages 2 0 R/Lang(e'
+- https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=024295IPE300620260142328555-32 → HTTP 200 | text/html; charset=utf-8 | None | 27588 bytes | início=b'\r\n\r\n<html xmlns="http://www.w3.org/1999/xhtml" >\r\n<head><scr'
+- https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numSequencia=1082966&numVersao=1&numProtocolo=024295IPE300620260142328555-32&descTipo=IPE&Cod → HTTP 200 | text/html; charset=utf-8 | None | 4284 bytes | início=b'\r\n\r\n<!DOCTYPE html>\r\n\r\n<html>\r\n<head><link href="App_Themes/'
+
+## 2026-05-06 Release de Resultados 1T26 (protocolo 024295IPE310320260195038868-04)
+- https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1517228&numSequencia=1041934&numVersao=1 → HTTP 200 | text/html | attachment; filename=024295000101011.pdf | 1665861 bytes | início=b'%PDF-1.7\r\n%\xb5\xb5\xb5\xb5\r\n1 0 obj\r\n<</Type/Catalog/Pages 2 0 R/Lang(e'
+- https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=024295IPE310320260195038868-04 → HTTP 200 | text/html; charset=utf-8 | None | 27588 bytes | início=b'\r\n\r\n<html xmlns="http://www.w3.org/1999/xhtml" >\r\n<head><scr'
+- https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numSequencia=1041934&numVersao=1&numProtocolo=024295IPE310320260195038868-04&descTipo=IPE&Cod → HTTP 200 | text/html; charset=utf-8 | None | 4287 bytes | início=b'\r\n\r\n<!DOCTYPE html>\r\n\r\n<html>\r\n<head><link href="App_Themes/'
