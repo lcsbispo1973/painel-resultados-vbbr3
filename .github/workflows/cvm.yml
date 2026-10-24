@@ -171,13 +171,24 @@ jobs:
             gh issue create --repo "${{ github.repository }}" --title "Trava de publicação: atualização retida" --body-file alerta.md
           fi
 
+      # Link por convite: com uma chave (segredo PAINEL_CHAVE ou arquivo acesso/chave.txt num repositório privado), o painel
+      # fica só em <endereço>/<chave>/ e a raiz mostra "acesso por convite". Trocar a chave invalida o link anterior.
       - name: Montar o site
+        env:
+          CHAVE_SEGREDO: ${{ secrets.PAINEL_CHAVE }}
         run: |
-          mkdir -p _site/data
-          cp -r docs/. _site/
-          cp data/*.json _site/data/
-          cp -r data/fre _site/data/fre
-          rm -f _site/data/release_segmentos.json
+          CHAVE="$CHAVE_SEGREDO"
+          if [ -z "$CHAVE" ] && [ -f acesso/chave.txt ]; then CHAVE=$(tr -dc 'a-z0-9-' < acesso/chave.txt); fi
+          if [ -n "$CHAVE" ]; then
+            DEST="_site/$CHAVE"; mkdir -p "$DEST"; cp acesso/index.html _site/index.html; echo "Painel publicado no link por convite."
+          else
+            DEST="_site"; echo "Sem chave: painel publicado na raiz."
+          fi
+          mkdir -p "$DEST/data"
+          cp -r docs/. "$DEST/"
+          cp data/*.json "$DEST/data/"
+          cp -r data/fre "$DEST/data/fre"
+          rm -f "$DEST/data/release_segmentos.json"
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
