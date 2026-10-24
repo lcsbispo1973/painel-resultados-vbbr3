@@ -27,6 +27,7 @@ import zipfile
 
 CNPJ = "34.274.233/0001-02"
 ANO_INICIAL = 2010
+csv.field_size_limit(2**30)  # alguns campos de texto do FRE passam do limite padrão
 MAX_TEXTO = 600
 # colunas que não vão para o repositório público (dados pessoais ou texto longo de currículo)
 PROIBIDAS = re.compile(r"(^|_)CPF|Nascimento|Experiencia_Profissional|Documento_Parte_Relacionada|Representante_Legal|"
