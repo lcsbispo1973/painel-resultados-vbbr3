@@ -12,12 +12,15 @@ on:
   push:
     paths:
       - 'pipeline/**'
+      - 'docs/**'
       - '.github/workflows/cvm.yml'
   schedule:
     - cron: '17 9 * * *'   # diariamente, 06:17 em Brasília
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: atualizar-cvm
@@ -58,3 +61,30 @@ jobs:
             git pull --rebase -q origin main
             git push
           fi
+
+  publicar:
+    # Publica o painel (docs/ + data/*.json) no GitHub Pages. Requer Settings > Pages > Source: GitHub Actions.
+    needs: cvm
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Montar o site
+        run: |
+          mkdir -p _site/data
+          cp -r docs/. _site/
+          cp data/*.json _site/data/
+          rm -rf _site/data/cvm_raw
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4

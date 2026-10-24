@@ -23,9 +23,12 @@ Todas as informações são públicas. Valores em R$ milhões, consolidado.
   fontes (variação de 1.460); o motivo da classificação diferente não foi confirmado nas notas explicativas.
 - Os períodos de 1T25 a 4T25 do fluxo operacional coincidem com o release.
 
+- `docs/index.html`: painel interativo (visão executiva, resultado, balanço, fluxo de caixa, EBITDA por segmento, dividendos e JCP, conferências). Publicado no GitHub Pages pelo mesmo workflow, a cada atualização.
+- `data/release_segmentos.json` e `data/dividendos.json`: EBITDA Ajustado por segmento (releases) e proventos (site de RI), por ora carregados manualmente.
+
 ## Em construção
 
-- EBITDA Ajustado por segmento e demais indicadores gerenciais (release do RI).
-- Painel interativo publicado a partir destes dados.
+- Leitura automática dos releases (EBITDA Ajustado por segmento e indicadores operacionais) com conferência contra a CVM.
+- Leitura automática da página de dividendos e JCP.
 
 EBITDA Ajustado e seus segmentos são medidas não contábeis definidas pela Companhia e não constam nos Dados Abertos da CVM.

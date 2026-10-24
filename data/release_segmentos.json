@@ -1,0 +1,93 @@
+{
+ "unidade": "R$ milhões",
+ "fonte": "Releases de resultados da Vibra (3T24 a 1T26, carga manual); medida não contábil conforme definição da Companhia",
+ "periodos": [
+  "3T24",
+  "4T24",
+  "1T25",
+  "2T25",
+  "3T25",
+  "4T25",
+  "1T26"
+ ],
+ "linhas": [
+  {
+   "cd_conta": "RET",
+   "conta": "Retail (rede de postos)",
+   "nivel": 2,
+   "fixa": true,
+   "3T24": 1327,
+   "4T24": 943,
+   "1T25": 993,
+   "2T25": 652,
+   "3T25": 1131,
+   "4T25": 1849,
+   "1T26": 1729
+  },
+  {
+   "cd_conta": "B2B",
+   "conta": "B2B",
+   "nivel": 2,
+   "fixa": true,
+   "3T24": 769,
+   "4T24": 446,
+   "1T25": 906,
+   "2T25": 715,
+   "3T25": 563,
+   "4T25": 677,
+   "1T26": 1473
+  },
+  {
+   "cd_conta": "REN",
+   "conta": "Renováveis (Comerc)",
+   "nivel": 2,
+   "fixa": true,
+   "3T24": null,
+   "4T24": null,
+   "1T25": 213,
+   "2T25": 224,
+   "3T25": 171,
+   "4T25": 232,
+   "1T26": 147
+  },
+  {
+   "cd_conta": "TOT",
+   "conta": "Total dos segmentos",
+   "nivel": 1,
+   "fixa": true,
+   "3T24": 2096,
+   "4T24": 1389,
+   "1T25": 2112,
+   "2T25": 1591,
+   "3T25": 1865,
+   "4T25": 2758,
+   "1T26": 3349
+  },
+  {
+   "cd_conta": "CORP",
+   "conta": "Corporativo",
+   "nivel": 2,
+   "fixa": true,
+   "3T24": 3966,
+   "4T24": -82,
+   "1T25": -87,
+   "2T25": -119,
+   "3T25": -59,
+   "4T25": -138,
+   "1T26": -145
+  },
+  {
+   "cd_conta": "EBITDA",
+   "conta": "EBITDA Ajustado consolidado",
+   "nivel": 1,
+   "fixa": true,
+   "3T24": 6062,
+   "4T24": 1307,
+   "1T25": 2025,
+   "2T25": 1472,
+   "3T25": 1806,
+   "4T25": 2620,
+   "1T26": 3204
+  }
+ ]
+}
