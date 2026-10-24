@@ -118,7 +118,7 @@ def main():
     for d in lista:
         cats[d["categoria"]] = cats.get(d["categoria"], 0) + 1
     log += ["", "Documentos (última versão): %d" % len(lista), "Por categoria: " + ", ".join("%s (%d)" % kv for kv in sorted(cats.items(), key=lambda x: -x[1]))]
-    open(os.path.join(raiz, "logs", "ipe-ultima-execucao.md"), "w", encoding="utf-8").write("\n".join(log) + "\n")
+    open(os.path.join(saida if local else os.path.join(raiz, "logs"), "ipe-ultima-execucao.md"), "w", encoding="utf-8").write("\n".join(log) + "\n")
     if not lista:
         print("Nenhum documento; dados anteriores mantidos.")
         return 0

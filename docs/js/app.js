@@ -490,7 +490,7 @@
         el.append(ref.kpis, ref.mkt, ref.ipe, h('div', { class: 'grid' },
           P.card('Receita', 'CVM, conta 3.01, R$ milhões. Inclui a marcação a mercado do trading de energia.', ref.ch.receita),
           P.card('Lucro líquido', 'CVM, conta 3.11 (consolidado, inclui não controladores), R$ milhões.', ref.ch.lucro),
-          P.card('EBITDA', 'R$ milhões. Contábil: calculado da CVM (EBIT sem equivalência + D&A). Ajustado: release, medida da Companhia (só na base trimestre).', ref.ch.ebitda),
+          P.card('EBITDA', 'R$ milhões. Contábil: calculado da CVM (EBIT sem equivalência + D&A). Ajustado: releases de resultados, medida não contábil da Companhia.', ref.ch.ebitda),
           P.card('Margens', 'Em % da receita.', ref.ch.margens),
           P.card('Fluxo de caixa', 'DFC da CVM, R$ milhões. Livre = operacional + investimentos em imobilizado e intangível.', ref.ch.caixa),
           P.card('Dívida líquida', 'R$ milhões, fim do período. Dívida bruta inclui arrendamentos; menos caixa e aplicações.', ref.ch.divida),
@@ -542,9 +542,8 @@
         G.linhas(ref.ch.mult, rs, [{ nome: 'P/L', vals: v('pl') }, { nome: 'EV/EBITDA', vals: v('evebitda') }, { nome: 'P/VP', vals: v('pvp') }], function (x) { return f1(x) + 'x'; });
         G.barras(ref.ch.receita, rs, v('receita'), 'Receita', P.fN);
         G.barras(ref.ch.lucro, rs, v('lucro'), 'Lucro líquido', P.fN);
-        var aj = P.D.seg ? P.D.seg.linhas.filter(function (l) { return l.cd_conta === 'EBITDA'; })[0] : null;
         var series = [{ nome: 'EBITDA contábil (CVM)', vals: v('ebitda') }];
-        if (aj && S.base === 'T') series.push({ nome: 'EBITDA Ajustado (release)', vals: cols.map(function (p) { return ok(aj[p]) ? aj[p] : null; }) });
+        if (P.oper && P.D.oper) series.push({ nome: 'EBITDA Ajustado (release)', vals: cols.map(function (p) { return P.oper('CONS', 'ebitda', p, S.base); }) });
         G.linhas(ref.ch.ebitda, rs, series, P.fN);
         G.linhas(ref.ch.margens, rs, [{ nome: 'Margem bruta', vals: v('mb') }, { nome: 'Margem EBITDA contábil', vals: v('mebitda') }, { nome: 'Margem líquida', vals: v('mliq') }], function (x) { return f1(x) + '%'; });
         G.linhas(ref.ch.caixa, rs, [{ nome: 'Operacional', vals: v('fco') }, { nome: 'Livre', vals: v('fcl') }], P.fN);

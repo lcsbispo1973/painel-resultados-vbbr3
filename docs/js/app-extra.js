@@ -3,26 +3,86 @@
   'use strict';
   var P = window.P, G = window.Graficos, Dados = window.Dados, h = P.h, ok = P.ok, S = P.S;
 
-  // ---------- EBITDA Ajustado por segmento (release) ----------
-  function paginaSeg() {
+  // ---------- operacional: volumes, EBITDA Ajustado e margens por segmento (releases, leitura automática) ----------
+  var SEG_ORDEM = ['REDE', 'B2B', 'GC', 'AVI', 'OUT', 'REN'];
+  // valor de uma métrica do release agregado na base escolhida (soma de trimestres; margem = EBITDA ÷ volume)
+  P.oper = function (seg, met, p, base) {
+    var O = P.D.oper; if (!O) return null;
+    var get = function (pp, s, m) { var x = O.series[pp] && O.series[pp][s] && O.series[pp][s][m]; return x && ok(x.v) ? x.v : null; };
+    var segV = seg === 'CONS' ? function (pp, m) { var v = get(pp, 'CONS', m); return v !== null ? v : get(pp, 'DIST', m); } : function (pp, m) { return get(pp, seg, m); };
+    base = base || 'T';
+    if (!Dados.fechaBase(base, p)) return null;
+    var k = Dados.trimestresBase(base, p);
+    if (k === 1 && base === 'T') {
+      var v0 = segV(p, met);
+      if (v0 === null && met === 'margem_m3') { var e0 = segV(p, 'ebitda'), q0 = segV(p, 'vol'); return ok(e0) && q0 ? e0 / q0 * 1000 : null; }
+      return v0;
+    }
+    var n = Dados.ord(p), soma = function (m) { var s = 0; for (var i = n - k + 1; i <= n; i++) { var v = segV(Dados.lab(i), m); if (v === null) return null; s += v; } return s; };
+    if (met === 'margem_m3' || met === 'margem_rec_m3') { var e = soma(met === 'margem_m3' ? 'ebitda' : 'ebitda_rec'), q = soma('vol'); return ok(e) && q ? e / q * 1000 : null; }
+    return soma(met);
+  };
+  function paginaOper() {
     var ref = {};
+    function segsCom(met, cols) { return SEG_ORDEM.filter(function (s) { return cols.some(function (p) { return ok(P.oper(s, met, p, S.base)); }); }); }
+    function linhas(cols) {
+      var O = P.D.oper, out = [], L = function (rot, seg, met, cls, fmt) {
+        var vals = cols.map(function (p) { return P.oper(seg, met, p, S.base); });
+        if (!vals.some(ok)) return;
+        out.push({ id: seg + met, conta: rot, nivel: cls ? 1 : 2, vals: vals, cel: vals.map(fmt || P.fN), cls: cls || '' });
+      };
+      out.push({ grupo: 'Volume de vendas (mil m³)' });
+      L('Total', 'CONS', 'vol', 'tot'); segsCom('vol', cols).forEach(function (s) { L(O.segmentos[s], s, 'vol'); });
+      out.push({ grupo: 'EBITDA Ajustado (R$ milhões)' });
+      L('Consolidado', 'CONS', 'ebitda', 'tot'); L('Consolidado recorrente', 'CONS', 'ebitda_rec');
+      segsCom('ebitda', cols).forEach(function (s) { L(O.segmentos[s], s, 'ebitda'); });
+      out.push({ grupo: 'Margem EBITDA Ajustada (R$/m³)' });
+      L('Consolidado (Distribuição a partir de 2025)', 'CONS', 'margem_m3', 'tot'); L('Consolidado recorrente', 'CONS', 'margem_rec_m3');
+      segsCom('vol', cols).forEach(function (s) { L(O.segmentos[s], s, 'margem_m3'); });
+      return out;
+    }
     return {
       init: function (el) {
-        ref.chart = P.chart('c-seg'); ref.tb = h('table');
+        ref.vol = P.chart('o-vol'); ref.eb = P.chart('o-eb'); ref.m3 = P.chart('o-m3'); ref.cmp = P.chart('o-cmp'); ref.tb = h('table'); ref.fontes = h('div'); ref.reap = h('div');
         el.append(
-          h('div', { class: 'card wide', style: 'margin-bottom:14px' }, h('h2', null, 'EBITDA Ajustado por segmento'),
-            h('p', { class: 'note' }, 'R$ milhões. Barras: Retail, B2B e Renováveis (Comerc, a partir de 2025). Marcador: consolidado, que inclui o Corporativo. Fonte: releases de resultados; carga manual até a leitura automática ficar pronta. Medida não contábil, na definição da Companhia.'), ref.chart),
-          h('div', { class: 'sec' }, h('h2', null, 'EBITDA Ajustado por segmento, R$ milhões'), h('button', { class: 'btn', type: 'button', onclick: exporta }, 'Baixar para Excel')),
-          h('div', { class: 'twrap' }, ref.tb),
-          h('p', { class: 'note', style: 'margin-top:10px' }, 'Renováveis não é apresentado separadamente antes de 2025. O Corporativo do 3T24 contém efeito extraordinário (recuperações tributárias), conforme o release do 4T25.'));
+          h('div', { class: 'grid' },
+            P.card('Volume de vendas por segmento', 'Mil m³. Marcador: volume total.', ref.vol),
+            P.card('EBITDA Ajustado por segmento', 'R$ milhões, medida não contábil da Companhia. Marcador: consolidado, que inclui o Corporativo.', ref.eb),
+            P.card('Margem EBITDA Ajustada', 'R$ por m³ vendido. Nas bases acumuladas, calculada como EBITDA Ajustado ÷ volume.', ref.m3),
+            P.card('EBITDA Ajustado (release) × EBITDA contábil (CVM)', 'R$ milhões. A diferença são os ajustes gerenciais da Companhia (estoques, hedge, créditos fiscais e outros).', ref.cmp)),
+          h('div', { class: 'sec' }, h('h2', null, 'Indicadores operacionais'), h('button', { class: 'btn', type: 'button', onclick: exporta }, 'Baixar para Excel')),
+          h('div', { class: 'twrap' }, ref.tb), ref.fontes, ref.reap,
+          h('p', { class: 'note', style: 'margin-top:10px' }, 'Fonte: releases de resultados arquivados na CVM, lidos automaticamente; cada trimestre usa o número do próprio release do trimestre. Segmentos conforme a divulgação de cada época: Grandes Consumidores e Aviação até 2019; B2B a partir de 2020; Aviação incorporada ao B2B a partir de 2023; Renováveis (Comerc) a partir de 2025. O EBITDA Ajustado do 3T24 é o da manchete do release, sem a recuperação tributária extraordinária (LC 194/22).'));
       },
       render: function () {
-        var d = P.D.seg, ps = d.periodos, v = function (c) { var l = d.linhas.filter(function (x) { return x.cd_conta === c; })[0]; return ps.map(function (p) { return l && ok(l[p]) ? l[p] : null; }); };
-        G.empilhado(ref.chart, ps, [{ nome: 'Retail', vals: v('RET') }, { nome: 'B2B', vals: v('B2B') }, { nome: 'Renováveis (Comerc)', vals: v('REN') }], { nome: 'EBITDA Ajustado consolidado', vals: v('EBITDA') }, P.fN);
-        P.tabela(ref.tb, 'R$ milhões', ps, d.linhas.map(function (l) { return { conta: l.conta, nivel: l.nivel, cel: ps.map(function (p) { return P.fN(l[p]); }), cls: l.cd_conta === 'EBITDA' || l.cd_conta === 'TOT' ? 'tot' : '' }; }));
+        var O = P.D.oper, cols = P.lista('dre').filter(function (p) { return ok(P.oper('CONS', 'vol', p, S.base)) || ok(P.oper('CONS', 'ebitda', p, S.base)); }), rs = cols.map(P.rot);
+        var serie = function (seg, met) { return cols.map(function (p) { return P.oper(seg, met, p, S.base); }); };
+        if (!cols.length) { G.falha(ref.vol, 'Sem dados de release no intervalo escolhido'); return; }
+        G.empilhado(ref.vol, rs, segsCom('vol', cols).map(function (s) { return { nome: O.segmentos[s], vals: serie(s, 'vol') }; }), { nome: 'Volume total', vals: serie('CONS', 'vol') }, P.fN);
+        G.empilhado(ref.eb, rs, segsCom('ebitda', cols).map(function (s) { return { nome: O.segmentos[s], vals: serie(s, 'ebitda') }; }), { nome: 'EBITDA Ajustado consolidado', vals: serie('CONS', 'ebitda') }, P.fN);
+        G.linhas(ref.m3, rs, [{ nome: 'Consolidado', vals: serie('CONS', 'margem_m3') }, { nome: 'Rede de Postos', vals: serie('REDE', 'margem_m3') }, { nome: 'B2B', vals: serie('B2B', 'margem_m3') }], function (x) { return P.fInt(x); });
+        G.linhas(ref.cmp, rs, [{ nome: 'EBITDA Ajustado (release)', vals: serie('CONS', 'ebitda') }, { nome: 'EBITDA contábil (CVM)', vals: cols.map(function (p) { return P.M.ind('ebitda', p, S.base); }) }], P.fN);
+        P.tabela(ref.tb, '', rs, linhas(cols));
+        // fontes do trimestre (base trimestre)
+        ref.fontes.replaceChildren();
+        if (S.base === 'T') {
+          var links = cols.map(function (p) { var s = O.series[p], c = s && (s.CONS || s.DIST), f = c && (c.vol || c.ebitda); return f ? h('a', { href: f.fonte.link, target: '_blank', rel: 'noopener noreferrer' }, p) : null; }).filter(Boolean);
+          if (links.length) ref.fontes.append(h('p', { class: 'note', style: 'margin-top:10px' }, 'Releases de origem (abre o PDF na CVM): ', links.reduce(function (a, x, i) { if (i) a.push(' · '); a.push(x); return a; }, [])));
+        }
+        var rp = [];
+        cols.forEach(function (p) { var s = O.series[p] || {}; Object.keys(s).forEach(function (seg) { Object.keys(s[seg]).forEach(function (m) { var x = s[seg][m]; if (x.reapresentado) rp.push(p + ' · ' + (O.segmentos[seg] || seg) + ' · ' + m + ': ' + P.fN(x.v) + ' no release do trimestre; ' + x.reapresentado.map(function (r) { return P.fN(r.valor) + ' em ' + P.fData(r.release); }).join(', ')); }); }); });
+        ref.reap.replaceChildren();
+        if (rp.length && S.base === 'T') ref.reap.append(h('details', { class: 'note' }, h('summary', null, rp.length + ' número(s) reapresentado(s) em releases posteriores'), h('ul', null, rp.map(function (t) { return h('li', null, t.replace(/ebitda_rec/, 'EBITDA recorrente').replace(/margem_rec_m3/, 'margem recorrente').replace(/margem_m3/, 'margem R$/m³').replace(/ebitda/, 'EBITDA').replace(/vol/, 'volume')); }))));
       }
     };
-    function exporta() { var d = P.D.seg; P.csv('vibra_ebitda_segmentos.csv', ['conta'].concat(d.periodos), d.linhas.map(function (l) { return [l.conta].concat(d.periodos.map(function (p) { return P.numCsv(l[p]); })); })); }
+    function exporta() { var cols = P.lista('dre'), ls = linhas(cols).filter(function (l) { return !l.grupo; }); P.csv('vibra_operacional_' + S.base + '.csv', ['indicador'].concat(cols.map(P.rot)), ls.map(function (l) { return [l.conta].concat(l.vals.map(P.numCsv)); })); }
+  }
+
+  // compatibilidade: EBITDA Ajustado consolidado no formato usado pela visão executiva e pela análise automática
+  function segDoRelease(O) {
+    var l = { cd_conta: 'EBITDA', conta: 'EBITDA Ajustado consolidado', nivel: 1 };
+    O.periodos.forEach(function (p) { var x = O.series[p].CONS && O.series[p].CONS.ebitda; if (x) l[p] = x.v; });
+    return { periodos: O.periodos, linhas: [l] };
   }
 
   // ---------- dividendos e JCP (site de RI) ----------
@@ -225,7 +285,7 @@
 
   // ---------- carga ----------
   var ARQ = { dre: 'cvm_dre.json', bp: 'cvm_balanco.json', dfc: 'cvm_fluxo_caixa.json', dva: 'cvm_dva.json', dra: 'cvm_dra.json', dmpl: 'cvm_dmpl.json', acoes: 'cvm_acoes.json',
-    conf: 'cvm_conferencias.json', status: 'cvm_status.json', seg: 'release_segmentos.json', div: 'dividendos.json', freIndice: 'fre/indice.json', freSeries: 'fre_series.json', b3: 'b3_cotacoes.json', ipe: 'ipe.json' };
+    conf: 'cvm_conferencias.json', status: 'cvm_status.json', oper: 'release_operacional.json', div: 'dividendos.json', freIndice: 'fre/indice.json', freSeries: 'fre_series.json', b3: 'b3_cotacoes.json', ipe: 'ipe.json' };
   var OBRIG = { dre: 1, bp: 1, dfc: 1, conf: 1, status: 1 };
   Promise.all(Object.keys(ARQ).map(function (k) {
     return fetch('data/' + ARQ[k], { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(ARQ[k] + ' (' + r.status + ')'); return r.json(); }).then(function (j) { P.D[k] = j; })
@@ -234,7 +294,7 @@
     var D = P.D;
     P.M = Dados.criar({ dre: D.dre, bp: D.bp, dfc: D.dfc, dva: D.dva, dra: D.dra, acoes: D.acoes, b3: D.b3 });
     P.nucleo();
-    if (D.seg) P.registra('seg', 'EBITDA por segmento', paginaSeg(), false);
+    if (D.oper && D.oper.periodos && D.oper.periodos.length) { D.seg = segDoRelease(D.oper); P.registra('oper', 'Operacional e EBITDA Ajustado', paginaOper(), true); }
     if (D.div) P.registra('div', 'Dividendos e JCP', paginaDiv(), false);
     if (D.ipe && D.ipe.documentos && D.ipe.documentos.length) P.registra('ipe', 'Comunicados e fatos relevantes', paginaIpe(), false);
     if (D.freIndice && D.freSeries) P.registra('fre', 'Formulário de Referência', paginaFre(), false);

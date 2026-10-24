@@ -33,7 +33,8 @@ Todas as informações são públicas. Valores em R$ milhões, consolidado.
   no ano, últimos 12 meses e ano. Publicado no GitHub Pages pelo mesmo workflow.
 - **Análise automática**: texto gerado por regras a partir das demonstrações. Não é o Comentário do Desempenho (MD&A) oficial
   e não explica causas.
-- `data/release_segmentos.json` e `data/dividendos.json`: EBITDA Ajustado por segmento (releases) e proventos (site de RI), por ora carregados manualmente.
+- `pipeline/releases.py` e `pipeline/releases_ler.py`: baixam os releases de resultados arquivados na CVM (IPE, Press-release), extraem o texto e leem volumes, EBITDA Ajustado (consolidado, recorrente e por segmento) e margens R$/m³ desde 4T17, com portões de qualidade (trimestre identificado no cabeçalho, margem ≈ EBITDA ÷ volume, comparação com reapresentações posteriores). Resultado em `data/release_operacional.json`.
+- `data/dividendos.json`: proventos (site de RI), por ora carregados manualmente.
 - `pipeline/b3.py`: baixa as Séries Históricas da B3 (COTAHIST) e grava o fechamento diário de BRDT3/VBBR3 (desde o IPO, dez/2017) em `data/b3_cotacoes.json`. Alimenta os indicadores de mercado (valor de mercado, EV, P/L, P/VP, EV/EBITDA, rendimentos). Preço sem ajuste por proventos, multiplicado pelas ações em circulação da mesma data (CVM, a partir de 1T20).
 - `pipeline/ipe.py`: índice de comunicados ao mercado, fatos relevantes, avisos e demais documentos eventuais (base IPE da CVM), com link para o original, em `data/ipe.json`.
 - Períodos: trimestre, semestre, 9 meses, acumulado no ano, 12 meses, ano e intervalo livre (soma de trimestres) na comparação; filtros com botão Aplicar.
@@ -41,7 +42,6 @@ Todas as informações são públicas. Valores em R$ milhões, consolidado.
 
 ## Em construção
 
-- Leitura automática dos releases (EBITDA Ajustado por segmento e indicadores operacionais) com conferência contra a CVM.
 - Leitura automática da página de dividendos e JCP.
 
 EBITDA Ajustado e seus segmentos são medidas não contábeis definidas pela Companhia e não constam nos Dados Abertos da CVM.

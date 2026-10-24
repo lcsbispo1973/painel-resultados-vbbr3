@@ -236,5 +236,5 @@
     return m;
   }
 
-  return { criar: criar, ord: ord, lab: lab, rotulo: rotulo, desloca: desloca, tri: tri, BASES: BASES, ok: ok, ehIntervalo: ehIntervalo };
+  return { criar: criar, ord: ord, lab: lab, rotulo: rotulo, desloca: desloca, tri: tri, BASES: BASES, ok: ok, ehIntervalo: ehIntervalo, trimestresBase: trimestresBase, fechaBase: fechaBase };
 });
