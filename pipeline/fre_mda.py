@@ -32,17 +32,67 @@ def pdf_texto(b):
         return r.stdout.decode("utf-8", "ignore") if r.returncode == 0 else ""
 
 
-def item10(xml):
-    """Texto do anexo que contém o item 10.1."""
-    for m in re.finditer(r"<ImagemObjetoArquivoPdf>([A-Za-z0-9+/=\s]{2000,})</ImagemObjetoArquivoPdf>", xml):
+def tem_item10(t):
+    return bool(t) and re.search(r"condi[çc][õo]es financeiras e patrimoniais gerais", t, re.I) and re.search(r"estrutura de capital", t, re.I)
+
+
+def rtf_texto(b):
+    t = b.decode("latin-1", "ignore")
+    t = re.sub(r"\\'([0-9a-f]{2})", lambda m: bytes([int(m.group(1), 16)]).decode("latin-1"), t)
+    t = re.sub(r"\\par[d]?\b", "\n", t)
+    t = re.sub(r"\\[a-z]+-?\d* ?|[{}]", "", t)
+    return t
+
+
+def html_texto(t):
+    import html as H
+    t = H.unescape(H.unescape(t))
+    t = re.sub(r"<\s*(br|/p|/div|/li|/h\d)[^>]*>", "\n\n", t, flags=re.I)
+    t = re.sub(r"<[^>]+>", " ", t)
+    return t
+
+
+def conteudo(b, rastro, prof=0):
+    """Gera (descrição, texto) de tudo o que houver no arquivo: PDF, XML (texto e anexos base64), RTF, HTML, zips aninhados."""
+    if prof > 3 or not b:
+        return
+    if b.startswith(b"%PDF"):
+        yield "pdf", pdf_texto(b)
+    elif b[:2] == b"PK":
         try:
-            b = base64.b64decode(re.sub(r"\s+", "", m.group(1)))
+            z = zipfile.ZipFile(io.BytesIO(b))
         except Exception:  # noqa: BLE001
-            continue
-        if not b.startswith(b"%PDF"):
-            continue
-        t = pdf_texto(b)
-        if re.search(r"condi[çc][õo]es financeiras e patrimoniais gerais", t, re.I) and re.search(r"estrutura de capital", t, re.I):
+            return
+        rastro.append("zip[%s]" % ", ".join("%s (%d)" % (i.filename, i.file_size) for i in z.infolist()[:15]))
+        for i in sorted(z.infolist(), key=lambda i: -i.file_size):
+            yield from conteudo(z.read(i.filename), rastro, prof + 1)
+    elif b.lstrip()[:5] == b"{\\rtf":
+        yield "rtf", rtf_texto(b)
+    else:
+        if b[:2] in (b"\xff\xfe", b"\xfe\xff"):
+            t = b.decode("utf-16", "ignore")
+        else:
+            m = re.search(rb'encoding="([^"]+)"', b[:200])
+            enc = m.group(1).decode() if m else "utf-8"
+            try:
+                t = b.decode(enc, "ignore")
+            except LookupError:
+                t = b.decode("utf-8", "ignore")
+        if "<" in t[:400]:
+            yield "xml/html", html_texto(t)
+            for m in re.finditer(r">([A-Za-z0-9+/=\s]{2000,})<", t):
+                try:
+                    bb = base64.b64decode(re.sub(r"\s+", "", m.group(1)))
+                except Exception:  # noqa: BLE001
+                    continue
+                yield from conteudo(bb, rastro, prof + 1)
+
+
+def item10(b, rastro):
+    """Texto (do pacote do FRE) que contém o item 10.1."""
+    for como, t in conteudo(b, rastro):
+        if tem_item10(t):
+            rastro.append("item 10 em " + como)
             return t
     return None
 
@@ -87,17 +137,13 @@ def main():
         b = baixar(doc["link"])
         if not b or b[:2] != b"PK":
             log.append("- %s: download falhou" % ano); continue
-        with zipfile.ZipFile(io.BytesIO(b)) as z:
-            nome = [n for n in z.namelist() if "FRE" in n and n.endswith(".xml")]
-            if not nome:
-                log.append("- %s: XML não encontrado" % ano); continue
-            xml = z.read(nome[0]).decode("utf-8", "ignore")
-        t = item10(xml)
+        rastro = []
+        t = item10(b, rastro)
         if not t:
-            log.append("- %s: item 10 não encontrado nos anexos" % ano); continue
+            log.append("- %s: item 10 não encontrado; pacote: %s" % (ano, " | ".join(rastro)[:1500])); continue
         sub = subitens(t)
         atual["anos"][ano] = {"chave": chave, "versao": doc["versao"], "recebido": doc["dt_receb"], "link": doc["link"].replace("http://", "https://"), "subitens": sub}
-        log.append("- %s v%s: subitens %s" % (ano, doc["versao"], ", ".join(sorted(sub)) or "nenhum"))
+        log.append("- %s v%s: subitens %s (%s)" % (ano, doc["versao"], ", ".join(sorted(sub)) or "nenhum", rastro[-1]))
     atual["fonte"] = "Formulário de Referência (CVM), item 10 — comentários dos diretores, última versão de cada ano"
     atual["atualizado_em"] = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     json.dump(atual, open(caminho, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
