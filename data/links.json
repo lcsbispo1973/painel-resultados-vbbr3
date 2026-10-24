@@ -1,16 +1,16 @@
 {
- "verificado_em": "2026-10-24T23:07:25Z",
+ "verificado_em": "2026-10-24T23:15:39Z",
  "total": 1352,
  "ok": 1352,
  "por_tipo": {
-  "documento": 1164,
-  "página": 188
+  "documento": 1156,
+  "página": 196
  },
  "paginas": [
   {
    "amostra": "ENET Download de Documento | ENET Download de Documento",
-   "n": 188,
-   "exemplo": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1003365&numSequencia=528099&numVersao=1"
+   "n": 196,
+   "exemplo": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1008312&numSequencia=533046&numVersao=2"
   }
  ],
  "quebrados": []
