@@ -26,20 +26,24 @@
   {
    "provento": "JSCP",
    "referencia": 2026,
-   "data_ex": "2026-03-27",
+   "data_ex": null,
    "valor_total": 393537245.31,
-   "valor_acao": 0.33,
+   "valor_acao": 0.32999456225,
    "data_pagamento": "2027-09-15",
-   "data_com": null
+   "data_com": "2026-03-26",
+   "aviso": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1494108&numSequencia=1018814&numVersao=2",
+   "aviso_data": "2026-03-23"
   },
   {
    "provento": "JSCP",
    "referencia": 2025,
    "data_ex": "2025-11-26",
    "valor_total": 850000000.0,
-   "valor_acao": 0.76,
+   "valor_acao": 0.76344892045,
    "data_pagamento": "2026-12-16",
-   "data_com": null
+   "data_com": "2025-11-25",
+   "aviso": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1449438&numSequencia=974150&numVersao=1",
+   "aviso_data": "2025-11-25"
   },
   {
    "provento": "JSCP",

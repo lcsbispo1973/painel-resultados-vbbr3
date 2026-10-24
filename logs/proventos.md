@@ -1,12 +1,12 @@
 # Proventos — conferência com os avisos da CVM
 
-44 avisos lidos; 29 eventos no site de RI.
-19 eventos conferidos com o aviso.
+56 avisos lidos; 29 eventos no site de RI.
+21 eventos conferidos com o aviso.
 
 - JSCP 2026-09-22: R$ 0.41736421842 por ação, data com 2026-09-21 (aviso de 2026-08-14)
 - JSCP 2026-06-22: R$ 0.46662275758 por ação, data com 2026-06-22, ex 2026-06-23 (aviso de 2026-06-22)
-- JSCP 2026-03-27: sem aviso inequívoco (0 candidato(s)); mantido o site de RI
-- JSCP 2025-11-26: sem aviso inequívoco (0 candidato(s)); mantido o site de RI
+- JSCP 2026-03-27: R$ 0.32999456225 por ação, data com 2026-03-26 (aviso de 2026-03-23)
+- JSCP 2025-11-26: R$ 0.76344892045 por ação, data com 2025-11-25, ex 2025-11-26 (aviso de 2025-11-25)
 - JSCP 2025-03-24: R$ 0.31403898619 por ação, data com 2025-03-21, ex 2025-03-24 (aviso de 2025-02-24)
 - Dividendo 2025-04-17: R$ 0.50435328748 por ação, data com 2025-04-16, ex 2025-04-17 (aviso de 2025-04-16)
 - JSCP 2024-12-26: R$ 0.26199833017 por ação, data com 2024-12-23, ex 2024-12-26 (aviso de 2024-12-19)

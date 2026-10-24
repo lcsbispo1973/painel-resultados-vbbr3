@@ -1,7 +1,17 @@
 {
  "grupo": "vibra_proventos",
- "atualizado_em": "2026-10-24T19:16:31Z",
+ "atualizado_em": "2026-10-24T19:27:08Z",
  "documentos": [
+  {
+   "protocolo": "024295IPE140820260130936892-28",
+   "data_entrega": "2026-08-19",
+   "data_referencia": "2026-08-14",
+   "categoria": "Reunião da Administração",
+   "tipo": "Conselho de Administração",
+   "assunto": "Distribuição de Dividendos/Juros sobre Capital Próprio||Resultados de desempenho das atividades Vibra 2T26",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1559393&numSequencia=1084099&numVersao=1",
+   "arquivo": "2026-08-19_024295IPE140820260130936892-28.txt"
+  },
   {
    "protocolo": "024295IPE140820260175866648-90",
    "data_entrega": "2026-08-14",
@@ -21,6 +31,66 @@
    "assunto": "Dividendos/Juros sobre Capital Próprio",
    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1537230&numSequencia=1061936&numVersao=1",
    "arquivo": "2026-06-22_024295IPE220620260102890340-95.txt"
+  },
+  {
+   "protocolo": "024295IPE150620260246901306-31",
+   "data_entrega": "2026-06-16",
+   "data_referencia": "2026-06-15",
+   "categoria": "Comunicado ao Mercado",
+   "tipo": "Outros Comunicados Não Considerados Fatos Relevantes",
+   "assunto": "Remuneração aos Acionistas",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1534899&numSequencia=1059605&numVersao=2",
+   "arquivo": "2026-06-16_024295IPE150620260246901306-31.txt"
+  },
+  {
+   "protocolo": "024295IPE150620260113255505-08",
+   "data_entrega": "2026-06-15",
+   "data_referencia": "2026-06-15",
+   "categoria": "Comunicado ao Mercado",
+   "tipo": "Outros Comunicados Não Considerados Fatos Relevantes",
+   "assunto": "Remuneração aos Acionistas",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1534791&numSequencia=1059497&numVersao=1",
+   "arquivo": "2026-06-15_024295IPE150620260113255505-08.txt"
+  },
+  {
+   "protocolo": "024295IPE230320260393852206-11",
+   "data_entrega": "2026-03-24",
+   "data_referencia": "2026-03-23",
+   "categoria": "Reunião da Administração",
+   "tipo": "Conselho de Administração",
+   "assunto": "Distribuição de Dividendos/Juros sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1494350&numSequencia=1019056&numVersao=3",
+   "arquivo": "2026-03-24_024295IPE230320260393852206-11.txt"
+  },
+  {
+   "protocolo": "024295IPE230320260279966747-98",
+   "data_entrega": "2026-03-23",
+   "data_referencia": "2026-03-23",
+   "categoria": "Reunião da Administração",
+   "tipo": "Conselho de Administração",
+   "assunto": "Distribuição de Dividendos/Juros sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1494108&numSequencia=1018814&numVersao=2",
+   "arquivo": "2026-03-23_024295IPE230320260279966747-98.txt"
+  },
+  {
+   "protocolo": "024295IPE251120250174082949-40",
+   "data_entrega": "2025-11-25",
+   "data_referencia": "2025-11-25",
+   "categoria": "Aviso aos Acionistas",
+   "tipo": "Outros avisos",
+   "assunto": "Remuneração aos Acionistas",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1449438&numSequencia=974150&numVersao=1",
+   "arquivo": "2025-11-25_024295IPE251120250174082949-40.txt"
+  },
+  {
+   "protocolo": "024295IPE191120250183048334-58",
+   "data_entrega": "2025-11-19",
+   "data_referencia": "2025-11-19",
+   "categoria": "Aviso aos Acionistas",
+   "tipo": "Outros avisos",
+   "assunto": "Remuneração aos Acionistas",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1447586&numSequencia=972298&numVersao=1",
+   "arquivo": "2025-11-19_024295IPE191120250183048334-58.txt"
   },
   {
    "protocolo": "024295IPE160420250190391321-43",
@@ -121,6 +191,16 @@
    "assunto": "Vibra Aprova Pagamento de Juros Sobre Capital Próprio",
    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1253408&numSequencia=778134&numVersao=1",
    "arquivo": "2024-06-25_024295IPE250620240104546811-37.txt"
+  },
+  {
+   "protocolo": "024295IPE250620240104546811-50",
+   "data_entrega": "2024-06-25",
+   "data_referencia": "2024-06-25",
+   "categoria": "Reunião da Administração",
+   "tipo": "Conselho de Administração",
+   "assunto": "Vibra Aprova Pagamento de Juros Sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1253411&numSequencia=778137&numVersao=1",
+   "arquivo": "2024-06-25_024295IPE250620240104546811-50.txt"
   },
   {
    "protocolo": "024295IPE200520240104543212-87",
@@ -303,6 +383,16 @@
    "arquivo": "2021-01-08_024295IPE080120210104420411-19.txt"
   },
   {
+   "protocolo": "024295IPE161220200104418711-62",
+   "data_entrega": "2020-12-22",
+   "data_referencia": "2020-12-16",
+   "categoria": "Reunião da Administração",
+   "tipo": "Conselho de Administração",
+   "assunto": "Proposta de declaração de Juros sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=818704&numSequencia=343442&numVersao=1",
+   "arquivo": "2020-12-22_024295IPE161220200104418711-62.txt"
+  },
+  {
    "protocolo": "024295IPE161220200104418213-01",
    "data_entrega": "2020-12-17",
    "data_referencia": "2020-12-16",
@@ -363,6 +453,16 @@
    "arquivo": "2020-06-09_024295IPE090620200104399113-56.txt"
   },
   {
+   "protocolo": "024295IPE291120190104380211-07",
+   "data_entrega": "2019-12-03",
+   "data_referencia": "2019-11-29",
+   "categoria": "Reunião da Administração",
+   "tipo": "Conselho de Administração",
+   "assunto": "Designação da nova diretora de gente e gestão||Distribuição de Dividendos/Juros sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=723915&numSequencia=248724&numVersao=1",
+   "arquivo": "2019-12-03_024295IPE291120190104380211-07.txt"
+  },
+  {
    "protocolo": "024295IPE291120190204379811-66",
    "data_entrega": "2019-11-29",
    "data_referencia": "2019-11-29",
@@ -403,6 +503,16 @@
    "arquivo": "2019-04-26_024295IPE260420190204358112-16.txt"
   },
   {
+   "protocolo": "024295IPE261120180104343708-91",
+   "data_entrega": "2018-12-03",
+   "data_referencia": "2018-11-26",
+   "categoria": "Reunião da Administração",
+   "tipo": "Conselho de Administração",
+   "assunto": "Proposta de declaração de juros sobre capital próprio em 2018",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=654076&numSequencia=185244&numVersao=1",
+   "arquivo": "2018-12-03_024295IPE261120180104343708-91.txt"
+  },
+  {
    "protocolo": "024295IPE301120180104343411-80",
    "data_entrega": "2018-11-30",
    "data_referencia": "2018-11-30",
@@ -431,6 +541,16 @@
    "assunto": "Dividendos/Juros sobre Capital Próprio",
    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=633282&numSequencia=167223&numVersao=1",
    "arquivo": "2018-07-18_024295IPE180720180104329908-04.txt"
+  },
+  {
+   "protocolo": "024295IPE260120180104313706-56",
+   "data_entrega": "2018-02-06",
+   "data_referencia": "2018-01-26",
+   "categoria": "Reunião da Administração",
+   "tipo": "Conselho de Administração",
+   "assunto": "Distribuição de Dividendos/Juros sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=595371&numSequencia=138167&numVersao=1",
+   "arquivo": "2018-02-06_024295IPE260120180104313706-56.txt"
   },
   {
    "protocolo": "024295IPE290120180104312904-99",
