@@ -66,6 +66,9 @@ def testa(url):
                     return "quebrado", "página de erro da CVM"
                 tit = re.search(r"<title[^>]*>(.*?)</title>", txt, re.I | re.S)
                 corpo = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", re.sub(r"(?is)<(script|style).*?</\1>", " ", txt))).strip()
+                if not os.path.exists(os.path.join(RAIZ, "logs", "links_exemplo.html")):
+                    os.makedirs(os.path.join(RAIZ, "logs"), exist_ok=True)
+                    open(os.path.join(RAIZ, "logs", "links_exemplo.html"), "w", encoding="utf-8").write("<!-- " + url + " -->\n" + txt)
                 AMOSTRAS[url] = ((tit.group(1).strip() if tit else "") + " | " + corpo[:160])[:220]
                 return "ok", "página"
         except urllib.error.HTTPError as e:
