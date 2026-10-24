@@ -1,7 +1,7 @@
 # Vibra em Números — resultados, mercado e comunicados da Vibra Energia (VBBR3)
 
 Painel público com os números da Vibra Energia S.A., atualizado e publicado automaticamente todos os dias:
-https://lcsbispo1973.github.io/painel-resultados-vbbr3/
+https://vibraemnumeros.github.io/
 
 Todas as informações são públicas. Valores em R$ milhões, consolidado.
 
