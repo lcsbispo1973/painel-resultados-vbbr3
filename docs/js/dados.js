@@ -13,6 +13,10 @@
   var tri = function (p) { return +p[0]; };
   var desloca = function (p, k) { return lab(ord(p) - k); };
   var BASES = { T: 'Trimestre', S: 'Semestre', '9M': '9 meses (jan–set)', YTD: 'Acumulado no ano', LTM: 'Últimos 12 meses', AN: 'Ano (exercício)' };
+  // seletor "ano → período": tipo de período → (trimestre final, base)
+  var TIPOS = { '1T': ['T', 1], '2T': ['T', 2], '3T': ['T', 3], '4T': ['T', 4], '1S': ['S', 2], '2S': ['S', 4], '9M': ['9M', 3], 'AN': ['AN', 4] };
+  var TIPOS_NOME = { '1T': '1º tri', '2T': '2º tri', '3T': '3º tri', '4T': '4º tri', '1S': '1º sem', '2S': '2º sem', '9M': '9 meses', 'AN': 'Ano' };
+  var par = function (ano, tipo) { var t = TIPOS[tipo]; return t ? { p: t[1] + 'T' + String(ano % 100).padStart(2, '0'), base: t[0], ano: +ano, tipo: tipo } : null; };
   // intervalo livre: base 'R:<trimestre inicial>' soma do trimestre inicial até o período p (inclusive)
   var ehIntervalo = function (base) { return typeof base === 'string' && base.indexOf('R:') === 0; };
   var fechaBase = function (base, p) {   // o período p é um fim válido para a base?
@@ -74,6 +78,29 @@
     };
     m.ultimaCotacao = function () { return cot.length ? cot[cot.length - 1] : null; };
     m.linhas = function (ds) { return dados[ds] ? dados[ds].linhas : []; };
+    // EBITDA Ajustado (nota de informações por segmento das DFs/ITRs; release só onde a DF não traz o trimestre)
+    var AJ = dados.aj || null;
+    m.ajFonte = function (seg, p) { var x = AJ && AJ.series[p] && AJ.series[p][seg]; return x || null; };
+    m.aj = function (seg, p, base) {
+      base = base || 'T';
+      if (!AJ || !fechaBase(base, p)) return null;
+      var k = trimestresBase(base, p), n = ord(p), s = 0;
+      for (var i = n - k + 1; i <= n; i++) { var x = AJ.series[lab(i)] && AJ.series[lab(i)][seg]; if (!x || !ok(x.v)) return null; s += x.v; }
+      return s;
+    };
+    m.ajPeriodos = function () { return AJ ? AJ.periodos.slice() : []; };
+    // seletor ano → período
+    m.par = par;
+    m.disponivel = function (ano, tipo) { var x = par(ano, tipo); return !!x && m.agg('dre', '3.01', x.p, x.base) !== null; };
+    m.anos = function () { var s = {}; (per.dre || []).forEach(function (p) { s[2000 + +p.slice(2)] = 1; }); return Object.keys(s).map(Number).sort(); };
+    m.ultimoPar = function () { var l = per.dre || [], p = l[l.length - 1]; return par(2000 + +p.slice(2), p[0] + 'T'); };
+    // histórico do mesmo tipo de período terminando em x: trimestres consecutivos para trimestre; anos anteriores para os demais
+    m.historico = function (x, n) {
+      var out = [];
+      if (x.base === 'T') { for (var i = n - 1; i >= 0; i--) { var p = desloca(x.p, i); if (m.agg('dre', '3.01', p, 'T') !== null) out.push(p); } }
+      else { for (var j = n - 1; j >= 0; j--) { var q = desloca(x.p, 4 * j); if (m.agg('dre', '3.01', q, x.base) !== null) out.push(q); } }
+      return out;
+    };
     m.linha = function (ds, cd) { return idx[ds][cd] || null; };
     m.todosPeriodos = function () {
       var s = {}; Object.keys(per).forEach(function (ds) { per[ds].forEach(function (p) { s[p] = 1; }); });
@@ -127,6 +154,7 @@
       c.mcap = function () { var a = c.acoes(0), pr = c.preco(); return ok(a) && ok(pr) ? pr * a / 1e6 : null; };   // R$ mi
       c.ev = function () { var mc = c.mcap(), dl = c.dliq(0); return ok(mc) && ok(dl) ? mc + dl + nz(c.b('2.03.09', 0)) : null; };
       c.bm = function (cd) { return media(c.b(cd, 0), c.b(cd, 4)); };    // saldo médio: início e fim dos 12 meses
+      c.aj = function (udm) { return m.aj('CONS', p, udm ? 'LTM' : base); };   // EBITDA Ajustado (nota de segmentos)
       c.ebitda = function (f) { f = f || c.t; var ebit = sub(f('dre', '3.05'), nz(f('dre', '3.04.06'))); return ok(ebit) && ok(f('dva', '7.04.01')) ? ebit - f('dva', '7.04.01') : null; };
       c.ebit = function (f) { f = f || c.t; return sub(f('dre', '3.05'), nz(f('dre', '3.04.06'))); };
       c.dbruta = function (k) { var a = c.b('2.01.04', k), b = c.b('2.02.01', k); return soma(a, b); };
@@ -149,13 +177,14 @@
     add(G.mar, 'rbruto', 'Resultado bruto', 'R$ mi', '3.03', function (c) { return c.t('dre', '3.03'); });
     add(G.mar, 'ebit', 'EBIT (ex-equivalência)', 'R$ mi', '3.05 − 3.04.06', function (c) { return c.ebit(); }, 'Resultado antes do financeiro e dos tributos, sem o resultado de equivalência patrimonial.');
     add(G.mar, 'da', 'Depreciação e amortização', 'R$ mi', '− DVA 7.04.01', function (c) { var v = c.t('dva', '7.04.01'); return ok(v) ? -v : null; }, 'Linha de retenções da DVA.');
-    add(G.mar, 'ebitda', 'EBITDA contábil (CVM)', 'R$ mi', 'EBIT (ex-equivalência) + depreciação e amortização', function (c) { return c.ebitda(); }, 'Calculado a partir das demonstrações da CVM. Não é o EBITDA Ajustado do release, que exclui outros efeitos definidos pela Companhia.');
+    add(G.mar, 'ebitda', 'EBITDA Ajustado', 'R$ mi', 'Nota de informações por segmento das ITRs/DFPs (release até 2021)', function (c) { return c.aj(); }, 'Medida não contábil definida pela Companhia, apresentada na nota de informações por segmento das demonstrações financeiras desde 2023 (com comparativos de 2022); de 4T17 a 4T21, conforme o release de resultados.');
+    add(G.mar, 'ebitdac', 'EBITDA contábil (referência)', 'R$ mi', 'EBIT (ex-equivalência) + depreciação e amortização (DVA 7.04.01)', function (c) { return c.ebitda(); }, 'Calculado a partir das demonstrações; serve de referência para a ponte com o EBITDA Ajustado.');
     add(G.mar, 'rfin', 'Resultado financeiro', 'R$ mi', '3.06', function (c) { return c.t('dre', '3.06'); });
     add(G.mar, 'lucro', 'Lucro líquido consolidado', 'R$ mi', '3.11', function (c) { return c.t('dre', '3.11'); });
     add(G.mar, 'lucroc', 'Lucro atribuído aos controladores', 'R$ mi', '3.11.01', function (c) { return c.t('dre', '3.11.01'); });
     add(G.mar, 'mb', 'Margem bruta', '%', 'Resultado bruto (3.03) ÷ Receita (3.01)', function (c) { return div(c.t('dre', '3.03'), c.t('dre', '3.01')); });
     add(G.mar, 'mebit', 'Margem EBIT', '%', 'EBIT (ex-equivalência) ÷ Receita', function (c) { return div(c.ebit(), c.t('dre', '3.01')); });
-    add(G.mar, 'mebitda', 'Margem EBITDA contábil', '%', 'EBITDA contábil ÷ Receita', function (c) { return div(c.ebitda(), c.t('dre', '3.01')); });
+    add(G.mar, 'mebitda', 'Margem EBITDA Ajustado', '%', 'EBITDA Ajustado ÷ Receita (3.01)', function (c) { return div(c.aj(), c.t('dre', '3.01')); });
     add(G.mar, 'mliq', 'Margem líquida', '%', 'Lucro líquido consolidado (3.11) ÷ Receita (3.01)', function (c) { return div(c.t('dre', '3.11'), c.t('dre', '3.01')); });
     add(G.mar, 'dv', 'Despesas com vendas ÷ receita', '%', '− 3.04.01 ÷ 3.01', function (c) { return div(mul(-1, c.t('dre', '3.04.01')), c.t('dre', '3.01')); });
     add(G.mar, 'dga', 'Despesas gerais e administrativas ÷ receita', '%', '− 3.04.02 ÷ 3.01', function (c) { return div(mul(-1, c.t('dre', '3.04.02')), c.t('dre', '3.01')); });
@@ -181,7 +210,7 @@
     add(G.end, 'dbruta', 'Dívida bruta', 'R$ mi', 'Empréstimos e financiamentos 2.01.04 + 2.02.01', function (c) { return c.dbruta(0); }, 'Na CVM essas contas incluem os passivos de arrendamento (financiamento por arrendamento). Não inclui instrumentos derivativos nem o financiamento de fornecimento de produtos (2.01.05.02.08).');
     add(G.end, 'caixa', 'Caixa e aplicações financeiras', 'R$ mi', '1.01.01 + 1.01.02', function (c) { return c.caixa(0); }, 'Não inclui caixa e aplicações restritas (1.01.08.03.05).');
     add(G.end, 'dliq', 'Dívida líquida', 'R$ mi', 'Dívida bruta − caixa e aplicações', function (c) { return c.dliq(0); }, 'Definição contábil a partir da CVM. A dívida líquida do release pode diferir (por exemplo, tratamento de derivativos).');
-    add(G.end, 'dlebitda', 'Dívida líquida ÷ EBITDA contábil (UDM)', 'x', 'Dívida líquida ÷ EBITDA contábil UDM', function (c) { var e = c.ebitda(c.u); return ok(e) && e > 0 ? div(c.dliq(0), e) : null; }, NOTA_UDM + ' Só calculado com EBITDA positivo.');
+    add(G.end, 'dlebitda', 'Dívida líquida ÷ EBITDA Ajustado (UDM)', 'x', 'Dívida líquida ÷ EBITDA Ajustado dos últimos 12 meses', function (c) { var e = c.aj(true); return ok(e) && e > 0 ? div(c.dliq(0), e) : null; }, NOTA_UDM + ' Dívida líquida conforme este painel (inclui arrendamentos); pode diferir da alavancagem divulgada pela Companhia.');
     add(G.end, 'dlpl', 'Dívida líquida ÷ PL', 'x', 'Dívida líquida ÷ PL consolidado (2.03)', function (c) { return div(c.dliq(0), c.b('2.03')); }, NOTA_SALDO);
     add(G.end, 'dbpl', 'Dívida bruta ÷ PL', 'x', 'Dívida bruta ÷ PL consolidado (2.03)', function (c) { return div(c.dbruta(0), c.b('2.03')); }, NOTA_SALDO);
     add(G.end, 'passat', 'Passivo exigível ÷ ativo total', '%', '(2.01 + 2.02) ÷ 1', function (c) { return div(soma(c.b('2.01'), c.b('2.02')), c.b('1')); }, NOTA_SALDO);
@@ -199,7 +228,7 @@
     add(G.cx, 'fco', 'Fluxo de caixa operacional', 'R$ mi', 'DFC 6.01', function (c) { return c.t('dfc', '6.01'); }, 'Conforme a DFC da CVM; pode diferir da visão gerencial do release.');
     add(G.cx, 'capex', 'Investimentos em imobilizado e intangível', 'R$ mi', 'DFC 6.02.01', function (c) { return c.t('dfc', '6.02.01'); });
     add(G.cx, 'fcl', 'Fluxo de caixa livre', 'R$ mi', 'DFC 6.01 + 6.02.01', function (c) { return soma(c.t('dfc', '6.01'), c.t('dfc', '6.02.01')); }, 'Antes de aquisições de participações, dividendos e financiamentos.');
-    add(G.cx, 'convfco', 'Conversão: FCO ÷ EBITDA contábil', '%', 'DFC 6.01 ÷ EBITDA contábil', function (c) { var e = c.ebitda(); return ok(e) && e > 0 ? div(c.t('dfc', '6.01'), e) : null; }, NOTA_BASE + ' Só com EBITDA positivo.');
+    add(G.cx, 'convfco', 'Conversão de caixa: FCO ÷ EBITDA Ajustado', '%', 'DFC 6.01 ÷ EBITDA Ajustado', function (c) { var e = c.aj(); return ok(e) && e > 0 ? div(c.t('dfc', '6.01'), e) : null; }, NOTA_BASE + ' Só com EBITDA positivo.');
     add(G.cx, 'capexda', 'Investimentos ÷ depreciação e amortização', 'x', '− DFC 6.02.01 ÷ D&A', function (c) { var da = IND.da.f(c); return ok(da) && da > 0 ? div(mul(-1, c.t('dfc', '6.02.01')), da) : null; }, NOTA_BASE);
     add(G.cx, 'prov', 'Dividendos e JCP pagos', 'R$ mi', '− DFC 6.03.05', function (c) { var v = c.t('dfc', '6.03.05'); return ok(v) ? -v : null; }, 'Valores pagos no período (regime de caixa).');
 
@@ -213,7 +242,7 @@
     add(G.mer, 'ev', 'Valor da firma (EV)', 'R$ mi', 'Valor de mercado + dívida líquida + participação de não controladores (2.03.09)', function (c) { return c.ev(); }, 'Dívida líquida conforme definida neste painel (inclui arrendamentos).');
     add(G.mer, 'pl', 'P/L (UDM)', 'x', 'Valor de mercado ÷ lucro dos controladores UDM', function (c) { var l = c.u('dre', '3.11.01'); return ok(l) && l > 0 ? div(c.mcap(), l) : null; }, NOTA_UDM + ' Só calculado com lucro positivo.');
     add(G.mer, 'pvp', 'P/VP', 'x', 'Valor de mercado ÷ PL dos controladores', function (c) { var pl = c.plc(0); return ok(pl) && pl > 0 ? div(c.mcap(), pl) : null; }, NOTA_SALDO);
-    add(G.mer, 'evebitda', 'EV/EBITDA contábil (UDM)', 'x', 'Valor da firma ÷ EBITDA contábil UDM', function (c) { var e = c.ebitda(c.u); return ok(e) && e > 0 ? div(c.ev(), e) : null; }, NOTA_UDM + ' EBITDA contábil (CVM), não o EBITDA Ajustado do release.');
+    add(G.mer, 'evebitda', 'EV/EBITDA Ajustado (UDM)', 'x', 'Valor da firma ÷ EBITDA Ajustado dos últimos 12 meses', function (c) { var e = c.aj(true); return ok(e) && e > 0 ? div(c.ev(), e) : null; }, NOTA_UDM);
     add(G.mer, 'fcfy', 'Rendimento de fluxo de caixa livre (UDM)', '%', 'Fluxo de caixa livre UDM ÷ valor de mercado', function (c) { return div(soma(c.u('dfc', '6.01'), c.u('dfc', '6.02.01')), c.mcap()); }, NOTA_UDM + ' FCL = FCO + investimentos em imobilizado e intangível.');
     add(G.mer, 'dy', 'Proventos pagos ÷ valor de mercado (UDM)', '%', '− Dividendos e JCP pagos (DFC 6.03.05) UDM ÷ valor de mercado', function (c) { return div(mul(-1, c.u('dfc', '6.03.05')), c.mcap()); }, NOTA_UDM + ' Caixa efetivamente pago em 12 meses, não o dividend yield do declarado; difere da página de dividendos.');
 
@@ -236,5 +265,5 @@
     return m;
   }
 
-  return { criar: criar, ord: ord, lab: lab, rotulo: rotulo, desloca: desloca, tri: tri, BASES: BASES, ok: ok, ehIntervalo: ehIntervalo, trimestresBase: trimestresBase, fechaBase: fechaBase };
+  return { criar: criar, ord: ord, lab: lab, rotulo: rotulo, desloca: desloca, tri: tri, BASES: BASES, ok: ok, ehIntervalo: ehIntervalo, trimestresBase: trimestresBase, fechaBase: fechaBase, TIPOS: TIPOS, TIPOS_NOME: TIPOS_NOME, par: par };
 });

@@ -21,6 +21,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write   # alertas (novos documentos e falha na trava de publicação) viram issues, com aviso por e-mail
 
 concurrency:
   group: atualizar-cvm
@@ -89,6 +90,11 @@ jobs:
           python pipeline/fre_mda.py
           python -I tests/test_documentos.py
 
+      - name: Registro de mudanças
+        if: always()
+        continue-on-error: true
+        run: python pipeline/registro.py
+
       - name: Salvar resultados no repositório
         if: always()
         run: |
@@ -103,6 +109,21 @@ jobs:
             git push
           fi
 
+      - name: Alerta de novos documentos
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -s logs/novidades.md ]; then
+            printf '\n@%s\n' "${{ github.repository_owner }}" >> logs/novidades.md
+            gh issue create --repo "${{ github.repository }}" \
+              --title "Novidades da Vibra na CVM — $(date -u +%d/%m/%Y)" \
+              --body-file logs/novidades.md
+          else
+            echo "Nada novo."
+          fi
+
   publicar:
     # Publica o painel (docs/ + data/*.json) no GitHub Pages. Requer Settings > Pages > Source: GitHub Actions.
     needs: cvm
@@ -115,6 +136,38 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Trava: se qualquer conferência falhar, nada é publicado e o painel continua na última versão aprovada.
+      - name: Trava de publicação (conferência dos números)
+        run: |
+          python -I pipeline/validar.py
+          node tests/test_dados.js
+
+      - name: Alerta de falha na trava
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          {
+            echo "A atualização de $(date -u +%d/%m/%Y) não foi publicada: alguma conferência dos números falhou."
+            echo "O painel continua no ar com a última versão aprovada."
+            echo
+            cat logs/validacao.md 2>/dev/null || true
+            echo
+            echo "Execução: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            echo
+            echo "@${{ github.repository_owner }}"
+          } > alerta.md
+          aberta=$(gh issue list --repo "${{ github.repository }}" --state open --search "Trava de publicação in:title" --json number --jq '.[0].number')
+          if [ -n "$aberta" ]; then
+            gh issue comment "$aberta" --repo "${{ github.repository }}" --body-file alerta.md
+          else
+            gh issue create --repo "${{ github.repository }}" --title "Trava de publicação: atualização retida" --body-file alerta.md
+          fi
 
       - name: Montar o site
         run: |
