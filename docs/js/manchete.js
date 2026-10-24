@@ -72,8 +72,14 @@
     return t;
   };
   H.mercado = function () {
-    var c = M().ultimaCotacao(); if (!c) return null;
-    return frase(['VBBR3 a ', b('R$ ' + P.f2(c.p)), ' em ' + P.fData(c.d) + ': valor de mercado de ', b(P.fBi(M().indAtual('mcap'))), ', P/L de ', b(P.fUn('x', M().indAtual('pl'))), ' e EV/EBITDA Ajustado de ', b(P.fUn('x', M().indAtual('evebitda'))), '.']);
+    var mc = P.mercadoComparado ? P.mercadoComparado(S.a) : null; if (!mc || !mc.qU) return null;
+    var L = {}; mc.linhas.forEach(function (l) { L[l.id] = l; });
+    var t = ['VBBR3 a ', b('R$ ' + P.f2(mc.qU.p)), ' no último pregão (' + P.fData(mc.qU.d) + ')'];
+    if (mc.qA) t.push(', ' + P.varMerc('R$', mc.qA.p, mc.qU.p) + ' desde o fim do ' + per() + ' (R$ ' + P.f2(mc.qA.p) + ')');
+    t.push(': valor de mercado de ', b(P.fBi(L.mcap.u)), ', P/L de ', b(P.fUn('x', L.pl.u)), ' e EV/EBITDA Ajustado de ', b(P.fUn('x', L.evebitda.u)));
+    if (ok(L.evebitda.a)) t.push(' (' + P.fUn('x', L.evebitda.a) + ' no fim do período)');
+    t.push('.');
+    return t;
   };
   H.divida = function () {
     var d = P.D.divida; if (!d || !d.periodos.length) return null;

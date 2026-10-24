@@ -70,12 +70,15 @@
           var sp = h('div', { class: 'spark' }); G.spark(sp, hs.map(function (p) { return kpiValor(k, p, x.base); }));
           ref.kpis.appendChild(h('div', { class: 'card kpi' }, h('div', { class: 'kl' }, k.rot, P.info(k.info || (i ? i.formula + '. ' + (i.nota || '') : ''))), h('div', { class: 'kv' }, kpiFmt(k, v)), sp));
         });
-        // mercado (cotação mais recente)
-        var c = M.ultimaCotacao(); ref.mkt.replaceChildren();
-        ref.mktNota.textContent = c ? 'Fechamento da B3 em ' + P.fData(c.d) + ' (R$ ' + P.f2(c.p) + ' por ação), com as demonstrações de ' + M.rotulo(M.ultimoPar().p, 'T') + '.' : '';
-        [['Valor de mercado', 'mcap', 'bi'], ['EV', 'ev', 'bi'], ['P/L', 'pl', 'x'], ['EV/EBITDA Aj.', 'evebitda', 'x'], ['P/VP', 'pvp', 'x'], ['Proventos pagos ÷ valor de mercado', 'dy', '%']].forEach(function (k) {
-          var i = M.indicadores.filter(function (z) { return z.id === k[1]; })[0], v = M.indAtual(k[1]);
-          if (ok(v)) ref.mkt.appendChild(h('div', { class: 'card kpi mini' }, h('div', { class: 'kl' }, k[0], P.info(i.formula + '. ' + (i.nota || ''))), h('div', { class: 'kv' }, k[2] === 'bi' ? P.fBi(v) : P.fUn(k[2], v))));
+        // mercado: fim do período escolhido × último pregão
+        var mc = P.mercadoComparado(S.a); ref.mkt.replaceChildren();
+        ref.mktNota.textContent = (mc.qA ? 'Fim do ' + P.rotuloLongo(S.a) + ': fechamento de ' + P.fData(mc.qA.d) + ' (R$ ' + P.f2(mc.qA.p) + ')' : 'Sem cotação no fim do período') +
+          ' × último pregão: ' + P.fData(mc.qU.d) + ' (R$ ' + P.f2(mc.qU.p) + '), com as demonstrações de ' + mc.ult + '.';
+        mc.linhas.forEach(function (l) {
+          if (!ok(l.a) && !ok(l.u)) return;
+          var v = P.varMerc(l.un, l.a, l.u);
+          ref.mkt.appendChild(h('div', { class: 'card kpi mini' }, h('div', { class: 'kl' }, l.rot, P.info(l.info)), h('div', { class: 'kv' }, P.fmtMerc(l.un, l.a)),
+            h('div', { class: 'kl hoje' }, 'Último pregão: ', h('b', null, P.fmtMerc(l.un, l.u)), v !== '—' ? h('span', { class: /^−/.test(v) ? 'neg' : 'pos' }, ' (' + v + ')') : null)));
         });
         // comunicados
         var docs = P.D.ipe && P.ipeGrupo ? P.D.ipe.documentos.filter(P.ipeGrupo('chave')[2]).slice(0, 4) : [];

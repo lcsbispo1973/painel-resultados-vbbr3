@@ -27,6 +27,23 @@
     return { ano: ano, ate: alvo, dividendos: div, jcp: jcp, total: tot, payout: ok(luc) && luc > 0 ? tot / luc * 100 : null, dy: ok(mc) && mc > 0 ? tot / mc * 100 : null, lucro: luc };
   };
 
+  // mercado na data do período escolhido × último pregão (mesmas fórmulas; muda a cotação e, no último pregão, valem as demonstrações mais recentes)
+  P.MERC = [['Cotação (R$ por ação)', 'preco', 'R$'], ['Valor de mercado', 'mcap', 'bi'], ['EV', 'ev', 'bi'], ['P/L', 'pl', 'x'], ['EV/EBITDA Aj.', 'evebitda', 'x'], ['P/VP', 'pvp', 'x'], ['Proventos pagos ÷ valor de mercado', 'dy', '%']];
+  P.mercadoComparado = function (per) {
+    var M = P.M, X = P.x(per), q = M.cotacaoAte(M.fimPeriodo(X.p)), u = M.ultimaCotacao(), ult = M.ultimoPar().p;
+    return { p: X.p, qA: q, qU: u, ult: ult, linhas: P.MERC.map(function (k) {
+      var i = M.indicadores.filter(function (z) { return z.id === k[1]; })[0];
+      return { rot: k[0], id: k[1], un: k[2], info: i ? i.formula + '. ' + (i.nota || '') : '', a: q ? M.ind(k[1], X.p, 'T') : null, u: M.indAtual(k[1]) };
+    }) };
+  };
+  P.fmtMerc = function (un, v) { return !ok(v) ? '—' : un === 'bi' ? P.fBi(v) : un === 'R$' ? 'R$ ' + P.f2(v) : P.fUn(un, v); };
+  P.varMerc = function (un, a, u) {
+    if (!ok(a) || !ok(u)) return '—';
+    if (un === 'x') return (u - a >= 0 ? '+' : '−') + P.f2(Math.abs(u - a)) + 'x';
+    if (un === '%') return (u - a >= 0 ? '+' : '−') + P.f1(Math.abs(u - a)) + ' p.p.';
+    return a ? P.fPct(u / a - 1) : '—';
+  };
+
   // retorno total (preço + proventos reinvestidos) da VBBR3 e do BOVA11, base 100
   function retornoTotal(desde) {
     var b3 = P.D.b3; if (!b3) return null;
@@ -61,6 +78,13 @@
     };
     function acao(el) {
       var b3 = P.D.b3, x = P.x(S.a), cP = P.chart('m-preco'), cM = P.chart('m-mult'), tb = h('table');
+      var mc = P.mercadoComparado(S.a), tbC = h('table');
+      el.append(h('div', { class: 'sec' }, h('h2', null, 'Fim do ' + P.rotuloLongo(S.a) + ' × último pregão')),
+        h('p', { class: 'note' }, (mc.qA ? 'Fechamento de ' + P.fData(mc.qA.d) + ' com as demonstrações de ' + mc.p : 'Sem cotação no fim do período') + '; último pregão de ' + P.fData(mc.qU.d) + ' com as demonstrações de ' + mc.ult + ' (as mais recentes).'),
+        h('div', { class: 'twrap', style: 'margin-bottom:16px' }, tbC));
+      P.tabela(tbC, '', [mc.qA ? P.fData(mc.qA.d) + ' (' + mc.p + ')' : mc.p, P.fData(mc.qU.d) + ' (último pregão)', 'Variação'], mc.linhas.map(function (l) {
+        var v = P.varMerc(l.un, l.a, l.u); return { conta: l.rot, info: l.info, cel: [P.fmtMerc(l.un, l.a), P.fmtMerc(l.un, l.u), v], cclass: ['', '', /^\+/.test(v) ? 'pos' : /^−/.test(v) ? 'neg' : ''] };
+      }));
       el.append(h('div', { class: 'grid' }, P.card('Cotação de fechamento (VBBR3)', 'R$ por ação, fim de cada mês; até 21/10/2021 o código era BRDT3. Preço como negociado, sem ajuste por proventos.', cP),
         P.card('Múltiplos ao fim de cada período', 'P/L e EV/EBITDA Ajustado sobre os 12 meses; P/VP sobre o patrimônio dos controladores.', cM)),
         h('div', { class: 'sec' }, h('h2', null, 'Indicadores de mercado')), h('div', { class: 'twrap' }, tb));
