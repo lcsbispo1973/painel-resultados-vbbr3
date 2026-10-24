@@ -42,6 +42,7 @@ jobs:
           python -I tests/test_cvm_fixture.py
           python -I tests/test_fre_fixture.py
           python -I tests/test_b3_fixture.py
+          python -I tests/test_ipe_fixture.py
           node tests/test_dados.js
 
       - name: Baixar e processar dados da CVM
@@ -65,6 +66,16 @@ jobs:
         if: always()
         continue-on-error: true
         run: python pipeline/b3.py
+
+      - name: Baixar comunicados e fatos relevantes (IPE)
+        if: always()
+        continue-on-error: true
+        run: python pipeline/ipe.py
+
+      - name: Diagnóstico de acesso aos releases (temporário)
+        if: always()
+        continue-on-error: true
+        run: python pipeline/diag_releases.py
 
       - name: Salvar resultados no repositório
         if: always()
