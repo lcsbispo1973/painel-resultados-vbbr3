@@ -120,7 +120,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           if [ -s logs/novidades.md ]; then
-            printf '\n@%s\n' "${{ github.repository_owner }}" >> logs/novidades.md
+            printf '\n@lcsbispo1973\n' >> logs/novidades.md
             gh issue create --repo "${{ github.repository }}" \
               --title "Novidades da Vibra na CVM — $(date -u +%d/%m/%Y)" \
               --body-file logs/novidades.md
@@ -164,7 +164,7 @@ jobs:
             echo
             echo "Execução: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
             echo
-            echo "@${{ github.repository_owner }}"
+            echo "@lcsbispo1973"
           } > alerta.md
           aberta=$(gh issue list --repo "${{ github.repository }}" --state open --search "Trava de publicação in:title" --json number --jq '.[0].number')
           if [ -n "$aberta" ]; then
