@@ -1,6 +1,6 @@
 {
  "grupo": "ultrapar_df",
- "atualizado_em": "2026-10-24T18:09:13Z",
+ "atualizado_em": "2026-10-24T18:17:07Z",
  "documentos": [
   {
    "protocolo": "018465IPE300620260104315426-96",
@@ -91,6 +91,16 @@
    "assunto": "",
    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1340163&numSequencia=864889&numVersao=1",
    "arquivo": "2025-02-26_018465IPE311220240104571412-43.txt"
+  },
+  {
+   "protocolo": "018465IPE300920240104560911-96",
+   "data_entrega": "2024-11-13",
+   "data_referencia": "2024-09-30",
+   "categoria": "Dados Econômico-Financeiros",
+   "tipo": "Demonstrações Financeiras Adicionais",
+   "assunto": "Versão inglês",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1303701&numSequencia=828427&numVersao=1",
+   "arquivo": "2024-11-13_018465IPE300920240104560911-96.txt"
   },
   {
    "protocolo": "018465IPE300620240104551111-77",
@@ -203,6 +213,16 @@
    "arquivo": "2022-08-03_018465IPE300620220104477612-92.txt"
   },
   {
+   "protocolo": "018465IPE310320220104469212-81",
+   "data_entrega": "2022-05-11",
+   "data_referencia": "2022-03-31",
+   "categoria": "Dados Econômico-Financeiros",
+   "tipo": "Demonstrações Financeiras em Padrões Internacionais",
+   "assunto": "",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=980462&numSequencia=505196&numVersao=1",
+   "arquivo": "2022-05-11_018465IPE310320220104469212-81.txt"
+  },
+  {
    "protocolo": "018465IPE311220210104461600-33",
    "data_entrega": "2022-02-24",
    "data_referencia": "2021-12-31",
@@ -223,6 +243,16 @@
    "arquivo": "2022-02-24_018465IPE311220210104461600-25.txt"
   },
   {
+   "protocolo": "018465IPE300920210104450312-89",
+   "data_entrega": "2021-11-03",
+   "data_referencia": "2021-09-30",
+   "categoria": "Dados Econômico-Financeiros",
+   "tipo": "Demonstrações Financeiras em Padrões Internacionais",
+   "assunto": "Versão em Inglês",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=912637&numSequencia=437371&numVersao=1",
+   "arquivo": "2021-11-03_018465IPE300920210104450312-89.txt"
+  },
+  {
    "protocolo": "018465IPE300620210104441913-50",
    "data_entrega": "2021-08-11",
    "data_referencia": "2021-06-30",
@@ -231,6 +261,16 @@
    "assunto": "Versão em Inglês",
    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=892497&numSequencia=417231&numVersao=1",
    "arquivo": "2021-08-11_018465IPE300620210104441913-50.txt"
+  },
+  {
+   "protocolo": "018465IPE310320210104432114-01",
+   "data_entrega": "2021-05-05",
+   "data_referencia": "2021-03-31",
+   "categoria": "Dados Econômico-Financeiros",
+   "tipo": "Demonstrações Financeiras em Padrões Internacionais",
+   "assunto": "Versão em Inglês",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=863180&numSequencia=387917&numVersao=1",
+   "arquivo": "2021-05-05_018465IPE310320210104432114-01.txt"
   },
   {
    "protocolo": "018465IPE311220200104429307-65",
@@ -271,6 +311,16 @@
    "assunto": "Versão em Inglês",
    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=784290&numSequencia=309031&numVersao=1",
    "arquivo": "2020-08-12_018465IPE300620200104405513-09.txt"
+  },
+  {
+   "protocolo": "018465IPE310320200104396412-91",
+   "data_entrega": "2020-05-13",
+   "data_referencia": "2020-03-31",
+   "categoria": "Dados Econômico-Financeiros",
+   "tipo": "Demonstrações Financeiras em Padrões Internacionais",
+   "assunto": "Versão em Inglês",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=761767&numSequencia=286519&numVersao=1",
+   "arquivo": "2020-05-13_018465IPE310320200104396412-91.txt"
   },
   {
    "protocolo": "018465IPE311220190204388014-37",
@@ -323,6 +373,16 @@
    "arquivo": "2019-05-15_018465IPE310320190104360013-29.txt"
   },
   {
+   "protocolo": "018465IPE310320190104360013-32",
+   "data_entrega": "2019-05-15",
+   "data_referencia": "2019-03-31",
+   "categoria": "Dados Econômico-Financeiros",
+   "tipo": "Demonstrações Financeiras em Padrões Internacionais",
+   "assunto": "Versão em Inglês",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=691005&numSequencia=217755&numVersao=1",
+   "arquivo": "2019-05-15_018465IPE310320190104360013-32.txt"
+  },
+  {
    "protocolo": "018465IPE311220180104351613-02",
    "data_entrega": "2019-02-20",
    "data_referencia": "2018-12-31",
@@ -351,6 +411,16 @@
    "assunto": "Demontrações financeiras o 3T18 traduzidas para o ingês||Versão em Inglês",
    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=649659&numSequencia=181521&numVersao=1",
    "arquivo": "2018-11-07_018465IPE300920180104341112-45.txt"
+  },
+  {
+   "protocolo": "018465IPE300920180104341112-40",
+   "data_entrega": "2018-11-07",
+   "data_referencia": "2018-09-30",
+   "categoria": "Dados Econômico-Financeiros",
+   "tipo": "Demonstrações Financeiras em Padrões Internacionais",
+   "assunto": "Versão em Português",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=649657&numSequencia=181519&numVersao=1",
+   "arquivo": "2018-11-07_018465IPE300920180104341112-40.txt"
   },
   {
    "protocolo": "018465IPE300620180104331313-63",

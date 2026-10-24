@@ -1,6 +1,6 @@
 {
  "grupo": "vibra_df",
- "atualizado_em": "2026-10-24T18:00:40Z",
+ "atualizado_em": "2026-10-24T18:15:27Z",
  "documentos": [
   {
    "protocolo": "024295IPE300620260164365304-34",
@@ -53,6 +53,16 @@
    "arquivo": "2025-11-05_024295IPE051120250197810000-41.txt"
   },
   {
+   "protocolo": "024295IPE300620250135694794-12",
+   "data_entrega": "2025-08-11",
+   "data_referencia": "2025-06-30",
+   "categoria": "Dados Econômico-Financeiros",
+   "tipo": "Demonstrações Financeiras Intermediárias",
+   "assunto": "Demonstrações Financeiras 2T25",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1411623&numSequencia=936335&numVersao=1",
+   "arquivo": "2025-08-11_024295IPE300620250135694794-12.txt"
+  },
+  {
    "protocolo": "024295IPE310320250145306207-38",
    "data_entrega": "2025-05-06",
    "data_referencia": "2025-03-31",
@@ -61,6 +71,16 @@
    "assunto": "Demonstrações Financeiras 1T25",
    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1372921&numSequencia=897633&numVersao=1",
    "arquivo": "2025-05-06_024295IPE310320250145306207-38.txt"
+  },
+  {
+   "protocolo": "024295IPE311220240104571212-05",
+   "data_entrega": "2025-02-24",
+   "data_referencia": "2024-12-31",
+   "categoria": "Dados Econômico-Financeiros",
+   "tipo": "Demonstrações Financeiras Anuais Completas",
+   "assunto": "",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1338770&numSequencia=863496&numVersao=1",
+   "arquivo": "2025-02-24_024295IPE311220240104571212-05.txt"
   },
   {
    "protocolo": "024295IPE300920240104560111-90",
@@ -131,6 +151,26 @@
    "assunto": "Demonstrações Financeiras Intermediárias 1T23",
    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1101672&numSequencia=626401&numVersao=1",
    "arquivo": "2023-05-12_024295IPE310320230104505811-27.txt"
+  },
+  {
+   "protocolo": "024295IPE311220220104500612-00",
+   "data_entrega": "2023-03-21",
+   "data_referencia": "2022-12-31",
+   "categoria": "Dados Econômico-Financeiros",
+   "tipo": "Demonstrações Financeiras Anuais Completas",
+   "assunto": "",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1075461&numSequencia=600191&numVersao=1",
+   "arquivo": "2023-03-21_024295IPE311220220104500612-00.txt"
+  },
+  {
+   "protocolo": "024295IPE300920220104487513-98",
+   "data_entrega": "2022-11-10",
+   "data_referencia": "2022-09-30",
+   "categoria": "Dados Econômico-Financeiros",
+   "tipo": "Demonstrações Financeiras Intermediárias",
+   "assunto": "Demonstrações Financeiras Intermediárias Set 2022",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1031739&numSequencia=556469&numVersao=1",
+   "arquivo": "2022-11-10_024295IPE300920220104487513-98.txt"
   },
   {
    "protocolo": "024295IPE300620220104478811-40",

@@ -1,0 +1,1947 @@
+Divulgação dos resultados 2T24
+
+
+  São Paulo, 07 de agosto de 2024 – A Ultrapar Participações S.A. (B3: UGPA3 / NYSE: UGP, “Companhia” ou
+  “Ultrapar”), com atuação em energia, mobilidade e infraestrutura logística por meio da Ultragaz, Ipiranga,
+  Ultracargo e Hidrovias do Brasil S.A. (B3: HBSA3, “Hidrovias”), anuncia hoje seus resultados do segundo trimestre
+  de 2024.
+
+
+
+              Receita líquida                                   EBITDA Ajustado¹                     EBITDA Ajustado recorrente¹
+
+                    R$ 32                                              R$ 1,3                                 R$ 1,3
+                   bilhões                                             bilhão                                 bilhão
+
+
+                                                            Geração de caixa das
+                Lucro líquido                                                                        Investimentos e Aquisições
+                                                                 operações
+                  R$ 491                                               R$ 1,3                                 R$ 1,8
+                  milhões                                              bilhão                                 bilhão
+   ¹ Ajustes contábeis e itens não recorrentes descritos na tabela de cálculo do EBITDA – página 2
+
+
+
+
+   Principais destaques
+
+      •    Continuidade de bons resultados operacionais da Ultrapar.
+
+      •    Aprovação da distribuição de R$ 276 milhões em dividendos referentes ao 1S24, equivalente a R$ 0,25 por
+           ação.
+
+      •    Início da implantação de nova governança na Hidrovias, com (i) eleição do novo CFO, (ii) aprovação
+           pela assembleia e primeira reunião do novo conselho de administração em junho, (iii) simplificação dos
+           comitês e comissões de assessoramento e (iv) aprofundamento do plano estratégico de longo prazo e
+           das alavancas de valor.
+
+      •    Aquisição pela Ultragaz de 51,7% de participação da Witzler, empresa que atua na comercialização de
+           energia elétrica no mercado livre e na gestão de energia de seus clientes. Esta aquisição está alinhada
+           à estratégia da Ultragaz de ampliação de soluções energéticas a seus clientes, utilizando sua
+           capilaridade, força comercial e marca. A Ultragaz, que já oferece soluções para clientes de baixa tensão
+           por meio da Ultragaz Energia Inteligente (fruto da aquisição de Stella), atuará também junto aos clientes
+           de alta tensão, consolidando o seu posicionamento no mercado de energia elétrica. A transação já foi
+           aprovada pelo CADE.
+
+      •    Aquisição de 49 postos de serviços do Grupo Pão de Açúcar com bandeira Ipiranga pela subsidiária
+           Millennium, empresa que atua na gestão de postos de serviços. A transação foi aprovada pelo CADE em
+           22 de julho de 2024.
+
+      •    Emissão de debêntures pela Ultragaz em julho, no valor de R$ 700 milhões, com custo de CDI + 0,7% a.a.
+           (abaixo do custo médio atual da dívida bruta).
+
+      •    Recebimento da última parcela da venda da Extrafarma, no montante de R$ 222 milhões em 01 de agosto
+           pela Ultrapar.
+2º TRIMESTRE DE 2024
+
+  Considerações sobre as informações financeiras e operacionais
+  As informações financeiras apresentadas neste documento foram extraídas das informações contábeis intermediárias
+  (“Informações Trimestrais”) para o período de três meses findo em 30 de junho de 2024, e preparadas de acordo com
+  o pronunciamento técnico CPC 21 (R1) - Demonstração Intermediária e com a norma internacional IAS 34, emitida
+  pelo “International Accounting Standards Board - IASB”, e apresentadas de forma condizente com as normas
+  expedidas pela CVM, aplicáveis à elaboração das Informações Trimestrais. As informações da Ultragaz, Ultracargo e
+  Ipiranga são apresentadas sem eliminação de transações realizadas entre segmentos. Portanto, a soma de tais
+  informações pode não corresponder às informações consolidadas da Ultrapar. Adicionalmente, as informações
+  financeiras e operacionais são sujeitas a arredondamentos e, como consequência, os valores totais apresentados
+  nas tabelas e gráficos podem diferir da agregação numérica direta dos valores que os precedem.
+  As informações denominadas EBITDA (Lucro Antes dos Juros, Impostos sobre a Renda e Contribuição Social sobre o
+  Lucro Líquido, Depreciação e Amortização – LAJIDA); EBITDA Ajustado – ajustado pela amortização de ativos de
+  contratos com clientes – direitos de exclusividade e pela amortização de mais valia de coligadas; EBITDA Ajustado
+  recorrente – ajustado por efeitos não recorrentes; e EBIT (Lucro Antes dos Juros e Impostos sobre a Renda e
+  Contribuição Social sobre o Lucro Líquido – LAJIR) estão apresentadas de acordo com a Resolução 156 emitida pela
+  CVM em 23 de junho de 2022. Segue o cálculo do EBITDA a partir do lucro líquido:
+                                                                                                                    Trimestre                 Acumulado
+  Em milhões de Reais
+                                                                                                         2T24         2T23       1T24       1S24       1S23
+
+  Lucro líquido                                                                                           491,2         238,7      455,4      946,7        512,5
+    (+) IR e contribuição social                                                                          192,6          59,2      209,1      401,8        151,6
+    (+) Despesa (receita) financeira líquida                                                              205,7         216,7      282,8      488,5        528,3
+    (+) Depreciação e amortização                                                                         322,0         279,3      277,7      599,7        548,4
+
+  EBITDA                                                                                                 1.211,6        793,9    1.225,0    2.436,7    1.740,8
+
+  Ajuste contábil
+    (+) Amortização de ativos de contratos com clientes - direitos de exclusividade                        122,3        170,3      132,7      255,0        302,5
+    (+) Amortização de mais valia de coligadas                                                               1,7          -          -          1,7          -
+
+  EBITDA Ajustado                                                                                        1.335,6        964,2    1.357,7    2.693,3    2.043,3
+
+   Ultragaz                                                                                                414,1        405,2      400,7      814,8      789,2
+   Ultracargo                                                                                              165,0        161,0      165,2      330,3      303,4
+   Ipiranga                                                                                                817,1        464,4      819,1    1.636,3    1.047,6
+   Holding e demais empresas                                                                               (60,6)       (66,4)     (42,9)    (103,6)     (96,9)
+   Despesas/provisões extraordinárias e ajustes pós-fechamento das vendas da Oxiteno e Extrafarma            -            -         15,6       15,6        -
+  Efeitos não recorrentes que afetaram EBITDA
+    (-) Resultado na venda de bens (Ipiranga)                                                              (36,5)       (30,8)     (36,5)     (72,9)       (86,7)
+    (-) Earnout Stella (Ultragaz)                                                                          (17,3)         -          -        (17,3)         -
+    (-) Despesas/provisões extraordinárias e ajustes pós-fechamento das vendas da Oxiteno e Extrafarma       -            -        (15,6)     (15,6)         -
+
+  EBITDA Ajustado recorrente                                                                             1.281,9        933,4    1.305,6    2.587,5    1.956,6
+
+   Ultragaz                                                                                                396,8        405,2      400,7      797,4        789,2
+   Ultracargo                                                                                              165,0        161,0      165,2      330,3        303,4
+   Ipiranga                                                                                                780,7        433,6      782,7    1.563,4        960,9
+   Holding e demais empresas                                                                               (60,6)       (66,4)     (42,9)    (103,6)       (96,9)
+
+
+
+
+                                                                                                                                                       2
+2º TRIMESTRE DE 2024
+
+
+  Reporte de Resultados da Hidrovias do Brasil
+
+  Em maio de 2024, a Ultrapar comunicou a conclusão da aquisição de participação acionária relevante na Hidrovias,
+  tornando-se assim acionista de referência estratégico e de longo prazo.
+  A partir deste momento, todo o montante de R$ 1,3 bilhão investido na transação passou a ser contabilizado no ativo
+  não circulante, em investimentos em controladas, controladas em conjunto e coligadas. Por sua vez, o resultado da
+  Hidrovias está sendo contabilizado com uma defasagem de competência de dois meses, impactando o resultado
+  por equivalência patrimonial. Portanto, no segundo trimestre de 2024, o lucro líquido da Ultrapar não possui impacto
+  por equivalência patrimonial de Hidrovias.
+
+
+
+
+                                                                                                                 3
+2º TRIMESTRE DE 2024
+
+                                                                                                                                         Em milhões de Reais
+
+                                                                                                     Δ             Δ                                   Δ
+ Ultrapar                                                     2T24        2T23        1T24
+                                                                                                2T24 v 2T23    2T24 v 1T24
+                                                                                                                                1S24     1S23
+                                                                                                                                                  1S24 v 1S23
+
+ Receita líquida                                            32.344      29.593      30.396          9%            6%            62.740   60.144       4%
+ EBITDA Ajustado                                             1.336        964        1.358         39%           (2%)           2.693    2.043        32%
+ EBITDA Ajustado recorrente¹                                 1.282        933        1.306         37%           (2%)           2.588    1.957        32%
+ Depreciação e amortização²                                   446         450         410          (1%)           9%             856      851         1%
+ Resultado financeiro                                        (206)       (217)       (283)         (5%)          (27%)          (489)    (528)        (8%)
+ Lucro líquido                                                491         239         455         106%            8%             947      513         85%
+ Investimentos                                                479         385         438          24%            9%             918      750         22%
+ Fluxo de caixa das atividades operacionais                  1.298        898        (573)         44%            n/a            725      187         287%
+¹ Itens não recorrentes descritos na tabela de cálculo do EBITDA – página 2
+² Inclui amortização de ativos de contratos com clientes – direitos de exclusividade e amortização de mais valia de coligadas
+
+    Receita líquida – Total de R$ 32.344 milhões (+9% vs 2T23), decorrente do maior faturamento da Ipiranga e da
+    Ultracargo, atenuado pelo menor faturamento da Ultragaz. Em relação ao 1T24, a receita líquida aumentou 6%,
+    devido principalmente ao maior faturamento da Ipiranga e da Ultragaz.
+
+    EBITDA Ajustado recorrente – Total de R$ 1.282 milhões (+37% vs 2T23), principalmente em função do maior EBITDA da
+    Ipiranga. Em relação ao 1T24, o EBITDA Ajustado recorrente diminuiu 2%, fruto do menor EBITDA da Ipiranga e Ultragaz.
+    Resultado da Holding e demais empresas – A Ultrapar registrou um resultado negativo de R$ 61 milhões da Holding e
+    demais empresas, composto de (i) R$ 53 milhões de EBITDA negativo com a Holding e (ii) R$ 8 milhões de EBITDA
+    negativo com as demais empresas, consequência principalmente do pior resultado da Refinaria Riograndense.
+    Conforme mencionado no último reporte trimestral, o resultado do KMV (antigo abastece aí) passou a ser
+    consolidado na Ipiranga a partir do 1T24.
+    Depreciação e amortização – Total de R$ 446 milhões (-1% vs 2T23), decorrente de menores amortizações de
+    bonificações na Ipiranga atenuadas por maiores investimentos realizados nos últimos doze meses. Em relação ao
+    1T24, o total de custos e despesas com depreciação e amortização cresceu 9%, devido principalmente a maiores
+    despesas com depreciação e amortização na Ipiranga.
+    Resultado financeiro – A Ultrapar apresentou despesa financeira líquida de R$ 206 milhões no 2T24, melhora de R$ 11
+    milhões em relação ao 2T23, reflexo principalmente do menor CDI e menor saldo médio de dívida, parcialmente
+    compensados pelo resultado pontual negativo de marcação a mercado de R$ 16 milhões neste trimestre. Em relação
+    ao 1T24, período cuja despesa financeira líquida foi de R$ 283 milhões, a diferença é explicada principalmente pelo
+    menor resultado negativo de marcação a mercado.
+
+    Lucro líquido – Total de R$ 491 milhões (+106% vs 2T23), fruto do maior EBITDA e da menor despesa financeira líquida.
+    Em relação ao 1T24, o lucro líquido aumentou 8%, decorrente da menor despesa financeira líquida parcialmente
+    compensada por maiores despesas com depreciação e amortização na Ipiranga.
+    Fluxo de caixa das atividades operacionais – Geração de caixa operacional de R$ 1.298 milhões no 2T24, comparado
+    a uma geração de R$ 898 milhões no 2T23, principalmente em função do maior EBITDA, do menor investimento em
+    capital de giro e do aumento de risco sacado no 2T24.
+
+
+
+
+                                                                                                                                                  4
+2º TRIMESTRE DE 2024
+
+                                                                                                                            Em milhões de Reais
+                                                                                            Δ             Δ                               Δ
+  Ultragaz                                              2T24        2T23        1T24                                1S24    1S23
+                                                                                        2T24 v 2T23   2T24 v 1T24                   1S24 v 1S23
+  Volume total (mil tons)                                437         442        402       (1%)           9%         838     859       (2%)
+    Envasado                                             281         286        253       (2%)          11%         534     555       (4%)
+    Granel                                               156         156        149        0%            5%         305     304        0%
+  EBITDA Ajustado (R$ milhões)                           414         405        401        2%            3%         815     789        3%
+  Margem EBITDA Ajustado (R$/ton)                        948         917        997        3%           (5%)        972     919        6%
+     Não recorrentes¹                                     17          -           -        n/a           n/a         17       -           n/a
+  EBITDA Ajustado recorrente (R$ milhões)                397         405        401       (2%)          (1%)        797     789           1%
+  Margem EBITDA Ajustado recorrente
+                                                         909         917        997       (1%)          (9%)        951     919           3%
+  (R$/ton)
+  EBITDA LTM Ajustado recorrente²
+                                                        1.656       1.487       1.665     11%           (1%)        1.656   1.487     11%
+   (R$ milhões)
+  Margem EBITDA LTM Ajustado
+                                                         964         854        966        13%           0%         964     854        13%
+  recorrente² (R$/ton)
+  ¹ Itens não recorrentes descritos na tabela de cálculo do EBITDA – página 2
+  ² Não considera R$ 333 milhões de créditos fiscais extraordinários no 4T22
+
+  Desempenho operacional – O volume vendido da Ultragaz no 2T24 diminuiu 1% em relação ao 2T23, fruto da queda
+  de 2% no envasado, principalmente em função da continuidade do ambiente mais competitivo e inverno mais
+  ameno em relação ao ano anterior, enquanto o granel permaneceu estável, também afetado pelo inverno mais
+  ameno. Em comparação ao 1T24, o volume vendido foi 9% maior, reflexo da sazonalidade típica entre os períodos.
+
+  Receita líquida – Total de R$ 2.694 milhões (-3% vs 2T23), decorrente principalmente do menor volume de vendas. Já
+  em relação ao 1T24, a receita líquida cresceu 8%, devido ao maior volume de vendas.
+
+  Custo dos produtos vendidos – Total de R$ 2.168 milhões (-3% vs 2T23), em função do menor volume de vendas,
+  atenuados por maiores gastos com pessoal e maior requalificação de vasilhames. Em relação ao 1T24, o custo dos
+  produtos vendidos aumentou 9%, fruto principalmente do maior volume de vendas.
+
+  Despesas gerais, administrativas e de vendas – Total de R$ 228 milhões (-4% vs 2T23), reflexo de iniciativas para
+  aumento da eficiência operacional e menores despesas com comissionamento de vendas e pessoal. Em relação ao
+  1T24, as despesas gerais, administrativas e de vendas aumentaram 8%, devido às maiores despesas com consultorias,
+  comissionamento de vendas e marketing.
+
+  Outros resultados operacionais – Total de R$ 20 milhões, melhora de R$ 18 milhões em relação ao 2T23 e de R$ 16
+  milhões em relação ao 1T24, fruto principalmente de um efeito não recorrente referente à redução de R$ 17 milhões
+  no earnout a pagar por conta da aquisição de Stella, em função da saída de um sócio.
+
+  EBITDA Ajustado recorrente – Total de R$ 397 milhões (-2% vs 2T23), principalmente em função do menor volume de
+  vendas e ambiente comercial mais competitivo no segmento envasado. Em relação ao 1T24, o EBITDA Ajustado
+  recorrente caiu 1% devido às maiores despesas, apesar do maior volume de vendas.
+
+  Investimentos – Foram investidos R$ 94 milhões neste trimestre, direcionados principalmente às instalações em novos
+  clientes no segmento granel, à aquisição e reposição de vasilhames, à expansão em novas energias e à manutenção
+  das operações existentes.
+
+
+
+
+                                                                                                                                      5
+2º TRIMESTRE DE 2024
+
+
+                                                                                                             Em milhões de Reais
+                                                                          Δ             Δ                               Δ
+  Ultracargo                              2T24       2T23     1T24                                1S24    1S23
+                                                                      2T24 v 2T23   2T24 v 1T24                     1S24 v 1S23
+  Capacidade estática¹ (mil m³)          1.067        955     1.067      12%           0%         1.067    955        12%
+  m³ faturado (mil m³)                   4.307       3.629    4.196      19%           3%         8.503   7.090       20%
+  EBITDA Ajustado (R$ milhões)            165         161      165        3%          0%           330     303         9%
+  Margem EBITDA Ajustado (%)              63%         63%      63%      0 p.p.      (0) p.p.       63%     61%       1 p.p.
+  EBITDA LTM Ajustado (R$ milhões)        658         570      654       16%          1%           658     570        16%
+  Margem EBITDA LTM Ajustado (%)          63%         60%      63%      3 p.p.       0 p.p.        63%     60%       3 p.p.
+  1 Média mensal
+
+
+
+  Desempenho operacional – A capacidade estática média da Ultracargo cresceu 12% em relação ao 2T23, devido
+  às adições de (i) 90 mil m³ referentes a 50% de participação em Opla a partir de julho de 2023, (ii) 12 mil m³ advindos
+  da aquisição da base de Rondonópolis da Ipiranga a partir de setembro de 2023, e (iii) 10 mil m³ de expansão do
+  terminal de Vila do Conde a partir de julho de 2023. O m³ faturado cresceu 19% em relação ao 2T23, fruto do início
+  das operações em Opla e Rondonópolis e da maior movimentação de combustíveis em Vila do Conde, atenuados
+  pela menor movimentação spot de combustíveis em Santos e Itaqui. Em comparação ao 1T24, o m³ faturado
+  aumentou 3%, em função da maior movimentação de etanol em Opla, atenuada pela menor movimentação spot
+  de combustíveis em Santos e Itaqui.
+
+  Receita líquida – Total de R$ 264 milhões (+2% vs 2T23), decorrente do maior m³ faturado, apesar de menores vendas
+  spot. Em relação ao 1T24, a receita líquida permaneceu estável.
+
+  Custo dos serviços prestados – Total de R$ 96 milhões (+4% vs 2T23), devido a maiores custos com depreciação, em
+  linha com o aumento de capacidade. Em relação ao 1T24, o custo dos serviços prestados aumentou 4%, em função
+  de maiores custos com manutenção, parcialmente compensados por menores gastos com pessoal.
+
+  Despesas gerais, administrativas e de vendas – Total de R$ 45 milhões (-6% vs 2T23), decorrente principalmente de
+  menores despesas com pessoal. Em relação ao 1T24, as despesas gerais, administrativas e de vendas reduziram 3%,
+  devido a menores despesas com pessoal, atenuadas por maiores despesas com assessorias e consultorias
+  relacionadas a projetos de expansão.
+
+  Equivalência patrimonial – Piora de R$ 9 milhões, devido principalmente ao ganho de R$ 8 milhões com a
+  desmobilização da União Vopak no 2T23.
+
+  EBITDA Ajustado – Total de R$ 165 milhões (+3% vs 2T23), reflexo da maior ocupação da capacidade com ganhos de
+  rentabilidade, menores despesas e ganhos de produtividade e eficiência, apesar das menores vendas spot e do
+  ganho de R$ 8 milhões com a desmobilização da União Vopak no 2T23. Em relação ao 1T24, o EBITDA Ajustado
+  permaneceu estável.
+
+  Investimentos – Os investimentos no período foram de R$ 154 milhões, direcionados principalmente aos projetos de
+  construção ou expansão dos terminais de Palmeirante, Itaqui, Santos e Rondonópolis, além de investimentos para
+  maior eficiência, manutenção e segurança operacional dos terminais.
+
+
+
+
+                                                                                                                        6
+2º TRIMESTRE DE 2024
+
+                                                                                                                              Em milhões de Reais
+                                                                                             Δ             Δ                                Δ
+ Ipiranga                                                   2T24         2T23    1T24                                1S24     1S23
+                                                                                         2T24 v 2T23   2T24 v 1T24                     1S24 v 1S23
+ Volume total (mil m³)                                      5.850       5.607    5.583      4%            5%         11.433   11.091        3%
+   Diesel                                                   3.016       2.883    2.750      5%           10%          5.766    5.716        1%
+   Ciclo Otto                                               2.727       2.639    2.745      3%           (1%)         5.472    5.198        5%
+   Outros¹                                                   107          86       88      25%           20%           195      177        10%
+ EBITDA Ajustado (R$ milhões)                                817         464      819      76%            0%         1.636     1.048       56%
+ Margem EBITDA Ajustado (R$/m³)                              140          83      147      69%           (5%)          143       94        52%
+   Não recorrentes²                                           36          31      36        18%           0%           73       87         (16%)
+ EBITDA Ajustado recorrente (R$ milhões)                     781         434      783      80%            0%         1.563     961          63%
+ Margem EBITDA Ajustado recorrente (R$/m³)                   133          77      140       73%          (5%)         137       87          58%
+ EBITDA LTM Ajustado recorrente (R$ milhões)                4.148       1.728    3.801     140%           9%         4.148    1.728        140%
+ Margem EBITDA LTM Ajustado recorrente
+                                                             177          75     164       137%           8%          177      75          137%
+ (R$/m³)
+   ¹ Óleos combustíveis, arla 32, querosene, lubrificantes e graxas
+   ² Itens não recorrentes descritos na tabela de cálculo do EBITDA – página 2
+
+
+   Desempenho operacional – O volume vendido da Ipiranga cresceu 4% em relação ao 2T23, com aumento de 5% no
+   diesel e 3% no ciclo Otto, com maior participação do etanol em detrimento da gasolina no mix de produtos. Em
+   comparação ao 1T24, o volume foi 5% maior, principalmente em função do aumento de 10% no diesel, fruto da
+   sazonalidade típica entre os períodos.
+
+   Receita líquida – Total de R$ 29.431 milhões (+11% vs 2T23), devido principalmente ao maior volume de vendas e aos
+   repasses dos aumentos de custos dos combustíveis. Em relação ao 1T24, a receita líquida cresceu 6%, fruto do maior
+   volume de vendas.
+
+   Custo dos produtos vendidos – Total de R$ 28.019 milhões (+9% vs 2T23), principalmente em função dos maiores custos
+   dos combustíveis e pelo maior volume de vendas. Em relação ao 1T24, houve aumento de 6%, decorrente do maior
+   volume de vendas.
+
+   Despesas gerais, administrativas e de vendas – Total de R$ 830 milhões (+30% vs 2T23), fruto de maiores despesas com
+   pessoal (principalmente maior quadro físico e dissídio), depreciação, frete (maior volume de vendas) e despesas
+   pontuais com mudança de escritório. Em relação ao 1T24, as despesas gerais, administrativas e de vendas
+   apresentaram aumento de 17%, reflexo de maiores despesas com frete (maior volume de vendas), pessoal
+   (principalmente maior quadro físico e provisões) e despesas pontuais com a mudança dos escritórios do Rio de
+   Janeiro e São Paulo.
+
+   Outros resultados operacionais – Total de R$ 109 milhões negativos, melhora de R$ 100 milhões em relação ao 2T23 e
+   de R$ 56 milhões em relação ao 1T24, fruto principalmente de menores despesas com CBios.
+
+   Resultado na venda de bens – Total de R$ 36 milhões (+13% vs 2T23), decorrente da venda de imóveis, com destaque
+   para o edifício do Rio de Janeiro. Em relação ao 1T24, o resultado na venda de bens permaneceu estável.
+
+   EBITDA Ajustado recorrente – Total de R$ 781 milhões (+80% vs 2T23), principalmente em função de melhores margens,
+   fruto da normalização do ambiente concorrencial e de ganhos de estoque no 2T24, em comparação a perdas de
+   estoque decorrentes das reduções de custos no 2T23, apesar de maiores despesas e irregularidades no mercado
+   (principalmente benefícios fiscais no Amapá revogados em abril/24, e aumento da importação de nafta, que
+   ingressa no país como insumo para a indústria química com carga tributária menor, mas acaba sendo também
+   vendida como gasolina sem o recolhimento da totalidade dos tributos). Em relação ao 1T24, o EBITDA Ajustado
+   recorrente permaneceu estável, principalmente em função da redução do efeito das distorções tributárias, apesar
+   de maiores despesas no período.
+
+   Investimentos – Foram investidos R$ 228 milhões no trimestre, direcionados à ampliação e manutenção das redes de
+   postos e franquias e à infraestrutura logística, além de investimento para evolução da plataforma de tecnologia da
+   empresa. Do total investido, R$ 49 milhões referem-se a imobilizações e adições ao intangível, R$ 154 milhões a ativos
+   de contratos com clientes (direito de exclusividade) e R$ 25 milhões a liberações de financiamentos a clientes e
+   antecipações de aluguel, líquidas de recebimento.
+
+
+
+                                                                                                                                       7
+2º TRIMESTRE DE 2024
+
+                                                                                                                                  Em milhões de Reais
+
+    Ultrapar – Endividamento                                                                     2T24                 2T23                 1T24
+
+      Caixa e aplicações financeiras                                                             7.429               6.216                 6.607
+      Dívida bruta                                                                             (13.703)             (12.692)             (12.958)
+      Arrendamentos a pagar                                                                     (1.426)              (1.531)              (1.472)
+   Dívida líquida                                                                               (7.700)             (8.007)               (7.823)
+   Dívida líquida/EBITDA LTM Ajustado¹                                                            1,2x                2,1x                  1,3x
+      Fornecedores convênio (risco sacado)                                                      (1.531)              (1.468)              (1.304)
+      Passivo financeiro de clientes (vendor)                                                    (244)                (388)                (278)
+      Recebíveis dos desinvestimentos (Oxiteno e Extrafarma)                                      220                1.083                  964
+   Dívida líquida + risco sacado + vendor + recebíveis                                          (9.256)             (8.779)               (8.441)
+                                                                                               110% DI              105% DI              109% DI
+   Custo médio da dívida bruta
+                                                                                              DI + 1,0%            DI + 0,7%             DI + 0,9%
+   Rendimento médio do caixa (% DI)                                                               99%                 99%                   97%
+   Prazo médio de amortização da dívida bruta (anos)                                              3,3                  3,9                  3,5
+  ¹ EBITDA LTM Ajustado não inclui ganho de capital e ajustes de fechamento com as vendas da Oxiteno e Extrafarma, e créditos fiscais extraordinários;
+  além disso, não inclui o resultado LTM da Extrafarma desde a conclusão da sua venda
+
+
+  A Ultrapar encerrou o 2T24 com dívida líquida de R$ 7,7 bilhões (1,2x EBITDA LTM Ajustado), em comparação a R$ 7,8
+  bilhões em março de 2024 (1,3x EBITDA LTM Ajustado). A queda do endividamento líquido deve-se principalmente à
+  geração de caixa operacional do período e recebimento da última parcela da venda da Oxiteno de R$ 755 milhões,
+  parcialmente compensados pelo montante de R$ 1,3 bilhão referente à aquisição e reclassificação das ações da
+  Hidrovias para a linha de “Investimentos”. A queda da alavancagem financeira é reflexo do maior EBITDA LTM e da
+  menor dívida líquida.
+
+  Cabe destacar que existem recebíveis ainda não incluídos no endividamento líquido da Ultrapar relacionados à
+  venda da Extrafarma (R$ 183 milhões, corrigidos por CDI + 0,5% a.a. desde agosto de 2022, recebidos em 01 agosto
+  de 2024, mas não refletidos no balanço de junho de 2024).
+
+  Caixa e perfil de amortização e composição por moeda da dívida bruta:
+
+
+
+
+                                                                                                        Moeda nacional
+
+                                                                                                        Moeda estrangeira
+
+                                                                                                            Com hedge
+
+                                                                                                            Sem hedge
+
+                                                                                                        Resultado de instrumentos de
+                                                                                                        proteção cambial e de juros
+
+
+
+
+                                                                                                                                                  8
+2º TRIMESTRE DE 2024
+
+
+
+  Atualizações sobre temas ESG
+  A Ultrapar, de forma consolidada, contribuiu com aproximadamente R$ 5 milhões em campanhas para apoio as
+  comunidades afetadas pelas chuvas no Rio Grande do Sul.
+  Para apoiar as comunidades afetadas pelas chuvas no Rio Grande do Sul, a Ultragaz realizou a doação de botijões
+  P-13 para mais de 40 cozinhas solidárias. Para os colaboradores atingidos, disponibilizou apoio do serviço social e
+  suporte psicológico, além de campanha de matchfunding, triplicando o valor a cada R$ 1 doado pelos
+  colaboradores. Para os revendedores, dentre outras iniciativas, foram renegociados prazos de pagamento e auxílio
+  na recuperação das revendas.
+  A Ipiranga também realizou campanhas de matchfunding para arrecadação de recursos financeiros que foram
+  revertidos em cestas básicas para as comunidades atingidas, realizou doações de combustíveis para serviços
+  essenciais de resgate e suporte psicológico para funcionários. Para os colaboradores impactados, a Ipiranga realizou
+  uma doação emergencial para suporte imediato, além de suporte psicológico e auxílio para limpeza das residências.
+  Para as revendas, foi concedido apoio financeiro com adesão dos postos das regiões atingidas por meio da
+  prorrogação de aluguel, financiamentos, royalties, fundo de marketing e apoio destinado a reconstrução de postos
+  atingidos.
+  A Ultrapar foi reconhecida como uma das 100 Empresas Mais Influentes do Brasil, em premiação promovida pela
+  revista Veja Negócios, que destaca as organizações com melhor desempenho no último ano em termos de
+  faturamento, rentabilidade, reputação, pioneirismo e adoção de políticas ESG.
+
+  Com a liderança do Instituto Ultra e apoio estratégico da Alicerce Educação, em junho, iniciou-se o projeto Educar
+  para Transformar, em Barcarena (PA), com o objetivo de recuperar a base educacional de 300 alunos de sete escolas
+  da rede municipal. As aulas são realizadas três vezes na semana, e terão duração de seis meses.
+  A Ultragaz publicou, em junho, seu Relatório de Sustentabilidade de 2023 (clique aqui para acessar o arquivo),
+  destacando a materialização do seu portfólio de soluções de energia (geração distribuída e biometano), além do
+  investimento de mais de R$ 13 milhões em segurança e o alcance de 40% de diversidade na liderança.
+  A Ultragaz também foi uma das 3 empresas destaque no Prêmio Exame ESG na categoria Combustíveis e Transição
+  Energética, trazendo como pontos fortes a descarbonização e a ecoeficiência de sua operação.
+  Devido à construção de seu terminal em Palmeirante (TO), a Ultracargo abriu as inscrições para o Programa de
+  Formação Operacional na região. O programa é gratuito, tem duração de dois meses e contará com 30 vagas,
+  sendo 50% delas afirmativas para mulheres, promovendo qualificação profissional para as comunidades locais.
+  Por mais um ano consecutivo, a Ipiranga alcançou o 1º lugar no ranking setorial de Energia do Prêmio Merco de
+  Responsabilidade ESG, instrumento de avaliação reputacional de empresas, ocupando o ranking geral entre as 50
+  melhores.
+  Além disso, a Ipiranga recebeu a medalha Compromisso ESG no Ecovadis, plataforma de avaliação de práticas de
+  sustentabilidade na cadeia de valor. O resultado mostra evolução na jornada ESG da Ipiranga em relação ao último
+  ciclo de avaliação, colocando-se a mais de 10 pontos percentuais à frente das demais empresas do mesmo setor
+  avaliadas pela plataforma.
+
+
+
+
+                                                                                                                 9
+2º TRIMESTRE DE 2024
+
+
+   Mercado de capitais                                                           2T24        2T23         1T24
+
+   Quantidade final de ações (mil)                                             1.115.404   1.115.204    1.115.404
+   Valor de mercado¹ (R$ milhões)                                               24.093      21.066       31.756
+   B3
+        Volume médio/dia (mil ações)                                            4.297       8.195         5.366
+        Volume financeiro médio/dia (R$ mil)                                   106.068     134.135       153.270
+        Cotação média (R$/ação)                                                 24,68       16,37         28,56
+   NYSE
+        Quantidade de ADRs² (mil ADRs)                                          59.223      57.461       56.388
+        Volume médio/dia (mil ADRs)                                             1.340       1.353         1.443
+        Volume financeiro médio/dia (US$ mil)                                   6.490       4.434         8.361
+        Cotação média (US$/ADR)                                                  4,84        3,28          5,79
+   Total
+        Volume médio/dia (mil ações)                                            5.637       9.548         6.809
+        Volume financeiro médio/dia (R$ mil)                                   139.743     156.026       194.694
+   ¹ Calculado a partir do preço de fechamento da ação no período
+   ² 1 ADR = 1 ação ordinária
+
+
+  O volume financeiro médio negociado da Ultrapar, considerando as negociações ocorridas na B3 e na NYSE, foi de
+  R$ 140 milhões/dia no 2T24 (-28% vs 1T24). As ações da Ultrapar encerraram o 2T24 cotadas a R$ 21,60 na B3, queda
+  de 24% no trimestre, enquanto o índice Ibovespa depreciou 3%. Na NYSE, as ações da Ultrapar apresentaram queda
+  de 32% enquanto o índice Dow Jones depreciou 2% no trimestre. A Ultrapar encerrou o 2T24 com valor de mercado
+  de R$ 24 bilhões.
+
+
+
+                                                   Evolução UGPA3 x Ibovespa
+                                                               (Base 100)
+
+
+
+
+                   Fonte: Broadcast
+
+
+
+
+                                                                                                             10
+2º TRIMESTRE DE 2024
+
+
+  Teleconferência 2T24
+
+  A Ultrapar realizará a teleconferência com analistas e investidores no dia 08 de agosto de 2024 para
+  comentários sobre o desempenho da Companhia no segundo trimestre de 2024 e perspectivas. A
+  apresentação estará disponível para download no website da Companhia 30 minutos antes de seu início.
+
+  A teleconferência será transmitida via webcast e realizada em português com tradução simultânea para inglês.
+  Favor conectar-se com 10 minutos de antecedência.
+
+
+
+  Teleconferência em português com tradução simultânea para inglês
+  Horário: 11h00 (BRT) / 10h00 (EDT)
+
+
+  Link de acesso via webcast
+  Participantes do Brasil: clique aqui
+  Participantes internacionais: clique aqui
+
+
+
+
+                                                                                                        11
+2º TRIMESTRE DE 2024
+
+                                                                                                                         Em milhões de Reais
+
+    ULTRAPAR - Balanço patrimonial                                                    JUN 24             JUN 23                MAR 24
+
+
+    ATIVO
+     Caixa e equivalentes de caixa                                                             3.830,7            5.378,1             3.747,6
+     Aplicações financeiras e instrumentos financeiros derivativos de proteção                   300,8              337,4               309,5
+     Contas a receber de clientes e financiamentos a clientes                                  4.516,8            3.647,8             4.206,9
+     Contas a receber - venda de controladas                                                     219,9              887,7               963,7
+     Estoques                                                                                  3.989,6            3.686,9             4.371,9
+     Tributos a recuperar                                                                      1.665,8            1.672,0             1.688,2
+     Despesas antecipadas                                                                        151,2              135,4               184,7
+     Ativos de contratos com clientes - direitos de exclusividade                                776,6              736,1               779,2
+     Outros                                                                                      294,6              108,2               323,3
+    Total Ativo Circulante                                                                15.746,1           16.589,6               16.574,9
+
+     Aplicações financeiras e instrumentos financeiros derivativos de proteção                 3.297,9              500,9             2.550,0
+     Contas a receber de clientes e financiamentos a clientes                                    691,4              507,8               599,2
+     Contas a receber - venda de controladas                                                         -              195,6                   -
+     Imposto de renda e contribuição social diferidos                                          1.267,6            1.063,9             1.155,5
+     Tributos a recuperar                                                                      2.731,0            2.706,7             2.548,1
+     Depósitos judiciais                                                                       1.054,5              969,6             1.034,9
+     Despesas antecipadas                                                                         61,9               79,9                53,4
+     Ativos de contratos com clientes - direitos de exclusividade                              1.432,4            1.506,6             1.436,7
+     Outros                                                                                      286,8              204,3               306,1
+     Investimentos em controladas, controladas em conjunto e coligadas                         1.598,7              121,3               316,2
+     Ativos de direito de uso, líquido                                                         1.612,0            1.766,3             1.671,6
+     Imobilizado, líquido                                                                      6.585,2            5.994,6             6.494,6
+     Intangível, líquido                                                                       1.974,7            2.071,3             1.872,1
+    Total Ativo Não Circulante                                                            22.594,1           17.688,9               20.038,6
+
+    TOTAL ATIVO                                                                           38.340,2           34.278,5               36.613,5
+
+    PASSIVO
+     Fornecedores                                                                              3.126,8            2.481,4             3.077,8
+     Fornecedores convênio                                                                     1.531,3            1.468,5             1.304,1
+     Empréstimos, financiamentos e instrumentos financeiros derivativos de proteção            2.987,4            1.327,6             2.830,9
+     Debêntures                                                                                  427,5            1.172,0               942,3
+     Salários e encargos sociais                                                                 398,9              375,1               348,9
+     Impostos a pagar                                                                            429,0              381,5               251,0
+     Arrendamentos a pagar                                                                       332,4              286,1               314,1
+     Passivo financeiro de clientes (vendor)                                                     135,4              162,3               148,1
+     Provisão para crédito de descarbonização                                                    147,1              377,4                   -
+     Outros                                                                                      634,9              407,9               664,2
+    Total Passivo Circulante                                                              10.150,7            8.439,7                9.881,4
+
+     Empréstimos, financiamentos e instrumentos financeiros derivativos de proteção            6.178,7            6.180,3             5.002,1
+     Debêntures                                                                                4.109,7            4.012,1             4.182,5
+     Provisões para riscos tributários, cíveis e trabalhistas                                  1.252,0            1.050,1             1.241,2
+     Benefícios pós-emprego                                                                      250,3              198,7               246,8
+     Arrendamentos a pagar                                                                     1.093,8            1.244,9             1.158,0
+     Passivo financeiro de clientes (vendor)                                                     109,1              225,4               129,5
+     Outros                                                                                      342,1              320,6               396,3
+    Total Passivo Não Circulante                                                          13.335,6           13.232,1               12.356,3
+
+    TOTAL PASSIVO                                                                         23.486,3           21.671,8               22.237,7
+
+    PATRIMÔNIO LÍQUIDO
+     Capital social                                                                            6.621,8            6.621,8             6.621,8
+     Reservas                                                                                  6.998,6            5.262,7             6.996,8
+     Ações em tesouraria                                                                       (450,3)            (470,5)             (470,0)
+     Outros                                                                                    1.113,7              682,6               679,7
+     Participação dos não-controladores                                                          570,0              510,1               547,6
+    Total Patrimônio Líquido                                                              14.853,9           12.606,7               14.375,8
+
+    TOTAL PASSIVO E PATRIMÔNIO LÍQUIDO                                                    38.340,2           34.278,5               36.613,5
+
+     Caixa e aplicações financeiras                                                         7.429,5            6.216,4                 6.607,0
+     Dívida bruta                                                                        (13.703,2)         (12.692,0)              (12.957,8)
+     Arrendamentos a pagar                                                                (1.426,2)          (1.531,0)               (1.472,1)
+    Endividamento líquido                                                                 (7.699,8)          (8.006,6)               (7.822,9)
+
+
+
+
+                                                                                                                                                 12
+2º TRIMESTRE DE 2024
+
+                                                                                                                                                                                               Em milhões de Reais
+
+      ULTRAPAR - Demonstração do resultado                                                                         2T24                  2T23                   1T24                  1S24                  1S23
+
+
+  Receita líquida de vendas e serviços                                                                               32.343,9               29.592,5              30.395,9              62.739,8                  60.144,3
+
+       Custos dos produtos vendidos e dos serviços prestados                                                        (30.235,9)             (27.920,3)            (28.334,7)             (58.570,5)            (56.759,3)
+
+  Lucro bruto                                                                                                          2.108,1               1.672,3               2.061,2                4.169,3                  3.385,0
+
+  Receitas (despesas) operacionais
+         Com vendas e comerciais                                                                                        (644,1)               (523,8)                (569,0)             (1.213,1)                (1.034,7)
+         Gerais e administrativas                                                                                       (513,5)               (469,2)                (440,8)               (954,3)                  (923,2)
+
+       Resultado na venda de bens                                                                                          37,1                   39,8                  36,8                  73,9                    92,6
+       Outros resultados operacionais, líquidos                                                                           (88,2)              (206,0)                (137,8)               (226,0)                  (339,2)
+
+  Lucro operacional                                                                                                       899,3                 513,0                  950,4              1.849,7                  1.180,4
+
+       Resultado financeiro
+         Receitas financeiras                                                                                             280,6                  186,7                 160,2                 440,8                   377,1
+         Despesas financeiras                                                                                           (486,3)               (403,4)                (443,0)               (929,3)                  (905,4)
+
+       Equivalência patrimonial
+         Participação nos lucros de coligadas, controladas e empreendimentos
+                                                                                                                           (8,0)                   1,6                  (3,1)                (11,1)                   12,0
+         controlados em conjunto
+         Amortização de mais valia de coligadas                                                                            (1,7)                        -                      -              (1,7)                          -
+
+  Lucro antes do imposto de renda e contribuição social                                                                   683,8                 297,9                  664,6              1.348,4                   664,1
+
+       Imposto de renda e contribuição social
+         Corrente                                                                                                       (306,9)               (164,7)                  (87,9)              (394,7)                  (304,4)
+         Diferido                                                                                                         114,2                  105,5               (121,3)                  (7,0)                  152,8
+
+  Lucro líquido                                                                                                           491,2                 238,7                  455,4                 946,7                  512,5
+
+       Lucro atribuível a:
+         Acionistas da Ultrapar                                                                                           437,9                  213,9                 431,5                  869,4                  475,9
+         Acionistas não controladores de controladas                                                                       53,3                   24,8                  24,0                   77,3                   36,6
+
+  EBITDA Ajustado                                                                                                      1.335,6                  964,2              1.357,7                2.693,3                  2.043,3
+
+       Não recorrentes¹                                                                                                   (53,8)                (30,8)                 (52,1)              (105,8)                   (86,7)
+
+  EBITDA Ajustado recorrente                                                                                           1.281,9                  933,4              1.305,6                2.587,5                  1.956,6
+
+       Depreciação e amortização²                                                                                         446,0                  449,6                 410,3                  856,4                  850,8
+
+       Investimentos totais³                                                                                              479,4                  385,3                 438,4                  917,8                  750,0
+
+  Índices
+
+       Lucro por ação (R$)                                                                                                 0,40                   0,20                  0,39                   0,79                   0,43
+       Dívida líquida / EBITDA LTM Ajustado 4                                                                               1,2x                  2,1x                   1,3x                  1,2x                   2,1x
+       Margem bruta (%)                                                                                                    6,5%                  5,7%                   6,8%                  6,6%                    5,6%
+       Margem operacional (%)                                                                                              2,8%                  1,7%                   3,1%                  2,9%                    2,0%
+       Margem EBITDA Ajustado (%)                                                                                          4,1%                  3,3%                   4,5%                  4,3%                    3,4%
+       Margem EBITDA Ajustado recorrente (%)                                                                               4,0%                  3,2%                   4,3%                  4,1%                    3,3%
+
+      Número de funcionários 5                                                                                          10.126                  10.050                 9.988                 10.126                 10.050
+
+  ¹ Itens não recorrentes descritos na tabela de cálculo do EBITDA – página 2
+  ² Inclui amortização de ativ os de contratos com clientes – direitos de exclusiv idade e amortização de mais v alia de coligadas
+  ³ Inclui imobilizações e adições ao intangív el (líquidas de desinv estimentos), ativ os de contratos com clientes (direito de exclusiv idade), custos diretos iniciais de ativ os de direito de uso, aportes
+  realizados nas SPEs (Sociedade de Propósito Específico), pagamentos de outorga, liberações de financiamentos a clientes, antecipações de aluguel (líquidos de recebimentos), aquisições de
+  participações acionárias e contraprestação de arrendamentos a pagar
+  4
+      EBITDA LTM Ajustado não inclui ganho de capital e ajustes de fechamento com as v endas da Oxiteno e Extrafarma, e créditos fiscais extraordinários; além disso, não inclui o resultado LTM da
+  Extrafarma desde a conclusão da sua v enda
+  5
+      Número de funcionários de 2023 foi rev isado para refletir nov o critério (inclui somente colaboradores ativ os e colaboradores afastados por até 12 meses)
+
+
+
+
+                                                                                                                                                                                                             13
+2º TRIMESTRE DE 2024
+
+
+                                                                                                                                               Em milhões de Reais
+
+                                                                                                                            JAN - JUN                JAN - JUN
+   ULTRAPAR - Demonstração dos fluxos de caixa
+                                                                                                                              2024                     2023
+
+
+   Fluxos de caixa das atividades operacionais
+   Lucro líquido                                                                                                                    946,7                    512,5
+   Ajustes para reconciliar o lucro líquido ao caixa gerado (consumido) pelas atividades operacionais
+     Participação nos lucros de coligadas, controladas e controladas em conjunto e amortização de mais valia de coligadas               12,8                  (12,0)
+     Amortização de ativos de contratos com clientes - direitos de exclusividade                                                    255,0                    302,5
+     Amortização de ativos de direito de uso                                                                                        149,9                    150,2
+     Depreciações e amortizações                                                                                                    453,8                    402,5
+     Juros, variações monetárias e cambiais                                                                                         691,9                    797,4
+     Imposto de renda e contribuição social correntes e diferidos                                                                   401,8                    151,6
+     Resultado na venda ou baixa de bens e demais ativos                                                                            (109,1)                   (92,6)
+     Instrumento patrimonial outorgado                                                                                                  27,7                     14,0
+     Provisão de descarbonização – CBios                                                                                            321,3                    376,6
+     Demais provisões e ajustes                                                                                                         69,7                     91,4
+
+                                                                                                                                  3.221,3                  2.694,3
+
+   (Aumento) diminuição nos ativos
+     Contas a receber e financiamentos a clientes                                                                                   (243,1)                 1.011,7
+     Estoques                                                                                                                       297,3                   1.234,9
+     Impostos a recuperar                                                                                                           (308,9)                 (464,4)
+     Dividendos recebidos de controladas, coligadas e controladas em conjunto                                                            2,0                      5,6
+     Outros ativos                                                                                                                  (132,4)                  107,2
+
+   Aumento (diminuição) nos passivos
+     Fornecedores e fornecedores convênio                                                                                         (1.057,2)                (3.445,7)
+     Salários e encargos sociais                                                                                                     (95,9)                   (86,8)
+     Obrigações tributárias                                                                                                          (38,4)                      (1,9)
+     Outros passivos                                                                                                                (107,0)                 (119,1)
+
+   Aquisição de CBIOs e créditos de carbono                                                                                         (450,9)                 (379,2)
+   Pagamentos de ativos de contratos com clientes - direitos de exclusividade                                                       (195,7)                 (273,4)
+   Pagamentos de contingências                                                                                                       (30,9)                   (39,6)
+   Imposto de renda e contribuição social pagos                                                                                     (135,6)                   (56,6)
+
+   Caixa líquido gerado (consumido) pelas atividades operacionais                                                                   724,5                    187,1
+
+   Fluxos de caixa das atividades de investimentos
+     Aplicações financeiras, líquidas de resgates                                                                                 (2.086,4)                  344,0
+     Aquisição de imobilizado e intangível                                                                                          (683,4)                 (456,5)
+     Caixa gerado com a venda de investimentos e outros ativos                                                                      977,0                    199,2
+     Caixa consumido na compra de investimentos e outros ativos                                                                   (1.102,9)                   (90,3)
+
+   Caixa líquido gerado (consumido) pelas atividades de investimentos                                                             (2.895,6)                      (3,5)
+
+   Fluxos de caixa das atividades de financiamentos
+     Empréstimos, financiamentos e debêntures
+      Captação                                                                                                                     2.856,0                  2.511,3
+      Amortização                                                                                                                 (1.386,6)                (1.857,6)
+      Juros e derivativos (pagos) ou recebidos                                                                                      (629,5)                 (666,7)
+     Pagamentos de arrendamentos                                                                                                    (220,7)                 (182,5)
+     Dividendos pagos                                                                                                               (461,2)                 (108,7)
+     Captações de passivo financeiro de clientes                                                                                         -                        6,8
+     Pagamentos de passivo financeiro de clientes                                                                                    (81,9)                   (95,4)
+     Aumento de capital realizado por acionistas não controladores e resgate de cotas                                                   13,5                      -
+     Sociedades relacionadas                                                                                                         (13,4)                      (6,0)
+
+   Caixa líquido gerado (consumido) pelas atividades de financiamentos                                                                  76,2                (398,9)
+
+   Variação cambial de caixa e equivalentes de caixa em moeda estrangeira                                                               -                    (28,4)
+
+   Aumento (diminuição) de caixa e equivalentes de caixa                                                                          (2.095,0)                 (243,7)
+
+   Caixa e equivalentes de caixa no início do período                                                                             5.925,7                  5.621,8
+
+   Caixa e equivalentes de caixa no fim do período                                                                                3.830,7                  5.378,1
+
+   Transações sem efeito caixa
+     Adições em ativos de direito de uso e arrendamentos a pagar                                                                        97,8                 168,0
+     Adições em ativos de contratos com clientes - direitos de exclusividade                                                            27,8                     66,3
+     Reclassificação entre ativo financeiro e investimento em coligadas                                                             645,3                         -
+     Emissão de ações referente ao bônus de subscrição - indenização - aquisição Extrafarma                                              4,1                      0,4
+     Aquisições de imobilizado e intangível sem efeito caixa                                                                             9,0                     30,8
+
+
+
+
+                                                                                                                                                                  14
+2º TRIMESTRE DE 2024
+
+                                                                                                Em milhões de Reais
+
+    ULTRAGAZ - Capital operacional                                          JUN 24           JUN 23          MAR 24
+
+
+    ATIVO OPERACIONAL
+        Clientes                                                                 611,0           560,0            571,1
+        Clientes a receber LP                                                     17,1             5,8             15,2
+        Estoques                                                                 193,5           186,9            198,7
+        Impostos                                                                 136,6           175,5            135,4
+        Depósitos judiciais                                                      257,6           248,8            256,1
+        Outros                                                                   103,5           120,7            115,1
+        Ativos de direito de uso                                                 149,1           149,6            154,8
+        Imobilizado / Intangível                                               1.753,4         1.650,2          1.733,6
+
+    TOTAL ATIVO OPERACIONAL                                                    3.221,9         3.097,5          3.180,0
+
+    PASSIVO OPERACIONAL
+        Fornecedores                                                             238,4            233,5            236,8
+        Salários e encargos                                                      121,8            114,5            101,8
+        Impostos                                                                   8,7              7,7              9,0
+        Provisões judiciais                                                      161,5            135,8            167,3
+        Arrendamentos a pagar                                                    186,5            187,6            192,4
+        Outros                                                                    74,6             67,5             66,1
+
+    TOTAL PASSIVO OPERACIONAL                                                    791,4           746,7            773,4
+
+
+
+
+                                                                                                                                  Em milhões de Reais
+
+    ULTRAGAZ - Demonstração do resultado                                     2T24             2T23             1T24             1S24             1S23
+
+
+    Receita líquida                                                            2.694,1         2.776,3          2.499,9          5.194,0          5.416,9
+      Custo dos produtos vendidos                                             (2.167,6)        (2.230,7)        (1.985,3)        (4.152,9)        (4.359,3)
+    Lucro bruto                                                                  526,5           545,6            514,6          1.041,1          1.057,7
+      Despesas operacionais
+       Vendas e comerciais                                                      (138,1)          (162,6)          (131,1)          (269,1)          (303,9)
+       Gerais e administrativas                                                  (89,6)           (75,2)           (80,4)          (170,0)          (147,5)
+      Resultado na venda de bens                                                   0,6               7,0              0,3             0,9               6,8
+      Outros resultados operacionais                                              20,4               2,1              4,3            24,7               8,2
+    Lucro operacional                                                            319,8           317,0            307,7            627,5            621,3
+      Equivalência patrimonial                                                      0,5            (0,0)            (0,0)              0,5            (0,0)
+    EBITDA Ajustado                                                              414,1           405,2            400,7            814,8            789,2
+      Não recorrentes¹                                                            (17,3)             -                -             (17,3)              -
+    EBITDA Ajustado recorrente                                                   396,8           405,2            400,7            797,4            789,2
+      Depreciação e amortização²                                                  93,8             88,3             93,0            186,8            167,9
+    Índices
+      Margem bruta (R$/ton)                                                      1.206            1.235            1.281            1.242            1.232
+      Margem operacional (R$/ton)                                                  732              717              766              748              724
+      Margem EBITDA Ajustado (R$/ton)                                              948              917              997              972              919
+      Margem EBITDA Ajustado recorrente (R$/ton)                                   909              917              997              951              919
+    Número de funcionários³                                                      3.602           3.620            3.536            3.602            3.620
+    ¹ Itens não recorrentes descritos na tabela de cálculo do EBITDA – página 2
+    ² Inclui amortização de ativ os de contratos com clientes – direitos de exclusiv idade
+    ³ Número de funcionários de 2023 foi rev isado para refletir nov o critério (inclui somente colaboradores ativ os e colaboradores afastados por até 12
+    meses)
+
+
+
+
+                                                                                                                                                              15
+2º TRIMESTRE DE 2024
+
+
+                                                                                                                               Em milhões de Reais
+
+     ULTRACARGO - Capital operacional                                                                     JUN 24           JUN 23          MAR 24
+
+
+     ATIVO OPERACIONAL
+         Clientes                                                                                               44,2             28,0             37,8
+         Estoques                                                                                               12,4             10,5             12,1
+         Impostos                                                                                                6,0              7,4              6,6
+         Outros                                                                                                 59,4             90,9             77,5
+         Ativos de direito de uso                                                                              610,6            631,9            621,0
+         Imobilizado / Intangível / Investimentos                                                            2.336,6          1.784,3          2.221,9
+
+     TOTAL ATIVO OPERACIONAL                                                                                 3.069,2          2.553,0          2.976,9
+
+     PASSIVO OPERACIONAL
+         Fornecedores                                                                                           86,6             43,4             55,9
+         Salários e encargos                                                                                    37,3             44,1             32,9
+         Impostos                                                                                               17,9              5,3             13,6
+         Provisões judiciais                                                                                    18,2              9,4             17,5
+         Arrendamentos a pagar                                                                                 551,6            584,7            564,9
+         Outros¹                                                                                                49,6             53,2             39,0
+
+     TOTAL PASSIVO OPERACIONAL                                                                                 761,2            740,2            723,8
+
+     ¹ Inclui saldo da conta obrigações com clientes de longo prazo
+
+
+
+
+                                                                                                                                                                 Em milhões de Reais
+
+     ULTRACARGO - Demonstração do resultado                                                                 2T24             2T23             1T24             1S24           1S23
+
+
+     Receita líquida                                                                                           263,6            257,4            263,2               526,9      493,8
+       Custo dos serviços prestados                                                                             (95,6)           (91,6)           (92,1)         (187,8)       (179,3)
+     Lucro bruto                                                                                               168,0            165,8            171,1               339,1      314,5
+       Despesas operacionais
+        Vendas e comerciais                                                                                      (2,2)            (2,6)            (3,6)              (5,8)         (6,2)
+        Gerais e administrativas                                                                                (42,3)           (44,8)           (42,2)             (84,5)        (80,8)
+       Resultado na venda de bens                                                                                  0,0              0,4            (0,0)               0,0           0,3
+       Outros resultados operacionais                                                                              3,5              1,2             1,7                5,2           1,0
+     Lucro operacional                                                                                         126,9            119,9            127,0               254,0      228,9
+     Equivalência patrimonial
+       Participação nos lucros de coligadas, controladas e empreendimentos
+                                                                                                                   1,0              7,9              1,5               2,4           7,5
+       controlados em conjunto
+       Amortização de mais valia de coligadas                                                                    (1,7)              -                -                (1,7)          -
+     EBITDA Ajustado                                                                                           165,0            161,0            165,2               330,3      303,4
+       Depreciação e amortização¹                                                                                38,8             33,2             36,7               75,6         66,9
+
+     Índices
+       Margem bruta (%)                                                                                        63,7%            64,4%            65,0%               64,4%         63,7%
+       Margem operacional (%)                                                                                  48,2%            46,6%            48,3%               48,2%         46,4%
+       Margem EBITDA Ajustado (%)                                                                              62,6%            62,6%            62,8%               62,7%         61,4%
+     Número de funcionários²                                                                                       836              856              843              836           856
+
+     ¹ Inclui amortização de mais v alia de coligadas
+     ² Número de funcionários de 2023 foi rev isado para refletir nov o critério (inclui somente colaboradores ativ os e colaboradores afastados por até 12 meses)
+
+
+
+
+                                                                                                                                                                              16
+2º TRIMESTRE DE 2024
+
+                                                                                                              Em milhões de Reais
+
+     IPIRANGA - Capital operacional                                                           JUN 24       JUN 23          MAR 24
+
+
+     ATIVO OPERACIONAL
+         Clientes                                                                               3.866,4       3.066,4          3.614,5
+         Clientes a receber LP                                                                    674,3         513,5            584,0
+         Estoques                                                                               3.783,7       3.489,5          4.161,2
+         Impostos                                                                               3.805,8       3.794,7          3.688,9
+         Ativos de contratos com clientes - direitos de exclusividade                           2.208,4       2.240,8          2.215,0
+         Outros                                                                                   888,5         586,0            909,4
+         Ativos de direito de uso                                                                 844,5         978,3            888,5
+         Imobilizado / Intangível / Investimentos                                               4.414,5       4.401,9          4.354,7
+
+     TOTAL ATIVO OPERACIONAL                                                                  20.486,1      19.071,1         20.416,2
+
+     PASSIVO OPERACIONAL
+         Fornecedores                                                                           4.313,7       3.663,8          4.066,4
+         Salários e encargos                                                                      205,4         168,1            181,8
+         Benefícios pós-emprego                                                                   266,9         212,1            262,9
+         Impostos                                                                                 103,2         177,5            140,6
+         Provisões judiciais                                                                      436,9         315,6            429,1
+         Arrendamentos a pagar                                                                    679,2         751,2            706,5
+         Outros                                                                                   969,8       1.165,3            929,9
+
+     TOTAL PASSIVO OPERACIONAL                                                                 6.975,0        6.453,5          6.717,1
+
+
+
+
+                                                                                                                                                Em milhões de Reais
+
+     IPIRANGA - Demonstração do resultado                                                     2T24          2T23             1T24             1S24             1S23
+
+
+     Receita líquida                                                                          29.430,7      26.603,8         27.693,3         57.124,0         54.322,9
+       Custos dos produtos vendidos e dos serviços prestados                                  (28.018,6)   (25.644,5)       (26.312,9)       (54.331,6)       (52.306,8)
+     Lucro bruto                                                                               1.412,1          959,3          1.380,4         2.792,4          2.016,1
+       Despesas operacionais
+        Vendas e comerciais                                                                      (504,9)       (358,5)          (434,4)          (939,2)             (724,6)
+        Gerais e administrativas                                                                 (324,9)       (281,3)          (273,7)          (598,6)             (588,3)
+       Resultado na venda de bens                                                                  36,5          32,4             36,5             72,9                88,3
+       Outros resultados operacionais                                                            (109,4)       (209,2)          (165,1)          (274,6)             (347,9)
+     Lucro operacional                                                                           509,3          142,7            543,7         1.053,0               443,6
+       Equivalência patrimonial                                                                    (1,2)          (1,9)            (2,1)           (3,3)               (3,8)
+     EBITDA Ajustado                                                                             817,1          464,4            819,1         1.636,3          1.047,6
+       Não recorrentes¹                                                                           (36,5)        (30,8)           (36,5)           (72,9)              (86,7)
+     EBITDA Ajustado recorrente                                                                  780,7          433,6            782,7         1.563,4               960,9
+       Depreciação e amortização²                                                                309,0          323,6            277,5            586,6              607,7
+     Índices
+       Margem bruta (R$/m³)                                                                          241           171              247              244               182
+       Margem operacional (R$/m³)                                                                     87            25               97               92                40
+       Margem EBITDA Ajustado (R$/m³)                                                                140            83              147              143                94
+       Margem EBITDA Ajustado recorrente (R$/m³)                                                     133            77              140              137                87
+     Número de postos                                                                            5.876          6.281            5.881            5.876              6.281
+     Número de funcionários³                                                                     5.192          5.078            5.127            5.192              5.078
+
+     ¹ Itens não recorrentes descritos na tabela de cálculo do EBITDA – página 2
+     ² Inclui amortização de ativ os de contratos com clientes – direitos de exclusiv idade
+     ³ Número de funcionários de 2023 foi rev isado para refletir nov o critério (inclui somente colaboradores ativ os e colaboradores afastados por até 12 meses)
+
+
+
+
+                                                                                                                                                                          17
+2Q24 Earnings Release
+
+
+  São Paulo, August 7, 2024 – Ultrapar Participações S.A. (“Company” or “Ultrapar”, B3: UGPA3 / NYSE: UGP),
+  operating in energy, mobility and logistics infrastructure through Ultragaz, Ipiranga, Ultracargo and Hidrovias do
+  Brasil S.A. (B3: HBSA3, “Hidrovias”), today announces its results for the second quarter of 2024.
+
+
+
+               Net revenues                                    Adjusted EBITDA¹                          Recurring Adjusted EBITDA¹
+
+                    R$ 32                                             R$ 1.3                                       R$ 1.3
+                    billion                                           billion                                      billion
+
+
+                                                           Cash generation from
+                 Net income                                                                              Investments and Acquisitions
+                                                                operations
+                   R$ 491                                             R$ 1.3                                       R$ 1.8
+                   million                                            billion                                      billion
+   ¹ Accounting adjustments and non-recurring items described in the EBITDA calculation table – page 2
+
+
+
+
+   Highlights
+
+      •    Continuity of good operating results of Ultrapar.
+
+      •    Approval of the distribution of R$ 276 million in dividends for the 1H24, equivalent to R$ 0.25 per share.
+
+      •    Beginning of implementation of a new governance at Hidrovias, with (i) election of the new CFO, (ii)
+           approval by shareholders’ meeting and holding of the first meeting of the new board of directors in June,
+           (iii) simplification of committees and advisory commissions and (iv) deep dive into the company’s long-
+           term strategic plan and value levers.
+
+      •    Acquisition by Ultragaz of a 51.7% stake in Witzler, a company that operates in the commercialization of
+           electrical energy in the free market and in the energy management of its customers. This acquisition is
+           aligned with Ultragaz's strategy of expanding its offering of energy solutions to its customers, leveraging on
+           its capillarity, commercial strength, and brand. Ultragaz, which already offers solutions for low voltage
+           customers through Ultragaz Energia Inteligente (as a result of the acquisition of Stella), will also work with
+           high voltage customers, consolidating its position in the electric energy market. The transaction was
+           approved by the Administrative Council of Economic Defense (CADE).
+
+      •    Acquisition of 49 service stations with the Ipiranga brand from Grupo Pão de Açúcar by the subsidiary
+           Millennium, a company that operates in the management of service stations. The transaction was
+           approved by CADE on July 22, 2024.
+
+      •    Issuance of debentures by Ultragaz in July, in the amount of R$ 700 million, at a cost equivalent to CDI +
+           0.7% per year (below the current average cost of gross debt).
+
+      •    Receipt of the last installment from the sale of Extrafarma, in the amount of R$ 222 million, on August 1 by
+           Ultrapar.
+2ND QUARTER OF 2024
+
+  Considerations on the financial and operational information
+  The financial information presented on this document were extracted from the individual and consolidated interim
+  financial information ("Quarterly Information") for the three months period ended on June 30, 2024, and prepared in
+  accordance with the pronouncement CPC 21 (R1) - Interim Financial Reporting and the International Accounting
+  Standard IAS 34 issued by the International Accounting Standards Board ("IASB"), and presented in accordance with
+  the applicable rules for Quarterly Information, issued by the Brazilian Securities and Exchange Commission (“CVM”).
+  The information on Ultragaz, Ultracargo, and Ipiranga are presented without the elimination of intersegment
+  transactions. Therefore, the sum of such information may not correspond to Ultrapar’s consolidated information.
+  Additionally, the financial and operational information is subject to rounding and, consequently, the total amounts
+  presented in the tables and charts may differ from the direct numerical sum of the amounts that precede them.
+  Information denominated EBITDA (Earnings Before Interests, Taxes on Income and Social Contribution on Net Income,
+  Depreciation and Amortization); Adjusted EBITDA – adjusted by the amortization of contractual assets with customers
+  – exclusive rights and by the amortization of fair value adjustments on associates acquisition; Recurring Adjusted EBITDA
+  – adjusted by non-recurring items; and EBIT (Earnings Before Interest and Taxes on Income and Social Contribution on
+  Net Income) are presented in accordance to Resolution 156, issued by the CVM on June 23, 2022. The calculation of
+  EBITDA based on net income is shown below:
+                                                                                                                            Quarter                 Accumulated
+  In million of Reais
+                                                                                                                 2Q24       2Q23        1Q24       1H24           1H23
+
+  Net income                                                                                                      491.2        238.7      455.4      946.7          512.5
+   (+) Income and social contribution taxes                                                                       192.6         59.2      209.1      401.8          151.6
+   (+) Net financial (income) expenses                                                                            205.7        216.7      282.8      488.5          528.3
+   (+) Depreciation and amortization                                                                              322.0        279.3      277.7      599.7          548.4
+
+  EBITDA                                                                                                         1,211.6       793.9    1,225.0    2,436.7        1,740.8
+
+  Accounting adjustment
+   (+) Amortization of contractual assets with customers - exclusive rights                                       122.3        170.3      132.7      255.0          302.5
+   (+) Amortization of fair value adjustments on associates acquisition                                             1.7          -          -          1.7            -
+
+  Adjusted EBITDA                                                                                                1,335.6       964.2    1,357.7    2,693.3        2,043.3
+
+   Ultragaz                                                                                                       414.1        405.2      400.7      814.8          789.2
+   Ultracargo                                                                                                     165.0        161.0      165.2      330.3          303.4
+   Ipiranga                                                                                                       817.1        464.4      819.1    1,636.3        1,047.6
+   Holding and other companies                                                                                    (60.6)       (66.4)     (42.9)    (103.6)         (96.9)
+   Extraordinary expenses/provisions and post-closing adjustments from the sales of Oxiteno and Extrafarma          -            -         15.6       15.6            -
+  Non-recurring items that affected EBITDA
+   (-) Results from disposal of assets (Ipiranga)                                                                  (36.5)      (30.8)     (36.5)     (72.9)         (86.7)
+   (-) Earnout Stella (Ultragaz)                                                                                   (17.3)        -          -        (17.3)           -
+   (-) Extraordinary expenses/provisions and post-closing adjustments from the sales of Oxiteno and Extrafarma       -           -        (15.6)     (15.6)           -
+
+  Recurring Adjusted EBITDA                                                                                      1,281.9       933.4    1,305.6    2,587.5        1,956.6
+
+   Ultragaz                                                                                                       396.8        405.2      400.7      797.4          789.2
+   Ultracargo                                                                                                     165.0        161.0      165.2      330.3          303.4
+   Ipiranga                                                                                                       780.7        433.6      782.7    1,563.4          960.9
+   Holding and other companies                                                                                    (60.6)       (66.4)     (42.9)    (103.6)         (96.9)
+
+
+
+
+                                                                                                                                                              2
+2ND QUARTER OF 2024
+
+
+  Report of Results of Hidrovias do Brasil
+
+  In May 2024, Ultrapar informed the conclusion of the acquisition of a relevant ownership position in Hidrovias, thus
+  becoming a strategic and long-term reference shareholder.
+  From that moment onwards, the entire amount of R$ 1.3 billion invested in the transaction began to be accounted for
+  in non-current assets, in investments in subsidiaries, joint ventures and associates. In turn, Hidrovias’ result is being
+  recorded with a 2 months’ delay, impacting Ultrapar’s result through “share of profit (loss) of subsidiaries, joint ventures
+  and associates” line. Therefore, in the second quarter of 2024, Ultrapar's net income is not impacted by the share of
+  profit (loss) of subsidiaries, joint ventures and associates from Hidrovias.
+
+
+
+
+                                                                                                                         3
+2ND QUARTER OF 2024
+
+
+                                                                                                                                               In millions of Reais
+
+                                                                                                 Δ                Δ                                         Δ
+ Ultrapar                                             2Q24         2Q23         1Q24
+                                                                                            2Q24 v 2Q23      2Q24 v 1Q24
+                                                                                                                               1H24         1H23
+                                                                                                                                                       1H24 v 1H23
+
+ Net revenues                                        32,344      29,593       30,396            9%               6%           62,740       60,144          4%
+ Adjusted EBITDA                                      1,336         964         1,358          39%              (2%)           2,693        2,043          32%
+ Recurring Adjusted EBITDA¹                           1,282         933         1,306          37%              (2%)           2,588        1,957          32%
+ Depreciation and amortization²                        446          450          410           (1%)              9%             856          851           1%
+ Financial result                                     (206)        (217)        (283)          (5%)             (27%)          (489)        (528)          (8%)
+ Net income                                            491          239          455           106%              8%             947          513           85%
+ Investments                                           479          385          438            24%              9%             918          750           22%
+ Cash flow from operating activities                  1,298         898         (573)          44%               n/a            725          187           287%
+¹ Non-recurring items described in the EBITDA calculation table – page 2
+² Includes amortization of contractual assets with customers – exclusive rights and amortization of fair value adjustments on associates acquisition
+
+    Net revenues – Total of R$ 32,344 million (+9% vs 2Q23), due to higher revenues from Ipiranga and Ultracargo,
+    attenuated by lower revenues from Ultragaz. Compared to 1Q24, net revenues increased 6%, mainly due to higher
+    revenues from Ipiranga and Ultragaz.
+
+    Recurring Adjusted EBITDA – Total of R$ 1,282 million (+37% vs 2Q23), mainly due to higher EBITDA from Ipiranga.
+    Compared to 1Q24, recurring Adjusted EBITDA decreased 2%, as a result of lower EBITDA from Ipiranga and Ultragaz.
+    Results from the Holding and other companies – Ultrapar recorded a negative result of R$ 61 million from the Holding
+    and other companies, comprised of (i) R$ 53 million of negative EBITDA from the Holding and (ii) R$ 8 million of negative
+    EBITDA from other companies, mainly due to the worse performance of Refinaria Riograndense. As mentioned in the
+    last quarterly report, the results of KMV (previously called abastece ai) began to be consolidated at Ipiranga from
+    1Q24 onwards.
+    Depreciation and amortization – Total of R$ 446 million (-1% vs 2Q23), due to lower amortization of contractual assets
+    at Ipiranga, offset by higher investments made over the last 12 months. Compared to 1Q24, total costs and expenses
+    with depreciation and amortization increased 9%, mainly due to higher depreciation and amortization expenses at
+    Ipiranga.
+    Financial result – Ultrapar reported net financial expenses of R$ 206 million in 2Q24, an improvement of R$ 11 million
+    compared to 2Q23, mainly reflecting the lower CDI and lower average net debt balance, partially offset by the
+    negative one-off mark-to-market result of R$ 16 million in this quarter. Compared to 1Q24, when net financial expenses
+    amounted to R$ 283 million, the difference is mainly explained by the lower negative mark-to-market result.
+    Net income – Total of R$ 491 million (+106% vs 2Q23), due to higher EBITDA and lower net financial expenses. Compared
+    to 1Q24, net income increased 8%, due to lower net financial expenses, partially offset by higher depreciation and
+    amortization expenses at Ipiranga.
+    Cash flow from operating activities – Operating cash generation of R$ 1,298 million in 2Q24, compared to a generation
+    of R$ 898 million in 2Q23, mainly due to higher EBITDA, lower investment in working capital, and higher draft discount
+    in 2Q24.
+
+
+
+
+                                                                                                                                                       4
+2ND QUARTER OF 2024
+
+
+                                                                                                                               In millions of Reais
+                                                                                         Δ             Δ                                   Δ
+  Ultragaz                                             2Q24        2Q23      1Q24
+                                                                                     2Q24 v 2Q23   2Q24 v 1Q24
+                                                                                                                 1H24    1H23
+                                                                                                                                     1H24 v 1H23
+  Total volume (000 ton)                                437         442      402        (1%)           9%        838     859            (2%)
+    Bottled                                             281         286      253        (2%)          11%        534     555            (4%)
+    Bulk                                                156         156      149         0%            5%        305     304             0%
+  Adjusted EBITDA (R$ million)                          414         405      401         2%            3%        815     789             3%
+  Adjusted EBITDA margin (R$/ton)                       948         917      997         3%           (5%)       972     919             6%
+    Non-recurring¹                                       17           -        -        n/a           n/a         17       -            n/a
+  Recurring Adjusted EBITDA (R$ million)                397         405      401        (2%)          (1%)       797     789               1%
+  Recurring Adjusted EBITDA margin
+                                                        909         917      997        (1%)          (9%)       951     919               3%
+  (R$/ton)
+  Recurring Adjusted LTM EBITDA (R$
+                                                       1,656       1,487     1,665      11%           (1%)       1,656   1,487          11%
+  million)
+  Recurring Adjusted LTM EBITDA
+                                                        964         854      966        13%           0%         964     854            13%
+  margin² (R$/ton)
+  ¹ Non-recurring items described in the EBITDA calculation table – page 2
+  ² Does not consider R$ 333 million of extraordinary tax credits in 4Q22
+
+  Operational performance – The volume sold by Ultragaz in 2Q24 decreased 1% compared to 2Q23, as a result of a 2%
+  reduction in the bottled segment, mainly due to the continuity of a more competitive environment and a milder winter
+  compared to the previous year, while bulk sales remained stable, also affected by the milder winter. Compared to
+  1Q24, the volume sold was 9% higher, reflecting the typical seasonality between periods.
+
+  Net revenues – Total of R$ 2,694 million (-3% vs 2Q23), mainly due to lower sales volume. Compared to 1Q24, there was
+  an 8% increase, due to higher sales volume.
+
+  Cost of goods sold – Total of R$ 2,168 million (-3% vs 2Q23), due to lower sales volume, attenuated by higher personnel
+  expenses and greater requalification of bottles. Compared to 1Q24, the cost of goods sold increased 9%, mainly due
+  to higher sales volume.
+
+  Sales, general and administrative expenses – Total of R$ 228 million (-4% vs 2Q23), due to initiatives to increase
+  operational efficiency and lower sales commission and personnel expenses. Compared to 1Q24, sales, general and
+  administrative expenses increased 8%, due to higher consulting, sales commission and marketing expenses.
+
+  Other operating results – Total of R$ 20 million, an improvement of R$ 18 million compared to 2Q23 and of R$ 16 million
+  compared to 1Q24, mainly due to a non-recurring effect related to the reduction of R$ 17 million in the earnout
+  payable from the acquisition of Stella, due to the exit of a partner.
+
+  Recurring Adjusted EBITDA – Total of R$ 397 million (-2% vs 2Q23), mainly due to lower sales volume and a more
+  competitive commercial environment in bottled segment. Compared to 1Q24, the Recurring Adjusted EBITDA
+  decreased 1% due to higher expenses, despite the higher sales volume.
+
+  Investments – R$ 94 million were invested in this quarter, directed mainly towards equipment installed in new customers
+  in the bulk segment, acquisition and replacement of bottles, expansion into new energy solutions and maintenance
+  of existing operations.
+
+
+
+
+                                                                                                                                       5
+2ND QUARTER OF 2024
+
+                                                                                                                  In millions of Reais
+
+                                                                          Δ             Δ                                 Δ
+   Ultracargo                            2Q24       2Q23     1Q24                                 1H24     1H23
+                                                                      2Q24 v 2Q23   2Q24 v 1Q24                      1H24 v 1H23
+   Installed capacity¹ (000 m³)          1,067       955     1,067       12%            0%        1,067    955           12%
+   m³ sold (000 m³)                      4,307      3,629    4,196       19%            3%        8,503   7,090          20%
+   Adjusted EBITDA (R$ million)           165        161      165         3%           0%          330     303            9%
+   Adjusted EBITDA margin (%)             63%        63%      63%       0 p.p.       (0) p.p.      63%     61%          1 p.p.
+    Adjusted LTM EBITDA (R$ million)      658        570      654        16%           1%          658     570           16%
+   Adjusted LTM EBITDA margin (%)         63%        60%      63%       3 p.p.        0 p.p.       63%     60%          3 p.p.
+  1 Monthly average
+
+
+
+  Operational performance – Ultracargo’s average installed capacity grew 12% compared to 2Q23, due to the additions
+  of (i) 90 thousand m³ referring to the 50% stake in Opla as of July, 2023, (ii) 12 thousand m³ from the acquisition of the
+  Rondonópolis base from Ipiranga as of September, 2023, and (iii) 10 thousand m³ relating to the expansion of the Vila
+  do Conde terminal as of July, 2023. The m³ sold increased 19% compared to 2Q23, due to the startup of operations in
+  Opla and Rondonópolis and the increased handling of fuels in Vila do Conde, attenuated by lower spot handling of
+  fuels in Santos and Itaqui. Compared to 1Q24, m³ sold increased 3%, due to greater ethanol handling in Opla,
+  attenuated by lower spot handling of fuels in Santos and Itaqui.
+
+  Net revenues – Total of R$ 264 million (+2% vs 2Q23), due to higher m³ sold, despite lower spot sales. Compared to
+  1Q24, net revenues remained stable.
+
+  Cost of services provided – Total of R$ 96 million (+4% vs 2Q23), due to higher depreciation costs, in line with the higher
+  capacity. Compared to 1Q24, the cost of services provided increased 4%, due to higher maintenance costs, partially
+  offset by lower personnel expenses.
+
+  Sales, general and administrative expenses – Total of R$ 45 million (-6% vs 2Q23), mainly due to lower personnel
+  expenses. Compared to 1Q24, sales, general and administrative expenses decreased 3%, due to lower personnel
+  expenses, attenuated by higher advisory and consulting expenses related to expansion projects.
+
+  Share of profit (loss) of subsidiaries, joint ventures and associates – Worse by R$ 9 million, mainly due to gains of R$ 8
+  million from the sale of Ultracargo’s stake in União Vopak in 2Q23.
+
+  Adjusted EBITDA – Total of R$ 165 million (+3% vs 2Q23), reflecting the higher capacity occupancy with profitability
+  gains, lower expenses, and productivity and efficiency gains, despite lower spot sales and gains of R$ 8 million from
+  the sale of Ultracargo’s stake in União Vopak in 2Q23. Compared to 1Q24, Adjusted EBITDA remained stable.
+
+  Investments – Investments in the period amounted to R$ 154 million, allocated mainly to construction or expansion
+  projects of the Palmeirante, Itaqui, Santos and Rondonópolis terminals, in addition to investments for higher efficiency,
+  maintenance and operational safety of the terminals.
+
+
+
+
+                                                                                                                          6
+2ND QUARTER OF 2024
+
+                                                                                                                               In millions of Reais
+                                                                                            Δ             Δ                                   Δ
+ Ipiranga                                                  2Q24         2Q23    1Q24                                1H24     1H23
+                                                                                        2Q24 v 2Q23   2Q24 v 1Q24                         1H24 v 1H23
+ Total volume (thousand m³)                                5,850        5,607   5,583       4%            5%        11,433   11,091           3%
+   Diesel                                                  3,016        2,883   2,750       5%           10%         5,766    5,716           1%
+   Otto cycle                                              2,727        2,639   2,745       3%           (1%)        5,472    5,198           5%
+   Others¹                                                  107           86      88       25%           20%          195      177           10%
+ Adjusted EBITDA (R$ million)                               817          464     819       76%            0%         1,636    1,048          56%
+ Adjusted EBITDA margin (R$/m³)                             140           83     147       69%           (5%)         143       94           52%
+   Non-recurring²                                            36           31     36        18%            0%          73       87           (16%)
+ Recurring Adjusted EBITDA (R$ million)                     781          434     783       80%            0%        1,563     961            63%
+ Recurring Adjusted EBITDA margin (R$/m³)                   133           77     140       73%           (5%)        137       87            58%
+ Recurring Adjusted LTM EBITDA (R$ million)                4,148        1,728   3,801     140%            9%        4,148    1,728          140%
+ Recurring Adjusted LTM EBITDA margin
+                                                            177           75    164       137%           8%          177      75            137%
+ (R$/m³)
+    ¹ Fuel oils, arla 32, kerosene, lubricants and greases
+    ² Non-recurring items described in the EBITDA calculation table – page 2
+
+
+    Operational performance – Ipiranga’s sales volume increased 4% compared to 2Q23, with a 5% increase in diesel and
+    3% in the Otto cycle, with higher share of ethanol to the detriment of gasoline in the product mix. Compared to 1Q24,
+    the volume was 5% higher, mainly due to a 10% increase in diesel, a result of the typical seasonality between periods.
+
+    Net revenues – Total of R$ 29,431 million (+11% vs 2Q23), mainly due to higher sales volume and the pass-through of
+    fuel cost increases. Compared to 1Q24, net revenues increased 6%, driven by higher sales volume.
+
+    Cost of goods sold – Total of R$ 28,019 million (+9% vs 2Q23), mainly due to higher fuel costs and higher sales volume.
+    Compared to 1Q24, there was a 6% increase, due to higher sales volume.
+
+    Sales, general and administrative expenses – Total of R$ 830 million (+30% vs 2Q23), due to higher expenses with
+    personnel (mainly higher headcount and collective bargaining agreement), depreciation, freight (higher sales
+    volume) and one-off expenses related to the office relocation. Compared to 1Q24, sales, general and administrative
+    expenses increased 17%, reflecting higher expenses with freight (higher sales volume), personnel (mainly higher
+    headcount and provisions) and one-off expenses with the office relocation in Rio de Janeiro and São Paulo.
+
+    Other operating results – Total negative R$ 109 million, an improvement of R$ 100 million compared to 2Q23 and R$ 56
+    million compared to 1Q24, mainly due to lower expenses with carbon tax credits.
+
+    Results from disposal of assets – Total of R$ 36 million (+13% vs 2Q23), due to the sale of real estate assets, especially
+    the building in Rio de Janeiro. Compared to 1Q24, results from disposal of assets remained stable.
+
+    Recurring Adjusted EBITDA Total of R$ 781 million (+80% vs 2Q23), mainly as a result of better margins, due to the
+    normalization of the competitive environment and inventory gains in 2Q24, compared to inventory losses due to cost
+    reductions in 2Q23, despite higher expenses and irregularities in the market (mainly tax benefits in Amapá revoked in
+    April 2024, and the increase in naphtha imports, which enter the country as a raw material for the chemical industry,
+    with a lower tax burden, but end up being sold as gasoline without full tax collection). Compared to 1Q24, recurring
+    Adjusted EBITDA remained stable, mainly due to the reduction of the effect of tax distortions, despite higher expenses
+    in the period.
+
+    Investments – R$ 228 million were invested in the quarter, directed to the expansion and maintenance of Ipiranga’s
+    service stations and franchises network and to logistics infrastructure, in addition to the evolution of the company’s
+    technology platform. Out of the total investments, R$ 49 million refer to additions to fixed and intangible assets, R$ 154
+    million to contractual assets with customers (exclusive rights), and R$ 25 million to installments from financing granted
+    to customers and advance payments of rentals, net of releases.
+
+
+
+
+                                                                                                                                      7
+2ND QUARTER OF 2024
+
+                                                                                                                                      In millions of Reais
+
+    Ultrapar – Indebtedness                                                                      2Q24                 2Q23                  1Q24
+
+      Cash and cash equivalents                                                                   7,429               6,216                 6,607
+      Gross debt                                                                                (13,703)             (12,692)             (12,958)
+      Leases payable                                                                             (1,426)             (1,531)               (1,472)
+   Net debt                                                                                     (7,700)              (8,007)               (7,823)
+   Net debt/Adjusted LTM EBITDA¹                                                                  1.2x                 2.1x                  1.3x
+      Trade payables – reverse factoring (draft discount)                                        (1,531)             (1,468)               (1,304)
+      Financial liabilities of customers (vendor)                                                 (244)               (388)                 (278)
+      Receivables from divestments (Oxiteno and Extrafarma)                                        220                1,083                  964
+   Net debt + draft discount + vendor + receivables                                             (9,256)              (8,779)               (8,441)
+                                                                                                110% DI              105% DI              109% DI
+   Average cost of gross debt
+                                                                                               DI + 1.0%            DI + 0.7%            DI + 0.9%
+   Average cash yield (% DI)                                                                      99%                  99%                   97%
+   Average gross debt duration (years)                                                             3.3                  3.9                  3.5
+  ¹ LTM Adjusted EBITDA does not include capital gain and closing adjustments from the sales of Oxiteno and Extrafarma, and extraordinary tax credits;
+  furthermore, it does not include LTM result from Extrafarma since the closing of the sales.
+
+
+  Ultrapar ended 2Q24 with a net debt of R$ 7.7 billion (1.2x Adjusted LTM EBITDA), compared to R$ 7.8 billion in March
+  2024 (1.3x Adjusted LTM EBITDA). The decrease in the net debt is mainly due to the operating cash generation during
+  the period and the receipt of the last installment from the sale of Oxiteno amounting to R$ 755 million, partially offset
+  by the amount of R$ 1.3 billion relating to the acquisition and reclassification of Hidrovias shares to the "Investments"
+  line. The decrease in the financial leverage reflects the higher LTM EBITDA and lower net debt.
+
+  It is worth mentioning that there are receivables not yet included in Ultrapar's net debt related to the sale of Extrafarma
+  (R$ 183 million, monetarily adjusted by CDI + 0.5% p.a. since August 2022, received on August 1, 2024, but not reflected
+  in the balance sheet of June 2024).
+
+  Cash and maturity profile and breakdown of the gross debt:
+
+
+
+
+                                                                                                         Local currency
+
+                                                                                                         Foreign currency
+
+                                                                                                              Hedged
+
+                                                                                                              Non hedged
+
+                                                                                                         Result from currency and interest
+                                                                                                         hedging instruments
+
+
+
+
+                                                                                                                                                   8
+2ND QUARTER OF 2024
+
+
+  Updates on ESG themes
+  Ultrapar, on an aggregate manner, contributed with approximately R$ 5 million in campaigns to support communities
+  affected by heavy rains in the state of Rio Grande do Sul.
+
+  To support communities affected by the rains in Rio Grande do Sul, Ultragaz donated LPG cylinders to more than 40
+  solidarity kitchens. For affected employees, it also provided social service support and psychological support, in
+  addition to a matchfunding campaign, tripling the amount for every R$ 1 donated by its employees. For resellers,
+  among other initiatives, payment terms and assistance in the recovery of points of sale were renegotiated.
+
+  Ipiranga conducted matchfunding campaigns to raise financial resources that were used to donate basic food
+  baskets for the affected communities, and also donated fuel for essential rescue services and provided psychological
+  support for its employees. For impacted employees, Ipiranga made an emergency donation for immediate support,
+  in addition to psychological support and assistance with cleaning homes. For resellers, financial support was granted
+  with the adhesion of service stations in the affected regions through rent extensions, financing, royalties, marketing
+  funds and support aimed to the rebuild the affected stations.
+  Ultrapar was recognized as one of the 100 Most Influential Companies in Brazil, in an award promoted by the Veja
+  Negócios magazine, which highlights organizations with the best performance in the last year in terms of revenue,
+  profitability, reputation, pioneering spirit and adoption of ESG policies.
+  Led by Instituto Ultra and with strategic support from Alicerce Educação, in June, the Educar para Transformar project
+  began in Barcarena (state of Pará), aiming to recover the educational base of 300 students from seven municipal
+  schools. Classes are held three times a week and will last for six months.
+  In June, Ultragaz published its 2023 Sustainability Report (click here to access the file), highlighting the materialization
+  of its energy solutions portfolio (distributed generation and biomethane), as well as the investment of over R$ 13 million
+  in safety and the achievement of a 40% diversity ratio in its leadership.
+  Ultragaz was also one of the top 3 companies in the Exame ESG Award in the Fuels and Energy Transition category,
+  with strengths in decarbonization and eco-efficiency of its operations.
+
+  Due to the construction of its terminal in Palmeirante (state of Tocantins), Ultracargo opened registrations for the
+  Operational Training Program in the region. The program is free of charge, lasts two months, and will have 30 spots,
+  50% of which are affirmative for women, promoting professional qualification for local communities.
+  For another consecutive year, Ipiranga reached 1st place in the Energy sector ranking of the Merco ESG Responsibility
+  Award, a reputational evaluation tool for companies, ranking among the top 50 overall.
+  Additionally, Ipiranga received the ESG Commitment medal in Ecovadis, a platform for evaluating sustainability
+  practices in the value chain. The result shows progress in Ipiranga's ESG journey compared to the last evaluation cycle,
+  positioning itself more than 10 percentage points ahead of other companies in the same sector evaluated by the
+  platform.
+
+
+
+
+                                                                                                                         9
+2ND QUARTER OF 2024
+
+
+   Capital markets                                                                   2Q24       2Q23           1Q24
+
+  Final number of shares (000)                                                     1,115,404   1,115,204     1,115,404
+  Market capitalization¹ (R$ million)                                               24,093      21,066        31,756
+  B3
+       Average daily trading volume (000 shares)                                     4,297      8,195          5,366
+       Average daily financial volume (R$ 000)                                     106,068     134,135       153,270
+       Average share price (R$/share)                                                24.68      16.37          28.56
+  NYSE
+       Quantity of ADRs² (000 ADRs)                                                 59,223      57,461        56,388
+       Average daily trading volume (000 ADRs)                                       1,340      1,353          1,443
+       Average daily financial volume (US$ 000)                                      6,490      4,434          8,361
+       Average share (US$/ADRs)                                                      4.84        3.28          5.79
+  Total
+       Average daily trading volume (000 shares)                                     5,637      9,548          6,809
+       Average daily financial volume (R$ 000)                                     139,743     156,026       194,694
+   ¹ Calculated on the closing share price for the period
+   ² 1 ADR = 1 common share
+
+
+  Ultrapar's combined average daily financial volume on B3 and NYSE totaled R$ 140 million/day in 2Q24 (-28% vs 1Q24).
+  Ultrapar's shares ended the quarter quoted at R$ 21.60 on B3, a depreciation of 24% in the quarter, while the Ibovespa
+  stock index depreciated 3%. In NYSE, Ultrapar's shares depreciated 32% while the Dow Jones stock index depreciated
+  2% in the quarter. Ultrapar ended 2Q24 with a market cap of R$ 24 billion.
+
+
+
+                                                      UGPA3 x Ibovespa performance
+                                                            (Dec 28, 2023 = 100)
+
+
+
+
+                    Source: Broadcast
+
+
+
+
+                                                                                                                  10
+2ND QUARTER OF 2024
+
+
+  2Q24 Conference call
+
+  Ultrapar will host a conference call for analysts and investors on August 8, 2024, to comment on the Company’s
+  performance in the second quarter of 2024 and outlook. The presentation will be available for download in the
+  Company’s website 30 minutes prior to the conference call.
+
+  The conference call will be transmitted via webcast and held in Portuguese with simultaneous translation into
+  English. Please connect 10 minutes in advance.
+
+
+
+  Conference call in Portuguese with simultaneous translation to English
+  Time: 11h00 (BRT) / 10h00 (EDT)
+
+
+  Access link via webcast
+  Participants in Brazil: click here
+  International participants: click here
+
+
+
+
+                                                                                                          11
+2ND QUARTER OF 2024
+
+                                                                                                               In million of Reais
+
+    ULTRAPAR - Balance sheet                                             JUN 24             JUN 23                 MAR 24
+
+
+    ASSETS
+      Cash and cash equivalents                                                   3,830.7            5,378.1               3,747.6
+      Financial investments and derivative financial instruments                    300.8              337.4                 309.5
+      Trade receivables and reseller financing                                    4,516.8            3,647.8               4,206.9
+      Trade receivables - sale of subsidiaries                                      219.9              887.7                 963.7
+      Inventories                                                                 3,989.6            3,686.9               4,371.9
+      Recoverable taxes                                                           1,665.8            1,672.0               1,688.2
+      Prepaid expenses                                                              151.2              135.4                 184.7
+      Contractual assets with customers - exclusive rights                          776.6              736.1                 779.2
+      Other receivables                                                             294.6              108.2                 323.3
+    Total Current Assets                                                     15,746.1           16,589.6                 16,574.9
+                                                                                        -                  -                     -
+      Financial investments and hedge derivative financial instruments            3,297.9              500.9               2,550.0
+      Trade receivables and reseller financing                                      691.4              507.8                 599.2
+      Trade receivables - sale of subsidiaries                                          -              195.6                     -
+      Deferred income and social contribution taxes                               1,267.6            1,063.9               1,155.5
+      Recoverable taxes                                                           2,731.0            2,706.7               2,548.1
+      Escrow deposits                                                             1,054.5              969.6               1,034.9
+      Prepaid expenses                                                               61.9               79.9                  53.4
+      Contractual assets with customers - exclusive rights                        1,432.4            1,506.6               1,436.7
+      Other receivables                                                             286.8              204.3                 306.1
+      Investments in subsidiaries, joint ventures and associates                  1,598.7              121.3                 316.2
+      Right-of-use assets, net                                                    1,612.0            1,766.3               1,671.6
+      Property, plant and equipment, net                                          6,585.2            5,994.6               6,494.6
+      Intangible assets, net                                                      1,974.7            2,071.3               1,872.1
+    Total Non-Current Assets                                                 22,594.1           17,688.9                 20,038.6
+                                                                                     -                  -                        -
+    TOTAL ASSETS                                                             38,340.2           34,278.5                 36,613.5
+
+    LIABILITIES
+                                                                                        -                  -                     -
+      Trade payables                                                              3,126.8            2,481.4               3,077.8
+      Trade payables - reverse factoring                                          1,531.3            1,468.5               1,304.1
+      Loans, financing and derivative financial instruments                       2,987.4            1,327.6               2,830.9
+      Debentures                                                                    427.5            1,172.0                 942.3
+      Salaries and related charges                                                  398.9              375.1                 348.9
+      Taxes payable                                                                 429.0              381.5                 251.0
+      Leases payable                                                                332.4              286.1                 314.1
+      Financial liabilities of customers (vendor)                                   135.4              162.3                 148.1
+      Provision for decarbonization credits                                         147.1              377.4                     -
+      Other payables                                                                634.9              407.9                 664.2
+    Total Current Liabilities                                                10,150.7            8,439.7                  9,881.4
+                                                                                        -                  -                     -
+      Loans, financing and derivative financial instruments                       6,178.7            6,180.3               5,002.1
+      Debentures                                                                  4,109.7            4,012.1               4,182.5
+      Provision for tax, civil and labor risks                                    1,252.0            1,050.1               1,241.2
+      Post-employment benefits                                                      250.3              198.7                 246.8
+      Leases payable                                                              1,093.8            1,244.9               1,158.0
+      Financial liabilities of customers (vendor)                                   109.1              225.4                 129.5
+      Other payables                                                                342.1              320.6                 396.3
+    Total Non-Current Liabilities                                            13,335.6           13,232.1                 12,356.3
+                                                                                        -                  -                         -
+    TOTAL LIABILITIES                                                        23,486.3           21,671.8                 22,237.7
+
+    EQUITY
+                                                                                                           -                     -
+      Share capital                                                               6,621.8            6,621.8               6,621.8
+      Reserves                                                                    6,998.6            5,262.7               6,996.8
+      Treasury shares                                                             (450.3)            (470.5)               (470.0)
+      Others                                                                      1,113.7              682.6                 679.7
+      Non-controlling interests in subsidiaries                                     570.0              510.1                 547.6
+    Total Equity                                                             14,853.9           12,606.7                 14,375.8
+                                                                                        -                  -                         -
+    TOTAL LIABILITIES AND EQUITY                                             38,340.2           34,278.5                 36,613.5
+                                                                                     -                  -                         -
+      Cash and cash equivalents                                                7,429.5            6,216.4                   6,607.0
+      Gross debt                                                            (13,703.2)         (12,692.0)                (12,957.8)
+      Leases payable                                                         (1,426.2)          (1,531.0)                 (1,472.1)
+    Net debt                                                                 (7,699.8)          (8,006.6)                 (7,822.9)
+
+
+                                                                                                                                         12
+2ND QUARTER OF 2024
+
+
+                                                                                                                                                                                   In million of Reais
+
+      ULTRAPAR - Income statement                                                                          2Q24                  2Q23                   1Q24                1H24             1H23
+
+
+  Net revenues from sales and services                                                                        32,343.9              29,592.5               30,395.9        62,739.8            60,144.3
+
+       Cost of products sold and services provided                                                           (30,235.9)             (27,920.3)            (28,334.7)       (58,570.5)          (56,759.3)
+
+  Gross profit                                                                                                 2,108.1                1,672.3               2,061.2         4,169.3              3,385.0
+
+  Operating revenues (expenses)
+         Selling and marketing                                                                                   (644.1)               (523.8)                (569.0)       (1,213.1)           (1,034.7)
+         General and administrative                                                                              (513.5)               (469.2)                (440.8)         (954.3)             (923.2)
+
+       Results from disposal of assets                                                                              37.1                  39.8                   36.8           73.9                 92.6
+       Other operating income (expenses), net                                                                     (88.2)               (206.0)                (137.8)         (226.0)             (339.2)
+
+  Operating income                                                                                               899.3                  513.0                  950.4        1,849.7              1,180.4
+
+       Financial result, net
+         Financial income                                                                                         280.6                  186.7                 160.2          440.8                 377.1
+         Financial expenses                                                                                      (486.3)               (403.4)                (443.0)         (929.3)             (905.4)
+
+       Total share of profit (loss) of subsidiaries, joint ventures and associates
+         Share of profit (loss) of subsidiaries, joint ventures and associates                                     (8.0)                    1.6                 (3.1)          (11.1)                12.0
+         Amortization of fair value adjustments on associates acquisition                                          (1.7)                        -                      -        (1.7)                       -
+
+  Income before income and social contribution taxes                                                             683.8                  297.9                  664.6        1,348.4                664.1
+
+       Income and social contribution taxes
+         Current                                                                                                 (306.9)               (164.7)                 (87.9)         (394.7)             (304.4)
+         Deferred                                                                                                 114.2                  105.5                (121.3)           (7.0)               152.8
+
+  Net income                                                                                                     491.2                  238.7                  455.4          946.7                512.5
+
+       Net income attributable to:
+          Shareholders of Ultrapar                                                                                437.9                  213.9                 431.5           869.4                475.9
+          Non-controlling interests in subsidiaries                                                                 53.3                  24.8                   24.0           77.3                 36.6
+
+  Adjusted EBITDA                                                                                              1,335.6                  964.2               1,357.7         2,693.3              2,043.3
+
+       Non-recurring¹                                                                                             (53.8)                 (30.8)                (52.1)         (105.8)               (86.7)
+
+  Recurring Adjusted EBITDA                                                                                    1,281.9                  933.4               1,305.6         2,587.5              1,956.6
+
+       Depreciation and amortization²                                                                             446.0                  449.6                 410.3           856.4                850.8
+
+       Total investments³                                                                                         479.4                  385.3                 438.4           917.8                750.0
+
+  Ratios
+
+       Earnings per share (R$)                                                                                      0.40                  0.20                   0.39           0.79                 0.43
+       Net debt / Adjusted LTM EBITDA4                                                                              1.2x                   2.1x                  1.3x           1.2x                  2.1x
+       Gross margin (%)                                                                                            6.5%                   5.7%                  6.8%            6.6%                 5.6%
+       Operating margin (%)                                                                                        2.8%                   1.7%                  3.1%            2.9%                 2.0%
+       Adjusted EBITDA margin (%)                                                                                  4.1%                   3.3%                  4.5%            4.3%                 3.4%
+       Recurring Adjusted EBITDA margin (%)                                                                        4.0%                   3.2%                  4.3%            4.1%                 3.3%
+  Number of employees 5                                                                                          10,126                 10,050                 9,988          10,126               10,050
+
+  ¹ Non-recurring items described in the EBITDA calculation table – page 2
+  ² Includes amortization with contractual assets with customers – exclusiv e rights and amortization of fair v alue adjustments on associates acquisition
+  ³ Includes property, plant and equipment and additions to intangible assets (net of div estitures), contractual assets with customers (exclusiv e rights), initial direct costs of assets with right of
+  use, contributions made to SPEs (Specific Purpose Companies), payment of grants, financing of clients, rental adv ances (net of receipts), acquisition of shareholdings and payments of
+  leases
+  4
+      Adjusted LTM EBITDA does not include capital gain and closing adjustments from the sales of Oxiteno and Extrafarma, and extraordinary tax credits; furthermore, it does not include LTM
+  result from Extrafarma since the closing of its sale
+  5
+      Number of employees for 2023 was rev ised to reflect new criteria (includes only activ e employees and employees on leav e for up to 12 months)
+
+
+
+
+                                                                                                                                                                                                       13
+2ND QUARTER OF 2024
+
+
+                                                                                                                                              In million of Reais
+
+                                                                                                                           JAN - JUN             JAN - JUN
+    ULTRAPAR - Cash flows
+                                                                                                                             2024                  2023
+
+
+    Cash flows from operating activities
+    Net income                                                                                                                     946.7                   512.5
+    Adjustments to reconcile net income to cash provided (consumed) by operating activities
+     Share of profit (loss) of subsidiaries, joint ventures and associates and amortization of fair value adjustments on
+                                                                                                                                       12.8                 (12.0)
+     associates acquisition
+     Amortization of contractual assets with customers - exclusive rights                                                          255.0                   302.5
+      Amortization of right-of-use assets                                                                                          149.9                   150.2
+      Depreciation and amortization                                                                                                453.8                   402.5
+      Interest and foreign exchange rate variations                                                                                691.9                   797.4
+      Current and deferred income and social contribution taxes                                                                    401.8                   151.6
+      Gain (loss) on disposal or write-off of property, plant and equipment, intangible assets and other assets                    (109.1)                  (92.6)
+      Equity instrument granted                                                                                                        27.7                  14.0
+      Provision for decarbonization - CBios                                                                                        321.3                   376.6
+      Other provisions and adjustments                                                                                                 69.7                  91.4
+
+                                                                                                                                 3,221.3                 2,694.3
+
+    (Increase) decrease in assets
+      Trade receivables and reseller financing                                                                                     (243.1)                1,011.7
+      Inventories                                                                                                                  297.3                  1,234.9
+      Recoverable taxes                                                                                                            (308.9)                 (464.4)
+      Dividends received from subsidiaries, associates and joint ventures                                                               2.0                   5.6
+      Other assets                                                                                                                 (132.4)                 107.2
+
+    Increase (decrease) in liabilities
+      Trade payables and trade payables - reverse factoring                                                                      (1,057.2)               (3,445.7)
+      Salaries and related charges                                                                                                  (95.9)                  (86.8)
+      Taxes payable                                                                                                                 (38.4)                   (1.9)
+      Other liabilities                                                                                                            (107.0)                 (119.1)
+                                                                                                                                      -                       -
+    Acquisition of Cbios and carbon credits                                                                                        (450.9)                 (379.2)
+    Payments of contractual assets with customers - exclusive rights                                                               (195.7)                 (273.4)
+    Payment of contingencies                                                                                                        (30.9)                  (39.6)
+    Income and social contribution taxes paid                                                                                      (135.6)                  (56.6)
+
+    Net cash provided (consumed) by operating activities                                                                           724.5                   187.1
+
+    Cash flows from investing activities
+      Financial investments, net of redemptions                                                                                  (2,086.4)                 344.0
+      Acquisition of property, plant, equipment and intangible                                                                     (683.4)                 (456.5)
+      Cash provided by disposal of investments and property, plant and equipment                                                   977.0                   199.2
+      Cash consumed in the purchase of investments and other assets                                                              (1,102.9)                  (90.3)
+
+    Net cash provided (consumed) by investing activities                                                                         (2,895.6)                   (3.5)
+
+    Cash flows from financing activities
+      Loans, financing and debentures
+        Proceeds                                                                                                                  2,856.0                 2,511.3
+        Repayments                                                                                                               (1,386.6)               (1,857.6)
+        Interest and derivatives paid                                                                                              (629.5)                 (666.7)
+      Payments of leases                                                                                                           (220.7)                 (182.5)
+      Dividends paid                                                                                                               (461.2)                 (108.7)
+      Proceeds from financial liabilities of customers                                                                                  -                     6.8
+      Payments of financial liabilities of customers                                                                                (81.9)                  (95.4)
+      Capital increase made by non-controlling shareholders and redemption of shares                                                   13.5                   -
+      Related parties                                                                                                               (13.4)                   (6.0)
+
+    Net cash provided (consumed) by financing activities                                                                               76.2               (398.9)
+
+    Effect of exchange rate changes on cash and cash equivalents in foreign currency                                                   -                    (28.4)
+
+    Increase (decrease) in cash and cash equivalents                                                                             (2,095.0)                (243.7)
+
+    Cash and cash equivalents at the beginning of the period                                                                     5,925.7                 5,621.8
+
+    Cash and cash equivalents at the end of the period                                                                           3,830.7                 5,378.1
+
+    Non-cash transactions:
+      Addition on right-to-use assets and leases payable                                                                               97.8                168.0
+      Addition on contractual assets with customers - exclusive rights                                                                 27.8                  66.3
+      Reclassification between financial assets and investment in associates                                                       645.3                      -
+      Issuance of shares related to the subscription warrants - indemnification - Extrafarma acquisition                                4.1                   0.4
+      Acquisition of property, plant and equipment and intangible assets without cash effect                                            9.0                  30.8
+
+
+
+                                                                                                                                                                     14
+2ND QUARTER OF 2024
+
+                                                                                                                    In million of Reais
+
+    ULTRAGAZ - Working capital                                                                JUN 24           JUN 23         MAR 24
+
+
+    OPERATING ASSETS
+         Trade receivables                                                                         611.0           560.0            571.1
+         Non-current trade receivables                                                              17.1             5.8             15.2
+         Inventories                                                                               193.5           186.9            198.7
+         Taxes                                                                                     136.6           175.5            135.4
+         Escrow deposits                                                                           257.6           248.8            256.1
+         Other                                                                                     103.5           120.7            115.1
+         Right-of-use assets                                                                       149.1           149.6            154.8
+         Property, plant and equipment / Intangibles                                             1,753.4         1,650.2          1,733.6
+
+    TOTAL OPERATING ASSETS                                                                       3,221.9         3,097.5          3,180.0
+
+    OPERATING LIABILITIES
+         Trade payables                                                                            238.4           233.5            236.8
+         Salaries and related charges                                                              121.8           114.5            101.8
+         Taxes                                                                                       8.7             7.7              9.0
+         Judicial provisions                                                                       161.5           135.8            167.3
+         Leases payable                                                                            186.5           187.6            192.4
+         Other                                                                                      74.6            67.5             66.1
+
+    TOTAL OPERATING LIABILITIES                                                                    791.4           746.7            773.4
+
+
+
+
+                                                                                                                                                    In million of Reais
+
+    ULTRAGAZ - Income statement                                                                2Q24             2Q23            1Q24            1H24          1H23
+
+
+    Net revenues                                                                                 2,694.1         2,776.3          2,499.9       5,194.0        5,416.9
+    Cost of products sold                                                                       (2,167.6)       (2,230.7)        (1,985.3)     (4,152.9)       (4,359.3)
+    Gross profit                                                                                   526.5           545.6            514.6       1,041.1        1,057.7
+    Operating expenses
+      Selling and marketing                                                                       (138.1)          (162.6)         (131.1)        (269.1)        (303.9)
+      General and administrative                                                                   (89.6)           (75.2)          (80.4)        (170.0)        (147.5)
+                                                                                                     -                -               -              -              -
+    Results from disposal of assets                                                                  0.6              7.0             0.3            0.9            6.8
+    Other operating income (expenses), net                                                          20.4              2.1             4.3           24.7            8.2
+    Operating income                                                                               319.8           317.0            307.7         627.5          621.3
+    Share of profit (loss) of subsidiaries, joint ventures and associates                             0.5            (0.0)            (0.0)          0.5           (0.0)
+    Adjusted EBITDA                                                                                414.1           405.2            400.7         814.8          789.2
+         Non-recurring¹                                                                            (17.3)              -               -           (17.3)            -
+    Recurring Adjusted EBITDA                                                                      396.8           405.2            400.7         797.4          789.2
+    Depreciation and amortization²                                                                  93.8             88.3            93.0         186.8          167.9
+    Ratios
+         Gross margin (R$/ton)                                                                     1,206           1,235            1,281         1,242          1,232
+         Operating margin (R$/ton)                                                                   732             717              766           748            724
+         Adjusted EBITDA margin (R$/ton)                                                             948             917              997           972            919
+         Recurring Adjusted EBITDA margin (R$/ton)                                                   909             917              997           951            919
+    Number of employees³                                                                           3,602           3,620            3,536         3,602          3,620
+
+    ¹Non-recurring items described in the EBITDA calculation table – page 2
+    ² Includes amortization with contractual assets with customers - exclusiv e rights
+    ³
+        Number of employees for 2023 was rev ised to reflect new criteria (includes only activ e employees and employees on leav e for up to 12 months)
+
+
+
+
+                                                                                                                                                                           15
+2ND QUARTER OF 2024
+
+                                                                                                                              In million of Reais
+
+    ULTRACARGO - Working capital                                                                       JUN 24           JUN 23          MAR 24
+
+
+    OPERATING ASSETS
+        Trade receivables                                                                                    44.2             28.0            37.8
+        Inventories                                                                                          12.4             10.5            12.1
+        Taxes                                                                                                 6.0              7.4             6.6
+        Other                                                                                                59.4             90.9            77.5
+        Right-of-use assets                                                                                 610.6            631.9           621.0
+        Property, plant and equipment / Intangibles / Investments                                         2,336.6          1,784.3         2,221.9
+
+    TOTAL OPERATING ASSETS                                                                                3,069.2         2,553.0          2,976.9
+
+    OPERATING LIABILITIES
+        Trade payables                                                                                       86.6             43.4            55.9
+        Salaries and related charges                                                                         37.3             44.1            32.9
+        Taxes                                                                                                17.9              5.3            13.6
+        Judicial provisions                                                                                  18.2              9.4            17.5
+        Leases payable                                                                                      551.6            584.7           564.9
+        Other¹                                                                                               49.6             53.2            39.0
+
+    TOTAL OPERATING LIABILITIES                                                                             761.2            740.2           723.8
+
+    ¹ Includes the long term obligations with clients account
+
+
+
+
+                                                                                                                                                           In million of Reais
+
+    ULTRACARGO - Income statement                                                                       2Q24             2Q23             1Q24          1H24         1H23
+
+
+    Net revenues                                                                                            263.6            257.4           263.2        526.9         493.8
+      Cost of services provided                                                                             (95.6)           (91.6)           (92.1)     (187.8)        (179.3)
+    Gross profit                                                                                            168.0            165.8           171.1        339.1         314.5
+      Operating expenses
+       Selling and marketing                                                                                 (2.2)            (2.6)            (3.6)       (5.8)          (6.2)
+       General and administrative                                                                           (42.3)           (44.8)           (42.2)      (84.5)         (80.8)
+                                                                                                              -                -                -           -              -
+      Results from disposal of assets                                                                         0.0              0.4             (0.0)        0.0            0.3
+      Other operating income (expenses), net                                                                  3.5              1.2              1.7         5.2            1.0
+    Operating income                                                                                        126.9            119.9           127.0        254.0         228.9
+    Total share of profit (loss) of subsidiaries, joint ventures and associates
+      Share of profit (loss) of subsidiaries, joint ventures and associates                                    1.0              7.9              1.5           2.4          7.5
+      Amortization of fair value adjustments on associates acquisition                                        (1.7)             -                -         (1.7)            -
+    Adjusted EBITDA                                                                                         165.0            161.0           165.2        330.3         303.4
+      Depreciation and amortization¹                                                                         38.8             33.2             36.7        75.6           66.9
+                                                                                                              -                -                -
+    Ratios
+      Gross margin (%)                                                                                      63.7%            64.4%            65.0%       64.4%          63.7%
+      Operating margin (%)                                                                                  48.2%            46.6%            48.3%       48.2%          46.4%
+      Adjusted EBITDA margin (%)                                                                            62.6%            62.6%            62.8%       62.7%          61.4%
+    Number of employees²                                                                                      836              856             843         836            856
+
+    ¹ Includes amortization of fair v alue adjustments on associates acquisition
+    ² Number of employees for 2023 was rev ised to reflect new criteria (includes only activ e employees and employees on leav e for up to 12 months)
+
+
+
+
+                                                                                                                                                                                 16
+2ND QUARTER OF 2024
+
+                                                                                                                       In million of Reais
+
+   IPIRANGA - Working capital                                                                   JUN 24           JUN 23          MAR 24
+
+
+   OPERATING ASSETS
+          Trade receivables                                                                        3,866.4         3,066.4          3,614.5
+          Non-current trade receivables                                                              674.3           513.5            584.0
+          Inventories                                                                              3,783.7         3,489.5          4,161.2
+          Taxes                                                                                    3,805.8         3,794.7          3,688.9
+          Contractual assets with customers - exclusive rights                                     2,208.4         2,240.8          2,215.0
+          Other                                                                                      888.5           586.0            909.4
+          Right-of-use assets                                                                        844.5           978.3            888.5
+          Property, plant and equipment / Intangibles / Investments                                4,414.5         4,401.9          4,354.7
+
+   TOTAL OPERATING ASSETS                                                                        20,486.1         19,071.1        20,416.2
+
+   OPERATING LIABILITIES
+          Trade payables                                                                           4,313.7         3,663.8          4,066.4
+          Salaries and related charges                                                               205.4           168.1            181.8
+          Post-employment benefits                                                                   266.9           212.1            262.9
+          Taxes                                                                                      103.2           177.5            140.6
+          Judicial provisions                                                                        436.9           315.6            429.1
+          Leases payable                                                                             679.2           751.2            706.5
+          Other                                                                                      969.8         1,165.3            929.9
+
+   TOTAL OPERATING LIABILITIES                                                                    6,975.0          6,453.5          6,717.1
+
+
+
+
+                                                                                                                                                           In million of Reais
+
+   IPIRANGA - Income statement                                                                   2Q24             2Q23            1Q24             1H24             1H23
+
+
+   Net revenues                                                                                  29,430.7         26,603.8        27,693.3         57,124.0         54,322.9
+        Cost of products sold and services provided                                             (28,018.6)       (25,644.5)       (26,312.9)      (54,331.6)        (52,306.8)
+   Gross profit                                                                                   1,412.1            959.3          1,380.4         2,792.4           2,016.1
+        Operating expenses
+         Selling and marketing                                                                      (504.9)         (358.5)          (434.4)             (939.2)       (724.6)
+         General and administrative                                                                 (324.9)         (281.3)          (273.7)             (598.6)       (588.3)
+                                                                                                       -               -                -                   -             -
+        Results from disposal of assets                                                               36.5            32.4             36.5                72.9          88.3
+        Other operating income (expenses), net                                                      (109.4)         (209.2)          (165.1)             (274.6)       (347.9)
+   Operating income                                                                                 509.3            142.7            543.7         1,053.0            443.6
+        Share of profit (loss) of subsidiaries, joint ventures and associates                         (1.2)            (1.9)            (2.1)              (3.3)         (3.8)
+   Adjusted EBITDA                                                                                  817.1            464.4            819.1         1,636.3           1,047.6
+        Non-recurring¹                                                                               (36.5)           (30.8)          (36.5)              (72.9)        (86.7)
+   Recurring Adjusted EBITDA                                                                        780.7            433.6            782.7         1,563.4            960.9
+   Depreciation and amortization²                                                                    309.0           323.6            277.5              586.6          607.7
+
+   Ratios
+        Gross margin (R$/m³)                                                                           241             171              247                244           182
+        Operating margin (R$/m³)                                                                        87              25               97                 92            40
+        Adjusted EBITDA margin (R$/m³)                                                                 140              83              147                143            94
+        Recurring Adjusted EBITDA margin (R$/m³)                                                       133              77              140                137            87
+   Number of service stations                                                                       5,876            6,281            5,881              5,876         6,281
+   Number of employees³                                                                             5,192            5,078            5,127              5,192         5,078
+
+   ¹ Non-recurring items described in the EBITDA calculation table – page 2
+   ² Includes amortization with contractual assets with customers - exclusiv e rights
+   3
+       Number of employees for 2023 was rev ised to reflect new criteria (includes only activ e employees and employees on leav e for up to 12 months)
+
+
+
+
+                                                                                                                                                                                 17
+

@@ -1,6 +1,6 @@
 {
  "grupo": "vibra_rating",
- "atualizado_em": "2026-10-24T18:02:43Z",
+ "atualizado_em": "2026-10-24T18:16:00Z",
  "documentos": [
   {
    "protocolo": "024295IPE080920260122033692-14",
@@ -43,6 +43,16 @@
    "arquivo": "2025-12-08_024295IPE081220250112279793-65.txt"
   },
   {
+   "protocolo": "024295IPE301020250145417313-76",
+   "data_entrega": "2025-10-30",
+   "data_referencia": "2025-10-30",
+   "categoria": "Dados Econômico-Financeiros",
+   "tipo": "Relatório de Agência de Rating",
+   "assunto": "Relatório de Agência de Rating",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1437796&numSequencia=962508&numVersao=1",
+   "arquivo": "2025-10-30_024295IPE301020250145417313-76.txt"
+  },
+  {
    "protocolo": "024295IPE230920250195772224-98",
    "data_entrega": "2025-09-23",
    "data_referencia": "2025-09-23",
@@ -51,6 +61,26 @@
    "assunto": "Relatório de Rating S&ampP",
    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1426069&numSequencia=950781&numVersao=1",
    "arquivo": "2025-09-23_024295IPE230920250195772224-98.txt"
+  },
+  {
+   "protocolo": "024295IPE220120250104567911-83",
+   "data_entrega": "2025-01-22",
+   "data_referencia": "2025-01-22",
+   "categoria": "Comunicado ao Mercado",
+   "tipo": "Outros Comunicados Não Considerados Fatos Relevantes",
+   "assunto": "Relatório de Agência de Rating",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1326758&numSequencia=851484&numVersao=1",
+   "arquivo": "2025-01-22_024295IPE220120250104567911-83.txt"
+  },
+  {
+   "protocolo": "024295IPE210120250104567812-29",
+   "data_entrega": "2025-01-21",
+   "data_referencia": "2025-01-21",
+   "categoria": "Dados Econômico-Financeiros",
+   "tipo": "Relatório de Agência de Rating",
+   "assunto": "Relatório de Agência de Rating",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1326474&numSequencia=851200&numVersao=1",
+   "arquivo": "2025-01-21_024295IPE210120250104567812-29.txt"
   },
   {
    "protocolo": "024295IPE181220240104564606-88",
@@ -101,6 +131,16 @@
    "assunto": "Relatório de Agência de Rating",
    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1274757&numSequencia=799483&numVersao=1",
    "arquivo": "2024-08-22_024295IPE250720240104552606-88.txt"
+  },
+  {
+   "protocolo": "024295IPE190620240104546211-93",
+   "data_entrega": "2024-06-19",
+   "data_referencia": "2024-06-19",
+   "categoria": "Dados Econômico-Financeiros",
+   "tipo": "Relatório de Agência de Rating",
+   "assunto": "Ação de Rating 7a Emissão Vibra jun 2024",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1251812&numSequencia=776538&numVersao=1",
+   "arquivo": "2024-06-19_024295IPE190620240104546211-93.txt"
   },
   {
    "protocolo": "024295IPE090420240104539112-42",

@@ -1,6 +1,6 @@
 {
  "grupo": "ultrapar_rel",
- "atualizado_em": "2026-10-24T18:04:43Z",
+ "atualizado_em": "2026-10-24T18:16:25Z",
  "documentos": [
   {
    "protocolo": "018465IPE300620260125441677-57",
@@ -83,6 +83,16 @@
    "arquivo": "2024-11-13_018465IPE300920240104560911-66.txt"
   },
   {
+   "protocolo": "018465IPE300620240104551111-42",
+   "data_entrega": "2024-08-07",
+   "data_referencia": "2024-06-30",
+   "categoria": "Dados Econômico-Financeiros",
+   "tipo": "Press-release",
+   "assunto": "Release de Resultados 2T24",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1268194&numSequencia=792920&numVersao=1",
+   "arquivo": "2024-08-07_018465IPE300620240104551111-42.txt"
+  },
+  {
    "protocolo": "018465IPE310320240104542011-25",
    "data_entrega": "2024-05-08",
    "data_referencia": "2024-03-31",
@@ -91,6 +101,16 @@
    "assunto": "Release de Resultados 1T24",
    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1234795&numSequencia=759521&numVersao=1",
    "arquivo": "2024-05-08_018465IPE310320240104542011-25.txt"
+  },
+  {
+   "protocolo": "018465IPE311220230104535011-69",
+   "data_entrega": "2024-02-28",
+   "data_referencia": "2023-12-31",
+   "categoria": "Dados Econômico-Financeiros",
+   "tipo": "Press-release",
+   "assunto": "Release de Resultados 4T23",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1200543&numSequencia=725269&numVersao=1",
+   "arquivo": "2024-02-28_018465IPE311220230104535011-69.txt"
   },
   {
    "protocolo": "018465IPE300920230104523810-85",
@@ -121,6 +141,16 @@
    "assunto": "Release de Resultados 1T23",
    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1096110&numSequencia=620839&numVersao=1",
    "arquivo": "2023-05-03_018465IPE310320230104504910-90.txt"
+  },
+  {
+   "protocolo": "018465IPE311220220104497211-61",
+   "data_entrega": "2023-02-15",
+   "data_referencia": "2022-12-31",
+   "categoria": "Dados Econômico-Financeiros",
+   "tipo": "Press-release",
+   "assunto": "Release de Resultados 4T22",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1061339&numSequencia=586069&numVersao=1",
+   "arquivo": "2023-02-15_018465IPE311220220104497211-61.txt"
   },
   {
    "protocolo": "018465IPE300920220104487411-35",
@@ -213,6 +243,16 @@
    "arquivo": "2020-11-04_018465IPE300920200104413911-87.txt"
   },
   {
+   "protocolo": "018465IPE300620200104405511-92",
+   "data_entrega": "2020-08-12",
+   "data_referencia": "2020-06-30",
+   "categoria": "Dados Econômico-Financeiros",
+   "tipo": "Press-release",
+   "assunto": "Earnings Release 2T20",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=784207&numSequencia=308948&numVersao=1",
+   "arquivo": "2020-08-12_018465IPE300620200104405511-92.txt"
+  },
+  {
    "protocolo": "018465IPE310320200104396411-57",
    "data_entrega": "2020-05-13",
    "data_referencia": "2020-03-31",
@@ -261,6 +301,16 @@
    "assunto": "Earnings Release 1T19",
    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=690912&numSequencia=217664&numVersao=1",
    "arquivo": "2019-05-15_018465IPE150520190104360011-03.txt"
+  },
+  {
+   "protocolo": "018465IPE311220180104351611-35",
+   "data_entrega": "2019-02-20",
+   "data_referencia": "2018-12-31",
+   "categoria": "Dados Econômico-Financeiros",
+   "tipo": "Press-release",
+   "assunto": "Earnings release 4T18",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=666575&numSequencia=196368&numVersao=1",
+   "arquivo": "2019-02-20_018465IPE311220180104351611-35.txt"
   },
   {
    "protocolo": "018465IPE300920180104341111-42",
@@ -341,6 +391,16 @@
    "assunto": "Resultados do 1T17",
    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=563978&numSequencia=106726&numVersao=1",
    "arquivo": "2017-05-10_018465IPE310320170104286510-80.txt"
+  },
+  {
+   "protocolo": "018465IPE311220160104278810-73",
+   "data_entrega": "2017-02-22",
+   "data_referencia": "2016-12-31",
+   "categoria": "Dados Econômico-Financeiros",
+   "tipo": "Press-release",
+   "assunto": "Resultados do 4T16",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=549284&numSequencia=92032&numVersao=1",
+   "arquivo": "2017-02-22_018465IPE311220160104278810-73.txt"
   }
  ]
 }
