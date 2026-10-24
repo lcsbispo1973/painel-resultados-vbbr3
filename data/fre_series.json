@@ -1,0 +1,689 @@
+{
+ "remuneracao": [
+  {
+   "exercicio": "2014",
+   "orgao": "Conselho Fiscal",
+   "fonte_fre": 2017,
+   "total_rs_mi": 0.69,
+   "membros": 5.0,
+   "membros_remunerados": 5.0,
+   "fixa_rs_mi": 0.69,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2014",
+   "orgao": "Conselho de Administração",
+   "fonte_fre": 2017,
+   "total_rs_mi": 1.336,
+   "membros": 10.0,
+   "membros_remunerados": 10.0,
+   "fixa_rs_mi": 1.336,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2014",
+   "orgao": "Diretoria Estatutária",
+   "fonte_fre": 2017,
+   "total_rs_mi": 8.526,
+   "membros": 4.25,
+   "membros_remunerados": 4.25,
+   "fixa_rs_mi": 6.592,
+   "variavel_rs_mi": 1.582,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2015",
+   "orgao": "Conselho Fiscal",
+   "fonte_fre": 2018,
+   "total_rs_mi": 0.742,
+   "membros": 5.0,
+   "membros_remunerados": 5.0,
+   "fixa_rs_mi": 0.742,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2015",
+   "orgao": "Conselho de Administração",
+   "fonte_fre": 2018,
+   "total_rs_mi": 1.336,
+   "membros": 9.83,
+   "membros_remunerados": 9.42,
+   "fixa_rs_mi": 1.336,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2015",
+   "orgao": "Diretoria Estatutária",
+   "fonte_fre": 2018,
+   "total_rs_mi": 7.914,
+   "membros": 4.58,
+   "membros_remunerados": 4.58,
+   "fixa_rs_mi": 7.39,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2016",
+   "orgao": "Conselho Fiscal",
+   "fonte_fre": 2019,
+   "total_rs_mi": 0.561,
+   "membros": 3.67,
+   "membros_remunerados": 3.67,
+   "fixa_rs_mi": 0.561,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2016",
+   "orgao": "Conselho de Administração",
+   "fonte_fre": 2019,
+   "total_rs_mi": 1.227,
+   "membros": 8.5,
+   "membros_remunerados": 8.0,
+   "fixa_rs_mi": 1.227,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2016",
+   "orgao": "Diretoria Estatutária",
+   "fonte_fre": 2019,
+   "total_rs_mi": 8.903,
+   "membros": 4.42,
+   "membros_remunerados": 4.42,
+   "fixa_rs_mi": 8.249,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2017",
+   "orgao": "Conselho Fiscal",
+   "fonte_fre": 2020,
+   "total_rs_mi": 0.458,
+   "membros": 3.0,
+   "membros_remunerados": 3.0,
+   "fixa_rs_mi": 0.458,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2017",
+   "orgao": "Conselho de Administração",
+   "fonte_fre": 2020,
+   "total_rs_mi": 1.326,
+   "membros": 8.92,
+   "membros_remunerados": 8.92,
+   "fixa_rs_mi": 1.326,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2017",
+   "orgao": "Diretoria Estatutária",
+   "fonte_fre": 2020,
+   "total_rs_mi": 9.611,
+   "membros": 4.58,
+   "membros_remunerados": 4.58,
+   "fixa_rs_mi": 8.466,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2018",
+   "orgao": "Conselho Fiscal",
+   "fonte_fre": 2021,
+   "total_rs_mi": 0.426,
+   "membros": 3.0,
+   "membros_remunerados": 3.0,
+   "fixa_rs_mi": 0.426,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2018",
+   "orgao": "Conselho de Administração",
+   "fonte_fre": 2021,
+   "total_rs_mi": 1.356,
+   "membros": 9.67,
+   "membros_remunerados": 9.67,
+   "fixa_rs_mi": 1.356,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2018",
+   "orgao": "Diretoria Estatutária",
+   "fonte_fre": 2021,
+   "total_rs_mi": 10.124,
+   "membros": 4.83,
+   "membros_remunerados": 4.83,
+   "fixa_rs_mi": 7.853,
+   "variavel_rs_mi": 1.345,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2019",
+   "orgao": "Conselho Fiscal",
+   "fonte_fre": 2022,
+   "total_rs_mi": 0.4,
+   "membros": 3.0,
+   "membros_remunerados": 3.0,
+   "fixa_rs_mi": 0.4,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2019",
+   "orgao": "Conselho de Administração",
+   "fonte_fre": 2022,
+   "total_rs_mi": 1.444,
+   "membros": 8.75,
+   "membros_remunerados": 8.75,
+   "fixa_rs_mi": 1.444,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2019",
+   "orgao": "Diretoria Estatutária",
+   "fonte_fre": 2022,
+   "total_rs_mi": 9.907,
+   "membros": 4.75,
+   "membros_remunerados": 4.75,
+   "fixa_rs_mi": 7.097,
+   "variavel_rs_mi": 1.769,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2020",
+   "orgao": "Conselho Fiscal",
+   "fonte_fre": 2023,
+   "total_rs_mi": 0.713,
+   "membros": 3.0,
+   "membros_remunerados": 3.0,
+   "fixa_rs_mi": 0.713,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2020",
+   "orgao": "Conselho de Administração",
+   "fonte_fre": 2023,
+   "total_rs_mi": 11.119,
+   "membros": 9.0,
+   "membros_remunerados": 9.0,
+   "fixa_rs_mi": 11.119,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2020",
+   "orgao": "Diretoria Estatutária",
+   "fonte_fre": 2023,
+   "total_rs_mi": 15.119,
+   "membros": 5.0,
+   "membros_remunerados": 5.0,
+   "fixa_rs_mi": 9.216,
+   "variavel_rs_mi": 3.697,
+   "baseada_acoes_rs_mi": 1.374
+  },
+  {
+   "exercicio": "2021",
+   "orgao": "Conselho Fiscal",
+   "fonte_fre": 2024,
+   "total_rs_mi": 0.778,
+   "membros": 3.0,
+   "membros_remunerados": 3.0,
+   "fixa_rs_mi": 0.778,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2021",
+   "orgao": "Conselho de Administração",
+   "fonte_fre": 2024,
+   "total_rs_mi": 13.634,
+   "membros": 9.0,
+   "membros_remunerados": 9.0,
+   "fixa_rs_mi": 10.685,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 2.949
+  },
+  {
+   "exercicio": "2021",
+   "orgao": "Diretoria Estatutária",
+   "fonte_fre": 2024,
+   "total_rs_mi": 29.382,
+   "membros": 4.67,
+   "membros_remunerados": 4.67,
+   "fixa_rs_mi": 8.349,
+   "variavel_rs_mi": 13.458,
+   "baseada_acoes_rs_mi": 4.312
+  },
+  {
+   "exercicio": "2022",
+   "orgao": "Conselho Fiscal",
+   "fonte_fre": 2025,
+   "total_rs_mi": 0.81,
+   "membros": 3.0,
+   "membros_remunerados": 3.0,
+   "fixa_rs_mi": 0.81,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2022",
+   "orgao": "Conselho de Administração",
+   "fonte_fre": 2025,
+   "total_rs_mi": 14.759,
+   "membros": 9.0,
+   "membros_remunerados": 9.0,
+   "fixa_rs_mi": 10.131,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 4.628
+  },
+  {
+   "exercicio": "2022",
+   "orgao": "Diretoria Estatutária",
+   "fonte_fre": 2025,
+   "total_rs_mi": 32.444,
+   "membros": 5.0,
+   "membros_remunerados": 4.67,
+   "fixa_rs_mi": 9.508,
+   "variavel_rs_mi": 15.062,
+   "baseada_acoes_rs_mi": 3.622
+  },
+  {
+   "exercicio": "2023",
+   "orgao": "Conselho Fiscal",
+   "fonte_fre": 2026,
+   "total_rs_mi": 0.808,
+   "membros": 3.0,
+   "membros_remunerados": 3.0,
+   "fixa_rs_mi": 0.808,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2023",
+   "orgao": "Conselho de Administração",
+   "fonte_fre": 2026,
+   "total_rs_mi": 12.225,
+   "membros": 8.58,
+   "membros_remunerados": 8.58,
+   "fixa_rs_mi": 9.438,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 2.787
+  },
+  {
+   "exercicio": "2023",
+   "orgao": "Diretoria Estatutária",
+   "fonte_fre": 2026,
+   "total_rs_mi": 47.009,
+   "membros": 5.08,
+   "membros_remunerados": 5.08,
+   "fixa_rs_mi": 13.848,
+   "variavel_rs_mi": 20.698,
+   "baseada_acoes_rs_mi": 11.417
+  },
+  {
+   "exercicio": "2024",
+   "orgao": "Conselho Fiscal",
+   "fonte_fre": 2026,
+   "total_rs_mi": 0.858,
+   "membros": 3.0,
+   "membros_remunerados": 3.0,
+   "fixa_rs_mi": 0.858,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2024",
+   "orgao": "Conselho de Administração",
+   "fonte_fre": 2026,
+   "total_rs_mi": 12.864,
+   "membros": 7.5,
+   "membros_remunerados": 7.5,
+   "fixa_rs_mi": 9.344,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 3.52
+  },
+  {
+   "exercicio": "2024",
+   "orgao": "Diretoria Estatutária",
+   "fonte_fre": 2026,
+   "total_rs_mi": 58.865,
+   "membros": 6.08,
+   "membros_remunerados": 6.08,
+   "fixa_rs_mi": 16.817,
+   "variavel_rs_mi": 23.064,
+   "baseada_acoes_rs_mi": 17.889
+  },
+  {
+   "exercicio": "2025",
+   "orgao": "Conselho Fiscal",
+   "fonte_fre": 2026,
+   "total_rs_mi": 0.897,
+   "membros": 3.0,
+   "membros_remunerados": 3.0,
+   "fixa_rs_mi": 0.897,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2025",
+   "orgao": "Conselho de Administração",
+   "fonte_fre": 2026,
+   "total_rs_mi": 14.613,
+   "membros": 6.75,
+   "membros_remunerados": 6.75,
+   "fixa_rs_mi": 9.278,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 5.336
+  },
+  {
+   "exercicio": "2025",
+   "orgao": "Diretoria Estatutária",
+   "fonte_fre": 2026,
+   "total_rs_mi": 61.681,
+   "membros": 6.0,
+   "membros_remunerados": 6.0,
+   "fixa_rs_mi": 16.433,
+   "variavel_rs_mi": 14.986,
+   "baseada_acoes_rs_mi": 29.151
+  },
+  {
+   "exercicio": "2026",
+   "orgao": "Conselho Fiscal",
+   "fonte_fre": 2026,
+   "total_rs_mi": 0.918,
+   "membros": 3.0,
+   "membros_remunerados": 3.0,
+   "fixa_rs_mi": 0.918,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 0.0
+  },
+  {
+   "exercicio": "2026",
+   "orgao": "Conselho de Administração",
+   "fonte_fre": 2026,
+   "total_rs_mi": 14.678,
+   "membros": 7.0,
+   "membros_remunerados": 7.0,
+   "fixa_rs_mi": 10.565,
+   "variavel_rs_mi": 0.0,
+   "baseada_acoes_rs_mi": 4.113
+  },
+  {
+   "exercicio": "2026",
+   "orgao": "Diretoria Estatutária",
+   "fonte_fre": 2026,
+   "total_rs_mi": 72.745,
+   "membros": 6.0,
+   "membros_remunerados": 6.0,
+   "fixa_rs_mi": 18.085,
+   "variavel_rs_mi": 25.155,
+   "baseada_acoes_rs_mi": 22.151
+  }
+ ],
+ "dividendos": [
+  {
+   "exercicio": "2014",
+   "fonte_fre": 2017,
+   "lucro_ajustado_rs_mi": 1067.0,
+   "dividendo_total_rs_mi": 557.0,
+   "payout_pct": 52.2,
+   "retido_rs_mi": 566.0,
+   "retorno_pl_pct": 9.3
+  },
+  {
+   "exercicio": "2015",
+   "fonte_fre": 2018,
+   "lucro_ajustado_rs_mi": -1161.0,
+   "dividendo_total_rs_mi": 0.0,
+   "payout_pct": 0.0,
+   "retido_rs_mi": 0.0,
+   "retorno_pl_pct": -11.7
+  },
+  {
+   "exercicio": "2016",
+   "fonte_fre": 2019,
+   "lucro_ajustado_rs_mi": -315.0,
+   "dividendo_total_rs_mi": 0.0,
+   "payout_pct": 0.0,
+   "retido_rs_mi": 0.0,
+   "retorno_pl_pct": -4.251012
+  },
+  {
+   "exercicio": "2017",
+   "fonte_fre": 2020,
+   "lucro_ajustado_rs_mi": 1092.0,
+   "dividendo_total_rs_mi": 1092.0,
+   "payout_pct": 100.0,
+   "retido_rs_mi": 59.0,
+   "retorno_pl_pct": 13.041015
+  },
+  {
+   "exercicio": "2018",
+   "fonte_fre": 2021,
+   "lucro_ajustado_rs_mi": 3033.0,
+   "dividendo_total_rs_mi": 3033.0,
+   "payout_pct": 100.0,
+   "retido_rs_mi": 160.0,
+   "retorno_pl_pct": 32.965104
+  },
+  {
+   "exercicio": "2019",
+   "fonte_fre": 2022,
+   "lucro_ajustado_rs_mi": 2100.0,
+   "dividendo_total_rs_mi": 1124.0,
+   "payout_pct": 53.52,
+   "retido_rs_mi": 1086.9,
+   "retorno_pl_pct": 25.22245
+  },
+  {
+   "exercicio": "2020",
+   "fonte_fre": 2022,
+   "lucro_ajustado_rs_mi": 3769.0,
+   "dividendo_total_rs_mi": 2305.0,
+   "payout_pct": 61.16,
+   "retido_rs_mi": 1600.3,
+   "retorno_pl_pct": 31.989842
+  },
+  {
+   "exercicio": "2021",
+   "fonte_fre": 2022,
+   "lucro_ajustado_rs_mi": 2496.0,
+   "dividendo_total_rs_mi": 664.0,
+   "payout_pct": 26.6,
+   "retido_rs_mi": 1833.1,
+   "retorno_pl_pct": 20.287618
+  }
+ ],
+ "capital": [
+  {
+   "ano_fre": 2017,
+   "dt_refer": "2017-01-01",
+   "tipo": "Capital Subscrito",
+   "capital_rs_mi": 6352.977,
+   "acoes_total": 1165000000.0
+  },
+  {
+   "ano_fre": 2018,
+   "dt_refer": "2018-01-01",
+   "tipo": "Capital Subscrito",
+   "capital_rs_mi": 6353.389,
+   "acoes_total": 1165000000.0
+  },
+  {
+   "ano_fre": 2019,
+   "dt_refer": "2019-01-01",
+   "tipo": "Capital Subscrito",
+   "capital_rs_mi": 6353.389,
+   "acoes_total": 1165000000.0
+  },
+  {
+   "ano_fre": 2020,
+   "dt_refer": "2020-01-01",
+   "tipo": "Capital Subscrito",
+   "capital_rs_mi": 6353.389,
+   "acoes_total": 1165000000.0
+  },
+  {
+   "ano_fre": 2021,
+   "dt_refer": "2021-01-01",
+   "tipo": "Capital Subscrito",
+   "capital_rs_mi": 6353.389,
+   "acoes_total": 1165000000.0
+  },
+  {
+   "ano_fre": 2022,
+   "dt_refer": "2022-01-01",
+   "tipo": "Capital Subscrito",
+   "capital_rs_mi": 6353.389,
+   "acoes_total": 1165000000.0
+  },
+  {
+   "ano_fre": 2023,
+   "dt_refer": "2023-12-31",
+   "tipo": "Capital Subscrito",
+   "capital_rs_mi": 10034.046,
+   "acoes_total": 1119000000.0
+  },
+  {
+   "ano_fre": 2024,
+   "dt_refer": "2024-12-31",
+   "tipo": "Capital Subscrito",
+   "capital_rs_mi": 11251.386,
+   "acoes_total": 1119000000.0
+  },
+  {
+   "ano_fre": 2025,
+   "dt_refer": "2025-12-31",
+   "tipo": "Capital Subscrito",
+   "capital_rs_mi": 12051.386,
+   "acoes_total": 1198563531.0
+  },
+  {
+   "ano_fre": 2026,
+   "dt_refer": "2026-12-31",
+   "tipo": "Capital Subscrito",
+   "capital_rs_mi": 12051.386,
+   "acoes_total": 1198563531.0
+  }
+ ],
+ "acionistas": [
+  {
+   "ano_fre": 2017,
+   "pf": 4559.0,
+   "pj": 269.0,
+   "institucionais": 238.0,
+   "circulacao_pct": 28.75,
+   "acoes_circulacao": 334937500.0,
+   "ultima_assembleia": "2017-08-31"
+  },
+  {
+   "ano_fre": 2018,
+   "pf": 5688.0,
+   "pj": 237.0,
+   "institucionais": 422.0,
+   "circulacao_pct": 28.75,
+   "acoes_circulacao": 334937500.0,
+   "ultima_assembleia": "2018-04-25"
+  },
+  {
+   "ano_fre": 2019,
+   "pf": 24477.0,
+   "pj": 261.0,
+   "institucionais": 1768.0,
+   "circulacao_pct": 62.5,
+   "acoes_circulacao": 728125000.0,
+   "ultima_assembleia": "2019-07-26"
+  },
+  {
+   "ano_fre": 2020,
+   "pf": 54944.0,
+   "pj": 350.0,
+   "institucionais": 1543.0,
+   "circulacao_pct": 99.996405,
+   "acoes_circulacao": 1164958126.0,
+   "ultima_assembleia": "2020-07-28"
+  },
+  {
+   "ano_fre": 2021,
+   "pf": 60890.0,
+   "pj": 310.0,
+   "institucionais": 845.0,
+   "circulacao_pct": 97.15737,
+   "acoes_circulacao": 1131883365.0,
+   "ultima_assembleia": "2021-04-15"
+  },
+  {
+   "ano_fre": 2022,
+   "pf": 69596.0,
+   "pj": 433.0,
+   "institucionais": 1151.0,
+   "circulacao_pct": 95.66,
+   "acoes_circulacao": 1114442976.0,
+   "ultima_assembleia": "2022-04-28"
+  },
+  {
+   "ano_fre": 2023,
+   "pf": 74571.0,
+   "pj": 426.0,
+   "institucionais": 996.0,
+   "circulacao_pct": 99.608,
+   "acoes_circulacao": 1114613709.0,
+   "ultima_assembleia": "2023-04-27"
+  },
+  {
+   "ano_fre": 2024,
+   "pf": 85864.0,
+   "pj": 583.0,
+   "institucionais": 912.0,
+   "circulacao_pct": 99.548,
+   "acoes_circulacao": 1113939036.0,
+   "ultima_assembleia": "2024-04-18"
+  },
+  {
+   "ano_fre": 2025,
+   "pf": 72031.0,
+   "pj": 306.0,
+   "institucionais": 324.0,
+   "circulacao_pct": 99.453,
+   "acoes_circulacao": 1192004780.0,
+   "ultima_assembleia": "2025-04-16"
+  },
+  {
+   "ano_fre": 2026,
+   "pf": 53436.0,
+   "pj": 219.0,
+   "institucionais": 386.0,
+   "circulacao_pct": 100.0,
+   "acoes_circulacao": 1198563531.0,
+   "ultima_assembleia": "2026-04-15"
+  }
+ ],
+ "empregados": [
+  {
+   "ano_fre": 2023,
+   "empregados": 3364.0
+  },
+  {
+   "ano_fre": 2024,
+   "empregados": 3521.0
+  },
+  {
+   "ano_fre": 2025,
+   "empregados": 3814.0
+  },
+  {
+   "ano_fre": 2026,
+   "empregados": 3785.0
+  }
+ ]
+}
