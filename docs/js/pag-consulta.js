@@ -59,7 +59,7 @@
             P.card('Margem EBITDA Ajustado', 'R$ por m³ vendido.', ref.ch.m3),
             P.card('Lucro líquido', 'R$ milhões (consolidado, DRE 3.11).', ref.ch.luc),
             P.card('Geração de caixa', 'R$ milhões. Livre = operacional + investimentos em imobilizado e intangível.', ref.ch.cx),
-            P.card('Dívida líquida', 'R$ milhões, fim do período. Empréstimos, financiamentos e arrendamentos, menos caixa e aplicações.', ref.ch.div),
+            P.card('Dívida líquida', 'R$ milhões, fim do período, como divulgada pela Companhia no release (dívida bruta + swap − disponibilidades).', ref.ch.div),
             P.card('Alavancagem', 'Dívida líquida ÷ EBITDA Ajustado dos últimos 12 meses.', ref.ch.alav)));
       },
       render: function () {

@@ -104,5 +104,5 @@
     var d = P.D.ipe && P.D.ipe.documentos.filter(function (x) { return x.categoria === 'Fato Relevante'; })[0];
     return d ? frase(['Último fato relevante, em ' + P.fData(d.data_entrega) + ': ', b(d.assunto || d.tipo || 'ver documento'), '.']) : null;
   };
-  H.simulador = function () { return ['Simule o EBITDA Ajustado e a alavancagem a partir de volume e margem por m³, com base no último período divulgado.']; };
+  H.simulador = function () { var u = M().ultimoPar(); return ['E se o volume ou a margem por m³ mudarem? Veja o efeito no EBITDA Ajustado e na alavancagem, a partir dos ', b('12 meses até ' + u.p), '.']; };
 })();

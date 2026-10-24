@@ -164,46 +164,76 @@
 
   // ---------- Simulador ----------
   function paginaSimulador() {
-    var ref = {}, est = null;
-    function base() {   // últimos 12 meses
+    // "E se…?": EBITDA Ajustado de 12 meses = volume × margem dos segmentos de distribuição + Renováveis + Corporativo
+    var ref = {}, aj = null;
+    function base() {
       var u = P.M.ultimoPar(), p = u.p;
-      var vol = P.oper('CONS', 'vol', p, 'LTM'), aj = P.M.aj('CONS', p, 'LTM'), ren = P.M.aj('REN', p, 'LTM') || 0, corp = P.M.aj('CORP', p, 'LTM') || 0;
-      var dist = ok(aj) ? aj - ren : null, m3 = ok(dist) && vol ? (dist - corp) / vol * 1000 : null;
-      return { p: p, vol: vol, m3: m3, ren: ren, corp: corp, dl: P.M.ind('dliq', p, 'T'), aj: aj };
+      var vol = P.oper('CONS', 'vol', p, 'LTM'), e = P.M.aj('CONS', p, 'LTM'), ren = P.M.aj('REN', p, 'LTM') || 0, corp = P.M.aj('CORP', p, 'LTM') || 0;
+      var dist = ok(e) ? e - ren - corp : null;   // Rede de Postos + B2B (segmentos de distribuição)
+      return { p: p, vol: vol, m3: ok(dist) && vol ? dist / vol * 1000 : null, ren: ren, corp: corp, dl: P.M.ind('dliq', p, 'T'), aj: e, alav: P.M.ind('dlebitda', p, 'T') };
     }
-    function calc(e) { var eb = e.vol * e.m3 / 1000 + e.corp + e.ren; return { eb: eb, alav: eb > 0 ? e.dl / eb : null }; }
+    function zera() { aj = { dv: 0, dm: 0, ddl: 0, ren: Math.round(ref.b.ren), corp: Math.round(ref.b.corp) }; }
+    function calc(dv, dm, ddl) {
+      var b = ref.b, vol = b.vol * (1 + dv / 100), m3 = b.m3 + dm, dl = b.dl + ddl;
+      var eb = vol * m3 / 1000 + aj.ren + aj.corp;
+      return { vol: vol, m3: m3, dl: dl, eb: eb, alav: eb > 0 ? dl / eb : null };
+    }
+    function deslizante(k, rot, min, max, passo, fmt) {
+      var saida = h('b'), i = h('input', { type: 'range', min: min, max: max, step: passo, value: aj[k], 'aria-label': rot });
+      var mostra = function () { saida.textContent = fmt(aj[k]); };
+      i.addEventListener('input', function () { aj[k] = parseFloat(i.value); mostra(); desenha(); });
+      mostra();
+      return h('label', { class: 'campo sl' }, h('span', null, rot, ' ', saida), i, h('small', { class: 'faixa' }, h('span', null, fmt(min)), h('span', null, fmt(max))));
+    }
+    var sinal = function (v, f) { return (v > 0 ? '+' : v < 0 ? '−' : '') + f(Math.abs(v)); };
     return {
       init: function (el) {
-        var b = base(); est = { vol: Math.round(b.vol), m3: Math.round(b.m3), ren: Math.round(b.ren), corp: Math.round(b.corp), dl: Math.round(b.dl) };
-        ref.b = b; ref.form = h('div', { class: 'sim' }); ref.res = h('div', { class: 'grid kpis' }); ref.tb = h('table');
-        el.append(h('p', { class: 'note' }, 'Ponto de partida: últimos 12 meses até ' + b.p + ' (volume dos releases; EBITDA Ajustado da nota de segmentos; dívida líquida do balanço). A margem dos segmentos de distribuição exclui o Corporativo, que entra separado. Altere os valores e veja o efeito.'),
-          ref.form, ref.res, h('div', { class: 'sec' }, h('h2', null, 'Sensibilidade do EBITDA Ajustado (R$ milhões, 12 meses)')), h('div', { class: 'twrap' }, ref.tb));
+        ref.b = base(); zera();
+        ref.intro = h('div', { class: 'card', style: 'margin-bottom:14px' });
+        ref.form = h('div', { class: 'sim' }); ref.res = h('div', { class: 'grid kpis' }); ref.conta = h('p', { class: 'note' }); ref.tb = h('table');
+        ref.av = h('details', { class: 'av-sim' });
+        el.append(ref.intro, ref.form, ref.av, ref.res, ref.conta,
+          h('div', { class: 'sec' }, h('h2', null, 'Tabela de sensibilidade')),
+          h('p', { class: 'note' }, 'Cada célula mostra o EBITDA Ajustado de 12 meses (R$ milhões) que resultaria da combinação de margem (linhas) e volume (colunas), mantidos os demais valores do cenário.'),
+          h('div', { class: 'twrap' }, ref.tb));
       },
       render: function () {
-        var campo = function (k, rot, passo, un) {
-          var i = h('input', { type: 'number', step: passo, value: est[k], 'aria-label': rot, inputmode: 'decimal' });
-          i.addEventListener('input', function () { var v = parseFloat(i.value); if (isFinite(v)) { est[k] = v; desenha(); } });
-          return h('label', { class: 'campo' }, h('span', null, rot), i, h('small', null, un));
+        var b = ref.b;
+        ref.intro.replaceChildren(h('h2', null, 'Como funciona'),
+          h('p', null, 'O simulador responde à pergunta: se o volume vendido ou a margem por m³ mudarem, quanto muda o EBITDA Ajustado e a alavancagem? Ele parte dos 12 meses até ' + b.p + ' e usa a mesma conta da nota de segmentos:'),
+          h('p', { class: 'formula' }, 'EBITDA Ajustado = volume × margem por m³ (Rede de Postos + B2B) + Renováveis + Corporativo'),
+          h('p', { class: 'note' }, 'Ponto de partida: ' + P.fN(b.vol) + ' mil m³ × R$ ' + P.fInt(b.m3) + '/m³ = ' + P.fMi(b.vol * b.m3 / 1000) + '; Renováveis ' + P.fMi(b.ren) + '; Corporativo ' + P.fMi(b.corp) +
+            ' → EBITDA Ajustado de ' + P.fMi(b.aj) + '. Dívida líquida (release) de ' + P.fMi(b.dl) + ' → alavancagem de ' + P.f2(b.alav) + 'x. Mova os controles abaixo.'));
+        ref.form.replaceChildren(
+          deslizante('dv', 'Volume', -10, 10, 0.5, function (v) { return sinal(v, function (x) { return P.f1(x) + '%'; }); }),
+          deslizante('dm', 'Margem por m³', -80, 80, 5, function (v) { return sinal(v, function (x) { return 'R$ ' + P.fInt(x); }); }),
+          deslizante('ddl', 'Dívida líquida', -5000, 5000, 250, function (v) { return sinal(v, function (x) { return P.fBi(x); }); }),
+          h('button', { class: 'btn', type: 'button', onclick: function () { zera(); P.render(); } }, 'Voltar ao ponto de partida'));
+        var campo = function (k, rot) {
+          var i = h('input', { type: 'number', step: 10, value: aj[k], inputmode: 'decimal', 'aria-label': rot });
+          i.addEventListener('input', function () { var v = parseFloat(i.value); if (isFinite(v)) { aj[k] = v; desenha(); } });
+          return h('label', { class: 'campo' }, h('span', null, rot), i, h('small', null, 'R$ milhões em 12 meses'));
         };
-        ref.form.replaceChildren(campo('vol', 'Volume vendido', 100, 'mil m³ em 12 meses'), campo('m3', 'Margem EBITDA da distribuição', 5, 'R$/m³, sem o Corporativo'), campo('corp', 'Corporativo e reconciliação', 10, 'R$ milhões'),
-          campo('ren', 'EBITDA de Renováveis', 10, 'R$ milhões'), campo('dl', 'Dívida líquida', 100, 'R$ milhões'),
-          h('button', { class: 'btn', type: 'button', onclick: function () { var b = ref.b; est = { vol: Math.round(b.vol), m3: Math.round(b.m3), ren: Math.round(b.ren), corp: Math.round(b.corp), dl: Math.round(b.dl) }; P.render(); } }, 'Voltar ao último período'));
+        ref.av.replaceChildren(h('summary', null, 'Ajustes avançados (Renováveis e Corporativo)'), h('div', { class: 'sim' }, campo('ren', 'EBITDA de Renováveis'), campo('corp', 'Corporativo e reconciliação')));
         desenha();
       },
       manchete: function () { return P.manchete.simulador(); }
     };
     function desenha() {
-      var r = calc(est);
+      var b = ref.b, r = calc(aj.dv, aj.dm, aj.ddl), d = r.eb - b.aj;
+      var cartao = function (rot, v, sub, cls) { return h('div', { class: 'card kpi' }, h('div', { class: 'kl' }, rot), h('div', { class: 'kv' + (cls ? ' ' + cls : '') }, v), h('div', { class: 'kl' }, sub)); };
       ref.res.replaceChildren(
-        h('div', { class: 'card kpi' }, h('div', { class: 'kl' }, 'EBITDA Ajustado simulado (12 meses)'), h('div', { class: 'kv' }, P.fBi(r.eb)), h('div', { class: 'kl' }, 'Realizado: ' + P.fBi(ref.b.aj))),
-        h('div', { class: 'card kpi' }, h('div', { class: 'kl' }, 'Alavancagem simulada'), h('div', { class: 'kv' }, ok(r.alav) ? P.f2(r.alav) + 'x' : '—'), h('div', { class: 'kl' }, 'Dívida líquida ÷ EBITDA Ajustado')),
-        h('div', { class: 'card kpi' }, h('div', { class: 'kl' }, 'Cada R$ 10/m³ de margem'), h('div', { class: 'kv' }, P.fMi(est.vol * 10 / 1000)), h('div', { class: 'kl' }, 'de EBITDA em 12 meses')));
-      var ms = [-40, -20, 0, 20, 40], vs = [-0.05, 0, 0.05];
-      P.tabela(ref.tb, 'Margem (R$/m³) \\ Volume', vs.map(function (v) { return (v ? P.fPct(v) : 'Atual') + ' · ' + P.fN(est.vol * (1 + v)); }), ms.map(function (dm) {
-        return { conta: (dm ? (dm > 0 ? '+' : '−') + Math.abs(dm) + ' · ' : 'Atual · ') + P.fInt(est.m3 + dm), cel: vs.map(function (v) { return P.fN(calc({ vol: est.vol * (1 + v), m3: est.m3 + dm, corp: est.corp, ren: est.ren, dl: est.dl }).eb); }), cls: dm === 0 ? 'tot' : '' };
+        cartao('EBITDA Ajustado no cenário (12 meses)', P.fBi(r.eb), (Math.abs(d) < 0.5 ? 'igual ao realizado' : sinal(d, P.fMi) + ' contra o realizado (' + P.fBi(b.aj) + ')')),
+        cartao('Alavancagem no cenário', ok(r.alav) ? P.f2(r.alav) + 'x' : '—', 'era ' + P.f2(b.alav) + 'x (dívida líquida ÷ EBITDA Ajustado)'),
+        cartao('Regra de bolso', P.fMi(r.vol * 10 / 1000), 'de EBITDA a cada R$ 10/m³ de margem; cada 1% de volume vale ' + P.fMi(b.vol * 0.01 * r.m3 / 1000)));
+      ref.conta.textContent = 'Conta do cenário: ' + P.fN(r.vol) + ' mil m³ × R$ ' + P.fInt(r.m3) + '/m³ = ' + P.fMi(r.vol * r.m3 / 1000) + (aj.ren >= 0 ? ' + ' : ' − ') + P.fMi(Math.abs(aj.ren)) + ' (Renováveis)' + (aj.corp >= 0 ? ' + ' : ' − ') + P.fMi(Math.abs(aj.corp)) + ' (Corporativo) = ' + P.fMi(r.eb) + '.';
+      var ms = [-40, -20, 0, 20, 40], vs = [-5, 0, 5];
+      P.tabela(ref.tb, 'Margem (R$/m³) \\ Volume', vs.map(function (v) { return (v ? sinal(v, function (x) { return x + '%'; }) : 'Cenário') + ' · ' + P.fN(b.vol * (1 + (aj.dv + v) / 100)) + ' mil m³'; }), ms.map(function (dm) {
+        return { conta: (dm ? sinal(dm, function (x) { return 'R$ ' + x; }) + ' · ' : 'Cenário · ') + 'R$ ' + P.fInt(b.m3 + aj.dm + dm), cel: vs.map(function (v) { return P.fN(calc(aj.dv + v, aj.dm + dm, aj.ddl).eb); }), cls: dm === 0 ? 'tot' : '' };
       }));
     }
   }
+
 
   P.paginasMercado = function () {
     P.registra('mer', 'Mercado', paginaMercado(), 'a');

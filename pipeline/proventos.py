@@ -61,6 +61,38 @@ def ler_aviso(t):
     return valores, sorted(set(com)), sorted(set(ex))
 
 
+def evento_novo(t, aviso):
+    """Evento completo a partir de um aviso (para proventos ainda ausentes do site de RI). None se faltar qualquer dado."""
+    t = re.sub(r"[ \t]+", " ", portugues(t))
+    plano = t.replace("\n", " ")
+    cab = plano[:2500].lower()
+    tipo = "JSCP" if re.search(r"juros sobre (o )?capital próprio", cab) else "Dividendo" if "dividend" in cab else None
+    m = re.search(r"Total\s+([\d\.]+,\d{2})\s+(0,\d{5,})\s+" + RX_DATA_NUM + r"\s+" + RX_DATA_NUM, plano)
+    if m:
+        total = float(m.group(1).replace(".", "").replace(",", "."))
+        acao = float(m.group(2).replace(",", "."))
+        com = date(int(m.group(5)), int(m.group(4)), int(m.group(3)))
+        pag = date(int(m.group(8)), int(m.group(7)), int(m.group(6)))
+    else:
+        mt = re.search(r"valor (?:bruto )?(?:total )?(?:bruto )?de R\$ ?([\d\.]+,\d{2})", plano, re.I)
+        valores, coms, _ = ler_aviso(t)
+        mp = re.search(r"pagamento[^.]{0,220}?(?:em|no dia|até)\s+(" + RX_DATA_EXT + "|" + RX_DATA_NUM + ")", plano, re.I)
+        if not (mt and len(valores) == 1 and len(coms) == 1 and mp):
+            return None
+        total = float(mt.group(1).replace(".", "").replace(",", "."))
+        acao, com = valores[0], coms[0]
+        pd = datas(mp.group(1))
+        if not pd:
+            return None
+        pag = pd[0]
+    me = re.search(r"exerc[íi]cio (?:social )?(?:de |encerrado em 31 de dezembro de )(\d{4})", plano, re.I)
+    ref = int(me.group(1)) if me else com.year
+    if not tipo or not (0.95e9 <= total / acao <= 1.35e9) or pag < com:
+        return None
+    return {"provento": tipo, "referencia": ref, "data_ex": None, "data_com": com.isoformat(), "valor_total": total, "valor_acao": acao,
+            "data_pagamento": pag.isoformat(), "aviso": aviso["link"], "aviso_data": aviso["data_entrega"], "origem": "aviso CVM"}
+
+
 def main():
     base = json.load(open(os.path.join(RAIZ, "data", "dividendos.json"), encoding="utf-8"))
     idx = os.path.join(PASTA, "indice.json")
@@ -69,8 +101,9 @@ def main():
         for d in json.load(open(idx, encoding="utf-8"))["documentos"]:
             p = os.path.join(PASTA, d["arquivo"])
             if os.path.exists(p):
-                v, c, e = ler_aviso(open(p, encoding="utf-8").read())
-                avisos.append(dict(d, valores=v, com=c, ex=e))
+                txt = open(p, encoding="utf-8").read()
+                v, c, e = ler_aviso(txt)
+                avisos.append(dict(d, valores=v, com=c, ex=e, texto=txt))
     log = ["# Proventos — conferência com os avisos da CVM", "", f"{len(avisos)} avisos lidos; {len(base['linhas'])} eventos no site de RI.", ""]
     linhas, casados = [], 0
     for l in base["linhas"]:
@@ -104,6 +137,21 @@ def main():
         n["data_com"] = None
         log.append(f"- {l['provento']} {l['data_ex']}: sem aviso inequívoco ({len(vals)} candidato(s)); mantido o site de RI")
         linhas.append(n)
+    # proventos anunciados depois do último evento do site de RI e ainda ausentes: entram pelo aviso da CVM
+    ult_ri = max(l["data_ex"] for l in base["linhas"])
+    for a in sorted(avisos, key=lambda x: x["data_entrega"]):
+        if a["data_entrega"] <= ult_ri:
+            continue
+        ev = evento_novo(a["texto"], a)
+        if not ev:
+            continue
+        dc = date.fromisoformat(ev["data_com"])
+        dup = [l for l in linhas if abs(l["valor_acao"] - ev["valor_acao"]) < 0.006 and
+               abs((date.fromisoformat(l.get("data_com") or l["data_ex"]) - dc).days) <= 10]
+        if dup:
+            continue
+        linhas.append(ev)
+        log.append(f"- NOVO pelo aviso de {a['data_entrega']}: {ev['provento']} de R$ {ev['valor_total']:,.2f} (R$ {ev['valor_acao']} por ação), data com {ev['data_com']}, pagamento {ev['data_pagamento']}")
     out = {"fonte": base.get("fonte", "") + "; valores por ação e datas conferidos com os avisos arquivados na CVM quando disponíveis",
            "linhas": linhas}
     json.dump(out, open(os.path.join(RAIZ, "data", "proventos.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)

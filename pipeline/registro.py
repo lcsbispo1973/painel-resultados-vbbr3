@@ -11,7 +11,7 @@ Saídas:
 import json
 import os
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(RAIZ, "data")
@@ -83,6 +83,19 @@ def candidatos():
         ev["fr:" + str(d.get("protocolo"))] = {"data": d.get("data_entrega") or "", "tipo": "Fato relevante",
                                                "titulo": d.get("assunto") or d.get("tipo") or "Fato relevante",
                                                "detalhe": "", "link": d.get("link") or ""}
+    pv = ler("proventos.json") or {}
+    for l in pv.get("linhas", []):
+        if not l.get("aviso"):
+            continue
+        dc = l.get("data_com") or l.get("data_ex") or ""
+        dcf = f"{dc[8:10]}/{dc[5:7]}/{dc[:4]}" if dc else "—"
+        pg = l.get("data_pagamento") or ""
+        ev["prov:%s:%s" % (dc, l["valor_acao"])] = {
+            "data": l.get("aviso_data") or dc, "tipo": "Proventos",
+            "titulo": "%s de R$ %s mi (R$ %s por ação)" % (l["provento"], f"{l['valor_total'] / 1e6:,.1f}".replace(",", "X").replace(".", ",").replace("X", "."),
+                                                          f"{l['valor_acao']:.5f}".replace(".", ",")),
+            "detalhe": "Data com %s; pagamento em %s; exercício de %s." % (dcf, f"{pg[8:10]}/{pg[5:7]}/{pg[:4]}" if pg else "—", l.get("referencia")),
+            "link": l["aviso"]}
     fre = ler("fre_item10.json") or {}
     for ano, f in (fre.get("anos") or {}).items():
         ev[f"fre:{ano}:v{f.get('versao')}"] = {"data": f.get("recebido") or "", "tipo": "Formulário de Referência",
@@ -114,6 +127,9 @@ def main():
     with open(ARQ, "w", encoding="utf-8") as f:
         json.dump(reg, f, ensure_ascii=False, indent=1)
 
+    # alerta só do que é recente (documento com até 20 dias): itens antigos que passam a ser lidos entram no histórico sem alerta
+    limite = (datetime.now(timezone.utc).date() - timedelta(days=20)).isoformat()
+    novos = [(k, v) for k, v in novos if (v.get("data") or "") >= limite]
     with open(NOV, "w", encoding="utf-8") as f:
         if novos and not primeira:
             f.write("Novidades encontradas na atualização de " + agora[:10] + ":\n\n")

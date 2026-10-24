@@ -90,7 +90,7 @@
   .chart { position: relative; width: 100%; min-height: 0; }
   .chart svg { display: block; overflow: visible; }
   .tick { font-size: 11px; fill: var(--muted); }
-  .val { font-size: 10px; fill: var(--fg); font-variant-numeric: tabular-nums; }
+  .val { font-size: 10px; fill: var(--fg); font-variant-numeric: tabular-nums; paint-order: stroke; stroke: var(--panel); stroke-width: 3px; stroke-linejoin: round; }
   .legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12px; color: var(--muted); margin: 4px 0 6px; }
   .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
   .tip { position: absolute; z-index: 5; pointer-events: none; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; box-shadow: var(--shadow); padding: 6px 10px; font-size: 12px; white-space: nowrap; }
@@ -135,6 +135,9 @@
   ul.fontes { font-size: 13px; }
 
   /* simulador */
+  .campo.sl input[type=range] { width: 100%; accent-color: var(--verde); } .campo.sl span b { color: var(--verde); font-variant-numeric: tabular-nums; }
+  .campo .faixa { display: flex; justify-content: space-between; } .formula { font-weight: 600; background: var(--panel); padding: 8px 12px; border-radius: 8px; }
+  .av-sim { margin: 0 0 12px; } .av-sim summary { cursor: pointer; color: var(--muted); font-size: 13.5px; }
   .sim { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); align-items: end; margin: 12px 0 16px; }
   .campo { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--muted); }
   .campo input { font-size: 17px; padding: 9px 12px; color: var(--fg); }

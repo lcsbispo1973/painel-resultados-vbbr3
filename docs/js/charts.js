@@ -25,6 +25,18 @@
   function falha(el, msg) { el.replaceChildren(); var d = document.createElement('div'); d.className = 'fail'; d.textContent = msg || 'Sem dados para o período selecionado'; el.appendChild(d); }
   function rotulosX(labels, W) { var passo = Math.max(1, Math.ceil(labels.length / Math.max(2, Math.floor(W / 36)))); return labels.filter(function (_, i) { return (labels.length - 1 - i) % passo === 0; }); }
 
+  // folga acima/abaixo para os rótulos de valor
+  function folga(lo, hi, f) { var r = (hi - lo) || Math.abs(hi) || 1; return [lo < 0 ? lo - r * f * 0.6 : lo, hi > 0 ? hi + r * f : hi]; }
+  // rótulos de valor em pontos sem sobreposição: mantém o destaque e o último, depois os demais com espaçamento mínimo
+  function escolhe(pts, xpos, larg, destaque) {
+    var ord = pts.map(function (d, i) { return i; }).sort(function (a, b) {
+      var pa = (pts[a].l === destaque ? 2 : 0) + (a === pts.length - 1 ? 1 : 0), pb = (pts[b].l === destaque ? 2 : 0) + (b === pts.length - 1 ? 1 : 0);
+      return pb - pa || b - a;
+    }), ok = [];
+    ord.forEach(function (i) { var x0 = xpos(pts[i]); if (ok.every(function (j) { return Math.abs(xpos(pts[j]) - x0) >= larg; })) ok.push(i); });
+    return pts.filter(function (_, i) { return ok.indexOf(i) >= 0; });
+  }
+
   function base(el, labels, ymin, ymax, fmt, h) {
     var W = el.clientWidth || 300, H = h || 230, m = { t: 16, r: 8, b: 26, l: 40 };
     var svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', '0 0 ' + W + ' ' + H).attr('role', 'img');
@@ -43,7 +55,9 @@
     el.replaceChildren();
     var pts = labels.map(function (l, i) { return { l: l, v: vals[i] }; }).filter(function (d) { return d.v != null; });
     if (!pts.length) return falha(el);
-    var nums = pts.map(function (d) { return d.v; }), g = base(el, labels, Math.min(0, d3.min(nums)), Math.max(0, d3.max(nums)), fmt), tp = tipo(el);
+    var nums = pts.map(function (d) { return d.v; }), estreito = ((el.clientWidth || 300) - 50) / labels.length * 0.7 < 34;
+    var lim = folga(Math.min(0, d3.min(nums)), Math.max(0, d3.max(nums)), estreito ? 0.32 : 0.1);
+    var g = base(el, labels, lim[0], lim[1], fmt), tp = tipo(el);
     g.svg.append('g').selectAll('rect').data(pts).join('rect')
       .attr('x', function (d) { return g.x(d.l); }).attr('width', g.x.bandwidth()).attr('rx', 3)
       .attr('y', function (d) { return Math.min(g.y(d.v), g.y(0)); }).attr('height', function (d) { return Math.max(1, Math.abs(g.y(d.v) - g.y(0))); })
@@ -52,6 +66,10 @@
       .on('pointermove', function (e, d) { tp.show([[d.l, null], [nome, fmt(d.v)]], e); }).on('pointerleave', tp.hide);
     if (g.x.bandwidth() > 34) g.svg.append('g').selectAll('text').data(pts).join('text').attr('class', 'val').attr('text-anchor', 'middle')
       .attr('x', function (d) { return g.x(d.l) + g.x.bandwidth() / 2; }).attr('y', function (d) { return d.v >= 0 ? g.y(d.v) - 4 : g.y(d.v) + 12; }).text(function (d) { return fmt(d.v); });
+    else g.svg.append('g').selectAll('text').data(pts).join('text').attr('class', 'val')   // barras estreitas: rótulo na vertical
+      .attr('text-anchor', function (d) { return d.v >= 0 ? 'start' : 'end'; })
+      .attr('transform', function (d) { return 'translate(' + (g.x(d.l) + g.x.bandwidth() / 2 + 3.5) + ',' + (d.v >= 0 ? g.y(d.v) - 3 : g.y(d.v) + 3) + ') rotate(-90)'; })
+      .text(function (d) { return fmt(d.v); });
   }
 
   function linhas(el, labels, series, fmt, opt) {
@@ -59,13 +77,25 @@
     var todos = []; series.forEach(function (s) { s.vals.forEach(function (v) { if (v != null) todos.push(v); }); });
     if (!todos.length) return falha(el);
     legenda(el, series.map(function (s, i) { return [s.nome, C(i + 1)]; }));
-    var g = base(el, labels, Math.min(0, d3.min(todos)), Math.max(0, d3.max(todos)), fmt), tp = tipo(el), cx = function (l) { return g.x(l) + g.x.bandwidth() / 2; };
+    var lim = folga(Math.min(0, d3.min(todos)), Math.max(0, d3.max(todos)), 0.12);
+    var g = base(el, labels, lim[0], lim[1], fmt), tp = tipo(el), cx = function (l) { return g.x(l) + g.x.bandwidth() / 2; };
+    var rot = g.svg.append('g');
     series.forEach(function (s, i) {
       var pts = labels.map(function (l, k) { return { l: l, v: s.vals[k] }; }).filter(function (d) { return d.v != null; });
       g.svg.append('path').datum(pts).attr('fill', 'none').attr('stroke', C(i + 1)).attr('stroke-width', 2).attr('stroke-linejoin', 'round').attr('stroke-linecap', 'round')
         .attr('d', d3.line().x(function (d) { return cx(d.l); }).y(function (d) { return g.y(d.v); }));
       if (pts.length) { var u = pts[pts.length - 1]; g.svg.append('circle').attr('cx', cx(u.l)).attr('cy', g.y(u.v)).attr('r', 3.5).attr('fill', C(i + 1)); }
+      // valores: até duas séries rotuladas (a 1ª acima da linha, a 2ª abaixo); com mais séries, só a principal (as demais no toque)
+      if (!pts.length || opt.semValores || (series.length > 2 && i > 0)) return;
+      var larg = d3.max(pts, function (d) { return fmt(d.v).length; }) * 5.6 + 6;
+      var marcados = escolhe(pts, function (d) { return cx(d.l); }, larg, opt.destaque);
+      marcados.forEach(function (d) {
+        g.svg.append('circle').attr('cx', cx(d.l)).attr('cy', g.y(d.v)).attr('r', 2.2).attr('fill', C(i + 1));
+        rot.append('text').attr('class', 'val').attr('text-anchor', 'middle').attr('x', cx(d.l))
+          .attr('y', i === 1 && series.length === 2 ? g.y(d.v) + 13 : g.y(d.v) - 6).attr('fill', C(i + 1)).style('fill', C(i + 1)).text(fmt(d.v));
+      });
     });
+    rot.raise();
     if (opt.destaque && labels.indexOf(opt.destaque) >= 0) g.svg.insert('rect', ':first-child').attr('x', g.x(opt.destaque)).attr('width', g.x.bandwidth()).attr('y', g.m.t).attr('height', g.H - g.m.t - g.m.b).attr('fill', 'var(--hl)');
     var foco = g.svg.append('line').attr('y1', g.m.t).attr('y2', g.H - g.m.b).attr('stroke', 'var(--muted)').attr('stroke-dasharray', '3 3').attr('visibility', 'hidden');
     g.svg.append('rect').attr('x', g.m.l).attr('y', g.m.t).attr('width', g.W - g.m.l - g.m.r).attr('height', g.H - g.m.t - g.m.b).attr('fill', 'transparent')
@@ -83,7 +113,9 @@
     var tot = labels.map(function (l, i) { return series.reduce(function (a, s) { return a + Math.max(0, s.vals[i] || 0); }, 0); });
     var mv = marcador ? marcador.vals.filter(function (v) { return v != null; }) : [];
     if (!d3.max(tot) && !mv.length) return falha(el);
-    var g = base(el, labels, Math.min(0, d3.min(mv.concat([0]))), Math.max(1, d3.max(tot), d3.max(mv.concat([0]))), fmt, 290), tp = tipo(el);
+    var estreitoE = ((el.clientWidth || 300) - 50) / labels.length * 0.7 < 34;
+    var limE = folga(Math.min(0, d3.min(mv.concat([0]))), Math.max(1, d3.max(tot), d3.max(mv.concat([0]))), estreitoE ? 0.3 : 0.1);
+    var g = base(el, labels, limE[0], limE[1], fmt, 290), tp = tipo(el);
     labels.forEach(function (l, i) {
       var acc = 0;
       series.forEach(function (s, k) {
@@ -92,6 +124,13 @@
           .on('pointermove', function (e) { tp.show([[l, null]].concat(series.map(function (q) { return [q.nome, fmt(q.vals[i])]; })).concat(marcador ? [[marcador.nome, fmt(marcador.vals[i])]] : []), e); }).on('pointerleave', tp.hide);
         acc += v;
       });
+    });
+    // total de cada coluna acima da pilha
+    labels.forEach(function (l, i) {
+      if (!tot[i]) return;
+      var xc = g.x(l) + g.x.bandwidth() / 2, yt = g.y(tot[i]) - 3;
+      if (g.x.bandwidth() > 34) g.svg.append('text').attr('class', 'val').attr('text-anchor', 'middle').attr('x', xc).attr('y', yt).text(fmt(tot[i]));
+      else g.svg.append('text').attr('class', 'val').attr('text-anchor', 'start').attr('transform', 'translate(' + (xc + 3.5) + ',' + yt + ') rotate(-90)').text(fmt(tot[i]));
     });
     if (marcador) {
       var pts = labels.map(function (l, i) { return { l: l, v: marcador.vals[i] }; }).filter(function (d) { return d.v != null; });

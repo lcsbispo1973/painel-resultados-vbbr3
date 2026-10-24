@@ -15,7 +15,7 @@ on:
       - 'docs/**'
       - '.github/workflows/cvm.yml'
   schedule:
-    - cron: '17 9 * * *'   # diariamente, 06:17 em Brasília
+    - cron: '17 1,10,14,18,21,23 * * *'   # 6 vezes ao dia (horário de Brasília: 07:17, 11:17, 15:17, 18:17, 20:17 e 22:17)
 
 permissions:
   contents: write
