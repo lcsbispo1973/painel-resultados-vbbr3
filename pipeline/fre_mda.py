@@ -10,6 +10,7 @@ import base64, datetime as dt, io, json, os, re, subprocess, sys, tempfile, time
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"}
+LEITURA = 2   # versão das regras de leitura: ao mudar, todos os anos são relidos
 SUBITENS = [("a", "Condições financeiras e patrimoniais gerais"), ("b", "Estrutura de capital"), ("c", "Capacidade de pagamento"),
             ("d", "Fontes de financiamento para capital de giro e investimentos"), ("e", "Fontes de financiamento para cobertura de deficiências de liquidez"),
             ("f", "Níveis de endividamento"), ("g", "Limites dos financiamentos contratados"), ("h", "Alterações significativas nas demonstrações financeiras")]
@@ -106,16 +107,20 @@ def subitens(t):
     out = {}
     pos = []
     for letra, nome in SUBITENS:
-        m = re.search(r"(?:^|\n)\s*\(?%s\)\s*%s" % (letra, re.escape(nome.split()[0])), corpo, re.I)
+        m = re.search(r"(?:^|\n)\s*\(?%s[\).]\s*%s" % (letra, re.escape(nome.split()[0])), corpo, re.I)
         if m:
             pos.append((m.start(), letra, nome))
     pos.sort()
     for k, (p0, letra, nome) in enumerate(pos):
         p1 = pos[k + 1][0] if k + 1 < len(pos) else len(corpo)
         txt = corpo[p0:p1]
-        txt = re.sub(r"^\s*\(?%s\)\s*[^\n]*\n" % letra, "", txt)          # tira o título do subitem
+        txt = re.sub(r"^\s*\(?%s[\).]\s*[^\n]*\n" % letra, "", txt)          # tira o título do subitem
         paras = [re.sub(r"\s+", " ", x).strip() for x in re.split(r"\n\s*\n", txt)]
         paras = [re.sub(r"(?<=[a-zà-ú])f (?=[a-zà-ú])|\bf (?=[a-zà-ú]{2,})", "f", x) for x in paras]   # ligadura "fi"/"fo" quebrada pelo PDF
+        # tabelas coladas no texto pelo PDF: corta no "(Em milhões de R$" e descarta linhas pontilhadas
+        paras = [re.split(r"(?:\s+Em \d{1,2} de(?: [a-zç]+ de)?)*\s*\(Em (?:milhões|R\$)", x)[0].strip() for x in paras]
+        paras = [x for x in paras if not re.search(r"\.{5,}", x) and not re.match(r"^\d{1,2} [A-ZÀ-Ú]", x)]   # sem notas de rodapé
+        paras = [x[:x.rfind(". ") + 1] if not re.search(r"[.;:)]$", x) and ". " in x else x for x in paras]   # sobra de cabeçalho de tabela
         paras = [x for x in paras if len(x) > 80 and not re.match(r"^(PÁGINA|Página|Formulário de Referência)", x)]
         out[letra] = {"titulo": nome, "paragrafos": paras[:12]}
     return out
@@ -132,7 +137,7 @@ def main():
             continue
         doc = a["documentos"][-1]
         ano = str(a["ano"])
-        chave = "%s v%s" % (doc["id"], doc["versao"])
+        chave = "%s v%s leitura%d" % (doc["id"], doc["versao"], LEITURA)
         if atual["anos"].get(ano, {}).get("chave") == chave and atual["anos"][ano].get("subitens"):
             continue
         b = baixar(doc["link"])
