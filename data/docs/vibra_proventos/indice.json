@@ -1,6 +1,6 @@
 {
  "grupo": "vibra_proventos",
- "atualizado_em": "2026-10-24T18:27:22Z",
+ "atualizado_em": "2026-10-24T18:46:45Z",
  "documentos": [
   {
    "protocolo": "024295IPE140820260175866648-90",
@@ -281,6 +281,16 @@
    "assunto": "Dividendos/Juros sobre Capital Próprio",
    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=857542&numSequencia=382279&numVersao=2",
    "arquivo": "2021-04-26_024295IPE260420210204431213-37.txt"
+  },
+  {
+   "protocolo": "024295IPE150420210104430110-29",
+   "data_entrega": "2021-04-15",
+   "data_referencia": "2021-04-15",
+   "categoria": "Aviso aos Acionistas",
+   "tipo": "Outros avisos",
+   "assunto": "Deliberações da AGO||Dividendos/Juros sobre Capital Próprio",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=854184&numSequencia=378921&numVersao=1",
+   "arquivo": "2021-04-15_024295IPE150420210104430110-29.txt"
   },
   {
    "protocolo": "024295IPE080120210104420411-19",
