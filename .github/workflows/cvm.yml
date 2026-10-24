@@ -15,9 +15,9 @@ on:
       - 'docs/**'
       - '.github/workflows/cvm.yml'
   schedule:
-    # horários em UTC; em Brasília, todos os dias: 07:17 (manhã), 14:17 (tarde) e 21:17 (noite, após o pregão)
-    - cron: '17 10,17 * * *'
-    - cron: '17 0 * * *'
+    # horários em UTC; em Brasília, dias úteis (segunda a sexta): 07:17 (manhã), 14:17 (tarde) e 21:17 (noite, após o pregão)
+    - cron: '17 10,17 * * 1-5'
+    - cron: '17 0 * * 2-6'   # 21:17 de segunda a sexta em Brasília = 00:17 UTC de terça a sábado
 
 permissions:
   contents: write
