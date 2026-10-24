@@ -427,9 +427,11 @@
     return {
       init: function (el) {
         ref.kpis = h('div', { class: 'grid kpis' });
-        var ids = ['receita', 'lucro', 'ebitda', 'margens', 'caixa', 'divida', 'alav', 'roe'];
+        var ids = ['receita', 'lucro', 'ebitda', 'margens', 'caixa', 'divida', 'alav', 'roe', 'mcap', 'mult'];
+        ref.mkt = h('div'); ref.mktCards = h('div', { class: 'grid kpis' }); ref.mktNota = h('p', { class: 'note' });
+        ref.mkt.append(h('h3', null, 'Mercado'), ref.mktNota, ref.mktCards);
         ref.ch = {}; ids.forEach(function (i) { ref.ch[i] = P.chart('x-' + i); });
-        el.append(ref.kpis, h('div', { class: 'grid' },
+        el.append(ref.kpis, ref.mkt, h('div', { class: 'grid' },
           P.card('Receita', 'CVM, conta 3.01, R$ milhões. Inclui a marcação a mercado do trading de energia.', ref.ch.receita),
           P.card('Lucro líquido', 'CVM, conta 3.11 (consolidado, inclui não controladores), R$ milhões.', ref.ch.lucro),
           P.card('EBITDA', 'R$ milhões. Contábil: calculado da CVM (EBIT sem equivalência + D&A). Ajustado: release, medida da Companhia (só na base trimestre).', ref.ch.ebitda),
@@ -437,7 +439,9 @@
           P.card('Fluxo de caixa', 'DFC da CVM, R$ milhões. Livre = operacional + investimentos em imobilizado e intangível.', ref.ch.caixa),
           P.card('Dívida líquida', 'R$ milhões, fim do período. Dívida bruta inclui arrendamentos; menos caixa e aplicações.', ref.ch.divida),
           P.card('Alavancagem', 'Dívida líquida ÷ EBITDA contábil dos últimos 12 meses (x).', ref.ch.alav),
-          P.card('Retorno sobre o patrimônio', 'ROE: lucro dos controladores UDM ÷ PL dos controladores médio (%).', ref.ch.roe)));
+          P.card('Retorno sobre o patrimônio', 'ROE: lucro dos controladores UDM ÷ PL dos controladores médio (%).', ref.ch.roe),
+          P.card('Valor de mercado', 'R$ milhões ao fim de cada período: cotação da B3 × ações em circulação (CVM). Disponível a partir de 1T20.', ref.ch.mcap),
+          P.card('Múltiplos', 'Ao fim de cada período, com lucro e EBITDA dos últimos 12 meses (x).', ref.ch.mult)));
       },
       render: function () {
         var M = P.M, cols = P.lista('dre'), ult = M.periodos('dre', S.base).slice(-1)[0];
@@ -458,7 +462,20 @@
           ref.kpis.appendChild(h('div', { class: 'card' }, h('div', { class: 'kl' }, k.rot + ' · ' + M.rotulo(ult, S.base)), h('div', { class: 'kv' }, valor),
             h('div', { class: 'kd' }, tt !== null || S.base === 'T' || S.base === 'LTM' ? h('span', null, 't/t ', dl(tt)) : null, h('span', null, 'a/a ', dl(aa)))));
         });
+        var cotUlt = M.ultimaCotacao();
+        ref.mkt.hidden = !cotUlt; ref.mktCards.replaceChildren();
+        if (cotUlt) {
+          var dtc = cotUlt.d.split('-').reverse().join('/');
+          ref.mktNota.textContent = 'Cotação de fechamento da B3 em ' + dtc + ' (R$ ' + P.f2(cotUlt.p) + ') com as demonstrações de ' + M.rotulo(M.periodos('dre', 'T').slice(-1)[0], 'T') + '. Valores em R$ milhões, múltiplos sobre os últimos 12 meses.';
+          [['Valor de mercado', 'mcap'], ['Valor da firma (EV)', 'ev'], ['P/L', 'pl'], ['P/VP', 'pvp'], ['EV/EBITDA contábil', 'evebitda'], ['FCL ÷ valor de mercado', 'fcfy'], ['Proventos pagos ÷ valor de mercado', 'dy']].forEach(function (x) {
+            var i = M.indicadores.filter(function (z) { return z.id === x[1]; })[0], val = M.indAtual(x[1]);
+            if (!ok(val)) return;
+            ref.mktCards.appendChild(h('div', { class: 'card', title: i.formula }, h('div', { class: 'kl' }, x[0]), h('div', { class: 'kv' }, i.un === 'R$ mi' ? P.fBi(val) : P.fUn(i.un, val))));
+          });
+        }
         var rs = cols.map(P.rot), v = function (id) { return cols.map(function (p) { return M.ind(id, p, S.base); }); };
+        G.barras(ref.ch.mcap, rs, v('mcap'), 'Valor de mercado', P.fN);
+        G.linhas(ref.ch.mult, rs, [{ nome: 'P/L', vals: v('pl') }, { nome: 'EV/EBITDA', vals: v('evebitda') }, { nome: 'P/VP', vals: v('pvp') }], function (x) { return f1(x) + 'x'; });
         G.barras(ref.ch.receita, rs, v('receita'), 'Receita', P.fN);
         G.barras(ref.ch.lucro, rs, v('lucro'), 'Lucro líquido', P.fN);
         var aj = P.D.seg ? P.D.seg.linhas.filter(function (l) { return l.cd_conta === 'EBITDA'; })[0] : null;

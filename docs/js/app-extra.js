@@ -171,14 +171,14 @@
 
   // ---------- carga ----------
   var ARQ = { dre: 'cvm_dre.json', bp: 'cvm_balanco.json', dfc: 'cvm_fluxo_caixa.json', dva: 'cvm_dva.json', dra: 'cvm_dra.json', dmpl: 'cvm_dmpl.json', acoes: 'cvm_acoes.json',
-    conf: 'cvm_conferencias.json', status: 'cvm_status.json', seg: 'release_segmentos.json', div: 'dividendos.json', freIndice: 'fre/indice.json', freSeries: 'fre_series.json' };
+    conf: 'cvm_conferencias.json', status: 'cvm_status.json', seg: 'release_segmentos.json', div: 'dividendos.json', freIndice: 'fre/indice.json', freSeries: 'fre_series.json', b3: 'b3_cotacoes.json' };
   var OBRIG = { dre: 1, bp: 1, dfc: 1, conf: 1, status: 1 };
   Promise.all(Object.keys(ARQ).map(function (k) {
     return fetch('data/' + ARQ[k], { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(ARQ[k] + ' (' + r.status + ')'); return r.json(); }).then(function (j) { P.D[k] = j; })
       .catch(function (e) { if (OBRIG[k]) throw e; });
   })).then(function () {
     var D = P.D;
-    P.M = Dados.criar({ dre: D.dre, bp: D.bp, dfc: D.dfc, dva: D.dva, dra: D.dra, acoes: D.acoes });
+    P.M = Dados.criar({ dre: D.dre, bp: D.bp, dfc: D.dfc, dva: D.dva, dra: D.dra, acoes: D.acoes, b3: D.b3 });
     P.nucleo();
     if (D.seg) P.registra('seg', 'EBITDA por segmento', paginaSeg(), false);
     if (D.div) P.registra('div', 'Dividendos e JCP', paginaDiv(), false);

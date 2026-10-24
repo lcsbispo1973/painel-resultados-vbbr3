@@ -39,6 +39,18 @@
       var t = dados[ds]; idx[ds] = {}; per[ds] = t ? t.periodos.slice() : [];
       if (t) t.linhas.forEach(function (l) { idx[ds][l.cd_conta] = l; });
     });
+    // cotações da B3: fechamento diário, sem ajuste por proventos (preço como negociado)
+    var cot = (dados.b3 && dados.b3.dias || []).map(function (x) { return { d: x[0], p: x[2], t: x[1] }; });
+    var FIM = { 1: '-03-31', 2: '-06-30', 3: '-09-30', 4: '-12-31' };
+    m.fimPeriodo = function (p) { return (2000 + parseInt(p.slice(2), 10)) + FIM[tri(p)]; };
+    m.cotacaoAte = function (data) {      // último fechamento até a data (no máximo 10 dias antes)
+      var lo = 0, hi = cot.length - 1, r = -1;
+      while (lo <= hi) { var mid = (lo + hi) >> 1; if (cot[mid].d <= data) { r = mid; lo = mid + 1; } else hi = mid - 1; }
+      if (r < 0) return null;
+      var dif = (Date.parse(data) - Date.parse(cot[r].d)) / 864e5;
+      return dif <= 10 ? cot[r] : null;
+    };
+    m.ultimaCotacao = function () { return cot.length ? cot[cot.length - 1] : null; };
     m.linhas = function (ds) { return dados[ds] ? dados[ds].linhas : []; };
     m.linha = function (ds, cd) { return idx[ds][cd] || null; };
     m.todosPeriodos = function () {
@@ -83,7 +95,7 @@
     };
 
     // ---------- indicadores ----------
-    m.contexto = function (p, base) {
+    m.contexto = function (p, base, precoFixo) {
       var c = {
         p: p, base: base,
         t: function (ds, cd) { return m.agg(ds, cd, p, base); },        // fluxo na base escolhida
@@ -91,6 +103,9 @@
         b: function (cd, k) { return q('bp', cd, desloca(p, k || 0)); }, // saldo no fim do período (ou k trimestres antes)
         acoes: function (k) { var a = dados.acoes && dados.acoes.valores[desloca(p, k || 0)]; return a && ok(a.total) ? a.total - nz(a.tesouro) : null; }
       };
+      c.preco = function () { if (ok(precoFixo)) return precoFixo; var q0 = m.cotacaoAte(m.fimPeriodo(p)); return q0 ? q0.p : null; };
+      c.mcap = function () { var a = c.acoes(0), pr = c.preco(); return ok(a) && ok(pr) ? pr * a / 1e6 : null; };   // R$ mi
+      c.ev = function () { var mc = c.mcap(), dl = c.dliq(0); return ok(mc) && ok(dl) ? mc + dl + nz(c.b('2.03.09', 0)) : null; };
       c.bm = function (cd) { return media(c.b(cd, 0), c.b(cd, 4)); };    // saldo médio: início e fim dos 12 meses
       c.ebitda = function (f) { f = f || c.t; var ebit = sub(f('dre', '3.05'), nz(f('dre', '3.04.06'))); return ok(ebit) && ok(f('dva', '7.04.01')) ? ebit - f('dva', '7.04.01') : null; };
       c.ebit = function (f) { f = f || c.t; return sub(f('dre', '3.05'), nz(f('dre', '3.04.06'))); };
@@ -104,7 +119,7 @@
 
     var I = [];
     var add = function (grupo, id, nome, un, formula, f, nota) { I.push({ grupo: grupo, id: id, nome: nome, un: un, formula: formula, f: f, nota: nota || '' }); };
-    var G = { mar: 'Margens e resultado', ren: 'Rentabilidade', liq: 'Liquidez', end: 'Endividamento e estrutura', efi: 'Capital de giro e ciclo', cx: 'Geração de caixa', acao: 'Por ação' };
+    var G = { mar: 'Margens e resultado', ren: 'Rentabilidade', liq: 'Liquidez', end: 'Endividamento e estrutura', efi: 'Capital de giro e ciclo', cx: 'Geração de caixa', acao: 'Por ação', mer: 'Mercado e valuation' };
     m.grupos = G;
     var NOTA_BASE = 'Usa a base de período escolhida.';
     var NOTA_UDM = 'Sempre calculado com os últimos 12 meses (UDM) até a data.';
@@ -172,13 +187,28 @@
     add(G.acao, 'lpa', 'Lucro por ação (UDM)', 'R$', 'Lucro dos controladores UDM ÷ média das ações em circulação', function (c) { return div(mul(c.u('dre', '3.11.01'), 1e6), media(c.acoes(0), c.acoes(4))); }, NOTA_UDM + ' Aproximação: não usa a média ponderada do período.');
     add(G.acao, 'vpa', 'Valor patrimonial por ação', 'R$', 'PL dos controladores ÷ ações em circulação', function (c) { return div(mul(c.plc(0), 1e6), c.acoes(0)); }, NOTA_SALDO);
 
+    // valuation: preço de fechamento da B3 no fim do período × ações em circulação (CVM) na mesma data
+    add(G.mer, 'preco', 'Cotação no fim do período (VBBR3)', 'R$', 'Último fechamento da B3 até a data-base do período', function (c) { return c.preco(); }, 'Preço como negociado, sem ajuste por proventos. Até jan/2021 o código era BRDT3.');
+    add(G.mer, 'mcap', 'Valor de mercado', 'R$ mi', 'Cotação × ações em circulação (ex-tesouraria)', function (c) { return c.mcap(); }, 'Disponível a partir de 1T20 (composição do capital na CVM).');
+    add(G.mer, 'ev', 'Valor da firma (EV)', 'R$ mi', 'Valor de mercado + dívida líquida + participação de não controladores (2.03.09)', function (c) { return c.ev(); }, 'Dívida líquida conforme definida neste painel (inclui arrendamentos).');
+    add(G.mer, 'pl', 'P/L (UDM)', 'x', 'Valor de mercado ÷ lucro dos controladores UDM', function (c) { var l = c.u('dre', '3.11.01'); return ok(l) && l > 0 ? div(c.mcap(), l) : null; }, NOTA_UDM + ' Só calculado com lucro positivo.');
+    add(G.mer, 'pvp', 'P/VP', 'x', 'Valor de mercado ÷ PL dos controladores', function (c) { var pl = c.plc(0); return ok(pl) && pl > 0 ? div(c.mcap(), pl) : null; }, NOTA_SALDO);
+    add(G.mer, 'evebitda', 'EV/EBITDA contábil (UDM)', 'x', 'Valor da firma ÷ EBITDA contábil UDM', function (c) { var e = c.ebitda(c.u); return ok(e) && e > 0 ? div(c.ev(), e) : null; }, NOTA_UDM + ' EBITDA contábil (CVM), não o EBITDA Ajustado do release.');
+    add(G.mer, 'fcfy', 'Rendimento de fluxo de caixa livre (UDM)', '%', 'Fluxo de caixa livre UDM ÷ valor de mercado', function (c) { return div(soma(c.u('dfc', '6.01'), c.u('dfc', '6.02.01')), c.mcap()); }, NOTA_UDM + ' FCL = FCO + investimentos em imobilizado e intangível.');
+    add(G.mer, 'dy', 'Proventos pagos ÷ valor de mercado (UDM)', '%', '− Dividendos e JCP pagos (DFC 6.03.05) UDM ÷ valor de mercado', function (c) { return div(mul(-1, c.u('dfc', '6.03.05')), c.mcap()); }, NOTA_UDM + ' Caixa efetivamente pago em 12 meses, não o dividend yield do declarado; difere da página de dividendos.');
+
     var IND = {}; I.forEach(function (i) { IND[i.id] = i; });
     m.indicadores = I;
-    m.ind = function (id, p, base) {
+    m.ind = function (id, p, base, precoFixo) {
       var i = IND[id]; if (!i) return null;
-      var v = i.f(m.contexto(p, base || 'T'));
+      var v = i.f(m.contexto(p, base || 'T', precoFixo));
       if (!ok(v)) return null;
       return i.un === '%' ? v * 100 : v;       // % em pontos percentuais
+    };
+    m.indAtual = function (id) {      // indicador com a cotação mais recente e as demonstrações do último trimestre
+      var q0 = m.ultimaCotacao(), lista = per.dre, i = IND[id]; if (!q0 || !i) return null;
+      var v = i.f(m.contexto(lista[lista.length - 1], 'T', q0.p));
+      return ok(v) ? (i.un === '%' ? v * 100 : v) : null;
     };
     m.periodosInd = function (base) {   // períodos em que faz sentido calcular indicadores
       return m.periodos('dre', base).filter(function (p) { return true; });

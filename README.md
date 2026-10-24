@@ -27,14 +27,15 @@ Todas as informações são públicas. Valores em R$ milhões, consolidado.
   gera `data/fre/{ano}.json` e `data/fre_series.json` (remuneração, dividendos, capital, acionistas, empregados). Dados
   pessoais (CPF, nascimento, currículos) não são publicados. O texto do formulário (ex.: item 10) não faz parte dos dados abertos.
 - DVA, DRA, DMPL e composição do capital (ações) também são lidos da CVM, de 1T16 em diante.
-- `docs/`: painel interativo com 12 abas: visão executiva, resultado, balanço, fluxo de caixa, DVA/DRA/DMPL, 47 indicadores (com decomposição DuPont do ROE)
+- `docs/`: painel interativo com 12 abas: visão executiva, resultado, balanço, fluxo de caixa, DVA/DRA/DMPL, 55 indicadores (com decomposição DuPont do ROE)
   (margens, retorno, endividamento, liquidez, ciclo de caixa, por ação), comparação de quaisquer dois períodos, análise
   automática, EBITDA por segmento, dividendos e JCP, Formulário de Referência e conferências. Bases: trimestre, acumulado
   no ano, últimos 12 meses e ano. Publicado no GitHub Pages pelo mesmo workflow.
 - **Análise automática**: texto gerado por regras a partir das demonstrações. Não é o Comentário do Desempenho (MD&A) oficial
   e não explica causas.
 - `data/release_segmentos.json` e `data/dividendos.json`: EBITDA Ajustado por segmento (releases) e proventos (site de RI), por ora carregados manualmente.
-- Testes: `tests/test_cvm_fixture.py`, `tests/test_fre_fixture.py` e `tests/test_dados.js` rodam a cada execução.
+- `pipeline/b3.py`: baixa as Séries Históricas da B3 (COTAHIST) e grava o fechamento diário de BRDT3/VBBR3 (desde o IPO, dez/2017) em `data/b3_cotacoes.json`. Alimenta os indicadores de mercado (valor de mercado, EV, P/L, P/VP, EV/EBITDA, rendimentos). Preço sem ajuste por proventos, multiplicado pelas ações em circulação da mesma data (CVM, a partir de 1T20).
+- Testes: `tests/test_cvm_fixture.py`, `tests/test_fre_fixture.py` e `tests/test_b3_fixture.py` e `tests/test_dados.js` rodam a cada execução.
 
 ## Em construção
 

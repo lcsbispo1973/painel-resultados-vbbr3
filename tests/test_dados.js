@@ -4,7 +4,8 @@ const raiz = path.join(__dirname, '..');
 const ld = n => JSON.parse(fs.readFileSync(path.join(raiz, 'data', n + '.json'), 'utf8'));
 const D = require(path.join(raiz, 'docs', 'js', 'dados.js'));
 const dre = ld('cvm_dre'), bp = ld('cvm_balanco'), dfc = ld('cvm_fluxo_caixa'), dva = ld('cvm_dva'), dra = ld('cvm_dra'), acoes = ld('cvm_acoes');
-const m = D.criar({ dre, bp, dfc, dva, dra, acoes });
+const b3 = ld('b3_cotacoes');
+const m = D.criar({ dre, bp, dfc, dva, dra, acoes, b3 });
 const g = (t, cd, p) => { const l = t.linhas.find(x => x.cd_conta === cd); return l ? l[p] : undefined; };
 const lab = (a, q) => q + 'T' + String(a).padStart(2, '0');
 const perto = (a, b, nome, tol = 1e-6) => { assert(a !== null && Math.abs(a - b) <= tol * Math.max(1, Math.abs(b)), `${nome}: painel=${a} esperado=${b}`); };
@@ -45,6 +46,27 @@ chk('mliqudm', '2T26', 'T', 100 * udm(dre, '3.11') / udm(dre, '3.01'));
 for (const p of ['2T26', '4T25', '2T25']) {
   perto(m.ind('mliqudm', p, 'T') * m.ind('giro', p, 'T') * m.ind('alav', p, 'T'), m.ind('roecons', p, 'T'), 'DuPont ' + p); n++;
 }
+// valuation: cotação da B3 no fim do período (busca linear independente) × ações em circulação da CVM
+const fechAte = data => { let r = null; for (const x of b3.dias) if (x[0] <= data) r = x; return r; };
+assert.strictEqual(fechAte('2026-06-30')[2], 29.89); n++;            // fechamento conferido no arquivo da B3
+assert.strictEqual(m.cotacaoAte('2026-06-30').p, 29.89); n++;
+const mc = fechAte('2026-06-30')[2] * sh('2T26') / 1e6;
+chk('preco', '2T26', 'T', 29.89);
+chk('mcap', '2T26', 'T', mc);
+const evv = mc + dliq('2T26') + g(bp, '2.03.09', '2T26');
+chk('ev', '2T26', 'T', evv);
+chk('pl', '2T26', 'T', mc / udm(dre, '3.11.01'));
+chk('pvp', '2T26', 'T', mc / plc('2T26'));
+chk('evebitda', '2T26', 'T', evv / ps.reduce((s, p) => s + ebitda(p), 0));
+chk('fcfy', '2T26', 'T', 100 * (udm(dfc, '6.01') + udm(dfc, '6.02.01')) / mc);
+chk('dy', '2T26', 'T', 100 * -udm(dfc, '6.03.05') / mc);
+// cotação atual: último fechamento da B3 com as demonstrações do último trimestre
+const ult = b3.dias[b3.dias.length - 1];
+perto(m.indAtual('mcap'), ult[2] * sh('2T26') / 1e6, 'mcap atual'); n++;
+perto(m.indAtual('pl'), ult[2] * sh('2T26') / 1e6 / udm(dre, '3.11.01'), 'P/L atual'); n++;
+// sem cotação antes do IPO e sem ações antes de 1T20
+assert.strictEqual(m.ind('preco', '1T17', 'T'), null); n++;
+assert.strictEqual(m.ind('mcap', '4T19', 'T'), null); n++;
 // fluxo de caixa: saldo inicial do acumulado = saldo inicial do 1T; final = saldo do último trimestre
 perto(m.agg('dfc', '6.05.01', '3T25', 'YTD'), g(dfc, '6.05.01', '1T25'), 'saldo inicial YTD'); n++;
 perto(m.agg('dfc', '6.05.02', '3T25', 'YTD'), g(dfc, '6.05.02', '3T25'), 'saldo final YTD'); n++;
