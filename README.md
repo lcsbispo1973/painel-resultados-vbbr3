@@ -23,8 +23,18 @@ Todas as informações são públicas. Valores em R$ milhões, consolidado.
   fontes (variação de 1.460); o motivo da classificação diferente não foi confirmado nas notas explicativas.
 - Os períodos de 1T25 a 4T25 do fluxo operacional coincidem com o release.
 
-- `docs/index.html`: painel interativo (visão executiva, resultado, balanço, fluxo de caixa, EBITDA por segmento, dividendos e JCP, conferências). Publicado no GitHub Pages pelo mesmo workflow, a cada atualização.
+- `pipeline/fre.py`: baixa o Formulário de Referência (FRE) 2017–atual dos Dados Abertos, mantém a última versão de cada ano e
+  gera `data/fre/{ano}.json` e `data/fre_series.json` (remuneração, dividendos, capital, acionistas, empregados). Dados
+  pessoais (CPF, nascimento, currículos) não são publicados. O texto do formulário (ex.: item 10) não faz parte dos dados abertos.
+- DVA, DRA, DMPL e composição do capital (ações) também são lidos da CVM, de 1T16 em diante.
+- `docs/`: painel interativo com 12 abas: visão executiva, resultado, balanço, fluxo de caixa, DVA/DRA/DMPL, 45 indicadores
+  (margens, retorno, endividamento, liquidez, ciclo de caixa, por ação), comparação de quaisquer dois períodos, análise
+  automática, EBITDA por segmento, dividendos e JCP, Formulário de Referência e conferências. Bases: trimestre, acumulado
+  no ano, últimos 12 meses e ano. Publicado no GitHub Pages pelo mesmo workflow.
+- **Análise automática**: texto gerado por regras a partir das demonstrações. Não é o Comentário do Desempenho (MD&A) oficial
+  e não explica causas.
 - `data/release_segmentos.json` e `data/dividendos.json`: EBITDA Ajustado por segmento (releases) e proventos (site de RI), por ora carregados manualmente.
+- Testes: `tests/test_cvm_fixture.py`, `tests/test_fre_fixture.py` e `tests/test_dados.js` rodam a cada execução.
 
 ## Em construção
 

@@ -4,45 +4,48 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Painel de resultados VBBR3</title>
-<meta name="description" content="Demonstrações financeiras públicas da Vibra Energia (CVM e RI), atualizadas automaticamente.">
+<meta name="description" content="Base analítica com as demonstrações financeiras públicas da Vibra Energia (CVM), indicadores, análise automática e comparação de períodos, atualizada automaticamente.">
 <style>
   :root {
     --bg: #ffffff; --panel: #f5f7f8; --fg: #1b1f23; --muted: #5b6670; --border: #d9dee3;
     --c1: #2a6f97; --c2: #d98324; --c3: #2a9d8f; --c4: #7b5ea7; --c5: #8a949e;
-    --ok: #1a7f37; --bad: #c0392b; --grid: #e6eaee; --shadow: 0 6px 18px rgba(0,0,0,.14);
+    --ok: #1a7f37; --bad: #c0392b; --grid: #e6eaee; --shadow: 0 6px 18px rgba(0,0,0,.14); --hl: #fff6e0;
   }
   @media (prefers-color-scheme: dark) {
     :root {
       --bg: #12161a; --panel: #1b2127; --fg: #e8ecef; --muted: #98a4ae; --border: #2c353d;
       --c1: #5aa9d6; --c2: #f0a04b; --c3: #4fc3b3; --c4: #a98bd6; --c5: #8a949e;
-      --ok: #4cc26a; --bad: #ff7b6b; --grid: #232b32; --shadow: 0 6px 18px rgba(0,0,0,.5);
+      --ok: #4cc26a; --bad: #ff7b6b; --grid: #232b32; --shadow: 0 6px 18px rgba(0,0,0,.5); --hl: #2b2616;
     }
   }
   * { box-sizing: border-box; }
   html { -webkit-text-size-adjust: 100%; }
   body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-  .wrap { max-width: 1240px; margin: 0 auto; padding: 0 16px 48px; }
+  .wrap { max-width: 1280px; margin: 0 auto; padding: 0 16px 48px; }
   header { padding: 24px 0 8px; }
   h1 { font: 400 28px/1.2 Georgia, "Times New Roman", serif; margin: 0 0 6px; }
   h2 { font-size: 16px; font-weight: 600; margin: 0 0 2px; }
+  h3 { font-size: 14px; font-weight: 600; margin: 14px 0 4px; }
   .sub { color: var(--muted); font-size: 14px; }
   .take { margin: 14px 0 4px; font-size: 15px; }
   .up { color: var(--ok); } .down { color: var(--bad); }
-  nav.tabs { position: sticky; top: 0; z-index: 20; background: var(--bg); display: flex; gap: 4px; overflow-x: auto; border-bottom: 1px solid var(--border); margin: 12px 0 18px; }
-  nav.tabs button { all: unset; cursor: pointer; white-space: nowrap; padding: 10px 14px; color: var(--muted); border-bottom: 2px solid transparent; margin-bottom: -1px; }
+  nav.tabs { position: sticky; top: 0; z-index: 20; background: var(--bg); display: flex; gap: 2px; overflow-x: auto; border-bottom: 1px solid var(--border); margin: 12px 0 14px; scrollbar-width: thin; }
+  nav.tabs button { all: unset; cursor: pointer; white-space: nowrap; padding: 10px 12px; color: var(--muted); border-bottom: 2px solid transparent; margin-bottom: -1px; }
   nav.tabs button:hover { color: var(--fg); }
   nav.tabs button[aria-selected="true"] { color: var(--fg); border-bottom-color: var(--fg); font-weight: 600; }
   nav.tabs button:focus-visible, .btn:focus-visible, select:focus-visible, input:focus-visible { outline: 2px solid var(--c1); outline-offset: 2px; }
-  .controls { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; margin-bottom: 14px; }
+  .controls { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; margin-bottom: 12px; }
   .controls label { color: var(--muted); font-size: 13px; display: flex; align-items: center; gap: 6px; max-width: 100%; min-width: 0; }
   .controls label select { min-width: 0; text-overflow: ellipsis; }
-  @media (max-width: 600px) { th:first-child, td:first-child { min-width: 150px; max-width: 190px; } .controls label { flex-wrap: wrap; } .controls label select { width: 100%; } h1 { font-size: 24px; } }
-  select, input[type="search"], .btn { max-width: 100%; font: inherit; font-size: 13px; color: var(--fg); background: var(--bg); border: 1px solid var(--border); border-radius: 6px; padding: 6px 10px; }
+  select, input[type="search"], .btn { font: inherit; font-size: 13px; color: var(--fg); background: var(--bg); border: 1px solid var(--border); border-radius: 6px; padding: 6px 10px; max-width: 100%; }
   .btn { cursor: pointer; }
   .btn:hover { background: var(--panel); }
+  .btn.sel { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; }
   .grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); margin-bottom: 14px; }
   .kpis { grid-template-columns: repeat(auto-fit, minmax(min(100%, 190px), 1fr)); }
   .card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 16px; min-width: 0; }
+  .card.wide { grid-column: 1 / -1; }
   .note { color: var(--muted); font-size: 12.5px; line-height: 1.4; margin: 2px 0 10px; }
   .kl { color: var(--muted); font-size: 12.5px; }
   .kv { font: 400 28px/1.15 Georgia, "Times New Roman", serif; font-variant-numeric: tabular-nums; margin: 4px 0; }
@@ -56,7 +59,7 @@
   .tip { position: absolute; z-index: 5; pointer-events: none; background: var(--bg); border: 1px solid var(--border); border-radius: 8px; box-shadow: var(--shadow); padding: 6px 10px; font-size: 12px; white-space: nowrap; }
   .tip div { display: flex; gap: 14px; justify-content: space-between; }
   .tip span { color: var(--muted); } .tip b { font-variant-numeric: tabular-nums; }
-  .twrap { overflow: auto; max-height: 36rem; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); }
+  .twrap { overflow: auto; max-height: 38rem; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); }
   table { border-collapse: collapse; width: 100%; font-size: 12.5px; font-variant-numeric: tabular-nums; }
   th, td { padding: 6px 10px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--border); }
   th:first-child, td:first-child { text-align: left; position: sticky; left: 0; background: var(--bg); white-space: normal; min-width: 220px; max-width: 360px; z-index: 1; }
@@ -64,14 +67,19 @@
   thead th:first-child { z-index: 3; background: var(--panel); }
   tr.l1 td { font-weight: 600; } tr.l1 td:first-child { background: var(--panel); }
   tr.tot td { font-weight: 700; border-top: 1px solid var(--muted); }
-  td.txt { text-align: left; }
+  tr.grp td { background: var(--panel); color: var(--muted); font-weight: 600; text-align: left; }
+  tr.clk { cursor: pointer; } tr.clk:hover td, tr.act td { background: var(--hl); }
+  td.txt { text-align: left; white-space: normal; }
   td.ok { color: var(--ok); } td.bad { color: var(--bad); font-weight: 600; }
-  .sec { margin: 22px 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .sec { margin: 20px 0 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
   .fail { padding: 28px 0; text-align: center; color: var(--muted); font-size: 13px; }
   .foot { margin-top: 32px; padding-top: 14px; border-top: 1px solid var(--border); color: var(--muted); font-size: 12px; line-height: 1.5; }
   .foot p { margin: 0 0 6px; }
-  .skel { background: linear-gradient(90deg, var(--grid), var(--panel), var(--grid)); border-radius: 6px; min-height: 20px; }
+  .mda p { margin: 6px 0; } .mda ul { margin: 4px 0 10px 18px; padding: 0; } .mda li { margin: 3px 0; }
+  .aviso { border-left: 3px solid var(--c2); background: var(--hl); padding: 8px 12px; font-size: 12.5px; border-radius: 4px; margin: 10px 0; }
+  a { color: var(--c1); }
   [hidden] { display: none !important; }
+  @media (max-width: 600px) { th:first-child, td:first-child { min-width: 150px; max-width: 190px; } .controls label { flex-wrap: wrap; } .controls label select { width: 100%; } h1 { font-size: 24px; } }
   @media (prefers-reduced-motion: no-preference) { .page:not([hidden]) { animation: in .2s ease-out; } @keyframes in { from { opacity: 0 } to { opacity: 1 } } }
 </style>
 </head>
@@ -82,380 +90,19 @@
     <div class="sub" id="sub">Carregando dados…</div>
     <p class="take" id="take"></p>
   </header>
-
-  <nav class="tabs" role="tablist" aria-label="Seções do painel">
-    <button role="tab" data-tab="exec" aria-selected="true">Visão executiva</button>
-    <button role="tab" data-tab="dre" aria-selected="false">Resultado</button>
-    <button role="tab" data-tab="bp" aria-selected="false">Balanço</button>
-    <button role="tab" data-tab="dfc" aria-selected="false">Fluxo de caixa</button>
-    <button role="tab" data-tab="seg" aria-selected="false">EBITDA por segmento</button>
-    <button role="tab" data-tab="div" aria-selected="false">Dividendos e JCP</button>
-    <button role="tab" data-tab="conf" aria-selected="false">Conferências</button>
-  </nav>
-
-  <div class="controls" id="ctl-periodo">
-    <label>Período
-      <select id="sel-n" aria-label="Quantidade de trimestres">
-        <option value="8">Últimos 8 trimestres</option>
-        <option value="12" selected>Últimos 12 trimestres</option>
-        <option value="20">Últimos 20 trimestres</option>
-        <option value="0">Série completa</option>
-      </select>
-    </label>
-  </div>
-
-  <section id="p-exec" class="page">
-    <div class="grid kpis" id="kpis"></div>
-    <div class="grid">
-      <div class="card"><h2>Receita</h2><p class="note">CVM, conta 3.01, R$ milhões. Inclui a marcação a mercado do trading de energia.</p><div class="chart" id="c-receita"></div></div>
-      <div class="card"><h2>Lucro líquido</h2><p class="note">CVM, conta 3.11 (consolidado, inclui não controladores), R$ milhões.</p><div class="chart" id="c-lucro"></div></div>
-      <div class="card"><h2>EBITDA Ajustado</h2><p class="note">Releases de resultados, R$ milhões. Medida não contábil, na definição da Companhia.</p><div class="chart" id="c-ebitda"></div></div>
-      <div class="card"><h2>Fluxo de caixa operacional</h2><p class="note">DFC da CVM (conta 6.01), R$ milhões. Pode diferir da visão gerencial do release.</p><div class="chart" id="c-fco"></div></div>
-      <div class="card"><h2>Margens</h2><p class="note">Resultado bruto e resultado antes do financeiro e dos tributos (inclui equivalência patrimonial), em % da receita.</p><div class="chart" id="c-margens"></div></div>
-      <div class="card"><h2>Caixa e dívida bruta</h2><p class="note">Fim do trimestre, R$ milhões. Dívida bruta = empréstimos, financiamentos e arrendamentos (contas 2.01.04 e 2.02.01).</p><div class="chart" id="c-divida"></div></div>
-    </div>
-  </section>
-
-  <section id="p-dre" class="page" hidden>
-    <div class="grid"><div class="card" style="grid-column: 1 / -1"><div class="controls"><label>Conta <select id="sel-dre"></select></label></div><h2 id="t-dre"></h2><p class="note">R$ milhões, consolidado. Quarto trimestre = anual menos acumulado de nove meses.</p><div class="chart tall" id="c-dre"></div></div></div>
-    <div class="sec"><h2>Demonstração do resultado consolidada</h2><div class="controls"><label>Nível <select id="niv-dre"><option value="r">Resumo</option><option value="d">Detalhado</option></select></label><button class="btn" id="csv-dre">Baixar CSV</button></div></div>
-    <div class="twrap"><table id="tb-dre"></table></div>
-  </section>
-
-  <section id="p-bp" class="page" hidden>
-    <div class="grid"><div class="card" style="grid-column: 1 / -1"><div class="controls"><label>Conta <select id="sel-bp"></select></label></div><h2 id="t-bp"></h2><p class="note">R$ milhões, saldos no fim de cada trimestre, consolidado.</p><div class="chart tall" id="c-bp"></div></div></div>
-    <div class="sec"><h2>Balanço patrimonial consolidado</h2><div class="controls"><label>Nível <select id="niv-bp"><option value="r">Resumo</option><option value="d">Detalhado</option></select></label><button class="btn" id="csv-bp">Baixar CSV</button></div></div>
-    <div class="twrap"><table id="tb-bp"></table></div>
-  </section>
-
-  <section id="p-dfc" class="page" hidden>
-    <div class="grid"><div class="card" style="grid-column: 1 / -1"><div class="controls"><label>Conta <select id="sel-dfc"></select></label></div><h2 id="t-dfc"></h2><p class="note">R$ milhões, método indireto, consolidado. Trimestres obtidos pela diferença dos acumulados do ano.</p><div class="chart tall" id="c-dfc"></div></div></div>
-    <div class="sec"><h2>Demonstração dos fluxos de caixa consolidada</h2><div class="controls"><label>Nível <select id="niv-dfc"><option value="r">Resumo</option><option value="d">Detalhado</option></select></label><button class="btn" id="csv-dfc">Baixar CSV</button></div></div>
-    <div class="twrap"><table id="tb-dfc"></table></div>
-  </section>
-
-  <section id="p-seg" class="page" hidden>
-    <div class="grid"><div class="card" style="grid-column: 1 / -1"><h2>EBITDA Ajustado por segmento</h2><p class="note">R$ milhões. Barras: Retail, B2B e Renováveis (Comerc, a partir de 2025). Marcador: consolidado, que inclui o Corporativo. Fonte: releases de resultados; carga manual até a leitura automática ficar pronta.</p><div class="chart tall" id="c-seg"></div></div></div>
-    <div class="sec"><h2>EBITDA Ajustado por segmento, R$ milhões</h2><button class="btn" id="csv-seg">Baixar CSV</button></div>
-    <div class="twrap"><table id="tb-seg"></table></div>
-    <p class="note" style="margin-top:10px">Renováveis não é apresentado separadamente antes de 2025. O Corporativo do 3T24 contém efeito extraordinário (recuperações tributárias), conforme o release do 4T25.</p>
-  </section>
-
-  <section id="p-div" class="page" hidden>
-    <div class="grid"><div class="card" style="grid-column: 1 / -1"><h2>Proventos por exercício de referência</h2><p class="note">JCP e dividendos declarados, R$ milhões, por exercício a que se referem. O exercício mais recente está em andamento. Fonte: página Dividendos e JCP do site de RI.</p><div class="chart tall" id="c-div"></div></div></div>
-    <div class="sec"><h2>Histórico de proventos</h2><div class="controls"><input type="search" id="q-div" placeholder="Filtrar (ex.: JSCP, 2025)" aria-label="Filtrar proventos"><button class="btn" id="csv-div">Baixar CSV</button></div></div>
-    <div class="twrap"><table id="tb-div"></table></div>
-    <p class="note" style="margin-top:10px">Datas e valores como publicados no site de RI. Valores totais em R$ milhões; valor por ação em R$.</p>
-  </section>
-
-  <section id="p-conf" class="page" hidden>
-    <div class="card" style="margin-bottom:14px"><h2>Conferências automáticas</h2><p class="note" id="conf-sum"></p>
-      <div class="controls"><label>Status <select id="sel-conf"><option value="">Todos</option><option value="divergente">Divergentes</option><option value="ok">Ok</option><option value="sem dados">Sem dados</option></select></label><label>Origem <select id="sel-conf-demo"><option value="">Todas</option></select></label></div></div>
-    <div class="twrap"><table id="tb-conf"></table></div>
-  </section>
-
-  <div class="foot" id="foot">
-    <p><b>Fontes.</b> Demonstrações financeiras consolidadas (DFP e ITR): Dados Abertos da CVM. EBITDA Ajustado e segmentos: releases de resultados. Dividendos e JCP: site de Relações com Investidores da Vibra.</p>
-    <p><b>Aviso.</b> Painel independente construído com informações públicas. Não é uma publicação oficial da Vibra Energia S.A. nem recomendação de investimento. Confira os valores nos documentos originais antes de usá-los em qualquer decisão ou divulgação.</p>
+  <nav class="tabs" role="tablist" aria-label="Seções do painel" id="tabs"></nav>
+  <div class="controls" id="ctl-tempo"></div>
+  <main id="pages"></main>
+  <div class="foot">
+    <p><b>Fontes.</b> Demonstrações financeiras consolidadas (DFP e ITR), composição do capital e Formulário de Referência: Dados Abertos da CVM. EBITDA Ajustado e segmentos: releases de resultados. Dividendos e JCP: site de Relações com Investidores da Vibra.</p>
+    <p><b>Aviso.</b> Painel independente construído com informações públicas. Não é uma publicação oficial da Vibra Energia S.A. nem recomendação de investimento. Indicadores e análises automáticas são calculados a partir das demonstrações e podem diferir das medidas gerenciais da Companhia. Confira os valores nos documentos originais antes de usá-los em qualquer decisão ou divulgação.</p>
   </div>
 </div>
-
 <script src="vendor/d3.min.js"></script>
-<script>
-(function () {
-  'use strict';
-  var loc = d3.formatLocale({ decimal: ',', thousands: '.', grouping: [3], currency: ['R$ ', ''] });
-  var fInt = loc.format(',.0f'), f1 = loc.format(',.1f'), f2 = loc.format(',.2f');
-  var fN = function (v) { return v == null || isNaN(v) ? '—' : (v < 0 ? '(' + fInt(-v) + ')' : fInt(v)); };
-  var fBi = function (v) { return v == null || isNaN(v) ? '—' : (v < 0 ? '−' : '') + 'R$ ' + f1(Math.abs(v) / 1000) + ' bi'; };
-  var fPct = function (v) { return v == null || !isFinite(v) ? '—' : (v > 0 ? '+' : v < 0 ? '−' : '') + f1(Math.abs(v) * 100) + '%'; };
-  var fPct0 = function (v) { return v == null || !isFinite(v) ? '—' : f1(v * 100) + '%'; };
-  var fData = function (s) { if (!s) return '—'; var p = String(s).slice(0, 10).split('-'); return p.length === 3 ? p[2] + '/' + p[1] + '/' + p[0] : s; };
-  var $ = function (id) { return document.getElementById(id); };
-  var C = function (i) { return getComputedStyle(document.documentElement).getPropertyValue('--c' + i).trim(); };
-  var ord = function (p) { return (+p.slice(2)) * 4 + (+p[0]); };
-
-  var D = {}, S = { aba: 'exec', n: 12, niv: { dre: 'r', bp: 'r', dfc: 'r' }, sel: {} };
-  var ARQ = { dre: 'cvm_dre.json', bp: 'cvm_balanco.json', dfc: 'cvm_fluxo_caixa.json', conf: 'cvm_conferencias.json',
-              status: 'cvm_status.json', seg: 'release_segmentos.json', div: 'dividendos.json' };
-  var RESUMO = {
-    dre: function (l) { return l.nivel === 2 && l.cd_conta !== '3.99'; },
-    bp: function (l) { return l.nivel <= 3; },
-    dfc: function (l) { return ['6.01', '6.02', '6.03', '6.04', '6.05', '6.05.01', '6.05.02'].indexOf(l.cd_conta) >= 0; }
-  };
-  var TOT = { dre: ['3.03', '3.05', '3.07', '3.09', '3.11'], bp: ['1', '2'], dfc: ['6.05', '6.05.02'], seg: ['EBITDA'] };
-  var PADRAO = { dre: '3.11', bp: '1', dfc: '6.01' };
-
-  // ---------- dados ----------
-  function linha(ds, cd) { var t = D[ds]; if (!t) return null; for (var i = 0; i < t.linhas.length; i++) if (t.linhas[i].cd_conta === cd) return t.linhas[i]; return null; }
-  function val(ds, cd, p) { var l = linha(ds, cd); return l && l[p] != null ? l[p] : null; }
-  function janela(periodos) { return S.n > 0 ? periodos.slice(-S.n) : periodos.slice(); }
-  function ultimo(ds, cd) { var l = linha(ds, cd), ps = D[ds].periodos; for (var i = ps.length - 1; i >= 0; i--) if (l && l[ps[i]] != null) return ps[i]; return null; }
-  function anterior(p, k) { var i = ord(p) - k - 1; return ((i % 4) + 1) + 'T' + String(Math.floor(i / 4)).padStart(2, '0'); }
-  function soma(ds, cds, p) { var s = 0; for (var i = 0; i < cds.length; i++) { var v = val(ds, cds[i], p); if (v == null) return null; s += v; } return s; }
-
-  // ---------- gráficos ----------
-  function tipo(el) {
-    var t = document.createElement('div'); t.className = 'tip'; t.hidden = true; el.appendChild(t);
-    return { show: function (rows, e) {
-      t.replaceChildren();
-      rows.forEach(function (r) { var d = document.createElement('div'), s = document.createElement('span'); s.textContent = r[0]; d.appendChild(s); if (r[1] != null) { var b = document.createElement('b'); b.textContent = r[1]; d.appendChild(b); } t.appendChild(d); });
-      t.hidden = false; var q = d3.pointer(e, el);
-      t.style.left = Math.max(0, Math.min(el.clientWidth - t.offsetWidth, q[0] + 12)) + 'px';
-      t.style.top = Math.max(0, q[1] - t.offsetHeight - 8) + 'px';
-    }, hide: function () { t.hidden = true; } };
-  }
-  function legenda(el, itens) {
-    var d = document.createElement('div'); d.className = 'legend';
-    itens.forEach(function (i) { var s = document.createElement('span'), k = document.createElement('i'); k.style.background = i[1]; s.append(k, i[0]); d.appendChild(s); });
-    el.appendChild(d);
-  }
-  function largura(svg, strs) { var t = svg.append('text').attr('class', 'tick').style('visibility', 'hidden'), m = 0; strs.forEach(function (s) { t.text(s); m = Math.max(m, t.node().getComputedTextLength()); }); t.remove(); return m; }
-  function falha(el, msg) { el.replaceChildren(); var d = document.createElement('div'); d.className = 'fail'; d.textContent = msg || 'Sem dados para o período selecionado'; el.appendChild(d); }
-  function rotulosX(labels, W) { var passo = Math.max(1, Math.ceil(labels.length / Math.max(2, Math.floor(W / 46)))); return labels.filter(function (_, i) { return (labels.length - 1 - i) % passo === 0; }); }
-
-  function base(el, labels, ymin, ymax, fmt, h) {
-    var W = el.clientWidth || 300, H = h || 230, m = { t: 16, r: 8, b: 26, l: 40 };
-    var svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', '0 0 ' + W + ' ' + H).attr('role', 'img');
-    var y = d3.scaleLinear([ymin, ymax === ymin ? ymin + 1 : ymax], [H - m.b, m.t]).nice(4), tk = y.ticks(4);
-    m.l = largura(svg, tk.map(fmt)) + 10;
-    var x = d3.scaleBand(labels, [m.l, W - m.r]).padding(0.3);
-    svg.append('g').selectAll('line').data(tk).join('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y).attr('y2', y).attr('stroke', 'var(--grid)');
-    svg.append('g').selectAll('text').data(tk).join('text').attr('class', 'tick').attr('x', m.l - 6).attr('y', function (d) { return y(d) + 4; }).attr('text-anchor', 'end').text(fmt);
-    if (ymin < 0) svg.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(0)).attr('y2', y(0)).attr('stroke', 'var(--muted)');
-    svg.append('g').selectAll('text').data(rotulosX(labels, W - m.l)).join('text').attr('class', 'tick').attr('x', function (d) { return x(d) + x.bandwidth() / 2; }).attr('y', H - 8).attr('text-anchor', 'middle').text(function (d) { return d; });
-    return { svg: svg, x: x, y: y, W: W, H: H, m: m };
-  }
-
-  function barras(el, labels, vals, nome) {
-    el.replaceChildren();
-    var pts = labels.map(function (l, i) { return { l: l, v: vals[i] }; }).filter(function (d) { return d.v != null; });
-    if (!pts.length) return falha(el);
-    var nums = pts.map(function (d) { return d.v; }), g = base(el, labels, Math.min(0, d3.min(nums)), Math.max(0, d3.max(nums)), fN), tp = tipo(el);
-    g.svg.append('g').selectAll('rect').data(pts).join('rect')
-      .attr('x', function (d) { return g.x(d.l); }).attr('width', g.x.bandwidth()).attr('rx', 3)
-      .attr('y', function (d) { return Math.min(g.y(d.v), g.y(0)); }).attr('height', function (d) { return Math.max(1, Math.abs(g.y(d.v) - g.y(0))); })
-      .attr('fill', function (d) { return d.v >= 0 ? C(1) : C(2); })
-      .on('pointermove', function (e, d) { tp.show([[d.l, null], [nome, fN(d.v)]], e); }).on('pointerleave', tp.hide);
-    if (g.x.bandwidth() > 30) g.svg.append('g').selectAll('text').data(pts).join('text').attr('class', 'val').attr('text-anchor', 'middle')
-      .attr('x', function (d) { return g.x(d.l) + g.x.bandwidth() / 2; }).attr('y', function (d) { return d.v >= 0 ? g.y(d.v) - 4 : g.y(d.v) + 12; }).text(function (d) { return fN(d.v); });
-  }
-
-  function linhas(el, labels, series, fmt) {
-    el.replaceChildren();
-    var todos = []; series.forEach(function (s) { s.vals.forEach(function (v) { if (v != null) todos.push(v); }); });
-    if (!todos.length) return falha(el);
-    legenda(el, series.map(function (s, i) { return [s.nome, C(i + 1)]; }));
-    var g = base(el, labels, Math.min(0, d3.min(todos)), Math.max(0, d3.max(todos)), fmt), tp = tipo(el), cx = function (l) { return g.x(l) + g.x.bandwidth() / 2; };
-    series.forEach(function (s, i) {
-      var pts = labels.map(function (l, k) { return { l: l, v: s.vals[k] }; }).filter(function (d) { return d.v != null; });
-      g.svg.append('path').datum(pts).attr('fill', 'none').attr('stroke', C(i + 1)).attr('stroke-width', 2).attr('stroke-linejoin', 'round').attr('stroke-linecap', 'round')
-        .attr('d', d3.line().x(function (d) { return cx(d.l); }).y(function (d) { return g.y(d.v); }));
-      if (pts.length) { var u = pts[pts.length - 1]; g.svg.append('circle').attr('cx', cx(u.l)).attr('cy', g.y(u.v)).attr('r', 3.5).attr('fill', C(i + 1)); }
-    });
-    var foco = g.svg.append('line').attr('y1', g.m.t).attr('y2', g.H - g.m.b).attr('stroke', 'var(--muted)').attr('stroke-dasharray', '3 3').attr('visibility', 'hidden');
-    g.svg.append('rect').attr('x', g.m.l).attr('y', g.m.t).attr('width', g.W - g.m.l - g.m.r).attr('height', g.H - g.m.t - g.m.b).attr('fill', 'transparent')
-      .on('pointermove', function (e) {
-        var xp = d3.pointer(e, g.svg.node())[0], i = Math.max(0, Math.min(labels.length - 1, Math.round((xp - g.m.l - g.x.bandwidth() / 2) / g.x.step())));
-        foco.attr('x1', cx(labels[i])).attr('x2', cx(labels[i])).attr('visibility', 'visible');
-        tp.show([[labels[i], null]].concat(series.map(function (s) { return [s.nome, fmt(s.vals[i])]; })), e);
-      }).on('pointerleave', function () { tp.hide(); foco.attr('visibility', 'hidden'); });
-  }
-
-  function empilhado(el, labels, series, marcador, fmt) {
-    el.replaceChildren();
-    legenda(el, series.map(function (s, i) { return [s.nome, C(i + 1)]; }).concat(marcador ? [[marcador.nome, 'var(--fg)']] : []));
-    var tot = labels.map(function (l, i) { return series.reduce(function (a, s) { return a + Math.max(0, s.vals[i] || 0); }, 0); });
-    var mv = marcador ? marcador.vals.filter(function (v) { return v != null; }) : [];
-    if (!d3.max(tot) && !mv.length) return falha(el);
-    var g = base(el, labels, Math.min(0, d3.min(mv.concat([0]))), Math.max(1, d3.max(tot), d3.max(mv.concat([0]))), fmt || fN, 290), tp = tipo(el);
-    labels.forEach(function (l, i) {
-      var acc = 0;
-      series.forEach(function (s, k) {
-        var v = Math.max(0, s.vals[i] || 0); if (!v) return;
-        g.svg.append('rect').attr('x', g.x(l)).attr('width', g.x.bandwidth()).attr('y', g.y(acc + v)).attr('height', Math.max(1, g.y(acc) - g.y(acc + v))).attr('fill', C(k + 1)).attr('rx', 2)
-          .on('pointermove', function (e) { tp.show([[l, null]].concat(series.map(function (q) { return [q.nome, (fmt || fN)(q.vals[i])]; })).concat(marcador ? [[marcador.nome, (fmt || fN)(marcador.vals[i])]] : []), e); }).on('pointerleave', tp.hide);
-        acc += v;
-      });
-    });
-    if (marcador) {
-      var pts = labels.map(function (l, i) { return { l: l, v: marcador.vals[i] }; }).filter(function (d) { return d.v != null; });
-      g.svg.append('g').selectAll('circle').data(pts).join('circle').attr('cx', function (d) { return g.x(d.l) + g.x.bandwidth() / 2; }).attr('cy', function (d) { return g.y(d.v); }).attr('r', 4.5).attr('fill', 'var(--bg)').attr('stroke', 'var(--fg)').attr('stroke-width', 2)
-        .on('pointermove', function (e, d) { tp.show([[d.l, null], [marcador.nome, (fmt || fN)(d.v)]], e); }).on('pointerleave', tp.hide);
-    }
-  }
-
-  // ---------- tabelas ----------
-  function tabela(tb, ds, periodos, filtro, opts) {
-    opts = opts || {};
-    var linhasT = D[ds].linhas.filter(function (l) { return (!filtro || filtro(l)) && periodos.some(function (p) { return l[p] != null; }); });
-    tb.replaceChildren();
-    var th = document.createElement('thead'), hr = document.createElement('tr');
-    [''].concat(periodos).forEach(function (h, i) { var c = document.createElement('th'); c.scope = 'col'; c.textContent = i === 0 ? 'R$ milhões' : h; hr.appendChild(c); });
-    th.appendChild(hr); tb.appendChild(th);
-    var tbd = document.createElement('tbody');
-    linhasT.forEach(function (l) {
-      var tr = document.createElement('tr');
-      if (TOT[ds] && TOT[ds].indexOf(l.cd_conta) >= 0) tr.className = 'tot'; else if (l.nivel <= (opts.nivelNegrito || 2)) tr.className = 'l1';
-      var c0 = document.createElement('td'); c0.textContent = (l.cd_conta && ds !== 'seg' ? l.cd_conta + '  ' : '') + l.conta; c0.style.paddingLeft = (10 + Math.max(0, l.nivel - 2) * 12) + 'px'; tr.appendChild(c0);
-      periodos.forEach(function (p) { var c = document.createElement('td'); c.textContent = fN(l[p]); tr.appendChild(c); });
-      tbd.appendChild(tr);
-    });
-    tb.appendChild(tbd);
-    return { periodos: periodos, linhas: linhasT };
-  }
-  function csv(nome, cab, linhasC) {
-    var esc = function (v) { v = v == null ? '' : String(v); return /[;"\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; };
-    var txt = '﻿' + [cab].concat(linhasC).map(function (r) { return r.map(esc).join(';'); }).join('\n');
-    var a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([txt], { type: 'text/csv;charset=utf-8' })); a.download = nome; document.body.appendChild(a); a.click(); a.remove();
-    setTimeout(function () { URL.revokeObjectURL(a.href); }, 2000);
-  }
-  function exportar(ds, nome, filtro) {
-    var ps = janela(D[ds].periodos), ls = D[ds].linhas.filter(function (l) { return (!filtro || filtro(l)) && ps.some(function (p) { return l[p] != null; }); });
-    csv(nome, ['cd_conta', 'conta'].concat(ps), ls.map(function (l) { return [l.cd_conta, l.conta].concat(ps.map(function (p) { return l[p] == null ? '' : String(l[p]).replace('.', ','); })); }));
-  }
-
-  // ---------- páginas ----------
-  function kpi(def) {
-    var p = def.soma ? ultimo(def.ds, def.soma[0]) : ultimo(def.ds, def.cd);
-    var f = function (q) { return def.soma ? soma(def.ds, def.soma, q) : val(def.ds, def.cd, q); };
-    if (!p) return null;
-    var atual = f(p), tt = f(anterior(p, 1)), aa = f(anterior(p, 4));
-    var vr = function (b) { return b != null && b > 0 && atual != null ? atual / b - 1 : null; };
-    return { rot: def.rot, p: p, atual: atual, tt: vr(tt), aa: vr(aa), bom: def.bom || 'sobe', nota: def.nota };
-  }
-  function delta(v, bom) { var s = document.createElement('span'); s.textContent = fPct(v); if (v != null && v !== 0) s.className = ((v > 0) === (bom === 'sobe')) ? 'up' : 'down'; return s; }
-  var KPIS = [
-    { rot: 'Receita', ds: 'dre', cd: '3.01' }, { rot: 'Resultado bruto', ds: 'dre', cd: '3.03' },
-    { rot: 'Lucro líquido', ds: 'dre', cd: '3.11' }, { rot: 'EBITDA Ajustado (release)', ds: 'seg', cd: 'EBITDA' },
-    { rot: 'Fluxo de caixa operacional (DFC)', ds: 'dfc', cd: '6.01' }, { rot: 'Caixa e equivalentes', ds: 'bp', cd: '1.01.01' },
-    { rot: 'Dívida bruta', ds: 'bp', soma: ['2.01.04', '2.02.01'], bom: 'desce' }
-  ];
-  function desenhaExec() {
-    var box = $('kpis'); box.replaceChildren();
-    var tt = [];
-    KPIS.forEach(function (def) {
-      var k = kpi(def); if (!k) return; tt.push(k);
-      var c = document.createElement('div'); c.className = 'card';
-      var l = document.createElement('div'); l.className = 'kl'; l.textContent = k.rot + ' · ' + k.p;
-      var v = document.createElement('div'); v.className = 'kv'; v.textContent = fBi(k.atual);
-      var d = document.createElement('div'); d.className = 'kd';
-      var a = document.createElement('span'); a.textContent = 't/t '; a.appendChild(delta(k.tt, k.bom));
-      var b = document.createElement('span'); b.textContent = 'a/a '; b.appendChild(delta(k.aa, k.bom));
-      d.append(a, b); c.append(l, v, d); box.appendChild(c);
-    });
-    var e = tt.filter(function (k) { return k.rot.indexOf('EBITDA') === 0; })[0], ll = tt.filter(function (k) { return k.rot === 'Lucro líquido'; })[0];
-    var tk = $('take'); tk.replaceChildren();
-    if (ll) { tk.append('Lucro líquido do ' + ll.p + ': ' + fBi(ll.atual) + ' (', delta(ll.aa, 'sobe'), ' contra o mesmo trimestre do ano anterior)'); if (e) tk.append('. EBITDA Ajustado do ' + e.p + ' (último release carregado): ' + fBi(e.atual) + ' (', delta(e.aa, 'sobe'), ' a/a).'); else tk.append('.'); }
-    var ps = janela(D.dre.periodos), pe = janela(D.seg.periodos.filter(function (p) { return p >= ps[0] || true; })).filter(function (p) { return ord(p) >= ord(ps[0]); });
-    barras($('c-receita'), ps, ps.map(function (p) { return val('dre', '3.01', p); }), 'Receita');
-    barras($('c-lucro'), ps, ps.map(function (p) { return val('dre', '3.11', p); }), 'Lucro líquido');
-    barras($('c-ebitda'), pe, pe.map(function (p) { return val('seg', 'EBITDA', p); }), 'EBITDA Ajustado');
-    var pf = janela(D.dfc.periodos);
-    barras($('c-fco'), pf, pf.map(function (p) { return val('dfc', '6.01', p); }), 'Fluxo de caixa operacional');
-    linhas($('c-margens'), ps, [
-      { nome: 'Margem bruta', vals: ps.map(function (p) { var r = val('dre', '3.01', p), b = val('dre', '3.03', p); return r ? b / r : null; }) },
-      { nome: 'Margem do resultado antes do financeiro e tributos', vals: ps.map(function (p) { var r = val('dre', '3.01', p), b = val('dre', '3.05', p); return r ? b / r : null; }) }
-    ], fPct0);
-    var pb = janela(D.bp.periodos);
-    linhas($('c-divida'), pb, [
-      { nome: 'Caixa e equivalentes', vals: pb.map(function (p) { return val('bp', '1.01.01', p); }) },
-      { nome: 'Dívida bruta (com arrendamentos)', vals: pb.map(function (p) { return soma('bp', ['2.01.04', '2.02.01'], p); }) }
-    ], fN);
-  }
-  function seletor(ds, id, rotulo) {
-    var sel = $(id), atual = S.sel[ds] || PADRAO[ds];
-    if (!sel.options.length) {
-      D[ds].linhas.forEach(function (l) { var o = new Option(l.cd_conta + '  ' + l.conta, l.cd_conta); sel.appendChild(o); });
-      sel.value = atual; if (sel.value !== atual) sel.selectedIndex = 0;
-      sel.addEventListener('change', function () { S.sel[ds] = sel.value; render(); });
-    }
-    return linha(ds, sel.value) || D[ds].linhas[0];
-  }
-  function desenhaDemo(ds, pref) {
-    var l = seletor(ds, 'sel-' + pref), ps = janela(D[ds].periodos);
-    $('t-' + pref).textContent = l.cd_conta + '  ' + l.conta;
-    barras($('c-' + pref), ps, ps.map(function (p) { return l[p]; }), l.conta);
-    var fl = S.niv[ds] === 'r' ? RESUMO[ds] : null;
-    tabela($('tb-' + pref), ds, ps, fl, { nivelNegrito: ds === 'bp' ? 2 : 2 });
-  }
-  function desenhaSeg() {
-    var ps = janela(D.seg.periodos), v = function (c) { return ps.map(function (p) { return val('seg', c, p); }); };
-    empilhado($('c-seg'), ps, [{ nome: 'Retail', vals: v('RET') }, { nome: 'B2B', vals: v('B2B') }, { nome: 'Renováveis (Comerc)', vals: v('REN') }], { nome: 'EBITDA Ajustado consolidado', vals: v('EBITDA') });
-    tabela($('tb-seg'), 'seg', ps, null, { nivelNegrito: 1 });
-  }
-  function desenhaDiv() {
-    var linhasD = D.div.linhas, por = {};
-    linhasD.forEach(function (d) { var o = por[d.referencia] || (por[d.referencia] = { jcp: 0, div: 0 }); if (d.provento === 'JSCP') o.jcp += d.valor_total / 1e6; else o.div += d.valor_total / 1e6; });
-    var anos = Object.keys(por).sort(), r1 = function (x) { return Math.round(x * 10) / 10; };
-    empilhado($('c-div'), anos, [{ nome: 'JCP', vals: anos.map(function (a) { return r1(por[a].jcp); }) }, { nome: 'Dividendos', vals: anos.map(function (a) { return r1(por[a].div); }) }], null, fN);
-    var tb = $('tb-div'); tb.replaceChildren();
-    var th = document.createElement('thead'), hr = document.createElement('tr');
-    ['Provento', 'Exercício', 'Data ex', 'Valor (R$ mi)', 'Por ação (R$)', 'Pagamento'].forEach(function (h, i) { var c = document.createElement('th'); c.scope = 'col'; c.textContent = h; if (i < 2) c.style.textAlign = 'left'; hr.appendChild(c); });
-    th.appendChild(hr); tb.appendChild(th);
-    var tbd = document.createElement('tbody'), q = $('q-div').value.trim().toLowerCase();
-    linhasD.forEach(function (d) {
-      var cel = [d.provento, d.referencia, fData(d.data_ex), f1(d.valor_total / 1e6), f2(d.valor_acao), fData(d.data_pagamento)];
-      if (q && cel.join(' ').toLowerCase().indexOf(q) < 0) return;
-      var tr = document.createElement('tr'); cel.forEach(function (t, i) { var c = document.createElement('td'); c.textContent = t; if (i < 2) c.className = 'txt'; tr.appendChild(c); }); tbd.appendChild(tr);
-    });
-    tb.appendChild(tbd);
-  }
-  function desenhaConf() {
-    var c = D.conf, ok = c.filter(function (t) { return t.status === 'ok'; }).length, dv = c.filter(function (t) { return t.status === 'divergente'; }).length, sd = c.length - ok - dv;
-    $('conf-sum').textContent = c.length + ' testes: ' + ok + ' ok, ' + dv + ' divergentes, ' + sd + ' sem dados. Tolerância de R$ 2 milhões por arredondamento. Os testes "Release" comparam a CVM com valores já conferidos nos releases.';
-    var sd2 = $('sel-conf-demo'); if (sd2.options.length < 2) { Array.from(new Set(c.map(function (t) { return t.demo; }))).forEach(function (x) { sd2.appendChild(new Option(x, x)); }); }
-    var fs = $('sel-conf').value, fd = sd2.value;
-    var ls = c.filter(function (t) { return (!fs || t.status === fs) && (!fd || t.demo === fd); }).sort(function (a, b) { return (a.status === 'divergente' ? 0 : 1) - (b.status === 'divergente' ? 0 : 1) || ord(b.periodo) - ord(a.periodo); }).slice(0, 400);
-    var tb = $('tb-conf'); tb.replaceChildren();
-    var th = document.createElement('thead'), hr = document.createElement('tr');
-    ['Origem', 'Teste', 'Período', 'Esperado', 'Reportado', 'Diferença', 'Status'].forEach(function (h, i) { var x = document.createElement('th'); x.scope = 'col'; x.textContent = h; if (i < 3 || i === 6) x.style.textAlign = 'left'; hr.appendChild(x); });
-    th.appendChild(hr); tb.appendChild(th);
-    var tbd = document.createElement('tbody');
-    ls.forEach(function (t) {
-      var tr = document.createElement('tr');
-      [[t.demo, 'txt'], [t.teste, 'txt'], [t.periodo, 'txt'], [fN(t.esperado)], [fN(t.reportado)], [fN(t.diferenca)], [t.status, 'txt ' + (t.status === 'ok' ? 'ok' : t.status === 'divergente' ? 'bad' : '')]].forEach(function (x) { var c2 = document.createElement('td'); c2.textContent = x[0]; if (x[1]) c2.className = x[1]; tr.appendChild(c2); });
-      tbd.appendChild(tr);
-    });
-    tb.appendChild(tbd);
-  }
-
-  function render() {
-    if (!D.dre) return;
-    $('ctl-periodo').hidden = S.aba === 'div' || S.aba === 'conf';
-    ({ exec: desenhaExec, dre: function () { desenhaDemo('dre', 'dre'); }, bp: function () { desenhaDemo('bp', 'bp'); }, dfc: function () { desenhaDemo('dfc', 'dfc'); }, seg: desenhaSeg, div: desenhaDiv, conf: desenhaConf })[S.aba]();
-  }
-  function aba(id) {
-    S.aba = id;
-    Array.from(document.querySelectorAll('nav.tabs button')).forEach(function (b) { b.setAttribute('aria-selected', String(b.dataset.tab === id)); });
-    Array.from(document.querySelectorAll('.page')).forEach(function (p) { p.hidden = p.id !== 'p-' + id; });
-    try { history.replaceState(null, '', '#' + id); } catch (e) { /* ignora */ }
-    render();
-  }
-
-  // ---------- inicialização ----------
-  Array.from(document.querySelectorAll('nav.tabs button')).forEach(function (b) { b.addEventListener('click', function () { aba(b.dataset.tab); }); });
-  $('sel-n').addEventListener('change', function (e) { S.n = +e.target.value; render(); });
-  ['dre', 'bp', 'dfc'].forEach(function (ds) {
-    $('niv-' + ds).addEventListener('change', function (e) { S.niv[ds] = e.target.value; render(); });
-    $('csv-' + ds).addEventListener('click', function () { exportar(ds, 'vibra_' + ds + '.csv', S.niv[ds] === 'r' ? RESUMO[ds] : null); });
-  });
-  $('csv-seg').addEventListener('click', function () { exportar('seg', 'vibra_ebitda_segmentos.csv'); });
-  $('csv-div').addEventListener('click', function () { csv('vibra_proventos.csv', ['provento', 'exercicio', 'data_ex', 'valor_total_reais', 'valor_por_acao', 'data_pagamento'], D.div.linhas.map(function (d) { return [d.provento, d.referencia, d.data_ex, String(d.valor_total).replace('.', ','), String(d.valor_acao).replace('.', ','), d.data_pagamento]; })); });
-  $('q-div').addEventListener('input', desenhaDiv);
-  $('sel-conf').addEventListener('change', desenhaConf); $('sel-conf-demo').addEventListener('change', desenhaConf);
-  var rt; window.addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(render, 150); });
-
-  Promise.all(Object.keys(ARQ).map(function (k) {
-    return fetch('data/' + ARQ[k], { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(ARQ[k] + ' (' + r.status + ')'); return r.json(); }).then(function (j) { D[k] = j; });
-  })).then(function () {
-    D.div = { linhas: D.div.linhas, fonte: D.div.fonte };
-    var st = D.status, ult = D.dre.periodos[D.dre.periodos.length - 1];
-    var ger = st && st.gerado_em ? new Date(st.gerado_em).toLocaleString('pt-BR', { dateStyle: 'short', timeStyle: 'short' }) : '—';
-    $('sub').textContent = 'Valores consolidados em R$ milhões. Último trimestre na CVM: ' + ult + '. Dados da CVM atualizados em ' + ger + (st && st.validado ? ' · conferências ok' : ' · atenção: há conferências divergentes') + '.';
-    var h = location.hash.slice(1); aba(['exec', 'dre', 'bp', 'dfc', 'seg', 'div', 'conf'].indexOf(h) >= 0 ? h : 'exec');
-  }).catch(function (e) { $('sub').textContent = 'Não foi possível carregar os dados: ' + e.message; });
-})();
-</script>
+<script src="js/dados.js"></script>
+<script src="js/mda.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/app.js"></script>
+<script src="js/app-extra.js"></script>
 </body>
 </html>

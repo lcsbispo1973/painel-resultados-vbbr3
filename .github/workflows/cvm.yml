@@ -41,6 +41,7 @@ jobs:
         run: |
           python -I tests/test_cvm_fixture.py
           python -I tests/test_fre_fixture.py
+          node tests/test_dados.js
 
       - name: Baixar e processar dados da CVM
         run: |
