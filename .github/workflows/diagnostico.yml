@@ -1,0 +1,49 @@
+name: Diagnóstico de acesso
+
+# Teste único: confirma se o robô alcança a CVM e o site de RI e salva o resultado em logs/diagnostico.txt.
+on:
+  push:
+    paths:
+      - '.github/workflows/diagnostico.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  diagnostico:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Testar acessos
+        run: |
+          mkdir -p logs
+          {
+            echo "Execução (UTC): $(date -u +%FT%TZ)"
+            echo
+            echo "== Códigos HTTP =="
+            for u in \
+              https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/DFP/DADOS/ \
+              https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/ITR/DADOS/ \
+              https://ri.vibraenergia.com.br/divulgacao-e-resultados/central-de-resultados/ \
+              https://ri.vibraenergia.com.br/informacoes-financeiras/planilhas-interativas/ ; do
+              echo "$(curl -s -o /dev/null -m 30 -L -w '%{http_code}' "$u")  $u"
+            done
+            echo
+            echo "== Arquivos mais recentes de ITR e DFP na CVM =="
+            curl -s -m 30 https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/ITR/DADOS/ | grep -o 'itr_cia_aberta_[0-9]*\.zip' | sort -u | tail -3
+            curl -s -m 30 https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/DFP/DADOS/ | grep -o 'dfp_cia_aberta_[0-9]*\.zip' | sort -u | tail -3
+            echo
+            echo "== Links de arquivos no HTML da Central de Resultados (mziq) =="
+            curl -s -m 30 -L https://ri.vibraenergia.com.br/divulgacao-e-resultados/central-de-resultados/ | grep -o 'api.mziq.com/mzfilemanager[^"'"'"' ]*' | sort -u | head -10
+            echo "(fim)"
+          } > logs/diagnostico.txt 2>&1
+
+      - name: Salvar resultado no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add logs/diagnostico.txt
+          git commit -m "Resultado do diagnóstico de acesso" || exit 0
+          git push
