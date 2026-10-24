@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Painel de resultados VBBR3</title>
+<title>Vibra em Números</title>
 <meta name="description" content="Base analítica com as demonstrações financeiras públicas da Vibra Energia (CVM), indicadores, análise automática e comparação de períodos, atualizada automaticamente.">
 <style>
   :root {
@@ -84,6 +84,12 @@
   .foot { margin-top: 32px; padding-top: 14px; border-top: 1px solid var(--border); color: var(--muted); font-size: 12px; line-height: 1.5; }
   .foot p { margin: 0 0 6px; }
   .mda p { margin: 6px 0; } .mda ul { margin: 4px 0 10px 18px; padding: 0; } .mda li { margin: 3px 0; }
+  .selo { display: inline-block; vertical-align: middle; margin-left: 10px; font-size: 11.5px; font-weight: 600; letter-spacing: .2px; padding: 3px 8px; border-radius: 999px; background: rgba(255,255,255,.14); color: #fff; }
+  .selo:empty { display: none; } .selo.alerta { background: var(--amarelo); color: #37373A; }
+  .lista-ipe { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px 20px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 330px), 1fr)); }
+  .lista-ipe li { border-left: 3px solid var(--verde); padding-left: 10px; line-height: 1.35; }
+  .lista-ipe a { color: var(--fg); text-decoration: none; } .lista-ipe a:hover { text-decoration: underline; }
+  .btn:disabled { opacity: .6; cursor: default; }
   .aviso { border-left: 3px solid var(--c2); background: var(--hl); padding: 8px 12px; font-size: 12.5px; border-radius: 4px; margin: 10px 0; }
   a { color: var(--c1); }
   [hidden] { display: none !important; }
@@ -94,7 +100,7 @@
 <body>
 <header class="top"><div class="in">
   <img class="logo" src="img/logo-branco.png" alt="" width="38">
-  <h1>Painel de resultados da Vibra Energia (VBBR3)</h1>
+  <h1>Vibra em Números <span class="selo" id="selo"></span></h1>
   <div class="sub" id="sub">Carregando dados…</div>
   <p class="take" id="take"></p>
 </div></header>
@@ -103,7 +109,8 @@
   <div class="controls" id="ctl-tempo"></div>
   <main id="pages"></main>
   <div class="foot">
-    <p><b>Fontes.</b> Demonstrações financeiras consolidadas (DFP e ITR), composição do capital e Formulário de Referência: Dados Abertos da CVM. Cotações: Séries Históricas da B3 (fechamento sem ajuste por proventos). EBITDA Ajustado e segmentos: releases de resultados. Dividendos e JCP: site de Relações com Investidores da Vibra.</p>
+    <p><b>Fontes.</b> Demonstrações financeiras consolidadas (DFP e ITR), composição do capital e Formulário de Referência: Dados Abertos da CVM. Comunicados, avisos e fatos relevantes: base IPE da CVM. Cotações: Séries Históricas da B3 (fechamento sem ajuste por proventos). EBITDA Ajustado e segmentos: releases de resultados. Dividendos e JCP: site de Relações com Investidores da Vibra.</p>
+    <p><a href="#conf">Metodologia e conferências automáticas</a></p>
     <p><b>Aviso.</b> Painel independente construído com informações públicas. Não é uma publicação oficial da Vibra Energia S.A. nem recomendação de investimento. Indicadores e análises automáticas são calculados a partir das demonstrações e podem diferir das medidas gerenciais da Companhia. Confira os valores nos documentos originais antes de usá-los em qualquer decisão ou divulgação.</p>
   </div>
 </div>

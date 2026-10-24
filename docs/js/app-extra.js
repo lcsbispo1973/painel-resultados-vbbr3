@@ -59,6 +59,60 @@
     tb.appendChild(h('tbody', null, linhas.map(function (l) { return h('tr', null, l.map(function (t, i) { return h('td', { class: i < nEsq ? 'txt' : '', style: i === 0 ? 'position:static' : '' }, t); })); })));
   }
 
+
+  // ---------- comunicados, fatos relevantes e avisos (IPE da CVM) ----------
+  var GRUPOS_IPE = [
+    ['chave', 'Fatos relevantes, comunicados e avisos', function (d) { return /^(Fato Relevante|Comunicado ao Mercado|Aviso aos Acionistas|Aviso aos Debenturistas)$/.test(d.categoria); }],
+    ['fr', 'Fatos relevantes', function (d) { return d.categoria === 'Fato Relevante'; }],
+    ['cm', 'Comunicados ao mercado', function (d) { return d.categoria === 'Comunicado ao Mercado'; }],
+    ['av', 'Avisos aos acionistas e debenturistas', function (d) { return /^Aviso aos/.test(d.categoria); }],
+    ['res', 'Resultados: releases, apresentações e DFs', function (d) { return d.tipo === 'Press-release' || d.tipo === 'Apresentações a analistas/agentes do mercado' || /^Demonstrações Financeiras/.test(d.tipo); }],
+    ['gov', 'Assembleias e reuniões da administração', function (d) { return d.categoria === 'Assembleia' || d.categoria === 'Reunião da Administração'; }],
+    ['todos', 'Todos os documentos', function () { return true; }]
+  ];
+  P.ipeGrupo = function (id) { return GRUPOS_IPE.filter(function (g) { return g[0] === id; })[0]; };
+  function paginaIpe() {
+    var F = { grupo: 'chave', ano: '', busca: '', n: 50 }, ref = {};
+    var semAcento = function (s) { return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); };
+    function filtrados() {
+      var g = P.ipeGrupo(F.grupo), q = semAcento(F.busca).split(/\s+/).filter(Boolean);
+      return P.D.ipe.documentos.filter(function (d) {
+        if (!g[2](d)) return false;
+        if (F.ano && d.data_entrega.slice(0, 4) !== F.ano) return false;
+        if (!q.length) return true;
+        var t = semAcento(d.assunto + ' ' + d.tipo + ' ' + d.categoria + ' ' + d.especie);
+        return q.every(function (w) { return t.indexOf(w) >= 0; });
+      });
+    }
+    return {
+      init: function (el) {
+        var self = this, anos = Array.from(new Set(P.D.ipe.documentos.map(function (d) { return d.data_entrega.slice(0, 4); }))).sort().reverse();
+        ref.chips = h('div', { class: 'chips', role: 'group', 'aria-label': 'Tipo de documento' });
+        GRUPOS_IPE.forEach(function (g) { ref.chips.appendChild(h('button', { class: 'btn', type: 'button', 'data-g': g[0], onclick: function () { F.grupo = g[0]; F.n = 50; self.render(); } }, g[1])); });
+        ref.busca = h('input', { type: 'search', placeholder: 'Buscar no assunto (ex.: dividendos, aquisição, debêntures)', 'aria-label': 'Buscar', style: 'min-width:min(100%,340px)' });
+        var tm; ref.busca.addEventListener('input', function () { clearTimeout(tm); tm = setTimeout(function () { F.busca = ref.busca.value; F.n = 50; self.render(); }, 200); });
+        ref.ano = P.select('ipe-ano', [['', 'Todos os anos']].concat(anos.map(function (a) { return [a, a]; })), '', function (v) { F.ano = v; F.n = 50; self.render(); }, 'Ano');
+        ref.info = h('p', { class: 'note' }); ref.tb = h('table');
+        ref.mais = h('button', { class: 'btn', type: 'button', onclick: function () { F.n += 100; self.render(); } }, 'Mostrar mais');
+        el.append(
+          h('div', { class: 'controls' }, ref.chips),
+          h('div', { class: 'controls' }, ref.busca, P.label('Ano', ref.ano),
+            h('button', { class: 'btn', type: 'button', onclick: function () { var l = filtrados(); P.csv('vibra_comunicados.csv', ['data_entrega', 'categoria', 'tipo', 'especie', 'assunto', 'link'], l.map(function (d) { return [d.data_entrega, d.categoria, d.tipo, d.especie, d.assunto, d.link]; })); } }, 'Baixar CSV')),
+          ref.info, h('div', { class: 'twrap' }, ref.tb), h('div', { class: 'controls', style: 'margin-top:10px' }, ref.mais),
+          h('p', { class: 'note' }, 'Fonte: Dados Abertos da CVM (documentos periódicos e eventuais — IPE), última versão de cada documento. O link abre o documento original no sistema da CVM. Atualizado diariamente.'));
+      },
+      render: function () {
+        Array.prototype.forEach.call(ref.chips.children, function (b) { b.className = 'btn' + (b.getAttribute('data-g') === F.grupo ? ' sel' : ''); });
+        var l = filtrados(), vis = l.slice(0, F.n);
+        ref.info.textContent = l.length + ' documento(s)' + (l.length ? ', de ' + P.fData(l[l.length - 1].data_entrega) + ' a ' + P.fData(l[0].data_entrega) : '') + '.';
+        tabelaTexto(ref.tb, ['Data', 'Categoria', 'Tipo', 'Assunto', 'Documento'], vis.map(function (d) {
+          return [P.fData(d.data_entrega), d.categoria, d.tipo || '—', d.assunto || '—', d.link ? h('a', { href: d.link, target: '_blank', rel: 'noopener noreferrer' }, 'Abrir') : '—'];
+        }), 4);
+        ref.mais.hidden = l.length <= F.n;
+      }
+    };
+  }
+
   // ---------- Formulário de Referência ----------
   function paginaFre() {
     var ref = { cache: {}, ano: null, tab: null };
@@ -171,7 +225,7 @@
 
   // ---------- carga ----------
   var ARQ = { dre: 'cvm_dre.json', bp: 'cvm_balanco.json', dfc: 'cvm_fluxo_caixa.json', dva: 'cvm_dva.json', dra: 'cvm_dra.json', dmpl: 'cvm_dmpl.json', acoes: 'cvm_acoes.json',
-    conf: 'cvm_conferencias.json', status: 'cvm_status.json', seg: 'release_segmentos.json', div: 'dividendos.json', freIndice: 'fre/indice.json', freSeries: 'fre_series.json', b3: 'b3_cotacoes.json' };
+    conf: 'cvm_conferencias.json', status: 'cvm_status.json', seg: 'release_segmentos.json', div: 'dividendos.json', freIndice: 'fre/indice.json', freSeries: 'fre_series.json', b3: 'b3_cotacoes.json', ipe: 'ipe.json' };
   var OBRIG = { dre: 1, bp: 1, dfc: 1, conf: 1, status: 1 };
   Promise.all(Object.keys(ARQ).map(function (k) {
     return fetch('data/' + ARQ[k], { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(ARQ[k] + ' (' + r.status + ')'); return r.json(); }).then(function (j) { P.D[k] = j; })
@@ -182,12 +236,15 @@
     P.nucleo();
     if (D.seg) P.registra('seg', 'EBITDA por segmento', paginaSeg(), false);
     if (D.div) P.registra('div', 'Dividendos e JCP', paginaDiv(), false);
+    if (D.ipe && D.ipe.documentos && D.ipe.documentos.length) P.registra('ipe', 'Comunicados e fatos relevantes', paginaIpe(), false);
     if (D.freIndice && D.freSeries) P.registra('fre', 'Formulário de Referência', paginaFre(), false);
-    P.registra('conf', 'Conferências', paginaConf(), false);
+    P.registra('conf', 'Conferências', paginaConf(), false); P.ocultas = { conf: 1 };
     P.montaAbas(); P.iniciaTempo();
     var st = D.status, ult = D.dre.periodos[D.dre.periodos.length - 1], pri = D.dre.periodos[0];
     var ger = st && st.gerado_em ? new Date(st.gerado_em).toLocaleString('pt-BR', { dateStyle: 'short', timeStyle: 'short' }) : '—';
-    P.$('sub').textContent = 'Valores consolidados em R$ milhões. Série da CVM: ' + pri + ' a ' + ult + '. Dados da CVM atualizados em ' + ger + (st && st.validado ? ' · conferências ok' : ' · atenção: há conferências divergentes') + '.';
+    P.$('sub').textContent = 'Resultados, mercado e comunicados da Vibra Energia (VBBR3) · consolidado, R$ milhões · ' + pri + ' a ' + ult + ' · atualizado em ' + ger;
+    var selo = P.$('selo'); if (selo) { selo.textContent = st && st.validado ? 'Dados conferidos' : 'Atenção: conferência com divergência'; selo.className = 'selo' + (st && st.validado ? '' : ' alerta'); }
+    window.addEventListener('hashchange', function () { var hh = location.hash.slice(1); if (P.ordem.indexOf(hh) >= 0 && hh !== P.S.aba) P.aba(hh); });
     var hsh = location.hash.slice(1);
     P.aba(P.ordem.indexOf(hsh) >= 0 ? hsh : 'exec');
   }).catch(function (e) { P.$('sub').textContent = 'Não foi possível carregar os dados: ' + e.message; });

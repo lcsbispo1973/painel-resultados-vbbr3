@@ -67,6 +67,18 @@ perto(m.indAtual('pl'), ult[2] * sh('2T26') / 1e6 / udm(dre, '3.11.01'), 'P/L at
 // sem cotação antes do IPO e sem ações antes de 1T20
 assert.strictEqual(m.ind('preco', '1T17', 'T'), null); n++;
 assert.strictEqual(m.ind('mcap', '4T19', 'T'), null); n++;
+// semestre, 9 meses e intervalo livre
+chk('receita', '2T26', 'S', g(dre, '3.01', '1T26') + g(dre, '3.01', '2T26'));
+chk('receita', '4T25', 'S', g(dre, '3.01', '3T25') + g(dre, '3.01', '4T25'));
+chk('lucro', '3T25', '9M', ['1T25', '2T25', '3T25'].reduce((s, p) => s + g(dre, '3.11', p), 0));
+chk('fco', '1T26', 'R:3T25', ['3T25', '4T25', '1T26'].reduce((s, p) => s + g(dfc, '6.01', p), 0));
+assert.strictEqual(m.agg('dre', '3.01', '1T26', 'S'), null); n++;            // 1T não fecha semestre
+assert.strictEqual(m.agg('dre', '3.01', '2T26', '9M'), null); n++;
+assert.strictEqual(m.agg('dre', '3.01', '2T25', 'R:3T25'), null); n++;       // fim antes do início
+assert.strictEqual(D.rotulo('2T26', 'S'), '1S26'); assert.strictEqual(D.rotulo('4T25', 'S'), '2S25');
+assert.strictEqual(D.rotulo('3T25', '9M'), '9M25'); assert.strictEqual(D.rotulo('1T26', 'R:3T25'), '3T25–1T26'); n += 4;
+perto(m.agg('dfc', '6.05.01', '1T26', 'R:3T25'), g(dfc, '6.05.01', '3T25'), 'saldo inicial do intervalo'); n++;
+assert(m.periodos('bp', 'S').every(p => p[0] === '2' || p[0] === '4')); n++;
 // fluxo de caixa: saldo inicial do acumulado = saldo inicial do 1T; final = saldo do último trimestre
 perto(m.agg('dfc', '6.05.01', '3T25', 'YTD'), g(dfc, '6.05.01', '1T25'), 'saldo inicial YTD'); n++;
 perto(m.agg('dfc', '6.05.02', '3T25', 'YTD'), g(dfc, '6.05.02', '3T25'), 'saldo final YTD'); n++;

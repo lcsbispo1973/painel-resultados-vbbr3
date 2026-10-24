@@ -12,7 +12,26 @@
   var lab = function (n) { var a = Math.floor((n - 1) / 4), q = ((n - 1) % 4) + 1; return q + 'T' + String(a).padStart(2, '0'); };
   var tri = function (p) { return +p[0]; };
   var desloca = function (p, k) { return lab(ord(p) - k); };
-  var BASES = { T: 'Trimestre', YTD: 'Acumulado no ano', LTM: 'Últimos 12 meses', AN: 'Ano (exercício)' };
+  var BASES = { T: 'Trimestre', S: 'Semestre', '9M': '9 meses (jan–set)', YTD: 'Acumulado no ano', LTM: 'Últimos 12 meses', AN: 'Ano (exercício)' };
+  // intervalo livre: base 'R:<trimestre inicial>' soma do trimestre inicial até o período p (inclusive)
+  var ehIntervalo = function (base) { return typeof base === 'string' && base.indexOf('R:') === 0; };
+  var fechaBase = function (base, p) {   // o período p é um fim válido para a base?
+    var q = tri(p);
+    if (base === 'AN') return q === 4;
+    if (base === 'S') return q === 2 || q === 4;
+    if (base === '9M') return q === 3;
+    if (ehIntervalo(base)) return ord(p) >= ord(base.slice(2));
+    return true;
+  };
+  var trimestresBase = function (base, p) {   // quantos trimestres a base soma no período p
+    if (base === 'T') return 1;
+    if (base === 'YTD') return tri(p);
+    if (base === 'LTM' || base === 'AN') return 4;
+    if (base === 'S') return 2;
+    if (base === '9M') return 3;
+    if (ehIntervalo(base)) return ord(p) - ord(base.slice(2)) + 1;
+    return 0;
+  };
   var ANCORA = { dre: '3.01', dfc: '6.01', dva: '7.01', dra: '4.01' };
 
   function rotulo(p, base) {
@@ -20,6 +39,9 @@
     if (base === 'AN') return '20' + a;
     if (base === 'YTD') return q === 1 ? p : q === 2 ? '6M' + a : q === 3 ? '9M' + a : '12M' + a;
     if (base === 'LTM') return 'UDM ' + p;
+    if (base === 'S') return (q === 2 ? '1S' : '2S') + a;
+    if (base === '9M') return '9M' + a;
+    if (ehIntervalo(base)) { var i0 = base.slice(2); return i0 === p ? p : i0 + '–' + p; }
     return p;
   }
 
@@ -65,14 +87,12 @@
     // valor agregado de uma conta no período p, na base escolhida
     m.agg = function (ds, cd, p, base) {
       base = base || 'T';
-      if (ds === 'bp') return base === 'AN' && tri(p) !== 4 ? null : q(ds, cd, p);
-      if (ds === 'dfc' && cd === '6.05.02') return base === 'AN' && tri(p) !== 4 ? null : q(ds, cd, p);
+      if (!fechaBase(base, p)) return null;
+      if (ds === 'bp') return q(ds, cd, p);
+      if (ds === 'dfc' && cd === '6.05.02') return q(ds, cd, p);
       if (base === 'T') return q(ds, cd, p);
-      var n = ord(p), k;
-      if (base === 'YTD') k = tri(p);
-      else if (base === 'LTM') k = 4;
-      else if (base === 'AN') { if (tri(p) !== 4) return null; k = 4; }
-      else return null;
+      var n = ord(p), k = trimestresBase(base, p);
+      if (!k) return null;
       if (ds === 'dfc' && cd === '6.05.01') return q(ds, cd, lab(n - k + 1));
       var anc = ANCORA[ds], s = 0, algum = false;
       for (var i = n - k + 1; i <= n; i++) {
@@ -89,7 +109,7 @@
       base = base || 'T';
       var lista = per[ds] || [];
       if (base === 'T') return lista.slice();
-      if (ds === 'bp') return lista.filter(function (p) { return base !== 'AN' || tri(p) === 4; });
+      if (ds === 'bp') return lista.filter(function (p) { return fechaBase(base, p); });
       var anc = ANCORA[ds];
       return lista.filter(function (p) { return m.agg(ds, anc, p, base) !== null && (base !== 'LTM' || ord(p) - 3 >= ord(lista[0])); });
     };
@@ -216,5 +236,5 @@
     return m;
   }
 
-  return { criar: criar, ord: ord, lab: lab, rotulo: rotulo, desloca: desloca, tri: tri, BASES: BASES, ok: ok };
+  return { criar: criar, ord: ord, lab: lab, rotulo: rotulo, desloca: desloca, tri: tri, BASES: BASES, ok: ok, ehIntervalo: ehIntervalo };
 });

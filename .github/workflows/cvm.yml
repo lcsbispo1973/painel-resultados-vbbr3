@@ -65,7 +65,8 @@ jobs:
       - name: Baixar cotações da B3
         if: always()
         continue-on-error: true
-        run: python pipeline/b3.py
+        run: |
+          if [ "${{ inputs.completo }}" = "true" ]; then python pipeline/b3.py --completo; else python pipeline/b3.py; fi
 
       - name: Baixar comunicados e fatos relevantes (IPE)
         if: always()

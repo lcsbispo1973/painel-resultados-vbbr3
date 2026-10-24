@@ -1,4 +1,4 @@
-# Painel de resultados da Vibra Energia (VBBR3)
+# Vibra em Números — resultados, mercado e comunicados da Vibra Energia (VBBR3)
 
 Painel com as demonstrações financeiras públicas da Vibra Energia S.A., atualizado automaticamente a partir
 dos Dados Abertos da CVM (DFP e ITR) e, em etapa futura, dos releases de resultados do site de RI.
@@ -35,6 +35,8 @@ Todas as informações são públicas. Valores em R$ milhões, consolidado.
   e não explica causas.
 - `data/release_segmentos.json` e `data/dividendos.json`: EBITDA Ajustado por segmento (releases) e proventos (site de RI), por ora carregados manualmente.
 - `pipeline/b3.py`: baixa as Séries Históricas da B3 (COTAHIST) e grava o fechamento diário de BRDT3/VBBR3 (desde o IPO, dez/2017) em `data/b3_cotacoes.json`. Alimenta os indicadores de mercado (valor de mercado, EV, P/L, P/VP, EV/EBITDA, rendimentos). Preço sem ajuste por proventos, multiplicado pelas ações em circulação da mesma data (CVM, a partir de 1T20).
+- `pipeline/ipe.py`: índice de comunicados ao mercado, fatos relevantes, avisos e demais documentos eventuais (base IPE da CVM), com link para o original, em `data/ipe.json`.
+- Períodos: trimestre, semestre, 9 meses, acumulado no ano, 12 meses, ano e intervalo livre (soma de trimestres) na comparação; filtros com botão Aplicar.
 - Testes: `tests/test_cvm_fixture.py`, `tests/test_fre_fixture.py` e `tests/test_b3_fixture.py` e `tests/test_dados.js` rodam a cada execução.
 
 ## Em construção

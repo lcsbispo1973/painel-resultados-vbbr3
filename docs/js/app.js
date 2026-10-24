@@ -90,33 +90,51 @@
     return l;
   };
   P.rot = function (p) { return P.M.rotulo(p, S.base); };
+  // filtros globais: as escolhas ficam pendentes até o botão Aplicar (os atalhos aplicam na hora)
+  var PEND = null;
   function montaTempo() {
     var box = P.$('ctl-tempo'); box.replaceChildren();
-    box.appendChild(P.label('Base', P.select('sel-base', Object.keys(Dados.BASES).map(function (k) { return [k, Dados.BASES[k]]; }), S.base, function (v) { S.base = v; ajustaIntervalo(); render(); }, 'Base de período')));
-    box.appendChild(P.label('De', P.select('sel-de', [], null, function (v) { S.de = v; render(); }, 'Período inicial')));
-    box.appendChild(P.label('Até', P.select('sel-ate', [], null, function (v) { S.ate = v; render(); }, 'Período final')));
+    PEND = { base: S.base, de: S.de, ate: S.ate };
+    var marca = function () {
+      var mud = PEND.base !== S.base || PEND.de !== S.de || PEND.ate !== S.ate, b = P.$('btn-aplicar');
+      b.disabled = !mud; b.className = 'btn' + (mud ? ' sel' : ''); b.textContent = mud ? 'Aplicar' : 'Aplicado';
+    };
+    box.appendChild(P.label('Base', P.select('sel-base', Object.keys(Dados.BASES).map(function (k) { return [k, Dados.BASES[k]]; }), S.base, function (v) { PEND.base = v; opcoesTempo(PEND); marca(); }, 'Base de período')));
+    box.appendChild(P.label('De', P.select('sel-de', [], null, function (v) { PEND.de = v; if (ord(PEND.de) > ord(PEND.ate)) { PEND.ate = PEND.de; P.$('sel-ate').value = PEND.ate; } marca(); }, 'Período inicial')));
+    box.appendChild(P.label('Até', P.select('sel-ate', [], null, function (v) { PEND.ate = v; if (ord(PEND.de) > ord(PEND.ate)) { PEND.de = PEND.ate; P.$('sel-de').value = PEND.de; } marca(); }, 'Período final')));
+    box.appendChild(h('button', { class: 'btn', type: 'button', id: 'btn-aplicar', disabled: 'disabled', onclick: function () {
+      S.base = PEND.base; S.de = PEND.de; S.ate = PEND.ate; ajustaIntervalo(); render();
+    } }, 'Aplicado'));
     var chips = h('div', { class: 'chips', role: 'group', 'aria-label': 'Atalhos de período' });
     [['8', 'Últimos 8'], ['12', 'Últimos 12'], ['20', 'Últimos 20'], ['0', 'Tudo']].forEach(function (c) {
       chips.appendChild(h('button', { class: 'btn', type: 'button', 'data-n': c[0], onclick: function () {
+        S.base = PEND.base;
         var l = P.M.periodos('dre', S.base), n = +c[0]; S.ate = l[l.length - 1]; S.de = n ? l[Math.max(0, l.length - n)] : l[0]; ajustaIntervalo(true); render();
       } }, c[1]));
     });
     box.appendChild(chips);
+    P.marcaTempo = marca;
   }
-  function ajustaIntervalo(forca) {
-    var l = P.M.periodos('dre', S.base);
+  function opcoesTempo(st) {   // ajusta De/Até à base (escolhida ou pendente), sem recalcular o painel
+    var l = P.M.periodos('dre', st.base);
     if (!l.length) return;
-    var nel = function (p, dir) {  // ajusta para o período válido mais próximo
+    var nel = function (p, dir) {  // período válido mais próximo
       if (!p) return dir < 0 ? l[Math.max(0, l.length - 12)] : l[l.length - 1];
       var c = l.filter(function (x) { return dir < 0 ? ord(x) >= ord(p) : ord(x) <= ord(p); });
       return c.length ? (dir < 0 ? c[0] : c[c.length - 1]) : (dir < 0 ? l[0] : l[l.length - 1]);
     };
+    st.de = nel(st.de, -1); st.ate = nel(st.ate, 1);
+    if (ord(st.de) > ord(st.ate)) st.de = st.ate;
+    var opts = l.map(function (p) { return [p, P.M.rotulo(p, st.base)]; });
+    P.opcoes(P.$('sel-de'), opts, st.de); P.opcoes(P.$('sel-ate'), opts, st.ate);
+    P.$('sel-base').value = st.base;
+  }
+  function ajustaIntervalo(forca) {
+    var l = P.M.periodos('dre', S.base);
+    if (!l.length) return;
     if (!S.de && !forca) S.de = l[Math.max(0, l.length - 12)];
-    S.de = nel(S.de, -1); S.ate = nel(S.ate, 1);
-    if (ord(S.de) > ord(S.ate)) S.de = S.ate;
-    var opts = l.map(function (p) { return [p, P.M.rotulo(p, S.base)]; });
-    P.opcoes(P.$('sel-de'), opts, S.de); P.opcoes(P.$('sel-ate'), opts, S.ate);
-    P.$('sel-base').value = S.base;
+    opcoesTempo(S);
+    if (PEND) { PEND.base = S.base; PEND.de = S.de; PEND.ate = S.ate; if (P.marcaTempo) P.marcaTempo(); }
   }
 
   // ---------- demonstrações ----------
@@ -302,17 +320,36 @@
 
   // ---------- comparar períodos ----------
   function paginaComparar() {
-    var C = { base: 'T', a: null, b: null, secao: 'todas', niv: 'r' }, ref = {};
-    function periodos() { return P.M.periodos('dre', C.base); }
-    function iniciaPeriodos(forca) {
-      var l = periodos(); if (!l.length) return;
-      if (forca || !l.includes(C.a)) C.a = l[l.length - 1];
-      if (forca || !l.includes(C.b) || C.b === C.a) C.b = l.includes(P.M.desloca(C.a, 4)) ? P.M.desloca(C.a, 4) : l[0];
-      var op = l.slice().reverse().map(function (p) { return [p, P.M.rotulo(p, C.base)]; });
-      P.opcoes(ref.selA, op, C.a); P.opcoes(ref.selB, op, C.b);
+    // C = escolha aplicada; E = edição pendente (só vale depois de Aplicar)
+    var C = { modo: 'base', base: 'T', a: null, b: null, aIni: null, aFim: null, bIni: null, bFim: null, secao: 'todas', niv: 'r' }, E = null, ref = {};
+    var copia = function (o) { return JSON.parse(JSON.stringify(o)); };
+    var trims = function () { return P.M.periodos('dre', 'T'); };
+    function lados(st) {   // [períodoA, baseA, períodoB, baseB]
+      return st.modo === 'livre' ? [st.aFim, 'R:' + st.aIni, st.bFim, 'R:' + st.bIni] : [st.a, st.base, st.b, st.base];
+    }
+    function normaliza(st, forca) {
+      var l = P.M.periodos('dre', st.base), t = trims();
+      if (l.length) {
+        if (forca || !l.includes(st.a)) st.a = l[l.length - 1];
+        if (forca || !l.includes(st.b) || st.b === st.a) st.b = l.includes(P.M.desloca(st.a, 4)) ? P.M.desloca(st.a, 4) : l[0];
+      }
+      if (forca || !st.aFim) { st.aFim = t[t.length - 1]; st.aIni = P.M.desloca(st.aFim, 1); st.bFim = P.M.desloca(st.aFim, 4); st.bIni = P.M.desloca(st.aIni, 4); }
+      if (Dados.ord(st.aIni) > Dados.ord(st.aFim)) st.aIni = st.aFim;
+      if (Dados.ord(st.bIni) > Dados.ord(st.bFim)) st.bIni = st.bFim;
+    }
+    function preencheControles() {
+      var l = P.M.periodos('dre', E.base).slice().reverse().map(function (p) { return [p, P.M.rotulo(p, E.base)]; });
+      var t = trims().slice().reverse().map(function (p) { return [p, p]; });
+      P.opcoes(ref.selA, l, E.a); P.opcoes(ref.selB, l, E.b);
+      P.opcoes(ref.aIni, t, E.aIni); P.opcoes(ref.aFim, t, E.aFim); P.opcoes(ref.bIni, t, E.bIni); P.opcoes(ref.bFim, t, E.bFim);
+      ref.selModo.value = E.modo; ref.selBase.value = E.base; ref.selSec.value = E.secao; ref.selNiv.value = E.niv;
+      ref.boxBase.hidden = E.modo !== 'base'; ref.boxLivre.hidden = E.modo !== 'livre';
+      var mud = JSON.stringify(E) !== JSON.stringify(C);
+      ref.aplicar.disabled = !mud; ref.aplicar.className = 'btn' + (mud ? ' sel' : ''); ref.aplicar.textContent = mud ? 'Aplicar' : 'Aplicado';
     }
     function montaLinhas() {
-      var M = P.M, out = [], rotA = M.rotulo(C.a, C.base), rotB = M.rotulo(C.b, C.base);
+      var M = P.M, out = [], L = lados(C), pA = L[0], bA = L[1], pB = L[2], bB = L[3];
+      var rotA = M.rotulo(pA, bA), rotB = M.rotulo(pB, bB);
       var par = function (a, b, un) {
         var d = ok(a) && ok(b) ? a - b : null, rel = ok(a) && ok(b) && b !== 0 && (a < 0) === (b < 0) ? a / b - 1 : null;
         if (un === '%') return [P.fUn('%', a), P.fUn('%', b), ok(d) ? (d >= 0 ? '+' : '−') + f1(Math.abs(d)) + ' p.p.' : '—', '—'];
@@ -322,53 +359,66 @@
       var csvRows = [];
       ['dre', 'bp', 'dfc', 'dva'].forEach(function (ds) {
         if (C.secao !== 'todas' && C.secao !== ds) return;
-        out.push({ grupo: NOME_DS[ds] });
+        out.push({ grupo: NOME_DS[ds] + (ds === 'bp' ? ' (saldo no fim de cada período)' : '') });
         M.linhas(ds).forEach(function (l) {
           if (ds === 'dre' && l.cd_conta.indexOf('3.99') === 0) return;
           if (C.niv === 'r' && !RESUMO[ds](l)) return;
-          var a = M.agg(ds, l.cd_conta, C.a, C.base), b = M.agg(ds, l.cd_conta, C.b, C.base);
+          var a = M.agg(ds, l.cd_conta, pA, bA), b = M.agg(ds, l.cd_conta, pB, bB);
           if (!ok(a) && !ok(b)) return;
-          var c = par(a, b);
-          out.push({ id: ds + l.cd_conta, conta: l.cd_conta + '  ' + l.conta, nivel: l.nivel, cel: c, cls: TOT[ds].indexOf(l.cd_conta) >= 0 ? 'tot' : (l.nivel <= 2 ? 'l1' : '') });
+          out.push({ id: ds + l.cd_conta, conta: l.cd_conta + '  ' + l.conta, nivel: l.nivel, cel: par(a, b), cls: TOT[ds].indexOf(l.cd_conta) >= 0 ? 'tot' : (l.nivel <= 2 ? 'l1' : '') });
           csvRows.push([NOME_DS[ds], l.cd_conta, l.conta, numCsv(a), numCsv(b), numCsv(ok(a) && ok(b) ? a - b : null)]);
         });
       });
       if (C.secao === 'todas' || C.secao === 'ind') {
         out.push({ grupo: 'Indicadores' });
-        var g = null;
         M.indicadores.forEach(function (i) {
-          var a = M.ind(i.id, C.a, C.base), b = M.ind(i.id, C.b, C.base);
+          var a = M.ind(i.id, pA, bA), b = M.ind(i.id, pB, bB);
           if (!ok(a) && !ok(b)) return;
           out.push({ id: 'i' + i.id, conta: i.nome + '  (' + i.un + ')', nivel: 2, cel: par(a, b, i.un), cls: '' });
           csvRows.push(['Indicadores', i.id, i.nome + ' (' + i.un + ')', numCsv(a), numCsv(b), numCsv(ok(a) && ok(b) ? a - b : null)]);
         });
       }
-      return { out: out, csv: csvRows, rotA: rotA, rotB: rotB };
+      var nA = C.modo === 'livre' ? Dados.ord(C.aFim) - Dados.ord(C.aIni) + 1 : 0, nB = C.modo === 'livre' ? Dados.ord(C.bFim) - Dados.ord(C.bIni) + 1 : 0;
+      return { out: out, csv: csvRows, rotA: rotA, rotB: rotB, aviso: nA !== nB ? 'Atenção: o período A tem ' + nA + ' trimestre(s) e o B tem ' + nB + '; os fluxos não são diretamente comparáveis.' : '' };
     }
     return {
       init: function (el) {
-        ref.selA = h('select', { 'aria-label': 'Período A' }); ref.selB = h('select', { 'aria-label': 'Período B' });
-        ref.selA.addEventListener('change', function () { C.a = ref.selA.value; this.render(); }.bind(this));
-        ref.selB.addEventListener('change', function () { C.b = ref.selB.value; this.render(); }.bind(this));
         var self = this;
-        ref.selBase = P.select('cmp-base', Object.keys(Dados.BASES).map(function (k) { return [k, Dados.BASES[k]]; }), C.base, function (v) { C.base = v; iniciaPeriodos(true); self.render(); }, 'Base');
-        ref.selSec = P.select('cmp-sec', [['todas', 'Tudo'], ['dre', 'Resultado'], ['bp', 'Balanço'], ['dfc', 'Fluxo de caixa'], ['dva', 'DVA'], ['ind', 'Indicadores']], C.secao, function (v) { C.secao = v; self.render(); }, 'Seção');
-        ref.selNiv = P.select('cmp-niv', [['r', 'Resumo'], ['d', 'Detalhado']], C.niv, function (v) { C.niv = v; self.render(); }, 'Nível');
-        ref.tb = h('table'); ref.tit = h('h2');
-        var atalho = function (k, txt) { return h('button', { class: 'btn', type: 'button', onclick: function () { var l = periodos(); C.a = l[l.length - 1]; var b = P.M.desloca(C.a, k); C.b = l.includes(b) ? b : l[0]; self.render(); } }, txt); };
+        normaliza(C, true); E = copia(C);
+        var sel = function (lbl, campo) { var s = h('select', { 'aria-label': lbl }); s.addEventListener('change', function () { E[campo] = s.value; normaliza(E, false); preencheControles(); }); return s; };
+        ref.selA = sel('Período A', 'a'); ref.selB = sel('Período B', 'b');
+        ref.aIni = sel('A: de', 'aIni'); ref.aFim = sel('A: até', 'aFim'); ref.bIni = sel('B: de', 'bIni'); ref.bFim = sel('B: até', 'bFim');
+        ref.selModo = P.select('cmp-modo', [['base', 'Períodos padrão'], ['livre', 'Intervalo livre (somar trimestres)']], E.modo, function (v) { E.modo = v; preencheControles(); }, 'Modo');
+        ref.selBase = P.select('cmp-base', Object.keys(Dados.BASES).map(function (k) { return [k, Dados.BASES[k]]; }), E.base, function (v) { E.base = v; normaliza(E, true); preencheControles(); }, 'Base');
+        ref.selSec = P.select('cmp-sec', [['todas', 'Tudo'], ['dre', 'Resultado'], ['bp', 'Balanço'], ['dfc', 'Fluxo de caixa'], ['dva', 'DVA'], ['ind', 'Indicadores']], E.secao, function (v) { E.secao = v; preencheControles(); }, 'Seção');
+        ref.selNiv = P.select('cmp-niv', [['r', 'Resumo'], ['d', 'Detalhado']], E.niv, function (v) { E.niv = v; preencheControles(); }, 'Nível');
+        ref.aplicar = h('button', { class: 'btn', type: 'button', onclick: function () { C = copia(E); self.render(); } }, 'Aplicado');
+        ref.tb = h('table'); ref.tit = h('h2'); ref.aviso = h('div', { class: 'aviso', hidden: true });
+        ref.boxBase = h('div', { class: 'controls' }, P.label('Base', ref.selBase), P.label('Período A', ref.selA), P.label('Período B', ref.selB));
+        ref.boxLivre = h('div', { class: 'controls' }, h('span', { class: 'kl' }, 'A'), P.label('de', ref.aIni), P.label('até', ref.aFim), h('span', { class: 'kl' }, 'B'), P.label('de', ref.bIni), P.label('até', ref.bFim));
+        // atalhos: aplicam na hora
+        var atalho = function (txt, f) { return h('button', { class: 'btn', type: 'button', onclick: function () { E = copia(C); f(E); normaliza(E, false); C = copia(E); self.render(); } }, txt); };
+        var ultT = function () { var t = trims(); return t[t.length - 1]; };
+        var ultCom = function (base) { var l = P.M.periodos('dre', base); return l[l.length - 1]; };
+        var padrao = function (base) { return function (s) { s.modo = 'base'; s.base = base; s.a = ultCom(base); s.b = P.M.desloca(s.a, 4); }; };
         el.append(
-          h('div', { class: 'controls' }, P.label('Base', ref.selBase), P.label('Período A', ref.selA), P.label('Período B', ref.selB)),
-          h('div', { class: 'controls' }, P.label('Seção', ref.selSec), P.label('Nível', ref.selNiv), atalho(4, 'Último × mesmo período do ano anterior'), atalho(1, 'Último × período anterior'),
+          h('div', { class: 'controls' }, P.label('Modo', ref.selModo), P.label('Seção', ref.selSec), P.label('Nível', ref.selNiv), ref.aplicar,
             h('button', { class: 'btn', type: 'button', onclick: function () { var r = montaLinhas(); P.csv('vibra_comparacao_' + r.rotA + '_vs_' + r.rotB + '.csv', ['secao', 'cd_conta', 'conta', r.rotA, r.rotB, 'diferenca'], r.csv); } }, 'Baixar CSV')),
-          h('p', { class: 'note' }, 'Compare quaisquer dois períodos, na mesma base (trimestre, acumulado no ano, últimos 12 meses ou ano). A variação percentual só é calculada quando os dois valores têm o mesmo sinal; indicadores em % mostram a diferença em pontos percentuais.'),
-          ref.tit, h('div', { class: 'twrap' }, ref.tb));
-        iniciaPeriodos(true);
+          ref.boxBase, ref.boxLivre,
+          h('div', { class: 'controls' }, h('span', { class: 'kl' }, 'Atalhos (aplicam na hora):'),
+            h('div', { class: 'chips' },
+              atalho('Trimestre a/a', padrao('T')), atalho('Semestre a/a', padrao('S')), atalho('9 meses a/a', padrao('9M')), atalho('Ano a/a', padrao('AN')), atalho('12 meses a/a', padrao('LTM')),
+              atalho('Trimestre × anterior', function (s) { s.modo = 'base'; s.base = 'T'; s.a = ultT(); s.b = P.M.desloca(s.a, 1); }),
+              atalho('2º semestre a/a', function (s) { var l = P.M.periodos('dre', 'S').filter(function (p) { return p[0] === '4'; }); s.modo = 'base'; s.base = 'S'; s.a = l[l.length - 1]; s.b = P.M.desloca(s.a, 4); }))),
+          h('p', { class: 'note' }, 'Períodos padrão: trimestre, semestre, 9 meses, acumulado no ano, 12 meses ou ano. Intervalo livre: soma os trimestres escolhidos (por exemplo 2T25 a 1T26 contra 2T24 a 1T25); o balanço usa o saldo no último trimestre de cada intervalo. Indicadores de retorno, alavancagem e valuation usam sempre os 12 meses até o fim de cada período. A variação percentual só é calculada quando os dois valores têm o mesmo sinal; indicadores em % mostram a diferença em pontos percentuais.'),
+          ref.tit, ref.aviso, h('div', { class: 'twrap' }, ref.tb));
+        preencheControles();
       },
       render: function () {
-        ref.selBase.value = C.base; ref.selSec.value = C.secao; ref.selNiv.value = C.niv;
-        iniciaPeriodos(false);
+        normaliza(C, false); E = copia(C); preencheControles();
         var r = montaLinhas();
         ref.tit.textContent = r.rotA + ' (A) contra ' + r.rotB + ' (B)';
+        ref.aviso.hidden = !r.aviso; ref.aviso.textContent = r.aviso;
         P.tabela(ref.tb, 'R$ milhões', [r.rotA, r.rotB, 'A − B', 'A ÷ B − 1'], r.out);
       }
     };
@@ -382,11 +432,16 @@
     return {
       init: function (el) {
         var self = this;
-        ref.selP = h('select', { 'aria-label': 'Período' }); ref.selP.addEventListener('change', function () { A.p = ref.selP.value; self.render(); });
-        ref.selBase = P.select('mda-base', Object.keys(Dados.BASES).map(function (k) { return [k, Dados.BASES[k]]; }), A.base, function (v) { A.base = v; iniciaP(true); self.render(); }, 'Base');
+        var marca = function () { var mud = ref.selP.value !== A.p || ref.selBase.value !== A.base; ref.apl.disabled = !mud; ref.apl.className = 'btn' + (mud ? ' sel' : ''); ref.apl.textContent = mud ? 'Aplicar' : 'Aplicado'; };
+        ref.selP = h('select', { 'aria-label': 'Período' }); ref.selP.addEventListener('change', marca);
+        ref.selBase = P.select('mda-base', Object.keys(Dados.BASES).map(function (k) { return [k, Dados.BASES[k]]; }), A.base, function (v) {
+          var l = P.M.periodos('dre', v).filter(function (p) { return P.M.agg('dre', '3.01', P.M.desloca(p, 4), v) !== null; });
+          P.opcoes(ref.selP, l.slice().reverse().map(function (p) { return [p, P.M.rotulo(p, v)]; }), l[l.length - 1]); marca();
+        }, 'Base');
+        ref.apl = h('button', { class: 'btn', type: 'button', disabled: 'disabled', onclick: function () { A.base = ref.selBase.value; A.p = ref.selP.value; self.render(); } }, 'Aplicado');
         ref.texto = h('div', { class: 'mda' }); ref.ponte = P.chart('c-ponte'); ref.ponteCard = P.card('Ponte do lucro líquido', 'Variação do lucro líquido consolidado entre os dois períodos, por componente da DRE (R$ milhões).', ref.ponte, true);
         el.append(
-          h('div', { class: 'controls' }, P.label('Base', ref.selBase), P.label('Período', ref.selP),
+          h('div', { class: 'controls' }, P.label('Base', ref.selBase), P.label('Período', ref.selP), ref.apl,
             h('button', { class: 'btn', type: 'button', onclick: function () { if (ultimo && navigator.clipboard) navigator.clipboard.writeText(txt(ultimo)).catch(function () { }); } }, 'Copiar texto'),
             h('button', { class: 'btn', type: 'button', onclick: function () { if (ultimo) P.texto('analise_' + ultimo.periodo + '_' + ultimo.base + '.txt', txt(ultimo)); } }, 'Baixar texto')),
           h('div', { class: 'aviso' }, 'Análise gerada automaticamente por regras, a partir das demonstrações consolidadas da CVM e dos indicadores do painel. Descreve o que mudou e em quanto; não explica as causas. Não substitui o Comentário do Desempenho (MD&A) nem o item 10 do Formulário de Referência da Companhia.'),
@@ -394,7 +449,7 @@
         iniciaP(true);
       },
       render: function () {
-        ref.selBase.value = A.base; iniciaP(false);
+        ref.selBase.value = A.base; iniciaP(false); ref.apl.disabled = true; ref.apl.className = 'btn'; ref.apl.textContent = 'Aplicado';
         var r = Mda.gerar(P.M, A.p, A.base, { seg: P.D.seg, conferencias: P.D.conf });
         ultimo = r;
         ref.texto.replaceChildren(h('h2', null, r.titulo + ' (comparação com ' + r.referencia + ')'));
@@ -430,8 +485,9 @@
         var ids = ['receita', 'lucro', 'ebitda', 'margens', 'caixa', 'divida', 'alav', 'roe', 'mcap', 'mult'];
         ref.mkt = h('div'); ref.mktCards = h('div', { class: 'grid kpis' }); ref.mktNota = h('p', { class: 'note' });
         ref.mkt.append(h('h3', null, 'Mercado'), ref.mktNota, ref.mktCards);
+        ref.ipe = h('div', { class: 'card', style: 'margin-bottom:14px' });
         ref.ch = {}; ids.forEach(function (i) { ref.ch[i] = P.chart('x-' + i); });
-        el.append(ref.kpis, ref.mkt, h('div', { class: 'grid' },
+        el.append(ref.kpis, ref.mkt, ref.ipe, h('div', { class: 'grid' },
           P.card('Receita', 'CVM, conta 3.01, R$ milhões. Inclui a marcação a mercado do trading de energia.', ref.ch.receita),
           P.card('Lucro líquido', 'CVM, conta 3.11 (consolidado, inclui não controladores), R$ milhões.', ref.ch.lucro),
           P.card('EBITDA', 'R$ milhões. Contábil: calculado da CVM (EBIT sem equivalência + D&A). Ajustado: release, medida da Companhia (só na base trimestre).', ref.ch.ebitda),
@@ -462,6 +518,14 @@
           ref.kpis.appendChild(h('div', { class: 'card' }, h('div', { class: 'kl' }, k.rot + ' · ' + M.rotulo(ult, S.base)), h('div', { class: 'kv' }, valor),
             h('div', { class: 'kd' }, tt !== null || S.base === 'T' || S.base === 'LTM' ? h('span', null, 't/t ', dl(tt)) : null, h('span', null, 'a/a ', dl(aa)))));
         });
+        var docs = P.D.ipe && P.D.ipe.documentos && P.ipeGrupo ? P.D.ipe.documentos.filter(P.ipeGrupo('chave')[2]).slice(0, 6) : [];
+        ref.ipe.hidden = !docs.length; ref.ipe.replaceChildren();
+        if (docs.length) {
+          ref.ipe.append(h('div', { class: 'sec', style: 'margin:0 0 6px' }, h('h2', null, 'Últimos fatos relevantes, comunicados e avisos'), h('a', { href: '#ipe' }, 'Ver todos')),
+            h('ul', { class: 'lista-ipe' }, docs.map(function (d) {
+              return h('li', null, h('span', { class: 'kl' }, P.fData(d.data_entrega) + ' · ' + d.categoria), h('br'), d.link ? h('a', { href: d.link, target: '_blank', rel: 'noopener noreferrer' }, d.assunto || d.tipo || d.categoria) : (d.assunto || d.tipo));
+            })));
+        }
         var cotUlt = M.ultimaCotacao();
         ref.mkt.hidden = !cotUlt; ref.mktCards.replaceChildren();
         if (cotUlt) {
@@ -525,7 +589,7 @@
     var nav = P.$('tabs'), main = P.$('pages');
     P.ordem.forEach(function (id) {
       var pg = P.paginas[id];
-      nav.appendChild(h('button', { role: 'tab', 'data-tab': id, 'aria-selected': 'false', onclick: function () { P.aba(id); } }, pg.titulo));
+      if (!(P.ocultas && P.ocultas[id])) nav.appendChild(h('button', { role: 'tab', 'data-tab': id, 'aria-selected': 'false', onclick: function () { P.aba(id); } }, pg.titulo));
       pg.el = h('section', { class: 'page', id: 'p-' + id, hidden: true }); main.appendChild(pg.el);
     });
   };

@@ -19,7 +19,7 @@ import urllib.error
 import urllib.request
 import zipfile
 
-ANO_INICIAL = 2016
+ANO_INICIAL = 2017  # IPO em 15/12/2017
 TICKERS = ("BRDT3", "VBBR3")
 URLS = [
     "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A{ano}.ZIP",
@@ -67,6 +67,7 @@ def le_zip(conteudo):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--saida", default="data")
+    ap.add_argument("--completo", action="store_true", help="baixa todos os anos de novo")
     a = ap.parse_args()
     raiz = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     saida = a.saida if os.path.isabs(a.saida) else os.path.join(raiz, a.saida)
@@ -76,7 +77,23 @@ def main():
     log = ["# B3 — última execução", "", "Executado em %s UTC" % dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M"), ""]
     por_dia = {}
     erros = 0
-    for ano in range(ANO_INICIAL, dt.date.today().year + 1):
+    hoje = dt.date.today()
+    # incremental: reaproveita os anos fechados já gravados e baixa só o ano corrente (e o anterior em janeiro)
+    anterior = os.path.join(saida, "b3_cotacoes.json")
+    anos_reuso = set()
+    if os.path.exists(anterior) and not a.completo and not local:
+        try:
+            for x in json.load(open(anterior, encoding="utf-8"))["dias"]:
+                if int(x[0][:4]) < hoje.year - (1 if hoje.month == 1 else 0):
+                    por_dia[x[0]] = x
+                    anos_reuso.add(int(x[0][:4]))
+            if anos_reuso:
+                log.append("- anos reaproveitados do arquivo anterior: %s" % ", ".join(map(str, sorted(anos_reuso))))
+        except Exception:  # noqa: BLE001
+            por_dia, anos_reuso = {}, set()
+    for ano in range(ANO_INICIAL, hoje.year + 1):
+        if ano in anos_reuso:
+            continue
         conteudo, info = None, None
         if local:
             p = os.path.join(local, "COTAHIST_A%d.ZIP" % ano)
