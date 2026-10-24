@@ -21,6 +21,7 @@ import zipfile
 
 ANO_INICIAL = 2017  # IPO em 15/12/2017
 TICKERS = ("BRDT3", "VBBR3")
+INDICE = "BOVA11"   # ETF do Ibovespa (reinveste proventos), referência para o retorno total
 URLS = [
     "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A{ano}.ZIP",
     "https://www.b3.com.br/data/files/COTAHIST_A{ano}.ZIP",
@@ -46,7 +47,7 @@ def analisa_linha(l):
     if len(l) < 188 or l[0:2] != "01":
         return None
     ticker = l[12:24].strip()
-    if ticker not in TICKERS or l[24:27] != "010":  # 010 = mercado à vista
+    if (ticker not in TICKERS and ticker != INDICE) or l[24:27] != "010":  # 010 = mercado à vista (ações e ETFs)
         return None
     data = "%s-%s-%s" % (l[2:6], l[6:8], l[8:10])
     return data, ticker, int(l[108:121]) / 100.0, int(l[170:188]) / 100.0, int(l[147:152])
@@ -75,7 +76,7 @@ def main():
     os.makedirs(os.path.join(raiz, "logs"), exist_ok=True)
     local = os.environ.get("B3_LOCAL_DIR")
     log = ["# B3 — última execução", "", "Executado em %s UTC" % dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M"), ""]
-    por_dia = {}
+    por_dia, bova = {}, {}
     erros = 0
     hoje = dt.date.today()
     # incremental: reaproveita os anos fechados já gravados e baixa só o ano corrente (e o anterior em janeiro)
@@ -83,10 +84,17 @@ def main():
     anos_reuso = set()
     if os.path.exists(anterior) and not a.completo and not local:
         try:
-            for x in json.load(open(anterior, encoding="utf-8"))["dias"]:
-                if int(x[0][:4]) < hoje.year - (1 if hoje.month == 1 else 0):
+            ant = json.load(open(anterior, encoding="utf-8"))
+            if "bova11" not in ant:
+                raise ValueError("arquivo anterior sem BOVA11: baixa tudo de novo")
+            limite = hoje.year - (1 if hoje.month == 1 else 0)
+            for x in ant["dias"]:
+                if int(x[0][:4]) < limite:
                     por_dia[x[0]] = x
                     anos_reuso.add(int(x[0][:4]))
+            for x in ant["bova11"]:
+                if int(x[0][:4]) < limite:
+                    bova[x[0]] = x
             if anos_reuso:
                 log.append("- anos reaproveitados do arquivo anterior: %s" % ", ".join(map(str, sorted(anos_reuso))))
         except Exception:  # noqa: BLE001
@@ -110,7 +118,10 @@ def main():
             continue
         try:
             for d, t, fech, vol, neg in le_zip(conteudo):
-                por_dia[d] = [d, t, fech, vol, neg]
+                if t == INDICE:
+                    bova[d] = [d, fech]
+                else:
+                    por_dia[d] = [d, t, fech, vol, neg]
         except Exception:  # noqa: BLE001
             erros += 1
             log.append("- %d: erro ao ler o arquivo\n```\n%s\n```" % (ano, traceback.format_exc()))
@@ -125,7 +136,8 @@ def main():
         return 0
     doc = {"fonte": "B3 — Séries Históricas (COTAHIST), mercado à vista, preço de fechamento sem ajuste por proventos",
            "atualizado_em": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
-           "campos": ["data", "ticker", "fechamento_rs", "volume_rs", "negocios"], "dias": dias}
+           "campos": ["data", "ticker", "fechamento_rs", "volume_rs", "negocios"], "dias": dias,
+           "bova11": [bova[k] for k in sorted(bova)]}
     with open(os.path.join(saida, "b3_cotacoes.json"), "w", encoding="utf-8") as f:
         json.dump(doc, f, ensure_ascii=False, separators=(",", ":"))
     print("OK: %d dias" % len(dias))
