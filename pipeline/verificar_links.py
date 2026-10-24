@@ -18,6 +18,7 @@ import urllib.request
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"}
+AMOSTRAS = {}
 ERRO_CVM = re.compile(r"(documento n[ãa]o (foi )?encontrado|n[ãa]o foi poss[íi]vel|erro inesperado|acesso negado|p[áa]gina n[ãa]o encontrada|object reference)", re.I)
 
 
@@ -63,6 +64,9 @@ def testa(url):
                 txt = ini.decode("utf-8", "ignore")
                 if ERRO_CVM.search(txt):
                     return "quebrado", "página de erro da CVM"
+                tit = re.search(r"<title[^>]*>(.*?)</title>", txt, re.I | re.S)
+                corpo = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", re.sub(r"(?is)<(script|style).*?</\1>", " ", txt))).strip()
+                AMOSTRAS[url] = ((tit.group(1).strip() if tit else "") + " | " + corpo[:160])[:220]
                 return "ok", "página"
         except urllib.error.HTTPError as e:
             ultimo = "HTTP %d" % e.code
@@ -88,7 +92,10 @@ def main():
         if s_ == "ok":
             tipos[m] = tipos.get(m, 0) + 1
     paginas = sorted(u for u, (s_, m) in res.items() if s_ == "ok" and m == "página")
-    json.dump({"verificado_em": agora, "total": len(res), "ok": len(res) - len(quebrados), "por_tipo": tipos, "paginas": paginas[:200], "quebrados": quebrados},
+    grupos = {}
+    for u in paginas:
+        grupos.setdefault(AMOSTRAS.get(u, ""), []).append(u)
+    json.dump({"verificado_em": agora, "total": len(res), "ok": len(res) - len(quebrados), "por_tipo": tipos, "paginas": [{"amostra": k, "n": len(v), "exemplo": v[0]} for k, v in sorted(grupos.items(), key=lambda kv: -len(kv[1]))], "quebrados": quebrados},
               open(os.path.join(RAIZ, "data", "links.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     log = ["# Verificação de links — %s" % agora, "", "%d links verificados; %d ok (%s); %d quebrados." % (
         len(res), len(res) - len(quebrados), ", ".join("%d %s" % (v, k) for k, v in sorted(tipos.items())), len(quebrados)), ""]
