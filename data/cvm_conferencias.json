@@ -4144,36 +4144,36 @@
   "teste": "DRE 3.01 da CVM = valor do release",
   "periodo": "1T25",
   "esperado": 44859.0,
-  "reportado": 44906,
-  "diferenca": -47.0,
-  "status": "divergente"
+  "reportado": 44859,
+  "diferenca": 0.0,
+  "status": "ok"
  },
  {
   "demo": "Release",
   "teste": "DRE 3.01 da CVM = valor do release",
   "periodo": "3T25",
   "esperado": 48345.0,
-  "reportado": 48423,
-  "diferenca": -78.0,
-  "status": "divergente"
+  "reportado": 48345,
+  "diferenca": 0.0,
+  "status": "ok"
  },
  {
   "demo": "Release",
   "teste": "DRE 3.01 da CVM = valor do release",
   "periodo": "4T25",
   "esperado": 50326.0,
-  "reportado": 50318,
-  "diferenca": 8.0,
-  "status": "divergente"
+  "reportado": 50326,
+  "diferenca": 0.0,
+  "status": "ok"
  },
  {
   "demo": "Release",
   "teste": "DRE 3.01 da CVM = valor do release",
   "periodo": "1T26",
   "esperado": 48004.0,
-  "reportado": 48100,
-  "diferenca": -96.0,
-  "status": "divergente"
+  "reportado": 48004,
+  "diferenca": 0.0,
+  "status": "ok"
  },
  {
   "demo": "Release",
@@ -4199,6 +4199,15 @@
   "periodo": "1T25",
   "esperado": 601.0,
   "reportado": 601,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Release",
+  "teste": "DRE 3.11 da CVM = valor do release",
+  "periodo": "2T25",
+  "esperado": 292.0,
+  "reportado": 292,
   "diferenca": 0.0,
   "status": "ok"
  },
@@ -4316,6 +4325,87 @@
   "periodo": "1T26",
   "esperado": 5107.0,
   "reportado": 5107,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Release",
+  "teste": "Fluxo de caixa 6.01 da CVM = valor do release",
+  "periodo": "1T25",
+  "esperado": 945.0,
+  "reportado": 945,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Release",
+  "teste": "Fluxo de caixa 6.01 da CVM = valor do release",
+  "periodo": "2T25",
+  "esperado": 808.0,
+  "reportado": 808,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Release",
+  "teste": "Fluxo de caixa 6.01 da CVM = valor do release",
+  "periodo": "3T25",
+  "esperado": 3508.0,
+  "reportado": 3508,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Release",
+  "teste": "Fluxo de caixa 6.01 da CVM = valor do release",
+  "periodo": "4T25",
+  "esperado": 1405.0,
+  "reportado": 1405,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Release",
+  "teste": "Fluxo de caixa 6.02 da CVM = valor do release",
+  "periodo": "1T25",
+  "esperado": -3379.0,
+  "reportado": -3379,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Release",
+  "teste": "Fluxo de caixa 6.02 da CVM = valor do release",
+  "periodo": "2T25",
+  "esperado": -259.0,
+  "reportado": -259,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Release",
+  "teste": "Fluxo de caixa 6.02 da CVM = valor do release",
+  "periodo": "3T25",
+  "esperado": -274.0,
+  "reportado": -274,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Release",
+  "teste": "Fluxo de caixa 6.02 da CVM = valor do release",
+  "periodo": "4T25",
+  "esperado": -230.0,
+  "reportado": -230,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Release",
+  "teste": "Fluxo de caixa 6.02 da CVM = valor do release",
+  "periodo": "1T26",
+  "esperado": -174.0,
+  "reportado": -174,
   "diferenca": 0.0,
   "status": "ok"
  }

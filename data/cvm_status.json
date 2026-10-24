@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-24T14:30:29Z",
+ "gerado_em": "2026-10-24T14:31:41Z",
  "periodos": {
   "dre": [
    "1T17",
@@ -123,8 +123,8 @@
    "2T26"
   ]
  },
- "testes": 480,
- "divergentes": 4,
+ "testes": 490,
+ "divergentes": 0,
  "sem_dados": 0,
- "validado": false
+ "validado": true
 }
