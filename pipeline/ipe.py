@@ -44,7 +44,7 @@ def col(linha, *nomes):
     return ""
 
 
-def ler_zip(conteudo):
+def ler_zip(conteudo, cnpj=CNPJ):
     out = []
     with zipfile.ZipFile(io.BytesIO(conteudo)) as z:
         for nome in z.namelist():
@@ -52,7 +52,7 @@ def ler_zip(conteudo):
                 continue
             with z.open(nome) as f:
                 for l in csv.DictReader(io.TextIOWrapper(f, encoding="latin-1"), delimiter=";"):
-                    if col(l, "CNPJ_Companhia", "CNPJ_CIA") != CNPJ:
+                    if col(l, "CNPJ_Companhia", "CNPJ_CIA") != cnpj:
                         continue
                     out.append({
                         "data_entrega": col(l, "Data_Entrega", "DT_ENTREGA")[:10],

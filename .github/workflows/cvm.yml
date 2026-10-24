@@ -81,6 +81,7 @@ jobs:
           python pipeline/releases.py
           python pipeline/releases_ler.py
           python -I tests/test_releases.py
+          python pipeline/documentos.py
 
       - name: Salvar resultados no repositório
         if: always()
