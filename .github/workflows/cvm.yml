@@ -1,0 +1,60 @@
+name: Atualizar dados da CVM
+
+# Baixa DFP e ITR da Vibra nos Dados Abertos da CVM, monta as séries trimestrais e roda as conferências.
+# Resultado: data/cvm_*.json e logs/cvm-ultima-execucao.md
+on:
+  workflow_dispatch:
+    inputs:
+      completo:
+        description: 'Refazer toda a série (baixa todos os anos)'
+        type: boolean
+        default: false
+  push:
+    paths:
+      - 'pipeline/**'
+      - '.github/workflows/cvm.yml'
+  schedule:
+    - cron: '17 9 * * *'   # diariamente, 06:17 em Brasília
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-cvm
+  cancel-in-progress: false
+
+jobs:
+  cvm:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Teste automático do pipeline
+        run: python -I tests/test_cvm_fixture.py
+
+      - name: Baixar e processar dados da CVM
+        run: |
+          if [ "${{ inputs.completo }}" = "true" ]; then
+            python pipeline/cvm.py --completo
+          else
+            python pipeline/cvm.py
+          fi
+
+      - name: Salvar resultados no repositório
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data logs
+          if git diff --cached --quiet; then
+            echo "Sem mudanças."
+          else
+            git commit -m "Atualiza dados da CVM"
+            git pull --rebase -q origin main
+            git push
+          fi
