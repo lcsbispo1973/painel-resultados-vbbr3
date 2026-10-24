@@ -59,10 +59,17 @@ def coletar(grupo, docs, log, completo):
         if k in idx and os.path.exists(os.path.join(pasta, idx[k]["arquivo"])):
             continue
         b, erro = baixar(d["link"])
+        if b and b[:2] == b"PK":   # alguns documentos vêm compactados: usa o maior PDF do pacote
+            try:
+                with zipfile.ZipFile(io.BytesIO(b)) as z:
+                    pdfs = [z.read(n) for n in z.namelist() if n.lower().endswith(".pdf")]
+                b = max(pdfs, key=len) if pdfs else b
+            except Exception as e:  # noqa: BLE001
+                erro = "zip inválido: %s" % e
         txt = pdf_texto(b) if b and b.startswith(b"%PDF") else None
         if not txt:
             falhas += 1
-            log.append("  - ERRO %s %s: %s" % (d["data_entrega"], d["assunto"][:50], erro or "não é PDF"))
+            log.append("  - ERRO %s %s: %s" % (d["data_entrega"], d["assunto"][:50], erro or ("não é PDF: %r" % (b[:12] if b else b""))))
             continue
         arq = "%s_%s.txt" % (d["data_entrega"], seguro(k))
         open(os.path.join(pasta, arq), "w", encoding="utf-8").write(txt)
@@ -144,23 +151,19 @@ def diag_fre_xml(log):
     b, erro = baixar(doc["link"])
     if not b or b[:2] != b"PK":
         log.append("- erro: %s" % (erro or "não é zip")); return
-    import xml.etree.ElementTree as ET
     with zipfile.ZipFile(io.BytesIO(b)) as z:
         nome = [n for n in z.namelist() if "FRE" in n and n.endswith(".xml")][0]
-        raiz = ET.fromstring(z.read(nome))
+        bruto = z.read(nome)
+    s = bruto.decode("utf-8", "ignore") if b"encoding=\"utf-8\"" in bruto[:200].lower() else bruto.decode("latin-1", "ignore")
+    log.append("- %s: %d caracteres; cabeçalho %r" % (nome, len(s), s[:120]))
     tam = Counter(); exemplo = {}
-    def anda(e, caminho):
-        c = caminho + "/" + e.tag
-        txt = (e.text or "").strip()
-        if len(txt) > 300:
-            tam[c] += len(txt)
-            if c not in exemplo:
-                exemplo[c] = re.sub(r"<[^>]+>", " ", txt)[:90]
-        for f in e:
-            anda(f, c)
-    anda(raiz, "")
+    for m in re.finditer(r"<([A-Za-z_][\w.-]*)[^>]*>([^<]{300,})</\1>", s):
+        tag, txt = m.group(1), m.group(2)
+        tam[tag] += len(txt)
+        exemplo.setdefault(tag, re.sub(r"&[a-z#0-9]+;|\s+", " ", txt)[:90])
     for c, n in tam.most_common(40):
-        log.append("- %s: %d caracteres · %r" % (c[-120:], n, exemplo[c] if re.search(r"condi|liquidez|resultado|endivid|financ", exemplo[c], re.I) else exemplo[c][:25]))
+        ex = exemplo[c]
+        log.append("- <%s>: %d caracteres · %r" % (c, n, ex if re.search(r"condi|liquidez|resultado|endivid|financ|10\.", ex, re.I) else ex[:25]))
 
 
 def main():
@@ -174,7 +177,7 @@ def main():
     ult = ipe_ultrapar(log)
     coletar("ultrapar_rel", [d for d in ult if d["tipo"] == "Press-release"], log, a.completo)
     coletar("ultrapar_df", [d for d in ult if d["tipo"].startswith("Demonstrações Financeiras") and "Especiais" not in d["tipo"]], log, a.completo)
-    for f in (diag_enet_itr, diag_fre_xml):
+    for f in (diag_fre_xml,):
         try:
             f(log)
         except Exception as e:  # noqa: BLE001
