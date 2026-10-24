@@ -148,10 +148,16 @@
     });
     // Formulário de Referência: o primeiro entregue depois do fim do exercício de A comenta esse exercício
     var anoA = 2000 + +A.p.slice(2), fre = null, anoFre = null;
-    if (c.fre && c.fre.anos) Object.keys(c.fre.anos).sort().forEach(function (k) { var f = c.fre.anos[k]; if (!fre && f.recebido && f.recebido > anoA + '-12-31') { fre = f; anoFre = k; } });
+    // o FRE do ano N comenta o exercício N−1; para o exercício corrente (ainda sem FRE próprio) vale o mais recente
+    if (c.fre && c.fre.anos) {
+      var temSub = function (k) { var f = c.fre.anos[k]; return f && f.subitens && Object.keys(f.subitens).length; };
+      var ks = Object.keys(c.fre.anos).filter(temSub).sort();
+      anoFre = temSub(String(anoA + 1)) ? String(anoA + 1) : ks.filter(function (k) { return +k <= anoA + 1; }).pop() || null;
+      fre = anoFre ? c.fre.anos[anoFre] : null;
+    }
     var citFre = [];
     if (fre && fre.subitens) {
-      ['a', 'f'].forEach(function (k) { var s = fre.subitens[k]; if (s && s.paragrafos && s.paragrafos[0]) citFre.push({ texto: '“' + s.paragrafos[0].slice(0, 900) + (s.paragrafos[0].length > 900 ? '…' : '') + '”', fonte: 'Formulário de Referência ' + anoFre + ' (entregue em ' + P.fData(fre.recebido) + '), item 10.1 ' + k + ') ' + s.titulo.toLowerCase(), link: fre.link }); });
+      ['a', 'f'].forEach(function (k) { var s = fre.subitens[k]; if (s && s.paragrafos && s.paragrafos[0]) citFre.push({ texto: '“' + s.paragrafos[0].slice(0, 900) + (s.paragrafos[0].length > 900 ? '…' : '') + '”', fonte: 'Formulário de Referência ' + anoFre + ' (comentários sobre o exercício de ' + (anoFre - 1) + '; versão entregue em ' + P.fData(fre.recebido) + '), item 10.1 ' + k + ') ' + s.titulo.toLowerCase(), link: fre.link }); });
       if (citFre.length) addFonte('Formulário de Referência ' + anoFre + ' (item 10)', fre.link);
     }
     secoes.push({ id: 'ev', titulo: 'Eventos do período e visão da administração', paragrafos: ev.length ? ['Fatos relevantes divulgados no período:'] : ['Não houve fato relevante divulgado no período.'], itens: ev, citacoes: citFre });

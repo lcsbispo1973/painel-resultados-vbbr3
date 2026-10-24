@@ -115,6 +115,7 @@ def subitens(t):
         txt = corpo[p0:p1]
         txt = re.sub(r"^\s*\(?%s\)\s*[^\n]*\n" % letra, "", txt)          # tira o título do subitem
         paras = [re.sub(r"\s+", " ", x).strip() for x in re.split(r"\n\s*\n", txt)]
+        paras = [re.sub(r"(?<=[a-zà-ú])f (?=[a-zà-ú])|\bf (?=[a-zà-ú]{2,})", "f", x) for x in paras]   # ligadura "fi"/"fo" quebrada pelo PDF
         paras = [x for x in paras if len(x) > 80 and not re.match(r"^(PÁGINA|Página|Formulário de Referência)", x)]
         out[letra] = {"titulo": nome, "paragrafos": paras[:12]}
     return out
@@ -148,6 +149,9 @@ def main():
             open(os.path.join(RAIZ, "logs", "fre10", "%s.txt" % ano), "w", encoding="utf-8").write(t[i0:i0 + 40000])
         atual["anos"][ano] = {"chave": chave, "versao": doc["versao"], "recebido": doc["dt_receb"], "link": doc["link"].replace("http://", "https://"), "subitens": sub}
         log.append("- %s v%s: subitens %s (%s)" % (ano, doc["versao"], ", ".join(sorted(sub)) or "nenhum", rastro[-1]))
+    for v in atual["anos"].values():   # ligaduras quebradas também nos anos já gravados
+        for sb in (v.get("subitens") or {}).values():
+            sb["paragrafos"] = [re.sub(r"(?<=[a-zà-ú])f (?=[a-zà-ú])|\bf (?=[a-zà-ú]{2,})", "f", x) for x in sb["paragrafos"]]
     atual["fonte"] = "Formulário de Referência (CVM), item 10 — comentários dos diretores, última versão de cada ano"
     atual["atualizado_em"] = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     json.dump(atual, open(caminho, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
