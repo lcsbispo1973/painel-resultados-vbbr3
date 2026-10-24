@@ -1,6 +1,6 @@
 # Documentos — última execução
 
-Executado em 2026-10-24 20:22 UTC
+Executado em 2026-10-24 20:26 UTC
 
 - vibra_df: 30 no índice, 0 novos, 0 falhas
 - vibra_proventos: 59 no índice, 0 novos, 0 falhas
