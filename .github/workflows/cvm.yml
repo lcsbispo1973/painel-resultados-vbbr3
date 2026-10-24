@@ -99,7 +99,7 @@ jobs:
             echo "Sem mudanças."
           else
             git commit -m "Atualiza dados da CVM"
-            git pull --rebase -q origin main
+            git pull --rebase -X theirs -q origin main
             git push
           fi
 
