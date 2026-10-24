@@ -159,7 +159,10 @@
     if (fre && fre.subitens) {
       ['a', 'f'].forEach(function (k) {
         var s = fre.subitens[k], ps = (s && s.paragrafos) || [];
-        var pr = ps.filter(function (x) { return x.length >= 160 && /R\$|%/.test(x); })[0] || ps[0];   // o primeiro parágrafo com substância
+        // parágrafo sobre o fechamento do exercício comentado (versões posteriores do FRE abrem com o trimestre mais recente)
+        var marca = '31 de dezembro de ' + (anoFre - 1), pr = ps.filter(function (x) { return x.indexOf(marca) >= 0 && /R\$|%/.test(x); })[0];
+        if (pr) { var i = pr.search(new RegExp('Em ' + marca)); if (i > 0) pr = pr.slice(i); }
+        pr = pr || ps.filter(function (x) { return x.length >= 160 && /R\$|%/.test(x); })[0] || ps[0];
         if (pr) citFre.push({ texto: '“' + pr.slice(0, 900) + (pr.length > 900 ? '…' : '') + '”', fonte: 'Formulário de Referência ' + anoFre + ' (comentários sobre o exercício de ' + (anoFre - 1) + '; versão entregue em ' + P.fData(fre.recebido) + '), item 10.1 ' + k + ') ' + s.titulo.toLowerCase(), link: fre.link }); });
       if (citFre.length) addFonte('Formulário de Referência ' + anoFre + ' (item 10)', fre.link);
     }
