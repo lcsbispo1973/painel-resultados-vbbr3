@@ -81,11 +81,20 @@
     // EBITDA Ajustado (nota de informações por segmento das DFs/ITRs; release só onde a DF não traz o trimestre)
     var AJ = dados.aj || null;
     m.ajFonte = function (seg, p) { var x = AJ && AJ.series[p] && AJ.series[p][seg]; return x || null; };
+    m.ajExercicio = function (seg, ano) { var x = AJ && AJ.exercicios && AJ.exercicios[String(ano)]; return x && x[seg] || null; };
     m.aj = function (seg, p, base) {
       base = base || 'T';
       if (!AJ || !fechaBase(base, p)) return null;
       var k = trimestresBase(base, p), n = ord(p), s = 0;
-      for (var i = n - k + 1; i <= n; i++) { var x = AJ.series[lab(i)] && AJ.series[lab(i)][seg]; if (!x || !ok(x.v)) return null; s += x.v; }
+      for (var i = n - k + 1; i <= n; i++) {
+        var x = AJ.series[lab(i)] && AJ.series[lab(i)][seg];
+        if (!x || !ok(x.v)) {
+          // exercício completo sem os trimestres (2016, antes do IPO): total anual divulgado no release
+          var ex = k === 4 && tri(p) === 4 && AJ.exercicios && AJ.exercicios[String(2000 + parseInt(p.slice(2), 10))];
+          return ex && ex[seg] && ok(ex[seg].v) ? ex[seg].v : null;
+        }
+        s += x.v;
+      }
       return s;
     };
     m.ajPeriodos = function () { return AJ ? AJ.periodos.slice() : []; };
@@ -181,7 +190,7 @@
     add(G.mar, 'rbruto', 'Resultado bruto', 'R$ mi', '3.03', function (c) { return c.t('dre', '3.03'); });
     add(G.mar, 'ebit', 'EBIT (ex-equivalência)', 'R$ mi', '3.05 − 3.04.06', function (c) { return c.ebit(); }, 'Resultado antes do financeiro e dos tributos, sem o resultado de equivalência patrimonial.');
     add(G.mar, 'da', 'Depreciação e amortização', 'R$ mi', '− DVA 7.04.01', function (c) { var v = c.t('dva', '7.04.01'); return ok(v) ? -v : null; }, 'Linha de retenções da DVA.');
-    add(G.mar, 'ebitda', 'EBITDA Ajustado', 'R$ mi', 'Nota de informações por segmento das ITRs/DFPs (release até 2021)', function (c) { return c.aj(); }, 'Medida não contábil definida pela Companhia, apresentada na nota de informações por segmento das demonstrações financeiras desde 2023 (com comparativos de 2022); de 4T17 a 4T21, conforme o release de resultados.');
+    add(G.mar, 'ebitda', 'EBITDA Ajustado', 'R$ mi', 'Nota de informações por segmento das ITRs/DFPs (release até 2021)', function (c) { return c.aj(); }, 'Medida não contábil definida pela Companhia, apresentada na nota de informações por segmento das demonstrações financeiras desde 2023 (com comparativos de 2022); de 4T17 a 4T21, conforme o release de resultados; antes do IPO, os trimestres de 4T16 a 3T17 vêm dos comparativos dos releases de 2018 e o exercício de 2016, do total anual divulgado no release do 4T17.');
     add(G.mar, 'ebitdac', 'EBITDA contábil (referência)', 'R$ mi', 'EBIT (ex-equivalência) + depreciação e amortização (DVA 7.04.01)', function (c) { return c.ebitda(); }, 'Calculado a partir das demonstrações; serve de referência para a ponte com o EBITDA Ajustado.');
     add(G.mar, 'rfin', 'Resultado financeiro', 'R$ mi', '3.06', function (c) { return c.t('dre', '3.06'); });
     add(G.mar, 'lucro', 'Lucro líquido consolidado', 'R$ mi', '3.11', function (c) { return c.t('dre', '3.11'); });
@@ -237,7 +246,7 @@
     add(G.cx, 'capexda', 'Investimentos ÷ depreciação e amortização', 'x', '− DFC 6.02.01 ÷ D&A', function (c) { var da = IND.da.f(c); return ok(da) && da > 0 ? div(mul(-1, c.t('dfc', '6.02.01')), da) : null; }, NOTA_BASE);
     add(G.cx, 'prov', 'Dividendos e JCP pagos', 'R$ mi', '− DFC 6.03.05', function (c) { var v = c.t('dfc', '6.03.05'); return ok(v) ? -v : null; }, 'Valores pagos no período (regime de caixa).');
 
-    add(G.acao, 'acoes', 'Ações em circulação (ex-tesouraria)', 'milhões', 'Total de ações − ações em tesouraria', function (c) { var a = c.acoes(0); return ok(a) ? a / 1e6 : null; }, 'Composição do capital informada nas ITR/DFP (disponível a partir de 2020).');
+    add(G.acao, 'acoes', 'Ações em circulação (ex-tesouraria)', 'milhões', 'Total de ações − ações em tesouraria', function (c) { var a = c.acoes(0); return ok(a) ? a / 1e6 : null; }, 'Composição do capital informada nas ITR/DFP a partir de 2020; de 4T17 a 4T19, quantidade de ações do Formulário de Referência (capital sem alteração no período e sem ações em tesouraria no balanço).');
     add(G.acao, 'lpa', 'Lucro por ação (UDM)', 'R$', 'Lucro dos controladores UDM ÷ média das ações em circulação', function (c) { return div(mul(c.u('dre', '3.11.01'), 1e6), media(c.acoes(0), c.acoes(4))); }, NOTA_UDM + ' Aproximação: não usa a média ponderada do período.');
     add(G.acao, 'vpa', 'Valor patrimonial por ação', 'R$', 'PL dos controladores ÷ ações em circulação', function (c) { return div(mul(c.plc(0), 1e6), c.acoes(0)); }, NOTA_SALDO);
 

@@ -34,13 +34,19 @@ const rotCurto = (l) => l.base === 'AN' ? String(ano(l)) : l.base === 'S' ? (l.p
 
 // volume e margem por m³ do release (mesma regra da aba Operacional)
 function volume(seg, l) {
-  const k = D.trimestresBase(l.base, l.p), n = D.ord(l.p); let s = 0;
+  // mesma regra do painel (pag-consulta.js, P.oper): ano completo usa o total divulgado no release do 4º trimestre quando
+  // falta trimestre, quando algum trimestre vem de comparativo ou quando a diferença é só de arredondamento
+  const k = D.trimestresBase(l.base, l.p), n = D.ord(l.p); let s = 0, comp = false, falta = false;
+  const e = k === 4 && l.p[0] === '4' && oper && oper.exercicios && oper.exercicios[String(2000 + +l.p.slice(2))];
+  const ex = e && e[seg] && e[seg].vol && ok(e[seg].vol.v) ? e[seg].vol.v : null;
   for (let i = n - k + 1; i <= n; i++) {
-    const q = oper && oper.series[D.lab(i)]; if (!q) return null;
-    const x = seg === 'CONS' ? ((q.CONS && q.CONS.vol) || (q.DIST && q.DIST.vol)) : (q[seg] && q[seg].vol);
-    if (!x || !ok(x.v)) return null; s += x.v;
+    const q = oper && oper.series[D.lab(i)];
+    const x = q && (seg === 'CONS' ? ((q.CONS && q.CONS.vol) || (q.DIST && q.DIST.vol)) : (q[seg] && q[seg].vol));
+    if (!x || !ok(x.v)) { falta = true; break; }
+    s += x.v; comp = comp || /comparativo/.test((x.fonte && x.fonte.como) || '');
   }
-  return s;
+  if (falta) return ex;
+  return ex !== null && (comp || Math.abs(s - ex) <= Math.max(3, Math.abs(ex) * 0.0002)) ? ex : s;
 }
 function margem(seg, l) {
   let e = M.aj(seg, l.p, l.base); const v = volume(seg, l);

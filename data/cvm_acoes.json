@@ -1,6 +1,15 @@
 {
  "unidade": "ações (a CVM informa em milhares; aqui já multiplicado)",
  "periodos": [
+  "4T17",
+  "1T18",
+  "2T18",
+  "3T18",
+  "4T18",
+  "1T19",
+  "2T19",
+  "3T19",
+  "4T19",
   "1T20",
   "2T20",
   "3T20",
@@ -29,6 +38,51 @@
   "2T26"
  ],
  "valores": {
+  "4T17": {
+   "total": 1165000000.0,
+   "tesouro": 0.0,
+   "fonte": "Formulário de Referência 2017 e 2018 (capital social); sem ações em tesouraria no balanço"
+  },
+  "1T18": {
+   "total": 1165000000.0,
+   "tesouro": 0.0,
+   "fonte": "Formulário de Referência 2018 e 2019 (capital social); sem ações em tesouraria no balanço"
+  },
+  "2T18": {
+   "total": 1165000000.0,
+   "tesouro": 0.0,
+   "fonte": "Formulário de Referência 2018 e 2019 (capital social); sem ações em tesouraria no balanço"
+  },
+  "3T18": {
+   "total": 1165000000.0,
+   "tesouro": 0.0,
+   "fonte": "Formulário de Referência 2018 e 2019 (capital social); sem ações em tesouraria no balanço"
+  },
+  "4T18": {
+   "total": 1165000000.0,
+   "tesouro": 0.0,
+   "fonte": "Formulário de Referência 2018 e 2019 (capital social); sem ações em tesouraria no balanço"
+  },
+  "1T19": {
+   "total": 1165000000.0,
+   "tesouro": 0.0,
+   "fonte": "Formulário de Referência 2019 e 2020 (capital social); sem ações em tesouraria no balanço"
+  },
+  "2T19": {
+   "total": 1165000000.0,
+   "tesouro": 0.0,
+   "fonte": "Formulário de Referência 2019 e 2020 (capital social); sem ações em tesouraria no balanço"
+  },
+  "3T19": {
+   "total": 1165000000.0,
+   "tesouro": 0.0,
+   "fonte": "Formulário de Referência 2019 e 2020 (capital social); sem ações em tesouraria no balanço"
+  },
+  "4T19": {
+   "total": 1165000000.0,
+   "tesouro": 0.0,
+   "fonte": "Formulário de Referência 2019 e 2020 (capital social); sem ações em tesouraria no balanço"
+  },
   "1T20": {
    "total": 1165000000.0,
    "tesouro": 0.0

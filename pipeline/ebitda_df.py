@@ -163,14 +163,16 @@ def main():
     rel = json.load(open(os.path.join(RAIZ, "data", "release_operacional.json"), encoding="utf-8"))
     usados_release = []
     for p in rel["periodos"]:
-        if p in series or ord_t(p) < ord_t("4T17"):
+        if p in series:
             continue
         s = rel["series"][p]
         cons = s.get("CONS", {}).get("ebitda")
         if not cons:
             continue
+        como = ("comparativo do release seguinte (trimestre anterior ao IPO, sem release próprio)" if "comparativo" in cons["fonte"].get("como", "")
+                else "release (a nota de segmentos das DFs não apresentava o EBITDA Ajustado neste período)")
         series[p] = {"CONS": {"v": cons["v"], "fonte": {"tipo": "release", "data": cons["fonte"]["data"], "documento": cons["fonte"]["assunto"], "link": cons["fonte"]["link"],
-                                                         "como": "release (a nota de segmentos das DFs não apresentava o EBITDA Ajustado neste período)"}}}
+                                                         "como": como}}}
         for seg in ("REDE", "B2B", "GC", "AVI", "OUT", "REN"):
             x = s.get(seg, {}).get("ebitda")
             if x:
@@ -191,6 +193,19 @@ def main():
            "segmentos": {"CONS": "Consolidado", "REDE": "Rede de Postos", "B2B": "B2B", "REN": "Renováveis", "SEG": "Total dos segmentos",
                          "CORP": "Corporativo", "GC": "Grandes Consumidores", "AVI": "Aviação", "OUT": "Outros negócios"},
            "periodos": pers, "series": {p: series[p] for p in pers}}
+    # exercícios sem os 4 trimestres na série (2016, antes do IPO): total anual divulgado no release do 4º trimestre seguinte
+    exs = {}
+    for ano, segs in (rel.get("exercicios") or {}).items():
+        qs = ["%dT%s" % (q, ano[2:]) for q in (1, 2, 3, 4)]
+        if all(q in series for q in qs):
+            continue
+        for seg, mets in segs.items():
+            x = mets.get("ebitda")
+            if x:
+                f = x["fonte"]
+                exs.setdefault(ano, {})[seg] = {"v": x["v"], "fonte": {"tipo": "release", "data": f["data"], "documento": f["assunto"], "link": f["link"],
+                                                                       "como": "exercício completo divulgado no release (trimestres não divulgados)"}}
+    doc["exercicios"] = exs
     json.dump(doc, open(os.path.join(RAIZ, "data", "ebitda_ajustado.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     log += ["", "Trimestres: %d (%s a %s); da nota das DFs: %d; do release: %d (%s)" % (
         len(pers), pers[0], pers[-1], len(pers) - len(usados_release), len(usados_release), ", ".join(usados_release[:3] + ["…"] + usados_release[-2:]) if usados_release else "-"), ""]

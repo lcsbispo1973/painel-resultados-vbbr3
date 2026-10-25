@@ -1,13 +1,94 @@
 # Releases — leitura dos números
 
-Executado em 2026-10-25 11:40 UTC
+Executado em 2026-10-25 11:54 UTC
 
 - 2018-03-13 Earnings Release 4Q17 and FY2017: ignorado (sem tabela de volume)
-Releases lidos: 42 · trimestres: 35 (4T17 a 2T26)
+Releases lidos: 42 · trimestres: 39 (4T16 a 2T26)
 
 ## Alertas de consistência (margem ≠ EBITDA ÷ volume)
 
 - nenhum
+
+## Trimestres anteriores ao IPO (comparativos)
+
+- 4T16, 1T17, 2T17, 3T17
+
+## Exercício × soma dos trimestres
+
+- 2017 CONS ebitda: soma dos trimestres 3067.0 × exercício 3067.0
+- 2017 CONS vol: soma dos trimestres 43178.0 × exercício 43175.0
+- 2017 REDE ebitda: soma dos trimestres 2329.0 × exercício 2329.0
+- 2017 REDE vol: soma dos trimestres 22894.0 × exercício 22894.0
+- 2017 GC ebitda: soma dos trimestres 771.0 × exercício 771.0
+- 2017 GC vol: soma dos trimestres 11157.0 × exercício 11156.0
+- 2017 AVI ebitda: soma dos trimestres 272.0 × exercício 272.0
+- 2017 AVI vol: soma dos trimestres 3804.0 × exercício 3803.0
+- 2017 OUT ebitda: soma dos trimestres 414.0 × exercício 412.0
+- 2017 OUT vol: soma dos trimestres 5206.0 × exercício 5322.0  ← diferença (reclassificação entre segmentos ou reapresentação nos comparativos)
+- 2018 CONS ebitda: soma dos trimestres 2558.0 × exercício 2558.0
+- 2018 CONS vol: soma dos trimestres 41548.0 × exercício 41548.0
+- 2018 REDE ebitda: soma dos trimestres 1696.0 × exercício 1696.0
+- 2018 REDE vol: soma dos trimestres 22533.0 × exercício 22534.0
+- 2018 GC ebitda: soma dos trimestres 559.0 × exercício 559.0
+- 2018 GC vol: soma dos trimestres 10218.0 × exercício 10218.0
+- 2018 AVI ebitda: soma dos trimestres 393.0 × exercício 393.0
+- 2018 AVI vol: soma dos trimestres 3913.0 × exercício 3913.0
+- 2018 OUT ebitda: soma dos trimestres 642.0 × exercício 642.0
+- 2018 OUT vol: soma dos trimestres 4883.0 × exercício 4883.0
+- 2019 CONS ebitda: soma dos trimestres 3105.0 × exercício 3105.0
+- 2019 CONS vol: soma dos trimestres 40180.0 × exercício 40181.0
+- 2019 REDE ebitda: soma dos trimestres 1995.0 × exercício 1995.0
+- 2019 REDE vol: soma dos trimestres 22316.0 × exercício 22316.0
+- 2019 GC ebitda: soma dos trimestres 503.0 × exercício 503.0
+- 2019 GC vol: soma dos trimestres 9344.0 × exercício 9344.0
+- 2019 AVI ebitda: soma dos trimestres 373.0 × exercício 373.0
+- 2019 AVI vol: soma dos trimestres 3625.0 × exercício 3625.0
+- 2019 OUT ebitda: soma dos trimestres 929.0 × exercício 929.0
+- 2019 OUT vol: soma dos trimestres 4896.0 × exercício 4896.0
+- 2020 CONS ebitda: soma dos trimestres 3811.0 × exercício 3811.0
+- 2020 CONS vol: soma dos trimestres 36751.0 × exercício 36751.0
+- 2020 REDE ebitda: soma dos trimestres 1709.0 × exercício 1709.0
+- 2020 REDE vol: soma dos trimestres 21037.0 × exercício 21038.0
+- 2020 B2B ebitda: soma dos trimestres 1371.0 × exercício 1371.0
+- 2020 B2B vol: soma dos trimestres 13616.0 × exercício 13616.0
+- 2020 AVI ebitda: soma dos trimestres 110.0 × exercício 110.0
+- 2020 AVI vol: soma dos trimestres 2098.0 × exercício 2098.0
+- 2021 CONS ebitda: soma dos trimestres 4983.0 × exercício 4983.0
+- 2021 CONS vol: soma dos trimestres 38493.0 × exercício 38493.0
+- 2021 REDE ebitda: soma dos trimestres 2585.0 × exercício 2585.0
+- 2021 REDE vol: soma dos trimestres 22535.0 × exercício 22534.0
+- 2021 B2B ebitda: soma dos trimestres 1706.0 × exercício 1706.0
+- 2021 B2B vol: soma dos trimestres 12906.0 × exercício 12906.0
+- 2021 AVI ebitda: soma dos trimestres 524.0 × exercício 524.0
+- 2021 AVI vol: soma dos trimestres 3053.0 × exercício 3053.0
+- 2022 CONS ebitda: soma dos trimestres 5225.0 × exercício 5263.0  ← diferença (reclassificação entre segmentos ou reapresentação nos comparativos)
+- 2022 CONS vol: soma dos trimestres 38553.0 × exercício 38553.0
+- 2022 REDE ebitda: soma dos trimestres 1989.0 × exercício 1951.0  ← diferença (reclassificação entre segmentos ou reapresentação nos comparativos)
+- 2022 REDE vol: soma dos trimestres 23783.0 × exercício 23776.0  ← diferença (reclassificação entre segmentos ou reapresentação nos comparativos)
+- 2022 B2B ebitda: soma dos trimestres 1243.0 × exercício 1089.0  ← diferença (reclassificação entre segmentos ou reapresentação nos comparativos)
+- 2022 B2B vol: soma dos trimestres 10530.0 × exercício 10405.0  ← diferença (reclassificação entre segmentos ou reapresentação nos comparativos)
+- 2022 AVI ebitda: soma dos trimestres 987.0 × exercício 987.0
+- 2022 AVI vol: soma dos trimestres 4116.0 × exercício 4115.0
+- 2023 CONS ebitda: soma dos trimestres 6259.0 × exercício 6259.0
+- 2023 CONS vol: soma dos trimestres 36931.0 × exercício 36932.0
+- 2023 REDE ebitda: soma dos trimestres 4192.0 × exercício 4192.0
+- 2023 REDE vol: soma dos trimestres 23072.0 × exercício 23072.0
+- 2023 B2B ebitda: soma dos trimestres 2395.0 × exercício 2395.0
+- 2023 B2B vol: soma dos trimestres 13860.0 × exercício 13860.0
+- 2024 CONS ebitda: soma dos trimestres 6254.0 × exercício 6254.0
+- 2024 CONS vol: soma dos trimestres 35821.0 × exercício 35821.0
+- 2024 REDE ebitda: soma dos trimestres 4065.0 × exercício 4065.0
+- 2024 REDE vol: soma dos trimestres 22080.0 × exercício 22079.0
+- 2024 B2B ebitda: soma dos trimestres 2480.0 × exercício 2480.0
+- 2024 B2B vol: soma dos trimestres 13742.0 × exercício 13742.0
+- 2025 DIST ebitda: soma dos trimestres 7083.0 × exercício 7083.0
+- 2025 DIST vol: soma dos trimestres 35892.0 × exercício 35891.0
+- 2025 REDE ebitda: soma dos trimestres 4625.0 × exercício 4625.0
+- 2025 REDE vol: soma dos trimestres 22467.0 × exercício 22466.0
+- 2025 B2B ebitda: soma dos trimestres 2861.0 × exercício 2861.0
+- 2025 B2B vol: soma dos trimestres 13424.0 × exercício 13425.0
+- 2025 CONS ebitda: soma dos trimestres 7923.0 × exercício 7923.0
+- 2025 REN ebitda: soma dos trimestres 840.0 × exercício 840.0
 
 ## Reapresentações em releases posteriores
 
@@ -34,8 +115,8 @@ Releases lidos: 42 · trimestres: 35 (4T17 a 2T26)
 - 4T18 REDE vol: 5858.0 no próprio release; depois 5827.0 (2019-05-06), 5827.0 (2019-05-07), 5827.0 (2020-03-11)
 - 4T18 REDE ebitda: 535.0 no próprio release; depois 505.0 (2019-05-06), 505.0 (2019-05-07), 505.0 (2020-03-11)
 - 4T18 REDE margem_m3: 91.0 no próprio release; depois 87.0 (2019-05-06), 87.0 (2019-05-07), 87.0 (2020-03-11)
-- 4T18 OUT vol: 1210.0 no próprio release; depois 1241.0 (2019-05-06), 1241.0 (2019-05-07)
-- 4T18 OUT ebitda: 176.0 no próprio release; depois 206.0 (2019-05-06), 206.0 (2019-05-07)
+- 4T18 OUT vol: 1210.0 no próprio release; depois 1241.0 (2019-05-06), 1241.0 (2019-05-07), 1242.0 (2020-03-11)
+- 4T18 OUT ebitda: 176.0 no próprio release; depois 206.0 (2019-05-06), 206.0 (2019-05-07), 206.0 (2020-03-11)
 - 4T18 OUT margem_m3: 145.0 no próprio release; depois 166.0 (2019-05-06), 166.0 (2019-05-07)
 - 1T19 CONS ebitda: 841.0 no próprio release; depois 860.0 (2020-06-10), 860.0 (2020-06-10)
 - 1T19 CONS margem_m3: 86.0 no próprio release; depois 88.0 (2020-06-10)
@@ -90,3 +171,5 @@ Releases lidos: 42 · trimestres: 35 (4T17 a 2T26)
 - 2T25 B2B margem_rec_m3: 197.0 no próprio release; depois 164.0 (2025-11-05), 157.0 (2026-08-14)
 - 3T25 REDE margem_rec_m3: 175.0 no próprio release; depois 173.0 (2026-03-11)
 - 3T25 B2B margem_rec_m3: 184.0 no próprio release; depois 156.0 (2026-03-11)
+- 3T17 OUT ebitda: 130.0 no próprio release; depois 123.0 (2018-11-05)
+- 3T17 OUT margem_m3: 99.0 no próprio release; depois 94.0 (2018-11-05)

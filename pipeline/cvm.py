@@ -219,6 +219,32 @@ def carregar_linhas(pasta_raw):
     return linhas
 
 
+def completar_acoes_fre(acoes, bp, pasta_dados, log):
+    """A CVM só tem a composição do capital nas ITR/DFP a partir de 2020. Para os trimestres anteriores, usa a quantidade
+    de ações do Formulário de Referência: só quando o FRE do ano e o do ano seguinte informam o mesmo total (capital sem
+    alteração no ano) e o balanço do trimestre não tem ações em tesouraria (conta 2.03.05 igual a zero)."""
+    try:
+        cap = json.load(open(os.path.join(pasta_dados, "fre_series.json"), encoding="utf-8")).get("capital", [])
+    except (OSError, ValueError):
+        return acoes
+    por_ano = {int(c["ano_fre"]): c.get("acoes_total") for c in cap if c.get("acoes_total")}
+    tes = {per: v.get("2.03.05") for per, v in bp.items()}
+    if not acoes:
+        return acoes
+    primeiro = min(acoes, key=ordem_periodo)
+    novos = {}
+    for per in sorted(bp, key=ordem_periodo):
+        if ordem_periodo(per) >= ordem_periodo(primeiro):
+            break
+        ano = 2000 + int(per[2:])
+        a, b = por_ano.get(ano), por_ano.get(ano + 1)
+        if a and b and a == b and tes.get(per) == 0:
+            novos[per] = {"total": a, "tesouro": 0.0, "fonte": "Formulário de Referência %d e %d (capital social); sem ações em tesouraria no balanço" % (ano, ano + 1)}
+    if novos:
+        log.append("- Quantidade de ações antes de 2020 pelo Formulário de Referência: %s" % ", ".join(novos))
+    return {**novos, **acoes}
+
+
 def carregar_acoes(pasta_raw):
     """Quantidade de ações por data de referência (DFP/ITR, arquivo composicao_capital)."""
     por_data = {}
@@ -428,6 +454,7 @@ def principal(args):
         dva = serie_dfc(por("DVA"), log)
         dra = serie_dre(por("DRA"))
         acoes = carregar_acoes(os.path.join(pasta_dados, "cvm_raw"))
+        acoes = completar_acoes_fre(acoes, bp, pasta_dados, log)
         n_comp = len({(r["demo"], r["fim"]) for r in linhas if r.get("comparativo")})
         log.append(f"- Períodos completados por comparativos do ano seguinte (sem demonstração própria na CVM): {n_comp}")
         gravar_json(os.path.join(pasta_dados, "cvm_dre.json"), larga(dre, descricoes(por("DRE"))))

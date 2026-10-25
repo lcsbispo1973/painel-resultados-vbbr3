@@ -1,6 +1,6 @@
 # EBITDA Ajustado (nota de segmentos das DFs) — última execução
 
-Executado em 2026-10-25 11:40 UTC
+Executado em 2026-10-25 11:54 UTC
 
 - 2019-02-26 : título não reconhecido: ''
 - 2020-03-11 : título não reconhecido: ''
@@ -8,7 +8,7 @@ Executado em 2026-10-25 11:40 UTC
 - 2026-05-06 Demonstrações Financeiras 1T26: ('A', 2026, 3): 'Total dos segmentos' publicado 3449.0 ≠ soma dos segmentos 3349.0 (segmentos + corporativo = consolidado 3204.0); usada a soma
 - 2026-05-08 Demonstrações Financeiras 1T26: ('A', 2026, 3): 'Total dos segmentos' publicado 3449.0 ≠ soma dos segmentos 3349.0 (segmentos + corporativo = consolidado 3204.0); usada a soma
 
-Trimestres: 35 (4T17 a 2T26); da nota das DFs: 18; do release: 17 (4T17, 1T18, 2T18, …, 3T21, 4T21)
+Trimestres: 39 (4T16 a 2T26); da nota das DFs: 18; do release: 21 (4T16, 1T17, 2T17, …, 3T21, 4T21)
 
 ## DF × release (EBITDA Ajustado consolidado)
 

@@ -6,7 +6,7 @@ Roda antes de publicar. Se qualquer checagem falhar, sai com código 1 e o site 
 Checagens:
   1. Demonstrações: conferências do pipeline da CVM sem divergência (cvm_status.json).
   2. EBITDA Ajustado: soma dos segmentos = total dos segmentos; total + Corporativo = Consolidado;
-     série contínua de 4T17 até o último trimestre com nota de segmentos; onde a fonte é o release,
+     série contínua de 4T16 até o último trimestre com nota de segmentos; onde a fonte é o release,
      o valor bate com o release lido.
   3. Dívida: soma dos vencimentos = total; país + exterior = total.
   4. Ipiranga: margem divulgada = EBITDA ÷ volume (tolerância de R$ 1/m³ pelo arredondamento).
@@ -70,7 +70,14 @@ def main():
     # EBITDA Ajustado
     aj = ler("ebitda_ajustado.json")
     per = aj.get("periodos", [])
-    checa(bool(per) and per[0] == "4T17", f"série de EBITDA Ajustado deveria começar em 4T17 (começa em {per[:1]})")
+    checa(bool(per) and per[0] == "4T16", f"série de EBITDA Ajustado deveria começar em 4T16 (começa em {per[:1]})")
+    # exercícios divulgados no release × soma dos 4 trimestres da série (2017: 1T a 3T vêm dos comparativos)
+    for ano, segs in ((opcional("release_operacional.json") or {}).get("exercicios") or {}).items():
+        qs = ["%dT%s" % (q, ano[2:]) for q in (1, 2, 3, 4)]
+        x = (segs.get("CONS") or {}).get("ebitda")
+        if x and all(q in aj["series"] for q in qs) and all(aj["series"][q]["CONS"]["fonte"].get("tipo") == "release" for q in qs):
+            tot = sum(aj["series"][q]["CONS"]["v"] for q in qs)
+            checa(abs(tot - x["v"]) <= 2, f"EBITDA Ajustado {ano}: soma dos trimestres {tot} ≠ exercício divulgado {x['v']}")
     for a, b in zip(per, per[1:]):
         checa(ordem(b) == ordem(a) + 1, f"EBITDA Ajustado: falta trimestre entre {a} e {b}")
     rel = (opcional("release_operacional.json") or {}).get("series", {})
@@ -100,10 +107,19 @@ def main():
             if c.get("pais") is not None and c.get("exterior") is not None:
                 checa(abs(c["pais"] + c["exterior"] - c["total_consolidado"]) <= 2, f"dívida {p}: país + exterior ≠ total")
 
-    # Dívida líquida divulgada (releases): série contínua desde 4T17, valores positivos
+    # Dívida líquida divulgada (releases): série contínua desde 4T16, valores positivos
     dr = opcional("divida_release.json")
     if dr:
-        ps = [p for p in dr.get("periodos", []) if ordem(p) >= ordem("4T17")]
+        ps = [p for p in dr.get("periodos", []) if ordem(p) >= ordem("4T16")]
+        # alavancagem divulgada × dívida líquida ÷ EBITDA Ajustado dos 12 meses (pega coluna trocada na leitura)
+        for p in ps:
+            a = dr["series"][p].get("alav_divulgada")
+            qs = [p] + [x for x in per if ordem(p) - 3 <= ordem(x) < ordem(p)]
+            if a is None or len(qs) < 4 or not all(q in aj["series"] for q in qs):
+                continue
+            e = sum(aj["series"][q]["CONS"]["v"] for q in qs)
+            checa(e > 0 and abs(dr["series"][p]["v"] / e - a) <= 0.15,
+                  f"dívida líquida {p}: {dr['series'][p]['v']} ÷ EBITDA UDM {e} = {dr['series'][p]['v'] / e:.2f}x, mas o release divulga {a}x")
         for a, b in zip(ps, ps[1:]):
             checa(ordem(b) == ordem(a) + 1, f"dívida líquida divulgada: falta trimestre entre {a} e {b}")
         for p in ps:

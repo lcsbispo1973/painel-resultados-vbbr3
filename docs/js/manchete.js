@@ -58,9 +58,10 @@
     return frase(['No ' + per() + ': ROE de ', b(P.fUn('%', roe)), ', ROIC aproximado de ', b(P.fUn('%', roic)), ', alavancagem de ', b(P.fUn('x', al)), ' e liquidez corrente de ', b(P.f2(lc)), ' (12 meses até o fim do período).']);
   };
   H.operacional = function () {
-    var X = x(), vol = P.oper('CONS', 'vol', X.p, X.base), m3 = P.oper('CONS', 'margem_m3', X.p, X.base), rede = M().aj('REDE', X.p, X.base), b2b = M().aj('B2B', X.p, X.base), ren = M().aj('REN', X.p, X.base);
-    var seg = [rede, b2b, ren].filter(ok).reduce(function (a, v) { return a + v; }, 0);
-    return frase(['No ' + per() + ', volume de ', b(P.fN(vol) + ' mil m³'), ' e margem EBITDA de ', b('R$ ' + P.fInt(m3) + '/m³'), ok(rede) && seg > 0 ? '; a Rede de Postos respondeu por ' + P.f1(rede / seg * 100) + '% do EBITDA dos segmentos.' : '.']);
+    var X = x(), vol = P.oper('CONS', 'vol', X.p, X.base), m3 = P.oper('CONS', 'margem_m3', X.p, X.base), rede = M().aj('REDE', X.p, X.base);
+    // participação da Rede só com o total dos segmentos da nota das DFs (2022 em diante): antes, os segmentos do release mudam de composição
+    var seg = M().aj('SEG', X.p, X.base);
+    return frase(['No ' + per() + ', volume de ', b(P.fN(vol) + ' mil m³'), ' e margem EBITDA de ', b('R$ ' + P.fInt(m3) + '/m³'), ok(rede) && ok(seg) && seg > 0 ? '; a Rede de Postos respondeu por ' + P.f1(rede / seg * 100) + '% do EBITDA dos segmentos.' : '.']);
   };
   H.comparar = function () {
     var A = P.ladoA(), B = P.ladoB(), rA = P.rotLado(A), rB = P.rotLado(B);

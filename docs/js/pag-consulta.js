@@ -21,7 +21,21 @@
     base = base || 'T';
     if (!window.Dados.fechaBase(base, p)) return null;
     var k = window.Dados.trimestresBase(base, p), n = window.Dados.ord(p);
-    var soma = function (m) { var s = 0; for (var i = n - k + 1; i <= n; i++) { var v = get(window.Dados.lab(i), m); if (v === null) return null; s += v; } return s; };
+    var exercicio = function (m) {   // ano sem os 4 trimestres (2016, antes do IPO): total anual divulgado no release do 4T17
+      var e = k === 4 && p[0] === '4' && O.exercicios && O.exercicios[String(2000 + +p.slice(2))], x = e && e[seg] && e[seg][m];
+      return x && ok(x.v) ? x.v : null;
+    };
+    var comparativo = function (pp, m) {
+      var q = O.series[pp], x = q && (seg === 'CONS' ? ((q.CONS && q.CONS[m]) || (q.DIST && q.DIST[m])) : (q[seg] && q[seg][m]));
+      return !!(x && x.fonte && /comparativo/.test(x.fonte.como || ''));
+    };
+    var soma = function (m) {
+      var s = 0, comp = false;
+      for (var i = n - k + 1; i <= n; i++) { var pp = window.Dados.lab(i), v = get(pp, m); if (v === null) return exercicio(m); s += v; comp = comp || comparativo(pp, m); }
+      // ano completo: total divulgado no release do 4º trimestre quando algum trimestre vem de comparativo (2017: base
+      // diferente entre releases) ou quando a soma só difere dele por arredondamento
+      var ex = exercicio(m); return ok(ex) && (comp || Math.abs(s - ex) <= Math.max(3, Math.abs(ex) * 0.0002)) ? ex : s;
+    };
     if (met === 'margem_m3') {   // EBITDA Ajustado (nota de segmentos) ÷ volume do release
       var e = seg === 'CONS' ? P.M.aj('CONS', p, base) : P.M.aj(seg, p, base), q = soma('vol');
       if (seg === 'CONS' && ok(e) && P.M.aj('REN', p, base) !== null) e -= P.M.aj('REN', p, base);   // a partir de 2025, margem só da Distribuição
@@ -55,7 +69,7 @@
         el.append(ref.kpis,
           h('div', { class: 'sec' }, h('h2', null, 'Mercado'), ref.mktNota), ref.mkt, ref.ipe,
           h('div', { class: 'grid' },
-            P.card('EBITDA Ajustado por segmento', 'R$ milhões. Barras: segmentos; marcador: consolidado (inclui o Corporativo).', ref.ch.eb, false, 'Nota de informações por segmento das ITRs/DFPs; de 4T17 a 4T21, release de resultados.'),
+            P.card('EBITDA Ajustado por segmento', 'R$ milhões. Barras: segmentos; marcador: consolidado (inclui o Corporativo).', ref.ch.eb, false, 'Nota de informações por segmento das ITRs/DFPs; de 4T17 a 4T21, release de resultados (4T16 a 3T17: comparativos dos releases de 2018).'),
             P.card('Margem EBITDA Ajustado', 'R$ por m³ vendido.', ref.ch.m3),
             P.card('Lucro líquido', 'R$ milhões (consolidado, DRE 3.11).', ref.ch.luc),
             P.card('Geração de caixa', 'R$ milhões. Livre = operacional + investimentos em imobilizado e intangível.', ref.ch.cx),
@@ -262,7 +276,7 @@
         // documentos de origem do período A
         ref.fontes.replaceChildren();
         var f = [];
-        var fa = P.M.ajFonte('CONS', x.p); if (fa && fa.fonte) f.push(h('a', { href: fa.fonte.link, target: '_blank', rel: 'noopener noreferrer' }, 'EBITDA Ajustado de ' + x.p + ': ' + (fa.fonte.tipo === 'release' ? 'release' : fa.fonte.tipo + ' (nota de segmentos)')));
+        var fa = x.base === 'AN' && !P.M.ajFonte('CONS', P.M.desloca(x.p, 3)) && P.M.ajExercicio('CONS', 2000 + +x.p.slice(2)) ? P.M.ajExercicio('CONS', 2000 + +x.p.slice(2)) : P.M.ajFonte('CONS', x.p); if (fa && fa.fonte) f.push(h('a', { href: fa.fonte.link, target: '_blank', rel: 'noopener noreferrer' }, 'EBITDA Ajustado de ' + x.p + ': ' + (fa.fonte.tipo === 'release' ? 'release' : fa.fonte.tipo + ' (nota de segmentos)')));
         var so = O.series[x.p], c = so && (so.CONS || so.DIST), fv = c && c.vol && c.vol.fonte; if (fv) f.push(h('a', { href: fv.link, target: '_blank', rel: 'noopener noreferrer' }, 'Volumes de ' + x.p + ': release'));
         if (f.length) ref.fontes.append(h('p', { class: 'note', style: 'margin-top:10px' }, 'Documentos de origem (abrem na CVM): ', f.reduce(function (a, e, i) { if (i) a.push(' · '); a.push(e); return a; }, [])));
       },

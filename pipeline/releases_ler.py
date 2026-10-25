@@ -55,7 +55,9 @@ def num(tok, milhar_virgula=False):
         return None  # variação
     neg = t.startswith("(") and t.endswith(")") or t.startswith("-")
     t = t.strip("()-")
-    if milhar_virgula:
+    if milhar_virgula and re.fullmatch(r"\d{1,3}(\.\d{3})+", t):
+        t = t.replace(".", "")   # tabela mista (4T17: volume com vírgula, R$ com ponto de milhar)
+    elif milhar_virgula:
         t = t.replace(",", "")
     else:
         t = t.replace(".", "").replace(",", ".")
@@ -159,6 +161,8 @@ def junta_rotulos_quebrados(L):
             pass
         if a and not re.search(r"\d", a) and len(a) < 45 and re.match(r"^\s+\(?-?\d", b):
             sufixo = c if (c and len(c) < 30 and re.match(r"^\(|^da ", c) and not re.search(r"\d{2}", c)) else ""
+            if not sufixo and a.count("(") > a.count(")") and re.fullmatch(r"[^\d()]{1,10}\)", c or ""):
+                sufixo = c   # "Volume de vendas (mil" / valores / "m³)"
             rot = (a + " " + sufixo).strip()
             if sufixo and not rot.count("(") == rot.count(")"):
                 rot = rot.replace("(% da", "(% da")
@@ -286,15 +290,20 @@ def main():
     def guarda(per, seg, met, v, fonte):
         series.setdefault(per, {}).setdefault(seg, {})[met] = {"v": v, "fonte": fonte}
 
+    anuais = {}   # exercício completo (colunas "2017", "2016" dos releases do 4º trimestre)
+
     def registra(per, seg, nome, pares, fonte, own, data):
         for k, (col, v) in enumerate(pares):
+            if re.match(r"^20\d{2}$", col or "") and per.startswith("4T") and int(col[2:]) in (int(per[2:]), int(per[2:]) - 1):
+                anuais.setdefault(col, {}).setdefault(seg, {}).setdefault(nome, []).append((v, data, fonte))
+                continue
             if not re.match(r"^[1-4]T\d{2}$", col or ""):
                 continue
             if col == per:
                 if own and k == 0:
                     guarda(per, seg, nome, v, fonte)
             else:
-                confirm.setdefault((col, seg, nome), []).append((v, data))
+                confirm.setdefault((col, seg, nome), []).append((v, data, fonte))
 
     for res in lidos:
         per, r = res["periodo"], res["release"]
@@ -307,6 +316,42 @@ def main():
             registra(per, "CONS", "ebitda", res["ebitda_cons"], fonte, own, r["data_entrega"])
         if res.get("ebitda_ren"):
             registra(per, "REN", "ebitda", res["ebitda_ren"], fonte, own, r["data_entrega"])
+    # trimestres sem release próprio (antes do IPO: 4T16 a 3T17): comparativo publicado nos releases seguintes,
+    # o mais antigo; marcado como comparativo. Os demais comparativos do mesmo número servem de confirmação.
+    sem_proprio = sorted({k[0] for k in confirm} - set(series), key=ord_t)
+    for per in sem_proprio:
+        for (col, seg, nome), lst in confirm.items():
+            if col != per:
+                continue
+            v, data, f = sorted(lst, key=lambda x: x[1])[0]
+            guarda(per, seg, nome, v, dict(f, como="comparativo publicado no release de %s" % data))
+    # exercícios: valor do release do 4º trimestre do próprio ano (o mais antigo) e confirmação pelo do ano seguinte
+    ex = {}
+    for ano, segs in anuais.items():
+        for seg, mets in segs.items():
+            for nome, lst in mets.items():
+                lst = sorted(lst, key=lambda x: x[1])
+                v, data, f = lst[0]
+                x = {"v": v, "fonte": dict(f, como="exercício completo, release do 4º trimestre")}
+                outros = [(v2, d2) for v2, d2, _ in lst[1:]]
+                x["confirmado"] = sum(1 for v2, _ in outros if abs(v2 - v) <= max(1, abs(v) * 0.005))
+                dif = [(v2, d2) for v2, d2 in outros if abs(v2 - v) > max(1, abs(v) * 0.005)]
+                if dif:
+                    x["reapresentado"] = [{"valor": v2, "release": d2} for v2, d2 in dif]
+                ex.setdefault(ano, {}).setdefault(seg, {})[nome] = x
+    # portão: soma dos 4 trimestres = exercício (EBITDA e volume) quando os 4 trimestres existem
+    soma_ex = []
+    for ano, segs in sorted(ex.items()):
+        qs = ["%dT%s" % (q, ano[2:]) for q in (1, 2, 3, 4)]
+        for seg, mets in segs.items():
+            for nome in ("ebitda", "vol"):
+                if nome in mets and all(series.get(q, {}).get(seg, {}).get(nome) for q in qs):
+                    tot = sum(series[q][seg][nome]["v"] for q in qs)
+                    okk = abs(tot - mets[nome]["v"]) <= max(2, abs(mets[nome]["v"]) * 0.0002)   # arredondamento
+                    mets[nome]["soma_trimestres"] = tot
+                    if not okk:
+                        mets[nome]["alerta"] = True
+                    soma_ex.append("%s %s %s: soma dos trimestres %s × exercício %s%s" % (ano, seg, nome, tot, mets[nome]["v"], "" if okk else "  ← diferença (reclassificação entre segmentos ou reapresentação nos comparativos)"))
     # portões 2 e 3
     alertas, reap = [], []
     for per, segs in series.items():
@@ -319,6 +364,7 @@ def main():
                     mets["margem_m3"]["alerta"] = True
             for nome, x in mets.items():
                 outros = confirm.get((per, seg, nome), [])
+                outros = [(v, d) for v, d, _ in outros if d != x["fonte"]["data"]]
                 dif = [(v, d) for v, d in outros if abs(v - x["v"]) > max(1, abs(x["v"]) * 0.005)]
                 x["confirmado"] = len(outros) - len(dif)
                 if outros:
@@ -332,10 +378,13 @@ def main():
     doc = {"fonte": "Releases de resultados da Vibra (IPE da CVM), leitura automática do texto",
            "atualizado_em": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
            "unidades": {"vol": "mil m³", "ebitda": "R$ milhões", "margem_m3": "R$/m³", "ebitda_rec": "R$ milhões", "margem_rec_m3": "R$/m³"},
-           "segmentos": rotulos, "periodos": pers, "series": {p: series[p] for p in pers}}
+           "segmentos": rotulos, "periodos": pers, "series": {p: series[p] for p in pers},
+           "exercicios": {a: ex[a] for a in sorted(ex)}}
     json.dump(doc, open(os.path.join(RAIZ, "data", "release_operacional.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     log += ["Releases lidos: %d · trimestres: %d (%s a %s)" % (len(lidos), len(pers), pers[0] if pers else "-", pers[-1] if pers else "-"), ""]
     log += ["## Alertas de consistência (margem ≠ EBITDA ÷ volume)", ""] + (["- " + a for a in alertas] or ["- nenhum"])
+    log += ["", "## Trimestres anteriores ao IPO (comparativos)", ""] + (["- " + ", ".join(sem_proprio)] if sem_proprio else ["- nenhum"])
+    log += ["", "## Exercício × soma dos trimestres", ""] + (["- " + a for a in soma_ex] or ["- nada a conferir"])
     log += ["", "## Reapresentações em releases posteriores", ""] + (["- " + a for a in reap] or ["- nenhuma"])
     open(os.path.join(RAIZ, "logs", "releases-leitura.md"), "w", encoding="utf-8").write("\n".join(log) + "\n")
     print("\n".join(log[:8]))

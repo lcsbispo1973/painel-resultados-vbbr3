@@ -16,6 +16,8 @@ import os
 import re
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PASTA = os.path.join(RAIZ, "data", "releases")
 RX_LINHA = re.compile(r"^\s*D[íi]vida L[íi]quida\s{2,}(.*)$")
@@ -47,18 +49,60 @@ def num(tok):
     return -v if neg else v
 
 
-def ler(texto):
-    for l in texto.split("\n"):
+RX_EN = re.compile(r"^\s*Net debt\s{2,}(.*)$", re.I)
+
+
+def fim_trimestre(rot):
+    """Rótulo de coluna do cabeçalho → trimestre do fim do período ('1S19' → '2T19'; '9M19' → '3T19'; '2019' → '4T19')."""
+    if re.fullmatch(r"[1-4]T\d{2}", rot):
+        return rot
+    m = re.fullmatch(r"([12])S(\d{2})", rot)
+    if m:
+        return "%dT%s" % (int(m.group(1)) * 2, m.group(2))
+    m = re.fullmatch(r"9M(\d{2})", rot)
+    if m:
+        return "3T" + m.group(1)
+    m = re.fullmatch(r"20(\d{2})", rot)
+    return "4T" + m.group(1) if m else None
+
+
+def ler(texto, per):
+    """Linha "Dívida Líquida" do release → {trimestre: valor}. As colunas são identificadas pelo cabeçalho da tabela
+    (a ordem varia entre releases: atual, ano anterior, trimestre anterior — ou atual, trimestre anterior, ano anterior).
+    Sem cabeçalho legível, só aceita a ordem padrão quando há os três valores."""
+    from releases_ler import colunas
+    L = texto.split("\n")
+    for i, l in enumerate(L):
         m = RX_LINHA.match(l)
+        if not m:
+            continue
+        toks = RX_TOK.findall(m.group(1))
+        vals = [v for v in (num(t) for t in toks) if v is not None]
+        if not vals:
+            return None
+        cols = [fim_trimestre(c) for c in colunas(L, i)]
+        if cols and cols[0] == per and None not in cols[:len(vals)] and len(cols) >= len(vals):
+            return dict(zip(cols, vals))
+        if len(vals) >= 3:
+            return {per: vals[0], desloca(per, -4): vals[1], desloca(per, -1): vals[2]}
+        return {per: vals[0]}
+    return None
+
+
+def ler_en(texto):
+    """Linha "Net debt" da versão em inglês (separador de milhar com vírgula ou ponto): primeiros três valores."""
+    for l in texto.split("\n"):
+        m = RX_EN.match(l)
         if m:
-            toks = RX_TOK.findall(m.group(1))
-            if not toks or toks[0].endswith("%"):
-                return None
-            vals = [num(t) for t in toks]
-            cur = vals[0]
-            yoy = vals[1] if len(vals) > 1 else None
-            prev = vals[3] if len(vals) > 3 else None
-            return {"cur": cur, "yoy": yoy, "prev": prev}
+            vals = []
+            for t in re.findall(r"\(?-?\d[\d.,]*\)?%?", m.group(1)):
+                if t.endswith("%"):
+                    continue
+                neg = t.startswith("(") or t.startswith("-")
+                t = t.strip("()-")
+                if re.fullmatch(r"\d{1,3}([.,]\d{3})+|\d{1,3}", t):
+                    vals.append((-1 if neg else 1) * float(re.sub(r"[.,]", "", t)))
+            return vals[:3]
     return None
 
 
@@ -77,7 +121,7 @@ def ler_alav(texto):
 def main():
     idx = json.load(open(os.path.join(PASTA, "indice.json"), encoding="utf-8"))["releases"]
     log = ["# Dívida líquida divulgada nos releases", "", "Executado em %s UTC" % dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M"), ""]
-    proprio, comp = {}, {}
+    proprio, comp, textos_en = {}, {}, []
     for r in sorted(idx, key=lambda x: x["data_entrega"]):
         p = os.path.join(PASTA, "texto", r["arquivo"])
         if not os.path.exists(p):
@@ -88,21 +132,36 @@ def main():
             log.append("- %s: assunto indica %sT%s, entrega indica %s; ignorado" % (r["data_entrega"], m.group(1), m.group(2), per))
             continue
         t = open(p, encoding="utf-8").read()
-        v = ler(t)
-        if not v or v["cur"] is None:
+        v = ler(t, per)
+        fonte = {"data": r["data_entrega"], "documento": r["assunto"], "link": r["link"]}
+        textos_en.append((per, ler_en(t), fonte))
+        if not v or v.get(per) is None:
             log.append("- %s (%s): linha de dívida líquida não lida" % (per, r["data_entrega"]))
             continue
-        fonte = {"data": r["data_entrega"], "documento": r["assunto"], "link": r["link"]}
-        proprio[per] = {"v": v["cur"], "alav_divulgada": ler_alav(t), "fonte": fonte}   # reapresentação do mesmo trimestre: vale a última
-        if v["prev"] is not None:
-            comp.setdefault(desloca(per, -1), []).append((v["prev"], fonte))
-        if v["yoy"] is not None:
-            comp.setdefault(desloca(per, -4), []).append((v["yoy"], fonte))
+        proprio[per] = {"v": v[per], "alav_divulgada": ler_alav(t), "fonte": fonte}   # reapresentação do mesmo trimestre: vale a última
+        for q, x in v.items():
+            if q != per:
+                comp.setdefault(q, []).append((x, fonte))
+    # versão em inglês: só para trimestres sem nenhum valor em português. A coluna é deduzida pelos valores já conhecidos:
+    # o 1º valor tem de ser o do próprio trimestre e um dos outros dois tem de bater com um trimestre já conhecido
+    # (ano anterior ou trimestre anterior); o valor restante fica com o outro trimestre.
+    for per, en, fonte in textos_en:
+        conhecido = lambda q: proprio[q]["v"] if q in proprio else (sorted(comp[q], key=lambda x: x[1]["data"])[0][0] if q in comp else None)
+        if not en or len(en) < 3 or conhecido(per) is None or abs(en[0] - conhecido(per)) > 1:
+            continue
+        a, b = desloca(per, -4), desloca(per, -1)
+        for x, y in ((en[1], en[2]), (en[2], en[1])):
+            if conhecido(b) is not None and abs(x - conhecido(b)) <= 1 and conhecido(a) is None:
+                comp.setdefault(a, []).append((y, dict(fonte, como="comparativo (versão em inglês do release)")))
+                break
+            if conhecido(a) is not None and abs(x - conhecido(a)) <= 1 and conhecido(b) is None:
+                comp.setdefault(b, []).append((y, dict(fonte, como="comparativo (versão em inglês do release)")))
+                break
     serie = dict(proprio)
     for per, lst in comp.items():
         if per not in serie:
             v, f = sorted(lst, key=lambda x: x[1]["data"])[0]
-            serie[per] = {"v": v, "alav_divulgada": None, "fonte": dict(f, como="comparativo")}
+            serie[per] = {"v": v, "alav_divulgada": None, "fonte": dict(f, como=f.get("como", "comparativo"))}
             log.append("- %s: sem linha no release do trimestre; usado o comparativo do release de %s (%s)" % (per, f["data"], v))
         else:
             for v, f in lst:

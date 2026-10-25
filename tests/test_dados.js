@@ -75,9 +75,11 @@ chk('dy', '2T26', 'T', 100 * -udm(dfc, '6.03.05') / mc);
 const ult = b3.dias[b3.dias.length - 1];
 perto(m.indAtual('mcap'), ult[2] * sh('2T26') / 1e6, 'mcap atual'); n++;
 perto(m.indAtual('pl'), ult[2] * sh('2T26') / 1e6 / udm(dre, '3.11.01'), 'P/L atual'); n++;
-// sem cotação antes do IPO e sem ações antes de 1T20
+// sem cotação antes do IPO; de 4T17 a 4T19, ações pelo FRE (1.165.000.000, sem tesouraria)
 assert.strictEqual(m.ind('preco', '1T17', 'T'), null); n++;
-assert.strictEqual(m.ind('mcap', '4T19', 'T'), null); n++;
+const c4t19 = m.cotacaoAte('2019-12-31').p;
+perto(m.ind('mcap', '4T19', 'T'), c4t19 * 1165000000 / 1e6, 'mcap 4T19'); n++;
+perto(m.ind('mcap', '4T17', 'T'), 17.10 * 1165000000 / 1e6, 'mcap 4T17 (fechamento de 28/12/2017)'); n++;
 // semestre, 9 meses e intervalo livre
 chk('receita', '2T26', 'S', g(dre, '3.01', '1T26') + g(dre, '3.01', '2T26'));
 chk('receita', '4T25', 'S', g(dre, '3.01', '3T25') + g(dre, '3.01', '4T25'));
@@ -98,6 +100,15 @@ for (const a of [17, 20, 23, 25]) {
   const qs = [1, 2, 3, 4].map(q => g(dre, '3.11', lab(a, q)));
   perto(m.agg('dre', '3.11', lab(a, 4), 'AN'), qs.reduce((s, x) => s + x, 0), 'lucro anual 20' + a); n++;
 }
+// antes do IPO (comparativos dos releases de 2018): EBITDA Ajustado e dívida líquida
+chk('ebitda', '4T17', 'AN', 3067);   // exercício 2017 no release do 4T17 = 647 + 481 + 1.056 + 883
+chk('ebitda', '4T16', 'AN', 2995);   // exercício 2016 no release do 4T17 (trimestres de 2016 não divulgados)
+chk('ebitda', '2T17', 'S', 1128);    // 1S17 no release do 2T18
+chk('ebitda', '3T17', '9M', 2184);   // 9M17 no release do 3T18
+chk('ebitda', '3T17', 'LTM', 3004);  // UDM 3T17 na tabela do release do 4T17
+assert.strictEqual(dliq('2T17'), 9560); assert.strictEqual(dliq('3T17'), 3865); assert.strictEqual(dliq('4T16'), 9509); n += 3;
+assert.strictEqual(Math.round(m.ind('dlebitda', '4T16', 'T') * 10) / 10, 3.2); n++;   // "3,2x em 2016" (release 4T17)
+assert.strictEqual(Math.round(m.ind('dlebitda', '4T17', 'T') * 10) / 10, 1.3); n++;   // "1,3x em 2017"
 // períodos
 assert.strictEqual(m.periodos('dre', 'AN').length, new Set(m.periodos('dre', 'AN')).size);
 assert(m.periodos('dre', 'LTM')[0] === '4T16', 'primeiro UDM = ' + m.periodos('dre', 'LTM')[0]); n++;

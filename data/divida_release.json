@@ -1,11 +1,12 @@
 {
  "fonte": "Releases de resultados da Vibra (IPE da CVM), linha Dívida Líquida",
  "unidade": "R$ milhões",
- "atualizado_em": "2026-10-25T11:40:23Z",
+ "atualizado_em": "2026-10-25T11:48:30Z",
  "periodos": [
   "4T16",
   "1T17",
   "2T17",
+  "3T17",
   "4T17",
   "1T18",
   "2T18",
@@ -64,13 +65,23 @@
    }
   },
   "2T17": {
-   "v": 3418.0,
+   "v": 9560.0,
    "alav_divulgada": null,
    "fonte": {
     "data": "2018-08-01",
     "documento": "Release de Resultados 2T2018",
     "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=634929&numSequencia=168666&numVersao=1",
-    "como": "comparativo"
+    "como": "comparativo (versão em inglês do release)"
+   }
+  },
+  "3T17": {
+   "v": 3865.0,
+   "alav_divulgada": null,
+   "fonte": {
+    "data": "2018-03-13",
+    "documento": "Earnings Release 4Q17 and FY2017",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=600990&numSequencia=143786&numVersao=2",
+    "como": "comparativo (versão em inglês do release)"
    }
   },
   "4T17": {
