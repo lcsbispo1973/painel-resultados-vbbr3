@@ -4167,8 +4167,16 @@
     "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CgNPsxtuKnmakAHDDuQqt\"}"
    ],
    "tentativas": 3
+  },
+  "2T26|T|1T26|T": {
+   "hash": "3103336d5034f7c2",
+   "data": "2026-10-25T05:22:39Z",
+   "motivo": [
+    "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CgNPuE4VgDwZTCKpy4tYc\"}"
+   ],
+   "tentativas": 1
   }
  },
- "atualizado_em": "2026-10-25T05:22:22Z",
+ "atualizado_em": "2026-10-25T05:22:39Z",
  "liberado": true
 }
