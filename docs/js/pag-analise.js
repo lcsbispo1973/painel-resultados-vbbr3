@@ -114,7 +114,7 @@
       },
       render: function () {
         var A = P.x(S.a), B = P.x(S.b);
-        var r = window.Mda.gerar(P.M, A, B, { oper: P.oper, textos: P.D.reltxt, fre: P.D.fre10, ipe: P.D.ipe, aj: P.D.aj, rotulo: P.rotuloLongo, perA: S.a, perB: S.b });
+        var r = window.Mda.gerar(P.M, A, B, { oper: P.oper, textos: P.D.reltxt, fre: P.D.fre10, ia: P.D.mdaIa && P.D.mdaIa.liberado ? P.D.mdaIa : null, ipe: P.D.ipe, aj: P.D.aj, rotulo: P.rotuloLongo, perA: S.a, perB: S.b });
         ultimo = r;
         ref.acoes.replaceChildren(
           h('button', { class: 'btn', type: 'button', onclick: function () { P.arquivo('MDA_' + r.rotA + '_x_' + r.rotB + '.doc', window.Mda.html(r), 'application/msword'); } }, 'Baixar para Word'),

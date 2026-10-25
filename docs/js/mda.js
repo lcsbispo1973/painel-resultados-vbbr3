@@ -178,7 +178,28 @@
     });
     var r = pct(V.aj[0], V.aj[1]);
     var manchete = ['MD&A do ' + lA + ': EBITDA Ajustado de ', P.fMi(V.aj[0]), ok(r) ? ' (' + P.fPct(r) + ' sobre o ' + lB + ')' : '', ', lucro de ', P.fMi(V.luc[0]), ok(V.alav[0]) ? ' e alavancagem de ' + P.f2(V.alav[0]) + 'x.' : '.'];
-    return { titulo: 'Comentário do desempenho — ' + lA, subtitulo: 'Comparação com o ' + lB + '. Valores consolidados; EBITDA Ajustado conforme a nota de informações por segmento das demonstrações financeiras.',
+
+    // texto redigido (números das demonstrações + explicações da Companhia), quando aprovado para este par de períodos
+    var ia = c.ia && c.ia.pares ? c.ia.pares[[A.p, A.base, B.p, B.base].join('|')] : null;
+    var sub = 'Comparação com o ' + lB + '. Valores consolidados; EBITDA Ajustado conforme a nota de informações por segmento das demonstrações financeiras.';
+    secoes.forEach(function (s) { delete s.citacoes; });   // sem trechos copiados dos documentos
+    if (ia && ia.secoes) {
+      var mapa = { sum: 'sumario', op: 'operacional', res: 'resultado', bal: 'balanco', cx: 'caixa' };
+      secoes.forEach(function (s) {
+        var k = mapa[s.id];
+        if (k && ia.secoes[k] && ia.secoes[k].length) { s.paragrafos = ia.secoes[k].slice(); if (s.id === 'op') delete s.itens; }
+      });
+      var pers = ia.secoes.perspectivas || [];
+      var iEv = secoes.map(function (s) { return s.id; }).indexOf('ev');
+      if (pers.length) secoes.splice(iEv, 0, { id: 'pers', titulo: 'Visão da administração', paragrafos: pers.slice() });
+      secoes.forEach(function (s) { if (s.id === 'ev') s.titulo = 'Eventos do período'; });
+      if (ia.release_link) addFonte(ia.release || 'Release de resultados', ia.release_link);
+      sub += ' Explicações das variações conforme o release de resultados e o Formulário de Referência da Companhia.';
+    } else {
+      secoes.forEach(function (s) { if (s.id === 'ev') s.titulo = 'Eventos do período'; });
+      sub += ' As explicações da Companhia para as variações aparecem na comparação com o mesmo período do ano anterior e com o trimestre imediatamente anterior.';
+    }
+    return { titulo: 'Comentário do desempenho — ' + lA, subtitulo: sub, redigido: !!(ia && ia.secoes),
       secoes: secoes, quadro: quadro, fontes: fontes, manchete: manchete, rotA: rA, rotB: rB };
   }
 
