@@ -4154,13 +4154,13 @@
  "recusados": {
   "2T26|T|2T25|T": {
    "hash": "005ccf30d34e014f",
-   "data": "2026-10-25T05:21:14Z",
+   "data": "2026-10-25T05:21:31Z",
    "motivo": [
-    "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CgNPnvtUQN4A83HvTwsaT\"}"
+    "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CgNPpBR7v2CQR3HzcwyAU\"}"
    ],
-   "tentativas": 2
+   "tentativas": 3
   }
  },
- "atualizado_em": "2026-10-25T05:21:14Z",
+ "atualizado_em": "2026-10-25T05:21:31Z",
  "liberado": true
 }
