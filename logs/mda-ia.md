@@ -1,7 +1,10 @@
-# MD&A redigido — 2026-10-25T01:31:53Z
+# MD&A redigido — 2026-10-25T01:36:41Z
 
 Modelo: claude-sonnet-5-5
 
-- 2T26|T|2T25|T: RECUSADO (RuntimeError: conteúdo não-JSON: '{\n  "sumario": [\n    "No 2º trimestre de 2026, a Companhia registrou receita líquida de R$ 57,3 bilhões, alta de 25,8% frente ao 2º trimestre de 2025. O EBITDA Ajustado consolidado foi de R$ 4,5 bilhões, alta de 205,6% na mesma comparação. A margem EBITDA Ajustado sobre a receita passou de 3,2% para')
+- 2T26|T|2T25|T: RECUSADO (HTTP 400: {"type":"error","error":{"type":"invalid_request_error","message":"tool_choice: type \"tool\" and \"any\" are not supported for this model."},"request_id":"req_011CgN6g9bHHmJJdhpZC7PqK"})
+- 2T26|T|1T26|T: RECUSADO (HTTP 400: {"type":"error","error":{"type":"invalid_request_error","message":"tool_choice: type \"tool\" and \"any\" are not supported for this model."},"request_id":"req_011CgN6h4ZC2WBzDmSMpzPMK"})
+- 1T26|T|1T25|T: RECUSADO (HTTP 400: {"type":"error","error":{"type":"invalid_request_error","message":"tool_choice: type \"tool\" and \"any\" are not supported for this model."},"request_id":"req_011CgN6hycobpYd82Suetc5Z"})
+- 1T26|T|4T25|T: RECUSADO (HTTP 400: {"type":"error","error":{"type":"invalid_request_error","message":"tool_choice: type \"tool\" and \"any\" are not supported for this model."},"request_id":"req_011CgN6itaxt8DWfywSsqzrA"})
 
 0 pares com texto aprovado; 25 recusados.
