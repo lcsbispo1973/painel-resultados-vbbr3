@@ -4170,13 +4170,13 @@
   },
   "2T26|T|1T26|T": {
    "hash": "3103336d5034f7c2",
-   "data": "2026-10-25T05:22:39Z",
+   "data": "2026-10-25T05:22:56Z",
    "motivo": [
-    "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CgNPuE4VgDwZTCKpy4tYc\"}"
+    "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CgNPvUwUPx19UqSPdAy29\"}"
    ],
-   "tentativas": 1
+   "tentativas": 2
   }
  },
- "atualizado_em": "2026-10-25T05:22:39Z",
+ "atualizado_em": "2026-10-25T05:22:56Z",
  "liberado": true
 }
