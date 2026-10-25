@@ -32,7 +32,7 @@ MODELO = os.environ.get("MDA_IA_MODELO", "claude-sonnet-5-5")
 MAX_POR_EXECUCAO = int(os.environ.get("MDA_IA_MAX", "12"))
 SO_PARES = [p for p in os.environ.get("MDA_IA_PARES", "").split(",") if p]
 REFAZER = os.environ.get("MDA_IA_REFAZER", "") == "1"
-VERSAO_PROMPT = 6   # mudar força a reescrita de todos os pares
+VERSAO_PROMPT = 5   # (a regra de estilo da versão 6 é aplicada sem custo pela limpeza abaixo; não força reescrita)   # mudar força a reescrita de todos os pares
 
 SECOES = [("sumario", "Sumário executivo", ["MSG"]),
           ("operacional", "Desempenho operacional", ["REDE", "B2B", "REN"]),
@@ -140,6 +140,23 @@ def fatos_txt(par):
     return json.dumps(linhas, ensure_ascii=False)
 
 
+# ---------- limpeza de estilo (sem custo): tira frases que comentam as fontes ----------
+RX_META = re.compile(r"trechos|verificáve|verificavel|release|Formulário de Referência", re.I)
+
+
+def limpa(p):
+    """Remove frases do tipo "os trechos não detalham…"; quando a menção vem depois de ", mas", mantém a primeira parte."""
+    out = []
+    for f in re.split(r"(?<=[.;])\s+(?=[A-ZÀ-Ú])", p):
+        if not RX_META.search(f):
+            out.append(f)
+            continue
+        m = re.search(r"^(.*?),\s*(mas|porém|embora|e)\s+(os|o|a|as)\s+(trechos|release|Formulário)", f)
+        if m and len(m.group(1)) > 30:
+            out.append(m.group(1).rstrip(",") + ".")
+    return " ".join(out).strip()
+
+
 # ---------- trava de números ----------
 RX_NUM = re.compile(r"(R\$\s?)?[−-]?(\d{1,3}(?:\.\d{3})+(?:,\d+)?|\d+(?:,\d+)?)")
 
@@ -192,6 +209,7 @@ def confere(secoes, rs_fat, fat, exc):
     return recusados
 
 
+USO = {"entrada": 0, "saida": 0, "chamadas": 0}
 FERRAMENTA = {
     "name": "registrar_mda",
     "description": "Registra o texto do MD&A, um parágrafo por item de cada lista.",
@@ -212,6 +230,8 @@ def chama(mensagens):
     with urllib.request.urlopen(req, timeout=300) as r:
         bruto = r.read().decode("utf-8", "ignore")
     j = json.loads(bruto)
+    u = j.get("usage") or {}
+    USO["entrada"] += u.get("input_tokens", 0); USO["saida"] += u.get("output_tokens", 0); USO["chamadas"] += 1
     if j.get("stop_reason") == "max_tokens":
         raise RuntimeError("resposta cortada pelo limite de tamanho")
     for b in j.get("content", []):
@@ -245,6 +265,9 @@ def main():
     est = ler("mda_ia.json") or {"pares": {}, "recusados": {}}
     ordem = sorted(fatos["pares"].items(), key=lambda kv: (-(int(kv[1]["A"]["p"][2:]) * 4 + int(kv[1]["A"]["p"][0])),
                                                           {"anual": 0, "exercicio": 1, "semestre": 2, "nove_meses": 3, "trimestral": 4}.get(kv[1]["tipo"], 9)))
+    # limpeza de estilo também nos textos já aprovados (só remove frases; não altera números)
+    for v in est["pares"].values():
+        v["secoes"] = {sid: [x for x in (limpa(p) for p in ps) if x] for sid, ps in v["secoes"].items()}
     # reconfere os textos já aprovados com os números atuais (reapresentações): se não baterem, saem até serem refeitos
     for k in list(est["pares"]):
         par = fatos["pares"].get(k)
@@ -288,7 +311,8 @@ def main():
             try:
                 bruto = chama(msgs)
                 txt = json.dumps(bruto, ensure_ascii=False)
-                secoes = {sid: [re.sub(r"(R\$ 1,\d) bilhões", r"\1 bilhão", p.strip()) for p in (bruto.get(sid) or []) if isinstance(p, str) and p.strip()] for sid, _, _ in SECOES}
+                secoes = {sid: [x for x in (limpa(re.sub(r"(R\$ 1,\d) bilhões", r"\1 bilhão", p.strip())) for p in (bruto.get(sid) or []) if isinstance(p, str) and p.strip()) if x]
+                          for sid, _, _ in SECOES}
                 recusados = confere(secoes, rs_fat, fat, exc)
                 if not secoes["resultado"] or not secoes["sumario"]:
                     recusados.append("seções obrigatórias vazias")
@@ -331,6 +355,9 @@ def main():
     json.dump(est, open(os.path.join(RAIZ, "data", "mda_ia.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     log.append("")
     log.append("%d pares com texto aprovado; %d recusados." % (len(est["pares"]), len(est["recusados"])))
+    if USO["chamadas"]:
+        log.append("Uso da API nesta execução: %d chamadas, %d tokens de entrada, %d de saída (≈ US$ %.2f a US$ 2/US$ 10 por milhão)."
+                   % (USO["chamadas"], USO["entrada"], USO["saida"], USO["entrada"] * 2e-6 + USO["saida"] * 1e-5))
     os.makedirs(os.path.join(RAIZ, "logs"), exist_ok=True)
     open(os.path.join(RAIZ, "logs", "mda-ia.md"), "w", encoding="utf-8").write("\n".join(log) + "\n")
     print("\n".join(log))
