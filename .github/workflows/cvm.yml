@@ -119,8 +119,10 @@ jobs:
             echo "Sem mudanças."
           else
             git commit -m "Atualiza dados da CVM"
-            git pull --rebase -X theirs -q origin main
-            git push
+            for t in 1 2 3; do
+              git pull --rebase --autostash -X theirs -q origin main && git push && break
+              sleep 10
+            done
           fi
 
       - name: Alerta da redação do MD&A (crédito ou chave da API)
