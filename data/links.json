@@ -1,17 +1,27 @@
 {
- "verificado_em": "2026-10-24T23:36:04Z",
- "total": 1352,
- "ok": 1352,
+ "verificado_em": "2026-10-25T13:55:20Z",
+ "total": 1354,
+ "ok": 1354,
  "por_tipo": {
-  "documento": 1136,
-  "documento após nova tentativa": 215,
-  "página da CVM sem o arquivo (persistente)": 1
+  "documento": 1139,
+  "documento após nova tentativa": 211,
+  "página da CVM sem o arquivo (persistente)": 4
  },
  "paginas": [
   {
    "amostra": "ENET Download de Documento",
+   "n": 2,
+   "exemplo": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1555173&numSequencia=1079879&numVersao=1"
+  },
+  {
+   "amostra": "Exibição de Arquivo DRI: Protocolo nº: Data do Documento Data do Envio &nbsp;",
    "n": 1,
-   "exemplo": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=662803&numSequencia=193022&numVersao=1"
+   "exemplo": "https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega="
+  },
+  {
+   "amostra": "Consulta de documentos DRI: Auditor: Responsável Técnico Auditor: Protocolo nº Data do Documento Data do Envio - Salvar em PDF &nbsp; &nbsp;",
+   "n": 1,
+   "exemplo": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?NumeroSequencialDocumento="
   }
  ],
  "quebrados": []
