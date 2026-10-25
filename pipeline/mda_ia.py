@@ -32,7 +32,7 @@ MODELO = os.environ.get("MDA_IA_MODELO", "claude-sonnet-5-5")
 MAX_POR_EXECUCAO = int(os.environ.get("MDA_IA_MAX", "12"))
 SO_PARES = [p for p in os.environ.get("MDA_IA_PARES", "").split(",") if p]
 REFAZER = os.environ.get("MDA_IA_REFAZER", "") == "1"
-VERSAO_PROMPT = 4   # mudar força a reescrita de todos os pares
+VERSAO_PROMPT = 5   # mudar força a reescrita de todos os pares
 
 SECOES = [("sumario", "Sumário executivo", ["MSG"]),
           ("operacional", "Desempenho operacional", ["REDE", "B2B", "REN"]),
@@ -41,15 +41,16 @@ SECOES = [("sumario", "Sumário executivo", ["MSG"]),
           ("caixa", "Fluxo de caixa", ["CAIXA", "CAPEX"]),
           ("perspectivas", "Visão da administração", ["MSG"])]
 
-INSTRUCOES = """Você redige o Comentário do Desempenho (MD&A) da Vibra Energia S.A. em português do Brasil, no tom de um relatório da administração: terceira pessoa ("a Companhia"), frases claras, parágrafos curtos, sem adjetivos promocionais.
+INSTRUCOES = """Você redige o Comentário do Desempenho (MD&A) da Vibra Energia S.A. em português do Brasil, no tom de um relatório da administração: terceira pessoa ("a Companhia"), frases claras, parágrafos curtos, sem adjetivos promocionais. O texto deve ser completo e analítico: explicar a formação do desempenho, dos fluxos de caixa e da estrutura de capital, como um relatório único.
 
 Regras obrigatórias:
 1. NÚMEROS: use somente os números da lista FATOS, escritos exatamente como aparecem lá (pode escolher a forma em milhões ou em bilhões quando as duas forem dadas). Não calcule, não arredonde de outro jeito e não crie números novos. Valores em R$ dos TRECHOS DA COMPANHIA não podem ser usados (eles podem seguir conceitos diferentes das demonstrações).
-2. EXPLICAÇÕES: explique as variações usando apenas as causas descritas nos TRECHOS DA COMPANHIA. Não invente causas. Se não houver explicação para uma variação, apenas descreva-a. Percentuais e volumes por produto que estejam nos trechos podem ser usados como detalhe.
-3. Integre números e explicações no mesmo parágrafo, como um texto único. Não cite documentos, não use aspas, não escreva "segundo o release" nem "de acordo com o Formulário de Referência".
-4. Cada variação deve indicar a comparação ("frente ao {B}"). A margem por m³ da distribuição exclui Renováveis. O EBITDA Ajustado é o da nota de informações por segmento.
-5. Se um fato tiver o campo "atencao", siga a orientação dele.
-6. Entregue o texto chamando obrigatoriamente a ferramenta registrar_mda (não escreva o texto fora dela), com as seções sumario, operacional, resultado, balanco, caixa e perspectivas. Use de 1 a 3 parágrafos por seção; "perspectivas" pode ser lista vazia se os trechos não trouxerem visão da administração."""
+2. EXPLICAÇÕES E EVENTOS: explique as variações e qualifique os eventos importantes do período (contexto de mercado, decisões estratégicas, aquisições, efeitos não recorrentes, captações e amortizações de dívida, distribuição de proventos, investimentos) usando apenas o que está nos TRECHOS DA COMPANHIA e nos EVENTOS DO PERÍODO. Siga a mensagem central (o "pitch") do release, mas sem tom promocional. Não invente causas nem eventos. Quando não houver explicação verificável para uma variação, descreva-a e contextualize-a com os próprios números (por exemplo, composição por segmento, efeito de preço e volume, peso no total), sem atribuir causa.
+3. ESCOPO DA COMPARAÇÃO: as explicações dos trechos podem se referir a outra comparação (por exemplo, trimestre contra trimestre anterior, ou só o último trimestre de um semestre). Use-as apenas quando se aplicarem à comparação em análise; se a explicação for de um trimestre dentro do período, diga isso explicitamente.
+4. Integre números e explicações no mesmo parágrafo. Não cite documentos, não use aspas, não escreva "segundo o release" nem "de acordo com o Formulário de Referência".
+5. Cada variação deve indicar a comparação ("frente ao {B}"). A margem por m³ da distribuição exclui Renováveis. O EBITDA Ajustado é o da nota de informações por segmento. A dívida líquida é a divulgada pela Companhia.
+6. Se um fato tiver o campo "atencao", siga a orientação dele.
+7. Entregue o texto chamando obrigatoriamente a ferramenta registrar_mda (não escreva o texto fora dela), com as seções: sumario (contexto, pitch e principais números), operacional (volumes, EBITDA e margens por segmento), resultado (da receita ao lucro), balanco (dívida, alavancagem, capital de giro, patrimônio e eventos de estrutura de capital), caixa (geração, investimentos, proventos e destino do caixa) e perspectivas (visão da administração; lista vazia se os trechos não a trouxerem). Use de 2 a 4 parágrafos por seção, exceto perspectivas."""
 
 
 def ler(nome):
@@ -102,6 +103,23 @@ def trechos(par, rel, fre):
             out.append(p); total += len(p)
         blocos[sid] = out
     return blocos, tri.get("release"), tri.get("link")
+
+
+def eventos(par, ipe, data_release):
+    """Fatos relevantes e comunicados entregues entre o início do período e a divulgação do release."""
+    A = par["A"]; ano = 2000 + int(A["p"][2:]); q = int(A["p"][0])
+    n = {"T": 1, "S": 2, "9M": 3, "AN": 4}.get(A["base"], 1)
+    q0 = q - n + 1
+    ini = "%d-%02d-01" % (ano, (q0 - 1) * 3 + 1)
+    fim = data_release or "%d-%02d-31" % (ano, q * 3)
+    out = []
+    for d in (ipe or {}).get("documentos", []):
+        if d.get("categoria") in ("Fato Relevante", "Comunicado ao Mercado") and ini <= (d.get("data_entrega") or "") <= fim and d.get("assunto"):
+            out.append("%s — %s: %s" % (d["data_entrega"], d["categoria"], d["assunto"]))
+    out = sorted(set(out))
+    fr = [e for e in out if "Fato Relevante" in e]
+    cm = [e for e in out if "Fato Relevante" not in e][-max(0, 25 - len(fr)):] if len(fr) < 25 else []
+    return sorted(fr[-25:] + cm)
 
 
 def fatos_txt(par):
@@ -223,15 +241,31 @@ def main():
     if not fatos or not os.environ.get("ANTHROPIC_API_KEY"):
         print("mda_ia: sem fatos ou sem a chave ANTHROPIC_API_KEY; o painel usa o texto por regras")
         return 0
-    rel, fre = ler("releases_texto.json"), ler("fre_item10.json")
+    rel, fre, ipe = ler("releases_texto.json"), ler("fre_item10.json"), ler("ipe.json")
     est = ler("mda_ia.json") or {"pares": {}, "recusados": {}}
     ordem = sorted(fatos["pares"].items(), key=lambda kv: (-(int(kv[1]["A"]["p"][2:]) * 4 + int(kv[1]["A"]["p"][0])),
-                                                          {"anual": 0, "exercicio": 1, "trimestral": 2}[kv[1]["tipo"]]))
+                                                          {"anual": 0, "exercicio": 1, "semestre": 2, "nove_meses": 3, "trimestral": 4}.get(kv[1]["tipo"], 9)))
+    # reconfere os textos já aprovados com os números atuais (reapresentações): se não baterem, saem até serem refeitos
+    for k in list(est["pares"]):
+        par = fatos["pares"].get(k)
+        if not par:
+            continue
+        bl, _, _ = trechos(par, rel, fre)
+        evs = eventos(par, ipe, (rel or {}).get("trimestres", {}).get(par["A"]["p"], {}).get("data"))
+        if evs:
+            bl["eventos"] = evs
+        r_ = confere(est["pares"][k]["secoes"], *permitidos(par, bl))
+        if r_:
+            log.append("- %s: texto aprovado anteriormente não confere mais com os números atuais (%s); retirado" % (k, ", ".join(sorted(set(r_))[:5])))
+            del est["pares"][k]
     feitos = 0
     for k, par in ordem:
         if SO_PARES and k not in SO_PARES:
             continue
         blocos, rel_nome, rel_link = trechos(par, rel, fre)
+        evs = eventos(par, ipe, (rel or {}).get("trimestres", {}).get(par["A"]["p"], {}).get("data"))
+        if evs:
+            blocos["eventos"] = evs
         h = hashlib.sha256(json.dumps([VERSAO_PROMPT, MODELO, par["fatos"], blocos], ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:16]
         if not REFAZER and est["pares"].get(k, {}).get("hash") == h:
             continue
@@ -242,7 +276,9 @@ def main():
             break
         feitos += 1
         rs_fat, fat, exc = permitidos(par, blocos)
-        trechos_txt = "\n".join("[%s]\n%s" % (sid, "\n".join("- " + p for p in ps)) for sid, ps in blocos.items() if ps) or "(sem trechos para este período)"
+        trechos_txt = "\n".join("[%s]\n%s" % (sid, "\n".join("- " + p for p in ps)) for sid, ps in blocos.items() if ps and sid != "eventos") or "(sem trechos para este período)"
+        if blocos.get("eventos"):
+            trechos_txt += "\n\nEVENTOS DO PERÍODO (fatos relevantes e comunicados ao mercado; use para contextualizar, sem inventar detalhes):\n" + "\n".join("- " + e for e in blocos["eventos"])
         usuario = ("PERÍODO: %s, comparado com o %s.\n\nFATOS (únicos números permitidos):\n%s\n\nTRECHOS DA COMPANHIA (explicações; não use os valores em R$ daqui):\n%s"
                    % (par["A"]["rotulo"], par["B"]["rotulo"], fatos_txt(par), trechos_txt))
         msgs = [{"role": "system", "content": INSTRUCOES.replace("{B}", par["B"]["rotulo"])}, {"role": "user", "content": usuario}]
@@ -286,7 +322,7 @@ def main():
                                "release": rel_nome, "release_link": rel_link}
             est["recusados"].pop(k, None)
             log.append("- %s: ok" % k)
-        time.sleep(2)
+        time.sleep(15)   # limite de tokens por minuto da API
     est["atualizado_em"] = agora
     json.dump(est, open(os.path.join(RAIZ, "data", "mda_ia.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     log.append("")

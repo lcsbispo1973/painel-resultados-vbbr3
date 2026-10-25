@@ -27,8 +27,10 @@ const fmt = {
   dias: (v) => dec(v, 1) + ' dias',
 };
 const nomeTri = { 1: '1º trimestre', 2: '2º trimestre', 3: '3º trimestre', 4: '4º trimestre' };
-const rotLongo = (l) => l.base === 'AN' ? 'ano de ' + (2000 + +l.p.slice(2)) : nomeTri[+l.p[0]] + ' de ' + (2000 + +l.p.slice(2));
-const rotCurto = (l) => l.base === 'AN' ? String(2000 + +l.p.slice(2)) : l.p;
+const ano = (l) => 2000 + +l.p.slice(2);
+const rotLongo = (l) => l.base === 'AN' ? 'ano de ' + ano(l) : l.base === 'S' ? (l.p[0] === '2' ? '1º semestre' : '2º semestre') + ' de ' + ano(l)
+  : l.base === '9M' ? '9 meses de ' + ano(l) : nomeTri[+l.p[0]] + ' de ' + ano(l);
+const rotCurto = (l) => l.base === 'AN' ? String(ano(l)) : l.base === 'S' ? (l.p[0] === '2' ? '1S' : '2S') + l.p.slice(2) : l.base === '9M' ? '9M' + l.p.slice(2) : l.p;
 
 // volume e margem por m³ do release (mesma regra da aba Operacional)
 function volume(seg, l) {
@@ -136,9 +138,12 @@ const add = (A, B, tipo) => {
   const k = [A.p, A.base, B.p, B.base].join('|');
   pares[k] = { tipo, A: Object.assign({ rotulo: rotLongo(A), curto: rotCurto(A) }, A), B: Object.assign({ rotulo: rotLongo(B), curto: rotCurto(B) }, B), fatos: f };
 };
+// todos os recortes que o seletor de período do painel oferece, contra o mesmo recorte do ano anterior
 for (const p of comRelease) {
   add({ p, base: 'T' }, { p: D.desloca(p, 4), base: 'T' }, 'anual');
   add({ p, base: 'T' }, { p: D.desloca(p, 1), base: 'T' }, 'trimestral');
+  if (p[0] === '2' || p[0] === '4') add({ p, base: 'S' }, { p: D.desloca(p, 4), base: 'S' }, 'semestre');
+  if (p[0] === '3') add({ p, base: '9M' }, { p: D.desloca(p, 4), base: '9M' }, 'nove_meses');
   if (p[0] === '4') add({ p, base: 'AN' }, { p: D.desloca(p, 4), base: 'AN' }, 'exercicio');
 }
 fs.writeFileSync(path.join(raiz, 'data', 'mda_fatos.json'), JSON.stringify({ gerado_em: new Date().toISOString(), pares }));
