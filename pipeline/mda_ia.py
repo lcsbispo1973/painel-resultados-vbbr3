@@ -32,7 +32,7 @@ MODELO = os.environ.get("MDA_IA_MODELO", "claude-sonnet-5-5")
 MAX_POR_EXECUCAO = int(os.environ.get("MDA_IA_MAX", "12"))
 SO_PARES = [p for p in os.environ.get("MDA_IA_PARES", "").split(",") if p]
 REFAZER = os.environ.get("MDA_IA_REFAZER", "") == "1"
-VERSAO_PROMPT = 3   # mudar força a reescrita de todos os pares
+VERSAO_PROMPT = 4   # mudar força a reescrita de todos os pares
 
 SECOES = [("sumario", "Sumário executivo", ["MSG"]),
           ("operacional", "Desempenho operacional", ["REDE", "B2B", "REN"]),
@@ -49,7 +49,7 @@ Regras obrigatórias:
 3. Integre números e explicações no mesmo parágrafo, como um texto único. Não cite documentos, não use aspas, não escreva "segundo o release" nem "de acordo com o Formulário de Referência".
 4. Cada variação deve indicar a comparação ("frente ao {B}"). A margem por m³ da distribuição exclui Renováveis. O EBITDA Ajustado é o da nota de informações por segmento.
 5. Se um fato tiver o campo "atencao", siga a orientação dele.
-6. Responda só com JSON no formato: {"sumario": [parágrafos], "operacional": [...], "resultado": [...], "balanco": [...], "caixa": [...], "perspectivas": [...]}. Use de 1 a 3 parágrafos por seção; "perspectivas" pode ser lista vazia se os trechos não trouxerem visão da administração."""
+6. Entregue o texto pela ferramenta registrar_mda, com as seções sumario, operacional, resultado, balanco, caixa e perspectivas. Use de 1 a 3 parágrafos por seção; "perspectivas" pode ser lista vazia se os trechos não trouxerem visão da administração."""
 
 
 def ler(nome):
@@ -174,23 +174,32 @@ def confere(secoes, rs_fat, fat, exc):
     return recusados
 
 
+FERRAMENTA = {
+    "name": "registrar_mda",
+    "description": "Registra o texto do MD&A, um parágrafo por item de cada lista.",
+    "input_schema": {"type": "object", "properties": {k: {"type": "array", "items": {"type": "string"}} for k, _, _ in SECOES},
+                     "required": [k for k, _, _ in SECOES]},
+}
+
+
 def chama(mensagens):
-    """mensagens: [{"role": "system"|"user"|"assistant", "content": str}] → texto da resposta (JSON)."""
+    """mensagens: [{"role": "system"|"user"|"assistant", "content": str}] → dict com as seções.
+    A resposta vem por "ferramenta" (tool use), o que garante JSON válido."""
     sistema = "\n".join(m["content"] for m in mensagens if m["role"] == "system")
     conversa = [m for m in mensagens if m["role"] != "system" and m["content"]]
-    corpo = json.dumps({"model": MODELO, "max_tokens": 4000, "system": sistema, "messages": conversa}).encode()
+    corpo = json.dumps({"model": MODELO, "max_tokens": 8000, "system": sistema, "messages": conversa,
+                        "tools": [FERRAMENTA], "tool_choice": {"type": "tool", "name": "registrar_mda"}}).encode()
     req = urllib.request.Request(URL, data=corpo, headers={"x-api-key": os.environ["ANTHROPIC_API_KEY"], "anthropic-version": "2023-06-01",
                                                            "content-type": "application/json"})
-    with urllib.request.urlopen(req, timeout=240) as r:
+    with urllib.request.urlopen(req, timeout=300) as r:
         bruto = r.read().decode("utf-8", "ignore")
-    try:
-        j = json.loads(bruto)
-    except ValueError:
-        raise RuntimeError("resposta não-JSON: %r" % bruto[:300])
-    txt = "".join(b.get("text", "") for b in j.get("content", []) if b.get("type") == "text").strip()
-    txt = re.sub(r"^```(?:json)?\s*|\s*```$", "", txt)
-    i, k = txt.find("{"), txt.rfind("}")
-    return txt[i:k + 1] if i >= 0 and k > i else txt
+    j = json.loads(bruto)
+    if j.get("stop_reason") == "max_tokens":
+        raise RuntimeError("resposta cortada pelo limite de tamanho")
+    for b in j.get("content", []):
+        if b.get("type") == "tool_use" and b.get("name") == "registrar_mda":
+            return b.get("input") or {}
+    raise RuntimeError("resposta sem o texto estruturado: %r" % bruto[:300])
 
 
 def main():
@@ -231,11 +240,8 @@ def main():
         secoes, recusados, txt = None, ["sem resposta"], ""
         for tentativa in range(2):
             try:
-                txt = chama(msgs)
-                try:
-                    bruto = json.loads(txt)
-                except ValueError:
-                    raise RuntimeError("conteúdo não-JSON: %r" % txt[:300])
+                bruto = chama(msgs)
+                txt = json.dumps(bruto, ensure_ascii=False)
                 secoes = {sid: [p.strip() for p in (bruto.get(sid) or []) if isinstance(p, str) and p.strip()] for sid, _, _ in SECOES}
                 recusados = confere(secoes, rs_fat, fat, exc)
                 if not secoes["resultado"] or not secoes["sumario"]:

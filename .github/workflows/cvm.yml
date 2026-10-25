@@ -99,6 +99,7 @@ jobs:
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MDA_IA_MAX: '4'   # na atualização diária, só os pares novos; o histórico é feito pelo workflow manual
         run: |
           node pipeline/mda_fatos.js
           python pipeline/mda_ia.py
