@@ -22,6 +22,39 @@ AMOSTRAS = {}
 ERRO_CVM = re.compile(r"(documento n[ãa]o (foi )?encontrado|n[ãa]o foi poss[íi]vel|erro inesperado|acesso negado|p[áa]gina n[ãa]o encontrada|object reference)", re.I)
 
 
+def link_doc(u):
+    """Mesmo endereço que o painel mostra (docs/js/nucleo.js, P.linkDoc): página de visualização da CVM no lugar do download,
+    que trava o Safari do iPhone."""
+    u = re.sub(r"^http://", "https://", u)
+    m = re.search(r"rad\.cvm\.gov\.br/ENET/frmDownloadDocumento\.aspx\?.*[?&]numProtocolo=(\d+)", u, re.I)
+    if m and re.search(r"descTipo=IPE", u, re.I):
+        return "https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=" + m.group(1)
+    m = re.search(r"rad\.cvm\.gov\.br/ENETCONSULTA/frmDownloadDocumento\.aspx\?.*NumeroSequencialDocumento=(\d+)", u, re.I)
+    if m:
+        return "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?NumeroSequencialDocumento=%s&CodigoTipoInstituicao=1" % m.group(1)
+    return u
+
+
+def visualizacao(url):
+    """A página de visualização abre e identifica o documento (cabeçalho com o protocolo)?"""
+    ultimo = None
+    for tentativa in range(3):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r:
+                txt = r.read(400000).decode("utf-8", "ignore")
+            if ERRO_CVM.search(re.sub(r"<[^>]+>", " ", txt)):
+                return False, "página de visualização com erro"
+            if re.search(r"Protocolo", txt):
+                return True, None
+            ultimo = "página de visualização sem o documento"
+        except urllib.error.HTTPError as e:
+            ultimo = "visualização HTTP %d" % e.code
+        except Exception as e:  # noqa: BLE001
+            ultimo = "visualização " + type(e).__name__
+        time.sleep(4 * (tentativa + 1))
+    return False, ultimo
+
+
 def coletar():
     links = {}
 
@@ -66,6 +99,17 @@ def abre(alvo):
 
 
 def testa(url):
+    """O documento existe (endereço de download) e a página que o painel mostra (visualização) abre."""
+    st, info = testa_download(url)
+    v = link_doc(url)
+    if st == "ok" and v != url.replace("http://", "https://", 1):
+        okv, motivo = visualizacao(v)
+        if not okv:
+            return "quebrado", motivo + " (" + v + ")"
+    return st, info
+
+
+def testa_download(url):
     """Abre o link. Se a CVM devolver a página intermediária vazia, tenta de novo (ela costuma entregar o arquivo depois)."""
     alvo = url.replace("http://", "https://", 1)
     ultimo, paginas = None, 0

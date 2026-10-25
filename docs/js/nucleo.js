@@ -35,6 +35,18 @@
 
   // ---------- DOM ----------
   P.$ = function (id) { return document.getElementById(id); };
+  // documentos da CVM: o endereço de download (frmDownloadDocumento) entrega o arquivo com tipo "text/html" e o Safari do
+  // iPhone trava ("Um problema ocorreu repetidamente"). Os links do painel apontam para as páginas de visualização da CVM,
+  // que mostram o documento (IPE: visualizador de PDF; FRE/ITR/DFP: consulta por seções) e têm o botão de download.
+  P.linkDoc = function (u) {
+    if (typeof u !== 'string') return u;
+    u = u.replace(/^http:\/\//, 'https://');
+    var m = /rad\.cvm\.gov\.br\/ENET\/frmDownloadDocumento\.aspx\?.*[?&]numProtocolo=(\d+)/i.exec(u);
+    if (m && /descTipo=IPE/i.test(u)) return 'https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=' + m[1];
+    m = /rad\.cvm\.gov\.br\/ENETCONSULTA\/frmDownloadDocumento\.aspx\?.*NumeroSequencialDocumento=(\d+)/i.exec(u);
+    if (m) return 'https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?NumeroSequencialDocumento=' + m[1] + '&CodigoTipoInstituicao=1';
+    return u;
+  };
   var h = P.h = function (tag, attrs) {
     var e = document.createElement(tag);
     Object.keys(attrs || {}).forEach(function (k) {
@@ -42,7 +54,7 @@
       if (v === false || v == null) return;
       if (k === 'class') e.className = v;
       else if (k.slice(0, 2) === 'on') e.addEventListener(k.slice(2), v);
-      else if (k === 'href' && typeof v === 'string' && /^http:\/\//.test(v)) e.setAttribute(k, v.replace(/^http:/, 'https:'));   // documentos sempre por conexão segura
+      else if (k === 'href' && typeof v === 'string' && /^https?:\/\//.test(v)) e.setAttribute(k, P.linkDoc(v));   // conexão segura e página de visualização da CVM
       else e.setAttribute(k, v === true ? '' : v);
     });
     Array.prototype.slice.call(arguments, 2).forEach(function add(c) {
