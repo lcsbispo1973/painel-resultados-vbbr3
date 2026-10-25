@@ -77,7 +77,24 @@
       ' e registrou EBITDA Ajustado de ' + P.fMi(V.aj[0]) + (ok(pct(V.aj[0], V.aj[1])) ? ', ' + (V.aj[0] >= V.aj[1] ? 'alta' : 'queda') + ' de ' + P.f1(Math.abs(pct(V.aj[0], V.aj[1])) * 100) + '%' : '') + '.';
     var s2 = ok(V.m3[0]) ? 'A margem EBITDA Ajustada foi de R$ ' + P.fInt(V.m3[0]) + '/m³' + (ok(V.m3[1]) ? ', contra R$ ' + P.fInt(V.m3[1]) + '/m³ no ' + lB : '') + '.' : '';
     var s3 = 'O lucro líquido somou ' + P.fMi(V.luc[0]) + (ok(V.luc[1]) ? ' (' + P.fMi(V.luc[1]) + ' no ' + lB + ')' : '') + ', e o caixa operacional, ' + P.fMi(V.fco[0]) + '.';
-    secoes.push({ id: 'sum', titulo: 'Sumário executivo', paragrafos: [s1 + ' ' + s2 + ' ' + s3], citacoes: cita('MSG', 1).concat(cita('CONS', 1)) });
+    // contexto (modo por regras): posição na série histórica do mesmo recorte e composição do EBITDA por segmento
+    var ctx = [];
+    var hist = M.historico({ p: A.p, base: A.base }, 40).filter(function (p) { return ok(M.aj('CONS', p, A.base)); });
+    if (hist.length >= 4) {
+      var serie = hist.map(function (p) { return M.aj('CONS', p, A.base); }), atual = V.aj[0];
+      var desde = M.rotulo(hist[0], A.base), mx = Math.max.apply(null, serie), mn = Math.min.apply(null, serie);
+      if (ok(atual) && atual >= mx) ctx.push('É o maior EBITDA Ajustado da série deste recorte no painel, iniciada em ' + desde + '.');
+      else if (ok(atual) && atual <= mn) ctx.push('É o menor EBITDA Ajustado da série deste recorte no painel, iniciada em ' + desde + '.');
+      else if (ok(atual)) { var med = serie.reduce(function (a, b) { return a + b; }, 0) / serie.length; ctx.push('O EBITDA Ajustado ficou ' + (atual >= med ? 'acima' : 'abaixo') + ' da média da série deste recorte desde ' + desde + ' (' + P.fMi(med) + ').'); }
+    }
+    var segs = ['REDE', 'B2B', 'REN'].map(function (s) { return [s, aj(s, A)]; }).filter(function (x) { return ok(x[1]) && x[1] > 0; });
+    var somaSeg = segs.reduce(function (a, x) { return a + x[1]; }, 0);
+    if (segs.length >= 2 && somaSeg > 0) {
+      var nm = { REDE: 'a Rede de Postos', B2B: 'o B2B', REN: 'Renováveis' };
+      var partes = segs.map(function (x, i) { return nm[x[0]] + (i === 0 ? ' respondeu por ' : ', por ') + P.f1(x[1] / somaSeg * 100) + '%'; });
+      ctx.push('Na composição do EBITDA Ajustado dos segmentos, ' + partes.slice(0, -1).join('; ') + (partes.length > 1 ? '; e ' : '') + partes[partes.length - 1] + '.');
+    }
+    secoes.push({ id: 'sum', titulo: 'Sumário executivo', paragrafos: [s1 + ' ' + s2 + ' ' + s3].concat(ctx.length ? [ctx.join(' ')] : []), citacoes: cita('MSG', 1).concat(cita('CONS', 1)) });
 
     // 3. operacional por segmento
     var nomes = (c.aj && c.aj.segmentos) || {};
