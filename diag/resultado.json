@@ -1,0 +1,104 @@
+{
+ "iphone:ipe_download": {
+  "url": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1558260&numSequencia=1082966&numVersao=1",
+  "status": 200,
+  "content_type": "text/html",
+  "disposition": "attachment; filename=024295000101011.pdf",
+  "final_url": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1558260&numSequencia=1082966&numVersao=1",
+  "titulo": "",
+  "texto": "%PDF-1.7 %µµµµ 1 0 obj <>/Metadata 1979 0 R/ViewerPreferences 1980 0 R>> endobj 2 0 obj <> endobj 3 0 obj <> endobj 4 0 obj <>/XObject<>/Font<>/ProcSet[/PDF/Text/ImageB/ImageC/ImageI] >>/MediaBox[ 0 0 540 780] /Contents 5 0 R/Group<>/Tabs/S/StructParents 0>> endobj 5 0 obj <> stream xœµUÛnÓ@\u0010}·ä˜Çu",
+  "frames": [
+   "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1558260&numSequencia=1082966&numVersao=1"
+  ],
+  "downloads": []
+ },
+ "iphone:ipe_exibir": {
+  "url": "https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1558260",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "disposition": null,
+  "final_url": "https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1558260",
+  "titulo": "ENET IPE - Dados Econômico-Financeiros\\Press-release",
+  "texto": "VIBRA ENERGIA S/A\n Dados Econômico-Financeiros\\Press-release\n DRI: Maurício Fernandes Teixeira - (FCA V2)\nProtocolo nº: 024295IPE300620260142328555-32\nData do Documento\n06/2026\nData do Envio\n14/08/2026 19:24:48\n\n",
+  "frames": [
+   "https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1558260",
+   "https://www.rad.cvm.gov.br/ENET/pdfjs/web/viewer.html"
+  ],
+  "downloads": []
+ },
+ "iphone:fre_download": {
+  "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126115",
+  "status": 200,
+  "content_type": "text/html",
+  "disposition": "attachment; filename=02429520220101819.zip",
+  "final_url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126115",
+  "titulo": "",
+  "texto": "PK\u0003\u0004\u0014\b“TY]àp[B\u0019w£ÆÆ£\u0016024295202201010819.freLÚcs.Ð¶%àØ¶ì`Ç¶mÛ¶mcÇ¶m;ycÛ¶m£Ï¹]Õ}?¬ª§æ\u000f\u0018³Ö¬¡ †\u0006\u0004\u0004\u0004\u0005„\u0012U©VÝ\u000eü*@ \u0004Tî\fDûŸ© ‰­¥¥³‹“¡‰½“¬©­‘“½°½³©…½˜¥³±¡œ©¹½±¥½3‡­Íµ¯¼=îxâiOà7B$\u001f\u001cY@ò›:Y\u001e/\u0002Z‰\u001a¿ôA„ÕëÔŽ’*\u0015õµ\u0011ºî°Ñ&ß3ÁéW-wŸÇéÝ\u001e$–F¾9=\u001f\u0002@Ò?1&bªr‚:\u0011…JÚN›ž`\u0003M3ÅŸ„™Ôïþ\u000fiîÏbVÃ¨\u0019I´ÉÞïáërÎÄëïÓ•¿Ïk3nØ×õºê*¾´¾Øb|— \u0007",
+  "frames": [
+   "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126115"
+  ],
+  "downloads": []
+ },
+ "iphone:fre_gerencia": {
+  "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?NumeroSequencialDocumento=126115&CodigoTipoInstituicao=1",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "disposition": null,
+  "final_url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?NumeroSequencialDocumento=126115&CodigoTipoInstituicao=1",
+  "titulo": "Consulta de documentos",
+  "texto": "VIBRA ENERGIA S/A\n DRI: Ernesto Peres Pousada Junior - (FCA V2)\n Formulário de Referência - 2022 - V19  Auditor: KPMG - Auditores Independentes - (FCA 2023 V1)\n Responsável Técnico Auditor: Bruno Bressan Marcondes\nProtocolo nº024295FRE202220221900126115-72 Data do Documento\n2022\nData do Envio\n10/05/",
+  "frames": [
+   "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?NumeroSequencialDocumento=126115&CodigoTipoInstituicao=1",
+   "https://www.rad.cvm.gov.br/ENET/frmResponsavelConteudoFormularioFRENovo.aspx?Grupo=1.+Respons%c3%a1veis+pelo+formul%c3%a1rio&Quadro=1.0+-+Identifica%c3%a7%c3%a3o&NomeTipoDocumento=FRE%20NOVO&Empresa=VIBRA%20ENERGIA%20S/A&DataReferencia=2022-01-01&Versao=19&CodTipoDocumento=8&NumeroSequencialDocumento=126115&NumeroSequencialRegistroCvm=2560&CodigoTipoInstituicao=1&Hash=6fQPA3Q7By1vDptTrCj7Kn3PNgpb8O6sh3O7K1Ih8",
+   "about:blank",
+   "https://www.rad.cvm.gov.br/ENET/pdfjs/web/viewer.html"
+  ],
+  "downloads": []
+ },
+ "chrome:ipe_download": {
+  "url": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1558260&numSequencia=1082966&numVersao=1",
+  "erro": "Page.goto: net::ERR_ABORTED at https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1558260&numSequencia=1082966&numVersao=1\nCall log:\nnavigating to \"https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInst",
+  "downloads": [
+   "024295000101011.pdf"
+  ]
+ },
+ "chrome:ipe_exibir": {
+  "url": "https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1558260",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "disposition": null,
+  "final_url": "https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1558260",
+  "titulo": "ENET IPE - Dados Econômico-Financeiros\\Press-release",
+  "texto": "VIBRA ENERGIA S/A\n Dados Econômico-Financeiros\\Press-release\n DRI: Maurício Fernandes Teixeira - (FCA V2)\nProtocolo nº: 024295IPE300620260142328555-32\nData do Documento\n06/2026\nData do Envio\n14/08/2026 19:24:48\n\n",
+  "frames": [
+   "https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1558260",
+   "about:blank"
+  ],
+  "downloads": [
+   "7b19744b-cb0b-4d99-8991-5837a347b755.pdf"
+  ]
+ },
+ "chrome:fre_download": {
+  "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126115",
+  "erro": "Page.goto: net::ERR_ABORTED at https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126115\nCall log:\nnavigating to \"https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126115\", wait",
+  "downloads": [
+   "02429520220101819.zip"
+  ]
+ },
+ "chrome:fre_gerencia": {
+  "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?NumeroSequencialDocumento=126115&CodigoTipoInstituicao=1",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "disposition": null,
+  "final_url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?NumeroSequencialDocumento=126115&CodigoTipoInstituicao=1",
+  "titulo": "Consulta de documentos",
+  "texto": "VIBRA ENERGIA S/A\n\n DRI: Ernesto Peres Pousada Junior - (FCA V2)\n Formulário de Referência - 2022 - V19\n Auditor: KPMG - Auditores Independentes - (FCA 2023 V1)\n Responsável Técnico Auditor: Bruno Bressan Marcondes\nProtocolo nº024295FRE202220221900126115-72\nData do Documento\n2022\n\nData do Envio\n10/0",
+  "frames": [
+   "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?NumeroSequencialDocumento=126115&CodigoTipoInstituicao=1",
+   "https://www.rad.cvm.gov.br/ENET/frmResponsavelConteudoFormularioFRENovo.aspx?Grupo=1.+Respons%c3%a1veis+pelo+formul%c3%a1rio&Quadro=1.0+-+Identifica%c3%a7%c3%a3o&NomeTipoDocumento=FRE%20NOVO&Empresa=VIBRA%20ENERGIA%20S/A&DataReferencia=2022-01-01&Versao=19&CodTipoDocumento=8&NumeroSequencialDocumento=126115&NumeroSequencialRegistroCvm=2560&CodigoTipoInstituicao=1&Hash=6fQPA3Q7By1vDptTrCj7Kn3PNgpb8O6sh3O7K1Ih8",
+   "about:blank",
+   "https://www.rad.cvm.gov.br/ENET/pdfjs/web/viewer.html"
+  ],
+  "downloads": []
+ }
+}
