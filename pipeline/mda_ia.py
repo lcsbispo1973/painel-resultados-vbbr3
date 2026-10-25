@@ -32,7 +32,7 @@ MODELO = os.environ.get("MDA_IA_MODELO", "claude-sonnet-5-5")
 MAX_POR_EXECUCAO = int(os.environ.get("MDA_IA_MAX", "12"))
 SO_PARES = [p for p in os.environ.get("MDA_IA_PARES", "").split(",") if p]
 REFAZER = os.environ.get("MDA_IA_REFAZER", "") == "1"
-VERSAO_PROMPT = 5   # mudar força a reescrita de todos os pares
+VERSAO_PROMPT = 6   # mudar força a reescrita de todos os pares
 
 SECOES = [("sumario", "Sumário executivo", ["MSG"]),
           ("operacional", "Desempenho operacional", ["REDE", "B2B", "REN"]),
@@ -47,7 +47,7 @@ Regras obrigatórias:
 1. NÚMEROS: use somente os números da lista FATOS, escritos exatamente como aparecem lá (pode escolher a forma em milhões ou em bilhões quando as duas forem dadas). Não calcule, não arredonde de outro jeito e não crie números novos. Valores em R$ dos TRECHOS DA COMPANHIA não podem ser usados (eles podem seguir conceitos diferentes das demonstrações).
 2. EXPLICAÇÕES E EVENTOS: explique as variações e qualifique os eventos importantes do período (contexto de mercado, decisões estratégicas, aquisições, efeitos não recorrentes, captações e amortizações de dívida, distribuição de proventos, investimentos) usando apenas o que está nos TRECHOS DA COMPANHIA e nos EVENTOS DO PERÍODO. Siga a mensagem central (o "pitch") do release, mas sem tom promocional. Não invente causas nem eventos. Quando não houver explicação verificável para uma variação, descreva-a e contextualize-a com os próprios números (por exemplo, composição por segmento, efeito de preço e volume, peso no total), sem atribuir causa.
 3. ESCOPO DA COMPARAÇÃO: as explicações dos trechos podem se referir a outra comparação (por exemplo, trimestre contra trimestre anterior, ou só o último trimestre de um semestre). Use-as apenas quando se aplicarem à comparação em análise; se a explicação for de um trimestre dentro do período, diga isso explicitamente.
-4. Integre números e explicações no mesmo parágrafo. Não cite documentos, não use aspas, não escreva "segundo o release" nem "de acordo com o Formulário de Referência".
+4. Integre números e explicações no mesmo parágrafo. Não cite documentos, não use aspas, não escreva "segundo o release" nem "de acordo com o Formulário de Referência". Nunca comente a ausência de explicação, os trechos, as fontes ou a verificabilidade (evite frases como "não há causa verificável" ou "os trechos não trazem"): quando não houver causa, apenas descreva e contextualize a variação, como faria um relatório da administração.
 5. Cada variação deve indicar a comparação ("frente ao {B}"). A margem por m³ da distribuição exclui Renováveis. O EBITDA Ajustado é o da nota de informações por segmento. A dívida líquida é a divulgada pela Companhia.
 6. Se um fato tiver o campo "atencao", siga a orientação dele.
 7. Entregue o texto chamando obrigatoriamente a ferramenta registrar_mda (não escreva o texto fora dela), com as seções: sumario (contexto, pitch e principais números), operacional (volumes, EBITDA e margens por segmento), resultado (da receita ao lucro), balanco (dívida, alavancagem, capital de giro, patrimônio e eventos de estrutura de capital), caixa (geração, investimentos, proventos e destino do caixa) e perspectivas (visão da administração; lista vazia se os trechos não a trouxerem). Use de 2 a 4 parágrafos por seção, exceto perspectivas."""
