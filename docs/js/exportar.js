@@ -19,11 +19,20 @@
     var pg = P.paginas[S.aba], per = P.paginas[S.aba].periodo ? '_' + P.rotulo(S.a) + (pg.periodo === 'ab' ? '_vs_' + P.rotulo(S.b) : '') : '';
     return ('vibra_' + semAcento(pg.titulo) + per).toLowerCase().replace(/[^a-z0-9_]+/g, '_').replace(/_+/g, '_').replace(/_$/, '') + '.' + ext;
   }
+  // texto de um elemento sem botões; elementos de bloco (data, categoria e assunto em linhas separadas) ganham espaço entre si
   function textoLimpo(el) {
     if (!el) return '';
-    var c = el.cloneNode(true);
-    Array.prototype.forEach.call(c.querySelectorAll('.info, button, .no-pdf'), function (x) { x.remove(); });
-    return c.textContent.replace(/\s+/g, ' ').trim();
+    var partes = [], vivo = el.isConnected;
+    (function anda(n) {
+      if (n.nodeType === 3) { partes.push(n.nodeValue); return; }
+      if (n.nodeType !== 1) return;
+      if (n.matches('.info, button, .no-pdf, .tip, script, style')) return;
+      var bl = vivo && n !== el && !/^inline/.test(getComputedStyle(n).display);
+      if (bl) partes.push(' · ');
+      Array.prototype.forEach.call(n.childNodes, anda);
+      if (bl) partes.push(' · ');
+    })(el);
+    return partes.join('').replace(/\s+/g, ' ').replace(/(\s*·\s*)+/g, ' · ').replace(/^\s*·\s*|\s*·\s*$/g, '').trim();
   }
   function periodoTexto() {
     var pg = P.paginas[S.aba];
@@ -156,61 +165,168 @@
   };
 
   // ---------- PDF ----------
-  // O SVG dos gráficos usa classes e variáveis de CSS; a captura precisa delas escritas em cada elemento.
+  // Relatório montado a partir da aba (texto, tabelas e gráficos em vetor/imagem leve), sem "fotografar" a página inteira:
+  // abre rápido no iPhone, o texto é pesquisável e as quebras de página respeitam os blocos.
   var PROPS = ['fill', 'stroke', 'stroke-width', 'stroke-dasharray', 'opacity', 'fill-opacity', 'stroke-opacity', 'font-size', 'font-family', 'font-weight', 'text-anchor', 'paint-order', 'stroke-linejoin', 'visibility'];
-  function fixaSvg(orig, copia) {
-    var a = orig.querySelectorAll('svg, svg *'), b = copia.querySelectorAll('svg, svg *');
+  function svgPng(svg) {   // SVG do gráfico → PNG (estilos calculados escritos no próprio SVG)
+    var r = svg.getBoundingClientRect(), W = Math.max(1, Math.round(r.width)), H = Math.max(1, Math.round(r.height));
+    var c = svg.cloneNode(true), a = svg.querySelectorAll('*'), b = c.querySelectorAll('*');
     for (var i = 0; i < a.length && i < b.length; i++) {
       var cs = getComputedStyle(a[i]), st = [];
       PROPS.forEach(function (p) { var v = cs.getPropertyValue(p); if (v) st.push(p + ':' + v); });
       b[i].setAttribute('style', st.join(';'));
-      if (b[i].tagName.toLowerCase() === 'svg') {
-        var r = a[i].getBoundingClientRect();
-        b[i].setAttribute('width', Math.round(r.width)); b[i].setAttribute('height', Math.round(r.height));
-      }
     }
+    c.setAttribute('xmlns', 'http://www.w3.org/2000/svg'); c.setAttribute('width', W); c.setAttribute('height', H);
+    c.setAttribute('style', 'font-family:' + getComputedStyle(svg).fontFamily);
+    var url = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(new XMLSerializer().serializeToString(c));
+    return new Promise(function (ok, falha) {
+      var img = new Image();
+      img.onload = function () {
+        var k = 2, cv = document.createElement('canvas'); cv.width = W * k; cv.height = H * k;
+        var g = cv.getContext('2d'); g.fillStyle = '#fff'; g.fillRect(0, 0, cv.width, cv.height); g.drawImage(img, 0, 0, cv.width, cv.height);
+        ok({ url: cv.toDataURL('image/png'), w: W, h: H });
+      };
+      img.onerror = function () { falha(new Error('gráfico')); };
+      img.src = url;
+    });
+  }
+  // fonte padrão do PDF (Helvetica, WinAnsi): troca os poucos caracteres fora dela
+  function t(s) {
+    return String(s == null ? '' : s).replace(/−/g, '-').replace(/[   ]/g, ' ').replace(/≈/g, '~').replace(/≥/g, '>=').replace(/≤/g, '<=')
+      .replace(/Δ/g, 'Var.').replace(/³/g, '3').replace(/²/g, '2').replace(/[“”]/g, '"').replace(/[‘’]/g, "'").replace(/×/g, 'x').replace(/→/g, '->').replace(/\s+/g, ' ').trim();
+  }
+  function rgb(cor) {
+    var m = /rgba?\((\d+),\s*(\d+),\s*(\d+)/.exec(cor || ''); if (m) return [+m[1], +m[2], +m[3]];
+    m = /^#?([0-9a-f]{6})$/i.exec((cor || '').trim()); if (m) { var n = parseInt(m[1], 16); return [n >> 16, (n >> 8) & 255, n & 255]; }
+    return [55, 55, 58];
+  }
+
+  function montaPdf(pg) {
+    var jsPDF = window.jspdf.jsPDF, doc = new jsPDF({ unit: 'mm', format: 'a4', orientation: 'portrait', compress: true });
+    var M = 14, W = 210 - 2 * M, TOPO = 14, FUNDO = 297 - 16, y = TOPO, VERDE = [38, 130, 0], ESC = [0, 68, 21], CINZA = [102, 104, 107], TXT = [55, 55, 58];
+    var cabe = function (h) { if (y + h > FUNDO) { doc.addPage(); y = TOPO; } };
+    var texto = function (s, o) {
+      o = o || {}; s = t(s); if (!s) return;
+      doc.setFont('helvetica', o.negrito ? 'bold' : (o.italico ? 'italic' : 'normal')); doc.setFontSize(o.tam || 9.5); doc.setTextColor.apply(doc, o.cor || TXT);
+      var x = M + (o.recuo || 0), larg = W - (o.recuo || 0), linhas = doc.splitTextToSize(s, larg), lh = (o.tam || 9.5) * 0.42;
+      linhas.forEach(function (l, i) { cabe(lh); doc.text(l, x, y + lh * 0.8); if (o.marcador && i === 0) doc.text('•', M + (o.recuo || 0) - 3.2, y + lh * 0.8); y += lh; });
+      y += o.depois == null ? 1.6 : o.depois;
+    };
+    // cabeçalho
+    doc.setFillColor.apply(doc, VERDE); doc.rect(M, y, W, 0.9, 'F'); y += 3;
+    texto('Vibra em Números — ' + pg.titulo, { tam: 16, negrito: true, cor: ESC, depois: 0.5 });
+    if (periodoTexto()) texto(periodoTexto(), { tam: 9.5, negrito: true, depois: 1 });
+    texto(textoLimpo(P.$('take')), { tam: 10.5, depois: 1 });
+    texto(textoLimpo(P.$('sub')) + ' · gerado em ' + agora(), { tam: 7.5, cor: CINZA, depois: 4 });
+
+    var tarefas = [];   // gráficos viram imagem de forma assíncrona; o resto é escrito na ordem
+    function visivelPdf(el) { return !(el.hidden || el.classList.contains('no-pdf') || el.classList.contains('tip') || el.classList.contains('pop')) && el.getClientRects().length > 0; }
+    function tabela(tb) {
+      var linhas = Array.prototype.filter.call(tb.querySelectorAll('tr'), visivelPdf);
+      if (!linhas.length) return;
+      var cabTr = tb.querySelector('thead tr'), celulas = function (tr) { return Array.prototype.map.call(tr.children, function (c) { var a = c.querySelector('a[href]'); return { content: t(textoLimpo(c)), colSpan: +c.getAttribute('colspan') || 1, link: a ? P.linkDoc(a.getAttribute('href')) : null, grp: tr.classList.contains('grp'), tot: /\btot\b/.test(tr.className) }; }); };
+      var head = cabTr ? [celulas(cabTr)] : [], body = linhas.filter(function (tr) { return tr !== cabTr; }).map(celulas);
+      var ncol = Math.max.apply(null, body.concat(head).map(function (r) { return r.reduce(function (a, c) { return a + c.colSpan; }, 0); }));
+      var numerica = [];   // coluna numérica (maioria das células é número) → alinhada à direita
+      for (var j = 0; j < ncol; j++) {
+        var cel = body.filter(function (r) { return r.length === ncol && r[j] && r[j].content; }).map(function (r) { var c = celula(r[j].content); return c && c.t === 'n'; });
+        numerica[j] = j > 0 && cel.length > 0 && cel.filter(Boolean).length >= cel.length * 0.6;
+      }
+      cabe(14);
+      doc.autoTable({
+        head: head, body: body, startY: y, margin: { left: M, right: M, top: TOPO, bottom: 297 - FUNDO }, theme: 'plain',
+        styles: { font: 'helvetica', fontSize: ncol > 7 ? 6.6 : 7.6, cellPadding: { top: 1.1, bottom: 1.1, left: 1.4, right: 1.4 }, textColor: TXT, lineColor: [225, 229, 223], lineWidth: { bottom: 0.15 }, overflow: 'linebreak' },
+        headStyles: { fontStyle: 'bold', fillColor: [245, 247, 244], textColor: TXT },
+        columnStyles: { 0: { halign: 'left', cellWidth: ncol > 3 ? Math.min(70, W * 0.38) : 'auto' } },
+        didParseCell: function (d) {
+          var raw = d.cell.raw || {};
+          d.cell.styles.halign = numerica[d.column.index] ? 'right' : 'left';
+          if (raw.grp) { d.cell.styles.fontStyle = 'bold'; d.cell.styles.fillColor = [238, 242, 236]; d.cell.styles.halign = 'left'; }
+          if (raw.tot) d.cell.styles.fontStyle = 'bold';
+          if (raw.link) d.cell.styles.textColor = VERDE;
+        },
+        didDrawCell: function (d) { var raw = d.cell.raw || {}; if (raw.link && d.section === 'body') doc.link(d.cell.x, d.cell.y, d.cell.width, d.cell.height, { url: raw.link }); }
+      });
+      y = doc.lastAutoTable.finalY + 4;
+    }
+    function kpis(grade) {
+      var cards = Array.prototype.filter.call(grade.children, visivelPdf); if (!cards.length) return;
+      var n = 3, gap = 3, w = (W - gap * (n - 1)) / n, h = 17;
+      cards.forEach(function (k, i) {
+        if (i % n === 0) { if (i) y += h + gap; cabe(h); }
+        var x = M + (i % n) * (w + gap), kl = k.querySelector('.kl'), kv = k.querySelector('.kv'), resto = k.cloneNode(true);
+        Array.prototype.forEach.call(resto.querySelectorAll('.kl, .kv, svg, .info, .chart'), function (q) { q.remove(); });
+        doc.setDrawColor(225, 229, 223); doc.setFillColor(245, 247, 244); doc.roundedRect(x, y, w, h, 2, 2, 'FD');
+        doc.setFont('helvetica', 'normal'); doc.setFontSize(7); doc.setTextColor.apply(doc, CINZA); doc.text(doc.splitTextToSize(t(textoLimpo(kl) || ''), w - 4)[0] || '', x + 2.2, y + 4.2);
+        doc.setFont('helvetica', 'bold'); doc.setFontSize(12.5); doc.setTextColor.apply(doc, TXT); doc.text(t(textoLimpo(kv)), x + 2.2, y + 10.4);
+        var c = t(textoLimpo(resto)); if (c) { doc.setFont('helvetica', 'normal'); doc.setFontSize(6.4); doc.setTextColor.apply(doc, CINZA); doc.text(doc.splitTextToSize(c, w - 4)[0], x + 2.2, y + 14.6); }
+      });
+      y += h + 4;
+    }
+    function grafico(el, img) {
+      var leg = el.querySelector('.legend');
+      var alt = W * img.h / img.w, alturaMax = 105;
+      var larg = alt > alturaMax ? W * alturaMax / alt : W; alt = Math.min(alt, alturaMax);
+      cabe(alt + (leg ? 6 : 0) + 2);
+      if (leg) {
+        var x = M; doc.setFont('helvetica', 'normal'); doc.setFontSize(7.4);
+        Array.prototype.forEach.call(leg.children, function (s) {
+          var cor = rgb(getComputedStyle(s.querySelector('i') || s).backgroundColor), nome = t(s.textContent), lw = doc.getTextWidth(nome) + 7;
+          if (x + lw > M + W) { x = M; y += 4.2; }
+          doc.setFillColor.apply(doc, cor); doc.rect(x, y + 0.9, 2.6, 2.6, 'F'); doc.setTextColor.apply(doc, TXT); doc.text(nome, x + 3.6, y + 3.3); x += lw;
+        });
+        y += 5.6;
+      }
+      doc.addImage(img.url, 'PNG', M, y, larg, alt, undefined, 'FAST'); y += alt + 4;
+    }
+    function bloco(el) {
+      if (!visivelPdf(el)) return;
+      var tag = el.tagName, cls = el.classList;
+      if (/^(BUTTON|SELECT|INPUT|LABEL|SCRIPT|STYLE|NAV)$/.test(tag) || cls.contains('controls') || cls.contains('subnav') || cls.contains('seg') || cls.contains('info') || cls.contains('mda-lado') || cls.contains('legend')) return;
+      if (tag === 'H1' || tag === 'H2') { var s1 = textoLimpo(el); tarefas.push(function () { y += 2; cabe(14); texto(s1, { tam: tag === 'H1' ? 13.5 : 11.5, negrito: true, cor: ESC, depois: 1.2 }); }); return; }
+      if (tag === 'H3' || tag === 'H4') { var s3 = textoLimpo(el); tarefas.push(function () { cabe(12); texto(s3, { tam: 10.5, negrito: true, cor: VERDE, depois: 1 }); }); return; }
+      if (tag === 'TABLE') { tarefas.push(function () { tabela(el); }); return; }
+      if (cls.contains('chart')) { var sv = el.querySelector('svg'); if (sv) tarefas.push(function () { return svgPng(sv).then(function (img) { grafico(el, img); }); }); else { var f = el.querySelector('.fail'); if (f) tarefas.push(function () { texto(textoLimpo(f), { tam: 8.5, italico: true, cor: CINZA }); }); } return; }
+      if (cls.contains('kpis')) return tarefas.push(function () { kpis(el); });
+      if (cls.contains('card')) {   // título, nota e gráfico/tabela do cartão na mesma página, quando cabem
+        var est = 0, svg = el.querySelector('.chart svg'), tb = el.querySelector('table');
+        if (svg) { var rr = svg.getBoundingClientRect(); est += Math.min(105, W * rr.height / Math.max(1, rr.width)) + 24; }
+        if (tb) est += 12 + tb.querySelectorAll('tr').length * 5.2;
+        if (est && est < FUNDO - TOPO) tarefas.push(function () { cabe(est); });
+      }
+      if (tag === 'UL' || tag === 'OL') { Array.prototype.forEach.call(el.children, function (li) { if (visivelPdf(li)) { var c = textoLimpo(li); tarefas.push(function () { texto(c, { recuo: 4, marcador: true, depois: 0.8 }); }); } }); tarefas.push(function () { y += 1; }); return; }
+      if (tag === 'P' || tag === 'BLOCKQUOTE' || !el.querySelector('div, p, table, h1, h2, h3, h4, ul, ol, svg, section')) {
+        var s = textoLimpo(el); if (!s) return;
+        var nota = cls.contains('note') || tag === 'SMALL';
+        return tarefas.push(function () { texto(s, { tam: nota ? 7.8 : 9.5, cor: nota ? CINZA : TXT, italico: tag === 'BLOCKQUOTE' }); });
+      }
+      Array.prototype.forEach.call(el.children, bloco);
+    }
+    Array.prototype.forEach.call(pg.el.children, bloco);
+    return tarefas.reduce(function (pr, f) { return pr.then(function () { return f(); }); }, Promise.resolve()).then(function () {
+      y += 3; texto('Fontes: documentos arquivados na CVM (DFP, ITR, releases, Formulário de Referência e comunicados) e cotações da B3. Painel independente construído com informações públicas; não é publicação oficial da Vibra Energia S.A. nem recomendação de investimento. Confira os valores nos documentos originais.', { tam: 7, cor: CINZA });
+      texto(location.href, { tam: 7, cor: VERDE });
+      var tot = doc.internal.getNumberOfPages();
+      for (var i = 1; i <= tot; i++) {
+        doc.setPage(i); doc.setFont('helvetica', 'normal'); doc.setFontSize(7.5); doc.setTextColor.apply(doc, CINZA);
+        doc.text(t('Vibra em Números — ' + pg.titulo + (periodoTexto() ? ' · ' + P.rotulo(S.a) : '')), M, 297 - 8);
+        doc.text('página ' + i + ' de ' + tot, 210 - M, 297 - 8, { align: 'right' });
+      }
+      return doc;
+    });
   }
 
   P.exportaPdf = function () {
-    var LARG = 725,   // largura útil da folha A4 com margens de 9 mm, em px (o html2pdf diagrama nessa largura)
-       pg = P.paginas[S.aba], doc = document.documentElement;
+    var LARG = 760, pg = P.paginas[S.aba], raiz = document.documentElement;
     aviso('Gerando o PDF…');
-    var volta = function () { doc.classList.remove('modo-pdf'); doc.style.removeProperty('--larg-pdf'); P.render(); };
-    return carrega('vendor/html2pdf.bundle.min.js').then(function () {
-      // desenha a aba em largura de página, com o tema claro
-      doc.classList.add('modo-pdf'); doc.style.setProperty('--larg-pdf', LARG + 'px');
+    var volta = function () { raiz.classList.remove('modo-pdf'); raiz.style.removeProperty('--larg-pdf'); P.render(); };
+    return carrega('vendor/jspdf.umd.min.js').then(function () { return carrega('vendor/jspdf.plugin.autotable.min.js'); }).then(function () {
+      // redesenha a aba em largura de página e com o tema claro (gráficos proporcionais à folha)
+      raiz.classList.add('modo-pdf'); raiz.style.setProperty('--larg-pdf', LARG + 'px');
       P.render();
-      return new Promise(function (ok) { setTimeout(ok, 450); });
-    }).then(function () {
-      var folha = h('div', { class: 'pdf-folha' });
-      folha.style.width = LARG + 'px';
-      folha.appendChild(h('div', { class: 'pdf-cab' },
-        h('div', { class: 'pdf-tit' }, 'Vibra em Números — ' + pg.titulo),
-        periodoTexto() ? h('div', { class: 'pdf-per' }, periodoTexto()) : null,
-        h('div', { class: 'pdf-take' }, textoLimpo(P.$('take'))),
-        h('div', { class: 'pdf-sub' }, textoLimpo(P.$('sub')) + ' · gerado em ' + agora())));
-      var copia = pg.el.cloneNode(true);
-      copia.hidden = false; copia.removeAttribute('id');
-      fixaSvg(pg.el, copia);
-      Array.prototype.forEach.call(copia.querySelectorAll('.no-pdf, button.info, .tip, .pop'), function (x) { x.remove(); });
-      folha.appendChild(copia);
-      folha.appendChild(h('div', { class: 'pdf-rod' }, 'Fontes: documentos arquivados na CVM (DFP, ITR, releases, Formulário de Referência e comunicados) e cotações da B3. Painel independente com informações públicas; não é publicação oficial da Vibra Energia S.A. nem recomendação de investimento. ' + location.href));
-      document.body.appendChild(folha);
-      var opt = {
-        margin: [10, 9, 12, 9], filename: nomeArquivo('pdf'),
-        image: { type: 'jpeg', quality: 0.95 },
-        html2canvas: { scale: 2, useCORS: true, backgroundColor: '#ffffff', windowWidth: LARG, width: LARG, scrollX: 0, scrollY: 0 },
-        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
-        pagebreak: { mode: ['css', 'legacy'], avoid: ['.card', '.kpi', 'tr', 'h2', 'h3', 'li', 'p', 'blockquote', '.pdf-cab'] }
-      };
-      return window.html2pdf().set(opt).from(folha).toPdf().get('pdf').then(function (pdf) {
-        var tot = pdf.internal.getNumberOfPages();
-        for (var i = 1; i <= tot; i++) {
-          pdf.setPage(i); pdf.setFontSize(8); pdf.setTextColor(120);
-          pdf.text('Vibra em Números — ' + pg.titulo + '  ·  página ' + i + ' de ' + tot, 105, 292, { align: 'center' });
-        }
-      }).save().then(function () { folha.remove(); });
-    }).then(function () { volta(); aviso(''); })
+      return new Promise(function (ok) { setTimeout(ok, 350); });
+    }).then(function () { return montaPdf(pg); })
+      .then(function (doc) { volta(); doc.save(nomeArquivo('pdf')); aviso(''); })
       .catch(function (e) { volta(); aviso('Não foi possível gerar o PDF (' + (e && e.message || e) + ').'); setTimeout(function () { aviso(''); }, 6000); });
   };
 

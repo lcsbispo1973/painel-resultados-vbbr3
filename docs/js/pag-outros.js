@@ -134,7 +134,7 @@
       },
       manchete: function () { return P.manchete.governanca(); },
       render: function () {
-        this.cartoes();
+        this.cartoes(); this.series();   // gráficos redesenhados a cada render (largura da tela, tema e PDF)
         ref.selAno.value = String(ref.ano);
         ref.msg.textContent = 'Carregando…';
         var nomes = P.D.freIndice.nomes_tabelas;
