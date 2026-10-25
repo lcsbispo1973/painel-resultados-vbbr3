@@ -49,7 +49,7 @@ Regras obrigatórias:
 3. Integre números e explicações no mesmo parágrafo, como um texto único. Não cite documentos, não use aspas, não escreva "segundo o release" nem "de acordo com o Formulário de Referência".
 4. Cada variação deve indicar a comparação ("frente ao {B}"). A margem por m³ da distribuição exclui Renováveis. O EBITDA Ajustado é o da nota de informações por segmento.
 5. Se um fato tiver o campo "atencao", siga a orientação dele.
-6. Entregue o texto pela ferramenta registrar_mda, com as seções sumario, operacional, resultado, balanco, caixa e perspectivas. Use de 1 a 3 parágrafos por seção; "perspectivas" pode ser lista vazia se os trechos não trouxerem visão da administração."""
+6. Entregue o texto chamando obrigatoriamente a ferramenta registrar_mda (não escreva o texto fora dela), com as seções sumario, operacional, resultado, balanco, caixa e perspectivas. Use de 1 a 3 parágrafos por seção; "perspectivas" pode ser lista vazia se os trechos não trouxerem visão da administração."""
 
 
 def ler(nome):
@@ -188,7 +188,7 @@ def chama(mensagens):
     sistema = "\n".join(m["content"] for m in mensagens if m["role"] == "system")
     conversa = [m for m in mensagens if m["role"] != "system" and m["content"]]
     corpo = json.dumps({"model": MODELO, "max_tokens": 8000, "system": sistema, "messages": conversa,
-                        "tools": [FERRAMENTA], "tool_choice": {"type": "tool", "name": "registrar_mda"}}).encode()
+                        "tools": [FERRAMENTA], "tool_choice": {"type": "auto"}}).encode()
     req = urllib.request.Request(URL, data=corpo, headers={"x-api-key": os.environ["ANTHROPIC_API_KEY"], "anthropic-version": "2023-06-01",
                                                            "content-type": "application/json"})
     with urllib.request.urlopen(req, timeout=300) as r:
@@ -199,7 +199,16 @@ def chama(mensagens):
     for b in j.get("content", []):
         if b.get("type") == "tool_use" and b.get("name") == "registrar_mda":
             return b.get("input") or {}
-    raise RuntimeError("resposta sem o texto estruturado: %r" % bruto[:300])
+    # sem a ferramenta: aceita o JSON escrito no texto (tolerante a quebras de linha dentro das frases)
+    txt = "".join(b.get("text", "") for b in j.get("content", []) if b.get("type") == "text").strip()
+    txt = re.sub(r"^```(?:json)?\s*|\s*```$", "", txt)
+    i, k = txt.find("{"), txt.rfind("}")
+    if i >= 0 and k > i:
+        try:
+            return json.loads(txt[i:k + 1], strict=False)
+        except ValueError:
+            pass
+    raise RuntimeError("resposta sem o texto estruturado: %r … %r" % (txt[:200], txt[-200:]))
 
 
 def main():
