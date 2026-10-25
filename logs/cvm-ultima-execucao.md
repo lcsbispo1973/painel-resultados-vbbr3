@@ -1,6 +1,6 @@
 # Atualização dos dados da CVM
 
-Execução (UTC): 2026-10-25 12:25:23
+Execução (UTC): 2026-10-25 12:37:00
 
 ## Coleta
 - DFP 2025: linhas da Vibra por demonstração: {'DRE': 76, 'BPA': 146, 'BPP': 240, 'DFC': 164, 'DVA': 92, 'DRA': 22, 'DMPL': 496, 'ações': 1}
@@ -11,6 +11,7 @@ Execução (UTC): 2026-10-25 12:25:23
 - DFC 2015: sem acumulado de 09/2015; trimestre de 12/2015 não calculado
 - Quantidade de ações antes de 2020 pelo Formulário de Referência: 4T17, 1T18, 2T18, 3T18, 4T18, 1T19, 2T19, 3T19, 4T19
 - Períodos completados por comparativos do ano seguinte (sem demonstração própria na CVM): 18
+- Exercícios só anuais (comparativo do DFP seguinte): 2015
 
 ## Cobertura
 - dre: 42 trimestres (1T16 a 2T26)
