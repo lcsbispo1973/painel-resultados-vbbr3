@@ -4151,7 +4151,16 @@
    "release_link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=619966&numSequencia=156697&numVersao=1"
   }
  },
- "recusados": {},
- "atualizado_em": "2026-10-25T03:55:48Z",
+ "recusados": {
+  "2T26|T|2T25|T": {
+   "hash": "005ccf30d34e014f",
+   "data": "2026-10-25T05:20:10Z",
+   "motivo": [
+    "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CgNPiF7SRw3NpioscvWYP\"}"
+   ],
+   "tentativas": 1
+  }
+ },
+ "atualizado_em": "2026-10-25T05:20:10Z",
  "liberado": true
 }
