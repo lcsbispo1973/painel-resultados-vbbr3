@@ -178,7 +178,7 @@ def chama(mensagens):
     """mensagens: [{"role": "system"|"user"|"assistant", "content": str}] → texto da resposta (JSON)."""
     sistema = "\n".join(m["content"] for m in mensagens if m["role"] == "system")
     conversa = [m for m in mensagens if m["role"] != "system" and m["content"]]
-    corpo = json.dumps({"model": MODELO, "max_tokens": 4000, "temperature": 0.2, "system": sistema, "messages": conversa}).encode()
+    corpo = json.dumps({"model": MODELO, "max_tokens": 4000, "system": sistema, "messages": conversa}).encode()
     req = urllib.request.Request(URL, data=corpo, headers={"x-api-key": os.environ["ANTHROPIC_API_KEY"], "anthropic-version": "2023-06-01",
                                                            "content-type": "application/json"})
     with urllib.request.urlopen(req, timeout=240) as r:
