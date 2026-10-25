@@ -324,6 +324,7 @@ def main():
             log.append("- %s: ok" % k)
         time.sleep(15)   # limite de tokens por minuto da API
     est["atualizado_em"] = agora
+    est["liberado"] = True   # estilo aprovado por Luís em 24/10/2026 (referência: 2T26 × 2T25); o painel mostra os textos aprovados pela trava
     json.dump(est, open(os.path.join(RAIZ, "data", "mda_ia.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     log.append("")
     log.append("%d pares com texto aprovado; %d recusados." % (len(est["pares"]), len(est["recusados"])))
