@@ -1,0 +1,90 @@
+{
+ "pares": {},
+ "recusados": {
+  "2T26|T|2T25|T": {
+   "hash": "0e97cb4222ff94a5",
+   "data": "2026-10-25T00:28:14Z",
+   "motivo": [
+    "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   ]
+  },
+  "2T26|T|1T26|T": {
+   "hash": "421b53197154c9ae",
+   "data": "2026-10-25T00:28:14Z",
+   "motivo": [
+    "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   ]
+  },
+  "1T26|T|1T25|T": {
+   "hash": "3bff47578a8a9765",
+   "data": "2026-10-25T00:28:14Z",
+   "motivo": [
+    "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   ]
+  },
+  "1T26|T|4T25|T": {
+   "hash": "32df6eb6e41bdf4b",
+   "data": "2026-10-25T00:28:14Z",
+   "motivo": [
+    "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   ]
+  },
+  "4T25|T|4T24|T": {
+   "hash": "9b88c1af62c19a13",
+   "data": "2026-10-25T00:28:14Z",
+   "motivo": [
+    "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   ]
+  },
+  "4T25|AN|4T24|AN": {
+   "hash": "f9baa70d530d5c87",
+   "data": "2026-10-25T00:28:14Z",
+   "motivo": [
+    "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   ]
+  },
+  "4T25|T|3T25|T": {
+   "hash": "f82cc1e3be500275",
+   "data": "2026-10-25T00:28:14Z",
+   "motivo": [
+    "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   ]
+  },
+  "3T25|T|3T24|T": {
+   "hash": "8bab02696044801a",
+   "data": "2026-10-25T00:28:14Z",
+   "motivo": [
+    "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   ]
+  },
+  "3T25|T|2T25|T": {
+   "hash": "5a96d9835b1c82ff",
+   "data": "2026-10-25T00:28:14Z",
+   "motivo": [
+    "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   ]
+  },
+  "2T25|T|2T24|T": {
+   "hash": "0526f362fbc1c027",
+   "data": "2026-10-25T00:28:14Z",
+   "motivo": [
+    "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   ]
+  },
+  "2T25|T|1T25|T": {
+   "hash": "b254eb45680396b9",
+   "data": "2026-10-25T00:28:14Z",
+   "motivo": [
+    "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   ]
+  },
+  "1T25|T|1T24|T": {
+   "hash": "4a6b3c4ef95b1f4d",
+   "data": "2026-10-25T00:28:14Z",
+   "motivo": [
+    "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   ]
+  }
+ },
+ "atualizado_em": "2026-10-25T00:28:14Z"
+}
