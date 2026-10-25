@@ -18,7 +18,7 @@ const dec = (v, c) => { const s = Math.abs(v).toFixed(c).split('.'); return milh
 const sinal = (v) => (v < 0 ? '−' : '');
 const fmt = {
   mi: (v) => sinal(v) + 'R$ ' + dec(v, 0) + ' milhões',
-  bi: (v) => sinal(v) + 'R$ ' + dec(v / 1000, 1) + ' bilhões',
+  bi: (v) => sinal(v) + 'R$ ' + dec(v / 1000, 1) + (Math.abs(v) < 1950 ? ' bilhão' : ' bilhões'),   // "R$ 1,7 bilhão"; "R$ 2,0 bilhões"
   pct: (v) => dec(v, 1).replace(/^/, v < 0 ? '−' : '') + '%',
   pp: (v) => (v >= 0 ? '+' : '−') + dec(v, 1) + ' p.p.',
   x: (v) => dec(v, 2) + 'x',

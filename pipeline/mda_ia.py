@@ -251,7 +251,7 @@ def main():
             try:
                 bruto = chama(msgs)
                 txt = json.dumps(bruto, ensure_ascii=False)
-                secoes = {sid: [p.strip() for p in (bruto.get(sid) or []) if isinstance(p, str) and p.strip()] for sid, _, _ in SECOES}
+                secoes = {sid: [re.sub(r"(R\$ 1,\d) bilhões", r"\1 bilhão", p.strip()) for p in (bruto.get(sid) or []) if isinstance(p, str) and p.strip()] for sid, _, _ in SECOES}
                 recusados = confere(secoes, rs_fat, fat, exc)
                 if not secoes["resultado"] or not secoes["sumario"]:
                     recusados.append("seções obrigatórias vazias")
