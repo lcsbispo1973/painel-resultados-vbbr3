@@ -186,7 +186,7 @@ def confere(secoes, rs_fat, fat, exc):
                     continue
                 if n in fat or n in exc or n in rs_fat:
                     continue
-                if not rs and n in {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "12"}:
+                if not rs and n in {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "12"}:
                     continue   # contagens pequenas ("três segmentos", "12 meses")
                 recusados.append(n)
     return recusados
@@ -205,7 +205,7 @@ def chama(mensagens):
     A resposta vem por "ferramenta" (tool use), o que garante JSON válido."""
     sistema = "\n".join(m["content"] for m in mensagens if m["role"] == "system")
     conversa = [m for m in mensagens if m["role"] != "system" and m["content"]]
-    corpo = json.dumps({"model": MODELO, "max_tokens": 8000, "system": sistema, "messages": conversa,
+    corpo = json.dumps({"model": MODELO, "max_tokens": 12000, "system": sistema, "messages": conversa,
                         "tools": [FERRAMENTA], "tool_choice": {"type": "auto"}}).encode()
     req = urllib.request.Request(URL, data=corpo, headers={"x-api-key": os.environ["ANTHROPIC_API_KEY"], "anthropic-version": "2023-06-01",
                                                            "content-type": "application/json"})
