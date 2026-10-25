@@ -1,7 +1,66 @@
-# MD&A redigido — 2026-10-25T01:45:45Z
+# MD&A redigido — 2026-10-25T01:53:23Z
 
 Modelo: claude-sonnet-5-5
 
 - 2T26|T|2T25|T: ok
+- 2T26|S|2T25|S: ok
+- 2T26|T|1T26|T: ok
+- 1T26|T|1T25|T: ok
+- 1T26|T|4T25|T: ok
+- 4T25|T|4T24|T: RECUSADO (0, aspas em sumario, seções obrigatórias vazias)
+- 4T25|AN|4T24|AN: ok
+- 4T25|S|4T24|S: RECUSADO (R$ 518)
+- 4T25|T|3T25|T: ok
+- 3T25|T|3T24|T: ok
+- 3T25|9M|3T24|9M: ok
+- 3T25|T|2T25|T: ok
+- 2T25|T|2T24|T: ok
+- 2T25|S|2T24|S: ok
+- 2T25|T|1T25|T: ok
+- 1T25|T|1T24|T: ok
+- 1T25|T|4T24|T: ok
+- 4T24|T|4T23|T: ok
+- 4T24|AN|4T23|AN: ok
+- 4T24|S|4T23|S: ok
+- 4T24|T|3T24|T: ok
+- 3T24|T|3T23|T: ok
+- 3T24|9M|3T23|9M: ok
+- 3T24|T|2T24|T: ok
+- 2T24|T|2T23|T: ok
+- 2T24|S|2T23|S: ok
+- 2T24|T|1T24|T: ok
+- 1T24|T|1T23|T: ok
+- 1T24|T|4T23|T: ok
+- 4T23|T|4T22|T: ok
+- 4T23|AN|4T22|AN: ok
+- 4T23|S|4T22|S: ok
+- 4T23|T|3T23|T: ok
+- 3T23|T|3T22|T: ok
+- 3T23|9M|3T22|9M: ok
+- 3T23|T|2T23|T: ok
+- 2T23|T|2T22|T: ok
+- 2T23|S|2T22|S: ok
+- 2T23|T|1T23|T: ok
+- 1T23|T|1T22|T: ok
+- 1T23|T|4T22|T: ok
+- 4T22|T|4T21|T: ok
+- 4T22|AN|4T21|AN: ok
+- 4T22|S|4T21|S: RECUSADO (RuntimeError: resposta cortada pelo limite de tamanho)
+- 4T22|T|3T22|T: ok
+- 3T22|T|3T21|T: ok
+- 3T22|9M|3T21|9M: ok
+- 3T22|T|2T22|T: ok
+- 2T22|T|2T21|T: ok
+- 2T22|S|2T21|S: ok
+- 2T22|T|1T22|T: ok
+- 1T22|T|1T21|T: ok
+- 1T22|T|4T21|T: ok
+- 4T21|T|4T20|T: ok
+- 4T21|AN|4T20|AN: ok
+- 4T21|S|4T20|S: ok
+- 4T21|T|3T21|T: ok
+- 3T21|T|3T20|T: ok
+- 3T21|9M|3T20|9M: ok
+- 3T21|T|2T21|T: ok
 
-5 pares com texto aprovado; 20 recusados.
+58 pares com texto aprovado; 3 recusados.
