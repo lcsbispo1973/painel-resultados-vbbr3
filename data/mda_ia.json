@@ -158,16 +158,50 @@
    },
    "release": "Release de Resultado",
    "release_link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1440446&numSequencia=965158&numVersao=1"
+  },
+  "2T26|T|2T25|T": {
+   "hash": "d0301b2fcc38b063",
+   "gerado_em": "2026-10-25T01:45:45Z",
+   "modelo": "claude-sonnet-5-5",
+   "tipo": "anual",
+   "secoes": {
+    "sumario": [
+     "O segundo trimestre de 2026 foi marcado pela continuidade do conflito no Oriente Médio e de seus efeitos sobre o mercado global de combustíveis. Com preços internacionais em patamares elevados e o Brasil na condição de importador líquido, o mercado doméstico seguiu com menor disponibilidade de produto e maior volatilidade de preços. A Companhia honrou seus contratos e assegurou o abastecimento de clientes e parceiros.",
+     "Nesse ambiente, a receita líquida foi de R$ 57,3 bilhões, alta de 25,8% frente ao 2º trimestre de 2025. O EBITDA Ajustado consolidado chegou a R$ 4,5 bilhões, alta de 205,6%, e o lucro líquido consolidado foi de R$ 2,4 bilhões, ante R$ 292 milhões no mesmo período de 2025. O volume vendido total somou 9.053 mil m³, alta de 3,8% na mesma comparação.",
+     "Na frente comercial, o combate às irregularidades no setor e o ambiente de menor oferta reforçaram a proposta de valor das redes embandeiradas. A Companhia registrou recorde de embandeiramento pelo 3º trimestre consecutivo e ampliou a carteira de clientes B2B. A mesa de trading de etanol iniciou operações no começo do trimestre, o que ampliou a flexibilidade de suprimento e contribuiu para a otimização do portfólio."
+    ],
+    "operacional": [
+     "O volume vendido total foi de 9.053 mil m³ no 2º trimestre de 2026, alta de 3,8% frente aos 8.725 mil m³ do 2º trimestre de 2025. A Rede de Postos vendeu 5.800 mil m³, alta de 6,1%, impulsionada principalmente pelas vendas de gasolina (+8%) e etanol (+8%), seguidas pelo diesel (+4%). O B2B vendeu 3.253 mil m³, praticamente estável (−0,2%) frente aos 3.260 mil m³ do mesmo trimestre de 2025.",
+     "O EBITDA Ajustado da Rede de Postos foi de R$ 2,7 bilhões, ante R$ 652 milhões no 2º trimestre de 2025 (+307,7%), com crescimento de volumes e evolução da rentabilidade. A Companhia reforçou o relacionamento com a Rede Embandeirada e otimizou o suprimento a clientes Bandeira Branca com maior potencial de conversão. A margem EBITDA Ajustado por m³ da Rede de Postos foi de R$ 458/m³, ante R$ 119/m³ (+284,1%).",
+     "No B2B, o EBITDA Ajustado foi de R$ 1,7 bilhões, ante R$ 715 milhões (+141,7%), e a margem por m³ foi de R$ 531/m³, ante R$ 219/m³ (+142,2%). A gestão de mix privilegiou produtos de maior valor agregado. A proporção de produtos aditivados, que têm margens superiores, foi ampliada e já representa 30% do volume de diesel vendido pelo B2B. A Aviação enfrentou um cenário desafiador, com pressão sobre os preços do querosene de aviação decorrente da escalada do conflito, e ainda assim cresceu 2% em volume na comparação anual. Na distribuição, sem Renováveis, a margem EBITDA Ajustado foi de R$ 476/m³, ante R$ 143/m³ (+232,9%).",
+     "O EBITDA Ajustado de Renováveis foi de R$ 188 milhões, ante R$ 224 milhões no 2º trimestre de 2025 (−16,1%). A Comerc registrou resultados positivos em Geração Centralizada, Geração Distribuída, Soluções em energia e eficiência operacional. A redução do EBITDA decorreu do resultado da comercializadora, em um mercado de energia desafiador, da menor geração solar e eólica, por recurso abaixo da média histórica, e do curtailment, que atingiu 27,9% no trimestre. O resultado de Corporativo e reconciliação foi negativo em R$ 75 milhões, ante −R$ 119 milhões, uma diferença de R$ 44 milhões."
+    ],
+    "resultado": [
+     "A receita líquida foi de R$ 57,3 bilhões no 2º trimestre de 2026, ante R$ 45,5 bilhões no 2º trimestre de 2025, alta de 25,8% (R$ 11,8 bilhões). O lucro bruto somou R$ 5,1 bilhões, ante R$ 1,9 bilhões (+169,6%), e a margem bruta foi de 8,9%, ante 4,1% (+4,7 p.p.). Esse resultado combinou expansão de margens e de volumes, com evolução da rentabilidade na Rede de Postos e no B2B.",
+     "As despesas com vendas foram de R$ 773 milhões, ante R$ 734 milhões no 2º trimestre de 2025 (+5,3%). As despesas gerais e administrativas foram de R$ 427 milhões, ante R$ 370 milhões (+15,4%). A linha de outras receitas e despesas operacionais, líquidas e com equivalência, foi negativa em R$ 35 milhões, ante resultado positivo de R$ 237 milhões no mesmo período de 2025.",
+     "O EBITDA Ajustado consolidado foi de R$ 4,5 bilhões, ante R$ 1,5 bilhões (+205,6%, ou R$ 3,0 bilhões), e a margem EBITDA Ajustado sobre a receita foi de 7,9%, ante 3,2% (+4,6 p.p.). O resultado financeiro foi negativo em R$ 630 milhões, ante −R$ 552 milhões (+14,1% na despesa líquida). O imposto de renda e a contribuição social somaram R$ 879 milhões, ante R$ 179 milhões (+391,1%), e a alíquota efetiva foi de 27,2%, ante 38,0% (−10,8 p.p.).",
+     "O lucro líquido consolidado foi de R$ 2,4 bilhões, ante R$ 292 milhões no 2º trimestre de 2025 (+705,5%). O lucro atribuído aos controladores foi de R$ 2,4 bilhões, ante R$ 301 milhões (+681,1%). A margem líquida foi de 4,1%, ante 0,6% (+3,5 p.p.). O ROE dos controladores em 12 meses foi de 22,8%, ante 30,1% (−7,3 p.p.)."
+    ],
+    "balanco": [
+     "A redução do endividamento foi uma das prioridades da Companhia no trimestre. Parcela relevante do caixa operacional foi direcionada à amortização de dívida, o que deu continuidade ao processo de desalavancagem. A dívida bruta, composta por empréstimos, financiamentos e arrendamentos, encerrou o 2º trimestre de 2026 em R$ 21,9 bilhões, ante R$ 25,4 bilhões no 2º trimestre de 2025 (−13,7%). O caixa e as aplicações financeiras somaram R$ 5,8 bilhões, ante R$ 4,4 bilhões (+32,9%).",
+     "A dívida líquida, como divulgada pela Companhia, foi de R$ 16,1 bilhões, ante R$ 21,0 bilhões (−23,5%). A alavancagem, medida pela dívida líquida sobre o EBITDA Ajustado de 12 meses, foi de 1,32x, ante 1,93x (−0,61x). A redução refletiu a menor dívida líquida, sustentada pela geração de caixa, e o maior EBITDA Ajustado dos últimos 12 meses, com a incorporação do resultado do trimestre. O patrimônio líquido consolidado foi de R$ 23,6 bilhões, ante R$ 21,0 bilhões (+12,5%).",
+     "Nos indicadores de 12 meses, o prazo médio de recebimento foi de 15,5 dias, ante 12,8 dias (+2,7 dias). O prazo médio de estocagem foi de 14,6 dias, ante 13,9 dias (+0,7 dias), e o prazo médio de pagamento foi de 15,1 dias, ante 6,0 dias (+9,1 dias). O ciclo de caixa foi de 14,9 dias, ante 20,7 dias (−5,8 dias)."
+    ],
+    "caixa": [
+     "O caixa líquido das atividades operacionais foi de R$ 3,0 bilhões no 2º trimestre de 2026, ante R$ 808 milhões no 2º trimestre de 2025 (+275,4%). A conversão de caixa, medida pelo caixa operacional sobre o EBITDA Ajustado, foi de 67,4%, ante 54,9% (+12,5 p.p.). O capital de giro consumiu caixa no trimestre, em razão do descasamento no prazo de um recebimento, que afetou o contas a receber. Sem esse efeito, mesmo com a alta do preço do insumo no mercado internacional, haveria liberação de capital de giro.",
+     "Os investimentos em imobilizado e intangível foram de R$ 235 milhões, ante R$ 323 milhões (−27,2%). O fluxo de caixa livre, que soma o caixa operacional e esses investimentos, foi de R$ 2,8 bilhões, ante R$ 485 milhões (+476,9%). Os investimentos seguiram a estratégia de embandeiramento, com alocação de capital disciplinada, a conclusão de usinas de Geração Distribuída no semestre e iniciativas de tecnologia e Inteligência Artificial voltadas à produtividade e à eficiência operacional.",
+     "Não houve pagamento de dividendos e JCP no trimestre, ante R$ 241 milhões pagos no 2º trimestre de 2025."
+    ],
+    "perspectivas": [
+     "A Companhia considera que os ganhos comerciais do período são estruturais. Os novos contratos, relacionamentos e volumes do embandeiramento e do B2B devem permanecer independentemente do contexto conjuntural. Seguem em curso o fortalecimento da Rede, a captura de oportunidades comerciais e a alocação disciplinada de capital, aderente ao planejamento estratégico de longo prazo.",
+     "No etanol, a atuação direta e a maior flexibilidade de suprimento, com a mesa de trading em operação, devem ampliar a capacidade de resposta a oportunidades. Os investimentos em tecnologia e Inteligência Artificial visam sustentar ganhos de produtividade e eficiência de curto, médio e longo prazo. O conflito no Oriente Médio e a volatilidade de preços seguem como fatores do mercado doméstico."
+    ]
+   },
+   "release": "Release 2T26",
+   "release_link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1558260&numSequencia=1082966&numVersao=1"
   }
  },
  "recusados": {
-  "2T26|T|2T25|T": {
-   "hash": "d0301b2fcc38b063",
-   "data": "2026-10-25T01:36:41Z",
-   "motivo": [
-    "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"tool_choice: type \\\"tool\\\" and \\\"any\\\" are not supported for this model.\"},\"request_id\":\"req_011CgN6g9bHHmJJdhpZC7PqK\"}"
-   ]
-  },
   "2T26|T|1T26|T": {
    "hash": "229b36f3c8b3d2bb",
    "data": "2026-10-25T01:36:41Z",
@@ -309,5 +343,5 @@
    ]
   }
  },
- "atualizado_em": "2026-10-25T01:41:53Z"
+ "atualizado_em": "2026-10-25T01:45:45Z"
 }
