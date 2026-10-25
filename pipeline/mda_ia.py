@@ -258,7 +258,7 @@ def main():
         if r_:
             log.append("- %s: texto aprovado anteriormente não confere mais com os números atuais (%s); retirado" % (k, ", ".join(sorted(set(r_))[:5])))
             del est["pares"][k]
-    feitos = 0
+    feitos, pendentes = 0, 0
     for k, par in ordem:
         if SO_PARES and k not in SO_PARES:
             continue
@@ -273,7 +273,8 @@ def main():
         if not REFAZER and rec and rec.get("hash") == h and rec.get("tentativas", 1) >= 3 and rec.get("data", "") > (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=7)).isoformat():
             continue   # três recusas seguidas: espera uma semana (ou mudança nos dados) para tentar de novo
         if feitos >= MAX_POR_EXECUCAO:
-            break
+            pendentes += 1
+            continue
         feitos += 1
         rs_fat, fat, exc = permitidos(par, blocos)
         trechos_txt = "\n".join("[%s]\n%s" % (sid, "\n".join("- " + p for p in ps)) for sid, ps in blocos.items() if ps and sid != "eventos") or "(sem trechos para este período)"
@@ -333,6 +334,7 @@ def main():
     os.makedirs(os.path.join(RAIZ, "logs"), exist_ok=True)
     open(os.path.join(RAIZ, "logs", "mda-ia.md"), "w", encoding="utf-8").write("\n".join(log) + "\n")
     print("\n".join(log))
+    print("PENDENTES=%d" % pendentes)   # o workflow manual repete enquanto houver pendentes
     return 0
 
 

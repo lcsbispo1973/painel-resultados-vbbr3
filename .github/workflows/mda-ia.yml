@@ -32,22 +32,29 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Redigir
+      # em lotes, gravando no repositório a cada lote: uma falha no meio não perde o que já foi redigido
+      - name: Redigir e salvar em lotes
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           MDA_IA_PARES: ${{ inputs.pares }}
           MDA_IA_REFAZER: ${{ inputs.refazer && '1' || '' }}
-          MDA_IA_MAX: ${{ inputs.maximo }}
-        run: |
-          node pipeline/mda_fatos.js
-          python pipeline/mda_ia.py
-      - name: Salvar
+          TOTAL: ${{ inputs.maximo }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/mda_fatos.json data/mda_ia.json logs/mda-ia.md
-          if ! git diff --cached --quiet; then
-            git commit -m "MD&A redigido"
-            git pull --rebase -X theirs -q origin main
-            git push
-          fi
+          node pipeline/mda_fatos.js
+          feitos=0
+          while [ "$feitos" -lt "${TOTAL:-12}" ]; do
+            MDA_IA_MAX=8 python pipeline/mda_ia.py | tee /tmp/saida.txt
+            feitos=$((feitos + 8))
+            git add -A data logs
+            if ! git diff --cached --quiet; then
+              git commit -q -m "MD&A redigido (lote)"
+              for t in 1 2 3; do
+                git pull -q --rebase --autostash -X theirs origin main && git push -q && break
+                sleep 10
+              done
+            fi
+            grep -q "^PENDENTES=0" /tmp/saida.txt && break
+            [ -n "$MDA_IA_REFAZER" ] && break
+          done
