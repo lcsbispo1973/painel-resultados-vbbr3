@@ -100,8 +100,11 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           MDA_IA_MAX: '4'   # na atualização diária, só os pares novos; o histórico é feito pelo workflow manual
+          GH_TOKEN: ${{ github.token }}
         run: |
           node pipeline/mda_fatos.js
+          aberta=$(gh api "repos/${{ github.repository }}/issues?state=open&per_page=50" --jq '[.[] | select(.title | startswith("MD&A: redação automática parada"))][0].number' || true)
+          if [ -n "$aberta" ]; then export MDA_IA_PING=1; fi   # com aviso aberto, testa se o crédito voltou
           python pipeline/mda_ia.py
 
       - name: Registro de mudanças
@@ -137,6 +140,11 @@ jobs:
             if [ -z "$aberta" ]; then
               gh issue create --repo "${{ github.repository }}" --title "MD&A: redação automática parada" --body-file logs/mda-ia-alerta.md
             fi
+          elif [ -f logs/mda-ia-ok ]; then
+            for n in $(gh api "repos/${{ github.repository }}/issues?state=open&per_page=50" --jq '.[] | select(.title | startswith("MD&A: redação automática parada")) | .number'); do
+              gh issue comment "$n" --repo "${{ github.repository }}" --body "Crédito e chave da API conferidos: a redação automática do MD&A voltou a funcionar. @lcsbispo1973"
+              gh issue close "$n" --repo "${{ github.repository }}"
+            done
           fi
 
       - name: Alerta de novos documentos

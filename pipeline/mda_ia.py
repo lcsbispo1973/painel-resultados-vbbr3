@@ -249,13 +249,23 @@ def chama(mensagens):
     raise RuntimeError("resposta sem o texto estruturado: %r … %r" % (txt[:200], txt[-200:]))
 
 
+def testa_credito():
+    """Chamada mínima (1 token de saída, custo desprezível) só para saber se a API voltou a aceitar pedidos."""
+    corpo = json.dumps({"model": MODELO, "max_tokens": 1, "messages": [{"role": "user", "content": "ok"}]}).encode()
+    req = urllib.request.Request(URL, data=corpo, headers={"x-api-key": os.environ["ANTHROPIC_API_KEY"], "anthropic-version": "2023-06-01",
+                                                           "content-type": "application/json"})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        r.read()
+
+
 def main():
     agora = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     os.makedirs(os.path.join(RAIZ, "logs"), exist_ok=True)
-    try:
-        os.remove(os.path.join(RAIZ, "logs", "mda-ia-alerta.md"))
-    except OSError:
-        pass
+    for nome in ("mda-ia-alerta.md", "mda-ia-ok"):
+        try:
+            os.remove(os.path.join(RAIZ, "logs", nome))
+        except OSError:
+            pass
     log = ["# MD&A redigido — %s" % agora, "", "Modelo: %s" % MODELO, ""]
     fatos = ler("mda_fatos.json")
     if not fatos or not os.environ.get("ANTHROPIC_API_KEY"):
@@ -350,6 +360,22 @@ def main():
             est["recusados"].pop(k, None)
             log.append("- %s: ok" % k)
         time.sleep(15)   # limite de tokens por minuto da API
+    alerta = os.path.join(RAIZ, "logs", "mda-ia-alerta.md")
+    if not os.path.exists(alerta):
+        ok = USO["chamadas"] > 0
+        if not ok and os.environ.get("MDA_IA_PING") == "1":   # há aviso aberto e nada a redigir: confere se o crédito voltou
+            try:
+                testa_credito()
+                ok = True
+            except urllib.error.HTTPError as e:
+                corpo_erro = e.read().decode("utf-8", "ignore")[:400]
+                if re.search(r"credit balance|billing|insufficient", corpo_erro, re.I) or e.code in (401, 403):
+                    open(alerta, "w", encoding="utf-8").write("A redação automática do MD&A continua parada (HTTP %d).\n\nDetalhe: %s\n" % (e.code, corpo_erro))
+            except Exception:  # noqa: BLE001
+                pass
+        if ok:
+            open(os.path.join(RAIZ, "logs", "mda-ia-ok"), "w").write(agora + "\n")
+            log.append("- API da Anthropic respondendo normalmente (crédito e chave ok)")
     est["atualizado_em"] = agora
     est["liberado"] = True   # estilo aprovado por Luís em 24/10/2026 (referência: 2T26 × 2T25); o painel mostra os textos aprovados pela trava
     json.dump(est, open(os.path.join(RAIZ, "data", "mda_ia.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
