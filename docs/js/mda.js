@@ -8,8 +8,12 @@
   var pct = function (a, b) { return ok(a) && ok(b) && b !== 0 && (a < 0) === (b < 0) ? a / b - 1 : null; };
   function varTxt(a, b, tipo) {   // "alta de 12,3% (R$ 4,5 bi contra R$ 4,0 bi)"
     if (!ok(a)) return 'não disponível';
-    if (!ok(b)) return P.fMi(a);
     var r = pct(a, b), f = tipo === 'm3' ? function (v) { return 'R$ ' + P.fInt(v) + '/m³'; } : tipo === 'x' ? function (v) { return P.f2(v) + 'x'; } : tipo === 'vol' ? function (v) { return P.fN(v) + ' mil m³'; } : P.fMi;
+    if (!ok(b)) return f(a);   // sem o número do período de comparação (ex.: 2015 sem release): só o valor, na unidade certa
+    if (a < 0 && b < 0) {      // dois valores negativos: variação em valor absoluto, sem "alta"/"queda" ambíguos
+      var ra = Math.abs(a) / Math.abs(b) - 1;
+      return f(a) + ' (' + (Math.abs(ra) < 0.005 ? 'estável' : (ra > 0 ? 'aumento de ' : 'redução de ') + P.f1(Math.abs(ra) * 100) + '% em valor absoluto,') + ' contra ' + f(b) + ')';
+    }
     if (tipo === 'x' || tipo === 'm3') { var d = a - b; return f(a) + ' (' + (d >= 0 ? '+' : '−') + (tipo === 'x' ? P.f2(Math.abs(d)) + 'x' : 'R$ ' + P.fInt(Math.abs(d)) + '/m³') + ' sobre ' + f(b) + ')'; }
     if (!ok(r)) return f(a) + ' (' + f(b) + ' no período de comparação)';
     var s = Math.abs(r) < 0.005 ? 'estável' : (r > 0 ? 'alta de ' : 'queda de ') + P.f1(Math.abs(r) * 100) + '%';
@@ -60,6 +64,9 @@
       conv: [ind('convfco', A), ind('convfco', B)], pl_m: [ind('pl', A), ind('pl', B)], ev: [ind('evebitda', A), ind('evebitda', B)]
     };
     var fA = M.ajFonte('CONS', qsA[qsA.length - 1]);
+    var preIPO = raiz.Dados.ord(A.p) < raiz.Dados.ord('4T17');
+    var FONTE_AJ = preIPO ? 'os comparativos publicados nos primeiros releases (do 4T17 e de 2018)'
+      : fA && fA.fonte && fA.fonte.tipo === 'release' ? 'o release de resultados' : 'a nota de informações por segmento das demonstrações financeiras';
     if (fA && fA.fonte) addFonte((fA.fonte.tipo === 'release' ? 'Release ' : (fA.fonte.tipo || 'ITR') + ' — nota de informações por segmento, ') + (fA.fonte.documento || qsA[qsA.length - 1]), fA.fonte.link);
 
     var secoes = [];
@@ -105,7 +112,7 @@
     });
     var corp = aj('CORP', A);
     if (ok(corp)) itensOp.push('Corporativo e reconciliação: ' + P.fMi(corp) + (ok(aj('CORP', B)) ? ' (' + P.fMi(aj('CORP', B)) + ' no ' + lB + ')' : '') + '.');
-    secoes.push({ id: 'op', titulo: 'Desempenho operacional', paragrafos: ['EBITDA Ajustado conforme a nota de informações por segmento das demonstrações financeiras; volumes conforme os releases.'], itens: itensOp,
+    secoes.push({ id: 'op', titulo: 'Desempenho operacional', paragrafos: ['EBITDA Ajustado conforme ' + FONTE_AJ + '; volumes conforme os releases.'], itens: itensOp,
       citacoes: cita('REDE', 1).concat(cita('B2B', 1), cita('REN', 1)) });
 
     // 4. resultado
@@ -115,7 +122,7 @@
     var pr = [
       'A receita líquida foi de ' + varTxt(V.rec[0], V.rec[1]) + ', e o lucro bruto, de ' + varTxt(V.lb[0], V.lb[1]) + (ok(mb(0)) ? ', com margem bruta de ' + P.f1(mb(0)) + '%' + (ok(mb(1)) ? ' (' + P.f1(mb(1)) + '% no ' + lB + ')' : '') : '') + '.',
       'As despesas com vendas somaram ' + P.fMi(ok(V.dv[0]) ? -V.dv[0] : null) + ' e as gerais e administrativas, ' + P.fMi(ok(V.dga[0]) ? -V.dga[0] : null) + '; outras receitas e despesas operacionais (incluindo equivalência) líquidas foram de ' + P.fMi(outras(0)) + (ok(outras(1)) ? ' (' + P.fMi(outras(1)) + ' no ' + lB + ')' : '') + '.',
-      ok(V.aj[0]) && ok(V.ebc[0]) ? 'O EBITDA contábil, calculado das demonstrações, foi de ' + P.fMi(V.ebc[0]) + '; a diferença de ' + P.fMi(V.aj[0] - V.ebc[0]) + ' para o EBITDA Ajustado corresponde aos ajustes definidos pela Companhia na nota de segmentos.' : null,
+      ok(V.aj[0]) && ok(V.ebc[0]) ? 'O EBITDA contábil, calculado das demonstrações, foi de ' + P.fMi(V.ebc[0]) + '; a diferença de ' + P.fMi(V.aj[0] - V.ebc[0]) + ' para o EBITDA Ajustado corresponde aos ajustes definidos pela Companhia' + (FONTE_AJ.indexOf('nota') >= 0 ? ' na nota de segmentos.' : ' nos releases.') : null,
       'O resultado financeiro foi de ' + varTxt(V.fin[0], V.fin[1]) + '. O imposto de renda e a contribuição social somaram ' + P.fMi(ok(V.ir[0]) ? -V.ir[0] : null) + (ok(aliq(0)) ? ', alíquota efetiva de ' + P.f1(aliq(0)) + '%' : '') + '.',
       'O lucro líquido foi de ' + varTxt(V.luc[0], V.luc[1]) + (ok(V.lucC[0]) && Math.abs(V.lucC[0] - V.luc[0]) >= 1 ? ', dos quais ' + P.fMi(V.lucC[0]) + ' atribuíveis aos controladores' : '') + '.'
     ].filter(Boolean);
@@ -198,7 +205,7 @@
 
     // texto redigido (números das demonstrações + explicações da Companhia), quando aprovado para este par de períodos
     var ia = c.ia && c.ia.pares ? c.ia.pares[[A.p, A.base, B.p, B.base].join('|')] : null;
-    var sub = 'Comparação com o ' + lB + '. Valores consolidados; EBITDA Ajustado conforme a nota de informações por segmento das demonstrações financeiras.';
+    var sub = 'Comparação com o ' + lB + '. Valores consolidados; EBITDA Ajustado conforme ' + FONTE_AJ + '.';
     secoes.forEach(function (s) { delete s.citacoes; });   // sem trechos copiados dos documentos
     if (ia && ia.secoes) {
       var mapa = { sum: 'sumario', op: 'operacional', res: 'resultado', bal: 'balanco', cx: 'caixa' };
@@ -214,7 +221,8 @@
       sub += ' Explicações das variações conforme o release de resultados e o Formulário de Referência da Companhia.';
     } else {
       secoes.forEach(function (s) { if (s.id === 'ev') s.titulo = 'Eventos do período'; });
-      sub += ' As explicações da Companhia para as variações aparecem na comparação com o mesmo período do ano anterior e com o trimestre imediatamente anterior.';
+      sub += preIPO ? ' Período anterior ao IPO (dezembro de 2017), sem release próprio: o texto se limita aos números, sem as explicações da Companhia.'
+        : ' As explicações da Companhia para as variações aparecem na comparação com o mesmo período do ano anterior e com o trimestre imediatamente anterior.';
     }
     return { titulo: 'Comentário do desempenho — ' + lA, subtitulo: sub, redigido: !!(ia && ia.secoes),
       secoes: secoes, quadro: quadro, fontes: fontes, manchete: manchete, rotA: rA, rotB: rB };

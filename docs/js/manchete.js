@@ -55,7 +55,13 @@
   };
   H.indicadores = function () {
     var roe = P.indA('roe'), roic = P.indA('roic'), al = P.indA('dlebitda'), lc = P.indA('lcor');
-    return frase(['No ' + per() + ': ROE de ', b(P.fUn('%', roe)), ', ROIC aproximado de ', b(P.fUn('%', roic)), ', alavancagem de ', b(P.fUn('x', al)), ' e liquidez corrente de ', b(P.f2(lc)), ' (12 meses até o fim do período).']);
+    // só os indicadores disponíveis no período (2015, sem ano anterior nem release: só a liquidez corrente)
+    var itens = [['ROE de ', roe, P.fUn('%', roe)], ['ROIC aproximado de ', roic, P.fUn('%', roic)], ['alavancagem de ', al, P.fUn('x', al)], ['liquidez corrente de ', lc, P.f2(lc)]].filter(function (x) { return ok(x[1]); });
+    if (!itens.length) return frase(['No ' + per() + ', sem indicadores calculáveis.']);
+    var t = ['No ' + per() + ': '];
+    itens.forEach(function (x, i) { if (i) t.push(i === itens.length - 1 ? ' e ' : ', '); t.push(x[0], b(x[2])); });
+    t.push(itens.length > 1 || itens[0][0] !== 'liquidez corrente de ' ? ' (12 meses até o fim do período).' : ' no fim do período.');
+    return frase(t);
   };
   H.operacional = function () {
     var X = x(), vol = P.oper('CONS', 'vol', X.p, X.base), m3 = P.oper('CONS', 'margem_m3', X.p, X.base), rede = M().aj('REDE', X.p, X.base);

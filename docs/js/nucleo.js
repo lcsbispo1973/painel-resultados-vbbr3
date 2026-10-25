@@ -129,7 +129,7 @@
   function padraoA() { var u = P.M.ultimoPar(); return { ano: u.ano, tipo: u.tipo }; }
   function ajusta(per) {   // período disponível mais próximo
     if (P.disp(per)) return per;
-    var tipos = ['4T', '3T', '2T', '1T'];
+    var tipos = ['4T', '3T', '2T', '1T', 'AN'];   // 'AN' por último: anos só anuais (2015)
     for (var a = per.ano; a >= P.M.anos()[0]; a--) {
       if (P.M.disponivel(a, per.tipo)) return { ano: a, tipo: per.tipo };
       for (var i = 0; i < tipos.length; i++) if (a === per.ano && P.M.disponivel(a, tipos[i])) return { ano: a, tipo: tipos[i] };

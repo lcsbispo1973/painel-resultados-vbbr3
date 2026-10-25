@@ -67,6 +67,24 @@ def main():
     checa(st.get("validado") is True and st.get("divergentes") == 0,
           f"conferências da CVM: {st.get('divergentes')} divergente(s)")
 
+    # exercícios só anuais (2015, comparativo do DFP de 2016): conferências aritméticas próprias
+    dre_j, dfc_j, dra_j = ler("cvm_dre.json"), ler("cvm_fluxo_caixa.json"), opcional("cvm_dra.json") or {}
+    for a in dre_j.get("anuais", []):
+        col = "AN" + a
+        v = lambda j, cd: next((l.get(col) for l in j.get("linhas", []) if l["cd_conta"] == cd), None)  # noqa: E731
+        r, c, b = v(dre_j, "3.01"), v(dre_j, "3.02"), v(dre_j, "3.03")
+        checa(None not in (r, c, b) and abs(r + c - b) <= 1, f"DRE {a}: receita + custo ≠ resultado bruto")
+        checa(v(dre_j, "3.11") is not None and abs(v(dre_j, "3.09") + v(dre_j, "3.10") - v(dre_j, "3.11")) <= 1, f"DRE {a}: operações continuadas + descontinuadas ≠ lucro")
+        if dra_j.get("anuais") and a in dra_j["anuais"]:
+            checa(abs((v(dra_j, "4.01") or 0) - v(dre_j, "3.11")) <= 1, f"DRA {a}: lucro ≠ DRE")
+        if a in dfc_j.get("anuais", []):
+            fl = sum(x or 0 for x in (v(dfc_j, "6.01"), v(dfc_j, "6.02"), v(dfc_j, "6.03"), v(dfc_j, "6.04")))
+            checa(v(dfc_j, "6.05") is not None and abs(fl - v(dfc_j, "6.05")) <= 1, f"DFC {a}: fluxos ≠ variação do caixa")
+            checa(abs(v(dfc_j, "6.05.02") - v(dfc_j, "6.05.01") - v(dfc_j, "6.05")) <= 1, f"DFC {a}: saldo final − inicial ≠ variação")
+        bpj = ler("cvm_balanco.json")
+        sb = next((l.get("4T" + a[2:]) for l in bpj["linhas"] if l["cd_conta"] == "1.01.01"), None)
+        checa(sb is not None and abs(sb - v(dfc_j, "6.05.02")) <= 1, f"DFC {a}: saldo final ≠ caixa do balanço")
+
     # EBITDA Ajustado
     aj = ler("ebitda_ajustado.json")
     per = aj.get("periodos", [])

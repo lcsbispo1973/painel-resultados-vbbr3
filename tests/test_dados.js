@@ -111,5 +111,10 @@ assert.strictEqual(Math.round(m.ind('dlebitda', '4T16', 'T') * 10) / 10, 3.2); n
 assert.strictEqual(Math.round(m.ind('dlebitda', '4T17', 'T') * 10) / 10, 1.3); n++;   // "1,3x em 2017"
 // períodos
 assert.strictEqual(m.periodos('dre', 'AN').length, new Set(m.periodos('dre', 'AN')).size);
-assert(m.periodos('dre', 'LTM')[0] === '4T16', 'primeiro UDM = ' + m.periodos('dre', 'LTM')[0]); n++;
+assert(m.periodos('dre', 'LTM')[0] === '4T15', 'primeiro UDM = ' + m.periodos('dre', 'LTM')[0]); n++;
+// 2015: só anual (comparativo do DFP de 2016); trimestres de 2015 não existem
+chk('receita', '4T15', 'AN', 97280); chk('lucro', '4T15', 'AN', g(dre, '3.11', 'AN2015'));
+assert.strictEqual(m.ind('receita', '4T15', 'T'), null); assert.strictEqual(m.disponivel(2015, '4T'), false); assert.strictEqual(m.disponivel(2015, 'AN'), true); n += 3;
+assert.strictEqual(m.ind('dliq', '4T15', 'T'), null); n++;   // sem release antes de 2016: não mistura com a dívida pelo balanço
+perto(m.ind('receita', '4T16', 'AN') / m.ind('receita', '4T15', 'AN') - 1, 86637 / 97280 - 1, 'variação da receita 2016 × 2015'); n++;
 console.log(`TESTE DADOS OK: ${n} conferências`);

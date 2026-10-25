@@ -101,7 +101,7 @@
     // seletor ano → período
     m.par = par;
     m.disponivel = function (ano, tipo) { var x = par(ano, tipo); return !!x && m.agg('dre', '3.01', x.p, x.base) !== null; };
-    m.anos = function () { var s = {}; (per.dre || []).forEach(function (p) { s[2000 + +p.slice(2)] = 1; }); return Object.keys(s).map(Number).sort(); };
+    m.anos = function () { var s = {}; (per.dre || []).forEach(function (p) { s[2000 + +p.slice(2)] = 1; }); ((dados.dre && dados.dre.anuais) || []).forEach(function (a) { s[+a] = 1; }); return Object.keys(s).map(Number).sort(); };
     m.ultimoPar = function () { var l = per.dre || [], p = l[l.length - 1]; return par(2000 + +p.slice(2), p[0] + 'T'); };
     // histórico do mesmo tipo de período terminando em x: trimestres consecutivos para trimestre; anos anteriores para os demais
     m.historico = function (x, n) {
@@ -118,6 +118,12 @@
     m.rotulo = rotulo; m.ord = ord; m.desloca = desloca; m.tri = tri;
 
     var q = function (ds, cd, p) { var l = idx[ds][cd]; if (!l) return null; var v = l[p]; return ok(v) ? v : null; };
+    // anos só anuais da demonstração ds (ex.: ['2015']); undefined quando p não é o fim de um desses anos
+    var anual = function (ds, cd, p) {
+      var t = dados[ds], a = String(2000 + parseInt(p.slice(2), 10));
+      if (!t || !t.anuais || tri(p) !== 4 || t.anuais.indexOf(a) < 0 || per[ds].indexOf(p) >= 0) return undefined;
+      var l = idx[ds][cd], v = l && l['AN' + a]; return ok(v) ? v : null;
+    };
     m.trim = q;
 
     // valor agregado de uma conta no período p, na base escolhida
@@ -125,6 +131,9 @@
       base = base || 'T';
       if (!fechaBase(base, p)) return null;
       if (ds === 'bp') return q(ds, cd, p);
+      // exercício só anual (2015: comparativo do DFP de 2016), sem trimestres: vale só para o ano inteiro
+      var an = anual(ds, cd, p);
+      if (an !== undefined) return (base === 'AN' || base === 'LTM') ? an : null;
       if (ds === 'dfc' && cd === '6.05.02') return q(ds, cd, p);
       if (base === 'T') return q(ds, cd, p);
       var n = ord(p), k = trimestresBase(base, p);
@@ -145,9 +154,12 @@
       base = base || 'T';
       var lista = per[ds] || [];
       if (base === 'T') return lista.slice();
+      if ((base === 'AN' || base === 'LTM') && dados[ds] && dados[ds].anuais)   // anos só anuais entram na visão anual
+        lista = dados[ds].anuais.map(function (a) { return '4T' + a.slice(2); }).filter(function (p) { return lista.indexOf(p) < 0; }).concat(lista);
       if (ds === 'bp') return lista.filter(function (p) { return fechaBase(base, p); });
       var anc = ANCORA[ds];
-      return lista.filter(function (p) { return m.agg(ds, anc, p, base) !== null && (base !== 'LTM' || ord(p) - 3 >= ord(lista[0])); });
+      var prim = (per[ds] || [])[0];
+      return lista.filter(function (p) { return m.agg(ds, anc, p, base) !== null && (base !== 'LTM' || anual(ds, anc, p) !== undefined || ord(p) - 3 >= ord(prim)); });
     };
 
     // ---------- indicadores ----------
@@ -171,7 +183,10 @@
       c.dliqc = function (k) { return sub(c.dbruta(k), c.caixa(k)); };   // pelo balanço (CVM)
       c.dliq = function (k) {   // como a Companhia divulga no release; na falta, pelo balanço
         var r = dados.dlrel && dados.dlrel.series && dados.dlrel.series[desloca(p, k || 0)];
-        return r && ok(r.v) ? r.v : c.dliqc(k);
+        if (r && ok(r.v)) return r.v;
+        // antes do primeiro número divulgado (2015) não mistura definições: sem release, sem dívida líquida "divulgada"
+        var l0 = dados.dlrel && dados.dlrel.periodos && dados.dlrel.periodos[0];
+        return l0 && ord(desloca(p, k || 0)) < ord(l0) ? null : c.dliqc(k);
       };
       c.plc = function (k) { var pl = c.b('2.03', k); return ok(pl) ? pl - nz(c.b('2.03.09', k)) : null; };
       c.ncg = function (k) { var r = c.b('1.01.03', k), e = c.b('1.01.04', k), f = c.b('2.01.02', k); return ok(r) && ok(e) && ok(f) ? r + e - f : null; };

@@ -350,9 +350,20 @@ def serie_dmpl(linhas):
                 cont.items(), key=lambda x: (ordem_periodo(x[0][0]), chave_conta(x[0][1]), x[0][2]))]}
 
 
-def larga(series, desc):
+def serie_anual(linhas, trimestral):
+    """Exercícios que só existem como comparativo anual (2015, no DFP de 2016): valor de 1º de janeiro a 31 de dezembro,
+    apenas para anos sem o 4º trimestre na série trimestral. O painel mostra esses anos só na visão anual."""
+    anos = defaultdict(dict)
+    for r in linhas:
+        if r["ultimo"] and r["fim"] == r["ref"] and r["ini"] and (r["ini"].month, r["ini"].day, r["fim"].month, r["fim"].day) == (1, 1, 12, 31) \
+                and r["ini"].year == r["fim"].year and rotulo(r["fim"]) not in trimestral:
+            anos[str(r["fim"].year)][r["cd"]] = r["val"]
+    return {a: anos[a] for a in sorted(anos)}
+
+
+def larga(series, desc, anuais=None):
     periodos = sorted(series, key=ordem_periodo)
-    cds = sorted({cd for s in series.values() for cd in s}, key=chave_conta)
+    cds = sorted({cd for s in series.values() for cd in s} | {cd for a in (anuais or {}).values() for cd in a}, key=chave_conta)
     linhas = []
     for cd in cds:
         ds, fixa = desc.get(cd, ("", False))
@@ -360,8 +371,14 @@ def larga(series, desc):
         for p in periodos:
             v = series[p].get(cd)
             linha[p] = None if v is None else round(v, 3)
+        for a, vals in (anuais or {}).items():
+            v = vals.get(cd)
+            linha["AN" + a] = None if v is None else round(v, 3)
         linhas.append(linha)
-    return {"unidade": "R$ milhões", "periodos": periodos, "linhas": linhas}
+    out = {"unidade": "R$ milhões", "periodos": periodos, "linhas": linhas}
+    if anuais:
+        out["anuais"] = list(anuais)   # exercícios só anuais: valores nas colunas "AN<ano>" de cada linha
+    return out
 
 
 # ----------------------------------------------------------------------------- conferências
@@ -457,11 +474,14 @@ def principal(args):
         acoes = completar_acoes_fre(acoes, bp, pasta_dados, log)
         n_comp = len({(r["demo"], r["fim"]) for r in linhas if r.get("comparativo")})
         log.append(f"- Períodos completados por comparativos do ano seguinte (sem demonstração própria na CVM): {n_comp}")
-        gravar_json(os.path.join(pasta_dados, "cvm_dre.json"), larga(dre, descricoes(por("DRE"))))
+        an = {k: serie_anual(por(*d), s_) for k, d, s_ in (("dre", ("DRE",), dre), ("dfc", ("DFC",), dfc), ("dva", ("DVA",), dva), ("dra", ("DRA",), dra))}
+        if any(an.values()):
+            log.append("- Exercícios só anuais (comparativo do DFP seguinte): %s" % ", ".join(sorted({a for v in an.values() for a in v})))
+        gravar_json(os.path.join(pasta_dados, "cvm_dre.json"), larga(dre, descricoes(por("DRE")), an["dre"]))
         gravar_json(os.path.join(pasta_dados, "cvm_balanco.json"), larga(bp, descricoes(por("BPA", "BPP"))))
-        gravar_json(os.path.join(pasta_dados, "cvm_fluxo_caixa.json"), larga(dfc, descricoes(por("DFC"))))
-        gravar_json(os.path.join(pasta_dados, "cvm_dva.json"), larga(dva, descricoes(por("DVA"))))
-        gravar_json(os.path.join(pasta_dados, "cvm_dra.json"), larga(dra, descricoes(por("DRA"))))
+        gravar_json(os.path.join(pasta_dados, "cvm_fluxo_caixa.json"), larga(dfc, descricoes(por("DFC")), an["dfc"]))
+        gravar_json(os.path.join(pasta_dados, "cvm_dva.json"), larga(dva, descricoes(por("DVA")), an["dva"]))
+        gravar_json(os.path.join(pasta_dados, "cvm_dra.json"), larga(dra, descricoes(por("DRA")), an["dra"]))
         gravar_json(os.path.join(pasta_dados, "cvm_dmpl.json"), serie_dmpl(por("DMPL")))
         gravar_json(os.path.join(pasta_dados, "cvm_acoes.json"), {"unidade": "ações (a CVM informa em milhares; aqui já multiplicado)", "periodos": list(acoes), "valores": acoes})
         testes = conferir(dre, bp, dfc, dva, dra)
