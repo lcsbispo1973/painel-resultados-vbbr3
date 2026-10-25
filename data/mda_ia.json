@@ -1,5 +1,13 @@
 {
  "pares": {},
- "recusados": {},
- "atualizado_em": "2026-10-25T00:39:20Z"
+ "recusados": {
+  "2T26|T|2T25|T": {
+   "hash": "89ae931bb0c250aa",
+   "data": "2026-10-25T01:07:57Z",
+   "motivo": [
+    "HTTP 400"
+   ]
+  }
+ },
+ "atualizado_em": "2026-10-25T01:07:57Z"
 }

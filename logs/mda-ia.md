@@ -1,7 +1,7 @@
-# MD&A redigido — 2026-10-25T00:39:20Z
+# MD&A redigido — 2026-10-25T01:07:57Z
 
-Modelo: openai/gpt-4.1
+Modelo: claude-sonnet-5-5
 
-- 2T26|T|2T25|T: RECUSADO (RuntimeError: resposta não-JSON (text/plain): 'OK\r\n')
+- 2T26|T|2T25|T: RECUSADO (HTTP 400)
 
-0 pares com texto aprovado; 12 recusados.
+0 pares com texto aprovado; 1 recusados.
