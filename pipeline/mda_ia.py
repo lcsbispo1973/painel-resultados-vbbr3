@@ -270,8 +270,8 @@ def main():
         if not REFAZER and est["pares"].get(k, {}).get("hash") == h:
             continue
         rec = est["recusados"].get(k)
-        if not REFAZER and rec and rec.get("hash") == h and rec.get("data", "") > (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=7)).isoformat():
-            continue
+        if not REFAZER and rec and rec.get("hash") == h and rec.get("tentativas", 1) >= 3 and rec.get("data", "") > (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=7)).isoformat():
+            continue   # três recusas seguidas: espera uma semana (ou mudança nos dados) para tentar de novo
         if feitos >= MAX_POR_EXECUCAO:
             break
         feitos += 1
@@ -315,7 +315,9 @@ def main():
                                                         "Reescreva o JSON completo sem eles, usando só números da lista FATOS." % ", ".join(sorted(set(recusados)))}]
             time.sleep(5)
         if recusados:
-            est["recusados"][k] = {"hash": h, "data": agora, "motivo": sorted(set(recusados))[:20]}
+            ant = est["recusados"].get(k) or {}
+            est["recusados"][k] = {"hash": h, "data": agora, "motivo": sorted(set(recusados))[:20],
+                                   "tentativas": (ant.get("tentativas", 1) + 1) if ant.get("hash") == h else 1}
             log.append("- %s: RECUSADO (%s)" % (k, ", ".join(sorted(set(recusados))[:10])))
         else:
             est["pares"][k] = {"hash": h, "gerado_em": agora, "modelo": MODELO, "tipo": par["tipo"], "secoes": secoes,
