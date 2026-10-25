@@ -7,7 +7,8 @@ Entrada:
 Saída:
   data/mda_ia.json         texto aprovado por par de períodos; logs/mda-ia.md
 
-Modelo: GitHub Models (gratuito com limites), autenticado pelo GITHUB_TOKEN do workflow (permissão models: read).
+Modelo: Claude (API da Anthropic), com a chave no segredo ANTHROPIC_API_KEY do repositório. Sem a chave, nada é feito
+e o painel usa o texto por regras. (O GitHub Models, usado na primeira versão, foi descontinuado pelo GitHub em 30/07/2026.)
 
 Trava de publicação, por par:
   - todo valor em R$ do texto tem de estar entre os números fornecidos;
@@ -26,8 +27,8 @@ import urllib.error
 import urllib.request
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-URL = "https://models.github.ai/inference/chat/completions"
-MODELO = os.environ.get("MDA_IA_MODELO", "openai/gpt-4.1")
+URL = "https://api.anthropic.com/v1/messages"
+MODELO = os.environ.get("MDA_IA_MODELO", "claude-sonnet-5-5")
 MAX_POR_EXECUCAO = int(os.environ.get("MDA_IA_MAX", "12"))
 SO_PARES = [p for p in os.environ.get("MDA_IA_PARES", "").split(",") if p]
 REFAZER = os.environ.get("MDA_IA_REFAZER", "") == "1"
@@ -174,28 +175,30 @@ def confere(secoes, rs_fat, fat, exc):
 
 
 def chama(mensagens):
-    corpo = json.dumps({"model": MODELO, "messages": mensagens, "temperature": 0.2, "max_tokens": 3500,
-                        "response_format": {"type": "json_object"}}).encode()
-    req = urllib.request.Request(URL, data=corpo, headers={"Authorization": "Bearer " + os.environ["GITHUB_TOKEN"],
-                                                           "Content-Type": "application/json", "Accept": "application/json"})
-    with urllib.request.urlopen(req, timeout=180) as r:
+    """mensagens: [{"role": "system"|"user"|"assistant", "content": str}] → texto da resposta (JSON)."""
+    sistema = "\n".join(m["content"] for m in mensagens if m["role"] == "system")
+    conversa = [m for m in mensagens if m["role"] != "system" and m["content"]]
+    corpo = json.dumps({"model": MODELO, "max_tokens": 4000, "temperature": 0.2, "system": sistema, "messages": conversa}).encode()
+    req = urllib.request.Request(URL, data=corpo, headers={"x-api-key": os.environ["ANTHROPIC_API_KEY"], "anthropic-version": "2023-06-01",
+                                                           "content-type": "application/json"})
+    with urllib.request.urlopen(req, timeout=240) as r:
         bruto = r.read().decode("utf-8", "ignore")
-        ct = r.headers.get("Content-Type")
     try:
         j = json.loads(bruto)
     except ValueError:
-        raise RuntimeError("resposta não-JSON (%s): %r" % (ct, bruto[:300]))
-    txt = j["choices"][0]["message"]["content"] or ""
-    txt = re.sub(r"^```(?:json)?\s*|\s*```$", "", txt.strip())   # alguns modelos cercam o JSON com ```
-    return txt
+        raise RuntimeError("resposta não-JSON: %r" % bruto[:300])
+    txt = "".join(b.get("text", "") for b in j.get("content", []) if b.get("type") == "text").strip()
+    txt = re.sub(r"^```(?:json)?\s*|\s*```$", "", txt)
+    i, k = txt.find("{"), txt.rfind("}")
+    return txt[i:k + 1] if i >= 0 and k > i else txt
 
 
 def main():
     agora = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     log = ["# MD&A redigido — %s" % agora, "", "Modelo: %s" % MODELO, ""]
     fatos = ler("mda_fatos.json")
-    if not fatos or not os.environ.get("GITHUB_TOKEN"):
-        print("mda_ia: sem fatos ou sem GITHUB_TOKEN; nada a fazer")
+    if not fatos or not os.environ.get("ANTHROPIC_API_KEY"):
+        print("mda_ia: sem fatos ou sem a chave ANTHROPIC_API_KEY; o painel usa o texto por regras")
         return 0
     rel, fre = ler("releases_texto.json"), ler("fre_item10.json")
     est = ler("mda_ia.json") or {"pares": {}, "recusados": {}}
@@ -235,7 +238,7 @@ def main():
             except urllib.error.HTTPError as e:
                 recusados = ["HTTP %d" % e.code]
                 if e.code == 429:
-                    log.append("- limite de uso do GitHub Models atingido; continua na próxima atualização")
+                    log.append("- limite de uso da API atingido; continua na próxima atualização")
                     feitos = MAX_POR_EXECUCAO
                     break
             except Exception as e:  # noqa: BLE001
@@ -254,7 +257,7 @@ def main():
                                "release": rel_nome, "release_link": rel_link}
             est["recusados"].pop(k, None)
             log.append("- %s: ok" % k)
-        time.sleep(7)   # respeita o limite por minuto
+        time.sleep(2)
     est["atualizado_em"] = agora
     json.dump(est, open(os.path.join(RAIZ, "data", "mda_ia.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     log.append("")

@@ -23,7 +23,6 @@ permissions:
   contents: write
   pages: write
   id-token: write
-  models: read    # GitHub Models (gratuito com limites): redação do MD&A
   issues: write   # alertas (novos documentos e falha na trava de publicação) viram issues, com aviso por e-mail
 
 concurrency:
@@ -99,7 +98,7 @@ jobs:
         if: always()
         continue-on-error: true
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           node pipeline/mda_fatos.js
           python pipeline/mda_ia.py
