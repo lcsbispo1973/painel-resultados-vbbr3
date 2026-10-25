@@ -56,5 +56,5 @@ jobs:
               done
             fi
             grep -q "^PENDENTES=0" /tmp/saida.txt && break
-            [ -n "$MDA_IA_REFAZER" ] && break
+            if [ -n "$MDA_IA_REFAZER" ]; then break; fi
           done
