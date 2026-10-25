@@ -242,7 +242,7 @@ def main():
                     recusados.append("seções obrigatórias vazias")
             except urllib.error.HTTPError as e:
                 corpo_erro = e.read().decode("utf-8", "ignore")[:400]
-                recusados = ["HTTP %d" % e.code]
+                recusados = ["HTTP %d: %s" % (e.code, corpo_erro[:300])]
                 if re.search(r"credit balance|billing|insufficient", corpo_erro, re.I) or e.code in (401, 403):
                     motivo = "o crédito da API da Anthropic acabou" if re.search(r"credit|billing|insufficient", corpo_erro, re.I) else "a chave da API foi recusada (HTTP %d)" % e.code
                     open(os.path.join(RAIZ, "logs", "mda-ia-alerta.md"), "w", encoding="utf-8").write(
