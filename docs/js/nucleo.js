@@ -196,6 +196,7 @@
   function render() {
     var pg = P.paginas[S.aba]; if (!pg || !P.M) return;
     barraPeriodo();
+    if (P.barraExportar) P.barraExportar();
     if (!pg.pronto) { pg.pronto = true; pg.obj.init(pg.el); }
     Array.prototype.forEach.call(document.querySelectorAll('.page'), function (e) { e.hidden = e.id !== 'p-' + S.aba; });
     Array.prototype.forEach.call(document.querySelectorAll('nav.tabs button'), function (b) { b.setAttribute('aria-selected', String(b.dataset.tab === S.aba)); });

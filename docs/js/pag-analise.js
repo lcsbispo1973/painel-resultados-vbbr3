@@ -118,7 +118,7 @@
         ultimo = r;
         ref.acoes.replaceChildren(
           h('button', { class: 'btn', type: 'button', onclick: function () { P.arquivo('MDA_' + r.rotA + '_x_' + r.rotB + '.doc', window.Mda.html(r), 'application/msword'); } }, 'Baixar para Word'),
-          h('button', { class: 'btn', type: 'button', onclick: function () { window.print(); } }, 'Imprimir ou salvar em PDF'),
+          h('button', { class: 'btn', type: 'button', onclick: function () { P.exportaPdf(); } }, 'Baixar em PDF'),
           h('button', { class: 'btn', type: 'button', onclick: function () { if (navigator.clipboard) navigator.clipboard.writeText(window.Mda.texto(r)).catch(function () { }); } }, 'Copiar texto'));
         ref.texto.replaceChildren();
         ref.texto.appendChild(h('h1', { class: 'mda-t' }, r.titulo));

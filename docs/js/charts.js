@@ -217,5 +217,27 @@
     var u = pts[pts.length - 1]; svg.append('circle').attr('cx', x(u.i)).attr('cy', y(u.v)).attr('r', 2.5).attr('fill', C(1));
   }
 
-  raiz.Graficos = { barras: barras, linhas: linhas, empilhado: empilhado, cascata: cascata, pares: pares, variacoes: variacoes, spark: spark, falha: falha, legenda: legenda, C: C };
+  // cada gráfico guarda os números que desenhou (el._dados = {cab, linhas}) para a exportação em Excel
+  function guarda(fn, conv) {
+    return function (el) {
+      var r = fn.apply(this, arguments);
+      try { el._dados = conv.apply(null, arguments); } catch (e) { el._dados = null; }
+      return r;
+    };
+  }
+  var num = function (v) { return v == null || !isFinite(v) ? null : v; };
+  raiz.Graficos = {
+    barras: guarda(barras, function (el, labels, vals, nome) { return { cab: ['', nome || 'Valor'], linhas: labels.map(function (l, i) { return [l, num(vals[i])]; }) }; }),
+    linhas: guarda(linhas, function (el, labels, series) { return { cab: [''].concat(series.map(function (s) { return s.nome; })), linhas: labels.map(function (l, i) { return [l].concat(series.map(function (s) { return num(s.vals[i]); })); }) }; }),
+    empilhado: guarda(empilhado, function (el, labels, series, marcador) {
+      var ss = series.concat(marcador ? [marcador] : []);
+      return { cab: [''].concat(ss.map(function (s) { return s.nome; })), linhas: labels.map(function (l, i) { return [l].concat(ss.map(function (s) { return num(s.vals[i]); })); }) };
+    }),
+    cascata: guarda(cascata, function (el, inicio, passos, fim) {
+      return { cab: ['', 'Valor'], linhas: [[inicio.rot, num(inicio.v)]].concat(passos.map(function (p) { return [p.rot, num(p.v)]; })).concat(fim ? [[fim.rot, num(fim.v)]] : []) };
+    }),
+    pares: guarda(pares, function (el, itens, nomeA, nomeB) { return { cab: ['', nomeA, nomeB], linhas: itens.map(function (d) { return [d.rot, num(d.a), num(d.b)]; }) }; }),
+    variacoes: guarda(variacoes, function (el, itens) { return { cab: ['', 'Variação'], linhas: itens.map(function (d) { return [d.rot, num(d.v)]; }) }; }),
+    spark: spark, falha: falha, legenda: legenda, C: C
+  };
 })(window);

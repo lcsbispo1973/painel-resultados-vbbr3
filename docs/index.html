@@ -156,7 +156,32 @@
     .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
     .kpis .card { padding: 12px; } .kpis .kl { font-size: 11.5px; }
   }
+  /* exportação: barra, aviso e folha do PDF */
+  .exportar { display: flex; align-items: center; justify-content: flex-end; gap: 8px; padding: 8px 0 0; flex-wrap: wrap; }
+  .exportar .exp-t { color: var(--muted); font-size: 13px; margin-right: 2px; }
+  .exportar .btn { font-weight: 600; }
+  .exp-aviso { position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%); z-index: 90; background: var(--fg); color: var(--bg); padding: 9px 16px; border-radius: 10px; font-size: 14px; box-shadow: var(--shadow); max-width: calc(100vw - 32px); }
+  :root.modo-pdf {
+    --bg: #ffffff; --panel: #f5f7f4; --fg: #37373A; --muted: #66686b; --border: #e1e5df;
+    --c1: #268200; --c2: #37373A; --c3: #9a9c9e; --c4: #004415; --c5: #FEDC00; --cneg: #FEDC00;
+    --ok: #268200; --bad: #b3261e; --grid: #ebeee9; --hl: #fff8c4; color-scheme: light;
+  }
+  :root.modo-pdf .wrap { width: var(--larg-pdf); max-width: none; }
+  .pdf-folha { background: #fff; color: #37373A; font: 13px/1.45 var(--fonte); padding: 0 4px; }
+  .pdf-folha .page { display: block !important; animation: none !important; }
+  .pdf-cab { border-bottom: 3px solid var(--verde); padding: 0 0 10px; margin: 0 0 12px; }
+  .pdf-tit { font-size: 20px; font-weight: 700; color: var(--verde-esc); }
+  .pdf-per { font-size: 13px; font-weight: 600; margin-top: 2px; }
+  .pdf-take { font-size: 14.5px; margin-top: 6px; }
+  .pdf-sub { font-size: 11px; color: #66686b; margin-top: 4px; }
+  .pdf-rod { font-size: 10px; color: #66686b; border-top: 1px solid #e1e5df; margin-top: 16px; padding-top: 6px; }
+  .pdf-folha .twrap { max-height: none !important; overflow: visible !important; }
+  .pdf-folha th:first-child, .pdf-folha td:first-child { position: static !important; }
+  .pdf-folha .card { box-shadow: none !important; break-inside: avoid; }
+  .pdf-folha .mda-grid { display: block !important; } .pdf-folha .mda-lado { display: none !important; }
+  .pdf-folha .btn, .pdf-folha .controls, .pdf-folha .subnav, .pdf-folha .info, .pdf-folha select, .pdf-folha .seg { display: none !important; }
   @media print {
+    .exportar { display: none !important; }
     nav.tabs, #periodo, .controls, .subnav, .btn, .foot a, .info { display: none !important; }
     header.top { background: #fff !important; color: #000; border-bottom: 3px solid var(--verde); } header.top .take b { color: #000; } header.top .logo { display: none; }
     .card, tr, blockquote { break-inside: avoid; } .twrap { max-height: none; overflow: visible; border: 0; } body { font-size: 12px; }
@@ -175,6 +200,7 @@
 <div class="wrap">
   <nav class="tabs" role="tablist" aria-label="Seções do painel" id="tabs"></nav>
   <div id="periodo" hidden></div>
+  <div id="exportar" class="exportar no-pdf"></div>
   <main id="pages"></main>
   <div class="foot">
     <p><b>Fontes.</b> Demonstrações financeiras consolidadas (DFP e ITR), notas explicativas, releases de resultados, Formulário de Referência e comunicados: documentos arquivados na CVM. Ipiranga: releases da Ultrapar arquivados na CVM. Cotações: Séries Históricas da B3. Proventos: avisos aos acionistas arquivados na CVM (histórico conferido com o site de Relações com Investidores).</p>
@@ -186,6 +212,7 @@
 <script src="js/dados.js"></script>
 <script src="js/charts.js"></script>
 <script src="js/nucleo.js"></script>
+<script src="js/exportar.js"></script>
 <script src="js/manchete.js"></script>
 <script src="js/pag-consulta.js"></script>
 <script src="js/pag-analise.js"></script>
