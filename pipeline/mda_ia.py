@@ -179,8 +179,15 @@ def chama(mensagens):
     req = urllib.request.Request(URL, data=corpo, headers={"Authorization": "Bearer " + os.environ["GITHUB_TOKEN"],
                                                            "Content-Type": "application/json", "Accept": "application/json"})
     with urllib.request.urlopen(req, timeout=180) as r:
-        j = json.load(r)
-    return j["choices"][0]["message"]["content"]
+        bruto = r.read().decode("utf-8", "ignore")
+        ct = r.headers.get("Content-Type")
+    try:
+        j = json.loads(bruto)
+    except ValueError:
+        raise RuntimeError("resposta não-JSON (%s): %r" % (ct, bruto[:300]))
+    txt = j["choices"][0]["message"]["content"] or ""
+    txt = re.sub(r"^```(?:json)?\s*|\s*```$", "", txt.strip())   # alguns modelos cercam o JSON com ```
+    return txt
 
 
 def main():
@@ -217,7 +224,10 @@ def main():
         for tentativa in range(2):
             try:
                 txt = chama(msgs)
-                bruto = json.loads(txt)
+                try:
+                    bruto = json.loads(txt)
+                except ValueError:
+                    raise RuntimeError("conteúdo não-JSON: %r" % txt[:300])
                 secoes = {sid: [p.strip() for p in (bruto.get(sid) or []) if isinstance(p, str) and p.strip()] for sid, _, _ in SECOES}
                 recusados = confere(secoes, rs_fat, fat, exc)
                 if not secoes["resultado"] or not secoes["sumario"]:
@@ -229,7 +239,7 @@ def main():
                     feitos = MAX_POR_EXECUCAO
                     break
             except Exception as e:  # noqa: BLE001
-                recusados = [type(e).__name__ + ": " + str(e)[:120]]
+                recusados = [type(e).__name__ + ": " + str(e)[:400]]
             if not recusados:
                 break
             msgs = msgs + [{"role": "assistant", "content": txt if secoes else ""},
