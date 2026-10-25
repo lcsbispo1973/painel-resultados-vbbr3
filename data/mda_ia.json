@@ -1,5 +1,165 @@
 {
- "pares": {},
+ "pares": {
+  "4T25|T|4T24|T": {
+   "hash": "b8cae07b3365b1ef",
+   "gerado_em": "2026-10-25T01:41:53Z",
+   "modelo": "claude-sonnet-5-5",
+   "tipo": "anual",
+   "secoes": {
+    "sumario": [
+     "No 4º trimestre de 2025, a Companhia manteve a trajetória de crescimento observada ao longo do ano, com expansão de volume e das margens comerciais. O volume vendido total foi de 9.500 mil m³, frente a 9.017 mil m³ no 4º trimestre de 2024 (+5,4%).",
+     "A receita líquida foi de R$ 50.326 milhões, alta de 13,6% frente ao 4º trimestre de 2024. O EBITDA Ajustado consolidado somou R$ 2.620 milhões, contra R$ 1.307 milhões no 4º trimestre de 2024 (+100,5%). O lucro líquido consolidado foi de R$ 679 milhões, alta de 33,1% frente ao 4º trimestre de 2024.",
+     "A alavancagem, medida pela dívida líquida sobre o EBITDA Ajustado de 12 meses, ficou em 2,42x ao fim do trimestre, contra 0,87x ao fim do 4º trimestre de 2024."
+    ],
+    "operacional": [
+     "O volume vendido pela Rede de Postos foi de 6.031 mil m³ no 4º trimestre de 2025, contra 5.626 mil m³ no 4º trimestre de 2024 (+7,2%), impulsionado pelo avanço do Ciclo Otto e pela maior eficiência comercial. O volume do B2B foi de 3.469 mil m³, contra 3.391 mil m³ no 4º trimestre de 2024 (+2,3%). No B2B, a Aviação foi um dos destaques do trimestre, beneficiada pela alta temporada de dezembro, pela expansão da malha aérea, pela conquista de novos clientes e pelo crescimento do volume de companhias já atendidas. A Companhia também ampliou sua participação no mercado de diesel do segmento B2B frente ao 4º trimestre de 2024.",
+     "O EBITDA Ajustado da Rede de Postos foi de R$ 1.849 milhões, contra R$ 943 milhões no 4º trimestre de 2024 (+96,1%). O do B2B foi de R$ 677 milhões, contra R$ 446 milhões (+51,8%). O segmento Renováveis registrou EBITDA Ajustado de R$ 232 milhões no 4º trimestre de 2025. O item Corporativo e reconciliação foi de −R$ 138 milhões, contra −R$ 82 milhões no 4º trimestre de 2024 (+68,3%).",
+     "A margem EBITDA Ajustado por m³ da distribuição, sem Renováveis, foi de R$ 251/m³, contra R$ 145/m³ no 4º trimestre de 2024 (+73,4%). Na Rede de Postos, a margem foi de R$ 307/m³, contra R$ 168/m³ (+82,9%). No B2B, foi de R$ 195/m³, contra R$ 132/m³ (+48,4%). A Companhia atribui a evolução das margens à escala, ao melhor mix de produtos, ao avanço na penetração de combustíveis premium e à eficiência logística, combinados com crescimento de volume, disciplina de precificação e otimização operacional. As despesas operacionais ajustadas tiveram efeito negativo das perdas de crédito esperadas.",
+     "Em Renováveis, a Comerc encerrou o trimestre com avanço operacional e estabilidade de desempenho em relação ao ano anterior, mesmo diante do ambiente desafiador imposto pelo curtailment. As despesas operacionais seguem em redução, desconsiderados os efeitos pontuais, em razão da reestruturação da liderança, da redução de despesas com governança no início do ano e dos ganhos de eficiência com o foco na operação e a integração com a Vibra."
+    ],
+    "resultado": [
+     "A receita líquida foi de R$ 50.326 milhões no 4º trimestre de 2025, contra R$ 44.293 milhões no 4º trimestre de 2024, aumento de R$ 6.033 milhões (+13,6%). O lucro bruto foi de R$ 2.626 milhões, contra R$ 1.961 milhões (+33,9%), e a margem bruta passou de 4,4% para 5,2% (+0,8 p.p.).",
+     "As despesas com vendas foram de −R$ 847 milhões, contra −R$ 721 milhões no 4º trimestre de 2024 (+17,5%). As despesas gerais e administrativas foram de −R$ 462 milhões, contra −R$ 275 milhões (+68,0%). As outras receitas e despesas operacionais, líquidas e com equivalência, foram de −R$ 297 milhões, contra −R$ 639 milhões no 4º trimestre de 2024 (−53,5%).",
+     "O EBITDA Ajustado consolidado foi de R$ 2.620 milhões, contra R$ 1.307 milhões no 4º trimestre de 2024, aumento de R$ 1.313 milhões (+100,5%). A margem EBITDA Ajustado sobre a receita passou de 3,0% para 5,2% (+2,3 p.p.).",
+     "O resultado financeiro foi de −R$ 504 milhões, contra R$ 185 milhões no 4º trimestre de 2024, diferença de −R$ 689 milhões. O imposto de renda e a contribuição social foram de R$ 163 milhões, contra −R$ 1 milhões no 4º trimestre de 2024, e a alíquota efetiva foi de −31,6%, contra 0,2%.",
+     "O lucro líquido consolidado foi de R$ 679 milhões, contra R$ 510 milhões no 4º trimestre de 2024 (+33,1%). O lucro atribuído aos controladores foi de R$ 676 milhões, contra R$ 510 milhões (+32,5%). A margem líquida foi de 1,3%, contra 1,2% (+0,2 p.p.). O ROE dos controladores em 12 meses foi de 9,8%, contra 35,3% no 4º trimestre de 2024 (−25,5 p.p.)."
+    ],
+    "balanco": [
+     "Ao fim do 4º trimestre de 2025, a dívida bruta, composta por empréstimos, financiamentos e arrendamentos, era de R$ 23.216 milhões, contra R$ 20.808 milhões ao fim do 4º trimestre de 2024 (+11,6%). O caixa e as aplicações financeiras somavam R$ 3.647 milhões, contra R$ 10.480 milhões (−65,2%). A dívida líquida foi de R$ 19.189 milhões, contra R$ 9.454 milhões (+103,0%).",
+     "A alavancagem foi de 2,42x, contra 0,87x ao fim do 4º trimestre de 2024 (+1,55x). Na comparação anual, o indicador reflete a aquisição integral da Comerc pela Vibra, operação que afetou diretamente a estrutura de capital consolidada. O indicador segue em trajetória de redução, refletindo o desempenho operacional e a gestão contínua de passivos. O patrimônio líquido consolidado foi de R$ 20.741 milhões, contra R$ 20.385 milhões ao fim do 4º trimestre de 2024 (+1,7%).",
+     "Nas médias de 12 meses, o prazo de recebimento foi de 13,2 dias, contra 10,5 dias no 4º trimestre de 2024, e o prazo de pagamento foi de 10,2 dias, contra 5,4 dias. O prazo de estocagem foi de 12,0 dias, contra 13,6 dias. O ciclo de caixa foi de 15,0 dias, contra 18,7 dias no 4º trimestre de 2024 (−3,7 dias)."
+    ],
+    "caixa": [
+     "O caixa líquido das atividades operacionais foi de R$ 1.405 milhões no 4º trimestre de 2025, contra R$ 1.366 milhões no 4º trimestre de 2024 (+2,9%). Esse fluxo reforça a continuidade do processo de desalavancagem da Companhia. Os investimentos em imobilizado e intangível foram de −R$ 359 milhões, contra −R$ 417 milhões no 4º trimestre de 2024 (−13,9%).",
+     "O fluxo de caixa livre, que soma o caixa operacional e os investimentos em imobilizado e intangível, foi de R$ 1.046 milhões, contra R$ 949 milhões no 4º trimestre de 2024 (+10,2%). Os dividendos e JCP pagos somaram R$ 562 milhões, contra R$ 339 milhões (+65,8%). A conversão de caixa, medida pelo caixa operacional sobre o EBITDA Ajustado, foi de 53,6%, contra 104,5% no 4º trimestre de 2024 (−50,9 p.p.)."
+    ],
+    "perspectivas": [
+     "A Companhia segue com a estratégia de Liability Management, voltada a otimizar a estrutura de capital e a garantir a alocação eficiente dos recursos disponíveis. Mantém o compromisso com a disciplina financeira e com a redução gradual da alavancagem."
+    ]
+   },
+   "release": "Release de Resultados 4T25",
+   "release_link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1489227&numSequencia=1013933&numVersao=1"
+  },
+  "4T25|AN|4T24|AN": {
+   "hash": "5d6c969649aea13b",
+   "gerado_em": "2026-10-25T01:41:53Z",
+   "modelo": "claude-sonnet-5-5",
+   "tipo": "exercicio",
+   "secoes": {
+    "sumario": [
+     "Em 2025, a Companhia registrou receita líquida de R$ 189,1 bilhões, alta de 9,8% frente ao ano de 2024, quando somou R$ 172,3 bilhões. O volume vendido total foi de 35.892 mil m³, aumento de 0,2% frente a 2024. A administração descreve o ano como de retomada do crescimento de market share, expansão dos volumes comercializados e evolução das margens comerciais.",
+     "O EBITDA Ajustado consolidado foi de R$ 7,9 bilhões, queda de 27,1% frente ao ano de 2024, e o lucro líquido consolidado foi de R$ 2,0 bilhões, redução de 68,9% na mesma comparação. A alavancagem, medida pela dívida líquida sobre o EBITDA Ajustado de 12 meses, chegou a 2,42x, ante 0,87x em 2024. A Companhia atribui a variação anual do endividamento à aquisição do controle da Comerc, consolidada desde janeiro de 2025. Ao longo de 2025, os investidores obtiveram retorno total de 75%."
+    ],
+    "operacional": [
+     "O volume vendido total foi de 35.892 mil m³ em 2025, alta de 0,2% frente aos 35.821 mil m³ do ano de 2024. A Rede de Postos vendeu 22.467 mil m³, aumento de 1,8% frente a 2024, impulsionada pelo avanço do Ciclo Otto e pela maior eficiência comercial. O B2B vendeu 13.424 mil m³, queda de 2,3% frente aos 13.742 mil m³ de 2024. No quarto trimestre, o B2B alcançou market share de diesel de 25,9%, avanço de 1,8 p.p. frente ao quarto trimestre de 2024. Aviação teve destaque no trimestre, favorecida pela alta temporada de dezembro, pela expansão da malha aérea e pela conquista de novos clientes.",
+     "O EBITDA Ajustado da Rede de Postos foi de R$ 4,6 bilhões, alta de 13,8% frente ao ano de 2024, e o do B2B foi de R$ 2,9 bilhões, alta de 15,4% na mesma comparação. O segmento Renováveis, que representa a Comerc, controlada pela Companhia desde janeiro de 2025, contribuiu com R$ 840 milhões em 2025. A linha Corporativo e reconciliação foi de −R$ 403 milhões em 2025, ante R$ 4,3 bilhões em 2024.",
+     "A margem EBITDA Ajustado por m³ da distribuição, sem Renováveis, foi de R$ 197/m³ em 2025, queda de 34,9% frente aos R$ 303/m³ de 2024. Por segmento, a margem da Rede de Postos subiu 11,8%, para R$ 206/m³, frente a R$ 184/m³ em 2024, e a do B2B subiu 18,1%, para R$ 213/m³, frente a R$ 180/m³. Excluídos itens não recorrentes, como recuperações tributárias e vendas de imóveis, a margem recorrente avançou 5% frente a 2024. A Companhia relaciona esse avanço à escala, ao melhor mix de produtos, à maior penetração de combustíveis premium e à eficiência logística.",
+     "Na Comerc, o EBITDA de 2025 cresceu 1,4% frente a 2024, apesar do curtailment de 22% em 2025, ante 8% em 2024, ambos frente ao P50. Iniciativas de eficiência operacional, a entrada antecipada de usinas de geração distribuída e bandeiras tarifárias mais altas mitigaram esse efeito. As despesas operacionais da Comerc seguem em redução, sem os efeitos pontuais, em razão da reestruturação da liderança, da redução de despesas com governança no início do ano e de ganhos de eficiência."
+    ],
+    "resultado": [
+     "A receita líquida foi de R$ 189.075 milhões em 2025, alta de 9,8% frente aos R$ 172.272 milhões do ano de 2024. O lucro bruto somou R$ 9.218 milhões, aumento de 11,9% frente a R$ 8.241 milhões em 2024, e a margem bruta foi de 4,9%, ante 4,8%, variação de 0,1 p.p.",
+     "As despesas com vendas foram de R$ 3.125 milhões em 2025, alta de 15,9% frente a R$ 2.697 milhões em 2024. As despesas gerais e administrativas foram de R$ 1.536 milhões, aumento de 53,8% frente a R$ 999 milhões. As outras receitas e despesas operacionais, líquidas e com equivalência, somaram R$ 269 milhões, queda de 93,6% frente a R$ 4.224 milhões em 2024.",
+     "O EBITDA Ajustado consolidado foi de R$ 7.923 milhões, redução de 27,1% frente a R$ 10.864 milhões em 2024. A margem EBITDA Ajustado sobre a receita foi de 4,2%, ante 6,3%, queda de 2,1 p.p.",
+     "O resultado financeiro foi negativo em R$ 2.374 milhões em 2025, ante um resultado negativo de R$ 231 milhões em 2024, variação de 927,7%. O imposto de renda e contribuição social foi de R$ 473 milhões em 2025, queda de 78,2% frente a R$ 2.171 milhões em 2024. A alíquota efetiva foi de 19,3%, ante 25,4%, redução de 6,1 p.p.",
+     "O lucro líquido consolidado foi de R$ 1.979 milhões, redução de 68,9% frente a R$ 6.367 milhões no ano de 2024. O lucro atribuído aos controladores foi de R$ 2.004 milhões, queda de 68,5% frente aos mesmos R$ 6.367 milhões. A margem líquida foi de 1,0%, ante 3,7%, queda de 2,6 p.p. O ROE dos controladores em 12 meses foi de 9,8%, ante 35,3%, queda de 25,5 p.p."
+    ],
+    "balanco": [
+     "Ao fim de 2025, a dívida bruta, que compreende empréstimos, financiamentos e arrendamentos, era de R$ 23.216 milhões, alta de 11,6% frente a R$ 20.808 milhões ao fim de 2024. O caixa e as aplicações financeiras somavam R$ 3.647 milhões, queda de 65,2% frente a R$ 10.480 milhões. A dívida líquida, como divulgada pela Companhia, foi de R$ 19.189 milhões, aumento de 103,0% frente a R$ 9.454 milhões ao fim de 2024.",
+     "A alavancagem, medida pela dívida líquida sobre o EBITDA Ajustado de 12 meses, foi de 2,42x, ante 0,87x em 2024, alta de 1,55x. A Companhia explica que a comparação anual reflete a aquisição integral da Comerc, consolidada a partir de janeiro de 2025 e sem correspondência em 2024, que afetou diretamente a estrutura de capital, sobretudo por instrumentos financeiros derivativos e empréstimos e financiamentos. A Companhia informa que o indicador segue em trajetória de redução desde o pico de 2025, em razão do desempenho operacional e da gestão de passivos. A estratégia de liability management trouxe mudanças estruturais no perfil do endividamento. A Diretoria entende que a Companhia tem capacidade de pagamento de suas obrigações financeiras.",
+     "O patrimônio líquido consolidado foi de R$ 20.741 milhões, alta de 1,7% frente a R$ 20.385 milhões ao fim de 2024. Na média de 12 meses, o prazo de recebimento foi de 13,2 dias, ante 10,5 dias em 2024. O prazo de estocagem foi de 12,0 dias, ante 13,6 dias, e o prazo de pagamento foi de 10,2 dias, ante 5,4 dias. O ciclo de caixa foi de 15,0 dias, redução de 3,7 dias frente aos 18,7 dias de 2024."
+    ],
+    "caixa": [
+     "O caixa líquido das atividades operacionais foi de R$ 6.666 milhões em 2025, alta de 60,7% frente a R$ 4.148 milhões no ano de 2024. A conversão de caixa, medida pelo caixa operacional sobre o EBITDA Ajustado, foi de 84,1%, ante 38,2%, alta de 46,0 p.p.",
+     "Os investimentos em imobilizado e intangível foram de R$ 1.452 milhões, aumento de 28,0% frente a R$ 1.134 milhões em 2024. O fluxo de caixa livre, que soma o caixa operacional e esses investimentos, foi de R$ 5.214 milhões, alta de 73,0% frente a R$ 3.014 milhões.",
+     "Os dividendos e JCP pagos somaram R$ 1.547 milhões em 2025, alta de 1,2% frente a R$ 1.528 milhões em 2024. O caixa e as aplicações financeiras caíram 65,2% no período, para R$ 3.647 milhões ao fim de 2025."
+    ],
+    "perspectivas": [
+     "A administração afirma que mantém o compromisso com a disciplina financeira e com a redução gradual da alavancagem, por meio da estratégia de liability management, que busca otimizar a estrutura de capital e alocar os recursos de forma eficiente.",
+     "A administração avalia que o ambiente tem arcabouço regulatório mais forte, maior rigor no combate a irregularidades e menos assimetrias competitivas. Nesse contexto, a Companhia pretende seguir executando suas Avenidas de Crescimento."
+    ]
+   },
+   "release": "Release de Resultados 4T25",
+   "release_link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1489227&numSequencia=1013933&numVersao=1"
+  },
+  "4T25|T|3T25|T": {
+   "hash": "59ddb40b2e702584",
+   "gerado_em": "2026-10-25T01:41:53Z",
+   "modelo": "claude-sonnet-5-5",
+   "tipo": "trimestral",
+   "secoes": {
+    "sumario": [
+     "No 4º trimestre de 2025, a Companhia manteve a trajetória de crescimento do ano, com expansão de volume e das margens comerciais. O volume vendido total foi de 9.500 mil m³, alta de 2,6% frente ao 3º trimestre de 2025 e o melhor resultado dos últimos 12 trimestres. A receita líquida somou R$ 50,3 bilhões, avanço de 4,1% na mesma comparação.",
+     "O EBITDA Ajustado consolidado foi de R$ 2,6 bilhões, alta de 45,1% frente ao 3º trimestre de 2025, e a margem EBITDA Ajustado sobre a receita passou de 3,7% para 5,2%. O lucro líquido consolidado foi de R$ 679 milhões, alta de 66,8% na mesma comparação. A alavancagem, medida pela dívida líquida sobre o EBITDA Ajustado de 12 meses, recuou de 2,84x para 2,42x."
+    ],
+    "operacional": [
+     "Na Rede de Postos, o volume vendido foi de 6.031 mil m³ no 4º trimestre de 2025, alta de 4,8% frente ao 3º trimestre de 2025 (5.756 mil m³). A Companhia atribui o desempenho ao avanço do Ciclo Otto e à maior eficiência comercial. No B2B, o volume foi de 3.469 mil m³, queda de 0,9% frente ao 3º trimestre de 2025 (3.501 mil m³). A Aviação foi um dos destaques do trimestre, beneficiada pela alta temporada de dezembro, pela expansão da malha aérea, pela conquista de novos clientes e pelo maior volume de companhias já atendidas. A participação de mercado no diesel no B2B chegou a 25,9%, alta de 1,8 p.p. frente ao 4º trimestre de 2024.",
+     "O EBITDA Ajustado da Rede de Postos foi de R$ 1.849 milhões, alta de 63,5% frente ao 3º trimestre de 2025 (R$ 1.131 milhões). No B2B, foi de R$ 677 milhões, alta de 20,2% (R$ 563 milhões no 3º trimestre de 2025). Em Renováveis, foi de R$ 232 milhões, alta de 35,7% (R$ 171 milhões). O segmento Corporativo e reconciliação registrou resultado negativo de R$ 138 milhões, frente a resultado negativo de R$ 59 milhões no 3º trimestre de 2025.",
+     "A margem EBITDA Ajustado por m³ da distribuição, sem Renováveis, foi de R$ 251/m³, alta de 42,3% frente ao 3º trimestre de 2025 (R$ 177/m³). Na Rede de Postos, a margem foi de R$ 307/m³ (R$ 196/m³ no 3º trimestre de 2025, alta de 56,0%). No B2B, foi de R$ 195/m³ (R$ 161/m³, alta de 21,4%). A Companhia também acompanha o EBITDA Ajustado Recorrente, que exclui itens não recorrentes, como recuperações tributárias e vendas de imóveis. Segundo a Companhia, a expansão da margem recorrente por m³ reflete a escala, o melhor mix de produtos, o avanço na penetração de combustíveis premium e a eficiência logística. As despesas operacionais ajustadas da distribuição tiveram efeito negativo das perdas de crédito esperadas.",
+     "Na Comerc, o trimestre teve avanço operacional e estabilidade de desempenho frente ao ano anterior, apesar do curtailment, que atingiu 22% em 2025 e 8% em 2024, ambos frente ao P50. O EBITDA de 2025 cresceu 1,4% em relação a 2024 e atingiu o guidance revisado. Eficiência operacional, entrada antecipada de usinas de Geração Distribuída e bandeiras tarifárias mais altas mitigaram o efeito do curtailment. As despesas operacionais seguem em redução, desconsiderados os efeitos pontuais, em razão da reestruturação da liderança, do corte de despesas com governança no início do ano e dos ganhos de eficiência com o foco na operação e a integração com a Vibra."
+    ],
+    "resultado": [
+     "A receita líquida foi de R$ 50.326 milhões no 4º trimestre de 2025, alta de 4,1% frente ao 3º trimestre de 2025 (R$ 48.345 milhões). O lucro bruto foi de R$ 2.626 milhões, alta de 11,2% (R$ 2.362 milhões), e a margem bruta passou de 4,9% para 5,2%, alta de 0,3 p.p. O EBITDA Ajustado consolidado foi de R$ 2.620 milhões, alta de 45,1% frente a R$ 1.806 milhões no 3º trimestre de 2025, e a margem EBITDA Ajustado sobre a receita subiu 1,5 p.p., de 3,7% para 5,2%.",
+     "As despesas com vendas foram de R$ 847 milhões, alta de 7,5% frente ao 3º trimestre de 2025 (R$ 788 milhões). As despesas gerais e administrativas foram de R$ 462 milhões, alta de 33,9% (R$ 345 milhões). A linha de outras receitas e despesas operacionais, líquidas e com equivalência patrimonial, foi negativa em R$ 297 milhões no 4º trimestre de 2025, frente a resultado positivo de R$ 20 milhões no 3º trimestre de 2025.",
+     "O resultado financeiro foi negativo em R$ 504 milhões, frente a negativo de R$ 647 milhões no 3º trimestre de 2025, redução de 22,1% no valor negativo. O imposto de renda e a contribuição social tiveram efeito positivo de R$ 163 milhões no resultado, frente a efeito negativo de R$ 195 milhões no 3º trimestre de 2025. A alíquota efetiva foi de −31,6%, contra 32,4% no 3º trimestre de 2025. O lucro líquido consolidado foi de R$ 679 milhões, alta de 66,8% frente a R$ 407 milhões, e o lucro atribuído aos controladores foi de R$ 676 milhões, alta de 64,1% frente a R$ 412 milhões. A margem líquida passou de 0,8% para 1,3%. O ROE dos controladores em 12 meses foi de 9,8%, contra 8,8% no 3º trimestre de 2025."
+    ],
+    "balanco": [
+     "Ao final do 4º trimestre de 2025, a dívida bruta, composta por empréstimos, financiamentos e arrendamentos, era de R$ 23,2 bilhões, queda de 7,1% frente ao fim do 3º trimestre de 2025 (R$ 25,0 bilhões). O caixa e as aplicações financeiras somavam R$ 3,6 bilhões, queda de 38,6% (R$ 5,9 bilhões). A dívida líquida, como divulgada pela Companhia, foi de R$ 19,2 bilhões, alta de 2,3% frente a R$ 18,8 bilhões. A alavancagem recuou de 2,84x para 2,42x, o que a Companhia atribui ao desempenho operacional e à gestão contínua de passivos, dentro da estratégia de Liability Management voltada à otimização da estrutura de capital. O patrimônio líquido consolidado foi de R$ 20,7 bilhões, queda de 2,8% frente a R$ 21,3 bilhões.",
+     "No capital de giro, o prazo médio de recebimento em 12 meses foi de 13,2 dias, contra 12,5 dias no 3º trimestre de 2025. O prazo médio de estocagem foi de 12,0 dias, contra 13,2 dias, e o prazo médio de pagamento foi de 10,2 dias, contra 9,7 dias. O ciclo de caixa foi de 15,0 dias, contra 16,0 dias no 3º trimestre de 2025."
+    ],
+    "caixa": [
+     "O caixa líquido das atividades operacionais foi de R$ 1,4 bilhão no 4º trimestre de 2025, queda de 59,9% frente ao 3º trimestre de 2025 (R$ 3,5 bilhões). A Companhia destaca que esse fluxo operacional reforçou a continuidade do processo de desalavancagem. A conversão de caixa, medida pelo caixa operacional sobre o EBITDA Ajustado, foi de 53,6%, contra 194,2% no 3º trimestre de 2025.",
+     "Os investimentos em imobilizado e intangível foram de R$ 359 milhões, alta de 15,1% frente ao 3º trimestre de 2025 (R$ 312 milhões). O fluxo de caixa livre, que soma o caixa operacional e esses investimentos, foi de R$ 1,0 bilhão, queda de 67,3% frente a R$ 3,2 bilhões. Os dividendos e JCP pagos somaram R$ 562 milhões, alta de 111,3% frente a R$ 266 milhões no 3º trimestre de 2025."
+    ],
+    "perspectivas": [
+     "A administração mantém a estratégia de Liability Management e o compromisso com a disciplina financeira e a redução gradual da alavancagem. Avalia que o ambiente de fortalecimento do arcabouço regulatório, de maior rigor no combate a irregularidades e de redução de assimetrias competitivas favorece a execução das Avenidas de Crescimento da Companhia."
+    ]
+   },
+   "release": "Release de Resultados 4T25",
+   "release_link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1489227&numSequencia=1013933&numVersao=1"
+  },
+  "3T25|T|3T24|T": {
+   "hash": "cf618835a57b742d",
+   "gerado_em": "2026-10-25T01:41:53Z",
+   "modelo": "claude-sonnet-5-5",
+   "tipo": "anual",
+   "secoes": {
+    "sumario": [
+     "No 3º trimestre de 2025, a Companhia registrou volume vendido total de 9.258 mil m³, frente a 9.385 mil m³ no 3º trimestre de 2024 (−1,4%). A administração descreve o período como de execução consistente, em ambiente de mercado equilibrado. O EBITDA Ajustado consolidado foi de R$ 1,8 bilhões, frente a R$ 6,1 bilhões no 3º trimestre de 2024 (−70,2%), e a margem EBITDA Ajustado da distribuição, sem Renováveis, foi de R$ 177/m³, frente a R$ 646/m³ (−72,7%).",
+     "O lucro líquido consolidado foi de R$ 407 milhões, frente a R$ 4,2 bilhões no 3º trimestre de 2024 (−90,3%). A margem líquida passou de 9,1% para 0,8%. A margem bruta subiu de 4,7% para 4,9%, e o lucro bruto cresceu 9,5% no mesmo comparativo.",
+     "No campo regulatório, o trimestre teve avanços que, na visão da Companhia, reforçam um ambiente de negócios mais ético, competitivo e previsível para a distribuição. As medidas de combate ao Carbono Oculto já alcançam cerca de 4% do mercado nacional. O projeto de lei do Devedor Contumaz foi aprovado no Senado e tramita na Câmara."
+    ],
+    "operacional": [
+     "O volume da Rede de Postos foi de 5.756 mil m³, frente a 5.640 mil m³ no 3º trimestre de 2024 (+2,1%). O volume do B2B foi de 3.501 mil m³, frente a 3.746 mil m³ (−6,5%). Ao longo do trimestre, as margens permaneceram relativamente estáveis, com tendência positiva em outubro, acima da média do 3º trimestre de 2025. A margem recorrente do período foi afetada por perdas com inventários.",
+     "O EBITDA Ajustado da Rede de Postos foi de R$ 1,1 bilhões, frente a R$ 1,3 bilhões no 3º trimestre de 2024 (−14,8%), e a margem foi de R$ 196/m³, frente a R$ 235/m³ (−16,5%). No B2B, o EBITDA Ajustado foi de R$ 563 milhões, frente a R$ 769 milhões (−26,8%), e a margem foi de R$ 161/m³, frente a R$ 205/m³ (−21,7%).",
+     "O segmento Renováveis teve EBITDA Ajustado de R$ 171 milhões no 3º trimestre de 2025. Sua receita líquida cresceu 48% frente ao 3º trimestre de 2024, impulsionada pela expansão da geração distribuída e pela performance da comercializadora. O EBITDA @Stake do segmento recuou 25% no mesmo comparativo. Diante do aumento dos níveis de curtailment ao longo de 2025, a Companhia atualizou o guidance de EBITDA @Stake da Comerc, e segue capturando sinergias com a empresa.",
+     "O item Corporativo e reconciliação registrou EBITDA Ajustado de −R$ 59 milhões, frente a R$ 4,0 bilhões no 3º trimestre de 2024, uma diferença de −R$ 4,0 bilhões. Em eficiência, a Companhia concluiu a mudança para um novo escritório em São Paulo, que reuniu cinco endereços em uma única estrutura, com ganhos de produtividade e integração e redução de custos. Também otimiza equipes operacionais e comerciais. Em geração distribuída, a implantação do parque está sendo finalizada, e a entrada plena em operação depende das conexões finais com as distribuidoras."
+    ],
+    "resultado": [
+     "A receita líquida foi de R$ 48,3 bilhões no 3º trimestre de 2025, frente a R$ 46,3 bilhões no 3º trimestre de 2024 (+4,5%), uma diferença de R$ 2,1 bilhões. O lucro bruto foi de R$ 2.362 milhões, frente a R$ 2.157 milhões (+9,5%), e a margem bruta passou de 4,7% para 4,9% (+0,2 p.p.).",
+     "As despesas com vendas somaram −R$ 788 milhões, frente a −R$ 666 milhões no 3º trimestre de 2024 (+18,3%). As despesas gerais e administrativas somaram −R$ 345 milhões, frente a −R$ 262 milhões (+31,7%). As outras receitas e despesas operacionais, líquidas e com equivalência patrimonial, foram de R$ 20 milhões, frente a R$ 4,4 bilhões no 3º trimestre de 2024 (−99,5%).",
+     "O EBITDA Ajustado consolidado foi de R$ 1,8 bilhões, frente a R$ 6,1 bilhões no 3º trimestre de 2024 (−70,2%). A margem EBITDA Ajustado sobre a receita passou de 13,1% para 3,7% (−9,4 p.p.).",
+     "O resultado financeiro foi de −R$ 647 milhões, frente a R$ 131 milhões no 3º trimestre de 2024, uma diferença de −R$ 778 milhões. O imposto de renda e a contribuição social somaram −R$ 195 milhões, frente a −R$ 1,6 bilhões (−87,8%). A alíquota efetiva foi de 32,4%, frente a 27,5% (+4,9 p.p.).",
+     "O lucro líquido consolidado foi de R$ 407 milhões, frente a R$ 4,2 bilhões no 3º trimestre de 2024 (−90,3%). O lucro atribuído aos controladores foi de R$ 412 milhões, frente a R$ 4,2 bilhões (−90,2%). A margem líquida passou de 9,1% para 0,8% (−8,2 p.p.). O ROE dos controladores em 12 meses foi de 8,8%, frente a 53,9% no 3º trimestre de 2024 (−45,0 p.p.)."
+    ],
+    "balanco": [
+     "A dívida bruta, incluindo empréstimos, financiamentos e arrendamentos, foi de R$ 25,0 bilhões ao fim do 3º trimestre de 2025, frente a R$ 17,1 bilhões ao fim do 3º trimestre de 2024 (+46,3%). O caixa e as aplicações financeiras somaram R$ 5,9 bilhões, frente a R$ 7,6 bilhões (−21,8%).",
+     "A dívida líquida foi de R$ 18,8 bilhões, frente a R$ 9,3 bilhões ao fim do 3º trimestre de 2024 (+101,6%). A Companhia atribui esse aumento principalmente à aquisição integral da Comerc Energia, que afetou diretamente a estrutura de capital consolidada. Frente ao trimestre anterior, a dívida líquida diminuiu 11%. A alavancagem, medida pela dívida líquida sobre o EBITDA Ajustado de 12 meses, foi de 2,84x, frente a 0,64x no 3º trimestre de 2024 (+2,19x). O fluxo de caixa operacional do trimestre contribuiu para o início da desalavancagem. A Companhia mantém a estratégia de Liability Management, voltada a otimizar a estrutura de capital, e o compromisso com a redução gradual da alavancagem.",
+     "O patrimônio líquido consolidado foi de R$ 21,3 bilhões, frente a R$ 20,4 bilhões ao fim do 3º trimestre de 2024 (+4,5%). Nos indicadores de 12 meses, o prazo médio de recebimento foi de 12,5 dias, frente a 10,5 dias (+2,0 dias). O prazo médio de estocagem foi de 13,2 dias, frente a 15,0 dias (−1,8 dias). O prazo médio de pagamento foi de 9,7 dias, frente a 5,7 dias (+4,0 dias). O ciclo de caixa foi de 16,0 dias, frente a 19,8 dias (−3,9 dias)."
+    ],
+    "caixa": [
+     "O caixa líquido das atividades operacionais foi de R$ 3,5 bilhões no 3º trimestre de 2025, frente a R$ 2,0 bilhões no 3º trimestre de 2024 (+77,4%), uma diferença de R$ 1,5 bilhões. A conversão de caixa, medida pelo caixa operacional sobre o EBITDA Ajustado, foi de 194,2%, frente a 32,6% (+161,6 p.p.).",
+     "Os investimentos em imobilizado e intangível somaram −R$ 312 milhões, frente a −R$ 240 milhões no 3º trimestre de 2024 (+30,0%). O fluxo de caixa livre, que soma o caixa operacional e esses investimentos, foi de R$ 3,2 bilhões, frente a R$ 1,7 bilhões (+83,9%).",
+     "Os dividendos e JCP pagos foram de R$ 266 milhões, frente a R$ 337 milhões no 3º trimestre de 2024 (−21,1%)."
+    ],
+    "perspectivas": [
+     "Para a distribuição, a Companhia mantém o foco em ampliar a rentabilidade e o ganho de escala. Iniciou-se um semestre em que a sazonalidade é favorável, e a administração segue em busca de excelência operacional e de novas eficiências. As margens tiveram tendência positiva em outubro, acima da média do 3º trimestre de 2025.",
+     "Em Renováveis, a Companhia segue capturando sinergias com a Comerc e atualizou o guidance de EBITDA @Stake diante do aumento do curtailment. Em financiamento, mantém a estratégia de Liability Management e o compromisso com a redução gradual da alavancagem."
+    ]
+   },
+   "release": "Release de Resultado",
+   "release_link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1440446&numSequencia=965158&numVersao=1"
+  }
+ },
  "recusados": {
   "2T26|T|2T25|T": {
    "hash": "d0301b2fcc38b063",
@@ -27,34 +187,6 @@
    "data": "2026-10-25T01:36:41Z",
    "motivo": [
     "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"tool_choice: type \\\"tool\\\" and \\\"any\\\" are not supported for this model.\"},\"request_id\":\"req_011CgN6itaxt8DWfywSsqzrA\"}"
-   ]
-  },
-  "4T25|T|4T24|T": {
-   "hash": "8da6fe6d95fbd561",
-   "data": "2026-10-25T01:12:23Z",
-   "motivo": [
-    "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"`temperature` is deprecated for this model.\"},\"request_id\":\"req_011CgN4sQU4JNAieQSY1eLKv\"}"
-   ]
-  },
-  "4T25|AN|4T24|AN": {
-   "hash": "999e53bfc40d1d96",
-   "data": "2026-10-25T01:12:23Z",
-   "motivo": [
-    "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"`temperature` is deprecated for this model.\"},\"request_id\":\"req_011CgN4tKdNaUW4mUXrQQpr5\"}"
-   ]
-  },
-  "4T25|T|3T25|T": {
-   "hash": "bffe164bcfc827f4",
-   "data": "2026-10-25T01:12:23Z",
-   "motivo": [
-    "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"`temperature` is deprecated for this model.\"},\"request_id\":\"req_011CgN4uEgzNptBuPC6ELjsj\"}"
-   ]
-  },
-  "3T25|T|3T24|T": {
-   "hash": "ec02960f45a62846",
-   "data": "2026-10-25T01:12:23Z",
-   "motivo": [
-    "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"`temperature` is deprecated for this model.\"},\"request_id\":\"req_011CgN4v9sYZ7QGVg6Zft1Di\"}"
    ]
   },
   "3T25|T|2T25|T": {
@@ -177,5 +309,5 @@
    ]
   }
  },
- "atualizado_em": "2026-10-25T01:36:41Z"
+ "atualizado_em": "2026-10-25T01:41:53Z"
 }
