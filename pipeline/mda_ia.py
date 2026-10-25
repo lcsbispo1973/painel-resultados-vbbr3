@@ -195,6 +195,11 @@ def chama(mensagens):
 
 def main():
     agora = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    os.makedirs(os.path.join(RAIZ, "logs"), exist_ok=True)
+    try:
+        os.remove(os.path.join(RAIZ, "logs", "mda-ia-alerta.md"))
+    except OSError:
+        pass
     log = ["# MD&A redigido — %s" % agora, "", "Modelo: %s" % MODELO, ""]
     fatos = ler("mda_fatos.json")
     if not fatos or not os.environ.get("ANTHROPIC_API_KEY"):
@@ -236,7 +241,16 @@ def main():
                 if not secoes["resultado"] or not secoes["sumario"]:
                     recusados.append("seções obrigatórias vazias")
             except urllib.error.HTTPError as e:
+                corpo_erro = e.read().decode("utf-8", "ignore")[:400]
                 recusados = ["HTTP %d" % e.code]
+                if re.search(r"credit balance|billing|insufficient", corpo_erro, re.I) or e.code in (401, 403):
+                    motivo = "o crédito da API da Anthropic acabou" if re.search(r"credit|billing|insufficient", corpo_erro, re.I) else "a chave da API foi recusada (HTTP %d)" % e.code
+                    open(os.path.join(RAIZ, "logs", "mda-ia-alerta.md"), "w", encoding="utf-8").write(
+                        "A redação automática do MD&A parou: %s.\n\nEnquanto isso, o painel mostra o texto por regras (números conferidos, sem as explicações redigidas).\n"
+                        "Para retomar: em platform.claude.com, adicione crédito (Gerenciar créditos) ou gere uma nova chave e atualize o segredo ANTHROPIC_API_KEY do repositório.\n\nDetalhe: %s\n" % (motivo, corpo_erro))
+                    log.append("- " + motivo + "; redação suspensa nesta execução")
+                    feitos = MAX_POR_EXECUCAO
+                    break
                 if e.code == 429:
                     log.append("- limite de uso da API atingido; continua na próxima atualização")
                     feitos = MAX_POR_EXECUCAO

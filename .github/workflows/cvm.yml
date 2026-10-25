@@ -122,6 +122,20 @@ jobs:
             git push
           fi
 
+      - name: Alerta da redação do MD&A (crédito ou chave da API)
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -s logs/mda-ia-alerta.md ]; then
+            aberta=$(gh api "repos/${{ github.repository }}/issues?state=open&per_page=50" --jq '[.[] | select(.title | startswith("MD&A: redação automática parada"))][0].number')
+            printf '\n@lcsbispo1973\n' >> logs/mda-ia-alerta.md
+            if [ -z "$aberta" ]; then
+              gh issue create --repo "${{ github.repository }}" --title "MD&A: redação automática parada" --body-file logs/mda-ia-alerta.md
+            fi
+          fi
+
       - name: Alerta de novos documentos
         if: always()
         continue-on-error: true
