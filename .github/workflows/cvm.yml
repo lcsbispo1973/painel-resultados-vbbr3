@@ -23,6 +23,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  models: read    # GitHub Models (gratuito com limites): redação do MD&A
   issues: write   # alertas (novos documentos e falha na trava de publicação) viram issues, com aviso por e-mail
 
 concurrency:
@@ -93,6 +94,15 @@ jobs:
           python pipeline/releases_texto.py
           python pipeline/fre_mda.py
           python -I tests/test_documentos.py
+
+      - name: MD&A redigido (números das demonstrações + explicações da Companhia)
+        if: always()
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node pipeline/mda_fatos.js
+          python pipeline/mda_ia.py
 
       - name: Registro de mudanças
         if: always()

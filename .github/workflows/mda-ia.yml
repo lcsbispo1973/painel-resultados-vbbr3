@@ -1,0 +1,54 @@
+name: MD&A redigido (manual)
+
+# Gera ou refaz o texto do MD&A sob demanda. Ex.: pares "2T26|T|2T25|T"; vazio = os pendentes, mais recentes primeiro.
+on:
+  workflow_dispatch:
+    inputs:
+      pares:
+        description: 'Pares (A|base|B|base), separados por vírgula; vazio = pendentes'
+        required: false
+        default: ''
+      refazer:
+        description: 'Refazer mesmo os já aprovados'
+        type: boolean
+        default: false
+      maximo:
+        description: 'Máximo de pares nesta execução'
+        default: '12'
+
+permissions:
+  contents: write
+  models: read
+
+concurrency:
+  group: atualizar-cvm
+  cancel-in-progress: false
+
+jobs:
+  mda:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Redigir
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MDA_IA_PARES: ${{ inputs.pares }}
+          MDA_IA_REFAZER: ${{ inputs.refazer && '1' || '' }}
+          MDA_IA_MAX: ${{ inputs.maximo }}
+        run: |
+          node pipeline/mda_fatos.js
+          python pipeline/mda_ia.py
+      - name: Salvar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/mda_fatos.json data/mda_ia.json logs/mda-ia.md
+          if ! git diff --cached --quiet; then
+            git commit -m "MD&A redigido"
+            git pull --rebase -X theirs -q origin main
+            git push
+          fi

@@ -1,0 +1,259 @@
+"""MD&A redigido: integra os números das demonstrações e as explicações da Companhia num texto único.
+
+Entrada:
+  data/mda_fatos.json      números de cada par de períodos (calculados com o motor do painel), já formatados
+  data/releases_texto.json parágrafos dos releases por tema (explicações da Companhia)
+  data/fre_item10.json     item 10 do Formulário de Referência (comentários dos diretores)
+Saída:
+  data/mda_ia.json         texto aprovado por par de períodos; logs/mda-ia.md
+
+Modelo: GitHub Models (gratuito com limites), autenticado pelo GITHUB_TOKEN do workflow (permissão models: read).
+
+Trava de publicação, por par:
+  - todo valor em R$ do texto tem de estar entre os números fornecidos;
+  - todo outro número (percentual, volume, dias, múltiplo) tem de estar nos números fornecidos ou nos trechos da Companhia;
+  - sem aspas ou citação literal. Se falhar, uma nova tentativa com a lista dos números recusados; se falhar de novo,
+    o par fica sem texto redigido e o painel usa o texto por regras.
+"""
+import datetime as dt
+import hashlib
+import json
+import os
+import re
+import sys
+import time
+import urllib.error
+import urllib.request
+
+RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+URL = "https://models.github.ai/inference/chat/completions"
+MODELO = os.environ.get("MDA_IA_MODELO", "openai/gpt-4.1")
+MAX_POR_EXECUCAO = int(os.environ.get("MDA_IA_MAX", "12"))
+SO_PARES = [p for p in os.environ.get("MDA_IA_PARES", "").split(",") if p]
+REFAZER = os.environ.get("MDA_IA_REFAZER", "") == "1"
+VERSAO_PROMPT = 3   # mudar força a reescrita de todos os pares
+
+SECOES = [("sumario", "Sumário executivo", ["MSG"]),
+          ("operacional", "Desempenho operacional", ["REDE", "B2B", "REN"]),
+          ("resultado", "Resultado", ["CONS", "FIN", "LUCRO"]),
+          ("balanco", "Balanço, capital de giro e endividamento", ["DIV"]),
+          ("caixa", "Fluxo de caixa", ["CAIXA", "CAPEX"]),
+          ("perspectivas", "Visão da administração", ["MSG"])]
+
+INSTRUCOES = """Você redige o Comentário do Desempenho (MD&A) da Vibra Energia S.A. em português do Brasil, no tom de um relatório da administração: terceira pessoa ("a Companhia"), frases claras, parágrafos curtos, sem adjetivos promocionais.
+
+Regras obrigatórias:
+1. NÚMEROS: use somente os números da lista FATOS, escritos exatamente como aparecem lá (pode escolher a forma em milhões ou em bilhões quando as duas forem dadas). Não calcule, não arredonde de outro jeito e não crie números novos. Valores em R$ dos TRECHOS DA COMPANHIA não podem ser usados (eles podem seguir conceitos diferentes das demonstrações).
+2. EXPLICAÇÕES: explique as variações usando apenas as causas descritas nos TRECHOS DA COMPANHIA. Não invente causas. Se não houver explicação para uma variação, apenas descreva-a. Percentuais e volumes por produto que estejam nos trechos podem ser usados como detalhe.
+3. Integre números e explicações no mesmo parágrafo, como um texto único. Não cite documentos, não use aspas, não escreva "segundo o release" nem "de acordo com o Formulário de Referência".
+4. Cada variação deve indicar a comparação ("frente ao {B}"). A margem por m³ da distribuição exclui Renováveis. O EBITDA Ajustado é o da nota de informações por segmento.
+5. Se um fato tiver o campo "atencao", siga a orientação dele.
+6. Responda só com JSON no formato: {"sumario": [parágrafos], "operacional": [...], "resultado": [...], "balanco": [...], "caixa": [...], "perspectivas": [...]}. Use de 1 a 3 parágrafos por seção; "perspectivas" pode ser lista vazia se os trechos não trouxerem visão da administração."""
+
+
+def ler(nome):
+    try:
+        return json.load(open(os.path.join(RAIZ, "data", nome), encoding="utf-8"))
+    except (OSError, ValueError):
+        return None
+
+
+def corta(t, n):
+    """Até n caracteres, terminando numa frase completa."""
+    t = re.sub(r"\s+", " ", t).strip()
+    if len(t) <= n:
+        return t
+    c = t[:n]
+    i = max(c.rfind(". "), c.rfind("; "))
+    return c[:i + 1] if i > n * 0.4 else c.rsplit(" ", 1)[0] + "…"
+
+
+def trechos(par, rel, fre):
+    A = par["A"]
+    tri = (rel or {}).get("trimestres", {}).get(A["p"], {})
+    temas = tri.get("temas", {})
+    blocos, vistos = {}, set()
+    for sid, _, ts in SECOES:
+        ps = []
+        for t in ts:
+            for p in temas.get(t, [])[:3]:
+                k = p[:80]
+                if k in vistos and sid != "perspectivas":
+                    continue
+                vistos.add(k)
+                ps.append(corta(p, 650))
+        blocos[sid] = ps
+    # exercício: comentários dos diretores no FRE do ano seguinte (comenta o exercício anterior)
+    if par["tipo"] == "exercicio" and fre:
+        ano = 2000 + int(A["p"][2:])
+        f = (fre.get("anos") or {}).get(str(ano + 1))
+        if f and f.get("subitens"):
+            for k, sid in (("a", "sumario"), ("c", "balanco"), ("f", "balanco"), ("h", "resultado")):
+                ps = (f["subitens"].get(k) or {}).get("paragrafos") or []
+                bons = [p for p in ps if ("31 de dezembro de %d" % ano) in p or len(ps) <= 2][:2]
+                blocos[sid] += [corta(p, 650) for p in bons]
+    total = 0
+    for sid in blocos:   # limite de tamanho do pedido
+        out = []
+        for p in blocos[sid]:
+            if total + len(p) > 11000:
+                break
+            out.append(p); total += len(p)
+        blocos[sid] = out
+    return blocos, tri.get("release"), tri.get("link")
+
+
+def fatos_txt(par):
+    linhas = []
+    for f in par["fatos"]:
+        d = {"secao": f["secao"], "fato": f["rotulo"], par["A"]["curto"]: " ou ".join(f["a"])}
+        if f.get("b"):
+            d[par["B"]["curto"]] = " ou ".join(f["b"])
+        if f.get("variacao"):
+            d["variacao"] = f["variacao"]
+        if f.get("diferenca"):
+            d["diferenca"] = " ou ".join(f["diferenca"])
+        if f["id"] == "outras" and f.get("variacao") is None:
+            d["atencao"] = "linha que mudou de sinal: descreva os dois valores, sem percentual"
+        if f["id"] == "prov" and f.get("valor_a") == 0:
+            d["atencao"] = "não houve pagamento no período"
+        linhas.append(d)
+    return json.dumps(linhas, ensure_ascii=False)
+
+
+# ---------- trava de números ----------
+RX_NUM = re.compile(r"(R\$\s?)?[−-]?(\d{1,3}(?:\.\d{3})+(?:,\d+)?|\d+(?:,\d+)?)")
+
+
+def limpa_rotulos(t):
+    t = re.sub(r"\b[1-4][TS]\d{2}\b|\b9M\d{2}\b|\b(19|20)\d{2}\b", " ", t)
+    t = re.sub(r"\b\d+[ºª]", " ", t)
+    t = re.sub(r"\b\d{1,2}/\d{1,2}(/\d{2,4})?\b", " ", t)
+    t = re.sub(r"\b\d{1,2} de (janeiro|fevereiro|março|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)\b", " ", t, flags=re.I)
+    return t
+
+
+def numeros(t):
+    for m in RX_NUM.finditer(limpa_rotulos(t)):
+        yield bool(m.group(1)), m.group(2)
+
+
+def permitidos(par, blocos):
+    """(valores em R$ dos fatos, demais números dos fatos, números dos trechos que não são R$)."""
+    rs_fat, fat, exc = set(), set(), set()
+    for f in par["fatos"]:
+        for campo in ("a", "b", "diferenca"):
+            for s in f.get(campo) or []:
+                for rs, n in numeros(s):
+                    (rs_fat if rs else fat).add(n)
+        if f.get("variacao"):
+            fat |= {n for _, n in numeros(f["variacao"])}
+    for ps in blocos.values():
+        for p in ps:
+            exc |= {n for rs, n in numeros(p) if not rs}
+    return rs_fat, fat, exc
+
+
+def confere(secoes, rs_fat, fat, exc):
+    recusados = []
+    for sid, ps in secoes.items():
+        for p in ps:
+            if re.search(r"[“”\"]", p):
+                recusados.append("aspas em %s" % sid)
+            for rs, n in numeros(p):
+                if rs:
+                    if n not in rs_fat:
+                        recusados.append("R$ " + n)
+                    continue
+                if n in fat or n in exc or n in rs_fat:
+                    continue
+                if not rs and n in {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "12"}:
+                    continue   # contagens pequenas ("três segmentos", "12 meses")
+                recusados.append(n)
+    return recusados
+
+
+def chama(mensagens):
+    corpo = json.dumps({"model": MODELO, "messages": mensagens, "temperature": 0.2, "max_tokens": 3500,
+                        "response_format": {"type": "json_object"}}).encode()
+    req = urllib.request.Request(URL, data=corpo, headers={"Authorization": "Bearer " + os.environ["GITHUB_TOKEN"],
+                                                           "Content-Type": "application/json", "Accept": "application/json"})
+    with urllib.request.urlopen(req, timeout=180) as r:
+        j = json.load(r)
+    return j["choices"][0]["message"]["content"]
+
+
+def main():
+    agora = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    log = ["# MD&A redigido — %s" % agora, "", "Modelo: %s" % MODELO, ""]
+    fatos = ler("mda_fatos.json")
+    if not fatos or not os.environ.get("GITHUB_TOKEN"):
+        print("mda_ia: sem fatos ou sem GITHUB_TOKEN; nada a fazer")
+        return 0
+    rel, fre = ler("releases_texto.json"), ler("fre_item10.json")
+    est = ler("mda_ia.json") or {"pares": {}, "recusados": {}}
+    ordem = sorted(fatos["pares"].items(), key=lambda kv: (-(int(kv[1]["A"]["p"][2:]) * 4 + int(kv[1]["A"]["p"][0])),
+                                                          {"anual": 0, "exercicio": 1, "trimestral": 2}[kv[1]["tipo"]]))
+    feitos = 0
+    for k, par in ordem:
+        if SO_PARES and k not in SO_PARES:
+            continue
+        blocos, rel_nome, rel_link = trechos(par, rel, fre)
+        h = hashlib.sha256(json.dumps([VERSAO_PROMPT, MODELO, par["fatos"], blocos], ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:16]
+        if not REFAZER and est["pares"].get(k, {}).get("hash") == h:
+            continue
+        rec = est["recusados"].get(k)
+        if not REFAZER and rec and rec.get("hash") == h and rec.get("data", "") > (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=7)).isoformat():
+            continue
+        if feitos >= MAX_POR_EXECUCAO:
+            break
+        feitos += 1
+        rs_fat, fat, exc = permitidos(par, blocos)
+        trechos_txt = "\n".join("[%s]\n%s" % (sid, "\n".join("- " + p for p in ps)) for sid, ps in blocos.items() if ps) or "(sem trechos para este período)"
+        usuario = ("PERÍODO: %s, comparado com o %s.\n\nFATOS (únicos números permitidos):\n%s\n\nTRECHOS DA COMPANHIA (explicações; não use os valores em R$ daqui):\n%s"
+                   % (par["A"]["rotulo"], par["B"]["rotulo"], fatos_txt(par), trechos_txt))
+        msgs = [{"role": "system", "content": INSTRUCOES.replace("{B}", par["B"]["rotulo"])}, {"role": "user", "content": usuario}]
+        secoes, recusados, txt = None, ["sem resposta"], ""
+        for tentativa in range(2):
+            try:
+                txt = chama(msgs)
+                bruto = json.loads(txt)
+                secoes = {sid: [p.strip() for p in (bruto.get(sid) or []) if isinstance(p, str) and p.strip()] for sid, _, _ in SECOES}
+                recusados = confere(secoes, rs_fat, fat, exc)
+                if not secoes["resultado"] or not secoes["sumario"]:
+                    recusados.append("seções obrigatórias vazias")
+            except urllib.error.HTTPError as e:
+                recusados = ["HTTP %d" % e.code]
+                if e.code == 429:
+                    log.append("- limite de uso do GitHub Models atingido; continua na próxima atualização")
+                    feitos = MAX_POR_EXECUCAO
+                    break
+            except Exception as e:  # noqa: BLE001
+                recusados = [type(e).__name__ + ": " + str(e)[:120]]
+            if not recusados:
+                break
+            msgs = msgs + [{"role": "assistant", "content": txt if secoes else ""},
+                           {"role": "user", "content": "Os seguintes números não estão na lista FATOS (ou são valores em R$ dos trechos) e não podem ser usados: %s. "
+                                                        "Reescreva o JSON completo sem eles, usando só números da lista FATOS." % ", ".join(sorted(set(recusados)))}]
+            time.sleep(5)
+        if recusados:
+            est["recusados"][k] = {"hash": h, "data": agora, "motivo": sorted(set(recusados))[:20]}
+            log.append("- %s: RECUSADO (%s)" % (k, ", ".join(sorted(set(recusados))[:10])))
+        else:
+            est["pares"][k] = {"hash": h, "gerado_em": agora, "modelo": MODELO, "tipo": par["tipo"], "secoes": secoes,
+                               "release": rel_nome, "release_link": rel_link}
+            est["recusados"].pop(k, None)
+            log.append("- %s: ok" % k)
+        time.sleep(7)   # respeita o limite por minuto
+    est["atualizado_em"] = agora
+    json.dump(est, open(os.path.join(RAIZ, "data", "mda_ia.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    log.append("")
+    log.append("%d pares com texto aprovado; %d recusados." % (len(est["pares"]), len(est["recusados"])))
+    os.makedirs(os.path.join(RAIZ, "logs"), exist_ok=True)
+    open(os.path.join(RAIZ, "logs", "mda-ia.md"), "w", encoding="utf-8").write("\n".join(log) + "\n")
+    print("\n".join(log))
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
