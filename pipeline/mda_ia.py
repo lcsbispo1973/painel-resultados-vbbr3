@@ -170,17 +170,21 @@ def fatos_txt(par):
 
 
 # ---------- limpeza de estilo (sem custo): tira frases que comentam as fontes ----------
-RX_META = re.compile(r"trechos|verificáve|verificavel|release|Formulário de Referência", re.I)
+RX_META = re.compile(r"trechos|verificáve|release|Formulário de Referência|informações disponíveis|fatos disponíveis|dados disponíveis|não permitem atribuir|não indicam (?:a |sua )?(?:origem|causa)|sem causa (?:específica|identificad)", re.I)
 
 
 def limpa(p):
-    """Remove frases do tipo "os trechos não detalham…"; quando a menção vem depois de ", mas", mantém a primeira parte."""
+    """Remove frases do tipo "os trechos não detalham…"; quando a menção vem depois de ", mas", mantém a primeira parte.
+    Tira também a atribuição "Segundo a Companhia," (o texto já é o relatório da administração)."""
+    p = re.sub(r"(^|(?<=[.;]\s))(?:Segundo|De acordo com|Conforme) a Companhia,\s*(\w)", lambda m: m.group(1) + m.group(2).upper(), p)
+    p = re.sub(r",\s*(?:segundo|de acordo com|conforme) a Companhia(?=[.;])", "", p)
+    p = re.sub(r",\s*(?:segundo|de acordo com|conforme) a Companhia,", ",", p)
     out = []
     for f in re.split(r"(?<=[.;])\s+(?=[A-ZÀ-Ú])", p):
         if not RX_META.search(f):
             out.append(f)
             continue
-        m = re.search(r"^(.*?),\s*(mas|porém|embora|e)\s+(os|o|a|as)\s+(trechos|release|Formulário)", f)
+        m = re.search(r"^(.*?),\s*(mas|porém|embora|e)\s+(os|o|a|as)\s+(trechos|release|Formulário|fatos|informações|dados)", f)
         if m and len(m.group(1)) > 30:
             out.append(m.group(1).rstrip(",") + ".")
     return " ".join(out).strip()

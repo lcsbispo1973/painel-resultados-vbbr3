@@ -185,6 +185,7 @@ jobs:
         run: |
           python -I pipeline/validar.py
           node tests/test_dados.js
+          python pipeline/auditoria.py
 
       - name: Alerta de falha na trava
         if: failure()

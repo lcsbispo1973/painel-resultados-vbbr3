@@ -301,6 +301,42 @@ def serie_dre(linhas):
     return res
 
 
+ANCORAS = {"3.01", "3.03", "3.05", "3.07", "3.11", "6.01", "6.02", "6.03", "6.05", "7.01", "7.07", "4.01", "4.03"}
+
+
+def consistencia(series, linhas, nome, log):
+    """Os trimestres de cada conta têm de somar os acumulados que a Companhia arquivou (6, 9 e 12 meses do próprio ano).
+    Em contas de detalhe cujo conteúdo mudou entre um formulário e outro do mesmo ano (ex.: DFC 6.01.02.06 era "Outros
+    ativos" no 1T20 e passou a "Aquisição de Créditos de Descarbonização" no 3T20), a diferença entre acumulados mistura
+    contas diferentes; nesses casos os trimestres daquele ano ficam sem valor ("—"), em vez de um número errado.
+    Divergência em conta-chave (receita, lucro, caixa operacional...) interrompe a atualização."""
+    ytd = defaultdict(dict)
+    for r in linhas:
+        if r["ultimo"] and r["fim"] == r["ref"] and r["ini"] and r["ini"].month == 1 and r["ini"].day == 1 and r["fim"].month in (6, 9, 12):
+            ytd[(r["fim"].year, r["fim"].month)][r["cd"]] = r["val"]
+    ruins = set()
+    for (ano, mes), vals in ytd.items():
+        qs = [rotulo(dt.date(ano, m, 28)) for m in range(3, mes + 1, 3)]
+        for cd, v in vals.items():
+            if cd.startswith("3.99") or cd in ("6.05.01", "6.05.02"):
+                continue
+            if any(q not in series for q in qs):
+                continue
+            partes = [series[q].get(cd, 0.0) for q in qs]   # conta ausente num trimestre = zero (como o painel soma)
+            if any(x is None for x in partes):
+                continue
+            if abs(sum(partes) - v) > 1.0:
+                if cd in ANCORAS:
+                    raise RuntimeError("%s %s %d/%d: trimestres somam %.1f, acumulado arquivado %.1f" % (nome, cd, mes, ano, sum(partes), v))
+                ruins.add((ano, cd))
+    for ano, cd in sorted(ruins):
+        for q in [rotulo(dt.date(ano, m, 28)) for m in (3, 6, 9, 12)]:
+            if cd in series.get(q, {}):
+                series[q][cd] = None
+        log.append("- %s %s em %d: conta mudou de conteúdo entre formulários do ano; trimestres sem valor" % (nome, cd, ano))
+    return series
+
+
 def serie_bp(linhas):
     res = defaultdict(dict)
     for r in linhas:
@@ -465,11 +501,11 @@ def principal(args):
         if not linhas:
             raise RuntimeError("nenhuma linha da Vibra encontrada nos arquivos da CVM (CNPJ ou layout mudou?)")
         por = lambda *demos: [r for r in linhas if r["demo"] in demos]  # noqa: E731
-        dre = serie_dre(por("DRE"))
+        dre = consistencia(serie_dre(por("DRE")), por("DRE"), "DRE", log)
         bp = serie_bp(por("BPA", "BPP"))
-        dfc = serie_dfc(por("DFC"), log)
-        dva = serie_dfc(por("DVA"), log)
-        dra = serie_dre(por("DRA"))
+        dfc = consistencia(serie_dfc(por("DFC"), log), por("DFC"), "DFC", log)
+        dva = consistencia(serie_dfc(por("DVA"), log), por("DVA"), "DVA", log)
+        dra = consistencia(serie_dre(por("DRA")), por("DRA"), "DRA", log)
         acoes = carregar_acoes(os.path.join(pasta_dados, "cvm_raw"))
         acoes = completar_acoes_fre(acoes, bp, pasta_dados, log)
         n_comp = len({(r["demo"], r["fim"]) for r in linhas if r.get("comparativo")})
