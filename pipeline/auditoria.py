@@ -362,6 +362,18 @@ ASSUNTO = {   # palavras que precisam aparecer na frase em que o valor do fato �
 }
 
 
+RX_VAL = re.compile(r"R\$ ?([−-]?\s?\d{1,3}(?:\.\d{3})*(?:,\d+)?|[−-]?\d+(?:,\d+)?)\s*(milh(?:ão|ões)|bilh(?:ão|ões)|mil(?!h)|/\s?m[3³]|MM\b)?", re.I)
+
+
+def unidade(u):
+    u = (u or "").lower()
+    return "bi" if u.startswith("bi") else "mi" if (u.startswith("milh") or u == "mm") else "m3" if re.search("m[3³]", u) else "mil" if u == "mil" else ""
+
+
+def valores_un(t):
+    return {(m.group(1).replace(" ", "").replace("−", "-").lstrip("-"), unidade(m.group(2))) for m in RX_VAL.finditer(t)}
+
+
 def frases(t):
     return re.split(r"(?<=[.;])\s+(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ])", t)
 
@@ -381,8 +393,29 @@ def parte3():
         evs = MI.eventos(par, ipe, (rel or {}).get("trimestres", {}).get(par["A"]["p"], {}).get("data"))
         if evs:
             bl["eventos"] = evs
-        r = MI.confere(v["secoes"], *MI.permitidos(par, bl, MI.itens(par, rel, dfd)))
+        its = MI.itens(par, rel, dfd)
+        r = MI.confere(v["secoes"], *MI.permitidos(par, bl, its))
         n += 1
+        # valor em R$ com unidade (milhões, bilhões, R$/m³) tem de existir com a mesma unidade nos fatos ou nos itens; e um
+        # total de release (lucro bruto, receita, despesas operacionais) citado sem "ajustado" é alerta
+        proprios = {x for f in par["fatos"] for c in ("a", "b", "diferenca") for s in (f.get(c) or []) for x in valores_un(s)}
+        de_itens = {x for t in its for x in valores_un(t)}
+        for sid, ps in v["secoes"].items():
+            for p in ps:
+                for fr in frases(p):
+                    ini = 0
+                    for m in RX_VAL.finditer(fr):
+                        x = (m.group(1).replace(" ", "").replace("−", "-").lstrip("-"), unidade(m.group(2)))
+                        jan, ini = fr[ini:m.end()], m.end()
+                        if x[1] == "" and ((x[0], "m3") in proprios | de_itens) and re.search(r"m[3³]", fr):
+                            continue
+                        if x not in proprios and x not in de_itens:
+                            erros.append("%s [%s] %s sem correspondência (número e unidade) nos fatos nem nos itens: %s" % (k, sid, m.group(0), fr[:200]))
+                        elif x not in proprios and x[1] != "m3":
+                            c = list(re.finditer(r"lucro bruto|receita l[íi]quida|despesas operacionais", jan, re.I))
+                            if c and not re.match(r"\s*(ajustad|normalizad|recorrent)", jan[c[-1].end():], re.I) and len(jan) - c[-1].end() < 70 \
+                                    and not re.search(r"\(\s*[−-]?R\$|exclu|efeito|hedge|CBIO|acordo|TAE|provis", jan, re.I):
+                                alertas.append("%s [%s] %s de release citado como %s sem \"ajustado\": %s" % (k, sid, m.group(0), c[-1].group(0), fr[:220]))
         for sid, ps in v["secoes"].items():   # frases sobre as fontes ou a falta delas (devem ter sido limpas)
             for p in ps:
                 if MI.RX_META.search(p) or re.search(r"(?:segundo|de acordo com) a Companhia", p, re.I):

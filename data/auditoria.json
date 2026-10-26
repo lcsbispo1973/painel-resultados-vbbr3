@@ -1,0 +1,73 @@
+{
+ "executado_em": "2026-10-26T13:34:52Z",
+ "cvm": {
+  "conferidos": 11016,
+  "divergencias": []
+ },
+ "fatos": {
+  "conferidos": 3868,
+  "divergencias": []
+ },
+ "textos": {
+  "conferidos": 105,
+  "divergencias": [],
+  "alertas": [
+   "4T25|T|4T24|T [operacional] R$ 2,4 bilhões citado numa frase sem referência a dbruta: O EBITDA Ajustado do segmento chegou a R$ 2,4 bilhões e inclui itens não recorrentes: recuperações tributárias (R$ 696 milhões) e vendas de imóveis (R$ 105 milhões).",
+   "4T25|T|3T25|T [sumario] R$ 2,4 bilhões citado numa frase sem referência a lbruto: Na distribuição, o EBITDA Ajustado foi de R$ 2,4 bilhões e, ao excluir esses itens, o EBITDA Ajustado Recorrente foi de R$ 1,6 bilhão, com margem recorrente de R$ 167/m³.",
+   "4T25|T|3T25|T [resultado] R$ 2,4 bilhões citado numa frase sem referência a lbruto: Na distribuição, o EBITDA Ajustado foi de R$ 2,4 bilhões e o EBITDA Ajustado Recorrente, sem esses itens, foi de R$ 1,6 bilhão.",
+   "3T25|T|3T24|T [operacional] R$ 83 milhões citado numa frase sem referência a dga: A margem EBITDA Ajustada Recorrente, que exclui itens não recorrentes, recuperações tributárias (R$ 78 milhões) e venda de imóveis (R$ 83 milhões), foi de R$ 159/m³.",
+   "3T25|T|3T24|T [resultado] R$ 83 milhões citado numa frase sem referência a dga: Esse valor exclui itens não recorrentes, como recuperações tributárias (R$ 78 milhões) e venda de imóveis (R$ 83 milhões).",
+   "2T26|T|2T25|T [operacional] R$ 57 milhões citado numa frase sem referência a dga: A base de 2025 foi deprimida por forte perda com inventários, causada pelas reduções de preços ao longo daquele trimestre, e foi sustentada, dentro do EBITDA Ajustado, por itens não recorrentes: recuperações tributárias ",
+   "2T26|T|2T25|T [resultado] R$ 57 milhões citado numa frase sem referência a dga: A base de 2025 foi favorecida por itens não recorrentes que integraram o EBITDA Ajustado daquele trimestre, como recuperações tributárias de R$ 208 milhões e venda de imóveis de R$ 57 milhões, o que torna menos favorável",
+   "2T26|S|2T25|S [operacional] R$ 1,5 bilhão citado numa frase sem referência a dvendas: A composição por trimestre difere: no 1º trimestre de 2026, o EBITDA Ajustado do B2B foi de R$ 1,5 bilhão, com margem de R$ 456/m³, mas o EBITDA Ajustado Recorrente foi de R$ 0,7 bilhão, o que mostra que efeitos não reco",
+   "2T26|S|2T25|S [resultado] R$ 1,5 bilhão citado numa frase sem referência a dvendas: Parte do avanço não é recorrente: no B2B, o EBITDA Ajustado do 1º trimestre de 2026 foi de R$ 1,5 bilhão, contra R$ 0,7 bilhão no recorrente, e na Rede de Postos o 2º trimestre de 2026 teve R$ 2,7 bilhões, contra R$ 2,5 ",
+   "1T26|T|4T25|T [operacional] R$ 1,2 bilhão citado numa frase sem referência a fco: Sem esses itens, o EBITDA Ajustado Recorrente da Rede de Postos foi de R$ 1,2 bilhão naquele trimestre, com margem de R$ 194/m³.",
+   "3T25|9M|3T24|9M [operacional] R$ 1,2 bilhão citado numa frase sem referência a prov: No 2T25, a distribuição teve EBITDA Ajustado de R$ 1,2 bilhão (R$ 143/m³), já com forte perda com inventários provocada pelas reduções de preços; excluídos os efeitos não recorrentes, como vendas de imóveis e recuperaçõe",
+   "3T25|T|2T25|T [resultado] R$ 217 milhões citado numa frase sem referência a outras: A queda de R$ 217 milhões nessa linha foi menor que o ganho de R$ 472 milhões no lucro bruto.",
+   "2T25|S|2T24|S [operacional] R$ 1,2 bilhão citado numa frase sem referência a rfin: Nesse trimestre, o EBITDA Ajustado da distribuição foi de R$ 1,2 bilhão (R$ 143/m³), já com as perdas absorvidas e com itens não recorrentes incluídos: recuperações tributárias de R$ 208 milhões e vendas de imóveis de R$",
+   "2T25|S|2T24|S [operacional] R$ 107 milhões citado numa frase sem referência a lbruto: A base de 2024 também teve efeitos específicos: vendas de imóveis de R$ 56 milhões no primeiro trimestre e de R$ 107 milhões no segundo.",
+   "2T25|S|2T24|S [resultado] R$ 107 milhões citado numa frase sem referência a lbruto: Em 2024, a Companhia destacou, nas despesas operacionais, recuperações tributárias não recorrentes da LC 192/22 de R$ 535 milhões e vendas de imóveis de R$ 56 milhões no primeiro trimestre, e recuperações tributárias de ",
+   "2T25|S|2T24|S [resultado] R$ 118 milhões citado numa frase sem referência a outras: Por isso, a variação de R$ 118 milhões não indica, isoladamente, melhora recorrente.",
+   "1T25|T|1T24|T [sumario] R$ 37 milhões citado numa frase sem referência a prov: O EBITDA Ajustado do trimestre inclui efeitos não recorrentes na distribuição: recuperações tributárias de R$ 394 milhões e vendas de imóveis de R$ 37 milhões.",
+   "1T25|T|1T24|T [operacional] R$ 37 milhões citado numa frase sem referência a prov: Os ganhos com inventário gerados pelo ajuste tributário influenciaram os resultados da distribuição no trimestre, assim como efeitos não recorrentes: recuperações tributárias de R$ 394 milhões e vendas de imóveis de R$ 3",
+   "1T25|T|1T24|T [resultado] R$ 37 milhões citado numa frase sem referência a prov: Em 2025, a Companhia registrou recuperações tributárias de R$ 394 milhões e vendas de imóveis de R$ 37 milhões.",
+   "1T25|T|1T24|T [resultado] R$ 37 milhões citado numa frase sem referência a prov: Esse EBITDA Ajustado inclui as recuperações tributárias de R$ 394 milhões e as vendas de imóveis de R$ 37 milhões do trimestre.",
+   "4T24|T|4T23|T [resultado] R$ 50 milhões citado numa frase sem referência a rfin: Na base de 2023, as despesas incluíram eventos considerados não recorrentes: maiores provisões com incentivo de curto prazo (R$ 50 milhões), multa por encerramento de contrato de take-or-pay de coque (R$ 30 milhões) e ma",
+   "4T24|S|4T23|S [resultado] R$ 189 milhões citado numa frase sem referência a capex: No 4T24, as despesas operacionais ajustadas somaram R$ 822 milhões (R$ 91/m³), após excluir CBIOs (R$ 189 milhões), hedge de commodities (R$ -11 milhões), venda de imóveis (R$ -117 milhões) e recuperações tributárias ext",
+   "3T24|T|2T24|T [resultado] R$ 4,3 bilhões citado numa frase sem referência a outras: A diferença, de R$ 4,3 bilhões, está associada ao reconhecimento de créditos tributários no trimestre, que integram o EBITDA Ajustado consolidado.",
+   "3T24|T|2T24|T [resultado] R$ 4,3 bilhões citado numa frase sem referência a outras: Esses itens são de ordem de grandeza muito inferior à da diferença de R$ 4,3 bilhões do trimestre atual.",
+   "2T24|T|2T23|T [resultado] R$ 236 milhões citado numa frase sem referência a outras: A linha contribuiu com R$ 236 milhões para a variação do resultado operacional.",
+   "1T24|T|4T23|T [resultado] R$ 50 milhões citado numa frase sem referência a rfin: A base do 4º trimestre de 2023 incluía eventos considerados não recorrentes nas despesas: provisões com incentivo de curto prazo (R$ 50 milhões), multa por encerramento de contrato de take-or-pay de coque (R$ 30 milhões)",
+   "4T23|T|4T22|T [sumario] R$ 1,4 bilhão citado numa frase sem referência a receita: Sem eles, o EBITDA Ajustado normalizado do 4T22 foi de R$ 1,4 bilhão.",
+   "4T23|T|4T22|T [operacional] R$ 1,4 bilhão citado numa frase sem referência a receita: Sem eles, o EBITDA Ajustado normalizado foi de R$ 1,4 bilhão, com margem normalizada de aproximadamente R$ 135/m³.",
+   "4T23|T|4T22|T [resultado] R$ 50 milhões citado numa frase sem referência a rfin: Nas despesas do 4T23 houve eventos que a Companhia considera não recorrentes: maiores provisões com incentivo de curto prazo (R$ 50 milhões), multa por encerramento de contrato de take-or-pay de coque (R$ 30 milhões) e m",
+   "4T23|T|4T22|T [resultado] R$ 1,4 bilhão citado numa frase sem referência a receita: Sem eles, o EBITDA Ajustado normalizado daquele trimestre foi de R$ 1,4 bilhão.",
+   "4T23|S|4T22|S [resultado] R$ 1,9 bilhão citado numa frase sem referência a dbruta: Para o 3T23, a Companhia atribui o aumento do lucro bruto ajustado, de 152,7% ou R$ 1,9 bilhão frente ao 3T22, a maiores volumes vendidos, maiores margens médias de comercialização e ganho com inventário de produtos.",
+   "3T23|9M|3T22|9M [sumario] R$ 1,9 bilhão citado numa frase sem referência a dvendas: No lucro bruto ajustado do 3T23, a Companhia registrou aumento de R$ 1,9 bilhão frente ao 3T22, atribuído a maiores volumes vendidos, maiores margens médias de comercialização e ganho com inventário de produtos.",
+   "3T23|9M|3T22|9M [resultado] R$ 1,9 bilhão citado numa frase sem referência a dvendas: No 3T23, o lucro bruto ajustado cresceu R$ 1,9 bilhão frente ao 3T22, por maiores volumes vendidos, maiores margens médias de comercialização e ganho com inventário de produtos.",
+   "2T23|S|2T22|S [resultado] R$ 32 milhões citado numa frase sem referência a dga: Em 2023, o hedge de commodities foi de R$ 39 milhões no 1º trimestre e de R$ 17 milhões no 2º trimestre, as recuperações tributárias foram de R$ 32 milhões e de R$ 120 milhões, e a venda de imóveis e bases, de R$ 42 milh",
+   "1T23|T|4T22|T [sumario] R$ 1,4 bilhão citado numa frase sem referência a lbruto: Parte dessa queda decorre da base elevada do 4º trimestre de 2022, que incluiu os efeitos não recorrentes mencionados, e a Companhia calculou para aquele trimestre um EBITDA Ajustado normalizado de R$ 1,4 bilhão, que des",
+   "1T23|T|4T22|T [operacional] R$ 1,4 bilhão citado numa frase sem referência a lbruto: A base de comparação do 4º trimestre de 2022 incluiu efeitos não recorrentes: recuperações tributárias de R$ 684 milhões e vendas de imóveis e bases de R$ 325 milhões, que a Companhia desconsidera ao apurar o EBITDA Ajus",
+   "1T23|T|4T22|T [resultado] R$ 1,4 bilhão citado numa frase sem referência a lbruto: O 4º trimestre de 2022 incluiu os efeitos não recorrentes de recuperações tributárias e de vendas de imóveis e bases, que a Companhia desconsidera no EBITDA Ajustado normalizado daquele trimestre, de R$ 1,4 bilhão.",
+   "3T22|T|3T21|T [operacional] R$ 916 milhões citado numa frase sem referência a ebitda: A linha Corporativo e reconciliação contribuiu com R$ 59 milhões, e a soma dos três componentes resulta nos R$ 916 milhões consolidados.",
+   "4T25|S|4T24|S [sumario] R$ 2,4 bilhões citado numa frase sem referência a dbruta: O semestre de 2025 também contou com itens não recorrentes: no 4T25, recuperações tributárias (R$ 696 milhões) e vendas de imóveis (R$ 105 milhões) estiveram dentro do EBITDA Ajustado da distribuição de R$ 2,4 bilhões, e",
+   "4T25|S|4T24|S [operacional] R$ 2,4 bilhões citado numa frase sem referência a dbruta: No 4T25, o EBITDA Ajustado da distribuição foi de R$ 2,4 bilhões; excluídas as recuperações tributárias (R$ 696 milhões) e as vendas de imóveis (R$ 105 milhões), o EBITDA Ajustado Recorrente foi de R$ 1,6 bilhão.",
+   "2T21|S|2T20|S [operacional] R$ 12 milhões citado numa frase sem referência a capex: No 2T21, o EBITDA Ajustado foi de R$ 1.018 milhões, ou R$ 115/m³, e já incluía recuperações de créditos tributários de R$ 154 milhões; excluídos esses créditos e o efeito combinado do resultado dos estoques e do hedge de",
+   "2T21|T|1T21|T [sumario] R$ 154 milhões citado numa frase sem referência a dvendas: O EBITDA Ajustado do 2º trimestre de 2021 inclui recuperações de créditos tributários de R$ 154 milhões e um efeito combinado negativo de estoques e hedge de importação de R$ 12 milhões.",
+   "2T21|T|1T21|T [operacional] R$ 154 milhões citado numa frase sem referência a dvendas: No 2º trimestre de 2021, o EBITDA Ajustado de R$ 1.018 milhões inclui recuperações de créditos tributários de R$ 154 milhões e um efeito combinado de estoques e hedge de importação de -R$ 12 milhões.",
+   "2T21|T|1T21|T [resultado] R$ 154 milhões citado numa frase sem referência a dvendas: Compõem o 2º trimestre de 2021 as recuperações de créditos tributários de R$ 154 milhões, que estão dentro do EBITDA Ajustado e ajudam a explicar a mudança de sinal da linha.",
+   "2T21|T|1T21|T [resultado] R$ 154 milhões citado numa frase sem referência a dvendas: Já o efeito combinado de estoques e hedge de importação, de -R$ 12 milhões, e as recuperações de créditos tributários, de R$ 154 milhões, estão dentro do EBITDA Ajustado do 2º trimestre de 2021.",
+   "3T20|T|2T20|T [sumario] R$ 117 milhões citado numa frase sem referência a capex: No 3º trimestre de 2020, a criação da ESGÁS gerou resultado positivo de R$ 117 milhões, e a Companhia concluiu a venda da Stratura Asfaltos, por valor que poderá chegar a um total de R$ 100 milhões.",
+   "3T20|T|2T20|T [operacional] R$ 117 milhões citado numa frase sem referência a capex: Já o resultado da criação da ESGÁS (R$ 117 milhões) e o da venda da Stratura Asfaltos são não recorrentes e decorrem da gestão de portfólio, não da operação de distribuição.",
+   "3T20|T|2T20|T [resultado] R$ 117 milhões citado numa frase sem referência a capex: No 3º trimestre de 2020, a gestão de portfólio gerou resultados não recorrentes: a criação da ESGÁS, em que a participação da Companhia supera o valor do ativo antes registrado, gerou resultado positivo de R$ 117 milhões",
+   "3T20|T|2T20|T [resultado] R$ 117 milhões citado numa frase sem referência a capex: O lucro dos dois trimestres incorpora itens não recorrentes, como o resultado positivo de R$ 117 milhões da criação da ESGÁS no 3º trimestre de 2020 e os efeitos da decisão sobre PIS e COFINS no 2º trimestre de 2020.",
+   "2T20|S|2T19|S [resultado] R$ 19 milhões citado numa frase sem referência a rfin: Os efeitos do hedge de commodities foram excluídos das despesas operacionais, no valor de R$ 416 milhões no 1º trimestre de 2020, R$-45 milhões no 1º trimestre de 2019 e R$ 19 milhões no 2º trimestre de 2020, e das despe",
+   "3T19|T|2T19|T [resultado] R$ 11 milhões citado numa frase sem referência a dvendas: Os dois aumentos, de R$ 11 milhões e R$ 10 milhões, ficaram bem abaixo do aumento de R$ 105 milhões do lucro bruto.",
+   "3T18|9M|3T17|9M [resultado] R$ 1.519 milhões de release citado como lucro bruto sem \"ajustado\": No terceiro trimestre de 2018, o lucro bruto foi de R$ 1.519 milhões, com aumento de volume e de margem bruta frente ao segundo trimestre."
+  ]
+ },
+ "indicadores": {
+  "conferidos": 3233,
+  "divergencias": []
+ }
+}

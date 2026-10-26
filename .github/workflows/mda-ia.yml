@@ -37,6 +37,8 @@ jobs:
     timeout-minutes: 170
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # sempre a versão mais recente (uma execução na fila não pode trabalhar sobre dados antigos)
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
