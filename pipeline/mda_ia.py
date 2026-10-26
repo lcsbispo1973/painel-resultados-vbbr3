@@ -32,6 +32,8 @@ MODELO = os.environ.get("MDA_IA_MODELO", "claude-sonnet-5-5")
 MAX_POR_EXECUCAO = int(os.environ.get("MDA_IA_MAX", "12"))
 SO_PARES = [p for p in os.environ.get("MDA_IA_PARES", "").split(",") if p]
 REFAZER = os.environ.get("MDA_IA_REFAZER", "") == "1"
+COMPLEMENTO = os.environ.get("MDA_IA_COMPLEMENTO", "") == "1"   # revisão dirigida (sumário, operacional e resultado) com os itens não recorrentes
+TIPOS_COMPL = [t for t in os.environ.get("MDA_IA_TIPOS", "exercicio").split(",") if t]
 VERSAO_PROMPT = 5   # (a regra de estilo da versão 6 é aplicada sem custo pela limpeza abaixo; não força reescrita)   # mudar força a reescrita de todos os pares
 
 SECOES = [("sumario", "Sumário executivo", ["MSG"]),
@@ -50,6 +52,7 @@ Regras obrigatórias:
 4. Integre números e explicações no mesmo parágrafo. Não cite documentos, não use aspas, não escreva "segundo o release" nem "de acordo com o Formulário de Referência". Nunca comente a ausência de explicação, os trechos, as fontes ou a verificabilidade (evite frases como "não há causa verificável" ou "os trechos não trazem"): quando não houver causa, apenas descreva e contextualize a variação, como faria um relatório da administração.
 5. Cada variação deve indicar a comparação ("frente ao {B}"). A margem por m³ da distribuição exclui Renováveis. O EBITDA Ajustado é o da nota de informações por segmento. A dívida líquida é a divulgada pela Companhia.
 6. Se um fato tiver o campo "atencao", siga a orientação dele.
+6a. ITENS NÃO RECORRENTES E EFEITOS ESPECÍFICOS: quando houver esse bloco, use-o para explicar o que afetou a comparação (recuperações e créditos tributários, vendas de imóveis, ganhos e perdas de estoque, CBIOs, hedge, provisões, impairment, alienações). Os valores em R$ desse bloco podem ser citados, escritos exatamente como lá, sempre ligados ao item e ao período a que a Companhia os associa, e deixando claro se o item está dentro ou fora do EBITDA Ajustado quando a Companhia informar. Não some nem recalcule esses valores.
 7. Entregue o texto chamando obrigatoriamente a ferramenta registrar_mda (não escreva o texto fora dela), com as seções: sumario (contexto, pitch e principais números), operacional (volumes, EBITDA e margens por segmento), resultado (da receita ao lucro), balanco (dívida, alavancagem, capital de giro, patrimônio e eventos de estrutura de capital), caixa (geração, investimentos, proventos e destino do caixa) e perspectivas (visão da administração; lista vazia se os trechos não a trouxerem). Use de 2 a 4 parágrafos por seção, exceto perspectivas."""
 
 
@@ -103,6 +106,32 @@ def trechos(par, rel, fre):
             out.append(p); total += len(p)
         blocos[sid] = out
     return blocos, tri.get("release"), tri.get("link")
+
+
+def itens(par, rel, dfd):
+    """Itens não recorrentes e efeitos específicos que afetam a comparação: desempenho consolidado do Relatório da
+    Administração (DFP, só na comparação anual) e parágrafos dos releases dos trimestres de A e de B que trazem valores."""
+    out, total = [], 0
+    def add(rot, t, lim):
+        nonlocal total
+        t = corta(t, lim)
+        if total + len(t) > 7000:
+            return
+        out.append("[%s] %s" % (rot, t)); total += len(t)
+    if par["tipo"] == "exercicio" and dfd:
+        ano = 2000 + int(par["A"]["p"][2:])
+        for p in ((dfd.get("anos") or {}).get(str(ano)) or {}).get("paragrafos", [])[:14]:
+            add("Relatório da Administração %d" % ano, p, 700)
+    tri = (rel or {}).get("trimestres", {})
+    def quarters(lado):
+        n = {"T": 1, "S": 2, "9M": 3, "AN": 4}.get(lado["base"], 1)
+        o = int(lado["p"][2:]) * 4 + int(lado["p"][0])
+        return ["%dT%02d" % ((o - i - 1) % 4 + 1, (o - i - 1) // 4) for i in range(n)]
+    for lado in ("A", "B"):
+        for q in quarters(par[lado]):
+            for t in (tri.get(q, {}).get("temas", {}).get("NR") or [])[:2 if par["tipo"] in ("exercicio", "nove_meses") else 3]:
+                add("release %s" % q, t, 520)
+    return out
 
 
 def eventos(par, ipe, data_release):
@@ -174,9 +203,12 @@ def numeros(t):
         yield bool(m.group(1)), m.group(2)
 
 
-def permitidos(par, blocos):
-    """(valores em R$ dos fatos, demais números dos fatos, números dos trechos que não são R$)."""
+def permitidos(par, blocos, its=None):
+    """(valores em R$ dos fatos e dos itens não recorrentes, demais números dos fatos, números dos trechos que não são R$)."""
     rs_fat, fat, exc = set(), set(), set()
+    for t in its or []:
+        for rs, n in numeros(t):
+            (rs_fat if rs else exc).add(n)
     for f in par["fatos"]:
         for campo in ("a", "b", "diferenca"):
             for s in f.get(campo) or []:
@@ -218,13 +250,31 @@ FERRAMENTA = {
 }
 
 
-def chama(mensagens):
+FERRAMENTA_C = {
+    "name": "registrar_mda",
+    "description": "Registra as seções revisadas do MD&A, um parágrafo por item de cada lista.",
+    "input_schema": {"type": "object", "properties": {k: {"type": "array", "items": {"type": "string"}} for k in ("sumario", "operacional", "resultado")},
+                     "required": ["sumario", "operacional", "resultado"]},
+}
+INSTRUCOES_C = """Você revisa três seções (sumario, operacional e resultado) do Comentário do Desempenho (MD&A) da Vibra Energia S.A., em português do Brasil, no tom de um relatório da administração.
+
+Objetivo: incorporar ao texto existente a explicação dos itens não recorrentes e efeitos específicos que afetaram a comparação (bloco ITENS), para que o leitor entenda o que formou as variações do resultado, em especial nas outras receitas e despesas operacionais, no EBITDA, no resultado financeiro, no imposto e no lucro.
+
+Regras obrigatórias:
+1. Preserve a estrutura, os números e as explicações do texto atual que continuam corretos; reescreva apenas o necessário para integrar os itens. Não remova informação relevante.
+2. NÚMEROS: só os da lista FATOS (escritos exatamente como lá) e os valores em R$ do bloco ITENS (escritos exatamente como lá, ligados ao item e ao período a que a Companhia os associa). Não some, não recalcule, não arredonde de outro jeito.
+3. Diga se o item está dentro ou fora do EBITDA Ajustado quando a Companhia informar. Use só os itens que se aplicam à comparação em análise; se o item for de um trimestre dentro do período, diga qual.
+4. Não cite documentos, não use aspas, não escreva "segundo o release" nem "de acordo com o relatório". Não comente fontes nem a ausência de informação.
+5. Entregue chamando obrigatoriamente a ferramenta registrar_mda com as seções sumario, operacional e resultado (de 2 a 4 parágrafos cada)."""
+
+
+def chama(mensagens, ferramenta=None):
     """mensagens: [{"role": "system"|"user"|"assistant", "content": str}] → dict com as seções.
     A resposta vem por "ferramenta" (tool use), o que garante JSON válido."""
     sistema = "\n".join(m["content"] for m in mensagens if m["role"] == "system")
     conversa = [m for m in mensagens if m["role"] != "system" and m["content"]]
     corpo = json.dumps({"model": MODELO, "max_tokens": 12000, "system": sistema, "messages": conversa,
-                        "tools": [FERRAMENTA], "tool_choice": {"type": "auto"}}).encode()
+                        "tools": [ferramenta or FERRAMENTA], "tool_choice": {"type": "auto"}}).encode()
     req = urllib.request.Request(URL, data=corpo, headers={"x-api-key": os.environ["ANTHROPIC_API_KEY"], "anthropic-version": "2023-06-01",
                                                            "content-type": "application/json"})
     with urllib.request.urlopen(req, timeout=300) as r:
@@ -271,7 +321,7 @@ def main():
     if not fatos or not os.environ.get("ANTHROPIC_API_KEY"):
         print("mda_ia: sem fatos ou sem a chave ANTHROPIC_API_KEY; o painel usa o texto por regras")
         return 0
-    rel, fre, ipe = ler("releases_texto.json"), ler("fre_item10.json"), ler("ipe.json")
+    rel, fre, ipe, dfd = ler("releases_texto.json"), ler("fre_item10.json"), ler("ipe.json"), ler("df_desempenho.json")
     est = ler("mda_ia.json") or {"pares": {}, "recusados": {}}
     ordem = sorted(fatos["pares"].items(), key=lambda kv: (-(int(kv[1]["A"]["p"][2:]) * 4 + int(kv[1]["A"]["p"][0])),
                                                           {"anual": 0, "exercicio": 1, "semestre": 2, "nove_meses": 3, "trimestral": 4}.get(kv[1]["tipo"], 9)))
@@ -287,7 +337,7 @@ def main():
         evs = eventos(par, ipe, (rel or {}).get("trimestres", {}).get(par["A"]["p"], {}).get("data"))
         if evs:
             bl["eventos"] = evs
-        r_ = confere(est["pares"][k]["secoes"], *permitidos(par, bl))
+        r_ = confere(est["pares"][k]["secoes"], *permitidos(par, bl, itens(par, rel, dfd)))
         if r_:
             log.append("- %s: texto aprovado anteriormente não confere mais com os números atuais (%s); retirado" % (k, ", ".join(sorted(set(r_))[:5])))
             del est["pares"][k]
@@ -309,12 +359,15 @@ def main():
             pendentes += 1
             continue
         feitos += 1
-        rs_fat, fat, exc = permitidos(par, blocos)
+        its = itens(par, rel, dfd)
+        rs_fat, fat, exc = permitidos(par, blocos, its)
         trechos_txt = "\n".join("[%s]\n%s" % (sid, "\n".join("- " + p for p in ps)) for sid, ps in blocos.items() if ps and sid != "eventos") or "(sem trechos para este período)"
         if blocos.get("eventos"):
             trechos_txt += "\n\nEVENTOS DO PERÍODO (fatos relevantes e comunicados ao mercado; use para contextualizar, sem inventar detalhes):\n" + "\n".join("- " + e for e in blocos["eventos"])
         usuario = ("PERÍODO: %s, comparado com o %s.\n\nFATOS (únicos números permitidos):\n%s\n\nTRECHOS DA COMPANHIA (explicações; não use os valores em R$ daqui):\n%s"
                    % (par["A"]["rotulo"], par["B"]["rotulo"], fatos_txt(par), trechos_txt))
+        if its:
+            usuario += "\n\nITENS NÃO RECORRENTES E EFEITOS ESPECÍFICOS (valores divulgados pela Companhia; podem ser citados exatamente como estão):\n" + "\n".join("- " + t for t in its)
         msgs = [{"role": "system", "content": INSTRUCOES.replace("{B}", par["B"]["rotulo"])}, {"role": "user", "content": usuario}]
         secoes, recusados, txt = None, ["sem resposta"], ""
         for tentativa in range(2):
@@ -356,10 +409,66 @@ def main():
             log.append("- %s: RECUSADO (%s)" % (k, ", ".join(sorted(set(recusados))[:10])))
         else:
             est["pares"][k] = {"hash": h, "gerado_em": agora, "modelo": MODELO, "tipo": par["tipo"], "secoes": secoes,
-                               "release": rel_nome, "release_link": rel_link}
+                               "release": rel_nome, "release_link": rel_link,
+                               "itens_hash": hashlib.sha256(json.dumps(its, ensure_ascii=False).encode()).hexdigest()[:16] if its else None}
             est["recusados"].pop(k, None)
             log.append("- %s: ok" % k)
         time.sleep(15)   # limite de tokens por minuto da API
+    # revisão dirigida (manual): integra os itens não recorrentes ao sumário, ao operacional e ao resultado dos textos já
+    # aprovados, sem refazer o texto inteiro (custa uma fração da redação completa)
+    if COMPLEMENTO and not os.path.exists(os.path.join(RAIZ, "logs", "mda-ia-alerta.md")):
+        for k, par in ordem:
+            if (SO_PARES and k not in SO_PARES) or par["tipo"] not in TIPOS_COMPL:
+                continue
+            atual = est["pares"].get(k)
+            its = itens(par, rel, dfd) if atual else []
+            if not its:
+                continue
+            hi = hashlib.sha256(json.dumps(its, ensure_ascii=False).encode()).hexdigest()[:16]
+            if not REFAZER and (atual.get("itens_hash") == hi or atual.get("itens_falha") == hi):
+                continue
+            if feitos >= MAX_POR_EXECUCAO:
+                pendentes += 1
+                continue
+            feitos += 1
+            blocos, _, _ = trechos(par, rel, fre)
+            rs_fat, fat, exc = permitidos(par, blocos, its)
+            texto_atual = "\n\n".join("[%s]\n%s" % (sid, "\n".join(atual["secoes"].get(sid, []))) for sid in ("sumario", "operacional", "resultado"))
+            usuario = ("PERÍODO: %s, comparado com o %s.\n\nFATOS (números permitidos):\n%s\n\nITENS NÃO RECORRENTES E EFEITOS ESPECÍFICOS (valores divulgados pela Companhia; podem ser citados exatamente como estão):\n%s\n\nTEXTO ATUAL (revise estas três seções):\n%s"
+                       % (par["A"]["rotulo"], par["B"]["rotulo"], fatos_txt(par), "\n".join("- " + t for t in its), texto_atual))
+            msgs = [{"role": "system", "content": INSTRUCOES_C}, {"role": "user", "content": usuario}]
+            novas, recusados, txt = None, ["sem resposta"], ""
+            for tentativa in range(2):
+                try:
+                    bruto = chama(msgs, FERRAMENTA_C)
+                    txt = json.dumps(bruto, ensure_ascii=False)
+                    novas = {sid: [x for x in (limpa(re.sub(r"(R\$ 1,\d) bilhões", r"\1 bilhão", q.strip())) for q in (bruto.get(sid) or []) if isinstance(q, str) and q.strip()) if x]
+                             for sid in ("sumario", "operacional", "resultado")}
+                    recusados = confere(novas, rs_fat, fat, exc)
+                    if not novas["resultado"] or not novas["sumario"]:
+                        recusados.append("seções obrigatórias vazias")
+                except urllib.error.HTTPError as e:
+                    corpo_erro = e.read().decode("utf-8", "ignore")[:400]
+                    recusados = ["HTTP %d" % e.code]
+                    if re.search(r"credit balance|billing|insufficient", corpo_erro, re.I) or e.code in (401, 403):
+                        open(os.path.join(RAIZ, "logs", "mda-ia-alerta.md"), "w", encoding="utf-8").write(
+                            "A redação automática do MD&A parou: crédito ou chave da API (HTTP %d).\n\nDetalhe: %s\n" % (e.code, corpo_erro))
+                        feitos = MAX_POR_EXECUCAO
+                    break
+                except Exception as e:  # noqa: BLE001
+                    recusados = [type(e).__name__ + ": " + str(e)[:300]]
+                if not recusados:
+                    break
+                msgs = msgs + [{"role": "assistant", "content": txt or "(sem resposta)"},
+                               {"role": "user", "content": "Os seguintes números não estão em FATOS nem em ITENS (ou houve outro problema) e não podem ser usados: %s. Reescreva as três seções sem eles." % ", ".join(sorted(set(recusados)))}]
+                time.sleep(5)
+            if recusados:
+                atual["itens_falha"] = hi
+                log.append("- %s: revisão com itens não recorrentes RECUSADA (%s); mantido o texto anterior" % (k, ", ".join(sorted(set(recusados))[:8])))
+            else:
+                atual["secoes"].update(novas); atual["itens_hash"] = hi; atual.pop("itens_falha", None); atual["revisado_em"] = agora
+                log.append("- %s: revisado com itens não recorrentes" % k)
+            time.sleep(15)
     alerta = os.path.join(RAIZ, "logs", "mda-ia-alerta.md")
     if not os.path.exists(alerta):
         ok = USO["chamadas"] > 0

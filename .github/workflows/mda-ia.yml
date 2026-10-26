@@ -15,6 +15,14 @@ on:
       maximo:
         description: 'Máximo de pares nesta execução'
         default: '12'
+      complemento:
+        description: 'Revisar textos aprovados com os itens não recorrentes (só sumário, operacional e resultado)'
+        type: boolean
+        default: false
+      tipos:
+        description: 'Tipos de comparação na revisão: exercicio, anual, semestre, nove_meses, trimestral (vírgulas)'
+        required: false
+        default: 'exercicio'
 
 permissions:
   contents: write
@@ -38,6 +46,8 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           MDA_IA_PARES: ${{ inputs.pares }}
           MDA_IA_REFAZER: ${{ inputs.refazer && '1' || '' }}
+          MDA_IA_COMPLEMENTO: ${{ inputs.complemento && '1' || '' }}
+          MDA_IA_TIPOS: ${{ inputs.tipos }}
           TOTAL: ${{ inputs.maximo }}
         run: |
           git config user.name "github-actions[bot]"

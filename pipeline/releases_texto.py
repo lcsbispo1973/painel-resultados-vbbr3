@@ -24,6 +24,11 @@ TEMAS = [
     ("CAPEX", re.compile(r"investimentos|capex", re.I)),
     ("CONS", re.compile(r"consolidado|destaques|desempenho|resultado distribui", re.I)),
 ]
+# itens não recorrentes e efeitos específicos (recuperações tributárias, vendas de imóveis, estoques, CBIOs, hedge...):
+# parágrafos de qualquer seção do release, inclusive as notas de rodapé das tabelas, que trazem os valores
+NR = re.compile(r"n[ãa]o[- ]recorrente|extraordin[áa]ri|recupera[çc](?:[ãa]o|[õo]es) (?:de )?(?:tribut|cr[ée]dit|fisca)|cr[ée]ditos? (?:fiscais|tribut[áa]rios|de pis|extempor)"
+                r"|LC 19[24]|Lei Complementar n?º? ?19[24]|exclus[ãa]o do ICMS|PIS/Cofins|revers[ãa]o de provis|venda[s]? de im[óo]veis|impairment|perdas? com (?:invent|estoque)"
+                r"|ganhos? (?:com|de|nos) (?:invent|estoque)|efeitos? de estoque|para efeito de comparabilidade|foram exclu[íi]dos", re.I)
 PT = re.compile(r"\b(de|do|da|que|com|para|no|na|os|as|em|foi|pelo|pela)\b", re.I)
 EN = re.compile(r"\b(the|and|of|with|for|was|which|by|in)\b", re.I)
 
@@ -76,8 +81,12 @@ def main():
             continue
         L = open(os.path.join(pasta, "texto", r["arquivo"]), encoding="utf-8").read().split("\n")
         titulos = [(i, l.strip()) for i, l in enumerate(L) if eh_titulo(l)]
-        temas = {}
+        temas, nr = {}, []
         for ini, t in paragrafos(L):
+            if NR.search(t) and len(EN.findall(t)) <= len(PT.findall(t)) and "R$" in t:
+                u = re.sub(r"^[\*¹²³⁴⁵⁶\s]+", "", t)
+                if u not in nr:
+                    nr.append(u)
             if len(EN.findall(t)) > len(PT.findall(t)):
                 continue   # parte em inglês
             if not t[:1].isupper() or re.match(r"^[\d\*¹²³⁴⁵⁶()]", t) or "|" in t or re.search(r"webcast|teleconfer|tradu[çc][ãa]o simult|download|disclaimer|declarações prospectivas|forward", t, re.I):
@@ -89,6 +98,8 @@ def main():
             lista = temas.setdefault(tema, [])
             if len(lista) < 5 and t not in lista:
                 lista.append(t[:900] + ("…" if len(t) > 900 else ""))
+        if nr:
+            temas["NR"] = [x[:1100] + ("…" if len(x) > 1100 else "") for x in nr[:8]]
         if temas:
             saida[p] = {"release": r["assunto"], "data": r["data_entrega"], "link": r["link"], "temas": temas}
     pers = sorted(saida, key=ord_t)

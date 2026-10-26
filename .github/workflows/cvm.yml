@@ -91,6 +91,7 @@ jobs:
           python pipeline/divida_release.py
           python pipeline/proventos.py
           python pipeline/releases_texto.py
+          python pipeline/df_desempenho.py
           python pipeline/fre_mda.py
           python -I tests/test_documentos.py
 
