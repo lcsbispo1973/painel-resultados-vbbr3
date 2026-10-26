@@ -83,6 +83,25 @@ def ler(texto):
     return None, "tabela de vencimentos não encontrada"
 
 
+def composicao(texto):
+    """País e exterior pela tabela de composição dos empréstimos (linhas "Total país"/"Total no país" e "Total exterior"/
+    "Total no exterior"; 1º valor = consolidado, valor contábil, na data-base). Usada quando a tabela de vencimentos não
+    traz a divisão (ex.: DFP 2025, cuja tabela de vencimentos não está no texto do documento)."""
+    pais = ext = None
+    for l in texto.split("\n"):
+        if re.search(r"\bem \d{1,2} de ", l, re.I):
+            continue   # linhas da movimentação ("Total no país em 31 de dezembro de ...")
+        m = re.match(r"^\s*Total (?:no )?(pa[ií]s|exterior)\s{2,}(.*)$", l, re.I)
+        if m:
+            vs = valores(m.group(2), 0, False)
+            if vs:
+                if m.group(1).lower().startswith("pa") and pais is None:
+                    pais = vs[0]
+                elif m.group(1).lower() == "exterior" and ext is None:
+                    ext = vs[0]
+    return pais, ext
+
+
 def main():
     pasta = os.path.join(RAIZ, "data", "docs", "vibra_df")
     idx = json.load(open(os.path.join(pasta, "indice.json"), encoding="utf-8"))["documentos"]
@@ -110,6 +129,23 @@ def main():
             log.append("- %s: tabela própria não lida; usado o comparativo publicado em %s" % (pc, c["fonte"]["data"]))
         elif abs(serie[pc]["total_consolidado"] - c["total_consolidado"]) > 2:
             log.append("- %s: total %s; comparativo posterior %s (reapresentação)" % (pc, serie[pc]["total_consolidado"], c["total_consolidado"]))
+    # país × exterior que faltou na tabela de vencimentos: tabela de composição do documento da própria data-base
+    for pc, r in serie.items():
+        if r.get("pais") is not None:
+            continue
+        for d in sorted(idx, key=lambda x: x["data_entrega"], reverse=True):
+            if d.get("data_referencia") != r["data_base"]:
+                continue
+            caminho = os.path.join(pasta, d["arquivo"])
+            if not os.path.exists(caminho):
+                continue
+            pa, ex = composicao(open(caminho, encoding="utf-8").read())
+            if pa is not None and ex is not None and abs(pa + ex - r["total_consolidado"]) <= 2:   # trava: país + exterior = total
+                r["pais"], r["exterior"] = pa, ex
+                r["fonte_pais_exterior"] = {"data": d["data_entrega"], "documento": d["assunto"] or d["tipo"], "link": d["link"],
+                                            "como": "tabela de composição dos empréstimos e financiamentos (Total país / Total exterior)"}
+                log.append("- %s: país %s e exterior %s pela tabela de composição (%s)" % (pc, pa, ex, d["data_entrega"]))
+                break
     pers = sorted(serie, key=ord_t)
     rating = json.load(open(os.path.join(RAIZ, "data", "docs", "vibra_rating", "indice.json"), encoding="utf-8"))["documentos"] \
         if os.path.exists(os.path.join(RAIZ, "data", "docs", "vibra_rating", "indice.json")) else []

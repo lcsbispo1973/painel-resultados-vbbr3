@@ -48,7 +48,7 @@
   var KPIS = [
     { id: 'receita', rot: 'Receita líquida', fmt: 'bi' },
     { id: 'ebitda', rot: 'EBITDA Ajustado', fmt: 'bi' },
-    { id: '_m3', rot: 'Margem EBITDA Ajustado', fmt: 'm3', info: 'EBITDA Ajustado ÷ volume vendido (release), em R$ por m³. A partir de 2025, só da Distribuição (sem Renováveis), como a Companhia divulga.' },
+    { id: '_m3', rot: 'Margem EBITDA Ajustado', fmt: 'm3', info: 'Para que serve: quanto a Companhia ganha por metro cúbico vendido; é a principal medida de rentabilidade da distribuição de combustíveis. Como se calcula: EBITDA Ajustado ÷ volume vendido (release), em R$ por m³. A partir de 2025, só da Distribuição (sem Renováveis), como a Companhia divulga.' },
     { id: 'lucro', rot: 'Lucro líquido', fmt: 'bi' },
     { id: 'fco', rot: 'Fluxo de caixa operacional', fmt: 'bi' },
     { id: 'dliq', rot: 'Dívida líquida', fmt: 'bi' },
@@ -69,7 +69,7 @@
         el.append(ref.kpis,
           h('div', { class: 'sec' }, h('h2', null, 'Mercado'), ref.mktNota), ref.mkt, ref.ipe,
           h('div', { class: 'grid' },
-            P.card('EBITDA Ajustado por segmento', 'R$ milhões. Barras: segmentos; marcador: consolidado (inclui o Corporativo).', ref.ch.eb, false, 'Nota de informações por segmento das ITRs/DFPs; de 4T17 a 4T21, release de resultados (4T16 a 3T17: comparativos dos releases de 2018).'),
+            P.card('EBITDA Ajustado por segmento', 'R$ milhões. Barras: segmentos; marcador: consolidado (inclui o Corporativo).', ref.ch.eb, false, 'Para que serve: mostra quanto cada negócio contribui para a geração operacional e como o mix muda ao longo do tempo. Fonte: nota de informações por segmento das ITRs/DFPs; de 4T17 a 4T21, release de resultados (4T16 a 3T17: comparativos dos releases de 2018).'),
             P.card('Margem EBITDA Ajustado', 'R$ por m³ vendido.', ref.ch.m3),
             P.card('Lucro líquido', 'R$ milhões (consolidado, DRE 3.11).', ref.ch.luc),
             P.card('Geração de caixa', 'R$ milhões. Livre = operacional + investimentos em imobilizado e intangível.', ref.ch.cx),
@@ -82,7 +82,7 @@
         KPIS.forEach(function (k) {
           var i = M.indicadores.filter(function (z) { return z.id === k.id; })[0], v = kpiValor(k, x.p, x.base);
           var sp = h('div', { class: 'spark' }); G.spark(sp, hs.map(function (p) { return kpiValor(k, p, x.base); }));
-          ref.kpis.appendChild(h('div', { class: 'card kpi' }, h('div', { class: 'kl' }, k.rot, P.info(k.info || (i ? i.formula + '. ' + (i.nota || '') : ''))), h('div', { class: 'kv' }, kpiFmt(k, v)), sp));
+          ref.kpis.appendChild(h('div', { class: 'card kpi' }, h('div', { class: 'kl' }, k.rot, P.info(k.info || (i ? i.explica : ''))), h('div', { class: 'kv' }, kpiFmt(k, v)), sp));
         });
         // mercado: fim do período escolhido × último pregão
         var mc = P.mercadoComparado(S.a); ref.mkt.replaceChildren();
@@ -260,7 +260,7 @@
         var vals = cols.map(function (p) { return P.M.ind(i.id, p, x.base); });
         if (!vals.some(ok)) return;
         if (i.grupo !== g) { g = i.grupo; out.push({ grupo: g }); }
-        out.push({ id: i.id, conta: i.nome + (i.un === 'R$ mi' ? '' : '  (' + i.un + ')'), nivel: 2, vals: vals, cel: vals.map(function (v) { return P.fUn(i.un, v); }), cls: est.id === i.id ? 'act' : '', info: i.formula + '. ' + (i.nota || ''), i: i });
+        out.push({ id: i.id, conta: i.nome + (i.un === 'R$ mi' ? '' : '  (' + i.un + ')'), nivel: 2, vals: vals, cel: vals.map(function (v) { return P.fUn(i.un, v); }), cls: est.id === i.id ? 'act' : '', info: i.explica, i: i });
       });
       return out;
     }
@@ -275,9 +275,9 @@
       render: function () {
         var x = P.x(S.a), cols = P.hist(5), grupos = [['', 'Todos']].concat(Object.keys(P.M.grupos).map(function (k) { return [P.M.grupos[k], P.M.grupos[k]]; }));
         ref.ctl.replaceChildren(P.label('Grupo', P.select('i-grupo', grupos, est.grupo, function (v) { est.grupo = v; P.render(); }, 'Grupo')),
-          h('button', { class: 'btn', type: 'button', onclick: function () { var ls = linhas(cols).filter(function (l) { return !l.grupo; }); P.csv('vibra_indicadores_' + P.rotulo(S.a) + '.csv', ['grupo', 'indicador', 'unidade', 'formula'].concat(cols.map(P.rotP)), ls.map(function (l) { return [l.i.grupo, l.i.nome, l.i.un, l.i.formula].concat(l.vals.map(P.numCsv)); })); } }, 'Baixar para Excel'));
+          h('button', { class: 'btn', type: 'button', onclick: function () { var ls = linhas(cols).filter(function (l) { return !l.grupo; }); P.csv('vibra_indicadores_' + P.rotulo(S.a) + '.csv', ['grupo', 'indicador', 'unidade', 'para que serve', 'como se calcula'].concat(cols.map(P.rotP)), ls.map(function (l) { return [l.i.grupo, l.i.nome, l.i.un, l.i.uso, l.i.formula].concat(l.vals.map(P.numCsv)); })); } }, 'Baixar para Excel'));
         var i = P.M.indicadores.filter(function (z) { return z.id === est.id; })[0] || P.M.indicadores[0], lh = P.hist(x.base === 'T' ? 12 : 8);
-        ref.titulo.textContent = i.nome + (i.un ? ' (' + i.un + ')' : ''); ref.formula.textContent = i.formula + '. ' + (i.nota || '');
+        ref.titulo.textContent = i.nome + (i.un ? ' (' + i.un + ')' : ''); ref.formula.textContent = i.explica;
         var vals = lh.map(function (p) { return P.M.ind(i.id, p, x.base); }), f = function (v) { return P.fUn(i.un, v); };
         if (i.un === 'R$ mi') G.barras(ref.chart, lh.map(P.rotP), vals, i.nome, f, { destaque: P.rotulo(S.a) }); else G.linhas(ref.chart, lh.map(P.rotP), [{ nome: i.nome, vals: vals }], f, { destaque: P.rotulo(S.a) });
         P.tabela(ref.tb, 'Indicador', cols.map(P.rotP), linhas(cols), function (l) { est.id = l.id; P.render(); });

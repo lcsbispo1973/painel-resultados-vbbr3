@@ -194,7 +194,76 @@
     };
 
     var I = [];
-    var add = function (grupo, id, nome, un, formula, f, nota) { I.push({ grupo: grupo, id: id, nome: nome, un: un, formula: formula, f: f, nota: nota || '' }); };
+    // para que serve cada indicador (frase curta exibida antes da fórmula)
+    var USOS = {
+      "receita": "Tamanho do negócio: quanto a Companhia vendeu no período, líquido de impostos sobre vendas e devoluções.",
+      "rbruto": "Quanto sobra das vendas depois do custo dos produtos; é a base de todas as margens.",
+      "ebit": "Lucro gerado pelas operações, antes de juros e impostos; mostra a rentabilidade do negócio independentemente de como ele é financiado.",
+      "da": "Consumo contábil dos ativos, sem saída de caixa; ajuda a separar o resultado operacional da geração de caixa.",
+      "ebitda": "Medida da Companhia para a geração operacional recorrente; é a base da alavancagem (dívida líquida ÷ EBITDA) e dos múltiplos de valuation.",
+      "ebitdac": "EBITDA pelas demonstrações, sem os ajustes da Companhia; serve para ver o tamanho desses ajustes.",
+      "rfin": "Custo líquido da dívida, descontados os rendimentos das aplicações; mostra o peso do financiamento no resultado.",
+      "lucro": "Resultado final do período, de todos os acionistas (controladores e não controladores).",
+      "lucroc": "Parte do lucro que pertence aos acionistas da Vibra; é a base de dividendos, lucro por ação e ROE.",
+      "mb": "Quanto de cada real vendido sobra depois do custo dos produtos; na distribuição de combustíveis é baixa e sensível a preços e estoques.",
+      "mebit": "Eficiência operacional: quanto de cada real vendido vira resultado operacional.",
+      "mebitda": "Geração operacional por real vendido; permite comparar períodos e empresas do setor.",
+      "mliq": "Quanto de cada real vendido vira lucro.",
+      "dv": "Peso das despesas comerciais e de distribuição sobre as vendas; mostra a eficiência da operação.",
+      "dga": "Peso da estrutura administrativa sobre as vendas; mostra a disciplina de custos.",
+      "aliq": "Quanto do lucro antes dos tributos vai para IR e CS; desvios em relação aos 34% indicam efeitos como JCP, incentivos e créditos fiscais.",
+      "roe": "Retorno para os acionistas: quanto o lucro remunera o patrimônio que eles investiram.",
+      "mliqudm": "Margem líquida dos últimos 12 meses, sem a sazonalidade trimestral; é o primeiro fator do ROE na decomposição DuPont.",
+      "roecons": "ROE com lucro e patrimônio totais (inclui não controladores); fecha a decomposição DuPont.",
+      "roa": "Quanto o lucro remunera o total de ativos; mede a eficiência no uso dos recursos.",
+      "roic": "Retorno sobre todo o capital investido (acionistas e credores); comparado ao custo de capital, indica se a empresa cria valor.",
+      "giro": "Quantas vezes os ativos se convertem em vendas em 12 meses; é o segundo fator do ROE na decomposição DuPont.",
+      "alav": "Quanto do ativo é financiado por terceiros para cada real de patrimônio; é o terceiro fator do ROE na decomposição DuPont.",
+      "lcor": "Capacidade de pagar as obrigações de curto prazo com os ativos de curto prazo.",
+      "lsec": "Capacidade de pagar as obrigações de curto prazo sem depender da venda de estoques.",
+      "limed": "Quanto das obrigações de curto prazo o caixa disponível pagaria imediatamente.",
+      "lger": "Capacidade de pagar todas as obrigações com os ativos realizáveis, de curto e longo prazo.",
+      "cgl": "Folga (ou falta) de recursos de curto prazo depois de cobrir as obrigações de curto prazo.",
+      "dbruta": "Total devido a bancos e investidores (empréstimos, financiamentos e arrendamentos).",
+      "caixa": "Recursos disponíveis para pagar dívidas, investir e remunerar acionistas.",
+      "dliq": "Endividamento efetivo (dívida menos caixa), como a Companhia divulga; é a base da alavancagem.",
+      "dliqc": "Dívida líquida calculada pelo balanço, sem os ajustes da Companhia; serve para conferência.",
+      "dlebitda": "Principal medida de alavancagem: quantos anos de EBITDA quitariam a dívida líquida; usada por bancos, agências de rating e em covenants.",
+      "dlpl": "Tamanho da dívida líquida em relação ao capital dos acionistas.",
+      "dbpl": "Tamanho da dívida bruta em relação ao capital dos acionistas.",
+      "passat": "Parcela do ativo financiada por terceiros (todas as obrigações, não só dívida).",
+      "plat": "Parcela do ativo financiada pelos acionistas.",
+      "dcp": "Quanto da dívida vence em até 12 meses; indica a pressão de refinanciamento.",
+      "cobjuros": "Quantas vezes o resultado operacional cobre os juros; mostra a folga para pagar o custo da dívida.",
+      "pmr": "Em quantos dias, em média, a Companhia recebe dos clientes.",
+      "pme": "Por quantos dias, em média, os produtos ficam em estoque.",
+      "pmp": "Em quantos dias, em média, a Companhia paga os fornecedores.",
+      "cop": "Dias entre a compra do produto e o recebimento da venda.",
+      "cfin": "Dias em que a operação é financiada com recursos da própria Companhia (ciclo operacional menos o prazo de pagamento).",
+      "ncg": "Recursos presos na operação (recebíveis + estoques − fornecedores); quando aumenta consome caixa, quando diminui libera.",
+      "fco": "Caixa gerado pelas operações no período, já considerando o capital de giro.",
+      "capex": "Quanto foi investido em ativos (postos, bases, logística, tecnologia, renováveis).",
+      "fcl": "Caixa que sobra depois dos investimentos; é o que fica disponível para pagar dívida e remunerar acionistas.",
+      "convfco": "Quanto do EBITDA virou caixa de fato; mostra a qualidade do resultado.",
+      "capexda": "Se os investimentos apenas repõem (perto de 1x) ou ampliam (acima de 1x) a base de ativos.",
+      "prov": "Caixa efetivamente pago aos acionistas no período.",
+      "acoes": "Número de ações entre as quais se dividem o lucro e o patrimônio; base dos indicadores por ação.",
+      "lpa": "Parte do lucro que cabe a cada ação.",
+      "vpa": "Parte do patrimônio contábil que cabe a cada ação; comparado à cotação, dá o P/VP.",
+      "preco": "Valor da ação negociada na B3 no fim do período.",
+      "mcap": "Quanto o mercado avalia o patrimônio da Companhia.",
+      "ev": "Valor de toda a empresa para acionistas e credores; é comparado ao EBITDA no múltiplo EV/EBITDA.",
+      "pl": "Quantos anos de lucro o mercado paga pela ação.",
+      "pvp": "Quanto o mercado paga por real de patrimônio contábil.",
+      "evebitda": "Múltiplo de valuation mais usado no setor: quantos anos de EBITDA o valor da empresa representa.",
+      "fcfy": "Caixa livre gerado em relação ao valor de mercado; quanto maior, mais caixa por real aplicado na ação.",
+      "dy": "Retorno em proventos efetivamente pagos para quem tem a ação."
+      };
+    var add = function (grupo, id, nome, un, formula, f, nota) {
+      var i = { grupo: grupo, id: id, nome: nome, un: un, formula: formula, f: f, nota: nota || '', uso: USOS[id] || '' };
+      i.explica = (i.uso ? 'Para que serve: ' + i.uso + ' ' : '') + 'Como se calcula: ' + formula + '.' + (i.nota ? ' ' + i.nota : '');
+      I.push(i);
+    };
     var G = { mar: 'Margens e resultado', ren: 'Rentabilidade', liq: 'Liquidez', end: 'Endividamento e estrutura', efi: 'Capital de giro e ciclo', cx: 'Geração de caixa', acao: 'Por ação', mer: 'Mercado e valuation' };
     m.grupos = G;
     var NOTA_BASE = 'Usa a base de período escolhida.';

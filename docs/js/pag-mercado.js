@@ -44,7 +44,7 @@
     var M = P.M, X = P.x(per), q = M.cotacaoAte(M.fimPeriodo(X.p)), u = M.ultimaCotacao(), ult = M.ultimoPar().p;
     return { p: X.p, qA: q, qU: u, ult: ult, linhas: P.MERC.map(function (k) {
       var i = M.indicadores.filter(function (z) { return z.id === k[1]; })[0];
-      return { rot: k[0], id: k[1], un: k[2], info: i ? i.formula + '. ' + (i.nota || '') : '', a: q ? M.ind(k[1], X.p, 'T') : null, u: M.indAtual(k[1]) };
+      return { rot: k[0], id: k[1], un: k[2], info: i ? i.explica : '', a: q ? M.ind(k[1], X.p, 'T') : null, u: M.indAtual(k[1]) };
     }) };
   };
   P.fmtMerc = function (un, v) { return !ok(v) ? '—' : un === 'bi' ? P.fBi(v) : un === 'R$' ? 'R$ ' + P.f2(v) : P.fUn(un, v); };
@@ -104,7 +104,7 @@
       var lh = P.hist(x.base === 'T' ? 12 : 8);
       G.linhas(cM, lh.map(P.rotP), [{ nome: 'P/L', vals: lh.map(function (p) { return P.M.ind('pl', p, x.base); }) }, { nome: 'EV/EBITDA Aj.', vals: lh.map(function (p) { return P.M.ind('evebitda', p, x.base); }) }, { nome: 'P/VP', vals: lh.map(function (p) { return P.M.ind('pvp', p, x.base); }) }], function (v) { return P.f1(v) + 'x'; }, { destaque: P.rotulo(S.a) });
       var cols = P.hist(5), ids = P.M.indicadores.filter(function (i) { return i.grupo === P.M.grupos.mer; });
-      P.tabela(tb, '', cols.map(P.rotP), ids.map(function (i) { return { conta: i.nome, info: i.formula + '. ' + (i.nota || ''), cel: cols.map(function (p) { return P.fUn(i.un, P.M.ind(i.id, p, x.base)); }) }; }));
+      P.tabela(tb, '', cols.map(P.rotP), ids.map(function (i) { return { conta: i.nome, info: i.explica, cel: cols.map(function (p) { return P.fUn(i.un, P.M.ind(i.id, p, x.base)); }) }; }));
     }
     function dividendos(el) {
       var anos = P.M.anos(), linhas = anos.map(function (a) { return P.proventosAno(a); }).filter(function (r) { return r && r.ano >= 2017; });

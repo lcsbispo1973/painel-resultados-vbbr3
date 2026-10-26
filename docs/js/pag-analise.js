@@ -55,7 +55,7 @@
         if (!ok(a) && !ok(b)) return;
         if (i.grupo !== g && secao === 'ind') { g = i.grupo; out.push({ grupo: g }); }
         var d = dif(a, b), dtx = i.un === '%' ? P.fPP(d) : (i.un === 'R$ mi' ? P.fN(d) : (ok(d) ? (d >= 0 ? '+' : '−') + P.fUn(i.un, Math.abs(d)) : '—'));
-        out.push({ conta: i.nome + (i.un === 'R$ mi' ? '' : ' (' + i.un + ')'), info: i.formula + '. ' + (i.nota || ''), cel: [P.fUn(i.un, a), '', P.fUn(i.un, b), '', dtx, i.un === 'R$ mi' ? P.fPct(rel(a, b)) : '—'], cclass: ['', '', '', '', ok(d) ? (d >= 0 ? 'pos' : 'neg') : '', ''] });
+        out.push({ conta: i.nome + (i.un === 'R$ mi' ? '' : ' (' + i.un + ')'), info: i.explica, cel: [P.fUn(i.un, a), '', P.fUn(i.un, b), '', dtx, i.un === 'R$ mi' ? P.fPct(rel(a, b)) : '—'], cclass: ['', '', '', '', ok(d) ? (d >= 0 ? 'pos' : 'neg') : '', ''] });
         csv.push(['Indicadores', i.id, i.nome + ' (' + i.un + ')', P.numCsv(a), P.numCsv(b), P.numCsv(d), '']);
       });
     }
