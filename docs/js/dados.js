@@ -459,5 +459,14 @@
     return m;
   }
 
-  return { criar: criar, ord: ord, lab: lab, rotulo: rotulo, desloca: desloca, tri: tri, BASES: BASES, ok: ok, ehIntervalo: ehIntervalo, trimestresBase: trimestresBase, fechaBase: fechaBase, TIPOS: TIPOS, TIPOS_NOME: TIPOS_NOME, par: par };
+  // análise horizontal: variação da linha sobre a base (v ÷ b − 1). null = falta valor; NaN = não significativa
+  // (base zero, troca de sinal ou variação acima de 999%). Despesas negativas nos dois períodos: +10% = despesa 10% maior.
+  var ah = function (v, b) {
+    if (!ok(v) || !ok(b) || (v === 0 && b === 0)) return null;
+    if (b === 0 || (v !== 0 && (v < 0) !== (b < 0))) return NaN;
+    var r = v / b - 1;
+    return Math.abs(r) > 9.99 ? NaN : r;
+  };
+
+  return { ah: ah, criar: criar, ord: ord, lab: lab, rotulo: rotulo, desloca: desloca, tri: tri, BASES: BASES, ok: ok, ehIntervalo: ehIntervalo, trimestresBase: trimestresBase, fechaBase: fechaBase, TIPOS: TIPOS, TIPOS_NOME: TIPOS_NOME, par: par };
 });

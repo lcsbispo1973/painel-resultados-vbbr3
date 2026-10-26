@@ -132,10 +132,14 @@
     dra: 'R$ milhões. O 4º trimestre é a diferença entre o ano e o acumulado de nove meses.'
   };
   var DEN = { dre: '3.01', bp: '1', dva: '7.01' };
+  var NOTA_AV = { dre: 'AV: cada linha em % da receita líquida.', bp: 'AV: cada linha em % do ativo total.', dva: 'AV: cada linha em % da receita da DVA.' };
+  var NOTA_AH = { f: 'AH a/a: variação de cada linha sobre o mesmo período do ano anterior. Em linhas negativas nos dois períodos (despesas), +10% indica despesa 10% maior. n.s.: não significativa (troca de sinal, base zero ou variação acima de 999%).',
+                  bp: 'AH a/a: variação de cada saldo sobre a mesma data do ano anterior. n.s.: não significativa (troca de sinal, base zero ou variação acima de 999%).' };
+  var fAH = function (r) { return r === null || r === undefined ? '—' : isNaN(r) ? 'n.s.' : (r > 0 ? '+' : '') + P.f1(r * 100) + '%'; };
   P.RESUMO = RESUMO; P.TOT = TOT; P.DEN = DEN;
   function paginaDemonstracoes() {
     var ref = {}, SUBS = [['dre', 'Resultado'], ['bp', 'Balanço'], ['dfc', 'Fluxo de caixa'], ['dva', 'DVA'], ['dra', 'DRA'], ['dmpl', 'DMPL']];
-    var est = { niv: 'r', av: false, conta: {} };
+    var est = { niv: 'r', an: 'n', conta: {} };   // an: n = só valores, v = análise vertical, h = análise horizontal
     function sub() { return P.sub('dem', 'dre'); }
     function linhas(ds, cols, tend) {   // tend: períodos do minigráfico de tendência de cada linha (opcional)
       var M = P.M, x = P.x(S.a), out = [];
@@ -144,13 +148,16 @@
         if (est.niv === 'r' && !RESUMO[ds](l)) return;
         var vals = cols.map(function (p) { return M.agg(ds, l.cd_conta, p, x.base); });
         if (!vals.some(ok)) return;
-        var cel = vals.map(P.fN), cls = [];
-        if (est.av && DEN[ds]) {
-          var av = cols.map(function (p, i) { var d = M.agg(ds, DEN[ds], p, x.base); return ok(vals[i]) && ok(d) && d ? vals[i] / d : null; });
-          cel = []; vals.forEach(function (v, i) { cel.push(P.fN(v)); cel.push(ok(av[i]) ? P.f1(av[i] * 100) + '%' : '—'); cls.push('', 'av'); });
+        var cel = vals.map(P.fN), cls = [], an = null;
+        if (est.an === 'v' && DEN[ds]) {
+          an = cols.map(function (p, i) { var d = M.agg(ds, DEN[ds], p, x.base); return ok(vals[i]) && ok(d) && d ? vals[i] / d : null; });
+          cel = []; vals.forEach(function (v, i) { cel.push(P.fN(v)); cel.push(ok(an[i]) ? P.f1(an[i] * 100) + '%' : '—'); cls.push('', 'av'); });
+        } else if (est.an === 'h') {   // mesmo período do ano anterior (balanço: mesma data do ano anterior)
+          an = cols.map(function (p, i) { return Dados.ah(vals[i], M.agg(ds, l.cd_conta, M.desloca(p, 4), x.base)); });
+          cel = []; vals.forEach(function (v, i) { cel.push(P.fN(v)); cel.push(fAH(an[i])); cls.push('', 'av'); });
         }
         if (tend) { var sp = h('div', { class: 'spk', 'aria-hidden': 'true' }); G.spark(sp, tend.map(function (p) { return M.agg(ds, l.cd_conta, p, x.base); })); cel = cel.concat([sp]); }
-        out.push({ id: l.cd_conta, cd: l.cd_conta, conta: l.cd_conta + '  ' + l.conta, nivel: l.nivel, vals: vals, cel: cel, cclass: cls, cls: TOT[ds].indexOf(l.cd_conta) >= 0 ? 'tot' : (l.nivel <= 2 ? 'l1' : '') });
+        out.push({ id: l.cd_conta, cd: l.cd_conta, conta: l.cd_conta + '  ' + l.conta, nivel: l.nivel, vals: vals, an: an, cel: cel, cclass: cls, cls: TOT[ds].indexOf(l.cd_conta) >= 0 ? 'tot' : (l.nivel <= 2 ? 'l1' : '') });
       });
       return out;
     }
@@ -174,14 +181,15 @@
         var cols = P.hist(5), tend = P.hist(8);
         ref.ctl.replaceChildren(
           P.segmentado([['r', 'Resumo'], ['d', 'Detalhado']], est.niv, function (v) { est.niv = v; P.render(); }, 'Nível'),
-          DEN[ds] ? P.segmentado([['n', 'Valores'], ['s', 'Com análise vertical']], est.av ? 's' : 'n', function (v) { est.av = v === 's'; P.render(); }, 'Análise vertical') : null,
+          P.segmentado([['n', 'Valores']].concat(DEN[ds] ? [['v', 'Análise vertical']] : []).concat([['h', 'Análise horizontal']]), (est.an === 'v' && !DEN[ds]) ? 'n' : est.an, function (v) { est.an = v; P.render(); }, 'Análise'),
           h('button', { class: 'btn', type: 'button', onclick: function () { exporta(ds, cols); } }, 'Baixar para Excel'));
         var cd = est.conta[ds] || PADRAO[ds], l = P.M.linha(ds, cd) || P.M.linhas(ds)[0], lh = P.hist(x.base === 'T' ? 12 : 8);
         ref.titulo.textContent = l.cd_conta + '  ' + l.conta;
         G.barras(ref.chart, lh.map(P.rotP), lh.map(function (p) { return P.M.agg(ds, l.cd_conta, p, x.base); }), l.conta, P.fN, { destaque: P.rotulo(S.a) });
         ref.tTit.textContent = P.NOME_DS[ds] + ' — ' + P.rotulo(S.a) + ' e períodos anteriores';
-        ref.nota.textContent = NOTA_DS[ds];
-        var heads = []; cols.forEach(function (p) { heads.push(P.rotP(p)); if (est.av && DEN[ds]) heads.push('AV'); });
+        var modo = (est.an === 'v' && !DEN[ds]) ? 'n' : est.an;
+        ref.nota.textContent = NOTA_DS[ds] + (modo === 'v' ? ' ' + NOTA_AV[ds] : modo === 'h' ? ' ' + NOTA_AH[ds === 'bp' ? 'bp' : 'f'] : '');
+        var heads = []; cols.forEach(function (p) { heads.push(P.rotP(p)); if (modo === 'v') heads.push('AV'); if (modo === 'h') heads.push('AH a/a'); });
         heads.push('Tendência (' + tend.length + ' períodos)');
         P.tabela(ref.tb, 'R$ milhões', heads, linhas(ds, cols, tend), function (r) {
           est.conta[ds] = r.cd; P.render();
@@ -233,8 +241,13 @@
       ref.sAviso.textContent = aviso;
     }
     function exporta(ds, cols) {
-      var ls = linhas(ds, cols);
-      P.csv('vibra_' + ds + '_' + P.rotulo(S.a) + '.csv', ['cd_conta', 'conta'].concat(cols.map(P.rotP)), ls.map(function (l) { return [l.cd, l.conta.slice(l.cd.length + 2)].concat(l.vals.map(P.numCsv)); }));
+      var ls = linhas(ds, cols), modo = (est.an === 'v' && !DEN[ds]) ? 'n' : est.an, rot = modo === 'v' ? 'AV %' : 'AH a/a %';
+      var heads = ['cd_conta', 'conta']; cols.forEach(function (p) { heads.push(P.rotP(p)); if (modo !== 'n') heads.push(P.rotP(p) + ' ' + rot); });
+      P.csv('vibra_' + ds + '_' + P.rotulo(S.a) + '.csv', heads, ls.map(function (l) {
+        var r = [l.cd, l.conta.slice(l.cd.length + 2)];
+        l.vals.forEach(function (v, i) { r.push(P.numCsv(v)); if (modo !== 'n') { var a = l.an && l.an[i]; r.push(a === null || a === undefined ? '' : isNaN(a) ? 'n.s.' : P.numCsv(Math.round(a * 1000) / 10)); } });
+        return r;
+      }));
     }
     function renderDmpl() {
       var d = P.D.dmpl; if (!d) return;

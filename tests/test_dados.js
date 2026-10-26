@@ -134,4 +134,18 @@ perto(m.ind('receita', '4T16', 'AN') / m.ind('receita', '4T15', 'AN') - 1, 86637
   assert.strictEqual(pd.inicio.v, 21005); assert.strictEqual(pd.fim.v, 16062); perto(pd.passos[0].v, -fco, 'ponte da dívida: geração operacional'); n += 3;
   const cx = E.caixa('2T26', 'T'); assert.strictEqual(cx.inicio.v, g(dfc, '6.05.01', '2T26')); assert.strictEqual(cx.fim.v, g(dfc, '6.05.02', '2T26')); n += 2;
 }
+// análise horizontal (a/a): fórmula e valores reais conferidos à mão
+{
+  assert.strictEqual(D.ah(110, 100).toFixed(10), (0.1).toFixed(10)); assert.strictEqual(D.ah(-110, -100).toFixed(10), (0.1).toFixed(10));
+  assert(isNaN(D.ah(50, -100)) && isNaN(D.ah(5, 0)) && isNaN(D.ah(1100, 100))); assert.strictEqual(D.ah(null, 1), null); assert.strictEqual(D.ah(0, 0), null); assert.strictEqual(D.ah(0, -10), -1); n += 5;
+  const ahT = (t, ds, cd, a, b) => { const v = g(t, cd, a), w = g(t, cd, b); perto(D.ah(m.agg(ds, cd, a, 'T'), m.agg(ds, cd, b, 'T')), v / w - 1, `AH ${ds} ${cd} ${a}`); n++; };
+  ahT(dre, 'dre', '3.01', '2T26', '2T25'); ahT(dre, 'dre', '3.04.01', '2T26', '2T25'); ahT(dre, 'dre', '3.11', '1T26', '1T25');
+  ahT(bp, 'bp', '1', '2T26', '2T25'); ahT(bp, 'bp', '2.03', '2T26', '2T25'); ahT(dva, 'dva', '7.01', '2T26', '2T25'); ahT(dfc, 'dfc', '6.01', '2T26', '2T25');
+  // acumulado do ano (S): 1T+2T de cada ano
+  const s2 = (t, cd, a) => g(t, cd, '1T' + a) + g(t, cd, '2T' + a);
+  perto(D.ah(m.agg('dre', '3.01', '2T26', 'S'), m.agg('dre', '3.01', '2T25', 'S')), s2(dre, '3.01', '26') / s2(dre, '3.01', '25') - 1, 'AH dre 3.01 1S26'); n++;
+  // exercício (AN): soma dos quatro trimestres
+  const an = (t, cd, a) => [1, 2, 3, 4].reduce((x, q) => x + g(t, cd, q + 'T' + a), 0);
+  perto(D.ah(m.agg('dre', '3.05', '4T25', 'AN'), m.agg('dre', '3.05', '4T24', 'AN')), an(dre, '3.05', '25') / an(dre, '3.05', '24') - 1, 'AH dre 3.05 2025'); n++;
+}
 console.log(`TESTE DADOS OK: ${n} conferências`);
