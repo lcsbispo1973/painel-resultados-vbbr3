@@ -267,7 +267,7 @@
 
     // valuation: preço de fechamento da B3 no fim do período × ações em circulação (CVM) na mesma data
     add(G.mer, 'preco', 'Cotação no fim do período (VBBR3)', 'R$', 'Último fechamento da B3 até a data-base do período', function (c) { return c.preco(); }, 'Preço como negociado, sem ajuste por proventos. Até 21/10/2021 o código negociado era BRDT3 (Petrobras Distribuidora); a partir de 22/10/2021, VBBR3 (Vibra Energia).');
-    add(G.mer, 'mcap', 'Valor de mercado', 'R$ mi', 'Cotação × ações em circulação (ex-tesouraria)', function (c) { return c.mcap(); }, 'Disponível a partir de 1T20 (composição do capital na CVM).');
+    add(G.mer, 'mcap', 'Valor de mercado', 'R$ mi', 'Cotação × ações em circulação (ex-tesouraria)', function (c) { return c.mcap(); }, 'Ações: composição do capital nas ITR/DFP a partir de 2020; de 4T17 a 4T19, Formulário de Referência.');
     add(G.mer, 'ev', 'Valor da firma (EV)', 'R$ mi', 'Valor de mercado + dívida líquida + participação de não controladores (2.03.09)', function (c) { return c.ev(); }, 'Dívida líquida conforme definida neste painel (inclui arrendamentos).');
     add(G.mer, 'pl', 'P/L (UDM)', 'x', 'Valor de mercado ÷ lucro dos controladores UDM', function (c) { var l = c.u('dre', '3.11.01'); return ok(l) && l > 0 ? div(c.mcap(), l) : null; }, NOTA_UDM + ' Só calculado com lucro positivo.');
     add(G.mer, 'pvp', 'P/VP', 'x', 'Valor de mercado ÷ PL dos controladores', function (c) { var pl = c.plc(0); return ok(pl) && pl > 0 ? div(c.mcap(), pl) : null; }, NOTA_SALDO);
@@ -287,6 +287,102 @@
       var q0 = m.ultimaCotacao(), lista = per.dre, i = IND[id]; if (!q0 || !i) return null;
       var v = i.f(m.contexto(lista[lista.length - 1], 'T', q0.p));
       return ok(v) ? (i.un === '%' ? v * 100 : v) : null;
+    };
+    // ---------- estruturas dos gráficos-síntese e das pontes ----------
+    // Cada estrutura devolve { inicio, passos, fim } (ou blocos) e "fecha": os passos somam exatamente a diferença entre
+    // os totais da CVM; os grupos que não têm conta própria são calculados por diferença e por isso ficam explícitos.
+    var E = m.estrutura = {};
+    var nz0 = function (v) { return ok(v) ? v : 0; };
+    var fecha = function (ini, passos, fim) { var acc = ini; passos.forEach(function (x) { if (!x.sub) acc += x.v; }); return Math.abs(acc - fim) <= 1.5; };
+    var limpa = function (passos) { return passos.filter(function (x) { return x.sub || Math.abs(x.v) >= 0.5; }); };
+    E.balanco = function (p) {
+      var b = function (cd) { return nz0(q('bp', cd, p)); };
+      if (!ok(q('bp', '1', p)) || !ok(q('bp', '2', p))) return null;
+      var caixa = b('1.01.01') + b('1.01.02'), rec = b('1.01.03'), est = b('1.01.04'), imob = b('1.02.03'), intg = b('1.02.04');
+      var forn = b('2.01.02'), dcp = b('2.01.04'), dlp = b('2.02.01');
+      var ativo = [{ rot: 'Caixa e aplicações', v: caixa }, { rot: 'Contas a receber', v: rec }, { rot: 'Estoques', v: est }, { rot: 'Outros ativos circulantes', v: b('1.01') - caixa - rec - est },
+        { rot: 'Realizável a longo prazo e investimentos', v: b('1.02') - imob - intg }, { rot: 'Imobilizado e direito de uso', v: imob }, { rot: 'Intangível', v: intg }];
+      var passivo = [{ rot: 'Fornecedores', v: forn }, { rot: 'Dívida de curto prazo', v: dcp }, { rot: 'Outros passivos circulantes', v: b('2.01') - forn - dcp },
+        { rot: 'Dívida de longo prazo', v: dlp }, { rot: 'Outros passivos não circulantes', v: b('2.02') - dlp }, { rot: 'Patrimônio líquido', v: b('2.03') }];
+      var sa = ativo.reduce(function (a, x) { return a + x.v; }, 0), sp = passivo.reduce(function (a, x) { return a + x.v; }, 0);
+      return { ativo: ativo, passivo: passivo, totAtivo: b('1'), totPassivo: b('2'), fecha: Math.abs(sa - b('1')) <= 1.5 && Math.abs(sp - b('2')) <= 1.5 && Math.abs(b('1') - b('2')) <= 1.5 };
+    };
+    E.resultado = function (p, base) {
+      var v = function (cd) { return m.agg('dre', cd, p, base); }, z = function (cd) { return nz0(v(cd)); };
+      if (!ok(v('3.03')) || !ok(v('3.11'))) return null;
+      var vend = z('3.04.01'), ga = z('3.04.02'), eq = z('3.04.06');
+      var passos = limpa([{ rot: 'Despesas com vendas', v: vend }, { rot: 'Despesas gerais e administrativas', v: ga }, { rot: 'Outras receitas e despesas operacionais', v: z('3.04') - vend - ga - eq },
+        { rot: 'Equivalência patrimonial', v: eq }, { rot: 'Resultado operacional (EBIT)', v: z('3.05'), sub: true }, { rot: 'Resultado financeiro', v: z('3.06') }, { rot: 'IR e CS', v: z('3.08') },
+        { rot: 'Operações descontinuadas', v: z('3.10') }]);
+      return { inicio: { rot: 'Lucro bruto', v: v('3.03') }, passos: passos, fim: { rot: 'Lucro líquido', v: v('3.11') }, receita: v('3.01'), custo: v('3.02'),
+        fecha: fecha(v('3.03'), passos, v('3.11')) && Math.abs(z('3.03') + z('3.04') - z('3.05')) <= 1.5 };
+    };
+    E.caixa = function (p, base) {
+      var f = function (cd) { return m.agg('dfc', cd, p, base); }, z = function (cd) { return nz0(f(cd)); };
+      var ini = f('6.05.01'), fim = f('6.05.02'); if (!ok(ini) || !ok(fim) || !ok(f('6.01'))) return null;
+      var ger = f('6.01.01'), giro = f('6.01.02'), capex = z('6.02.01'), divida = z('6.03.02') + z('6.03.03') + z('6.03.10'), juros = z('6.03.04') + z('6.03.11'), div = z('6.03.05') + z('6.03.06');
+      var op = ok(ger) && ok(giro) ? [{ rot: 'Caixa gerado nas operações', v: ger }, { rot: 'Capital de giro (ativos e passivos operacionais)', v: giro }, { rot: 'Outros operacionais', v: z('6.01') - ger - giro }] : [{ rot: 'Atividades operacionais', v: z('6.01') }];
+      var passos = limpa(op.concat([{ rot: 'Investimentos em imobilizado e intangível', v: capex }, { rot: 'Outros investimentos', v: z('6.02') - capex },
+        { rot: 'Captações e amortizações de dívida e arrendamentos', v: divida }, { rot: 'Juros pagos', v: juros }, { rot: 'Dividendos e JCP pagos', v: div },
+        { rot: 'Outros de financiamento', v: z('6.03') - divida - juros - div }, { rot: 'Variação cambial do caixa', v: z('6.04') }]));
+      return { inicio: { rot: 'Caixa no início', v: ini }, passos: passos, fim: { rot: 'Caixa no fim', v: fim }, fecha: fecha(ini, passos, fim) };
+    };
+    E.dva = function (p, base) {
+      var f = function (cd) { return m.agg('dva', cd, p, base); }, z = function (cd) { return nz0(f(cd)); };
+      var tot = f('7.07'); if (!ok(tot) || !ok(f('7.08'))) return null;
+      var acion = z('7.08.04.01') + z('7.08.04.02');
+      var itens = [{ rot: 'Pessoal', v: z('7.08.01') }, { rot: 'Impostos, taxas e contribuições', v: z('7.08.02') }, { rot: 'Financiadores (juros e aluguéis)', v: z('7.08.03') },
+        { rot: 'Acionistas (JCP e dividendos)', v: acion }, { rot: 'Lucros retidos', v: z('7.08.04') - acion }, { rot: 'Outros', v: z('7.08.05') }].filter(function (x) { return Math.abs(x.v) >= 0.5; });
+      var sx = itens.reduce(function (a, x) { return a + x.v; }, 0);
+      return { total: tot, itens: itens, fecha: Math.abs(sx - z('7.08')) <= 1.5 && Math.abs(z('7.08') - tot) <= 1.5 };
+    };
+    E.dra = function (p, base) {
+      var f = function (cd) { return m.agg('dra', cd, p, base); };
+      if (!ok(f('4.01')) || !ok(f('4.03'))) return null;
+      var passos = [{ rot: 'Outros resultados abrangentes', v: nz0(f('4.03')) - f('4.01') }];
+      return { inicio: { rot: 'Lucro líquido', v: f('4.01') }, passos: passos, fim: { rot: 'Resultado abrangente', v: f('4.03') }, fecha: Math.abs(nz0(f('4.02')) - passos[0].v) <= 1.5 };
+    };
+    var DM = null;
+    E.pl = function (p) {   // DMPL acumulada do ano até p, coluna do PL consolidado
+      var d = dados.dmpl; if (!d) return null;
+      if (!DM) { DM = {}; d.valores.forEach(function (v) { if (v[2] === 'Patrimônio Líquido Consolidado') DM[v[0] + '|' + v[1]] = v[3]; }); }
+      var g = function (cd) { return DM[p + '|' + cd]; }, z = function (cd) { return nz0(g(cd)); };
+      var ini = ok(g('5.03')) ? g('5.03') : g('5.01'), fim = g('5.07'); if (!ok(ini) || !ok(fim)) return null;
+      var div = z('5.04.06') + z('5.04.07');
+      var passos = limpa([{ rot: 'Lucro líquido', v: z('5.05.01') }, { rot: 'Outros resultados abrangentes', v: z('5.05') - z('5.05.01') }, { rot: 'Dividendos e JCP', v: div },
+        { rot: 'Outras transações com acionistas', v: z('5.04') - div }, { rot: 'Outras mutações', v: fim - ini - z('5.04') - z('5.05') }]);
+      var plbp = q('bp', '2.03', p);
+      return { inicio: { rot: 'PL no início do ano', v: ini }, passos: passos, fim: { rot: 'PL no fim', v: fim }, fecha: fecha(ini, passos, fim) && (!ok(plbp) || Math.abs(plbp - fim) <= 1.5) };
+    };
+    // pontes entre dois períodos (B → A)
+    E.ponteBalanco = function (pB, pA, lado) {
+      var a = E.balanco(pA), b = E.balanco(pB); if (!a || !b) return null;
+      var ga = a[lado], gb = b[lado], tA = lado === 'ativo' ? a.totAtivo : a.totPassivo, tB = lado === 'ativo' ? b.totAtivo : b.totPassivo;
+      var passos = limpa(ga.map(function (x, i) { return { rot: x.rot, v: x.v - gb[i].v }; }));
+      return { inicio: { rot: (lado === 'ativo' ? 'Ativo ' : 'Passivo e PL ') + pB, v: tB }, passos: passos, fim: { rot: (lado === 'ativo' ? 'Ativo ' : 'Passivo e PL ') + pA, v: tA }, fecha: a.fecha && b.fecha && fecha(tB, passos, tA) };
+    };
+    E.ponteLucro = function (A, B) {
+      var v = function (cd, l) { return m.agg('dre', cd, l.p, l.base); }, d = function (cd) { return nz0(v(cd, A)) - nz0(v(cd, B)); };
+      if (!ok(v('3.11', A)) || !ok(v('3.11', B)) || !ok(v('3.03', A)) || !ok(v('3.03', B))) return null;
+      var dv = d('3.04.01'), dg = d('3.04.02'), de = d('3.04.06');
+      var passos = limpa([{ rot: 'Lucro bruto', v: d('3.03') }, { rot: 'Despesas com vendas', v: dv }, { rot: 'Despesas gerais e administrativas', v: dg },
+        { rot: 'Outras receitas e despesas operacionais', v: d('3.04') - dv - dg - de }, { rot: 'Equivalência patrimonial', v: de }, { rot: 'Resultado financeiro', v: d('3.06') },
+        { rot: 'IR e CS', v: d('3.08') }, { rot: 'Operações descontinuadas', v: d('3.10') }]);
+      return { inicio: { rot: 'Lucro B', v: v('3.11', B) }, passos: passos, fim: { rot: 'Lucro A', v: v('3.11', A) }, fecha: fecha(v('3.11', B), passos, v('3.11', A)) };
+    };
+    E.ponteDivida = function (p0, p1) {   // dívida líquida divulgada no fim de p0 → fim de p1 (p0 antes de p1), pelos fluxos de caixa do intervalo
+      var dl = dados.dlrel && dados.dlrel.series, d0 = dl && dl[p0], d1 = dl && dl[p1];
+      if (!d0 || !d1 || !ok(d0.v) || !ok(d1.v) || ord(p1) <= ord(p0)) return null;
+      var base = 'R:' + lab(ord(p0) + 1);
+      if (m.agg('dfc', '6.01', p1, base) === null) return null;
+      var f = function (cd) { return nz0(m.agg('dfc', cd, p1, base)); };
+      var passos = [{ rot: 'Geração de caixa operacional', v: -f('6.01') }, { rot: 'Investimentos em imobilizado e intangível', v: -f('6.02.01') },
+        { rot: 'Outros investimentos e desinvestimentos', v: -(f('6.02') - f('6.02.01')) }, { rot: 'Juros pagos', v: -(f('6.03.04') + f('6.03.11')) },
+        { rot: 'Dividendos e JCP pagos', v: -(f('6.03.05') + f('6.03.06')) }, { rot: 'Recompra de ações e capital', v: -(f('6.03.12') + f('6.03.09') + f('6.03.17')) }];
+      var soma0 = passos.reduce(function (a, x) { return a + x.v; }, 0);
+      passos.push({ rot: 'Outros sem efeito no caixa', v: d1.v - d0.v - soma0, outros: true });
+      passos = limpa(passos);
+      return { inicio: { rot: 'Dívida líquida ' + p0, v: d0.v }, passos: passos, fim: { rot: 'Dívida líquida ' + p1, v: d1.v }, fecha: fecha(d0.v, passos, d1.v) };
     };
     m.periodosInd = function (base) {   // períodos em que faz sentido calcular indicadores
       return m.periodos('dre', base).filter(function (p) { return true; });

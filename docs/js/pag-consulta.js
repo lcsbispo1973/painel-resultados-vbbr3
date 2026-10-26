@@ -137,7 +137,7 @@
     var ref = {}, SUBS = [['dre', 'Resultado'], ['bp', 'Balanço'], ['dfc', 'Fluxo de caixa'], ['dva', 'DVA'], ['dra', 'DRA'], ['dmpl', 'DMPL']];
     var est = { niv: 'r', av: false, conta: {} };
     function sub() { return P.sub('dem', 'dre'); }
-    function linhas(ds, cols) {
+    function linhas(ds, cols, tend) {   // tend: períodos do minigráfico de tendência de cada linha (opcional)
       var M = P.M, x = P.x(S.a), out = [];
       M.linhas(ds).forEach(function (l) {
         if (ds === 'dre' && l.cd_conta.indexOf('3.99') === 0) return;
@@ -149,23 +149,29 @@
           var av = cols.map(function (p, i) { var d = M.agg(ds, DEN[ds], p, x.base); return ok(vals[i]) && ok(d) && d ? vals[i] / d : null; });
           cel = []; vals.forEach(function (v, i) { cel.push(P.fN(v)); cel.push(ok(av[i]) ? P.f1(av[i] * 100) + '%' : '—'); cls.push('', 'av'); });
         }
+        if (tend) { var sp = h('div', { class: 'spk', 'aria-hidden': 'true' }); G.spark(sp, tend.map(function (p) { return M.agg(ds, l.cd_conta, p, x.base); })); cel = cel.concat([sp]); }
         out.push({ id: l.cd_conta, cd: l.cd_conta, conta: l.cd_conta + '  ' + l.conta, nivel: l.nivel, vals: vals, cel: cel, cclass: cls, cls: TOT[ds].indexOf(l.cd_conta) >= 0 ? 'tot' : (l.nivel <= 2 ? 'l1' : '') });
       });
       return out;
     }
     return {
       init: function (el) {
-        ref.nav = h('div', { class: 'subnav' }); ref.ctl = h('div', { class: 'controls' }); ref.titulo = h('h2'); ref.nota = h('p', { class: 'note' }); ref.chart = P.chart('d-chart'); ref.tb = h('table');
-        ref.box = h('div', null, h('div', { class: 'card wide', style: 'margin-bottom:14px' }, ref.titulo, h('p', { class: 'note' }, 'Toque em uma linha da tabela para ver o histórico da conta.'), ref.chart), ref.nota, h('div', { class: 'twrap' }, ref.tb));
+        ref.nav = h('div', { class: 'subnav' }); ref.ctl = h('div', { class: 'controls' });
+        ref.sTit = h('h2'); ref.sNota = h('p', { class: 'note' }); ref.sin = P.chart('d-sintese'); ref.sAviso = h('p', { class: 'note' });
+        ref.titulo = h('h2'); ref.chart = P.chart('d-chart'); ref.nota = h('p', { class: 'note' }); ref.tb = h('table');
+        ref.hist = h('div', { class: 'card wide', style: 'margin-top:14px' }, ref.titulo, h('p', { class: 'note' }, 'Histórico da linha escolhida na tabela (toque em outra linha para trocar).'), ref.chart);
+        ref.tTit = h('h2', { style: 'margin:18px 0 4px' });
+        ref.box = h('div', null, ref.tTit, ref.nota, h('div', { class: 'twrap' }, ref.tb), ref.hist);
         ref.dmpl = h('div'); ref.dmplTb = h('table');
-        el.append(ref.nav, ref.ctl, ref.box, ref.dmpl);
+        el.append(ref.nav, ref.ctl, h('div', { class: 'card wide', style: 'margin-bottom:14px' }, ref.sTit, ref.sNota, ref.sin, ref.sAviso), ref.box, ref.dmpl);
       },
       render: function () {
         var ds = sub(), x = P.x(S.a);
         ref.nav.replaceChildren(P.segmentado(SUBS.map(function (s) { return [s[0], s[1]]; }), ds, function (v) { S.sub.dem = v; P.render(); }, 'Demonstração'));
         ref.box.hidden = ds === 'dmpl'; ref.dmpl.hidden = ds !== 'dmpl';
+        sintese(ds, x);
         if (ds === 'dmpl') return renderDmpl();
-        var cols = P.hist(5);
+        var cols = P.hist(5), tend = P.hist(8);
         ref.ctl.replaceChildren(
           P.segmentado([['r', 'Resumo'], ['d', 'Detalhado']], est.niv, function (v) { est.niv = v; P.render(); }, 'Nível'),
           DEN[ds] ? P.segmentado([['n', 'Valores'], ['s', 'Com análise vertical']], est.av ? 's' : 'n', function (v) { est.av = v === 's'; P.render(); }, 'Análise vertical') : null,
@@ -173,12 +179,59 @@
         var cd = est.conta[ds] || PADRAO[ds], l = P.M.linha(ds, cd) || P.M.linhas(ds)[0], lh = P.hist(x.base === 'T' ? 12 : 8);
         ref.titulo.textContent = l.cd_conta + '  ' + l.conta;
         G.barras(ref.chart, lh.map(P.rotP), lh.map(function (p) { return P.M.agg(ds, l.cd_conta, p, x.base); }), l.conta, P.fN, { destaque: P.rotulo(S.a) });
+        ref.tTit.textContent = P.NOME_DS[ds] + ' — ' + P.rotulo(S.a) + ' e períodos anteriores';
         ref.nota.textContent = NOTA_DS[ds];
         var heads = []; cols.forEach(function (p) { heads.push(P.rotP(p)); if (est.av && DEN[ds]) heads.push('AV'); });
-        P.tabela(ref.tb, 'R$ milhões', heads, linhas(ds, cols), function (r) { est.conta[ds] = r.cd; P.render(); });
+        heads.push('Tendência (' + tend.length + ' períodos)');
+        P.tabela(ref.tb, 'R$ milhões', heads, linhas(ds, cols, tend), function (r) {
+          est.conta[ds] = r.cd; P.render();
+          if (ref.hist.scrollIntoView) ref.hist.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        });
       },
-      manchete: function () { return P.manchete.demonstracoes(sub()); }
+            manchete: function () { return P.manchete.demonstracoes(sub()); }
     };
+    // gráfico-síntese de cada demonstração no período A (estruturas de Dados: fecham com os totais da CVM)
+    function sintese(ds, x) {
+      var E = P.M.estrutura, rot = P.rotulo(S.a), fim = P.M.fimPeriodo(x.p).split('-').reverse().join('/'), r = null, aviso = '';
+      ref.sAviso.textContent = '';
+      if (ds === 'dre') {
+        r = E.resultado(x.p, x.base);
+        ref.sTit.textContent = 'Do lucro bruto ao lucro líquido — ' + rot;
+        ref.sNota.textContent = r ? 'R$ milhões. Receita líquida de ' + P.fN(r.receita) + ' e custo de ' + P.fN(r.custo) + ' resultam no lucro bruto de ' + P.fN(r.inicio.v) + ' (margem bruta de ' + P.f1(r.inicio.v / r.receita * 100) + '%). Verde: aumenta o lucro; amarelo: reduz.' : '';
+        if (r) G.ponte(ref.sin, r.inicio, r.passos, r.fim, P.fN); else G.falha(ref.sin);
+      } else if (ds === 'bp') {
+        r = E.balanco(x.p);
+        ref.sTit.textContent = 'Composição do balanço em ' + fim;
+        ref.sNota.textContent = 'R$ milhões e % do total. Dívida: empréstimos, financiamentos e arrendamentos. "Outros" e "Realizável a longo prazo e investimentos" são calculados por diferença para fechar com os totais.';
+        // cores: ativo em verdes (do mais líquido ao menos líquido); no passivo, dívida em amarelo e PL em verde-escuro
+        var CA = [['--c4', 1], ['--c1', 1], ['--c1', 0.7], ['--c1', 0.45], ['--c3', 0.8], ['--c2', 0.8], ['--c2', 0.5]], CP = [['--c3', 1], ['--c5', 1], ['--c3', 0.6], ['--c5', 0.65], ['--c3', 0.35], ['--c4', 1]];
+        if (r) G.blocos(ref.sin, [{ nome: 'Ativo', total: r.totAtivo, partes: r.ativo.map(function (x, i) { return { rot: x.rot, v: x.v, cor: CA[i] }; }) },
+          { nome: 'Passivo e PL', total: r.totPassivo, partes: r.passivo.map(function (x, i) { return { rot: x.rot, v: x.v, cor: CP[i] }; }) }], P.fN); else G.falha(ref.sin);
+      } else if (ds === 'dfc') {
+        r = E.caixa(x.p, x.base);
+        ref.sTit.textContent = 'Do caixa inicial ao final — ' + rot;
+        ref.sNota.textContent = 'R$ milhões, caixa e equivalentes de caixa. Verde: entrada; amarelo: saída.';
+        if (r) G.ponte(ref.sin, r.inicio, r.passos, r.fim, P.fN); else G.falha(ref.sin);
+      } else if (ds === 'dva') {
+        r = E.dva(x.p, x.base);
+        ref.sTit.textContent = 'Para onde foi o valor adicionado — ' + rot;
+        ref.sNota.textContent = r ? 'R$ milhões. Valor adicionado total a distribuir: ' + P.fN(r.total) + '. ' + r.itens.map(function (i) { return i.rot + ': ' + P.f1(i.v / r.total * 100) + '%'; }).join('; ') + '. Lucros retidos incluem a parcela dos não controladores. Valores negativos indicam créditos (ex.: impostos recuperados) maiores que os encargos.' : '';
+        if (r) G.variacoes(ref.sin, r.itens, P.fN, 'Valor'); else G.falha(ref.sin);
+      } else if (ds === 'dra') {
+        r = E.dra(x.p, x.base);
+        ref.sTit.textContent = 'Do lucro ao resultado abrangente — ' + rot;
+        ref.sNota.textContent = 'R$ milhões. Outros resultados abrangentes: ajustes que vão direto ao patrimônio (conversão, hedge, benefícios a empregados).';
+        if (r) G.ponte(ref.sin, r.inicio, r.passos, r.fim, P.fN); else G.falha(ref.sin);
+      } else if (ds === 'dmpl') {
+        var d = P.D.dmpl, p = d && d.periodos.indexOf(x.p) >= 0 ? x.p : (d ? d.periodos[d.periodos.length - 1] : null);
+        r = p ? E.pl(p) : null;
+        ref.sTit.textContent = 'Do patrimônio inicial ao final — acumulado do ano até ' + (p || rot);
+        ref.sNota.textContent = 'R$ milhões, patrimônio líquido consolidado (inclui não controladores). Verde: aumenta o PL; amarelo: reduz.';
+        if (r) G.ponte(ref.sin, r.inicio, r.passos, r.fim, P.fN); else G.falha(ref.sin);
+      }
+      if (r && r.fecha === false) aviso = 'Atenção: este gráfico não fechou com os totais da demonstração neste período.';
+      ref.sAviso.textContent = aviso;
+    }
     function exporta(ds, cols) {
       var ls = linhas(ds, cols);
       P.csv('vibra_' + ds + '_' + P.rotulo(S.a) + '.csv', ['cd_conta', 'conta'].concat(cols.map(P.rotP)), ls.map(function (l) { return [l.cd, l.conta.slice(l.cd.length + 2)].concat(l.vals.map(P.numCsv)); }));

@@ -283,7 +283,7 @@
       if (!visivelPdf(el)) return;
       var tag = el.tagName, cls = el.classList;
       if (/^(BUTTON|SELECT|INPUT|LABEL|SCRIPT|STYLE|NAV)$/.test(tag) || cls.contains('controls') || cls.contains('subnav') || cls.contains('seg') || cls.contains('info') || cls.contains('mda-lado') || cls.contains('legend')) return;
-      if (tag === 'H1' || tag === 'H2') { var s1 = textoLimpo(el); tarefas.push(function () { y += 2; cabe(14); texto(s1, { tam: tag === 'H1' ? 13.5 : 11.5, negrito: true, cor: ESC, depois: 1.2 }); }); return; }
+      if (tag === 'H1' || tag === 'H2') { var s1 = textoLimpo(el); tarefas.push(function () { y += 2; cabe(40); texto(s1, { tam: tag === 'H1' ? 13.5 : 11.5, negrito: true, cor: ESC, depois: 1.2 }); }); return; }
       if (tag === 'H3' || tag === 'H4') { var s3 = textoLimpo(el); tarefas.push(function () { cabe(12); texto(s3, { tam: 10.5, negrito: true, cor: VERDE, depois: 1 }); }); return; }
       if (tag === 'TABLE') { tarefas.push(function () { tabela(el); }); return; }
       if (cls.contains('chart')) { var sv = el.querySelector('svg'); if (sv) tarefas.push(function () { return svgPng(sv).then(function (img) { grafico(el, img); }); }); else { var f = el.querySelector('.fail'); if (f) tarefas.push(function () { texto(textoLimpo(f), { tam: 8.5, italico: true, cor: CINZA }); }); } return; }

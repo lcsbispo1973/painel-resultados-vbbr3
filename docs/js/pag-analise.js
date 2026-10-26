@@ -73,6 +73,12 @@
         ref.tit = h('h2'); ref.aviso = h('div', { class: 'aviso', hidden: true }); ref.tb = h('table'); ref.pares = P.chart('c-pares'); ref.var = P.chart('c-var');
         el.append(ref.modo, ref.livre, ref.ctl,
           h('div', { class: 'grid' }, P.card('Principais números', 'R$ milhões. A em verde, B em cinza.', ref.pares), P.card('Maiores variações', 'Linhas da seção escolhida com maior variação absoluta (A − B), R$ milhões.', ref.var)),
+          h('div', { class: 'sec' }, h('h2', null, 'Pontes de B para A')),
+          h('p', { class: 'note', style: 'margin-top:-4px' }, 'Cada ponte parte do valor de um período e chega ao do outro, linha a linha. Os grupos sem conta própria são calculados por diferença, e por isso cada ponte fecha exatamente com os totais das demonstrações.'),
+          h('div', { class: 'grid' }, P.card(ref.tLuc = h('span'), 'R$ milhões. Variação de cada linha do resultado entre os dois períodos.', ref.pLuc = P.chart('c-pluc')),
+            P.card(ref.tDiv = h('span'), ref.nDiv = h('span'), ref.pDiv = P.chart('c-pdiv'))),
+          h('div', { class: 'grid' }, P.card(ref.tAt = h('span'), 'R$ milhões, saldos no fim de cada período.', ref.pAt = P.chart('c-pat')),
+            P.card(ref.tPa = h('span'), 'R$ milhões, saldos no fim de cada período. Dívida: empréstimos, financiamentos e arrendamentos.', ref.pPa = P.chart('c-ppa'))),
           ref.tit, ref.aviso, h('div', { class: 'twrap' }, ref.tb),
           h('p', { class: 'note', style: 'margin-top:10px' }, 'AV: análise vertical (% da receita na DRE, do ativo total no balanço, das receitas na DVA). Δ % (análise horizontal): variação de A sobre B, calculada quando os dois valores têm o mesmo sinal. Indicadores em % mostram a diferença em pontos percentuais. Retorno, alavancagem e valuation usam sempre os 12 meses até o fim de cada período.'));
       },
@@ -99,10 +105,29 @@
         var cand = r.out.filter(function (l) { return !l.grupo && ok(l.a) && ok(l.b) && l.cls !== 'tot' && (l.nivel || 2) >= 3; });
         if (cand.length < 4) cand = r.out.filter(function (l) { return !l.grupo && ok(l.a) && ok(l.b) && l.cls !== 'tot'; });
         cand.sort(function (x, y) { return Math.abs(y.a - y.b) - Math.abs(x.a - x.b); });
+        pontes(r.A, r.B, rA, rB, nA === nB);
         G.variacoes(ref.var, cand.slice(0, 8).filter(function (l) { return Math.abs(l.a - l.b) >= 1; }).map(function (l) { return { rot: l.conta.replace(/^[\d.]+\s+/, ''), v: l.a - l.b }; }), P.fN);
       },
       manchete: function () { return P.manchete.comparar(); }
     };
+    function pontes(A, B, rA, rB, comparavel) {
+      var E = P.M.estrutura, fimA = A.p, fimB = B.p;
+      ref.tLuc.textContent = 'Lucro líquido: de ' + rB + ' para ' + rA;
+      var pl = comparavel ? E.ponteLucro(A, B) : null;
+      if (pl) { pl.inicio.rot = 'Lucro ' + rB; pl.fim.rot = 'Lucro ' + rA; G.ponte(ref.pLuc, pl.inicio, pl.passos, pl.fim, P.fN); }
+      else G.falha(ref.pLuc, comparavel ? 'Sem dados para os dois períodos' : 'A e B têm números de trimestres diferentes; a ponte do lucro não se aplica');
+      ref.tAt.textContent = 'Ativo: de ' + fimB + ' para ' + fimA;
+      ref.tPa.textContent = 'Passivo e patrimônio líquido: de ' + fimB + ' para ' + fimA;
+      var ba = E.ponteBalanco(fimB, fimA, 'ativo'), bp = E.ponteBalanco(fimB, fimA, 'passivo');
+      if (ba) G.ponte(ref.pAt, ba.inicio, ba.passos, ba.fim, P.fN); else G.falha(ref.pAt);
+      if (bp) G.ponte(ref.pPa, bp.inicio, bp.passos, bp.fim, P.fN); else G.falha(ref.pPa);
+      // dívida líquida: sempre do período mais antigo para o mais recente, pelos fluxos de caixa do intervalo
+      var o = P.M.ord, p0 = o(fimA) < o(fimB) ? fimA : fimB, p1 = p0 === fimA ? fimB : fimA;
+      ref.tDiv.textContent = 'Dívida líquida: de ' + p0 + ' para ' + p1;
+      ref.nDiv.textContent = 'R$ milhões, dívida líquida como divulgada no release. Fluxos de caixa de ' + P.M.desloca(p0, -1) + ' a ' + p1 + '. Verde: reduz a dívida; amarelo: aumenta. "Outros sem efeito no caixa": juros apropriados acima dos pagos, novos arrendamentos, câmbio e marcação a mercado de swaps, entre outros.';
+      var pd = p0 !== p1 ? E.ponteDivida(p0, p1) : null;
+      if (pd) G.ponte(ref.pDiv, pd.inicio, pd.passos, pd.fim, P.fN, { reduzBom: true }); else G.falha(ref.pDiv, p0 === p1 ? 'A e B terminam no mesmo trimestre' : 'Sem dívida líquida divulgada para os dois períodos');
+    }
   }
 
   function paginaMda() {

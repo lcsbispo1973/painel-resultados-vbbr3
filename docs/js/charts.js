@@ -22,6 +22,16 @@
     el.appendChild(d);
   }
   function largura(svg, strs) { var t = svg.append('text').attr('class', 'tick').style('visibility', 'hidden'), m = 0; strs.forEach(function (s) { t.text(s); m = Math.max(m, t.node().getComputedTextLength()); }); t.remove(); return m; }
+  // quebra um rótulo em até n linhas que caibam em larg px (a última com reticências se precisar)
+  function quebra(svg, texto, larg, n) {
+    var t = svg.append('text').attr('class', 'tick').style('visibility', 'hidden'), w = function (s) { t.text(s); return t.node().getComputedTextLength(); };
+    var pal = String(texto).split(/\s+/), linhas = [], atual = '';
+    pal.forEach(function (p) { var c = atual ? atual + ' ' + p : p; if (w(c) <= larg || !atual) atual = c; else { linhas.push(atual); atual = p; } });
+    if (atual) linhas.push(atual);
+    if (linhas.length > n) { linhas = linhas.slice(0, n); linhas[n - 1] += '…'; }
+    linhas = linhas.map(function (l) { while (w(l) > larg && l.length > 2) l = l.slice(0, -2) + '…'; return l; });
+    t.remove(); return linhas;
+  }
   function falha(el, msg) { el.replaceChildren(); var d = document.createElement('div'); d.className = 'fail'; d.textContent = msg || 'Sem dados para o período selecionado'; el.appendChild(d); }
   function rotulosX(labels, W) { var passo = Math.max(1, Math.ceil(labels.length / Math.max(2, Math.floor(W / 36)))); return labels.filter(function (_, i) { return (labels.length - 1 - i) % passo === 0; }); }
 
@@ -167,6 +177,95 @@
   }
 
 
+  // ponte horizontal (uma linha por etapa: legível no celular). passos: [{rot, v, sub?, outros?}]; opt.reduzBom: queda em verde (dívida)
+  function ponte(el, inicio, passos, fim, fmt, opt) {
+    fmt = fmt || String; opt = opt || {}; el.replaceChildren();
+    if (!inicio || !fim || inicio.v == null || fim.v == null) return falha(el);
+    var itens = [{ l: inicio.rot, ini: 0, fim: inicio.v, tipo: 'tot' }], acc = inicio.v;
+    passos.forEach(function (p) {
+      if (p.sub) { itens.push({ l: p.rot, ini: 0, fim: acc, tipo: 'sub' }); return; }
+      itens.push({ l: p.rot, ini: acc, fim: acc + p.v, v: p.v, tipo: p.v >= 0 ? 'up' : 'down', outros: p.outros }); acc += p.v;
+    });
+    itens.push({ l: fim.rot, ini: 0, fim: fim.v, tipo: 'tot' });
+    var W = el.clientWidth || 300, svg = d3.select(el).append('svg').attr('width', '100%').attr('role', 'img'), tp = tipo(el);
+    var ml = Math.min(W * (W < 480 ? 0.42 : 0.38), largura(svg, itens.map(function (d) { return d.l; })) + 10);
+    itens.forEach(function (d) { d.linhas = quebra(svg, d.l, ml - 8, 2); });
+    var lin = itens.some(function (d) { return d.linhas.length > 1; }) ? 30 : 25, H = itens.length * lin + 22;
+    var lo = Math.min(0, d3.min(itens, function (d) { return Math.min(d.ini, d.fim); })), hi = Math.max(0, d3.max(itens, function (d) { return Math.max(d.ini, d.fim); }));
+    // quando os totais são muito maiores que as variações, o eixo começa perto do menor nível (marcado com ≈ nas barras de total)
+    var niveis = []; itens.forEach(function (d) { if (d.tipo === 'up' || d.tipo === 'down') niveis.push(d.ini, d.fim); else niveis.push(d.fim); });
+    var nmin = d3.min(niveis), corte = false;
+    if (nmin > 0 && (hi - nmin) < 0.45 * hi) { lo = Math.max(0, nmin - (hi - nmin) * 0.35); corte = true; }
+    svg.attr('viewBox', '0 0 ' + W + ' ' + (H + (corte ? 16 : 0)));
+    var larguraVal = largura(svg, itens.map(function (d) { return fmt(d.tipo === 'up' || d.tipo === 'down' ? d.v : d.fim); })) + 8;
+    var x = d3.scaleLinear([lo, hi === lo ? lo + 1 : hi], [ml + 4, W - larguraVal]);
+    if (!corte) x.nice(4);
+    var tks = x.ticks(W < 420 ? 3 : 5), ult = -1e9;
+    x.tickValues = tks.filter(function (t) { var ok1 = x(t) - ult >= 58; if (ok1) ult = x(t); return ok1; });
+    svg.append('g').selectAll('line').data(x.tickValues).join('line').attr('x1', x).attr('x2', x).attr('y1', 0).attr('y2', H - 18).attr('stroke', 'var(--grid)');
+    svg.append('g').selectAll('text').data(x.tickValues).join('text').attr('class', 'tick').attr('x', x).attr('y', H - 4).attr('text-anchor', 'middle').text(fmt);
+    if (!corte) svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', 0).attr('y2', H - 18).attr('stroke', 'var(--muted)');
+    else svg.append('text').attr('class', 'tick').attr('x', W - 4).attr('y', H + 12).attr('text-anchor', 'end').style('font-style', 'italic').text('eixo não começa em zero');
+    var cor = function (d) {
+      if (d.tipo === 'tot') return C(2); if (d.tipo === 'sub') return C(3);
+      var bom = opt.reduzBom ? d.tipo === 'down' : d.tipo === 'up';
+      return bom ? C(1) : C('neg');
+    };
+    itens.forEach(function (d, i) {
+      var y0 = 4 + i * lin, a = Math.max(lo, Math.min(d.ini, d.fim)), b = Math.max(d.ini, d.fim), val = d.tipo === 'up' || d.tipo === 'down' ? d.v : d.fim;
+      var tx = svg.append('text').attr('class', 'tick').attr('x', ml - 4).attr('y', y0 + (d.linhas.length > 1 ? 8 : 13)).attr('text-anchor', 'end').style('font-weight', d.tipo === 'tot' ? 700 : null);
+      d.linhas.forEach(function (l, k) { tx.append('tspan').attr('x', ml - 4).attr('dy', k ? 11 : 0).text(l); });
+      svg.append('rect').attr('x', x(a)).attr('width', Math.max(1.5, x(b) - x(a))).attr('y', y0 + 2).attr('height', lin - 10).attr('rx', 2).attr('fill', cor(d))
+        .attr('fill-opacity', d.outros ? 0.55 : 1)
+        .on('pointermove', function (e) { tp.show([[d.l, null], [d.tipo === 'tot' || d.tipo === 'sub' ? 'Valor' : 'Efeito', fmt(val)]], e); }).on('pointerleave', tp.hide);
+      if (corte && (d.tipo === 'tot' || d.tipo === 'sub')) {   // barra cortada: começa no início do eixo, não no zero
+        svg.append('path').attr('d', 'M' + (x(lo) + 5) + ',' + (y0 + 1) + 'l4,' + (lin - 8) + 'M' + (x(lo) + 9) + ',' + (y0 + 1) + 'l4,' + (lin - 8)).attr('stroke', 'var(--bg)').attr('stroke-width', 2);
+      }
+      if (i < itens.length - 1) {   // conector até a próxima barra
+        var nx = d.tipo === 'tot' || d.tipo === 'sub' ? d.fim : d.fim;
+        svg.append('line').attr('x1', x(nx)).attr('x2', x(nx)).attr('y1', y0 + lin - 8).attr('y2', y0 + lin + 2).attr('stroke', 'var(--muted)').attr('stroke-dasharray', '2,2');
+      }
+      svg.append('text').attr('class', 'val').attr('x', x(b) + 4).attr('y', y0 + (lin - 10) / 2 + 6).attr('text-anchor', 'start').style('font-weight', d.tipo === 'tot' ? 700 : null)
+        .text((d.tipo === 'up' ? '+' : '') + fmt(val));
+    });
+  }
+
+  // composição em colunas empilhadas lado a lado (ex.: Ativo × Passivo e PL), rótulos ao lado com linha-guia
+  function blocos(el, colunas, fmt) {
+    fmt = fmt || String; el.replaceChildren();
+    if (!colunas || !colunas.length) return falha(el);
+    var W = el.clientWidth || 300, H = 400, topo = 26, base = H - 8, n = colunas.length, larg = Math.min(W / n, 330), cw = Math.max(34, Math.min(70, larg * 0.24));
+    var svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', '0 0 ' + W + ' ' + H).attr('role', 'img'), tp = tipo(el);
+    var max = d3.max(colunas, function (c) { return c.total; }) || 1, y = d3.scaleLinear([0, max], [base, topo]);
+    var pal = [['--c4', 1], ['--c1', 1], ['--c1', 0.7], ['--c1', 0.45], ['--c3', 1], ['--c2', 0.8], ['--c2', 0.55], ['--c3', 0.6]];
+    colunas.forEach(function (c, k) {
+      var x0 = k * larg + 4, acc = 0, rot = [];
+      svg.append('text').attr('class', 'tick').attr('x', x0).attr('y', 14).style('font-weight', 700).style('fill', 'var(--fg)').text(c.nome + ' ' + fmt(c.total));
+      c.partes.forEach(function (p, i) {
+        if (!(p.v > 0)) { rot.push({ p: p, ym: null, i: i }); return; }
+        var y1 = y(acc), y2 = y(acc + p.v), cor = p.cor || pal[i % pal.length];
+        svg.append('rect').attr('x', x0).attr('width', cw).attr('y', y2).attr('height', Math.max(1, y1 - y2)).attr('fill', 'var(' + cor[0] + ')').attr('fill-opacity', cor[1])
+          .attr('stroke', 'var(--bg)').attr('stroke-width', 1)
+          .on('pointermove', function (e) { tp.show([[p.rot, null], ['Valor', fmt(p.v)], ['% do total', (p.v / c.total * 100).toFixed(1).replace('.', ',') + '%']], e); }).on('pointerleave', tp.hide);
+        rot.push({ p: p, ym: (y1 + y2) / 2, i: i });
+        acc += p.v;
+      });
+      // rótulos: do topo para a base, sem sobreposição (mínimo de 24 px entre eles)
+      var xl = x0 + cw + 10, lw = larg - cw - 16;
+      rot.forEach(function (r) { r.linhas = quebra(svg, r.p.rot, lw, 2); });
+      var lista = rot.filter(function (r) { return r.ym !== null; }).sort(function (a, b) { return a.ym - b.ym; }), pos = [], minGap = lista.some(function (r) { return r.linhas.length > 1; }) ? 34 : 24;
+      lista.forEach(function (r, j) { pos[j] = Math.max(r.ym, j ? pos[j - 1] + minGap : topo + 6); });
+      for (var j = lista.length - 1; j >= 0; j--) { var lim = j === lista.length - 1 ? base - 4 : pos[j + 1] - minGap; if (pos[j] > lim) pos[j] = lim; }
+      lista.forEach(function (r, j) {
+        var nl = r.linhas.length, y0 = pos[j] - (nl - 1) * 5.5;
+        svg.append('path').attr('d', 'M' + (x0 + cw) + ',' + r.ym + 'L' + (xl - 3) + ',' + pos[j]).attr('stroke', 'var(--muted)').attr('fill', 'none').attr('stroke-width', 0.8);
+        var tx = svg.append('text').attr('class', 'tick').attr('x', xl).attr('y', y0 - 1).style('fill', 'var(--fg)');
+        r.linhas.forEach(function (l, k) { tx.append('tspan').attr('x', xl).attr('dy', k ? 11 : 0).text(l); });
+        svg.append('text').attr('class', 'tick').attr('x', xl).attr('y', y0 + nl * 11 - 1).text(fmt(r.p.v) + ' · ' + (r.p.v / c.total * 100).toFixed(1).replace('.', ',') + '%');
+      });
+    });
+  }
+
   // A × B lado a lado, por item (barras agrupadas horizontais: legíveis no celular)
   function pares(el, itens, nomeA, nomeB, fmt) {
     fmt = fmt || String; el.replaceChildren();
@@ -190,19 +289,24 @@
   }
 
   // maiores variações (barras horizontais divergentes)
-  function variacoes(el, itens, fmt) {
+  function variacoes(el, itens, fmt, nomeValor) {
     fmt = fmt || String; el.replaceChildren();
     if (!itens.length) return falha(el, 'Sem variações relevantes');
-    var W = el.clientWidth || 300, lin = 24, H = itens.length * lin + 10, svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', '0 0 ' + W + ' ' + H).attr('role', 'img'), tp = tipo(el);
-    var ml = Math.min(W * 0.45, largura(svg, itens.map(function (d) { return d.rot; })) + 12), m = d3.max(itens, function (d) { return Math.abs(d.v); }) || 1;
-    var x = d3.scaleLinear([-m, m], [ml + 30, W - 30]);
+    var W = el.clientWidth || 300, svg = d3.select(el).append('svg').attr('width', '100%').attr('role', 'img'), tp = tipo(el);
+    var ml = Math.min(W * 0.42, largura(svg, itens.map(function (d) { return d.rot; })) + 12), m = d3.max(itens, function (d) { return Math.abs(d.v); }) || 1;
+    itens.forEach(function (d) { d.linhas = quebra(svg, d.rot, ml - 8, 2); });
+    var lin = itens.some(function (d) { return d.linhas.length > 1; }) ? 30 : 24, H = itens.length * lin + 10;
+    svg.attr('viewBox', '0 0 ' + W + ' ' + H);
+    var neg = itens.some(function (d) { return d.v < 0; }), pos = itens.some(function (d) { return d.v > 0; });
+    var x = d3.scaleLinear([neg ? -m : 0, pos ? m : 0], [ml + (neg ? 38 : 4), W - (pos ? 44 : 6)]);
     svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', 0).attr('y2', H).attr('stroke', 'var(--muted)');
     itens.forEach(function (d, i) {
       var y0 = 4 + i * lin;
-      svg.append('text').attr('class', 'tick').attr('x', ml - 4).attr('y', y0 + 13).attr('text-anchor', 'end').text(d.rot.length > 38 ? d.rot.slice(0, 37) + '…' : d.rot);
-      svg.append('rect').attr('x', Math.min(x(0), x(d.v))).attr('width', Math.max(1, Math.abs(x(d.v) - x(0)))).attr('y', y0 + 3).attr('height', 14).attr('rx', 2).attr('fill', d.v >= 0 ? C(1) : C('neg'))
-        .on('pointermove', function (e) { tp.show([[d.rot, null], ['Variação', fmt(d.v)]], e); }).on('pointerleave', tp.hide);
-      svg.append('text').attr('class', 'val').attr('x', d.v >= 0 ? x(d.v) + 4 : x(d.v) - 4).attr('text-anchor', d.v >= 0 ? 'start' : 'end').attr('y', y0 + 14).text(fmt(d.v));
+      var tx = svg.append('text').attr('class', 'tick').attr('x', ml - 4).attr('y', y0 + (d.linhas.length > 1 ? 8 : 13)).attr('text-anchor', 'end');
+      d.linhas.forEach(function (l, k) { tx.append('tspan').attr('x', ml - 4).attr('dy', k ? 11 : 0).text(l); });
+      svg.append('rect').attr('x', Math.min(x(0), x(d.v))).attr('width', Math.max(1, Math.abs(x(d.v) - x(0)))).attr('y', y0 + 3).attr('height', lin - 10).attr('rx', 2).attr('fill', d.v >= 0 ? C(1) : C('neg'))
+        .on('pointermove', function (e) { tp.show([[d.rot, null], [nomeValor || 'Variação', fmt(d.v)]], e); }).on('pointerleave', tp.hide);
+      svg.append('text').attr('class', 'val').attr('x', d.v >= 0 ? x(d.v) + 4 : x(d.v) - 4).attr('text-anchor', d.v >= 0 ? 'start' : 'end').attr('y', y0 + (lin - 10) / 2 + 7).text(fmt(d.v));
     });
   }
 
@@ -237,7 +341,14 @@
       return { cab: ['', 'Valor'], linhas: [[inicio.rot, num(inicio.v)]].concat(passos.map(function (p) { return [p.rot, num(p.v)]; })).concat(fim ? [[fim.rot, num(fim.v)]] : []) };
     }),
     pares: guarda(pares, function (el, itens, nomeA, nomeB) { return { cab: ['', nomeA, nomeB], linhas: itens.map(function (d) { return [d.rot, num(d.a), num(d.b)]; }) }; }),
-    variacoes: guarda(variacoes, function (el, itens) { return { cab: ['', 'Variação'], linhas: itens.map(function (d) { return [d.rot, num(d.v)]; }) }; }),
+    variacoes: guarda(variacoes, function (el, itens, fmt, nomeValor) { return { cab: ['', nomeValor || 'Variação'], linhas: itens.map(function (d) { return [d.rot, num(d.v)]; }) }; }),
+    ponte: guarda(ponte, function (el, inicio, passos, fim) {
+      return { cab: ['', 'Valor'], linhas: [[inicio.rot, num(inicio.v)]].concat(passos.map(function (p) { return [p.rot + (p.sub ? ' (subtotal)' : ''), num(p.v)]; })).concat([[fim.rot, num(fim.v)]]) };
+    }),
+    blocos: guarda(blocos, function (el, colunas) {
+      var out = []; colunas.forEach(function (c) { c.partes.forEach(function (p) { out.push([c.nome + ' — ' + p.rot, num(p.v), c.total ? { t: 'n', v: p.v / c.total, z: '0.0%' } : null]); }); out.push([c.nome + ' — total', num(c.total), { t: 'n', v: 1, z: '0.0%' }]); });
+      return { cab: ['', 'Valor', '% do total'], linhas: out };
+    }),
     spark: spark, falha: falha, legenda: legenda, C: C
   };
 })(window);

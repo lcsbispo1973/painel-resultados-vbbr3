@@ -215,7 +215,7 @@
   })).then(function () {
     var D = P.D;
     if (!D.div) D.div = D.divRI;   // proventos conferidos com os avisos da CVM; na falta, o site de RI
-    P.M = Dados.criar({ dre: D.dre, bp: D.bp, dfc: D.dfc, dva: D.dva, dra: D.dra, acoes: D.acoes, b3: D.b3, aj: D.aj, dlrel: D.dlrel });
+    P.M = Dados.criar({ dre: D.dre, bp: D.bp, dfc: D.dfc, dva: D.dva, dra: D.dra, acoes: D.acoes, b3: D.b3, aj: D.aj, dlrel: D.dlrel, dmpl: D.dmpl });
     P.paginasConsulta(); P.paginasAnalise(); P.paginasMercado();
     P.registra('gov', 'Governança', paginaGovernanca(), false);
     if (D.ipe && D.ipe.documentos && D.ipe.documentos.length) P.registra('ipe', 'Comunicados', paginaIpe(), false);
