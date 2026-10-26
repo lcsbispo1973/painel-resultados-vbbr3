@@ -8,6 +8,12 @@
     S: { aba: 'geral', a: null, b: null, sub: {} }
   };
   var S = P.S;
+  // proteção: null/undefined/false passados a append/replaceChildren (ex.: controle que só existe em algumas demonstrações)
+  // seriam escritos na tela como o texto "null"; aqui são simplesmente ignorados
+  ['append', 'replaceChildren', 'prepend'].forEach(function (k) {
+    var orig = Element.prototype[k]; if (!orig) return;
+    Element.prototype[k] = function () { return orig.apply(this, Array.prototype.filter.call(arguments, function (c) { return c !== null && c !== undefined && c !== false; })); };
+  });
 
   // ---------- formatação ----------
   var loc = d3.formatLocale({ decimal: ',', thousands: '.', grouping: [3], currency: ['R$ ', ''] });
