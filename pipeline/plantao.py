@@ -26,7 +26,6 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36"}
 LISTA = "https://sistemasweb.b3.com.br/PlantaoNoticias/Noticias/ListarTitulosNoticias?agencia=18&palavra=VIBRA&dataInicial={ini}&dataFinal={fim}"
 DETALHE = "https://sistemasweb.b3.com.br/PlantaoNoticias/Noticias/Detail?idNoticia={id}&agencia=18&dataNoticia={data}"
-VISUALIZA = "https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega={p}"
 DOWNLOAD = "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo={p}{resto}"
 
 # título do Plantão → (categoria, tipo) da base IPE da CVM (o que não estiver aqui fica com o próprio título como categoria)
@@ -111,17 +110,6 @@ def detalhe(n):
     return out
 
 
-def sequencia(protocolo):
-    """numSequencia e numVersao do documento IPE (a página de visualização da CVM os traz), para montar o link de download."""
-    b, _ = baixar(VISUALIZA.format(p=protocolo), tentativas=2)
-    if not b:
-        return {}
-    t = b.decode("utf-8", "replace")
-    s = re.search(r"numSequencia=(\d+)", t, re.I)
-    v = re.search(r"numVersao=(\d+)", t, re.I)
-    return {"seq": s.group(1) if s else None, "versao": v.group(1) if v else None}
-
-
 def para_ipe(n):
     """Notícia de documento IPE → entrada provisória no formato de data/ipe.json (substituída pela base aberta da CVM)."""
     resto = ""
@@ -166,9 +154,7 @@ def main():
             n = {"id": int(i), "data_hora": m.get("dateTime", ""), "titulo": (m.get("headline") or "").strip()}
             n.update(classifica(n["titulo"]))
             try:
-                n.update(detalhe(n))
-                if n["doc"] == "IPE" and n.get("protocolo"):
-                    n.update(sequencia(n["protocolo"]))
+                n.update(detalhe(n))   # o PDF baixa da CVM só com o número de protocolo
             except Exception as e:  # noqa: BLE001
                 log.append("- notícia %s: detalhe não lido (%s)" % (i, e))
             por_id[i] = n
