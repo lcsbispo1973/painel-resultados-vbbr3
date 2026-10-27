@@ -49,7 +49,7 @@
           h('div', { class: 'controls' }, ref.busca, P.label('Ano', ref.ano),
             h('button', { class: 'btn', type: 'button', onclick: function () { var l = filtrados(); P.csv('vibra_comunicados.csv', ['data_entrega', 'categoria', 'tipo', 'especie', 'assunto', 'link'], l.map(function (d) { return [d.data_entrega, d.categoria, d.tipo, d.especie, d.assunto, d.link]; })); } }, 'Baixar para Excel')),
           ref.info, h('div', { class: 'twrap' }, ref.tb), h('div', { class: 'controls', style: 'margin-top:10px' }, ref.mais),
-          h('p', { class: 'note' }, 'Fonte: Dados Abertos da CVM (documentos periódicos e eventuais — IPE), última versão de cada documento. O link abre o documento original no sistema da CVM. Atualizado diariamente.'));
+          h('p', { class: 'note' }, 'Fonte: Dados Abertos da CVM (documentos periódicos e eventuais — IPE), última versão de cada documento. Como a CVM atualiza essa base uma vez por semana, documentos entregues depois entram antes pelo Plantão de Notícias da B3 (marcados "recebido via Plantão da B3") e são substituídos pelo registro oficial quando a base da CVM o incluir. O link abre o documento original no sistema da CVM. O painel confere novidades a cada 15 minutos.'));
       },
       manchete: function () { return P.manchete.comunicados(); },
       render: function () {
@@ -57,7 +57,7 @@
         var l = filtrados(), vis = l.slice(0, F.n);
         ref.info.textContent = l.length + ' documento(s)' + (l.length ? ', de ' + P.fData(l[l.length - 1].data_entrega) + ' a ' + P.fData(l[0].data_entrega) : '') + '.';
         tabelaTexto(ref.tb, ['Data', 'Categoria', 'Tipo', 'Assunto', 'Documento'], vis.map(function (d) {
-          return [P.fData(d.data_entrega), d.categoria, d.tipo || '—', d.assunto || '—', d.link ? h('a', { href: d.link, target: '_blank', rel: 'noopener noreferrer' }, 'Abrir') : '—'];
+          return [P.fData(d.data_entrega), d.categoria, d.tipo || '—', d.provisorio ? h('span', null, d.assunto || '—', h('br'), h('small', { class: 'note', title: 'Entregue à CVM e anunciado no Plantão de Notícias da B3; a base aberta da CVM, semanal, ainda não o incluiu.' }, 'recebido via Plantão da B3')) : (d.assunto || '—'), d.link ? h('a', { href: d.link, target: '_blank', rel: 'noopener noreferrer' }, 'Abrir') : '—'];
         }), 4);
         ref.mais.hidden = l.length <= F.n;
       }
@@ -166,10 +166,11 @@
         ref.reg = h('div');
         el.append(h('div', { class: 'card', style: 'margin-bottom:14px' }, h('h2', null, 'Metodologia e fontes'),
           h('ul', { class: 'mda' },
-            h('li', null, 'Demonstrações financeiras consolidadas (DFP e ITR), composição do capital e Formulário de Referência: Dados Abertos da CVM, última versão de cada documento. Trimestres de fluxo (DRE, DFC, DVA) obtidos pela diferença dos acumulados.'),
+            h('li', null, 'Demonstrações financeiras consolidadas (DFP e ITR), composição do capital e Formulário de Referência: Dados Abertos da CVM, última versão de cada documento. ITR e DFP entregues depois da última atualização semanal da base aberta são lidos direto do sistema de entrega da CVM (RAD), assim que o Plantão de Notícias da B3 anuncia a entrega; quando a base aberta inclui o documento, ela passa a valer e as duas fontes são comparadas conta a conta. Trimestres de fluxo (DRE, DFC, DVA) obtidos pela diferença dos acumulados.'),
             h('li', null, 'EBITDA Ajustado: nota de informações por segmento das ITRs/DFPs (desde 2023, com comparativos de 2022); de 4T17 a 4T21, release de resultados. Antes do IPO (dez/2017), os trimestres de 4T16 a 3T17 vêm dos comparativos publicados nos releases de 2018 e o exercício de 2016 é o total anual divulgado no release do 4T17 (os trimestres de 2016 não foram divulgados). O 4º trimestre é o acumulado de dezembro (DFP) menos o de setembro (ITR do 3T).'),
             h('li', null, 'Volumes e margens por m³: releases de resultados arquivados na CVM, lidos automaticamente e conferidos (margem divulgada ≈ EBITDA ÷ volume; comparação com reapresentações).'),
             h('li', null, 'Ipiranga: releases da Ultrapar arquivados na CVM. Cotações: Séries Históricas da B3 (VBBR3/BRDT3 e BOVA11). Comunicados: base IPE da CVM. Proventos por ação: site de RI; totais anuais: DMPL.'),
+            h('li', null, 'Atualização: um vigia confere a cada 15 minutos (dias úteis, das 7h às 24h; nos fins de semana, a cada 3 horas) se a Vibra entregou documento novo à CVM ou se a B3 publicou a cotação do pregão; havendo novidade, o painel inteiro é recalculado, conferido e publicado.'),
             h('li', null, 'Trava de publicação: a cada atualização, todas as conferências e testes rodam antes de publicar; se algo falhar, o painel continua na última versão aprovada e um alerta é aberto no repositório.'))),
           ref.reg,
           h('div', { class: 'card', style: 'margin-bottom:14px' }, h('h2', null, 'Conferências automáticas'), ref.sum, h('div', { class: 'controls' }, P.label('Status', ref.selS), P.label('Origem', ref.selD))), h('div', { class: 'twrap' }, ref.tb));

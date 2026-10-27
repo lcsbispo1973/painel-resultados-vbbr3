@@ -1,0 +1,48 @@
+name: Vigia (documentos novos da Vibra e cotação do dia)
+
+# A cada 15 minutos confere, sem gravar nada, se a Vibra entregou documento novo à CVM (Plantão de Notícias da B3) ou se a
+# B3 publicou a cotação do último pregão. Se sim, dispara a atualização completa do painel (Atualizar dados da CVM).
+on:
+  schedule:
+    - cron: '*/15 10-23 * * 1-5'   # 07:00–20:45 em Brasília, dias úteis
+    - cron: '*/15 0-2 * * 2-6'     # 21:00–23:45 em Brasília, dias úteis
+    - cron: '7 */3 * * 0,6'        # fins de semana: a cada 3 horas
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: vigia
+  cancel-in-progress: true
+
+jobs:
+  vigia:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          sparse-checkout: |
+            pipeline
+            data/plantao.json
+            data/b3_cotacoes.json
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Conferir novidades
+        id: v
+        run: python pipeline/vigia.py
+      - name: Disparar a atualização do painel
+        if: steps.v.outputs.disparar == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MOTIVO: ${{ steps.v.outputs.motivo }}
+        run: |
+          echo "Motivo: $MOTIVO"
+          pend=$(gh api "repos/${{ github.repository }}/actions/workflows/cvm.yml/runs?status=queued&per_page=1" --jq '.total_count')
+          if [ "${pend:-0}" -gt 0 ]; then echo "Já há uma atualização na fila."; exit 0; fi
+          gh workflow run cvm.yml --repo "${{ github.repository }}" --ref main

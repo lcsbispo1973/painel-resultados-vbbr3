@@ -1,6 +1,7 @@
 name: Atualizar dados da CVM
 
-# Baixa DFP e ITR da Vibra nos Dados Abertos da CVM, monta as séries trimestrais e roda as conferências.
+# Baixa DFP e ITR da Vibra nos Dados Abertos da CVM (semanais) e, para documentos novos, direto do RAD da CVM (via Plantão de
+# Notícias da B3); monta as séries trimestrais e roda as conferências. Disparado também pelo Vigia (vigia.yml) a cada novidade.
 # Resultado: data/cvm_*.json e logs/cvm-ultima-execucao.md
 on:
   workflow_dispatch:
@@ -48,7 +49,16 @@ jobs:
           python -I tests/test_fre_fixture.py
           python -I tests/test_b3_fixture.py
           python -I tests/test_ipe_fixture.py
+          python -I tests/test_rad.py
+          python -I tests/test_plantao.py
           node tests/test_dados.js
+
+      - name: Documentos em tempo real (Plantão de Notícias da B3 e ITR/DFP direto do RAD da CVM)
+        if: always()
+        continue-on-error: true
+        run: |
+          python pipeline/plantao.py
+          python pipeline/rad.py
 
       - name: Baixar e processar dados da CVM
         run: |

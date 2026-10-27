@@ -40,6 +40,12 @@ def nome_seguro(s):
     return re.sub(r"[^0-9A-Za-z_-]+", "-", s)[:60]
 
 
+def chave(d):
+    """Número de protocolo da CVM (igual no documento provisório do Plantão da B3 e na base aberta); senão, o protocolo."""
+    m = re.search(r"numProtocolo=(\d+)", d.get("link") or "", re.I)
+    return m.group(1) if m else d["protocolo"]
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--completo", action="store_true")
@@ -51,12 +57,18 @@ def main():
     os.makedirs(os.path.join(raiz, "logs"), exist_ok=True)
     ipe = json.load(open(os.path.join(raiz, "data", "ipe.json"), encoding="utf-8"))["documentos"]
     pi = os.path.join(pasta, "indice.json")
-    indice = {} if a.completo or not os.path.exists(pi) else {d["protocolo"]: d for d in json.load(open(pi, encoding="utf-8"))["releases"]}
+    indice = {} if a.completo or not os.path.exists(pi) else {chave(d): d for d in json.load(open(pi, encoding="utf-8"))["releases"]}
+    atuais = {chave(x) for x in ipe if x["tipo"] == "Press-release"}
+    # documento provisório (Plantão da B3) que a CVM não confirmou (cancelado ou substituído) sai do índice
+    indice = {k: v for k, v in indice.items() if k in atuais}
     log = ["# Releases — última execução", "", "Executado em %s UTC" % dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M"), ""]
     novos = falhas = 0
     for d in [x for x in ipe if x["tipo"] == "Press-release"]:
-        k = d["protocolo"]
+        k = chave(d)
         if k in indice and indice[k].get("arquivo") and os.path.exists(os.path.join(ptxt, indice[k]["arquivo"])):
+            if indice[k].get("provisorio") and not d.get("provisorio"):   # a base aberta confirmou: atualiza os dados, sem baixar de novo
+                indice[k].update({"protocolo": d["protocolo"], "data_referencia": d["data_referencia"], "assunto": d["assunto"], "link": d["link"]})
+                indice[k].pop("provisorio", None)
             continue
         pdf, erro = baixar(d["link"])
         if not pdf:
@@ -72,8 +84,10 @@ def main():
             continue
         arq = "%s_%s.txt" % (d["data_entrega"], nome_seguro(k))
         open(os.path.join(ptxt, arq), "w", encoding="utf-8").write(r.stdout.decode("utf-8", "ignore"))
-        indice[k] = {"protocolo": k, "data_entrega": d["data_entrega"], "data_referencia": d["data_referencia"], "assunto": d["assunto"],
+        indice[k] = {"protocolo": d["protocolo"], "data_entrega": d["data_entrega"], "data_referencia": d["data_referencia"], "assunto": d["assunto"],
                      "link": d["link"], "arquivo": arq, "paginas_bytes": len(pdf)}
+        if d.get("provisorio"):
+            indice[k]["provisorio"] = True
         novos += 1
         log.append("- ok %s %s → %s" % (d["data_entrega"], d["assunto"], arq))
         time.sleep(1)

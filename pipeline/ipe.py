@@ -12,6 +12,7 @@ import csv
 import datetime as dt
 import io
 import json
+import re
 import os
 import sys
 import time
@@ -69,6 +70,35 @@ def ler_zip(conteudo, cnpj=CNPJ):
     return out
 
 
+def num_protocolo(link):
+    m = re.search(r"numProtocolo=(\d+)", link or "", re.I) or re.search(r"NumeroProtocoloEntrega=(\d+)", link or "", re.I)
+    return m.group(1) if m else None
+
+
+def provisorios(raiz, oficiais):
+    """Documentos já entregues à CVM e anunciados no Plantão de Notícias da B3 que a base aberta (semanal) ainda não traz.
+
+    Saem da lista assim que a base aberta os incluir (mesmo número de protocolo) ou quando a base aberta já cobrir a data
+    de entrega sem trazê-los (documento cancelado ou substituído). Cancelamentos anunciados no Plantão ("(C)") não entram.
+    """
+    p = os.path.join(raiz, "data", "plantao.json")
+    if not os.path.exists(p):
+        return []
+    sys.path.insert(0, os.path.join(raiz, "pipeline"))
+    import plantao  # noqa: E402
+    noticias = json.load(open(p, encoding="utf-8")).get("noticias", [])
+    conhecidos = {num_protocolo(d["link"]) for d in oficiais} - {None}
+    corte = max((d["data_entrega"] for d in oficiais), default="")
+    cancelados = {n.get("protocolo") for n in noticias if re.search(r"\(C\)\s*$", n.get("titulo", ""))}
+    out = {}
+    for n in sorted(noticias, key=lambda n: n["data_hora"]):
+        pr = n.get("protocolo")
+        if n.get("doc") != "IPE" or not pr or pr in conhecidos or pr in cancelados or n["data_hora"][:10] < corte:
+            continue
+        out[pr] = plantao.para_ipe(n)
+    return list(out.values())
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--completo", action="store_true")
@@ -114,6 +144,10 @@ def main():
         if k not in ult or d["versao"] >= ult[k]["versao"]:
             ult[k] = d
     lista = sorted(ult.values(), key=lambda d: (d["data_entrega"], d["protocolo"]), reverse=True)
+    prov = provisorios(raiz, lista)
+    if prov:
+        log.append("- provisórios do Plantão de Notícias da B3 (ainda fora da base aberta semanal): %d" % len(prov))
+        lista = sorted(lista + prov, key=lambda d: (d["data_entrega"], d["protocolo"]), reverse=True)
     cats = {}
     for d in lista:
         cats[d["categoria"]] = cats.get(d["categoria"], 0) + 1

@@ -10,6 +10,7 @@ Saídas:
 """
 import json
 import os
+import re
 import sys
 from datetime import datetime, timedelta, timezone
 
@@ -80,9 +81,12 @@ def candidatos():
     for d in ipe.get("documentos", []):
         if d.get("categoria") != "Fato Relevante":
             continue
-        ev["fr:" + str(d.get("protocolo"))] = {"data": d.get("data_entrega") or "", "tipo": "Fato relevante",
-                                               "titulo": d.get("assunto") or d.get("tipo") or "Fato relevante",
-                                               "detalhe": "", "link": d.get("link") or ""}
+        e = {"data": d.get("data_entrega") or "", "tipo": "Fato relevante", "titulo": d.get("assunto") or d.get("tipo") or "Fato relevante",
+             "detalhe": "", "link": d.get("link") or ""}
+        m = re.search(r"numProtocolo=(\d+)", d.get("link") or "")
+        if m and not d.get("provisorio"):
+            e["alias"] = "fr:RAD-" + m.group(1)   # o mesmo documento, se já tiver chegado antes pelo Plantão de Notícias da B3
+        ev["fr:" + str(d.get("protocolo"))] = e
     pv = ler("proventos.json") or {}
     for l in pv.get("linhas", []):
         if not l.get("aviso"):
@@ -116,6 +120,13 @@ def main():
     primeira = reg is None
     reg = reg or {"conhecidos": [], "eventos": []}
     conhecidos = set(reg.get("conhecidos", []))
+    # documento que já tinha entrado pelo Plantão da B3 e agora chega pela base aberta: atualiza o evento, sem novo alerta
+    for k, v in atual.items():
+        if k not in conhecidos and v.get("alias") in conhecidos:
+            for e in reg["eventos"]:
+                if e.get("chave") == v["alias"]:
+                    e.update({x: v[x] for x in ("titulo", "link", "data")}, chave=k)
+            conhecidos.add(k)
     novos = [(k, v) for k, v in atual.items() if k not in conhecidos]
     novos.sort(key=lambda kv: (kv[1]["data"], kv[0]))
     for k, v in novos:

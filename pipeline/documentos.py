@@ -48,15 +48,27 @@ def seguro(s):
     return re.sub(r"[^0-9A-Za-z_-]+", "-", s)[:60]
 
 
+def chave(d):
+    """Número de protocolo da CVM (igual no documento provisório do Plantão da B3 e na base aberta); senão, o protocolo."""
+    m = re.search(r"numProtocolo=(\d+)", d.get("link") or "", re.I)
+    return m.group(1) if m else d["protocolo"]
+
+
 def coletar(grupo, docs, log, completo):
     pasta = os.path.join(RAIZ, "data", "docs", grupo)
     os.makedirs(pasta, exist_ok=True)
     pi = os.path.join(pasta, "indice.json")
-    idx = {} if completo or not os.path.exists(pi) else {d["protocolo"]: d for d in json.load(open(pi, encoding="utf-8"))["documentos"]}
+    idx = {} if completo or not os.path.exists(pi) else {chave(d): d for d in json.load(open(pi, encoding="utf-8"))["documentos"]}
+    atuais = {chave(d) for d in docs}
+    idx = {k: v for k, v in idx.items() if k in atuais}   # provisório do Plantão não confirmado pela CVM sai do índice
     novos = falhas = 0
     for d in docs:
-        k = d["protocolo"]
+        k = chave(d)
         if k in idx and os.path.exists(os.path.join(pasta, idx[k]["arquivo"])):
+            if idx[k].get("provisorio") and not d.get("provisorio"):
+                idx[k].update({"protocolo": d["protocolo"], "data_referencia": d["data_referencia"], "assunto": d["assunto"], "link": d["link"],
+                               "categoria": d["categoria"], "tipo": d["tipo"]})
+                idx[k].pop("provisorio", None)
             continue
         b, erro = baixar(d["link"])
         if b and b[:2] == b"PK":   # alguns documentos vêm compactados: usa o maior PDF do pacote
@@ -73,8 +85,10 @@ def coletar(grupo, docs, log, completo):
             continue
         arq = "%s_%s.txt" % (d["data_entrega"], seguro(k))
         open(os.path.join(pasta, arq), "w", encoding="utf-8").write(txt)
-        idx[k] = {"protocolo": k, "data_entrega": d["data_entrega"], "data_referencia": d["data_referencia"], "categoria": d["categoria"],
+        idx[k] = {"protocolo": d["protocolo"], "data_entrega": d["data_entrega"], "data_referencia": d["data_referencia"], "categoria": d["categoria"],
                   "tipo": d["tipo"], "assunto": d["assunto"], "link": d["link"], "arquivo": arq}
+        if d.get("provisorio"):
+            idx[k]["provisorio"] = True
         novos += 1
         time.sleep(1)
     lista = sorted(idx.values(), key=lambda x: x["data_entrega"], reverse=True)

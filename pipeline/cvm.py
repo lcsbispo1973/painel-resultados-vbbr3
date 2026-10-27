@@ -174,13 +174,28 @@ def coletar(anos_forcados, completo, pasta_raw, log):
                 extrair_zip(destino, tipo, ano, pasta_raw, log)
 
 
+USADOS_RAD = set()   # (tipo, DT_REFER) que vieram do RAD nesta execução
+
+
 def carregar_linhas(pasta_raw):
-    brutas = []
+    brutas, rad = [], []
     for nome in sorted(os.listdir(pasta_raw)):
         if not nome.endswith(".csv") or "_ACOES_" in nome:
             continue
         with open(os.path.join(pasta_raw, nome), encoding="utf-8", newline="") as f:
-            brutas.extend(csv.DictReader(f))
+            (rad if nome.startswith("RAD_") else brutas).extend(csv.DictReader(f))
+    # documento lido direto do RAD da CVM (pipeline/rad.py): só vale enquanto a base aberta não tiver o período na mesma
+    # versão ou em versão mais nova
+    v_aberta = defaultdict(int)
+    for r in brutas:
+        k = (r["tipo"], r["demo"], r["DT_REFER"])
+        v_aberta[k] = max(v_aberta[k], int(r["VERSAO"] or 0))
+    USADOS_RAD.clear()
+    for r in rad:
+        k = (r["tipo"], r["demo"], r["DT_REFER"])
+        if int(r["VERSAO"] or 0) > v_aberta.get(k, 0):
+            brutas.append(r)
+            USADOS_RAD.add((r["tipo"], r["DT_REFER"]))
     versao_max = defaultdict(int)
     for r in brutas:
         k = (r["tipo"], r["demo"], r["DT_REFER"])
@@ -248,16 +263,18 @@ def completar_acoes_fre(acoes, bp, pasta_dados, log):
 def carregar_acoes(pasta_raw):
     """Quantidade de ações por data de referência (DFP/ITR, arquivo composicao_capital)."""
     por_data = {}
-    for nome in sorted(os.listdir(pasta_raw)):
+    # base aberta primeiro; o arquivo do RAD só entra se a base aberta não tiver a data em versão igual ou mais nova
+    for nome in sorted(os.listdir(pasta_raw), key=lambda n: (n.startswith("RAD_"), n)):
         if "_ACOES_" not in nome or not nome.endswith(".csv"):
             continue
+        rad = nome.startswith("RAD_")
         with open(os.path.join(pasta_raw, nome), encoding="utf-8", newline="") as f:
             for r in csv.DictReader(f):
                 if not r["DT_REFER"]:
                     continue
                 k = para_data(r["DT_REFER"])
                 v = int(r["VERSAO"] or 0)
-                if k in por_data and por_data[k][0] > v:
+                if k in por_data and (por_data[k][0] >= v if rad else por_data[k][0] > v):
                     continue
                 # a CVM informa a composição do capital em milhares de ações
                 num = lambda c: float(r[c].replace(",", ".")) * 1000 if r.get(c, "").strip() else None  # noqa: E731
@@ -498,6 +515,8 @@ def principal(args):
     try:
         coletar(args.anos, args.completo, os.path.join(pasta_dados, "cvm_raw"), log)
         linhas = carregar_linhas(os.path.join(pasta_dados, "cvm_raw"))
+        if USADOS_RAD:
+            log.append("- Lidos direto do RAD da CVM (a base aberta ainda não os tem): " + ", ".join("%s %s" % x for x in sorted(USADOS_RAD)))
         if not linhas:
             raise RuntimeError("nenhuma linha da Vibra encontrada nos arquivos da CVM (CNPJ ou layout mudou?)")
         por = lambda *demos: [r for r in linhas if r["demo"] in demos]  # noqa: E731

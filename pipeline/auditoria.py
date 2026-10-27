@@ -265,13 +265,16 @@ def texto_var(tipo, va, vb):
 
 # ---------------------------------------------------------------- 1. brutos da CVM × séries
 def bruto_cvm():
-    linhas = {}
+    linhas, rad = {}, {}
     for f in glob.glob(os.path.join(D, "cvm_raw", "*.csv")):
         nome = os.path.basename(f)
         if "_ACOES_" in nome:
             continue
         for r in csv.DictReader(open(f, encoding="utf-8")):
-            linhas.setdefault((r["demo"], r["DT_REFER"]), []).append(r)
+            (rad if nome.startswith("RAD_") else linhas).setdefault((r["demo"], r["DT_REFER"]), []).append(r)
+    for k, rs in rad.items():   # mesma regra do pipeline: o RAD só vale com versão mais nova que a da base aberta
+        if max(int(r["VERSAO"] or 0) for r in rs) > max((int(r["VERSAO"] or 0) for r in linhas.get(k, [])), default=0):
+            linhas.setdefault(k, []).extend(rs)
     res = []
     for (demo, ref), rs in linhas.items():
         vmax = max(int(r["VERSAO"] or 0) for r in rs)
@@ -281,6 +284,28 @@ def bruto_cvm():
             esc = 1e3 if r["ESCALA_MOEDA"].strip().upper() == "MIL" else 1.0
             res.append((demo, r["DT_INI_EXERC"].strip(), r["DT_FIM_EXERC"].strip(), r["CD_CONTA"].strip(), float(r["VL_CONTA"]) * esc / 1e6))
     return res
+
+
+def rad_x_aberta():
+    """Documento lido direto do RAD × o mesmo documento na base aberta (quando os dois existem): têm de ser idênticos."""
+    erros, n = [], 0
+    ab = {}
+    for f in glob.glob(os.path.join(D, "cvm_raw", "*.csv")):
+        if os.path.basename(f).startswith("RAD_") or "_ACOES_" in f:
+            continue
+        for r in csv.DictReader(open(f, encoding="utf-8")):
+            ab[(r["tipo"], r["demo"], r["DT_REFER"], r["VERSAO"], r["ORDEM_EXERC"], r["DT_INI_EXERC"], r["DT_FIM_EXERC"], r["CD_CONTA"], r.get("COLUNA_DF") or "")] = r["VL_CONTA"]
+    for f in glob.glob(os.path.join(D, "cvm_raw", "RAD_*.csv")):
+        if "_ACOES_" in f:
+            continue
+        for r in csv.DictReader(open(f, encoding="utf-8")):
+            k = (r["tipo"], r["demo"], r["DT_REFER"], r["VERSAO"], r["ORDEM_EXERC"], r["DT_INI_EXERC"], r["DT_FIM_EXERC"], r["CD_CONTA"], r.get("COLUNA_DF") or "")
+            if k not in ab:
+                continue
+            n += 1
+            if abs(float(ab[k]) - float(r["VL_CONTA"])) > 1e-6:
+                erros.append("RAD × base aberta %s %s %s %s %s: %s × %s" % (k[0], k[1], k[2], k[7], k[8], r["VL_CONTA"], ab[k]))
+    return n, erros
 
 
 def rotulo_data(d):
@@ -568,20 +593,23 @@ def main():
     n2, e2 = parte2()
     n3, e3, a3 = parte3()
     n4, e4 = parte4()
+    n5, e5 = rad_x_aberta()
     out.update({"cvm": {"conferidos": n1, "divergencias": e1}, "fatos": {"conferidos": n2, "divergencias": e2},
-                "textos": {"conferidos": n3, "divergencias": e3, "alertas": a3}, "indicadores": {"conferidos": n4, "divergencias": e4}})
+                "textos": {"conferidos": n3, "divergencias": e3, "alertas": a3}, "indicadores": {"conferidos": n4, "divergencias": e4},
+                "rad": {"conferidos": n5, "divergencias": e5}})
     json.dump(out, open(os.path.join(D, "auditoria.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     log = ["# Auditoria independente dos cálculos — %s" % out["executado_em"], "",
            "- CVM (arquivos brutos × séries do painel): %d valores, %d divergências" % (n1, len(e1)),
            "- MD&A (fatos recalculados e textos refeitos): %d fatos, %d divergências" % (n2, len(e2)),
            "- MD&A (textos aprovados): %d textos, %d divergências, %d alertas de número em frase de outro assunto" % (n3, len(e3), len(a3)),
-           "- Indicadores do painel (todos os períodos, trimestre e ano): %d valores, %d divergências" % (n4, len(e4)), ""]
-    for t, lst in (("Divergências CVM", e1), ("Divergências dos fatos", e2), ("Divergências dos textos", e3), ("Divergências dos indicadores", e4), ("Alertas dos textos", a3)):
+           "- Indicadores do painel (todos os períodos, trimestre e ano): %d valores, %d divergências" % (n4, len(e4)),
+           "- ITR/DFP lidos direto do RAD × base aberta da CVM (quando as duas fontes existem): %d valores, %d divergências" % (n5, len(e5)), ""]
+    for t, lst in (("Divergências CVM", e1), ("Divergências dos fatos", e2), ("Divergências dos textos", e3), ("Divergências dos indicadores", e4), ("Divergências RAD × base aberta", e5), ("Alertas dos textos", a3)):
         if lst:
             log += ["## " + t, ""] + ["- " + x for x in lst[:200]] + [""]
     open(os.path.join(RAIZ, "logs", "auditoria.md"), "w", encoding="utf-8").write("\n".join(log) + "\n")
-    print("\n".join(log[:6]))
-    return 1 if (e1 or e2 or e3 or e4) else 0
+    print("\n".join(log[:7]))
+    return 1 if (e1 or e2 or e3 or e4 or e5) else 0
 
 
 if __name__ == "__main__":
