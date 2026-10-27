@@ -144,7 +144,7 @@ def main():
         if k not in ult or d["versao"] >= ult[k]["versao"]:
             ult[k] = d
     lista = sorted(ult.values(), key=lambda d: (d["data_entrega"], d["protocolo"]), reverse=True)
-    prov = provisorios(raiz, lista)
+    prov = [] if local else provisorios(raiz, lista)   # testes com arquivos locais não misturam o Plantão real
     if prov:
         log.append("- provisórios do Plantão de Notícias da B3 (ainda fora da base aberta semanal): %d" % len(prov))
         lista = sorted(lista + prov, key=lambda d: (d["data_entrega"], d["protocolo"]), reverse=True)
