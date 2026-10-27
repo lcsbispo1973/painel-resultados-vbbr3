@@ -8,6 +8,11 @@ on:
     - cron: '*/15 0-2 * * 2-6'     # 21:00–23:45 em Brasília, dias úteis
     - cron: '7 */3 * * 0,6'        # fins de semana: a cada 3 horas
   workflow_dispatch:
+    inputs:
+      forcar:
+        description: 'Disparar a atualização mesmo sem novidade'
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -37,7 +42,7 @@ jobs:
         id: v
         run: python pipeline/vigia.py
       - name: Disparar a atualização do painel
-        if: steps.v.outputs.disparar == '1'
+        if: steps.v.outputs.disparar == '1' || inputs.forcar
         env:
           GH_TOKEN: ${{ github.token }}
           MOTIVO: ${{ steps.v.outputs.motivo }}
