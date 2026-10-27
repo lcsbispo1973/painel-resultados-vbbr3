@@ -142,38 +142,48 @@ def main():
     ant = json.load(open(caminho, encoding="utf-8")) if os.path.exists(caminho) else {"noticias": []}
     por_id = {str(n["id"]): n for n in ant.get("noticias", [])}
     dias = a.dias or (20 if por_id else 400)
-    hoje = dt.date.today() + dt.timedelta(days=1)   # o executor usa UTC
-    novos, erros = [], 0
+    hoje = dt.datetime.now(dt.timezone.utc).date()
+    novos, erros, log = [], 0, []
     k = 0
     while k * 30 < dias:
         fim = hoje - dt.timedelta(days=30 * k)
         ini = max(fim - dt.timedelta(days=30), hoje - dt.timedelta(days=dias))
         k += 1
         b, erro = baixar(LISTA.format(ini=ini.isoformat(), fim=fim.isoformat()))
-        if not b:
+        try:
+            itens = json.loads(b.decode("utf-8")) if b else None
+        except ValueError:
+            itens, erro = None, "resposta não é JSON: %r" % b[:200]
+        if not isinstance(itens, list):
             erros += 1
-            print("Plantão indisponível (%s): %s" % (ini, erro))
+            log.append("- %s a %s: Plantão indisponível (%s)" % (ini, fim, erro))
             continue
-        for x in json.loads(b.decode("utf-8")):
+        for x in itens:
             m = x.get("NwsMsg") or {}
             i = str(m.get("id") or "")
             if not i or i in por_id or not re.match(r"VIBRA\b", m.get("headline") or ""):
                 continue
             n = {"id": int(i), "data_hora": m.get("dateTime", ""), "titulo": (m.get("headline") or "").strip()}
             n.update(classifica(n["titulo"]))
-            n.update(detalhe(n))
-            if n["doc"] == "IPE" and n.get("protocolo"):
-                n.update(sequencia(n["protocolo"]))
+            try:
+                n.update(detalhe(n))
+                if n["doc"] == "IPE" and n.get("protocolo"):
+                    n.update(sequencia(n["protocolo"]))
+            except Exception as e:  # noqa: BLE001
+                log.append("- notícia %s: detalhe não lido (%s)" % (i, e))
             por_id[i] = n
             novos.append(n)
             time.sleep(0.5)
     lista = sorted(por_id.values(), key=lambda n: n["data_hora"], reverse=True)
     json.dump({"fonte": "B3 — Plantão de Notícias (documentos entregues pela Vibra à CVM, com o link no sistema da CVM)",
-               "atualizado_em": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"), "noticias": lista},
+               "atualizado_em": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "noticias": lista},
               open(caminho, "w", encoding="utf-8"), ensure_ascii=False, indent=0)
     linhas = ["- %s — %s%s" % (n["data_hora"], n["titulo"], "" if (n.get("protocolo") or n.get("nsd")) else " (sem link)") for n in novos]
     open(os.path.join(RAIZ, "logs", "plantao-novos.md"), "w", encoding="utf-8").write(
         ("# Novidades no Plantão de Notícias da B3\n\n" + "\n".join(linhas) + "\n") if novos else "")
+    open(os.path.join(RAIZ, "logs", "plantao.md"), "w", encoding="utf-8").write(
+        "# Plantão de Notícias da B3 — última execução\n\nExecutado em %s UTC\n\n- notícias da Vibra conhecidas: %d\n- novas nesta execução: %d\n%s\n"
+        % (dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M"), len(lista), len(novos), "\n".join(log)))
     if os.environ.get("GITHUB_OUTPUT"):
         open(os.environ["GITHUB_OUTPUT"], "a").write("novos=%d\n" % len(novos))
     print("Plantão: %d notícias da Vibra, %d novas%s" % (len(lista), len(novos), " (%d janelas com erro)" % erros if erros else ""))

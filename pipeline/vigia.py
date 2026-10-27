@@ -34,11 +34,15 @@ def existe(url):
 def novidades_plantao():
     p = os.path.join(RAIZ, "data", "plantao.json")
     conhecidos = {str(n["id"]) for n in json.load(open(p, encoding="utf-8")).get("noticias", [])} if os.path.exists(p) else set()
-    hoje = dt.date.today() + dt.timedelta(days=1)
+    hoje = dt.datetime.now(dt.timezone.utc).date()
     b, erro = plantao.baixar(plantao.LISTA.format(ini=(hoje - dt.timedelta(days=10)).isoformat(), fim=hoje.isoformat()), tentativas=2)
-    if not b:
+    try:
+        itens = json.loads(b.decode("utf-8")) if b else None
+    except ValueError:
+        itens, erro = None, "resposta não é JSON"
+    if not isinstance(itens, list):
         return [], "Plantão indisponível (%s)" % erro
-    novos = [x["NwsMsg"]["headline"] for x in json.loads(b.decode("utf-8"))
+    novos = [x["NwsMsg"]["headline"] for x in itens
              if str(x["NwsMsg"]["id"]) not in conhecidos and re.match(r"VIBRA\b", x["NwsMsg"].get("headline") or "")]
     return novos, None
 

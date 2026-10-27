@@ -57,8 +57,8 @@ jobs:
         if: always()
         continue-on-error: true
         run: |
-          python pipeline/plantao.py
-          python pipeline/rad.py
+          python pipeline/plantao.py || echo "::warning::Plantão de Notícias da B3 não lido (ver logs/plantao.md)"
+          python pipeline/rad.py || echo "::warning::ITR/DFP do RAD não lidos (ver logs/rad.md)"
 
       - name: Baixar e processar dados da CVM
         run: |
@@ -130,6 +130,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git push -q origin --delete diagnostico-rad 2>/dev/null || true   # ramo temporário do diagnóstico do RAD
           git add data logs
           if git diff --cached --quiet; then
             echo "Sem mudanças."

@@ -186,7 +186,7 @@ def gravar(pasta, tipo, dt_refer, linhas, acoes, nsd):
             w = csv.DictWriter(f, fieldnames=COLUNAS_ACOES)
             w.writeheader()
             w.writerow(acoes)
-    json.dump({"tipo": tipo, "DT_REFER": dt_refer, "nsd": nsd, "linhas": len(linhas), "gravado_em": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")},
+    json.dump({"tipo": tipo, "DT_REFER": dt_refer, "nsd": nsd, "linhas": len(linhas), "gravado_em": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")},
               open(os.path.join(pasta, "RAD_%s_%s.json" % (tipo, dt_refer)), "w", encoding="utf-8"))
 
 
@@ -238,7 +238,7 @@ def main():
         gravar(pasta, a.tipo, a.data, ls, ac, None)
         print("%d linhas gravadas em %s" % (len(ls), pasta))
         return 0
-    log = ["# RAD (ITR/DFP direto da CVM) — última execução", "", "Executado em %s UTC" % dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M"), ""]
+    log = ["# RAD (ITR/DFP direto da CVM) — última execução", "", "Executado em %s UTC" % dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M"), ""]
     pl = os.path.join(RAIZ, "data", "plantao.json")
     noticias = json.load(open(pl, encoding="utf-8"))["noticias"] if os.path.exists(pl) else []
     # último documento entregue para cada (tipo, data de referência), ignorando cancelamentos
