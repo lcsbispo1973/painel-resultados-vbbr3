@@ -1,0 +1,489 @@
+tipo,demo,ano,DT_REFER,VERSAO,ESCALA_MOEDA,ORDEM_EXERC,DT_INI_EXERC,DT_FIM_EXERC,CD_CONTA,DS_CONTA,VL_CONTA,ST_CONTA_FIXA,COLUNA_DF
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.01,Saldos Iniciais,10034000.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.01,Saldos Iniciais,-13000.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.01,Saldos Iniciais,11479000.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.01,Saldos Iniciais,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.01,Saldos Iniciais,-1115000.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.01,Saldos Iniciais,20385000.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.01,Saldos Iniciais,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.01,Saldos Iniciais,20385000.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.03,Saldos Iniciais Ajustados,10034000.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.03,Saldos Iniciais Ajustados,-13000.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.03,Saldos Iniciais Ajustados,11479000.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.03,Saldos Iniciais Ajustados,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.03,Saldos Iniciais Ajustados,-1115000.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.03,Saldos Iniciais Ajustados,20385000.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.03,Saldos Iniciais Ajustados,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.03,Saldos Iniciais Ajustados,20385000.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04,Transações de Capital com os Sócios,1217000.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04,Transações de Capital com os Sócios,3000.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04,Transações de Capital com os Sócios,-1250000.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04,Transações de Capital com os Sócios,-350000.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04,Transações de Capital com os Sócios,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04,Transações de Capital com os Sócios,-380000.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04,Transações de Capital com os Sócios,165000.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04,Transações de Capital com os Sócios,-215000.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.01,Aumentos de Capital,1217000.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.01,Aumentos de Capital,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.01,Aumentos de Capital,-1217000.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.01,Aumentos de Capital,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.01,Aumentos de Capital,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.01,Aumentos de Capital,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.01,Aumentos de Capital,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.01,Aumentos de Capital,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.03,Opções Outorgadas Reconhecidas,13000.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.03,Opções Outorgadas Reconhecidas,13000.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.03,Opções Outorgadas Reconhecidas,13000.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.04,Ações em Tesouraria Adquiridas,-20000.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.04,Ações em Tesouraria Adquiridas,-20000.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.04,Ações em Tesouraria Adquiridas,-20000.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.06,Dividendos,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.06,Dividendos,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.06,Dividendos,-33000.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.06,Dividendos,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.06,Dividendos,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.06,Dividendos,-33000.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.06,Dividendos,-1000.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.06,Dividendos,-34000.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.07,Juros sobre Capital Próprio,-350000.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.07,Juros sobre Capital Próprio,-350000.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.07,Juros sobre Capital Próprio,-350000.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.08,Transação de capital reflexa,0.0000000000,N,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.08,Transação de capital reflexa,10000.0000000000,N,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.08,Transação de capital reflexa,0.0000000000,N,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.08,Transação de capital reflexa,0.0000000000,N,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.08,Transação de capital reflexa,0.0000000000,N,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.08,Transação de capital reflexa,10000.0000000000,N,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.08,Transação de capital reflexa,0.0000000000,N,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.08,Transação de capital reflexa,10000.0000000000,N,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.09,Aquisição / Venda de participação acionária,0.0000000000,N,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.09,Aquisição / Venda de participação acionária,0.0000000000,N,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.09,Aquisição / Venda de participação acionária,0.0000000000,N,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.09,Aquisição / Venda de participação acionária,0.0000000000,N,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.09,Aquisição / Venda de participação acionária,0.0000000000,N,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.09,Aquisição / Venda de participação acionária,0.0000000000,N,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.09,Aquisição / Venda de participação acionária,-51000.0000000000,N,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.09,Aquisição / Venda de participação acionária,-51000.0000000000,N,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.10,Combinação de negócios,0.0000000000,N,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.10,Combinação de negócios,0.0000000000,N,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.10,Combinação de negócios,0.0000000000,N,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.10,Combinação de negócios,0.0000000000,N,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.10,Combinação de negócios,0.0000000000,N,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.10,Combinação de negócios,0.0000000000,N,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.10,Combinação de negócios,220000.0000000000,N,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.10,Combinação de negócios,220000.0000000000,N,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.11,Redução de capital,0.0000000000,N,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.11,Redução de capital,0.0000000000,N,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.11,Redução de capital,0.0000000000,N,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.11,Redução de capital,0.0000000000,N,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.11,Redução de capital,0.0000000000,N,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.11,Redução de capital,0.0000000000,N,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.11,Redução de capital,-3000.0000000000,N,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.04.11,Redução de capital,-3000.0000000000,N,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05,Resultado Abrangente Total,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05,Resultado Abrangente Total,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05,Resultado Abrangente Total,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05,Resultado Abrangente Total,1328000.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05,Resultado Abrangente Total,-132000.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05,Resultado Abrangente Total,1196000.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05,Resultado Abrangente Total,-28000.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05,Resultado Abrangente Total,1168000.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.01,Lucro Líquido do Período,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.01,Lucro Líquido do Período,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.01,Lucro Líquido do Período,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.01,Lucro Líquido do Período,1328000.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.01,Lucro Líquido do Período,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.01,Lucro Líquido do Período,1328000.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.01,Lucro Líquido do Período,-28000.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.01,Lucro Líquido do Período,1300000.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02,Outros Resultados Abrangentes,-132000.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02,Outros Resultados Abrangentes,-132000.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02,Outros Resultados Abrangentes,-132000.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.04,Ajustes de Conversão do Período,-56000.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.04,Ajustes de Conversão do Período,-56000.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.04,Ajustes de Conversão do Período,-56000.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.06,Perdas atuariais,0.0000000000,N,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.06,Perdas atuariais,0.0000000000,N,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.06,Perdas atuariais,0.0000000000,N,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.06,Perdas atuariais,0.0000000000,N,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.06,Perdas atuariais,-74000.0000000000,N,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.06,Perdas atuariais,-74000.0000000000,N,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.06,Perdas atuariais,0.0000000000,N,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.06,Perdas atuariais,-74000.0000000000,N,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.07,Ganhos ou Perdas não realizados em instrumentos financeiros,0.0000000000,N,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.07,Ganhos ou Perdas não realizados em instrumentos financeiros,0.0000000000,N,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.07,Ganhos ou Perdas não realizados em instrumentos financeiros,0.0000000000,N,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.07,Ganhos ou Perdas não realizados em instrumentos financeiros,0.0000000000,N,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.07,Ganhos ou Perdas não realizados em instrumentos financeiros,-2000.0000000000,N,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.07,Ganhos ou Perdas não realizados em instrumentos financeiros,-2000.0000000000,N,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.07,Ganhos ou Perdas não realizados em instrumentos financeiros,0.0000000000,N,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.02.07,Ganhos ou Perdas não realizados em instrumentos financeiros,-2000.0000000000,N,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.03,Reclassificações para o Resultado,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06.01,Constituição de Reservas,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06.01,Constituição de Reservas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06.01,Constituição de Reservas,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06.01,Constituição de Reservas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06.01,Constituição de Reservas,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06.01,Constituição de Reservas,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06.01,Constituição de Reservas,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06.01,Constituição de Reservas,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.07,Saldos Finais,11251000.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.07,Saldos Finais,-10000.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.07,Saldos Finais,10229000.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.07,Saldos Finais,978000.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.07,Saldos Finais,-1247000.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.07,Saldos Finais,21201000.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.07,Saldos Finais,137000.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,ÚLTIMO,2025-01-01,2025-09-30,5.07,Saldos Finais,21338000.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.01,Saldos Iniciais,7579000.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.01,Saldos Iniciais,-1091000.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.01,Saldos Iniciais,10633000.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.01,Saldos Iniciais,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.01,Saldos Iniciais,-1390000.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.01,Saldos Iniciais,15731000.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.01,Saldos Iniciais,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.01,Saldos Iniciais,15731000.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.02,Ajustes de Exercícios Anteriores,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.03,Saldos Iniciais Ajustados,7579000.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.03,Saldos Iniciais Ajustados,-1091000.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.03,Saldos Iniciais Ajustados,10633000.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.03,Saldos Iniciais Ajustados,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.03,Saldos Iniciais Ajustados,-1390000.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.03,Saldos Iniciais Ajustados,15731000.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.03,Saldos Iniciais Ajustados,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.03,Saldos Iniciais Ajustados,15731000.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04,Transações de Capital com os Sócios,2455000.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04,Transações de Capital com os Sócios,1075000.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04,Transações de Capital com os Sócios,-3918000.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04,Transações de Capital com os Sócios,-782000.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04,Transações de Capital com os Sócios,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04,Transações de Capital com os Sócios,-1170000.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04,Transações de Capital com os Sócios,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04,Transações de Capital com os Sócios,-1170000.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.01,Aumentos de Capital,2455000.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.01,Aumentos de Capital,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.01,Aumentos de Capital,-2455000.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.01,Aumentos de Capital,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.01,Aumentos de Capital,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.01,Aumentos de Capital,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.01,Aumentos de Capital,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.01,Aumentos de Capital,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.02,Gastos com Emissão de Ações,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.03,Opções Outorgadas Reconhecidas,10000.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.03,Opções Outorgadas Reconhecidas,10000.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.03,Opções Outorgadas Reconhecidas,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.03,Opções Outorgadas Reconhecidas,10000.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.04,Ações em Tesouraria Adquiridas,-29000.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.04,Ações em Tesouraria Adquiridas,-29000.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.04,Ações em Tesouraria Adquiridas,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.04,Ações em Tesouraria Adquiridas,-29000.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.05,Ações em Tesouraria Vendidas,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.06,Dividendos,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.06,Dividendos,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.06,Dividendos,-404000.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.06,Dividendos,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.06,Dividendos,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.06,Dividendos,-404000.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.06,Dividendos,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.06,Dividendos,-404000.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.07,Juros sobre Capital Próprio,-782000.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.07,Juros sobre Capital Próprio,-782000.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.07,Juros sobre Capital Próprio,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.07,Juros sobre Capital Próprio,-782000.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.08,Transação de capital reflexa,0.0000000000,N,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.08,Transação de capital reflexa,20000.0000000000,N,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.08,Transação de capital reflexa,0.0000000000,N,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.08,Transação de capital reflexa,0.0000000000,N,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.08,Transação de capital reflexa,0.0000000000,N,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.08,Transação de capital reflexa,20000.0000000000,N,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.08,Transação de capital reflexa,0.0000000000,N,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.08,Transação de capital reflexa,20000.0000000000,N,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.09,Ações em tesouraria - Utilização/Cancelamento,0.0000000000,N,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.09,Ações em tesouraria - Utilização/Cancelamento,1074000.0000000000,N,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.09,Ações em tesouraria - Utilização/Cancelamento,-1059000.0000000000,N,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.09,Ações em tesouraria - Utilização/Cancelamento,0.0000000000,N,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.09,Ações em tesouraria - Utilização/Cancelamento,0.0000000000,N,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.09,Ações em tesouraria - Utilização/Cancelamento,15000.0000000000,N,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.09,Ações em tesouraria - Utilização/Cancelamento,0.0000000000,N,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.04.09,Ações em tesouraria - Utilização/Cancelamento,15000.0000000000,N,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05,Resultado Abrangente Total,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05,Resultado Abrangente Total,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05,Resultado Abrangente Total,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05,Resultado Abrangente Total,5857000.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05,Resultado Abrangente Total,6000.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05,Resultado Abrangente Total,5863000.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05,Resultado Abrangente Total,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05,Resultado Abrangente Total,5863000.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.01,Lucro Líquido do Período,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.01,Lucro Líquido do Período,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.01,Lucro Líquido do Período,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.01,Lucro Líquido do Período,5857000.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.01,Lucro Líquido do Período,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.01,Lucro Líquido do Período,5857000.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.01,Lucro Líquido do Período,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.01,Lucro Líquido do Período,5857000.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02,Outros Resultados Abrangentes,6000.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02,Outros Resultados Abrangentes,6000.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02,Outros Resultados Abrangentes,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02,Outros Resultados Abrangentes,6000.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.02,Tributos s/ Ajustes Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.03,Equiv. Patrim. s/Result. Abrang. Coligadas,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.04,Ajustes de Conversão do Período,35000.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.04,Ajustes de Conversão do Período,35000.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.04,Ajustes de Conversão do Período,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.04,Ajustes de Conversão do Período,35000.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.05,Tributos s/ Ajustes de Conversão do Período,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.06,Perdas atuariais,0.0000000000,N,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.06,Perdas atuariais,0.0000000000,N,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.06,Perdas atuariais,0.0000000000,N,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.06,Perdas atuariais,0.0000000000,N,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.06,Perdas atuariais,-29000.0000000000,N,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.06,Perdas atuariais,-29000.0000000000,N,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.06,Perdas atuariais,0.0000000000,N,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.02.06,Perdas atuariais,-29000.0000000000,N,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.03,Reclassificações para o Resultado,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.03,Reclassificações para o Resultado,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.05.03.01,Ajustes de Instrumentos Financeiros,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06,Mutações Internas do Patrimônio Líquido,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06.01,Constituição de Reservas,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06.01,Constituição de Reservas,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06.01,Constituição de Reservas,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06.01,Constituição de Reservas,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06.01,Constituição de Reservas,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06.01,Constituição de Reservas,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06.01,Constituição de Reservas,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06.01,Constituição de Reservas,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06.02,Realização da Reserva Reavaliação,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.06.03,Tributos sobre a Realização da Reserva de Reavaliação,0.0000000000,S,Patrimônio Líquido Consolidado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.07,Saldos Finais,10034000.0000000000,S,Capital Social Integralizado
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.07,Saldos Finais,-16000.0000000000,S,"Reservas de Capital, Opções Outorgadas e Ações em Tesouraria"
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.07,Saldos Finais,6715000.0000000000,S,Reservas de Lucro
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.07,Saldos Finais,5075000.0000000000,S,Lucros ou Prejuízos Acumulados
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.07,Saldos Finais,-1384000.0000000000,S,Outros Resultados Abrangentes
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.07,Saldos Finais,20424000.0000000000,S,Patrimônio Líquido
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.07,Saldos Finais,0.0000000000,S,Participação dos Não Controladores
+ITR,DMPL,2025,2025-09-30,1,MIL,PENÚLTIMO,2024-01-01,2024-09-30,5.07,Saldos Finais,20424000.0000000000,S,Patrimônio Líquido Consolidado
