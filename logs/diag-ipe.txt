@@ -1,0 +1,101 @@
+download 1706941 text/html b'%PDF-1.7' oadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1558260
+download 1706941 text/html b'%PDF-1.7' descTipo=IPE&CodigoInstituicao=1&numProtocolo=1558260&numSequencia=0&numVersao=1
+download 1706941 text/html b'%PDF-1.7' oadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1558260
+
+visualizador mExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1558260 27720
+   
+   ./frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1558260
+   /ENET/ruxitagentjs_ICANQVfgqrux_10345260810170330.js
+   /wEPDwUKLTM1NTI5OTgxNWRkT/9O0IvzbY6rwAYGrAJg4jv7aQ473nGD6R5EjR6MePo=
+   /wEdAAiN9+mI2JL/hqFLFIcnzHFLTYUUSolUKfy3afzXUESFU6wW1D2kYGD+Rl3JVbP8wepmgj+tGHf50/gMmkavd6ua9G7B9LsoPSDxRrYIEGazvO2gXdkG9byUyjApvwD1oknam6B3wf5cF85Giu0zQdfNIITTHF9Rwt/13K99t3+6IyYESHrhLy7RxRqslgrcPKN4yztze97IwmVbNMiDyN7K
+   1
+   6LdVyiwaAAAAABobBnLknCD5VGGkmH9snlJBxCyr
+   6LeSyywaAAAAAGzZjvIaDntL8_Ht6aO7Gqt317x8
+   885407F1
+   App_Themes/CVM/Calendar/Skins/CVM/Calendar.css
+   App_Themes/CVM/Calendar/Skins/CVM/RadTimePicker.css
+   App_Themes/CVM/Calendario.css
+   App_Themes/CVM/ComboBox/CVM/Styles.css
+   App_Themes/CVM/ComboBox/Skins/CVM/Styles.css
+   App_Themes/CVM/EditarConteudo.css
+   App_Themes/CVM/Entrada.css
+   App_Themes/CVM/Erro.css
+   App_Themes/CVM/Estrutura.css
+   App_Themes/CVM/Ferramentas.css
+   App_Themes/CVM/Formulario.css
+   App_Themes/CVM/FormularioReferencia.css
+   App_Themes/CVM/Grid.css
+   App_Themes/CVM/Input/Skins/CVM/styles.css
+   App_Themes/CVM/Login.css
+   App_Themes/CVM/Logout.css
+   App_Themes/CVM/Menu.css
+   App_Themes/CVM/Pesquisa.css
+   App_Themes/CVM/PopUp.css
+   App_Themes/CVM/TabStrip.css
+   App_Themes/CVM/Tabstrip/Scripts/3_6_2/tabstrip.css
+   App_Themes/CVM/Tabstrip/Scripts/3_6_2/vtabstrip.css
+   App_Themes/CVM/Tabstrip/Skins/CBLC/styles.css
+   App_Themes/CVM/Tabstrip/Skins/CVM/styles.css
+   App_Themes/CVM/Topo.css
+   App_Themes/CVM/TrocaSenha.css
+   App_Themes/CVM/Upload/Skins/CVM/RadUpload.css
+   App_Themes/CVM/Upload/Skins/CVM/RadUploadProgressArea.css
+   App_Themes/CVM/Window/Skins/CVM/Window.css
+   N
+   css/foundation-icons/foundation-icons.css
+   css/foundation.css
+   css/slidemenu.css
+   https://www.googletagmanager.com/gtag/js?id=UA-99990786-2
+   jquery/jquery-1.12.4.js
+   jquery/jquery.slidemenu.js
+   jquery/ui/jquery-ui.css
+   jquery/ui/jquery-ui.js
+   js/mensagemModal.js
+
+visualizador vm.gov.br/ENETWEB/frmExibirArquivoIPEExterno.aspx?ID=1558260 25240
+   
+   ./frmExibirArquivoIPEExterno.aspx?ID=1558260
+   /ENETWEB/ruxitagentjs_ICANQVfgqrux_10345260810170330.js
+   0
+   4vr+DlS5UDIWBeGwzf+UYcztXIYcchuoavzorwWK8YwzIbaaujD3BohRW8aa6BKcYLOBPywIy2UyAfXu8zzHd358PwHoXpUkAjc0Dr5VZt4=
+   8qx0Q87/gDXAtWe53NQOdtdUWKBhbH1F6yGiJpZ4gjW6H1dNxWRJ0M1lQeAQQcfPEoRUzAFataC5suRhKDBzN8mZxE4c0Y1GJod9T2Utu5KGocAeJ0v8NFX0nxIwQBQeaAj1t6STZtdo6eOsDMN6XY4mKHpV8PL0lmyM+nJt3GhzLumxJQIU71HoK08CMraYVNSej2y0dgCVglPhSbRuyN2QABoBiwkUPOAFud+8+tp7g4a8tO+3MC2uHIDRqYUW
+   App_Themes/CVM/Calendar/Skins/CVM/Calendar.css
+   App_Themes/CVM/Calendar/Skins/CVM/RadTimePicker.css
+   App_Themes/CVM/Calendario.css
+   App_Themes/CVM/ComboBox/CVM/Styles.css
+   App_Themes/CVM/ComboBox/Skins/CVM/Styles.css
+   App_Themes/CVM/EditarConteudo.css
+   App_Themes/CVM/Entrada.css
+   App_Themes/CVM/Erro.css
+   App_Themes/CVM/Estrutura.css
+   App_Themes/CVM/Ferramentas.css
+   App_Themes/CVM/Formulario.css
+   App_Themes/CVM/FormularioReferencia.css
+   App_Themes/CVM/Grid.css
+   App_Themes/CVM/Input/Skins/CVM/styles.css
+   App_Themes/CVM/Login.css
+   App_Themes/CVM/Logout.css
+   App_Themes/CVM/Menu.css
+   App_Themes/CVM/Pesquisa.css
+   App_Themes/CVM/PopUp.css
+   App_Themes/CVM/TabStrip.css
+   App_Themes/CVM/Tabstrip/Scripts/3_6_2/tabstrip.css
+   App_Themes/CVM/Tabstrip/Scripts/3_6_2/vtabstrip.css
+   App_Themes/CVM/Tabstrip/Skins/CBLC/styles.css
+   App_Themes/CVM/Tabstrip/Skins/CVM/styles.css
+   App_Themes/CVM/Topo.css
+   App_Themes/CVM/TrocaSenha.css
+   App_Themes/CVM/Upload/Skins/CVM/RadUpload.css
+   App_Themes/CVM/Upload/Skins/CVM/RadUploadProgressArea.css
+   App_Themes/CVM/Window/Skins/CVM/Window.css
+   D3784BE7
+   N
+   css/foundation-icons/foundation-icons.css
+   css/foundation.css
+   css/slidemenu.css
+   https://www.googletagmanager.com/gtag/js?id=UA-99990786-2
+   jquery/jquery-1.12.4.js
+   jquery/jquery.slidemenu.js
+   jquery/ui/jquery-ui.css
+   jquery/ui/jquery-ui.js
+   js/mensagemModal.js
