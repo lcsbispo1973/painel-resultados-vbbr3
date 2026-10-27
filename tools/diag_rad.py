@@ -16,13 +16,17 @@ def lista(empresa, categoria, dias=200, periodo="2"):
                                  headers={"User-Agent": UA, "Content-Type": "application/json; charset=utf-8", "X-Requested-With": "XMLHttpRequest", "Referer": B + "frmConsultaExternaCVM.aspx"})
     return json.loads(op.open(req, timeout=90).read().decode("utf-8"))["d"]
 melhor = None
-for emp in [",024295", "024295", ",24295"]:
-    for cat in ["EST_-1,IPE_-1_-1_-1", "EST_-1", "IPE_-1_-1_-1"]:
+for emp in [",024295", "024295"]:
+    for cat in ["EST_-1,IPE_-1_-1_-1", "IPE_-1_-1_-1"]:
         try:
             d = lista(emp, cat); n = len([x for x in (d.get("dados") or "").split("&*") if x])
             p("empresa=%r categoria=%r → erro=%s %s linhas=%d" % (emp, cat, d.get("temErro"), d.get("msgErro", "")[:200], n))
             if n and (melhor is None or n > melhor[0]): melhor = (n, d["dados"])
-        except Exception as e: p("empresa=%r categoria=%r ERRO %r" % (emp, cat, e))
+        except Exception as e:
+            corpo = ""
+            try: corpo = e.read().decode("utf-8", "replace")[:700]
+            except Exception: pass
+            p("empresa=%r categoria=%r ERRO %r %s" % (emp, cat, e, corpo))
 if melhor:
     open(os.path.join(OUT, "lista.txt"), "w", encoding="utf-8").write(melhor[1])
     linhas = [l.split("$&") for l in melhor[1].split("&*") if l]
