@@ -1,5 +1,5 @@
 """Diagnóstico: lista documentos da Vibra no RAD novo (ENETWeb) e baixa o pacote do ITR mais recente."""
-import json, os, re, sys, urllib.request, http.cookiejar, datetime as dt, zipfile, io
+import json, os, re, sys, urllib.request, urllib.error, http.cookiejar, datetime as dt, zipfile, io
 OUT = sys.argv[1]; os.makedirs(OUT, exist_ok=True)
 log = open(os.path.join(OUT, "rad.txt"), "w", encoding="utf-8")
 def p(*a): print(*a, file=log, flush=True)
@@ -8,13 +8,22 @@ UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chr
 B = "https://www.rad.cvm.gov.br/ENETWeb/"
 op.open(urllib.request.Request(B + "frmConsultaExternaCVM.aspx", headers={"User-Agent": UA}), timeout=60).read()
 hoje = dt.date.today()
+EXTRA = {}
 def lista(empresa, categoria, dias=200, periodo="2"):
-    dv = ("{ dataDe: '%s', dataAte: '%s' , empresa: '%s', setorAtividade: '-1', categoriaEmissor: '-1', situacaoEmissor: '-1', tipoParticipante: '-1', dataReferencia: '', "
-          "categoria: '%s', periodo: '%s', horaIni: '', horaFim: '', palavraChave:'',ultimaDtRef:'false', tipoEmpresa:'0', token: '', versaoCaptcha: ''}") % (
-        (hoje - dt.timedelta(days=dias)).strftime("%d/%m/%Y"), hoje.strftime("%d/%m/%Y"), empresa, categoria, periodo)
-    req = urllib.request.Request(B + "frmConsultaExternaCVM.aspx/ListarDocumentos", data=dv.encode("utf-8"),
-                                 headers={"User-Agent": UA, "Content-Type": "application/json; charset=utf-8", "X-Requested-With": "XMLHttpRequest", "Referer": B + "frmConsultaExternaCVM.aspx"})
-    return json.loads(op.open(req, timeout=90).read().decode("utf-8"))["d"]
+    base = {"dataDe": (hoje - dt.timedelta(days=dias)).strftime("%d/%m/%Y"), "dataAte": hoje.strftime("%d/%m/%Y"), "empresa": empresa, "setorAtividade": "-1",
+            "categoriaEmissor": "-1", "situacaoEmissor": "-1", "tipoParticipante": "-1", "dataReferencia": "", "categoria": categoria, "periodo": periodo,
+            "horaIni": "", "horaFim": "", "palavraChave": "", "ultimaDtRef": "false", "tipoEmpresa": "0", "token": "", "versaoCaptcha": "", "situacaoRegistroCVM": "-1"}
+    for _ in range(8):
+        corpo = dict(base, **EXTRA)
+        req = urllib.request.Request(B + "frmConsultaExternaCVM.aspx/ListarDocumentos", data=json.dumps(corpo).encode("utf-8"),
+                                     headers={"User-Agent": UA, "Content-Type": "application/json; charset=utf-8", "X-Requested-With": "XMLHttpRequest", "Referer": B + "frmConsultaExternaCVM.aspx"})
+        try:
+            return json.loads(op.open(req, timeout=90).read().decode("utf-8"))["d"]
+        except urllib.error.HTTPError as e:
+            t = e.read().decode("utf-8", "replace"); m = re.search(r"missing value for parameter: \\u0027(\w+)\\u0027|missing value for parameter: '(\w+)'", t)
+            if not m: raise RuntimeError(t[:400])
+            nome = m.group(1) or m.group(2); EXTRA[nome] = "-1"; p("  parâmetro exigido:", nome)
+    raise RuntimeError("parâmetros demais")
 melhor = None
 for emp in [",024295", "024295"]:
     for cat in ["EST_-1,IPE_-1_-1_-1", "IPE_-1_-1_-1"]:
@@ -23,10 +32,7 @@ for emp in [",024295", "024295"]:
             p("empresa=%r categoria=%r → erro=%s %s linhas=%d" % (emp, cat, d.get("temErro"), d.get("msgErro", "")[:200], n))
             if n and (melhor is None or n > melhor[0]): melhor = (n, d["dados"])
         except Exception as e:
-            corpo = ""
-            try: corpo = e.read().decode("utf-8", "replace")[:700]
-            except Exception: pass
-            p("empresa=%r categoria=%r ERRO %r %s" % (emp, cat, e, corpo))
+            p("empresa=%r categoria=%r ERRO %r" % (emp, cat, e))
 if melhor:
     open(os.path.join(OUT, "lista.txt"), "w", encoding="utf-8").write(melhor[1])
     linhas = [l.split("$&") for l in melhor[1].split("&*") if l]
