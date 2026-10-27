@@ -143,18 +143,19 @@
       }));
     }
     function ipiranga(el) {
-      var x = P.x(S.a), lh = P.hist(x.base === 'T' ? 12 : 8), rs = lh.map(P.rotP), dest = { destaque: P.rotulo(S.a) };
+      // gráficos: Vibra Distribuição × Ipiranga (mesmo negócio), 8 períodos, com o valor de cada ponto das duas companhias
+      var x = P.x(S.a), lh = P.hist(8), rs = lh.map(P.rotP), dest = { destaque: P.rotulo(S.a), todosValores: true };
       var cM = P.chart('ip-m3'), cV = P.chart('ip-vol'), cE = P.chart('ip-eb'), tb = h('table');
       var vDist = function (p) { var e = P.M.aj('CONS', p, x.base), r = P.M.aj('REN', p, x.base); return ok(e) ? e - (ok(r) ? r : 0) : null; };
       el.append(h('div', { class: 'grid' },
-        P.card('Margem EBITDA Ajustado (R$/m³)', 'Vibra Consolidada: EBITDA Ajustado consolidado da nota de segmentos ÷ volume. Vibra Distribuição: sem Renováveis. Ipiranga: EBITDA Ajustado ÷ volume, releases da Ultrapar.', cM),
-        P.card('Volume de vendas', 'Mil m³.', cV), P.card('EBITDA Ajustado', 'R$ milhões. Vibra Consolidada, Vibra Distribuição (sem Renováveis) e Ipiranga.', cE)),
+        P.card('Margem EBITDA Ajustado (R$/m³)', 'Vibra Distribuição (sem Renováveis, como no release) × Ipiranga (EBITDA Ajustado ÷ volume, releases da Ultrapar). A Vibra Consolidada está na tabela abaixo.', cM),
+        P.card('Volume de vendas', 'Mil m³.', cV), P.card('EBITDA Ajustado', 'R$ milhões. Vibra Distribuição (sem Renováveis) × Ipiranga. A Vibra Consolidada está na tabela abaixo.', cE)),
         h('div', { class: 'sec' }, h('h2', null, 'Comparação no ' + P.rotuloLongo(S.a))), h('div', { class: 'twrap' }, tb),
-        h('p', { class: 'note', style: 'margin-top:10px' }, 'Visão principal: Vibra Consolidada × Ipiranga; complementar: Vibra Distribuição × Ipiranga. A Ipiranga é um segmento da Ultrapar; seus números vêm dos releases da Ultrapar arquivados na CVM, sem eliminações entre segmentos. Definições de EBITDA Ajustado de cada companhia podem diferir. Até 2021 a Ultrapar apresentava o EBITDA do segmento sem a palavra "ajustado".'));
+        h('p', { class: 'note', style: 'margin-top:10px' }, 'Gráficos: Vibra Distribuição × Ipiranga, o mesmo negócio de distribuição de combustíveis; a tabela traz também a Vibra Consolidada (com Renováveis). A Ipiranga é um segmento da Ultrapar; seus números vêm dos releases da Ultrapar arquivados na CVM, sem eliminações entre segmentos. Definições de EBITDA Ajustado de cada companhia podem diferir. Até 2021 a Ultrapar apresentava o EBITDA do segmento sem a palavra "ajustado".'));
       var mCons = function (p) { var e = P.M.aj('CONS', p, x.base), v = P.oper('CONS', 'vol', p, x.base); return ok(e) && v ? e / v * 1000 : null; };
-      G.linhas(cM, rs, [{ nome: 'Vibra Consolidada', vals: lh.map(mCons) }, { nome: 'Ipiranga', vals: lh.map(function (p) { return P.ipi('margem_m3', p, x.base); }) }, { nome: 'Vibra Distribuição', vals: lh.map(function (p) { return P.oper('CONS', 'margem_m3', p, x.base); }) }], P.fRm3, dest);
+      G.linhas(cM, rs, [{ nome: 'Vibra Distribuição', vals: lh.map(function (p) { return P.oper('CONS', 'margem_m3', p, x.base); }) }, { nome: 'Ipiranga', vals: lh.map(function (p) { return P.ipi('margem_m3', p, x.base); }) }], P.fRm3, dest);
       G.linhas(cV, rs, [{ nome: 'Vibra', vals: lh.map(function (p) { return P.oper('CONS', 'vol', p, x.base); }) }, { nome: 'Ipiranga', vals: lh.map(function (p) { return P.ipi('vol', p, x.base); }) }], P.fN, dest);
-      G.linhas(cE, rs, [{ nome: 'Vibra Consolidada', vals: lh.map(function (p) { return P.M.aj('CONS', p, x.base); }) }, { nome: 'Ipiranga', vals: lh.map(function (p) { return P.ipi('ebitda', p, x.base); }) }, { nome: 'Vibra Distribuição', vals: lh.map(vDist) }], P.fR, dest);
+      G.linhas(cE, rs, [{ nome: 'Vibra Distribuição', vals: lh.map(vDist) }, { nome: 'Ipiranga', vals: lh.map(function (p) { return P.ipi('ebitda', p, x.base); }) }], P.fR, dest);
       var vc = function (f) { return f(x.p); };
       var lin = [
         ['Volume (mil m³)', P.oper('CONS', 'vol', x.p, x.base), P.oper('CONS', 'vol', x.p, x.base), P.ipi('vol', x.p, x.base), P.fN],

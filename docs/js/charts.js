@@ -87,9 +87,9 @@
     var todos = []; series.forEach(function (s) { s.vals.forEach(function (v) { if (v != null) todos.push(v); }); });
     if (!todos.length) return falha(el);
     legenda(el, series.map(function (s, i) { return [s.nome, C(i + 1)]; }));
-    var lim = folga(Math.min(0, d3.min(todos)), Math.max(0, d3.max(todos)), 0.12);
-    var g = base(el, labels, lim[0], lim[1], fmt), tp = tipo(el), cx = function (l) { return g.x(l) + g.x.bandwidth() / 2; };
-    var rot = g.svg.append('g');
+    var lim = folga(Math.min(0, d3.min(todos)), Math.max(0, d3.max(todos)), opt.todosValores ? 0.22 : 0.12);
+    var g = base(el, labels, lim[0], lim[1], fmt, opt.todosValores ? 260 : null), tp = tipo(el), cx = function (l) { return g.x(l) + g.x.bandwidth() / 2; };
+    var rot = g.svg.append('g'), postos = [];
     series.forEach(function (s, i) {
       var pts = labels.map(function (l, k) { return { l: l, v: s.vals[k] }; }).filter(function (d) { return d.v != null; });
       g.svg.append('path').datum(pts).attr('fill', 'none').attr('stroke', C(i + 1)).attr('stroke-width', 2).attr('stroke-linejoin', 'round').attr('stroke-linecap', 'round')
@@ -98,11 +98,23 @@
       // valores: até duas séries rotuladas (a 1ª acima da linha, a 2ª abaixo); com mais séries, só a principal (as demais no toque)
       if (!pts.length || opt.semValores || (series.length > 2 && i > 0)) return;
       var larg = d3.max(pts, function (d) { return fmt(d.v).length; }) * 5.6 + 6;
-      var marcados = escolhe(pts, function (d) { return cx(d.l); }, larg, opt.destaque);
-      marcados.forEach(function (d) {
+      // opt.todosValores: rótulo em todos os pontos; se não couberem lado a lado, alternam em duas alturas
+      var marcados = opt.todosValores ? pts : escolhe(pts, function (d) { return cx(d.l); }, larg, opt.destaque);
+      var duas = opt.todosValores && pts.length > 1 && (cx(pts[1].l) - cx(pts[0].l)) < larg;
+      marcados.forEach(function (d, k) {
+        var nivel = duas ? k % 2 : 0, abaixo = i === 1 && series.length === 2;
+        if (opt.todosValores && series.length === 2) {   // em cada ponto, o rótulo da série de maior valor fica acima e o da menor, abaixo
+          var outro = series[1 - i].vals[labels.indexOf(d.l)];
+          if (outro != null) abaixo = d.v < outro || (d.v === outro && i === 1);
+        }
         g.svg.append('circle').attr('cx', cx(d.l)).attr('cy', g.y(d.v)).attr('r', 2.2).attr('fill', C(i + 1));
+        var yy = abaixo ? g.y(d.v) + 13 + nivel * 11 : g.y(d.v) - 6 - nivel * 11, t = fmt(d.v), w = t.length * 5.6 + 2;
+        if (opt.todosValores) {   // sem encavalar: afasta da própria linha enquanto colidir com um rótulo já posto
+          for (var tent = 0; tent < 4 && postos.some(function (q) { return Math.abs(q.x - cx(d.l)) < (q.w + w) / 2 && Math.abs(q.y - yy) < 10; }); tent++) yy += abaixo ? 11 : -11;
+          postos.push({ x: cx(d.l), y: yy, w: w });
+        }
         rot.append('text').attr('class', 'val').attr('text-anchor', 'middle').attr('x', cx(d.l))
-          .attr('y', i === 1 && series.length === 2 ? g.y(d.v) + 13 : g.y(d.v) - 6).attr('fill', C(i + 1)).style('fill', C(i + 1)).text(fmt(d.v));
+          .attr('y', yy).attr('fill', C(i + 1)).style('fill', C(i + 1)).text(t);
       });
     });
     rot.raise();
