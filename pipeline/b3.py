@@ -26,6 +26,10 @@ URLS = [
     "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A{ano}.ZIP",
     "https://www.b3.com.br/data/files/COTAHIST_A{ano}.ZIP",
 ]
+URLS_DIA = [
+    "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_D{d}.ZIP",
+    "https://www.b3.com.br/data/files/COTAHIST_D{d}.ZIP",
+]
 UA = {"User-Agent": "Mozilla/5.0 (compatible; painel-vbbr3/1.0)"}
 
 
@@ -125,6 +129,33 @@ def main():
         except Exception:  # noqa: BLE001
             erros += 1
             log.append("- %d: erro ao ler o arquivo\n```\n%s\n```" % (ano, traceback.format_exc()))
+    # complemento: o arquivo anual pode chegar sem o pregão mais recente; os arquivos diários (COTAHIST_DddMMaaaa) cobrem
+    # os dias úteis seguintes ao último dia lido (até 10 dias; a falta de um arquivo diário não é erro)
+    if not local and por_dia:
+        ult = dt.date.fromisoformat(max(por_dia))
+        dia = ult + dt.timedelta(days=1)
+        fim = hoje + dt.timedelta(days=1)   # o executor usa UTC: à noite em Brasília já é o dia seguinte
+        while dia <= fim and (dia - ult).days <= 10:
+            if dia.weekday() < 5:
+                for u in URLS_DIA:
+                    url = u.format(d=dia.strftime("%d%m%Y"))
+                    conteudo, info = baixar(url, tentativas=1)
+                    if not conteudo:
+                        continue
+                    try:
+                        regs = le_zip(conteudo)
+                    except Exception:  # noqa: BLE001
+                        continue
+                    for d, t, fech, vol, neg in regs:
+                        if t == INDICE:
+                            bova[d] = [d, fech]
+                        else:
+                            por_dia[d] = [d, t, fech, vol, neg]
+                    log.append("- diário %s → ok (%d registros da Vibra/BOVA11)" % (dia.isoformat(), len(regs)))
+                    break
+                else:
+                    log.append("- diário %s → ainda não publicado" % dia.isoformat())
+            dia += dt.timedelta(days=1)
     dias = [por_dia[k] for k in sorted(por_dia)]
     log += ["", "Dias com cotação: %d" % len(dias)]
     if dias:
