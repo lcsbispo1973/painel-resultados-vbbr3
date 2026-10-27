@@ -47,17 +47,32 @@
     return pts.filter(function (_, i) { return ok.indexOf(i) >= 0; });
   }
 
+  // eixo de períodos (trimestres, semestres, 9 meses, anos): todos os rótulos aparecem; se não couberem numa linha, quebram em duas
+  var RX_PER = /^(?:[1-4]T|[12]S|9M)\d{2}\*?$|^\d{4}\*?(?: \(prev\.\))?$/;
+  function ehPeriodo(labels) { return labels.length > 0 && labels.every(function (l) { return RX_PER.test(String(l)); }); }
+  function partesPeriodo(l) {
+    var m = /^((?:[1-4]T|[12]S|9M))(\d{2})(\*?)$/.exec(l); if (m) return [m[1], m[2] + m[3]];
+    m = /^(\d{2})(\d{2})(\*?)(.*)$/.exec(l); return m ? ["'" + m[2] + m[3], m[4].trim()] : [l, ''];
+  }
   function base(el, labels, ymin, ymax, fmt, h) {
     var W = el.clientWidth || 300, H = h || 230, m = { t: 16, r: 8, b: 26, l: 40 };
     var svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', '0 0 ' + W + ' ' + H).attr('role', 'img');
+    var per = ehPeriodo(labels), duas = false;
+    if (per) { var slot = (W - 56) / Math.max(1, labels.length); duas = largura(svg, labels) + 4 > slot; if (duas) m.b = 36; }
     var y = d3.scaleLinear([ymin, ymax === ymin ? ymin + 1 : ymax], [H - m.b, m.t]).nice(4), tk = y.ticks(4);
     m.l = largura(svg, tk.map(fmt)) + 10;
     var x = d3.scaleBand(labels, [m.l, W - m.r]).padding(0.3);
     svg.append('g').selectAll('line').data(tk).join('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y).attr('y2', y).attr('stroke', 'var(--grid)');
     svg.append('g').selectAll('text').data(tk).join('text').attr('class', 'tick').attr('x', m.l - 6).attr('y', function (d) { return y(d) + 4; }).attr('text-anchor', 'end').text(fmt);
     if (ymin < 0) svg.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(0)).attr('y2', y(0)).attr('stroke', 'var(--muted)');
-    svg.append('g').selectAll('text').data(rotulosX(labels, W - m.l)).join('text').attr('class', 'tick').attr('x', function (d) { return x(d) + x.bandwidth() / 2; }).attr('y', H - 8).attr('text-anchor', 'middle').text(function (d) { return d; });
-    return { svg: svg, x: x, y: y, W: W, H: H, m: m };
+    if (!per) svg.append('g').selectAll('text').data(rotulosX(labels, W - m.l)).join('text').attr('class', 'tick').attr('x', function (d) { return x(d) + x.bandwidth() / 2; }).attr('y', H - 8).attr('text-anchor', 'middle').text(function (d) { return d; });
+    else labels.forEach(function (l) {
+      var t = svg.append('text').attr('class', 'tick').attr('text-anchor', 'middle').attr('x', x(l) + x.bandwidth() / 2).attr('y', duas ? H - 20 : H - 8);
+      if (!duas) { t.text(l); return; }
+      var pp = partesPeriodo(l); t.text(pp[0]);
+      if (pp[1]) svg.append('text').attr('class', 'tick').attr('text-anchor', 'middle').attr('x', x(l) + x.bandwidth() / 2).attr('y', H - 8).text(pp[1]);
+    });
+    return { svg: svg, x: x, y: y, W: W, H: H, m: m, per: per };
   }
 
   function barras(el, labels, vals, nome, fmt, opt) {
@@ -82,41 +97,76 @@
       .text(function (d) { return fmt(d.v); });
   }
 
+  // posiciona rótulos de valor sem encavalar: para cada ponto testa posições acima/abaixo em níveis crescentes e escolhe a de
+  // menor penalidade (sobre outro rótulo > sobre um ponto > cruzando uma linha > distância do ponto); nunca sai da área do gráfico
+  function posicionaRotulos(g, itens, linhasXY) {
+    var postos = [], topo = 2, piso = g.H - g.m.b - 2;
+    var yLinha = function (pts, x) {
+      for (var k = 0; k < pts.length - 1; k++) { var a = pts[k], b = pts[k + 1]; if (x >= a[0] && x <= b[0]) return a[1] + (b[1] - a[1]) * (x - a[0]) / ((b[0] - a[0]) || 1); }
+      return null;
+    };
+    var med = g.svg.append('text').attr('class', 'val').style('visibility', 'hidden');
+    itens.forEach(function (d) {
+      med.text(d.t); var w = med.node().getComputedTextLength() + 6, melhor = null;
+      d.xr = Math.max(w / 2 + 1, Math.min(g.W - w / 2 - 1, d.x));   // não sai pelas laterais
+      var xr = d.xr;
+      for (var lev = 0; lev < 10; lev++) {
+        [d.acima, !d.acima].forEach(function (cima, lado) {
+          var base = cima ? d.y - 6 - lev * 12 : d.y + 14 + lev * 12, y0 = base - 10, y1 = base + 3;
+          if (y0 < topo || y1 > piso) return;
+          var pen = lev * 2 + lado * 3;
+          postos.forEach(function (q) { if (Math.abs(q.x - xr) < (q.w + w) / 2 + 1 && y0 < q.y1 + 1 && y1 > q.y0 - 1) pen += 1000; });
+          d.pontos.forEach(function (p) { if (Math.abs(p[0] - xr) < w / 2 + 2 && p[1] > y0 - 3 && p[1] < y1 + 3) pen += 200; });
+          linhasXY.forEach(function (pts) { [-w / 2, 0, w / 2].forEach(function (dx) { var yl = yLinha(pts, xr + dx); if (yl != null && yl > y0 - 1 && yl < y1 + 1) pen += 15; }); });
+          if (!melhor || pen < melhor.pen) melhor = { pen: pen, base: base, y0: y0, y1: y1 };
+        });
+      }
+      if (!melhor) melhor = { base: Math.max(topo + 9, Math.min(piso - 2, d.y - 6)), y0: 0, y1: 0 };
+      postos.push({ x: xr, w: w, y0: melhor.y0, y1: melhor.y1 });
+      d.yRot = melhor.base;
+    });
+    med.remove();
+  }
+
   function linhas(el, labels, series, fmt, opt) {
     el.replaceChildren(); opt = opt || {};
     var todos = []; series.forEach(function (s) { s.vals.forEach(function (v) { if (v != null) todos.push(v); }); });
     if (!todos.length) return falha(el);
     legenda(el, series.map(function (s, i) { return [s.nome, C(i + 1)]; }));
-    var lim = folga(Math.min(0, d3.min(todos)), Math.max(0, d3.max(todos)), opt.todosValores ? 0.22 : 0.12);
-    var g = base(el, labels, lim[0], lim[1], fmt, opt.todosValores ? 260 : null), tp = tipo(el), cx = function (l) { return g.x(l) + g.x.bandwidth() / 2; };
-    var rot = g.svg.append('g'), postos = [];
+    // eixo de períodos: valor em todos os pontos de todas as séries (opt.semValores desliga); séries mensais: só alguns pontos
+    var todosVal = !opt.semValores && (opt.todosValores || ehPeriodo(labels));
+    var lim = folga(Math.min(0, d3.min(todos)), Math.max(0, d3.max(todos)), todosVal ? 0.18 + 0.06 * series.length : 0.12);
+    // altura conforme a densidade: quantos níveis de rótulo cada série precisa para não encavalar na largura disponível
+    var wRot = d3.max(todos, function (v) { return fmt(v).length; }) * 6 + 8, slot = ((el.clientWidth || 300) - 60) / Math.max(1, labels.length);
+    var niveis = todosVal ? Math.max(1, Math.ceil(wRot / slot)) : 1;
+    var H = todosVal ? 220 + 30 * Math.max(0, series.length - 1) + (niveis > 1 ? series.length * niveis * 13 : 0) : null;
+    var g = base(el, labels, lim[0], lim[1], fmt, H), tp = tipo(el), cx = function (l) { return g.x(l) + g.x.bandwidth() / 2; };
+    var rot = g.svg.append('g'), linhasXY = [], itens = [];
     series.forEach(function (s, i) {
       var pts = labels.map(function (l, k) { return { l: l, v: s.vals[k] }; }).filter(function (d) { return d.v != null; });
       g.svg.append('path').datum(pts).attr('fill', 'none').attr('stroke', C(i + 1)).attr('stroke-width', 2).attr('stroke-linejoin', 'round').attr('stroke-linecap', 'round')
         .attr('d', d3.line().x(function (d) { return cx(d.l); }).y(function (d) { return g.y(d.v); }));
+      linhasXY.push(pts.map(function (d) { return [cx(d.l), g.y(d.v)]; }));
       if (pts.length) { var u = pts[pts.length - 1]; g.svg.append('circle').attr('cx', cx(u.l)).attr('cy', g.y(u.v)).attr('r', 3.5).attr('fill', C(i + 1)); }
-      // valores: até duas séries rotuladas (a 1ª acima da linha, a 2ª abaixo); com mais séries, só a principal (as demais no toque)
-      if (!pts.length || opt.semValores || (series.length > 2 && i > 0)) return;
+      if (!pts.length || opt.semValores) return;
       var larg = d3.max(pts, function (d) { return fmt(d.v).length; }) * 5.6 + 6;
-      // opt.todosValores: rótulo em todos os pontos; se não couberem lado a lado, alternam em duas alturas
-      var marcados = opt.todosValores ? pts : escolhe(pts, function (d) { return cx(d.l); }, larg, opt.destaque);
-      var duas = opt.todosValores && pts.length > 1 && (cx(pts[1].l) - cx(pts[0].l)) < larg;
-      marcados.forEach(function (d, k) {
-        var nivel = duas ? k % 2 : 0, abaixo = i === 1 && series.length === 2;
-        if (opt.todosValores && series.length === 2) {   // em cada ponto, o rótulo da série de maior valor fica acima e o da menor, abaixo
-          var outro = series[1 - i].vals[labels.indexOf(d.l)];
-          if (outro != null) abaixo = d.v < outro || (d.v === outro && i === 1);
-        }
+      var marcados = todosVal ? pts : escolhe(pts, function (d) { return cx(d.l); }, larg, opt.destaque);
+      if (!todosVal && series.length > 2 && i > 0) return;
+      marcados.forEach(function (d) {
         g.svg.append('circle').attr('cx', cx(d.l)).attr('cy', g.y(d.v)).attr('r', 2.2).attr('fill', C(i + 1));
-        var yy = abaixo ? g.y(d.v) + 13 + nivel * 11 : g.y(d.v) - 6 - nivel * 11, t = fmt(d.v), w = t.length * 5.6 + 2;
-        if (opt.todosValores) {   // sem encavalar: afasta da própria linha enquanto colidir com um rótulo já posto
-          for (var tent = 0; tent < 4 && postos.some(function (q) { return Math.abs(q.x - cx(d.l)) < (q.w + w) / 2 && Math.abs(q.y - yy) < 10; }); tent++) yy += abaixo ? 11 : -11;
-          postos.push({ x: cx(d.l), y: yy, w: w });
-        }
-        rot.append('text').attr('class', 'val').attr('text-anchor', 'middle').attr('x', cx(d.l))
-          .attr('y', yy).attr('fill', C(i + 1)).style('fill', C(i + 1)).text(t);
+        var k = labels.indexOf(d.l), outros = series.map(function (q, j) { return j !== i ? q.vals[k] : null; }).filter(function (x) { return x != null; });
+        var acima = !outros.length ? !(i === 1 && series.length === 2) : d.v >= d3.max(outros) ? true : d.v <= d3.min(outros) ? false : i % 2 === 0;
+        itens.push({ i: i, x: cx(d.l), y: g.y(d.v), t: fmt(d.v), acima: acima, destaque: d.l === opt.destaque });
       });
     });
+    if (itens.length) {
+      var todosPts = []; linhasXY.forEach(function (ps) { ps.forEach(function (p) { todosPts.push(p); }); });
+      itens.forEach(function (d) { d.pontos = todosPts.filter(function (p) { return !(Math.abs(p[0] - d.x) < 0.5 && Math.abs(p[1] - d.y) < 0.5); }); });
+      // prioridade: período em destaque, último período, depois da direita para a esquerda
+      itens.sort(function (a, b) { return (b.destaque - a.destaque) || (b.x - a.x) || (a.i - b.i); });
+      posicionaRotulos(g, itens, linhasXY);
+      itens.forEach(function (d) { rot.append('text').attr('class', 'val').attr('text-anchor', 'middle').attr('x', d.xr).attr('y', d.yRot).attr('fill', C(d.i + 1)).style('fill', C(d.i + 1)).text(d.t); });
+    }
     rot.raise();
     if (opt.destaque && labels.indexOf(opt.destaque) >= 0) g.svg.insert('rect', ':first-child').attr('x', g.x(opt.destaque)).attr('width', g.x.bandwidth()).attr('y', g.m.t).attr('height', g.H - g.m.t - g.m.b).attr('fill', 'var(--hl)');
     var foco = g.svg.append('line').attr('y1', g.m.t).attr('y2', g.H - g.m.b).attr('stroke', 'var(--muted)').attr('stroke-dasharray', '3 3').attr('visibility', 'hidden');
@@ -147,12 +197,13 @@
         acc += v;
       });
     });
-    // total de cada coluna acima da pilha
+    // valor de cada coluna (o do marcador, se houver: ex. EBITDA consolidado) acima da pilha e do marcador, sem cobrir nenhum dos dois
     labels.forEach(function (l, i) {
-      if (!tot[i]) return;
-      var xc = g.x(l) + g.x.bandwidth() / 2, yt = g.y(tot[i]) - 3;
-      if (g.x.bandwidth() > 34) g.svg.append('text').attr('class', 'val').attr('text-anchor', 'middle').attr('x', xc).attr('y', yt).text(fmt(tot[i]));
-      else g.svg.append('text').attr('class', 'val').attr('text-anchor', 'start').attr('transform', 'translate(' + (xc + 3.5) + ',' + yt + ') rotate(-90)').text(fmt(tot[i]));
+      var mvi = marcador ? marcador.vals[i] : null, val = mvi != null ? mvi : tot[i];
+      if (!val && !tot[i]) return;
+      var xc = g.x(l) + g.x.bandwidth() / 2, topo = Math.min(g.y(tot[i] || 0), mvi != null ? g.y(mvi) - 5 : Infinity, g.y(0)), yt = topo - 4;
+      if (g.x.bandwidth() > 34) g.svg.append('text').attr('class', 'val').attr('text-anchor', 'middle').attr('x', xc).attr('y', yt).text(fmt(val));
+      else g.svg.append('text').attr('class', 'val').attr('text-anchor', 'start').attr('transform', 'translate(' + (xc + 3.5) + ',' + yt + ') rotate(-90)').text(fmt(val));
     });
     if (marcador) {
       var pts = labels.map(function (l, i) { return { l: l, v: marcador.vals[i] }; }).filter(function (d) { return d.v != null; });
