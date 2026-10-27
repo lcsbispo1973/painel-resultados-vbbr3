@@ -111,7 +111,7 @@
         var ex = Array.from(new Set(s.remuneracao.map(function (r) { return r.exercicio; }))).sort();
         var val = function (o, e) { var r = s.remuneracao.filter(function (x) { return x.orgao === o && x.exercicio === e; })[0]; return r ? r.total_rs_mi : null; };
         var af = P.anoFechado();
-        G.empilhado(ref.cRem, ex.map(function (e) { return af && +e > af ? e + ' (prev.)' : e; }), orgaos.map(function (o) { return { nome: o, vals: ex.map(function (e) { return val(o, e); }) }; }), null, P.fN);
+        G.empilhado(ref.cRem, ex.map(function (e) { return af && +e > af ? e + ' (prev.)' : e; }), orgaos.map(function (o) { return { nome: o, vals: ex.map(function (e) { return val(o, e); }) }; }), null, P.fR);
         var dv = s.dividendos, de = dv.map(function (d) { return String(d.exercicio); });
         var ac = s.acionistas, aa = ac.map(function (a) { return String(a.ano_fre); });
         G.linhas(ref.cPF, aa, [{ nome: 'Pessoas físicas', vals: ac.map(function (a) { return a.pf; }) }], P.fN);

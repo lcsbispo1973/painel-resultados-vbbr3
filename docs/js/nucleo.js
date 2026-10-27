@@ -21,6 +21,21 @@
   var ok = P.ok = Dados.ok;
   P.f1 = f1; P.f2 = f2; P.fInt = fInt;
   P.fN = function (v) { return !ok(v) ? '—' : (v < 0 ? '(' + fInt(-v) + ')' : fInt(v)); };
+  // valores monetários sempre com R$ (gráficos e textos; nas tabelas a unidade fica no cabeçalho, como nas demonstrações)
+  P.fR = function (v) { return !ok(v) ? '—' : (v < 0 ? '−' : '') + 'R$ ' + fInt(Math.abs(v)); };            // R$ milhões (rótulos)
+  P.fRm = function (v) { return !ok(v) ? '—' : P.fR(v) + ' milhões'; };                                     // R$ milhões (texto corrido)
+  P.fR2 = function (v) { return !ok(v) ? '—' : (v < 0 ? '−' : '') + 'R$ ' + f2(Math.abs(v)); };             // R$ por ação
+  P.fRm3 = function (v) { return !ok(v) ? '—' : (v < 0 ? '−' : '') + 'R$ ' + fInt(Math.abs(v)); };          // R$ por m³
+  // legenda das pontes: só as cores que aparecem no gráfico (etapas positivas em verde, negativas em amarelo; reduzBom inverte)
+  P.legendaPonte = function (passos, verde, amarelo, reduzBom) {
+    var pos = (passos || []).some(function (p) { return !p.sub && p.v > 0; }), neg = (passos || []).some(function (p) { return !p.sub && p.v < 0; });
+    var tv = reduzBom ? neg : pos, ta = reduzBom ? pos : neg, partes = [];
+    if (tv) partes.push('verde: ' + verde);
+    if (ta) partes.push('amarelo: ' + amarelo);
+    if (!partes.length) return '';
+    var t = partes.join('; ') + '.';
+    return ' ' + t.charAt(0).toUpperCase() + t.slice(1);
+  };
   P.fBi = function (v) { return !ok(v) ? '—' : (v < 0 ? '−' : '') + 'R$ ' + f1(Math.abs(v) / 1000) + ' bi'; };
   P.fMi = function (v) { return !ok(v) ? '—' : (Math.abs(v) >= 1000 ? P.fBi(v) : (v < 0 ? '−' : '') + 'R$ ' + fInt(Math.abs(v)) + ' mi'); };
   P.fPct = function (v) { return !ok(v) ? '—' : (v > 0 ? '+' : v < 0 ? '−' : '') + f1(Math.abs(v) * 100) + '%'; };   // v em fração
@@ -32,8 +47,9 @@
     if (un === '%') return f1(v) + '%';
     if (un === 'x') return f2(v) + 'x';
     if (un === 'dias') return f1(v);
-    if (un === 'R$') return f2(v);
-    if (un === 'R$/m³') return fInt(v);
+    if (un === 'R$') return P.fR2(v);
+    if (un === 'R$/m³') return P.fRm3(v);
+    if (un === 'R$ mi') return P.fR(v);
     if (un === 'milhões' || un === 'mil m³') return un === 'milhões' ? f1(v) : fInt(v);
     return P.fN(v);
   };

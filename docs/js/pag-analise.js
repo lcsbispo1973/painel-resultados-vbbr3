@@ -101,12 +101,12 @@
         var nA = Dados.trimestresBase(r.A.base, r.A.p), nB = Dados.trimestresBase(r.B.base, r.B.p);
         ref.aviso.hidden = nA === nB; ref.aviso.textContent = nA === nB ? '' : 'Atenção: A soma ' + nA + ' trimestre(s) e B soma ' + nB + '; os fluxos não são diretamente comparáveis.';
         P.tabela(ref.tb, 'R$ milhões', [rA, 'AV', rB, 'AV', 'A − B', 'Δ %'], r.out);
-        G.pares(ref.pares, KEY.map(function (k) { return { rot: k[0], a: valor(k[1], k[2], r.A), b: valor(k[1], k[2], r.B) }; }), rA, rB, P.fN);
+        G.pares(ref.pares, KEY.map(function (k) { return { rot: k[0], a: valor(k[1], k[2], r.A), b: valor(k[1], k[2], r.B) }; }), rA, rB, P.fR);
         var cand = r.out.filter(function (l) { return !l.grupo && ok(l.a) && ok(l.b) && l.cls !== 'tot' && (l.nivel || 2) >= 3; });
         if (cand.length < 4) cand = r.out.filter(function (l) { return !l.grupo && ok(l.a) && ok(l.b) && l.cls !== 'tot'; });
         cand.sort(function (x, y) { return Math.abs(y.a - y.b) - Math.abs(x.a - x.b); });
         pontes(r.A, r.B, rA, rB, nA === nB);
-        G.variacoes(ref.var, cand.slice(0, 8).filter(function (l) { return Math.abs(l.a - l.b) >= 1; }).map(function (l) { return { rot: l.conta.replace(/^[\d.]+\s+/, ''), v: l.a - l.b }; }), P.fN);
+        G.variacoes(ref.var, cand.slice(0, 8).filter(function (l) { return Math.abs(l.a - l.b) >= 1; }).map(function (l) { return { rot: l.conta.replace(/^[\d.]+\s+/, ''), v: l.a - l.b }; }), P.fR);
       },
       manchete: function () { return P.manchete.comparar(); }
     };
@@ -114,19 +114,19 @@
       var E = P.M.estrutura, fimA = A.p, fimB = B.p;
       ref.tLuc.textContent = 'Lucro líquido: de ' + rB + ' para ' + rA;
       var pl = comparavel ? E.ponteLucro(A, B) : null;
-      if (pl) { pl.inicio.rot = 'Lucro ' + rB; pl.fim.rot = 'Lucro ' + rA; G.ponte(ref.pLuc, pl.inicio, pl.passos, pl.fim, P.fN); }
+      if (pl) { pl.inicio.rot = 'Lucro ' + rB; pl.fim.rot = 'Lucro ' + rA; G.ponte(ref.pLuc, pl.inicio, pl.passos, pl.fim, P.fR); }
       else G.falha(ref.pLuc, comparavel ? 'Sem dados para os dois períodos' : 'A e B têm números de trimestres diferentes; a ponte do lucro não se aplica');
       ref.tAt.textContent = 'Ativo: de ' + fimB + ' para ' + fimA;
       ref.tPa.textContent = 'Passivo e patrimônio líquido: de ' + fimB + ' para ' + fimA;
       var ba = E.ponteBalanco(fimB, fimA, 'ativo'), bp = E.ponteBalanco(fimB, fimA, 'passivo');
-      if (ba) G.ponte(ref.pAt, ba.inicio, ba.passos, ba.fim, P.fN); else G.falha(ref.pAt);
-      if (bp) G.ponte(ref.pPa, bp.inicio, bp.passos, bp.fim, P.fN); else G.falha(ref.pPa);
+      if (ba) G.ponte(ref.pAt, ba.inicio, ba.passos, ba.fim, P.fR); else G.falha(ref.pAt);
+      if (bp) G.ponte(ref.pPa, bp.inicio, bp.passos, bp.fim, P.fR); else G.falha(ref.pPa);
       // dívida líquida: sempre do período mais antigo para o mais recente, pelos fluxos de caixa do intervalo
       var o = P.M.ord, p0 = o(fimA) < o(fimB) ? fimA : fimB, p1 = p0 === fimA ? fimB : fimA;
       ref.tDiv.textContent = 'Dívida líquida: de ' + p0 + ' para ' + p1;
-      ref.nDiv.textContent = 'R$ milhões, dívida líquida como divulgada no release. Fluxos de caixa de ' + P.M.desloca(p0, -1) + ' a ' + p1 + '. Verde: reduz a dívida; amarelo: aumenta. "Outros sem efeito no caixa": juros apropriados acima dos pagos, novos arrendamentos, câmbio e marcação a mercado de swaps, entre outros.';
       var pd = p0 !== p1 ? E.ponteDivida(p0, p1) : null;
-      if (pd) G.ponte(ref.pDiv, pd.inicio, pd.passos, pd.fim, P.fN, { reduzBom: true }); else G.falha(ref.pDiv, p0 === p1 ? 'A e B terminam no mesmo trimestre' : 'Sem dívida líquida divulgada para os dois períodos');
+      ref.nDiv.textContent = 'Valores em R$ milhões, dívida líquida como divulgada no release. Fluxos de caixa de ' + P.M.desloca(p0, -1) + ' a ' + p1 + '.' + (pd ? P.legendaPonte(pd.passos, 'reduz a dívida', 'aumenta a dívida', true) : '') + ' "Outros sem efeito no caixa": juros apropriados acima dos pagos, novos arrendamentos, câmbio e marcação a mercado de swaps, entre outros.';
+      if (pd) G.ponte(ref.pDiv, pd.inicio, pd.passos, pd.fim, P.fR, { reduzBom: true }); else G.falha(ref.pDiv, p0 === p1 ? 'A e B terminam no mesmo trimestre' : 'Sem dívida líquida divulgada para os dois períodos');
     }
   }
 
@@ -153,7 +153,7 @@
           (s.paragrafos || []).forEach(function (p) { ref.texto.appendChild(h('p', null, p)); });
           if (s.itens && s.itens.length) ref.texto.appendChild(h('ul', null, s.itens.map(function (t) { return h('li', null, t); })));
           (s.citacoes || []).forEach(function (c) { ref.texto.appendChild(h('blockquote', null, c.texto, h('cite', null, ' — ', c.link ? h('a', { href: c.link, target: '_blank', rel: 'noopener noreferrer' }, c.fonte) : c.fonte))); });
-          if (s.ponte) { var ch = P.chart('mda-' + s.id); ref.texto.appendChild(ch); G.cascata(ch, s.ponte.inicio, s.ponte.passos, s.ponte.fim, P.fN); }
+          if (s.ponte) { var ch = P.chart('mda-' + s.id); ref.texto.appendChild(ch); G.cascata(ch, s.ponte.inicio, s.ponte.passos, s.ponte.fim, P.fR); }
         });
         ref.texto.appendChild(h('h2', null, 'Fontes'));
         ref.texto.appendChild(h('ul', { class: 'fontes' }, r.fontes.map(function (f) { return h('li', null, f.link ? h('a', { href: f.link, target: '_blank', rel: 'noopener noreferrer' }, f.nome) : f.nome); })));

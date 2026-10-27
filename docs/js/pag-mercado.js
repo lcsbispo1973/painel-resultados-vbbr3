@@ -100,7 +100,7 @@
         P.card('Múltiplos ao fim de cada período', 'P/L e EV/EBITDA Ajustado sobre os 12 meses; P/VP sobre o patrimônio dos controladores.', cM)),
         h('div', { class: 'sec' }, h('h2', null, 'Indicadores de mercado')), h('div', { class: 'twrap' }, tb));
       var mens = amostraMensal(b3.dias.map(function (d) { return [d[0], d[2]]; }));
-      G.linhas(cP, mens.map(function (d) { return d[0].slice(5, 7) + '/' + d[0].slice(2, 4); }), [{ nome: 'VBBR3', vals: mens.map(function (d) { return d[1]; }) }], function (v) { return P.f2(v); });
+      G.linhas(cP, mens.map(function (d) { return d[0].slice(5, 7) + '/' + d[0].slice(2, 4); }), [{ nome: 'VBBR3', vals: mens.map(function (d) { return d[1]; }) }], P.fR2);
       var lh = P.hist(x.base === 'T' ? 12 : 8);
       G.linhas(cM, lh.map(P.rotP), [{ nome: 'P/L', vals: lh.map(function (p) { return P.M.ind('pl', p, x.base); }) }, { nome: 'EV/EBITDA Aj.', vals: lh.map(function (p) { return P.M.ind('evebitda', p, x.base); }) }, { nome: 'P/VP', vals: lh.map(function (p) { return P.M.ind('pvp', p, x.base); }) }], function (v) { return P.f1(v) + 'x'; }, { destaque: P.rotulo(S.a) });
       var cols = P.hist(5), ids = P.M.indicadores.filter(function (i) { return i.grupo === P.M.grupos.mer; });
@@ -114,7 +114,7 @@
         h('div', { class: 'sec' }, h('h2', null, 'Proventos e payout por exercício')), h('div', { class: 'twrap' }, tb),
         h('div', { class: 'sec' }, h('h2', null, 'Retorno por ano')), h('div', { class: 'twrap' }, tbR),
         h('div', { class: 'sec' }, h('h2', null, 'Eventos de proventos')), h('p', { class: 'note' }, 'Eventos e valores totais do site de Relações com Investidores. Valor por ação (todas as casas) e data com conferidos com o aviso arquivado na CVM, quando localizado; * data informada no site de RI, sem aviso localizado.'), h('div', { class: 'twrap' }, tbEv));
-      G.empilhado(cT, linhas.map(function (r) { return String(r.ano) + (r.ate[0] === '4' ? '' : '*'); }), [{ nome: 'JCP', vals: linhas.map(function (r) { return r.jcp; }) }, { nome: 'Dividendos', vals: linhas.map(function (r) { return r.dividendos; }) }], null, P.fN);
+      G.empilhado(cT, linhas.map(function (r) { return String(r.ano) + (r.ate[0] === '4' ? '' : '*'); }), [{ nome: 'JCP', vals: linhas.map(function (r) { return r.jcp; }) }, { nome: 'Dividendos', vals: linhas.map(function (r) { return r.dividendos; }) }], null, P.fR);
       P.tabela(tb, 'Exercício', ['Dividendos', 'JCP', 'Total', 'Lucro dos controladores', 'Payout', 'Rendimento s/ valor de mercado'], linhas.slice().reverse().map(function (r) {
         return { conta: String(r.ano) + (r.ate[0] === '4' ? '' : r.aposItr ? ' (declarados até hoje)' : ' (até ' + r.ate + ')'), cel: [P.fN(r.dividendos), P.fN(r.jcp), P.fN(r.total), P.fN(r.lucro), P.fUn('%', r.payout), P.fUn('%', r.dy)] };
       }));
@@ -152,9 +152,9 @@
         h('div', { class: 'sec' }, h('h2', null, 'Comparação no ' + P.rotuloLongo(S.a))), h('div', { class: 'twrap' }, tb),
         h('p', { class: 'note', style: 'margin-top:10px' }, 'Visão principal: Vibra Consolidada × Ipiranga; complementar: Vibra Distribuição × Ipiranga. A Ipiranga é um segmento da Ultrapar; seus números vêm dos releases da Ultrapar arquivados na CVM, sem eliminações entre segmentos. Definições de EBITDA Ajustado de cada companhia podem diferir. Até 2021 a Ultrapar apresentava o EBITDA do segmento sem a palavra "ajustado".'));
       var mCons = function (p) { var e = P.M.aj('CONS', p, x.base), v = P.oper('CONS', 'vol', p, x.base); return ok(e) && v ? e / v * 1000 : null; };
-      G.linhas(cM, rs, [{ nome: 'Vibra Consolidada', vals: lh.map(mCons) }, { nome: 'Ipiranga', vals: lh.map(function (p) { return P.ipi('margem_m3', p, x.base); }) }, { nome: 'Vibra Distribuição', vals: lh.map(function (p) { return P.oper('CONS', 'margem_m3', p, x.base); }) }], P.fInt, dest);
+      G.linhas(cM, rs, [{ nome: 'Vibra Consolidada', vals: lh.map(mCons) }, { nome: 'Ipiranga', vals: lh.map(function (p) { return P.ipi('margem_m3', p, x.base); }) }, { nome: 'Vibra Distribuição', vals: lh.map(function (p) { return P.oper('CONS', 'margem_m3', p, x.base); }) }], P.fRm3, dest);
       G.linhas(cV, rs, [{ nome: 'Vibra', vals: lh.map(function (p) { return P.oper('CONS', 'vol', p, x.base); }) }, { nome: 'Ipiranga', vals: lh.map(function (p) { return P.ipi('vol', p, x.base); }) }], P.fN, dest);
-      G.linhas(cE, rs, [{ nome: 'Vibra Consolidada', vals: lh.map(function (p) { return P.M.aj('CONS', p, x.base); }) }, { nome: 'Ipiranga', vals: lh.map(function (p) { return P.ipi('ebitda', p, x.base); }) }, { nome: 'Vibra Distribuição', vals: lh.map(vDist) }], P.fN, dest);
+      G.linhas(cE, rs, [{ nome: 'Vibra Consolidada', vals: lh.map(function (p) { return P.M.aj('CONS', p, x.base); }) }, { nome: 'Ipiranga', vals: lh.map(function (p) { return P.ipi('ebitda', p, x.base); }) }, { nome: 'Vibra Distribuição', vals: lh.map(vDist) }], P.fR, dest);
       var vc = function (f) { return f(x.p); };
       var lin = [
         ['Volume (mil m³)', P.oper('CONS', 'vol', x.p, x.base), P.oper('CONS', 'vol', x.p, x.base), P.ipi('vol', x.p, x.base), P.fN],
@@ -183,12 +183,12 @@
         if (d && d.periodos.length) {
           var p = d.periodos.filter(function (q) { return Dados.ord(q) <= Dados.ord(x.p); }).pop() || d.periodos[0], c = d.cronograma[p];
           ref.tit.textContent = 'Vencimentos dos financiamentos em ' + P.fData(c.data_base);
-          G.barras(ref.cr, c.colunas.map(function (k) { return k; }), c.total, 'Vencimentos', P.fN);
+          G.barras(ref.cr, c.colunas.map(function (k) { return k; }), c.total, 'Vencimentos', P.fR);
           var hs = d.periodos.slice(-6);
           P.tabela(ref.tb, 'Data-base', ['Total'].concat(['País', 'Exterior']), hs.slice().reverse().map(function (q) { var y = d.cronograma[q]; return { conta: P.fData(y.data_base), cel: [P.fN(y.total_consolidado), P.fN(y.pais), P.fN(y.exterior)] }; }));
         }
         var lh = P.hist(x.base === 'T' ? 12 : 8), rs = lh.map(P.rotP);
-        G.linhas(ref.hist, rs, [{ nome: 'Dívida bruta', vals: lh.map(function (q) { return P.M.ind('dbruta', q, x.base); }) }, { nome: 'Dívida líquida', vals: lh.map(function (q) { return P.M.ind('dliq', q, x.base); }) }], P.fN, { destaque: P.rotulo(S.a) });
+        G.linhas(ref.hist, rs, [{ nome: 'Dívida bruta', vals: lh.map(function (q) { return P.M.ind('dbruta', q, x.base); }) }, { nome: 'Dívida líquida', vals: lh.map(function (q) { return P.M.ind('dliq', q, x.base); }) }], P.fR, { destaque: P.rotulo(S.a) });
         var dr = P.D.dlrel && P.D.dlrel.series;
         G.linhas(ref.alav, rs, [{ nome: 'Dív. líq. ÷ EBITDA Aj.', vals: lh.map(function (q) { return P.M.ind('dlebitda', q, x.base); }) },
           { nome: 'Divulgada (release)', vals: lh.map(function (q) { return dr && dr[q] ? dr[q].alav_divulgada : null; }) }], function (v) { return P.f2(v) + 'x'; }, { destaque: P.rotulo(S.a) });
