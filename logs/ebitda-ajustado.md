@@ -1,6 +1,6 @@
 # EBITDA Ajustado (nota de segmentos das DFs) — última execução
 
-Executado em 2026-10-28 21:46 UTC
+Executado em 2026-10-28 23:48 UTC
 
 - 2019-02-26 : título não reconhecido: ''
 - 2020-03-11 : título não reconhecido: ''
