@@ -1,6 +1,6 @@
 # B3 — última execução
 
-Executado em 2026-10-29 16:57 UTC
+Executado em 2026-10-29 21:50 UTC
 
 - anos reaproveitados do arquivo anterior: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
 - 2026 https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2026.ZIP → ok (HTTP 200, 89217988 bytes)
